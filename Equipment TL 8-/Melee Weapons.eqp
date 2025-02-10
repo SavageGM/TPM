@@ -1,0 +1,2513 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "4b02ce60-27bb-48b4-beb0-fff987ae3380",
+			"type": "equipment",
+			"description": "2x4",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "2d639620-cacf-46be-a1eb-9083b5168981",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "ff6a0340-1669-4a9c-aae5-d90cc00fa190",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+2 cr"
+					}
+				},
+				{
+					"id": "54c68378-c851-4232-b4a1-5019faf93500",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "3f2e817d-3046-4cb8-8996-eb5966b554fb",
+			"type": "equipment",
+			"description": "Axe",
+			"reference": "LT54",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "13c68f6d-bf95-4eee-850b-5394b0f834dc",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "73a87be9-28c0-4e27-9975-c306ee70d308",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "10†",
+					"usage": "Swing - two handed",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "4453f1b3-e937-4afa-a33b-bf178237aa2d",
+			"type": "equipment",
+			"description": "Baseball Bat",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "f85455d0-bb35-4073-b8af-191e3941cfb9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "dc403e2e-e786-406f-971e-85a58a29b0f7",
+			"type": "equipment",
+			"description": "Baseball Bat with Barbed Wire",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "f85455d0-bb35-4073-b8af-191e3941cfb9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "a67916ce-fac9-4b32-851b-1ce7ac2cde89",
+			"type": "equipment",
+			"description": "Blackjack",
+			"reference": "LT55",
+			"notes": "Attack receives damage bonuses for whichever of Boxing (p. B182), Brawling (p. B182), or Karate (p. B203) is used to deliver it",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "d32ddf4a-6be6-4019-ac16-bc9c1e12c67b",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "7",
+					"usage": "Swung",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "8d84ca86-f892-438b-b6d9-3d18a7a18917",
+			"type": "equipment",
+			"description": "Broad Axe",
+			"reference": "HT24",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "16b7911f-ea18-459d-bfbd-a62cee091af0",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "6c00ad60-75b3-4f36-be39-a478d192ed3a",
+			"type": "equipment",
+			"description": "Board with Nail",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "47d01400-2d41-4a7c-9daa-51abc19ea96e",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "83541ff3-0f12-479b-adb9-8017544e3f43",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "-1U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-1U",
+						"block": "No",
+						"damage": "sw-2 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "4b3a439f-16bc-47df-94f6-fb2d49424fed",
+			"type": "equipment",
+			"description": "Box Cutter",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "33d0ffce-f00c-423f-9c56-5bdeb30c7ed3",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Swing",
+					"reach": "C, 1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-1",
+						"block": "No",
+						"damage": "sw-3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "f9ef2edb-6597-4c9c-901a-153417c37d92",
+			"type": "equipment",
+			"description": "Chain",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "4f85b1a5-e703-48b0-b9e0-81ded3d8034b",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "8a2f4dc5-3ffe-40dc-a295-e9487b67c00f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Strike",
+					"reach": "1-4*",
+					"parry": "-2U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Kusari"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-2U",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "f8a58933-eb1a-49ab-a075-c6f6b60dc4b4",
+			"type": "equipment",
+			"description": "Chain Whip, 4 yards",
+			"notes": "Attempts to parry flails and kusaris are at -4; fencing weapons (“F” parry) can’t parry at all! Attempts to block such weapons are at -2",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "a9399128-db27-439f-b318-4b203002a1e7",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "4"
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1-4*",
+					"parry": "-2U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Kusari"
+						},
+						{
+							"type": "skill",
+							"name": "Monowire Whip",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-2U",
+						"block": "No",
+						"damage": "sw+4 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "a5ee06cc-babd-4a43-856c-97c20de09d05",
+			"type": "equipment",
+			"description": "Digging Pick",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "deb0fd81-81e6-487a-8375-5c6b41cf49b9",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "4fc842cf-022f-49b1-b61d-9c067d540787",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "sw"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "84f238b9-a801-406a-beaf-61ff6af3a2b8",
+			"type": "equipment",
+			"description": "Golf Club",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "e8eb0211-27a6-4e14-b391-6d023afafbef",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "5be1d903-4b12-4686-86da-ca62d6b55f16",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10†",
+					"usage": "Swing",
+					"reach": "1, 2",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "1130f528-8613-4be7-9259-ca969b156dbc",
+			"type": "equipment",
+			"description": "Hammer",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "56e263a0-16f7-4e9e-a9d7-bac752000da6",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+2 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "0583bc51-11ac-4ac0-96f4-68fd46016eb8",
+			"type": "equipment",
+			"description": "Hatchet",
+			"reference": "LT56",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "ebce99ab-17fe-4b9e-87b4-6635d3ea7e3a",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "d703270a-1da6-4ed7-be21-3b36a0921184",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1.5/x2.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					],
+					"calc": {
+						"range": "x1.5/x2.5",
+						"damage": "sw cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3f96c3c5-aee3-414a-9dc8-e6ec190ac6af",
+			"type": "equipment",
+			"description": "Heavy Horse-Cutter",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 12,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "dca458e8-23c9-4798-809a-aff4c27bc79c",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "5"
+					},
+					"strength": "13‡",
+					"usage": "Swing",
+					"reach": "2,3*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+5 cut"
+					}
+				},
+				{
+					"id": "6c73053e-2ab5-4bd3-b494-72d268d0055b",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Thrust",
+					"reach": "1-3*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm"
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "5efe5777-3205-469a-8fce-ee169d496c03",
+			"type": "equipment",
+			"description": "Heavy Spear",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "8b0fb5f9-8696-466c-8a30-6a10ede61a1f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "4"
+					},
+					"strength": "11†",
+					"usage": "Thrust",
+					"reach": "2,3*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+4 imp"
+					}
+				},
+				{
+					"id": "e5f1b884-9152-4828-bf83-a9e794e6679e",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "11†",
+					"usage": "Thrust - tip slash",
+					"reach": "2,3*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "2c43be2a-d0a7-4026-a4f6-06e531463ec1",
+			"type": "equipment",
+			"description": "Huge Rebar and Concrete",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "5b48dfd3-b11f-41ed-9496-1584bedeaee6",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "26 lb",
+			"weapons": [
+				{
+					"id": "6c7ca028-ac80-43f2-9720-5370c8b857e3",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "15‡",
+					"usage": "Swing",
+					"reach": "2, 3*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+8 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "a08983f6-8109-45e8-814c-744db1697084",
+			"type": "equipment",
+			"description": "Huge Scrap Metal Sword",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "0f7d77b2-d409-450d-951e-e2050ef16153",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1,2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				},
+				{
+					"id": "7d6650ff-26ef-4498-bc9c-58c246ef1694",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "12†",
+					"usage": "Thrust",
+					"reach": "2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+2 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "9e11ba15-6a65-4214-a5c0-974550c82750",
+			"type": "equipment",
+			"description": "Javelin",
+			"tech_level": "1",
+			"tags": [
+				"AmmoType:Javelin",
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "b4bb55e0-91c3-488e-8ba9-92c16ff31614",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 imp"
+					}
+				},
+				{
+					"id": "533aa2dc-0445-4da2-a007-eb0f631077ad",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "3",
+					"range": "x1.5/x1.75",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"range": "x1.5/x1.75",
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "6e7f79da-ccce-444d-9711-abd135303a73",
+			"type": "equipment",
+			"description": "Pitchfork",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "72fb669e-80d4-49f3-ad6d-8f989cb01d46",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "830aad51-b43b-4914-93aa-04f477ee3ea4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3",
+						"armor_divisor": 0.5
+					},
+					"strength": "11",
+					"usage": "One-Handed",
+					"reach": "1*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+3(0.5) imp"
+					}
+				},
+				{
+					"id": "6a8b598b-d8fa-47d5-940c-ab79a0aa6d32",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "4",
+						"armor_divisor": 0.5
+					},
+					"strength": "10†",
+					"usage": "Two-Handed",
+					"reach": "1, 2*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+4(0.5) imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "74a131f1-d2c4-463a-9081-12e60b50f64a",
+			"type": "equipment",
+			"description": "Caltrops",
+			"reference": "HT203",
+			"notes": "Covers one hex.",
+			"tech_level": "5",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "4329bf3e-b7ed-4e74-a79a-a611349b5481",
+			"type": "equipment",
+			"description": "Post-Hole Digger",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "a988ba02-e4da-445c-bc49-81b2fb47559a",
+					"type": "eqp_modifier",
+					"name": "SP -4",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -4
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "af90f1ce-4073-4fb1-839f-c5a517e2c316",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "13†",
+					"usage": "Thrust",
+					"reach": "1, 2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+2 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "31a3881a-3796-42a9-8ccf-996288b76e11",
+			"type": "equipment",
+			"description": "Rebar, Long",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "bfac5e15-ff9a-4196-805a-98097abc3bd4",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "a9e71919-3e3d-49ff-8268-9b516dcbe7c4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				},
+				{
+					"id": "c0958b0f-5318-4086-ba2d-f214da229c8f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "87b0d4e6-a76f-436a-9977-13b962c612ed",
+			"type": "equipment",
+			"description": "Rebar, Short",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "1f701ba8-4b60-4a38-821d-d7ee5d28d8d0",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "cc4d0cdc-765a-41e1-ac5f-122bd0468e7a",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "3acdddbb-8cee-442a-afdc-92e27184713d",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ac3e2ca6-36e6-493d-9589-03d4cb47225a",
+			"type": "equipment",
+			"description": "Scrap metal Sword",
+			"notes": "SP-1",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "c0064ebe-9700-4f1a-afe7-b2f4789e12bf",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Swing - One Handed",
+					"reach": "1,2",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "3555f494-d488-453c-b67f-6b4c76c9ac58",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Thrust - One Handed",
+					"reach": "2",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+1 cr"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e6b87e2b-ea4a-415a-b1ef-dd6eacc01a92",
+			"type": "equipment",
+			"description": "Screwdriver",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "b16e6362-a9b7-41e2-a314-b5176767a1a1",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "e7292699-938a-45f2-827e-bb5d1404e473",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-2"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-1",
+						"block": "No",
+						"damage": "thr-2 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "045e7bfd-758c-43d9-8e97-186a72d50bc5",
+			"type": "equipment",
+			"description": "Shovel",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "dc0cb425-30e4-4932-b566-2bf1a9c5d8ec",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 12,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "1fee6354-dce9-40c6-8cd7-d4de530d526f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1, 2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "2ad3ed42-fa35-4a4c-ab89-7419ddbe0bee",
+			"type": "equipment",
+			"description": "Sledgehammer",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "c7f13643-2518-4fc6-9d08-ec9395ac6565",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "74b68d76-8eb7-476b-992c-2d20e281c7ba",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "4"
+					},
+					"strength": "13†",
+					"usage": "Swing",
+					"reach": "1, 2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+4 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "83fa0b19-41db-4796-9eef-b3e1883b0e70",
+			"type": "equipment",
+			"description": "Spear",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "03f8e392-4b52-477f-8721-c0fab1f58265",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+2 imp"
+					}
+				},
+				{
+					"id": "99cb2b4e-ba1c-4538-a12e-bce5ec976f99",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust - two hands",
+					"reach": "1,2*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+3 imp"
+					}
+				},
+				{
+					"id": "49d45898-a18f-46e3-a627-4f4869a53311",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"range": "x1/x1.5",
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "c5f24244-af1a-4b1d-8088-82d25e89df12",
+			"type": "equipment",
+			"description": "Tire Iron",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "7cb35775-d181-4289-b364-05a61b7c64db",
+					"type": "eqp_modifier",
+					"name": "SP -2",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "73401a06-6274-4fb5-8c58-48d6d1ac1014",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "0f706dfa-9214-412c-961f-641978142781",
+			"type": "equipment",
+			"description": "Weighted Scarf",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "d358dd07-c8e5-4230-9b73-3b0f4d9c9058",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "8a5ac762-08f4-4d68-af29-e4f7225495a9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "-2U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Flail"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-2U",
+						"block": "No",
+						"damage": "sw cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

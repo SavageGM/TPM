@@ -1,0 +1,92 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "5a026026-059d-4793-b2f6-a1aee4b6a0ce",
+			"type": "equipment",
+			"description": "Zap Glove",
+			"reference": "UT165",
+			"notes": "B/10 zaps. \"Kill\" mode delivers two zaps at once.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 12800,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "c804c9fe-3afc-43cb-84eb-7cf1897beb1f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "HT-6(2) aff"
+					},
+					"strength": "2",
+					"usage": "Zap",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"level": 13,
+						"damage": "HT-6(2) aff"
+					}
+				},
+				{
+					"id": "56af06db-5e8a-43cf-82f7-aacd2969a3b4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "2d"
+					},
+					"strength": "2",
+					"usage": "Kill",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Crawling"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"level": 13,
+						"damage": "2d burn"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

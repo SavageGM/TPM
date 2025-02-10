@@ -1,0 +1,1613 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "6997ea67-bcdf-4ce5-9608-09c17467a075",
+			"type": "equipment",
+			"description": "Air Compressor",
+			"reference": "HT27",
+			"notes": "Consumes 1 gallon of gasoline per hour.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "62.5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "62.5 lb"
+			}
+		},
+		{
+			"id": "68d0aff6-84e3-4e49-a24d-da9083765486",
+			"type": "equipment",
+			"description": "Air Compressor Hose",
+			"reference": "HT27",
+			"notes": "\"Quantity\" represents feet.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "df390a51-25c8-446a-bc15-c3c60167a46a",
+			"type": "equipment",
+			"description": "Alcohol Still",
+			"reference": "HT15",
+			"notes": "A bushel of corn can produce 3 gallons of alcohol fuel in three days.",
+			"tech_level": "5",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "50 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "78b716dd-4f96-4e87-93fe-ff0403c63c63",
+			"type": "equipment",
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"notes": "Per foot. 2\" wide. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 32,
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "7548c9d1-1b9d-479f-80a3-c014782e2fd9",
+			"type": "equipment",
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"notes": "Per square inch. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 3.2,
+			"calc": {
+				"extended_value": 3.2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "821340ce-ed00-4731-abd4-1316b896db91",
+			"type": "equipment",
+			"description": "Balance and Weights",
+			"reference": "B289",
+			"notes": "For weighing goods",
+			"tech_level": "1",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "f972e437-f285-45fa-af02-13cdfe3a1324",
+			"type": "equipment",
+			"description": "Bit and Brace",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "9a7b676d-fd0b-4474-8b27-52d27580afe1",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pi++",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 2
+					},
+					"usage": "Drill through wood",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw-2(2) pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "bdda03d4-cbfe-4eab-a2e5-c3f647012813",
+			"type": "equipment",
+			"description": "Bolt Cutters",
+			"reference": "ATE1:29",
+			"notes": "Only cuts padlocks, chains, etc.",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "113a04ff-78d5-4d4e-9a4d-1834061dfe5f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"base": "8d",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"calc": {
+						"damage": "8d(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "188cd9dd-8333-4d05-b216-847b56e2e439",
+			"type": "equipment",
+			"description": "Broad Axe",
+			"reference": "HT24",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "16b7911f-ea18-459d-bfbd-a62cee091af0",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "4498211d-b149-4f65-a9ad-4268c1688280",
+			"type": "equipment",
+			"description": "Can Opener",
+			"reference": "HT33",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "875c0fb3-c5e2-4bc5-a7fa-77dc46ac19f3",
+			"type": "equipment",
+			"description": "Caulking Gun",
+			"reference": "HT187",
+			"notes": "You can use it with Extrudable Explosives.",
+			"tech_level": "8",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "81ad2c67-7e61-46f4-924a-e50ca7067433",
+			"type": "equipment",
+			"description": "Chain",
+			"reference": "DFA111",
+			"notes": "1 yard long; Supports 2000 lb",
+			"tags": [
+				"Miscellaneous Hardware"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e2654313-6faf-456c-bb42-8b4402ce400c",
+			"type": "equipment",
+			"description": "Chainsaw",
+			"reference": "HT27",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "13 lb",
+			"weapons": [
+				{
+					"id": "982661c3-9e96-428e-98f5-c621e950af48",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1d"
+					},
+					"strength": "10‡",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+1d cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "13 lb"
+			}
+		},
+		{
+			"id": "bba8d6f3-c2ca-4514-a44b-052a7cf387f8",
+			"type": "equipment",
+			"description": "Chainsaw",
+			"reference": "HT27",
+			"notes": "Using carbide chain.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "13 lb",
+			"weapons": [
+				{
+					"id": "57356207-68fd-4665-bc35-4f8e0b15e843",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1d"
+					},
+					"strength": "10‡",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+1d cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "13 lb"
+			}
+		},
+		{
+			"id": "ae513ec0-d566-489a-9ae1-be88c02d208c",
+			"type": "equipment",
+			"description": "Cigarette Lighter",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.01 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "e1cb90ff-9c87-467f-94a4-c2a59bda6a33",
+			"type": "equipment",
+			"description": "Cigarette Lighter",
+			"reference": "HT57",
+			"notes": "Windproof. Waterproof.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 480,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8bd311aa-9567-4fd1-86b4-1dc0b69e5ab1",
+			"type": "equipment",
+			"description": "Circular Saw",
+			"reference": "HT27",
+			"notes": "Cordless. M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "669ffad7-ddc3-4968-9435-d4f2bc0959ab",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e9af83c0-fa5e-4955-8c0c-c3b14798359a",
+			"type": "equipment",
+			"description": "Circular Saw",
+			"reference": "HT27",
+			"notes": "External power.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "80e86fa3-6370-4a8c-9688-99fc9a4106cb",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ce9cc2f5-ca34-433b-bb5f-278903c43c35",
+			"type": "equipment",
+			"description": "Come-A-Long",
+			"reference": "HT29",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "9de53a4b-0fbf-460d-8a1b-1d2e14fa9b34",
+			"type": "equipment",
+			"description": "Cord",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 350lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.22 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.22 lb"
+			}
+		},
+		{
+			"id": "1c403651-d3fd-4348-9313-a108dd92047a",
+			"type": "equipment",
+			"description": "Cord, 3/16\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "291ecdc6-2c17-4a51-8859-95ba5cff1159",
+			"type": "equipment",
+			"description": "Cord, 3/16\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "de21680f-e72d-4234-9a0d-0b5c73939f80",
+			"type": "equipment",
+			"description": "Crosscut Saw",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"id": "cbe8d682-5fe8-469a-a8bb-cadca3be8acd",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut through wood",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw-3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "25ec0003-f658-43f5-8bb3-e8fa9bde0420",
+			"type": "equipment",
+			"description": "Crowbar, Titanium",
+			"reference": "HT30",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b63f46b6-92e2-4ec5-a3c8-068ab2bcc5fe",
+			"type": "equipment",
+			"description": "Cutting Torch",
+			"reference": "B289",
+			"notes": "1d+3(2) burn per second. Each gas bottle gives 30 seconds of cutting. Extra gas bottles are $50, 15 lbs. per bottle.",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "30 lb",
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "be0c692e-f628-4fab-b9af-e468355a4269",
+			"type": "equipment",
+			"description": "Cutting Torch Gas Bottle",
+			"reference": "B289",
+			"notes": "Extra Gas Bottle",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "19d3f321-2b03-40a2-88b0-edcc22efd2e6",
+			"type": "equipment",
+			"description": "Desktop CNC",
+			"reference": "HT29",
+			"notes": "External power. 0.5lbs. parts per hour.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 400000,
+			"weight": "200 lb",
+			"calc": {
+				"extended_value": 400000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "6551e5d6-263b-4da3-a96d-97afebb2af49",
+			"type": "equipment",
+			"description": "Desktop RP",
+			"reference": "HT29",
+			"notes": "External power. 0.1lbs. parts per hour.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 32000,
+			"weight": "35 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "1548c085-7fa4-43af-ae06-dee82220b280",
+			"type": "equipment",
+			"description": "Duct Tape",
+			"reference": "ATE1:29",
+			"notes": "60-yard roll",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "7a5497ac-acd6-4cf1-a04b-c4620100c6de",
+			"type": "equipment",
+			"description": "Dynamite Stick",
+			"reference": "ATE1:29",
+			"notes": "10-sec fuse",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "405540ac-2150-4da7-8abc-e1dce6beb9aa",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "9d+1"
+					},
+					"usage": "Throw",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						}
+					],
+					"calc": {
+						"range": "x3.5",
+						"damage": "9d+1 cr ex"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "28e90c4a-9667-4010-96c7-7b1dd71d62cc",
+			"type": "equipment",
+			"description": "Flint and Steel",
+			"reference": "HT57",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "a4046eb9-db9b-4a64-969f-18fcd7d6b3d6",
+			"type": "equipment",
+			"description": "Fuse Cord",
+			"reference": "ATE1:29",
+			"notes": "15' length",
+			"tech_level": "3",
+			"quantity": 1,
+			"value": 10,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f80ea1fa-4759-4f0d-8237-db48230df637",
+			"type": "equipment",
+			"description": "Geiger Counter",
+			"reference": "ATE1:29",
+			"notes": "4 hours",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "5f01c50e-8f43-4a6d-b3e2-6eb5f1b7779a",
+			"type": "equipment",
+			"description": "Hacksaw",
+			"reference": "HT25",
+			"notes": "Using carbide or diamond toothed blade.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "22aee15d-1b3a-4d47-84b8-6b1b2cbfbc16",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 2
+					},
+					"usage": "Cut through metal",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw-2(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "65d16238-3943-4ffd-9062-ecda1a3a2010",
+			"type": "equipment",
+			"description": "Hacksaw Blade",
+			"reference": "HT25",
+			"notes": "Carbide or diamond teeth. Lasts a long while.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e4606fea-c86b-47e6-9aaa-2dae3f524ca2",
+			"type": "equipment",
+			"description": "Knitting Needles, Pair",
+			"reference": "B289",
+			"tech_level": "3",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 5,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4df76eb4-bcdc-4c2f-8800-af2613c84930",
+			"type": "equipment",
+			"description": "Lab, Suitcase",
+			"reference": "ATE1:29",
+			"notes": "Basic EQ for @Scientific Skill@",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 6000,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 6000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "1a814ba2-5b92-40eb-a1a3-8770912ee9b1",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Armoury: @Specialty@)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "76d7435e-d67b-4c13-bd3a-86463057ad6a",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Electrician)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "be6744fc-ac09-4b2c-a428-c70c4f7cbe91",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Electronics Repair: @Specialty@)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "acded788-e54b-4454-b936-aaa0831c055c",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Machinist)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "a5c138d1-cc4a-41a1-a206-d9df5f218bdd",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Mechanic: @Specialty@)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "8ad8f039-9566-40f4-aa1b-9b6a9bb25183",
+			"type": "equipment",
+			"description": "Multi-Function Knife",
+			"reference": "HT26",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "00a3a7f2-585c-4382-afd4-b1f4c6202f23",
+			"type": "equipment",
+			"description": "Multi-Purpose Rescue Axe",
+			"reference": "HT25",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "1f126d92-7eb2-4054-ad6a-497f389f5273",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "abb8a0f0-bb01-415d-9d80-25f0b0f8864d",
+			"type": "equipment",
+			"description": "Multi-Tool",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "353f6945-8b40-4dde-ae0e-1a45c60ac64c",
+			"type": "equipment",
+			"description": "Personal Dosimeter",
+			"reference": "HT49",
+			"notes": "2xXS/yr.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1920,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 1920,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "3dbb64df-4a73-454a-b6e0-ea13a72e91ab",
+			"type": "equipment",
+			"description": "Pickaxe",
+			"reference": "B289",
+			"notes": "Improves digging speed",
+			"tech_level": "2",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "8 lb",
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e638cf51-7a45-4ba7-aafd-1946473ee309",
+			"type": "equipment",
+			"description": "Plow, Iron",
+			"reference": "B289",
+			"notes": "Works rough soils",
+			"tech_level": "2",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 220,
+			"weight": "120 lb",
+			"calc": {
+				"extended_value": 220,
+				"extended_weight": "120 lb"
+			}
+		},
+		{
+			"id": "e8b17c17-a29e-422c-92db-f14d9d7ba2d9",
+			"type": "equipment",
+			"description": "Plow, Wooden",
+			"reference": "B289",
+			"notes": "Pulled by oxen",
+			"tech_level": "1",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 55,
+			"weight": "60 lb",
+			"calc": {
+				"extended_value": 55,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "885bd6bd-832b-47ad-b259-9dd9662d2387",
+			"type": "equipment",
+			"description": "Pole, 6'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "600de9fd-c970-428c-aa0b-c2cc02de54ce",
+			"type": "equipment",
+			"description": "Pole, 10'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "300f4c0d-25cb-49e6-9643-e3e608c78c42",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Electrician)",
+			"reference": "HT24",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "8e200448-e3b6-4a91-956f-5a95af282a3a",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Electronics Repair: @Specialty@)",
+			"reference": "HT24",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "249ea1ec-0b28-4c1f-beee-14776083705a",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Machinist)",
+			"reference": "HT24",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "f21e3694-39f4-4296-9a65-b7b7237d8113",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Mechanic: @Specialty@)",
+			"reference": "HT24",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "79a4397c-f9ff-4778-bd4b-6fa3405ab220",
+			"type": "equipment",
+			"description": "Portable Tool Kit, Carpentry",
+			"reference": "B289",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "fa6ec9c6-52fb-4d74-846b-fa1b9831e666",
+			"type": "equipment",
+			"description": "Portable Tool Kit, Explosives",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "4cf6f05f-f6e0-4251-b174-ad19289e68f8",
+			"type": "equipment",
+			"description": "Power Drill",
+			"reference": "HT27",
+			"notes": "M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "068e0a55-2182-4fa4-a657-199ae9cda5cd",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "1d+2",
+						"armor_divisor": 2
+					},
+					"usage": "Drill through wood, plastic, or metal",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "1d+2(2) pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "7092e29b-7f29-48a8-9572-982f8d32c4ee",
+			"type": "equipment",
+			"description": "Radiation Badge",
+			"reference": "HT49",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "a686db5f-39ce-4cb7-82a8-b7d7844a2617",
+			"type": "equipment",
+			"description": "Superglue",
+			"reference": "HT26",
+			"notes": "\"Quantity\" represents applications. Holds up to 2 tons, ST 20.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "311d4991-8baf-4c5f-9a3f-0cf26ed92b6e",
+			"type": "equipment",
+			"description": "Reloading Press",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3dc9fd43-6afb-4b46-853b-4536d702c5b2",
+			"type": "equipment",
+			"description": "Rope, 1 1/2'",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 1 ton.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "1.8 lb",
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "1.8 lb"
+			}
+		},
+		{
+			"id": "6b8bf6f6-afa0-4b6b-a5ce-45812bd5bb11",
+			"type": "equipment",
+			"description": "Rope, 1/2\"",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 2 tons.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 144,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 144,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "435572e5-0814-4bf2-9335-e18e33048b19",
+			"type": "equipment",
+			"description": "Rope, 1/2\"",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 300lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6,
+			"weight": "0.36 lb",
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0.36 lb"
+			}
+		},
+		{
+			"id": "913e4158-23bd-4396-9abb-c3051de0540c",
+			"type": "equipment",
+			"description": "Rope, 1/4\"",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 500lbs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 48,
+			"weight": "0.06 lb",
+			"calc": {
+				"extended_value": 48,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "defd50f8-df25-45f1-b8cf-f857584ced10",
+			"type": "equipment",
+			"description": "Rope, 2 1/2\"",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 1 ton.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 90,
+			"weight": "5.5 lb",
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "5.5 lb"
+			}
+		},
+		{
+			"id": "c2139272-9616-4625-bfa8-69e36b1f7966",
+			"type": "equipment",
+			"description": "Rope, 3/4\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "2361942d-4039-4b02-a84f-bd52018b39cb",
+			"type": "equipment",
+			"description": "Rope, 3/4\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "cb192a40-c2be-4f0a-bfca-99fdfdae7899",
+			"type": "equipment",
+			"description": "Rope, 3/8\"",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 650lbs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.16 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.16 lb"
+			}
+		},
+		{
+			"id": "0bc14ea1-df90-45fc-aac0-145191b30af2",
+			"type": "equipment",
+			"description": "Rope, 3/8\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 300 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "4ec3fb02-db65-48d6-832d-83464e4a2a4f",
+			"type": "equipment",
+			"description": "Saw",
+			"reference": "B289",
+			"notes": "A lumberjack's tool, not a carpentry saw",
+			"tech_level": "0",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "5e259eb4-8f82-4ed8-acac-3a8432445ec4",
+			"type": "equipment",
+			"description": "Shovel",
+			"reference": "B289",
+			"notes": "Speeds up digging",
+			"tech_level": "1",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 12,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "4a41aef0-8d57-4404-adb7-1911843ed53f",
+			"type": "equipment",
+			"description": "Solar-Powered Battery Recharger",
+			"reference": "ATE1:30",
+			"tech_level": "8",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"modifiers": [
+				{
+					"id": "313bdc12-6034-4b81-8be7-1119607d7742",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e72d4609-e29a-4596-bc08-bf16650388c7",
+			"type": "equipment",
+			"description": "Spinning Wheel",
+			"reference": "B289",
+			"notes": "Produces yarn six times as fast.",
+			"tech_level": "3",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "40 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "b8ee7af2-91ed-4f74-8453-8200afa76e59",
+			"type": "equipment",
+			"description": "Suitcase Lab",
+			"reference": "B289",
+			"notes": "Basic equipment for a specific scientific skill (e.g., Chemistry or Forensics).",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 3000,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "10 lb"
+			}
+		}
+	]
+}

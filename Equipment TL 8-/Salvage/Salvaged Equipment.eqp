@@ -1,0 +1,298 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "997dcb2a-56d7-486d-8db7-b3cd272bff01",
+			"type": "equipment",
+			"description": "Salvaged XAU-08 Gauss Rifle",
+			"reference": "RSWL:20, UT142",
+			"reference_highlight": "Gauss Rifle",
+			"notes": "selective fire",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 227200,
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"id": "b846198a-91c9-4e11-8567-472875f3510b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "6d",
+						"armor_divisor": 3
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1000/5000",
+					"rate_of_fire": "12",
+					"bulk": "-5",
+					"recoil": "2",
+					"calc": {
+						"range": "1000/5000",
+						"damage": "6d(3) pi-"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 227200,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "21fdc9f7-acf9-478c-9023-54221d750fce",
+			"type": "equipment",
+			"description": "Salvaged Monowire Talons",
+			"reference": "RSWL:21",
+			"reference_highlight": "Monowire Talons",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 9600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "304e93f8-7eba-4c27-b405-63a4df4aef8f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1d",
+						"armor_divisor": 10
+					},
+					"usage": "Stab",
+					"reach": "C, 1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"damage": "thr+1d(10) imp"
+					}
+				},
+				{
+					"id": "55721fa1-3bf9-4d2a-a9e8-93c032dee246",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "1d",
+						"armor_divisor": 10
+					},
+					"usage": "Slash",
+					"reach": "C, 1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"damage": "thr+1d(10) cut"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eaf21abb-af32-49b2-8d8e-556c01f37acc",
+			"type": "equipment",
+			"description": "4mm Gauss ammo",
+			"reference": "UT143",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1.92,
+			"weight": "0.006 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1.92,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "133aa4cb-401d-4c7c-b467-a546feb9f481",
+			"type": "equipment",
+			"description": "Improvised Duralloy Heater Shield",
+			"reference": "LT116",
+			"notes": "80/20 Cover Dr 160",
+			"tech_level": "3",
+			"tags": [
+				"Shield"
+			],
+			"quantity": 1,
+			"value": 75,
+			"weight": "26 lb",
+			"weapons": [
+				{
+					"id": "c34f459a-6a65-4116-b6d8-fe49ae5a6a83",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Force Shield",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Guige",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "No",
+						"block": "+0",
+						"damage": "thr cr"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "26 lb"
+			}
+		}
+	]
+}

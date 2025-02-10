@@ -1,0 +1,294 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eV0-1neKEtKriOVz4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "Wq0PV6k6SQHXVsv_Q",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2 cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eyvNsoT3cGoxeAiJz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm HE",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "W55weIj6Mo4wwA7SI",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"armor_divisor": 0.5,
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2(0.5) cr ex [3d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "es5BLE5I4hoULpKN8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm HEC",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "Wf_RVFD8MIalqyed4",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"armor_divisor": 0.5
+					},
+					"usage": "Thrown",
+					"range": "",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2(0.5) cr ex"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoj_WeRQjpNXQjshP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Mini Hand Grenade",
+			"reference": "UT139",
+			"notes": "40mm HEC",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 10,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "Wh4mD5xlVTOd-P0NS",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"armor_divisor": 0.5
+					},
+					"usage": "Thrown",
+					"range": "",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8d(0.5) cr ex"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ewejB1BEAKSoT3VAH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Mini Hand Grenade",
+			"reference": "UT139",
+			"notes": "40mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 10,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "WCdptHE7SOTHEa7NY",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8d cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		}
+	]
+}

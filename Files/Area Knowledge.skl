@@ -1,0 +1,783 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "37ba1118-c6ca-4415-a168-b11908d24034",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "ee311a19-942a-44df-984c-7248f0c94825",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Anethaes",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "e138fd92-606d-4096-8511-9ff1db8f9545",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Anethaes; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Anethaes"
+		},
+		{
+			"id": "553fd81a-a678-4267-bc2f-9ca9ce3085c1",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "780607c0-f9d8-4036-8c77-d3c6e227f5cb",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Battlezone Seven-Niner",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Battlezone Seven-Niner"
+		},
+		{
+			"id": "305b953c-dc98-4375-b4a4-177022989fe1",
+			"type": "skill_container",
+			"open": true,
+			"children": [
+				{
+					"id": "8c47fb43-a02c-4a5b-9396-0a19044ecfcb",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dog-Town",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "7e72f6db-3e0e-4388-abb8-1558ecaad0c5",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dog-Town; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Dog-Town"
+		},
+		{
+			"id": "788c0520-0ed5-4bc3-b46b-764555bb0594",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "90cd4ff6-87e8-430e-806f-bb26e7134352",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Duf-Dub",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "f3a8523f-32b4-40f1-9ac4-e99428d6a107",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Northside (Duf-Dub)",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "549b7c47-cfcb-4c21-bfec-c36e5a2e4acc",
+					"type": "skill_container",
+					"open": true,
+					"children": [
+						{
+							"id": "451ed2f7-b0c7-4d56-8141-231f3396fe39",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "All important businesses, streets, citizens, leaders, etc.",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "Duf-Dub; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "44d14f34-d9dd-4dee-a014-c936d9b59945",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "The residents and buildings of a few city blocks",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "Northside (Duf-Dub); Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						}
+					],
+					"name": "Lived There"
+				}
+			],
+			"name": "Duf-Dub"
+		},
+		{
+			"id": "ee10567b-d33e-46ed-b9ef-2cd71aa4f161",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "37d62a59-9f58-43a3-85d6-c51f39bff59a",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Fortress of the Horseman",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "40970460-b997-4b01-b13b-9a2898188aa0",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Fortress of the Horseman; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "e58dfe0b-cfd9-49ce-bce3-b63fd08dccc7",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Horseman Territory",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "3472583a-109a-4bdc-b3a4-58d0df3f6e5c",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Horseman Territory; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Horseman of the Apocalypse"
+		},
+		{
+			"id": "a746a216-33b9-414a-837b-1580d4426a3a",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "b651794e-8e9c-4020-b5cd-c40e71d0da5b",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "KaySee",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "38103eb7-dbd2-4521-ac60-732cc7b65396",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "KaySee; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "KaySee"
+		},
+		{
+			"id": "700dc010-21fc-46c5-8649-f626cafb95d9",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "354d47bb-8e1d-4a2e-9830-7786640b15b6",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lone Star Sector",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "604a52e3-3658-42b3-bc33-54f9b7f453e6",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lone Star Sector; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Lone Star Sector"
+		},
+		{
+			"id": "f1ad8f9d-5010-4036-8a58-9db2262ebdba",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "27886575-da65-48d7-9547-fbe99caa661e",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chi-Town",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "c0803dbc-00ec-4a9c-90a1-57c012663a54",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chi-Town; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "a9a79023-5ebc-4f73-952d-f46f90135ebc",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Military Industrial District",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "85484b67-86d5-4286-b46d-9dd3fbf6d0e2",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Military Industrial District; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "17946cdf-5d4a-49d5-aa7e-71d91c97d068",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Arcology",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "66c54091-09c7-4f21-8c9b-5187960e34d0",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Arcology; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "e2abc303-3c1b-42e3-befc-e04b5a50179f",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Freight Zone; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "0627b1bb-ba01-40e7-86f1-31e63b3686d0",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Freight Zone; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Chi-Town"
+		},
+		{
+			"id": "64f4d862-ed81-475d-87e1-a56a57516fff",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "7e0837ee-7260-496a-a894-91354c3c5343",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Pylerikon",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "cf96700e-3403-43f4-bf09-d2ee132bb93e",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Pylerikon; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Pylerikon"
+		},
+		{
+			"id": "8bc68cd6-5fe9-4ec9-a51b-c0b0005448c7",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "94721442-b1da-4665-ac89-d1c36b910674",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lake Wurth",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "5d8c385b-231d-45bc-8446-fdc5aea21b8f",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lake Wurth; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"name": "Lake Wurth"
+		}
+	]
+}

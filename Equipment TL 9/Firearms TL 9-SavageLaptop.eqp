@@ -1,0 +1,3798 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EwL8XMERVjzpfKFy9",
+			"description": "Conventional Gas-Powered Weapons",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eaplgrN-QEq9dhAvz",
+					"description": "Needle Rifle, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Rifle"
+					],
+					"value": 19200,
+					"weight": "5 lb",
+					"weapons": [
+						{
+							"id": "W9E8Mzj7AaHVVbAr1",
+							"damage": {
+								"type": "pi-",
+								"base": "2d"
+							},
+							"strength": "7†",
+							"accuracy": "4",
+							"range": "75/300",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fKIPncW_Xi_dF8HYs",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 19200,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e2WT0ZHvPRup31nir",
+					"description": "Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 16000,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WQpinW1ob9l3DBZk0",
+							"damage": {
+								"type": "pi-",
+								"base": "1d+2"
+							},
+							"strength": "7",
+							"accuracy": "1",
+							"range": "50/150",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d+2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f-uz3nLuK8JSyXUee",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eObK-cDtJkDqRMAcT",
+					"description": "Needler, 3mmN (Non-metallic)",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 24000,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WDGUUN3E2wmLVRygr",
+							"damage": {
+								"type": "pi-",
+								"base": "1d+2"
+							},
+							"strength": "7",
+							"accuracy": "1",
+							"range": "50/150",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d+2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fXyn5tkV8K7MIr7Ce",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 24000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eOeE2o_TvI6q3rg2b",
+					"description": "Partisan Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 48000,
+					"weight": "12 lb",
+					"weapons": [
+						{
+							"id": "Wr08zKsGA0mLDysI2",
+							"damage": {
+								"type": "pi-",
+								"base": "2d"
+							},
+							"strength": "10†",
+							"accuracy": "4",
+							"range": "75/300",
+							"rate_of_fire": "3",
+							"shots": "140(3)",
+							"bulk": "-5",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fiaYdxFKKHRRbmdJv",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 48000,
+						"extended_weight": "12 lb"
+					}
+				},
+				{
+					"id": "e1pBnHcddqGFtlxMl",
+					"description": "Tangler Pistol, 25mmT",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Pistol",
+						"Tangler"
+					],
+					"value": 9600,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "Wj969EoEQ6079u-aO",
+							"damage": {
+								"type": "pi++",
+								"base": "1d"
+							},
+							"strength": "10",
+							"accuracy": "1",
+							"range": "20/130",
+							"rate_of_fire": "1",
+							"shots": "4+1(3i)",
+							"bulk": "-3",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fCHEMp7HNXcGCNHfb",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eGmYLaE1-6TsPpP-z",
+					"description": "Wrist Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 6400,
+					"weight": "0.1 lb",
+					"weapons": [
+						{
+							"id": "WqkhH2qAMELN9ePdq",
+							"damage": {
+								"type": "pi-",
+								"base": "1d-2"
+							},
+							"strength": "3",
+							"accuracy": "1",
+							"range": "25/100",
+							"rate_of_fire": "3",
+							"shots": "25(3)",
+							"bulk": "-1",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d-2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fiKSQmRVrWaJjMUFf",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "0.1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 123200,
+				"extended_weight": "21.1 lb"
+			}
+		},
+		{
+			"id": "EoVB8ol1FffHHswmw",
+			"description": "Conventional Grenade Launchers",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ea9jNvJkoG9TBXHwE",
+					"description": "Underbarrel Grenade Launcher, 25mmPC",
+					"reference": "UT138",
+					"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Grenade Launcher",
+						"Guns"
+					],
+					"value": 9600,
+					"weight": "1.5 lb",
+					"weapons": [
+						{
+							"id": "W0JAKx3MrsF8pmbzp",
+							"damage": {
+								"type": "pi++",
+								"base": "4d"
+							},
+							"strength": "10",
+							"accuracy": "4+2",
+							"range": "360/2,200",
+							"rate_of_fire": "1",
+							"shots": "3(3)",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "e1ho_mmZ_CetG07_p",
+					"description": "Underbarrel Grenade Launcher, 40mmPLB",
+					"reference": "UT138",
+					"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Grenade Launcher",
+						"Guns"
+					],
+					"value": 6400,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "W6Y3X7ZbjBs1EIPkI",
+							"damage": {
+								"type": "pi++",
+								"base": "1d"
+							},
+							"strength": "10",
+							"accuracy": "2",
+							"range": "75/450",
+							"rate_of_fire": "3",
+							"shots": "5(5)",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fSvhsAPrJ7ba_WyVR",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "3 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "E81v7A7TbsKkVUSSt",
+			"description": "Conventional Guided Missiles",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eZJxTbTX5nn5zukVO",
+					"description": "100mm MTML",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 800000,
+					"weight": "150 lb",
+					"weapons": [
+						{
+							"id": "W9BSoNC11WIKOqEzV",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx30"
+							},
+							"strength": "25M",
+							"usage": "Kinetic Missile",
+							"accuracy": "3",
+							"range": "2,000/10,000",
+							"rate_of_fire": "1",
+							"shots": "4(20i)",
+							"bulk": "-10",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx30 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 800000,
+						"extended_weight": "150 lb"
+					}
+				},
+				{
+					"id": "e2gliGUe34-B_x_Gs",
+					"description": "160mm Heavy Modular Launch System",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 64000000,
+					"weight": "16,000 lb",
+					"weapons": [
+						{
+							"id": "WZyuHYJjucBEYZJxU",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx20"
+							},
+							"strength": "300M",
+							"usage": "Kinetic Missile",
+							"accuracy": "3",
+							"range": "1,000/50,000",
+							"rate_of_fire": "1",
+							"shots": "20(20i)",
+							"bulk": "-19",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx20 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 64000000,
+						"extended_weight": "16,000 lb"
+					}
+				},
+				{
+					"id": "eOtFzRL_j6Q7v2BkF",
+					"description": "160mm MSML",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 6400000,
+					"weight": "1,200 lb",
+					"weapons": [
+						{
+							"id": "Wb5gmlQxHPL7hRT_c",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx20"
+							},
+							"strength": "140M",
+							"usage": "Kinetic Missile",
+							"accuracy": "3",
+							"range": "1,000/50,000",
+							"rate_of_fire": "1",
+							"shots": "4(20i)",
+							"bulk": "-15",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx20 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400000,
+						"extended_weight": "1,200 lb"
+					}
+				},
+				{
+					"id": "etbOwWLNwLQMZXGJY",
+					"description": "160mm Strike Missile Launcher",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 64000,
+					"weight": "200 lb",
+					"weapons": [
+						{
+							"id": "WXUSgAsIEYxhthHCy",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx20"
+							},
+							"strength": "23M",
+							"usage": "Kinetic Missile",
+							"accuracy": "3",
+							"range": "1,000/50,000",
+							"rate_of_fire": "1",
+							"shots": "20(20i)",
+							"bulk": "-11",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx20 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 64000,
+						"extended_weight": "200 lb"
+					}
+				},
+				{
+					"id": "elft4eDV7aF_ut996",
+					"description": "400mm Cruise Missile",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 800000,
+					"weight": "2,500 lb",
+					"weapons": [
+						{
+							"id": "WzT5MKzXA3e4uvnJ9",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx15"
+							},
+							"strength": "300M",
+							"usage": "Kinetic Missile",
+							"accuracy": "3",
+							"range": "300/3,000,000",
+							"rate_of_fire": "1",
+							"shots": "1(20i)",
+							"bulk": "-15",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx15 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 800000,
+						"extended_weight": "2,500 lb"
+					}
+				},
+				{
+					"id": "eTWeuE1ZM6QVWBC1x",
+					"description": "IML, 64mm",
+					"reference": "UT146",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 64000,
+					"weight": "4 lb",
+					"weapons": [
+						{
+							"id": "WsFh3cgHcXgOJgCsG",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx3"
+							},
+							"strength": "7†",
+							"accuracy": "3",
+							"range": "500/4,000",
+							"rate_of_fire": "1",
+							"shots": "1(5)",
+							"bulk": "-4",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx3 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fWsoeJf9LvjxhwreY",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 64000,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "e2QKo45lKbpTTVB4J",
+					"description": "MLAWS, 64mm",
+					"reference": "UT146",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 736000,
+					"weight": "35 lb",
+					"weapons": [
+						{
+							"id": "Whdyzwz6EqFYtIjmy",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx3"
+							},
+							"strength": "11B†",
+							"accuracy": "3",
+							"range": "500/4,000",
+							"rate_of_fire": "1",
+							"shots": "6(5)",
+							"bulk": "-8",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx3 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fH-rbVdKSt6_BP-OT",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 736000,
+						"extended_weight": "35 lb"
+					}
+				},
+				{
+					"id": "edKlrV-R71-3kJ-Gr",
+					"description": "TML, 100mm",
+					"reference": "UT146",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Guided Missile",
+						"Missile Launcher"
+					],
+					"value": 320000,
+					"weight": "35 lb",
+					"weapons": [
+						{
+							"id": "WHqoVgBrarA1IwVtW",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx30"
+							},
+							"strength": "11B†",
+							"accuracy": "3",
+							"range": "2,000/10,000",
+							"rate_of_fire": "1",
+							"shots": "1(20)",
+							"bulk": "-8",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Guided Missile"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx30 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "faxR9VQs1QwIS3wYU",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320000,
+						"extended_weight": "35 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 73184000,
+				"extended_weight": "20,124 lb"
+			}
+		},
+		{
+			"id": "ESE2ySu6cnE3Yu1Uw",
+			"description": "Conventional Rifles",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EFYxXJybq_ER22L1K",
+					"description": "Magazine BI-25, 25mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 2560,
+					"weight": "3.8 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_quantity_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 8
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2560,
+						"extended_weight": "3.8 lb"
+					}
+				},
+				{
+					"id": "ERVSGqZz8lU8TLNDs",
+					"description": "Magazine, SA Model 21, 10mmCL",
+					"notes": "interchangable with SA Model 28",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 576,
+					"weight": "0.08 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 576,
+						"extended_weight": "0.08 lb"
+					}
+				},
+				{
+					"id": "E1ECMDAobDTZuUeGk",
+					"description": "Magazine, SA Model 28, 10mmCLR",
+					"notes": "interchangable with SA Model 21",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 864,
+					"weight": "0.1 lb",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 864,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e4bBVdttjx35VmKB-",
+					"description": "BI-11 5.5mmCL Light Hunting Rifle",
+					"reference": "PY37:26",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 16000,
+					"weight": "5 lb",
+					"weapons": [
+						{
+							"id": "W41MD_Fw1E260z3oA",
+							"damage": {
+								"type": "pi-",
+								"base": "1d+2"
+							},
+							"strength": "7",
+							"usage": "Solid Shot",
+							"accuracy": "4",
+							"range": "180/2,000",
+							"rate_of_fire": "3",
+							"shots": "10(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Pistol",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Long Arm"
+								}
+							],
+							"calc": {
+								"damage": "1d+2 pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "eX-OTaFfD5qF69X4p",
+					"description": "BI-14 Hunting Rifle, 7mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 25600,
+					"weight": "7 lb",
+					"weapons": [
+						{
+							"id": "WbaG6bhDpv50t6tUg",
+							"damage": {
+								"type": "pi",
+								"base": "6d+1"
+							},
+							"strength": "9†",
+							"accuracy": "4",
+							"range": "750/4,200",
+							"rate_of_fire": "3",
+							"shots": "10+1(3)",
+							"bulk": "-5",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d+1 pi"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fSmp5piOYsdyEz4in",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 25600,
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "ecpoj5YtgQRFxeeem",
+					"description": "BI-25, Blackthorn Anti-Material Rifle, 25mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 256000,
+					"weight": "38 lb",
+					"weapons": [
+						{
+							"id": "WT-Yv13IBXclEF91H",
+							"damage": {
+								"type": "pi++",
+								"base": "10d"
+							},
+							"strength": "12B†",
+							"accuracy": "4",
+							"range": "700/8,500",
+							"rate_of_fire": "3",
+							"shots": "8+1(3)",
+							"bulk": "-6",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "10d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fWNlAfqMLXdd6w8Oy",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 256000,
+						"extended_weight": "38 lb"
+					}
+				},
+				{
+					"id": "eLFKiG9-pDY9MXZ_7",
+					"description": "NG-2 Assault Carbine, 7mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 51200,
+					"weight": "7 lb",
+					"weapons": [
+						{
+							"id": "W3xBVsd03me0RtgxO",
+							"damage": {
+								"type": "pi",
+								"base": "6d"
+							},
+							"strength": "9†",
+							"accuracy": "4",
+							"range": "700/4,000",
+							"rate_of_fire": "15",
+							"shots": "50+1(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fNyHGnvc9bVs_nQaS",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 51200,
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "eMm2WJ5Vdqa8UvPCv",
+					"description": "NG-AM15 Anti-Materiel Rifle, 15mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 256000,
+					"weight": "30 lb",
+					"weapons": [
+						{
+							"id": "W80OiVOl4eWifA2_1",
+							"damage": {
+								"type": "pi+",
+								"base": "15d"
+							},
+							"strength": "12B†",
+							"accuracy": "6+3",
+							"range": "2,000/9,000",
+							"rate_of_fire": "3",
+							"shots": "10(3)",
+							"bulk": "-6",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "15d pi+"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fjSm3J6Auk6RPqB1I",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 256000,
+						"extended_weight": "30 lb"
+					}
+				},
+				{
+					"id": "e8SFtSE1gPf6mjflm",
+					"description": "SA Model 21 Carbine, 10mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 57600,
+					"weight": "8 lb",
+					"weapons": [
+						{
+							"id": "WAZBZ5iGTHPEnmy6L",
+							"damage": {
+								"type": "pi+",
+								"base": "7d"
+							},
+							"strength": "10†",
+							"accuracy": "4",
+							"range": "700/2,100",
+							"rate_of_fire": "10",
+							"shots": "50+1(3)",
+							"bulk": "-4",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "7d pi+"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 57600,
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "ekcI5n3RkKY2I_MBP",
+					"description": "SA Model 28 Rifle, 10mmCLR",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 86400,
+					"weight": "10 lb",
+					"weapons": [
+						{
+							"id": "W_JyCKwN_0kzbuwR5",
+							"damage": {
+								"type": "pi++",
+								"base": "9d"
+							},
+							"strength": "10†",
+							"accuracy": "5",
+							"range": "1,300/5,800",
+							"rate_of_fire": "3",
+							"shots": "12+1(3)",
+							"bulk": "-4",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "9d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fuR6FcwtiqNtUWun1",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 86400,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "edq2XNoST5ve00v1z",
+					"description": "V-17 5.7mmCL Combat Rifle",
+					"reference": "PY37:26",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 38400,
+					"weight": "6.5 lb",
+					"weapons": [
+						{
+							"id": "W_Nj21eZFsaamAYBA",
+							"damage": {
+								"type": "pi-",
+								"base": "4d+1"
+							},
+							"strength": "9",
+							"usage": "Solid Shot",
+							"accuracy": "5",
+							"range": "180/2,000",
+							"rate_of_fire": "15",
+							"shots": "100+1(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Pistol",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Long Arm"
+								}
+							],
+							"calc": {
+								"damage": "4d+1 pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 38400,
+						"extended_weight": "6.5 lb"
+					}
+				},
+				{
+					"id": "eZ1RQK8q9ilJ_tCvJ",
+					"description": "V-51 Gatling Carbine, 5.7mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 76800,
+					"weight": "10 lb",
+					"weapons": [
+						{
+							"id": "WzsymyDYv2CMPyixc",
+							"damage": {
+								"type": "pi-",
+								"base": "4d"
+							},
+							"strength": "9†",
+							"accuracy": "4",
+							"range": "350/3,000",
+							"rate_of_fire": "40",
+							"shots": "200(5)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fls--Mr1OVBPU4tvS",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 76800,
+						"extended_weight": "10 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 868000,
+				"extended_weight": "125.48 lb"
+			}
+		},
+		{
+			"id": "E8bntFYskNWbnO_t3",
+			"description": "Conventional Shotguns",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ecwixx-rrTKXMEmuo",
+					"description": "Civilian Shotgun, 18.5mmPC",
+					"reference": "UT138",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Shotgun"
+					],
+					"value": 14400,
+					"weight": "6 lb",
+					"weapons": [
+						{
+							"id": "WZ0h-KE0BSEV8HPdQ",
+							"damage": {
+								"type": "pi++",
+								"base": "4d+4"
+							},
+							"strength": "10†",
+							"accuracy": "3",
+							"range": "100/500",
+							"rate_of_fire": "3",
+							"shots": "5+1(3)",
+							"bulk": "-5",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d+4 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fdq9m32YFjYkqstBn",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 14400,
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "evnL8IiENeg_3F1xp",
+					"description": "Close Assault Weapon, 18.5mmPC",
+					"reference": "UT138",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Shotgun"
+					],
+					"value": 25600,
+					"weight": "10 lb",
+					"weapons": [
+						{
+							"id": "Wi6ih0FtJ9ZTQ-zPc",
+							"damage": {
+								"type": "pi++",
+								"base": "4d+4"
+							},
+							"strength": "11†",
+							"accuracy": "3",
+							"range": "100/500",
+							"rate_of_fire": "10",
+							"shots": "10+1(3)",
+							"bulk": "-5",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d+4 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fBw-A8cU9G7Upy6-k",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 25600,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "ezD6_DRp79M4_48Ow",
+					"description": "Shotgun Pistol, 18.5mmPC",
+					"reference": "UT138",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Shotgun"
+					],
+					"value": 10560,
+					"weight": "4 lb",
+					"weapons": [
+						{
+							"id": "WGX-Fu8bHrVqeLcOi",
+							"damage": {
+								"type": "pi++",
+								"base": "4d"
+							},
+							"strength": "10",
+							"accuracy": "1",
+							"range": "100/500",
+							"rate_of_fire": "3",
+							"shots": "5+1(3)",
+							"bulk": "-3",
+							"recoil": "5",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f72GEWa_j-SEvru8P",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10560,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "ecOfKT_12iotHAWF2",
+					"description": "Underbarrel Shotgun, 18.5mmPC",
+					"reference": "UT138",
+					"notes": "Use the host weapon's Bulk, ST, and sighting bonuses.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Shotgun"
+					],
+					"value": 10560,
+					"weight": "4 lb",
+					"weapons": [
+						{
+							"id": "WVvkZVDm-o-qGOr3i",
+							"damage": {
+								"type": "pi++",
+								"base": "4d"
+							},
+							"strength": "10†",
+							"accuracy": "1",
+							"range": "100/500",
+							"rate_of_fire": "3",
+							"shots": "5+1(3)",
+							"recoil": "5",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fJUmybF4B6ShicI9W",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10560,
+						"extended_weight": "4 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 61120,
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "E2etWqkU6Z48uFKmA",
+			"description": "Conventional SMGs",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eTcxwMSvd_2tf9w-C",
+					"description": "SA Model 9, 7.5mmCLP Machine Pistol",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Submachine Gun"
+					],
+					"value": 24000,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "W1n4qtmKL674zSKDv",
+							"damage": {
+								"type": "pi-",
+								"base": "4d+1"
+							},
+							"strength": "9",
+							"usage": "Solid Shot",
+							"accuracy": "2",
+							"range": "180/2,000",
+							"rate_of_fire": "10",
+							"shots": "60+1(3)",
+							"bulk": "-4",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Pistol",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Long Arm"
+								}
+							],
+							"calc": {
+								"damage": "4d+1 pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 24000,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eF4tYRTk5tKCmCz8Y",
+					"description": "NG-7 PDW, 5.7mmCLP",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Submachine Gun"
+					],
+					"value": 32000,
+					"weight": "4.5 lb",
+					"weapons": [
+						{
+							"id": "W3OdQOEHQoSga-_wo",
+							"damage": {
+								"type": "pi-",
+								"base": "4d"
+							},
+							"strength": "5†",
+							"accuracy": "3",
+							"range": "350/3,000",
+							"rate_of_fire": "12#/1",
+							"shots": "20+1(3)",
+							"bulk": "-3*",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 32000,
+						"extended_weight": "4.5 lb"
+					}
+				},
+				{
+					"id": "e-0jPbZNiz8IZ6HNu",
+					"description": "NG-10 Machine Pistol, 10mmCLP",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Submachine Gun"
+					],
+					"value": 24000,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "Wz7ciMD3whuOwy9RG",
+							"damage": {
+								"type": "pi+",
+								"base": "3d"
+							},
+							"strength": "10",
+							"accuracy": "2",
+							"range": "180/2,000",
+							"rate_of_fire": "10",
+							"shots": "30+1(3)",
+							"bulk": "-2",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "3d pi+"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 24000,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "e8nWGY3cjBSkZP2Rl",
+					"description": "SA Model 37 UAW",
+					"reference": "UT137",
+					"notes": "Urban Assault Weapon",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Submachine Gun"
+					],
+					"value": 67200,
+					"weight": "8 lb",
+					"weapons": [
+						{
+							"id": "WrWqO9AqaUHgbuZbf",
+							"damage": {
+								"type": "pi+",
+								"base": "3d"
+							},
+							"strength": "9†",
+							"usage": "SMG barrel, 10mmCLP",
+							"accuracy": "4",
+							"range": "200/2,100",
+							"rate_of_fire": "10",
+							"shots": "40+1(3)",
+							"bulk": "-3",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "3d pi+"
+							}
+						},
+						{
+							"id": "WOQXwTPmK3Ux_UYfk",
+							"damage": {
+								"type": "pi++",
+								"base": "4d+4"
+							},
+							"strength": "10†",
+							"usage": "Shotgun barrel, 18.5mmPC",
+							"accuracy": "2",
+							"range": "100/500",
+							"rate_of_fire": "2",
+							"shots": "5+1(3i)",
+							"bulk": "-3",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d+4 pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fWG0FxV9yDd1yzIoQ",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 67200,
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "eyjC0C7gHmTc2cdqR",
+					"description": "SA Model 10, Submachine Gun, 10mmCLR",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 147200,
+				"extended_weight": "18.5 lb"
+			}
+		},
+		{
+			"id": "Ez0eGI_SOFu14bmO5",
+			"description": "Conventional Unclassified Weapons",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e1sFFOdQUPHJ6nzUr",
+					"description": "Splat Gun, 15mmPLB",
+					"reference": "UT138",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Guns",
+						"LAW"
+					],
+					"value": 96000,
+					"weight": "20 lb",
+					"weapons": [
+						{
+							"id": "WdAZLI5G1-D6EZSy8",
+							"damage": {
+								"type": "pi++",
+								"base": "3d+2"
+							},
+							"strength": "10†",
+							"accuracy": "4",
+							"range": "220/2,000",
+							"rate_of_fire": "30",
+							"shots": "30(30)",
+							"bulk": "-6",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-armor Weapon"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "3d+2 pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 96000,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "eEZJHYvzHWsq7Y4_A",
+					"description": "Tangler, 25mmT",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Guns",
+						"Rifle",
+						"Tangler"
+					],
+					"value": 19200,
+					"weight": "5 lb",
+					"weapons": [
+						{
+							"id": "WAoiYu4ieG5_W7csl",
+							"damage": {
+								"type": "pi++",
+								"base": "1d"
+							},
+							"strength": "7†",
+							"accuracy": "2",
+							"range": "30/190",
+							"rate_of_fire": "3",
+							"shots": "8+1(3i)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fLKJgBRiTzo3_g_ja",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 19200,
+						"extended_weight": "5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 115200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "EV_84GQNFaHgvteV4",
+			"description": "Electrolasers",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eOpEJPYVoARJVYADi",
+					"description": "Electrolaser Pistol",
+					"reference": "UT120",
+					"notes": "C/36 shots.",
+					"tech_level": "9",
+					"tags": [
+						"Beam Weapon",
+						"Electrolaser",
+						"Pistol"
+					],
+					"value": 57600,
+					"weight": "2.2 lb",
+					"weapons": [
+						{
+							"id": "WtbRW5X7SqH3193WZ",
+							"damage": {
+								"type": "HT-4 (2) aff"
+							},
+							"strength": "4",
+							"accuracy": "4",
+							"range": "40/80",
+							"rate_of_fire": "3",
+							"shots": "36(3)",
+							"bulk": "-2",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -4
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "HT-4 (2) aff"
+							}
+						},
+						{
+							"id": "WJ-GBzYIO65oOIt3K",
+							"damage": {
+								"type": "burn",
+								"base": "1d-3"
+							},
+							"usage": "Linked",
+							"calc": {
+								"damage": "1d-3 burn"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f94EhtG9I5WsypQVu",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 57600,
+						"extended_weight": "2.2 lb"
+					}
+				},
+				{
+					"id": "etx3qn_mPecX58EdI",
+					"description": "Heavy Electrolaser",
+					"reference": "UT120",
+					"notes": "External D-cell.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Beam Weapon",
+						"Electrolaser",
+						"Rifle"
+					],
+					"value": 640000,
+					"weight": "20 lb",
+					"weapons": [
+						{
+							"id": "WEoJ1QiZtOd2zYFqy",
+							"damage": {
+								"type": "HT-6 (2) aff"
+							},
+							"strength": "10†",
+							"accuracy": "8",
+							"range": "400/1,100",
+							"rate_of_fire": "1",
+							"shots": "72(3)",
+							"bulk": "-5",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -4
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "HT-6 (2) aff"
+							}
+						},
+						{
+							"id": "Wksoys0ae88W4Orn7",
+							"damage": {
+								"type": "burn",
+								"base": "1d-3"
+							},
+							"usage": "Linked",
+							"calc": {
+								"damage": "1d-3 burn"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fYD2kgTEwkMw0v1G3",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 640000,
+						"extended_weight": "20 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 697600,
+				"extended_weight": "22.2 lb"
+			}
+		},
+		{
+			"id": "EByhe7efjJr4JsNmc",
+			"description": "Electromagnetic Weapons",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eQfl01dZ_Yp3Gq5dp",
+					"description": "160mm Railgun",
+					"reference": "PY37:27",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Artillery",
+						"Cannon",
+						"Electromagnetic"
+					],
+					"value": 640000000,
+					"weight": "300,000 lb",
+					"weapons": [
+						{
+							"id": "WgDfCgIoZ7UuW7HmX",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx100",
+								"armor_divisor": 3
+							},
+							"strength": "750M",
+							"accuracy": "6+6",
+							"range": "15,000/50,000",
+							"rate_of_fire": "1/4",
+							"shots": "100(4i)",
+							"bulk": "-24",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"specialization": "Cannon"
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"damage": "6dx100(3) pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 640000000,
+						"extended_weight": "300,000 lb"
+					}
+				},
+				{
+					"id": "euIr6rFezbl59LyDU",
+					"description": "Sniper Railgun, 7mm",
+					"reference": "UT142",
+					"notes": "D/30 shots.",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Electromagnetic",
+						"Guns",
+						"Rifle"
+					],
+					"value": 576000,
+					"weight": "20 lb",
+					"weapons": [
+						{
+							"id": "WJ_NT6BPvgs2nq2aW",
+							"damage": {
+								"type": "pi",
+								"base": "6dx2",
+								"armor_divisor": 3
+							},
+							"strength": "11B†",
+							"accuracy": "7+3",
+							"range": "2,400/10,000",
+							"rate_of_fire": "1",
+							"shots": "30(3)",
+							"bulk": "-6",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx2(3) pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 576000,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "e3xFvn9ffZPAjfVyz",
+					"description": "U-28 Light Coil Gun",
+					"reference": "Custon",
+					"notes": "[4] Unreliable. Malfunctions on 18+ (see p. B407) if not serviced every day or after firing 8 rounds, increasing to 17+ after 5 days of neglect.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Artillery Gunner",
+						"Cannon",
+						"Electromagnetic"
+					],
+					"value": 750000,
+					"weight": "3,000 lb",
+					"weapons": [
+						{
+							"id": "WVkJFJN1Oq581_wYk",
+							"damage": {
+								"type": "pi++",
+								"base": "6dx2",
+								"armor_divisor": 2
+							},
+							"strength": "150M",
+							"usage": "DUS 1/3 charge",
+							"accuracy": "6",
+							"range": "1,000",
+							"rate_of_fire": "1",
+							"shots": "8(12)",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"specialization": "Cannon"
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx2(2) pi++"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 750000,
+						"extended_weight": "3,000 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 641326000,
+				"extended_weight": "303,020 lb"
+			}
+		},
+		{
+			"id": "EhW7xTwrpfBaEKXMI",
+			"description": "ETC Pistols",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e_Uzn5U_mvm0ZhOWQ",
+					"description": "ETC Magnum Pistol, 15mmCLP",
+					"reference": "UT137",
+					"notes": "powered by an A cell",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Pistol"
+					],
+					"value": 55680,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "W5hjJD5tCq55JPZy1",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "11",
+							"accuracy": "2",
+							"range": "329/3,640",
+							"rate_of_fire": "3",
+							"shots": "9+1(3)",
+							"bulk": "-2",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						},
+						{
+							"id": "WBVDsLwo-W3ns9Ucb",
+							"damage": {
+								"type": "pi++",
+								"base": "6d",
+								"armor_divisor": 2
+							},
+							"strength": "11",
+							"usage": "APHEX",
+							"accuracy": "2",
+							"range": "329/3,640",
+							"rate_of_fire": "3",
+							"shots": "9+1(3)",
+							"bulk": "-2",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d(2) pi++"
+							}
+						},
+						{
+							"id": "W45Exztq3YV2fLCHc",
+							"damage": {
+								"type": "cr ex",
+								"base": "1d-2"
+							},
+							"usage": "APHEX follow-up",
+							"calc": {
+								"damage": "1d-2 cr ex"
+							}
+						},
+						{
+							"id": "WkBAHlLEd9n-ChlWW",
+							"damage": {
+								"type": "cut",
+								"base": "1d-1"
+							},
+							"usage": "APHEX frag",
+							"calc": {
+								"damage": "1d-1 cut"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fwq2ta1UbKlhgeCRT",
+							"name": "HUD Link",
+							"tech_level": "9",
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "within 300 yds",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "f2sCaIFUa8yYDknsq",
+							"name": "Multispectral Laser Sight",
+							"reference": "UT149",
+							"tags": [
+								"Accessory"
+							],
+							"tech_level": "9",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "fem5jYXLGDC5WBhXv",
+							"name": "Accessory Rails",
+							"reference": "UT150",
+							"tech_level": "9",
+							"cost": "+3200",
+							"weight": "+0.2 lb"
+						},
+						{
+							"id": "f_neWPCfkuQa3zQE5",
+							"name": "Access Control",
+							"reference": "UT150",
+							"notes": "Transponder Ring",
+							"tech_level": "9",
+							"cost": "+3200",
+							"weight": "+0 lb"
+						},
+						{
+							"id": "fiBFkvY0sqLOHdScN",
+							"name": "Diagnostic Computer",
+							"reference": "UT150",
+							"tech_level": "9",
+							"cost": "+0",
+							"weight": "+0 lb",
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to skill rolls to fix damage or malfunctions",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "fps1S0rnifof9Oxjj",
+							"name": "Compact Targeting Scope (CTS)",
+							"reference": "UT149",
+							"tech_level": "9",
+							"cost": "+32000",
+							"weight": "+0.5 lb",
+							"features": [
+								{
+									"type": "weapon_scope_acc_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": 2
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 94080,
+						"extended_weight": "1.7 lb"
+					}
+				},
+				{
+					"id": "eF5g1vKXiq2wttYZz",
+					"description": "Zetatech Combat 50, 12.7mmCLP-ETC",
+					"reference": "Custom",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"ETC",
+						"Guns",
+						"Pistol"
+					],
+					"value": 29312,
+					"weight": "1.02 lb",
+					"weapons": [
+						{
+							"id": "WetpSDe4U1FnHgjih",
+							"damage": {
+								"type": "pi+",
+								"base": "6d"
+							},
+							"strength": "7",
+							"usage_notes": "Zetatech Combat 50 (TL9)\nDamage: 6d pi+\nAcc: 2\nRange: 480/3100\nWeight: 1.02/0.41\nShots: Removable A cell (UT19) provides power to fire 10 magazines of ammunition. Takes 3 seconds to reload.\nST 7\nBulk -3\nRcl 4\nMalf 18\nCost $916\nHP: 4\nHT: 10\nDR: 4\n \nInternal B Cell (UT19)\nHUD Link (TL9) (UT149)\n- Cable connection\n- Wireless connection via a micro radio communicator (TL9) (UT44)\nMultispectral Laser Sight (TL9) (UT149)\nDiagnostic Computer (TL9) (UT151)\nIron Sights\nAccessory Rail (Over barrel) (TL9) (UT150)\nMuzzle Weight (TL7) (TS76)\nMuzzle Port (TL7) (TS76)\n \nAmmunition\n12.7mmCLP-ETC (TL9)\nWPS 0.016\nCPS 10.24\nLC 3",
+							"accuracy": "2",
+							"range": "480/3,100",
+							"rate_of_fire": "3",
+							"shots": "10+1(3)",
+							"bulk": "-3",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi+"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 29312,
+						"extended_weight": "1.02 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 123392,
+				"extended_weight": "2.72 lb"
+			}
+		},
+		{
+			"id": "ECQdbh1lAWLL4M_az",
+			"description": "ETC Rifles",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eVv7BIHcVpX6Eb6gM",
+					"description": "ZT-6 Gatling Carbine 6.1mmCL-ETC",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EcIQizwq-R11mGFgi",
+			"description": "ETC Submachine Guns",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eSOkfqS2Gey5vfvWt",
+					"description": "ZI-90 Mk. V Submachine Gun, 10mmCLM-ETC",
+					"reference": "Cust",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Pistol"
+					],
+					"value": 292736,
+					"weight": "9.21 lb",
+					"weapons": [
+						{
+							"id": "W72mUUHTn3Ptb_Use",
+							"damage": {
+								"type": "pi+",
+								"base": "7d"
+							},
+							"strength": "12†",
+							"accuracy": "2",
+							"range": "420/2,800",
+							"rate_of_fire": "16#/30#",
+							"shots": "90+1(3)",
+							"bulk": "-4",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "7d pi+"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 292736,
+						"extended_weight": "9.21 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 292736,
+				"extended_weight": "9.21 lb"
+			}
+		},
+		{
+			"id": "E6en-3o5AYUfll3R2",
+			"description": "Flamers",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e51LLBn6eTnOp1XiU",
+					"description": "Blaze Hand Flamer",
+					"reference": "UT127",
+					"notes": "2C/56 shots.",
+					"tech_level": "9^",
+					"legality_class": "3",
+					"tags": [
+						"Beam Weapon",
+						"Plasma Flamer",
+						"Projector"
+					],
+					"value": 38400,
+					"weight": "3.3 lb",
+					"weapons": [
+						{
+							"id": "WjBmP0PtQyCTT0cxy",
+							"damage": {
+								"type": "burn",
+								"base": "4d"
+							},
+							"strength": "6",
+							"accuracy": "3",
+							"range": "30/90",
+							"rate_of_fire": "1",
+							"shots": "56(3)",
+							"bulk": "-2",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 38400,
+						"extended_weight": "3.3 lb"
+					}
+				},
+				{
+					"id": "eFJMuWs6u6UuwH03E",
+					"description": "Hellfire Semi-Portable Flamer",
+					"reference": "UT127",
+					"notes": "External E-cell.",
+					"tech_level": "9^",
+					"legality_class": "1",
+					"tags": [
+						"Beams",
+						"Gunner",
+						"Plasma Flamer"
+					],
+					"value": 1120000,
+					"weight": "70 lb",
+					"weapons": [
+						{
+							"id": "WPvJIVlzte9shLjCa",
+							"damage": {
+								"type": "burn",
+								"base": "6dx3"
+							},
+							"strength": "18M",
+							"accuracy": "12",
+							"range": "150/450",
+							"rate_of_fire": "1",
+							"shots": "100(5)",
+							"bulk": "-8",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"specialization": "Beams"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6dx3 burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1120000,
+						"extended_weight": "70 lb"
+					}
+				},
+				{
+					"id": "eRO-jY0voHAdn58Bu",
+					"description": "Immolator Heavy Flamer",
+					"reference": "UT127",
+					"notes": "External D-cell.",
+					"tech_level": "9^",
+					"legality_class": "1",
+					"tags": [
+						"Beam Weapon",
+						"Plasma Flamer",
+						"Projector"
+					],
+					"value": 320000,
+					"weight": "20 lb",
+					"weapons": [
+						{
+							"id": "WKuS8QgLvfYWp8MFI",
+							"damage": {
+								"type": "burn",
+								"base": "8d"
+							},
+							"strength": "10†",
+							"accuracy": "6",
+							"range": "130/390",
+							"rate_of_fire": "1",
+							"shots": "35(5)",
+							"bulk": "-5",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "8d burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320000,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "eEVMIUa1A847v6jfJ",
+					"description": "Incinerator Assault Flamer",
+					"reference": "UT127",
+					"notes": "2C/28 shots.",
+					"tech_level": "9^",
+					"legality_class": "2",
+					"tags": [
+						"Beam Weapon",
+						"Plasma Flamer",
+						"Projector"
+					],
+					"value": 73600,
+					"weight": "5.6 lb",
+					"weapons": [
+						{
+							"id": "WNbDrxJ_61_KLoio8",
+							"damage": {
+								"type": "burn",
+								"base": "5d"
+							},
+							"strength": "5†",
+							"accuracy": "6",
+							"range": "50/150",
+							"rate_of_fire": "1",
+							"shots": "28(3)",
+							"bulk": "-3",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "5d burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 73600,
+						"extended_weight": "5.6 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1552000,
+				"extended_weight": "98.9 lb"
+			}
+		},
+		{
+			"id": "ELHdCPqXPfhwdFPM8",
+			"description": "Gyrocs",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "en1rdQMViD5uPh2GL",
+					"description": "Gyroc Carbine, 15mm",
+					"reference": "UT145",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 16000,
+					"weight": "4 lb",
+					"weapons": [
+						{
+							"id": "WhEisIN4HsjvRiQY6",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "7†",
+							"accuracy": "2",
+							"range": "1,900",
+							"rate_of_fire": "3",
+							"shots": "10(3)",
+							"bulk": "-3",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fkcy5Mbo_hOUOQdXE",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "e-ogekPjhpwxjf953",
+					"description": "Gyroc Launch Pistol, 15mm",
+					"reference": "UT145",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 9600,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "WRAG_VJ6LG5qE3xH-",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "10",
+							"accuracy": "1",
+							"range": "1,900",
+							"rate_of_fire": "3",
+							"shots": "7(3)",
+							"bulk": "-2",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fGP9U_kRqHBZE-pTe",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ea9u65y1C3ciOhrAr",
+					"description": "Gyroc LSW, 15mm",
+					"reference": "UT145",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 44800,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WIRBoufAdSEtyAIg1",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "10†",
+							"accuracy": "2",
+							"range": "1,900",
+							"rate_of_fire": "10",
+							"shots": "30(5)",
+							"bulk": "-4",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fMjO2_OWF9mf_h-H5",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 44800,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e2nB2SOVtjgqY_X5I",
+					"description": "Gyroc Pistol, 15mm",
+					"reference": "UT145",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 6400,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WtJIyXQPaZ3-iN128",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "9",
+							"accuracy": "1",
+							"range": "1,900",
+							"rate_of_fire": "3",
+							"shots": "4(3i)",
+							"bulk": "-2",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f1R7Khv4K0MG0Cx6V",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eGMM5-htOeKUV_Cpt",
+					"description": "Holdout Gyroc, 15mm",
+					"reference": "UT145",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 1600,
+					"weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "WcilYHoGAdWYk3dj8",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "6",
+							"range": "1,900",
+							"rate_of_fire": "1",
+							"shots": "1(3i)",
+							"bulk": "-1",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f3QB2yNWDhSE1m9TU",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ewnsoYgh-zkCI51Wc",
+					"description": "Underbarrel Gyroc, 15mm",
+					"reference": "UT145",
+					"notes": "May be attached to any weapon of Bulk -3 to -6; use that weapon's Bulk.",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Gyroc",
+						"Gyroc Launcher"
+					],
+					"value": 4800,
+					"weight": "1.5 lb",
+					"weapons": [
+						{
+							"id": "Wm18nidpzN3YE-eMQ",
+							"damage": {
+								"type": "pi++",
+								"base": "6d"
+							},
+							"strength": "6†",
+							"accuracy": "2",
+							"range": "1,900",
+							"rate_of_fire": "3",
+							"shots": "6(3)",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fka8m6O0xb2Cf6pML",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 4800,
+						"extended_weight": "1.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 83200,
+				"extended_weight": "9.75 lb"
+			}
+		}
+	]
+}

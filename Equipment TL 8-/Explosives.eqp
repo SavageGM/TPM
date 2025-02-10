@@ -1,0 +1,746 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "emTW0M1DaIpgt_Xud",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "e1VeNkITlCfd90jCN"
+			},
+			"description": "Time Fuse",
+			"reference": "HT187",
+			"notes": "Slow-match",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eFhOpnGyYcqMgtdcE",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "em2oqBT-IMBc0MQuE"
+			},
+			"description": "Time Fuse",
+			"reference": "HT187",
+			"notes": "Quick-match",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eWCXLUj_T4su67Yrh",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eQNvpzymyOYSMQeK_"
+			},
+			"description": "Early Blasting Machine",
+			"reference": "HT187",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 60,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eiszgDpnddtZIBjf4",
+			"description": "Improved Black Powder",
+			"reference": "HT184",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoSg5uEdymM-3CIEI",
+			"description": "Blasting Cap",
+			"reference": "HT187",
+			"tech_level": "5",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 5,
+			"weight": "0.0416 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.0416 lb"
+			}
+		},
+		{
+			"id": "evv4nQWhyyPa2DNH3",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eE5_NM0qIGspi091F"
+			},
+			"description": "Portable Tool Kit, Explosives",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 1200,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eK9G4ghtuCIlhRkcy",
+			"description": "Electronic Clock",
+			"reference": "HT188",
+			"tech_level": "6",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eS_vs7wnDuupJ6A_Q",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "euctzrmgJaZSAsEht"
+			},
+			"description": "Plastic Explosive",
+			"reference": "HT186",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 240,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e69QVKN5Fq-3Rjind",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "e9dac0H8PZ8WSPnBP"
+			},
+			"description": "Detonating Cord",
+			"reference": "HT187",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ezo2Ctd21Kc9_tNDi",
+			"description": "Detonating Cord",
+			"reference": "HT187",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e6n77LkkEl6q9dz9P",
+			"description": "Thermite",
+			"reference": "HT188",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ewxolCyp6jVwsPF4Q",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eDSTCd2JlracXWNpm"
+			},
+			"description": "Time Pencils",
+			"reference": "HT188",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 120,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eSvb7mlDo4cTOA_3D",
+			"description": "Plastic Explosive",
+			"reference": "HT186",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 150,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eSQjrzF0LjxRVIjsw",
+			"description": "Dynamite",
+			"reference": "HT185",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eXrM3f9URb0sXVjyC",
+			"description": "ANFO ingredients",
+			"reference": "HT186",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 16,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eFJj4R969brfjYwFz",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "ePNo1UJjimgE-J9mC"
+			},
+			"description": "Cutting Cord",
+			"reference": "HT188",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 720,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e8DR7G61GxFhAlXY1",
+			"description": "Cutting Cord",
+			"reference": "HT188",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 360,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 360,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "erxxLWjqltbsqLB7V",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eyhu4fa-8MtE2KNgN"
+			},
+			"description": "Timer",
+			"reference": "ACT1:26",
+			"notes": "Detonates blasting caps at specified time.",
+			"tech_level": "7",
+			"tags": [
+				"Demolition"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eYHr9xEgOWwN00d97",
+			"description": "Military Blasting Machine",
+			"reference": "HT187",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eCKrEsO1vXLdvJPAW",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "effsjQqUrbkyj4ev3"
+			},
+			"description": "Military Blasting Machine",
+			"reference": "HT187",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eQ_XPsMSgUQsPWl-X",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eX97WegZhRyn2zXRI"
+			},
+			"description": "Explosives Blanket",
+			"reference": "HT72",
+			"notes": "DR25",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 8000,
+			"weight": "45 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e-oY1HfDksShabbkJ",
+			"description": "Extrudable Explosive: caulking-gun cartridge",
+			"reference": "HT187",
+			"notes": "1lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 640,
+			"weight": "1.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "e4oPEVGqFzwt8fDGj",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "e7cAzkzidtpmsR_8L"
+			},
+			"description": "Extrudable Explosive",
+			"reference": "ACT1:26",
+			"notes": "7d cr ex damage; always deals 42 points to a door.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eaylXclppztTd_5CI",
+			"description": "Remote Blasting Machine",
+			"reference": "HT187",
+			"notes": "4xS/14 days.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 8000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "earxw5qmL3HB2zV8J",
+			"description": "Extrudable Explosive: toothpaste tube",
+			"reference": "HT187",
+			"notes": "0.25lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eGSu21v9i721B7Sx9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eyzCcII9g2aNazGpz"
+			},
+			"description": "Remote Blasting Machine",
+			"reference": "HT187",
+			"notes": "4xS/14 days.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 8000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "epszUSxizJ7q-rT4n",
+			"description": "Caulking Gun",
+			"reference": "HT187",
+			"notes": "You can use it with Extrudable Explosives.",
+			"tech_level": "8",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 80,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eFJq680inWTRRJO-P",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eNDoFVX5NA1RRqrNo"
+			},
+			"description": "Blasting Caps",
+			"reference": "ACT1:26",
+			"notes": "Pack of six.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ebr77_nT5H11WEkNX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eyA0kVMbEPnDYrx8e"
+			},
+			"description": "Remote",
+			"reference": "ACT1:26",
+			"notes": "Can detonate a blasting cap at 5 miles.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 800,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eCALVYKyDg9b56_Ef",
+			"description": "Foam Explosive: aerosol can",
+			"reference": "HT187",
+			"notes": "0.9lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e1zsD-iz82G5-PcN9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "ee5TBAiJ5vUQeM8qg"
+			},
+			"description": "Extrudable Explosive: caulking-gun cartridge",
+			"reference": "HT187",
+			"notes": "1lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 640,
+			"weight": "1.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "e8u51C01APv4xRW3Y",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "evDrES_B2KhxkyysQ"
+			},
+			"description": "Cigarette Lighter",
+			"reference": "ACT1:26",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eMlLrD2z_cjSRUky2",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eH-kPXnvfVGFzZf6f"
+			},
+			"description": "Foam Explosive: aerosol can",
+			"reference": "HT187",
+			"notes": "0.9lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eCZs5cKCLRPEjcnW1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "eaG8Kk-IuTq9sUF6r"
+			},
+			"description": "Exploder",
+			"reference": "ACT1:26",
+			"notes": "Detonates up to 50 blasting caps.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 800,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "ezI7ULX4xz-nRKYM5",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "e1sieXGZvpVt1fMQp"
+			},
+			"description": "Extrudable Explosive: toothpaste tube",
+			"reference": "HT187",
+			"notes": "0.25lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eZWCBxpgSLHHY-MXf",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Explosives.eqp",
+				"id": "ePHrq72p47Gze61U5"
+			},
+			"description": "Caulking Gun",
+			"reference": "HT187",
+			"notes": "You can use it with Extrudable Explosives.",
+			"tech_level": "8",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 480,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eOXeVxXkPM0LQoiUZ",
+			"description": "Plastex B",
+			"reference": "UT88",
+			"notes": "REF4",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

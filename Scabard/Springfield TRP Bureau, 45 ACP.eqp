@@ -1,0 +1,87 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "ba5059c6-9007-4fc7-982d-cc73650b22ac",
+			"type": "equipment",
+			"description": "Springfield TRP Bureau, .45 ACP",
+			"reference": "TS58",
+			"notes": "No lanyard ring, Fine (accurate)",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Pistols",
+				"Weapons"
+			],
+			"quantity": 1,
+			"value": 38400,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "86ff2998-58ad-4d36-9cd2-0c36fdcef71f",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "3",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 13,
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "6df30d3c-1999-409c-9b87-133d6f0e701b",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Springfield TRP Magazine",
+			"reference": "TS57",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition",
+				"Magazine"
+			],
+			"quantity": 1,
+			"value": 432,
+			"weight": "0.5 lb",
+			"max_uses": 8,
+			"uses": 8,
+			"equipped": true,
+			"calc": {
+				"extended_value": 432,
+				"extended_weight": "0.5 lb"
+			}
+		}
+	]
+}

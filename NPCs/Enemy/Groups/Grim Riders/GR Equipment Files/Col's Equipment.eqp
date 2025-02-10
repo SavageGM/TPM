@@ -1,0 +1,682 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "30733a59-683c-464c-8546-4c30a97876e0",
+			"type": "equipment",
+			"description": "Grapnel",
+			"reference": "B288",
+			"notes": "Supports 300 lbs; throw to STx2 yards",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a0b3d371-20fd-4748-917a-aaa3cefc2ecf",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "d835564d-8c5f-4eed-969a-9e46949daafc",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "841c0925-2b29-41d0-a762-ab341aef06ca",
+							"type": "equipment",
+							"description": "Candy bar",
+							"reference": "UT38",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 1,
+							"weight": "0.125 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 1,
+								"extended_weight": "0.125 lb"
+							}
+						},
+						{
+							"id": "2105a53f-4ff0-4a4c-8799-e3538480788d",
+							"type": "equipment",
+							"description": "Food tablets",
+							"reference": "UT38",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 5,
+							"weight": "0.25 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 5,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "e93f76c4-6dfc-466d-99ed-5900880558b2",
+							"type": "equipment",
+							"description": "Marking pen",
+							"reference": "UT38",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 4,
+							"weight": "0.0625 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 4,
+								"extended_weight": "0.0625 lb"
+							}
+						},
+						{
+							"id": "e074dc2a-126d-43b0-b727-a23e01634880",
+							"type": "equipment",
+							"description": "Penlight",
+							"reference": "UT74",
+							"notes": "5-yard beam. 2A/24hr.",
+							"tech_level": "9",
+							"tags": [
+								"Housing Tools and Survival Gear"
+							],
+							"quantity": 1,
+							"value": 3,
+							"weight": "0.1 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 3,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "c83f21d4-c7a8-485b-a26e-eba65cd4780d",
+							"type": "equipment",
+							"description": "Swiss army knife",
+							"reference": "UT38",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 10,
+							"weight": "0.125 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 10,
+								"extended_weight": "0.125 lb"
+							}
+						},
+						{
+							"id": "14b833b6-26bc-43a1-9698-136be1036d7e",
+							"type": "equipment",
+							"description": "Vacuum-proof sticky tape",
+							"reference": "UT38",
+							"notes": "150yd. x 2\"",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 2,
+							"weight": "0.125 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 2,
+								"extended_weight": "0.125 lb"
+							}
+						}
+					],
+					"description": "Pocket Pack",
+					"reference": "UT38",
+					"tech_level": "9",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "0.7875 lb"
+					}
+				},
+				{
+					"id": "3e997b98-f366-4ba4-94a8-0db045e5cc5c",
+					"type": "equipment",
+					"description": "Heavy Flashlight",
+					"reference": "UT74",
+					"notes": "50-yard beam. 2B/24hr.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food",
+						"Melee Weapon"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "0991f81e-9b78-4e74-8c37-19dfd0d87c93",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw"
+							},
+							"strength": "6",
+							"usage": "Swung",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Sword!"
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						},
+						{
+							"id": "5b4404be-7a23-47dc-b233-42ae1bd9c5e8",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"strength": "6",
+							"usage": "Thrust",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Sword!"
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "d402c1d5-2894-4acc-a33f-1d4920965b6c",
+					"type": "equipment",
+					"description": "Shovel, Folding",
+					"reference": "HT25",
+					"notes": "Holdout -4",
+					"tech_level": "6",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "b148f6c6-b2da-45c0-bee8-caf3a07cd202",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "2"
+							},
+							"strength": "11",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Axe/Mace",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "sw+2 cut"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "d3e4e31b-3ac6-4be6-bc95-44a0cd4196a1",
+					"type": "equipment",
+					"description": "3/4\" Rope",
+					"reference": "UT81",
+					"notes": "Per yard. Supports 16,000lbs.",
+					"tech_level": "9",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"quantity": 50,
+					"value": 3,
+					"weight": "0.4 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 150,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "c661b3a4-7e20-4fac-bee7-03beb9c65b12",
+					"type": "equipment",
+					"description": "Survival Rations",
+					"reference": "UT73",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"quantity": 8,
+					"value": 5,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "4 lb"
+					}
+				}
+			],
+			"description": "Backpack, Frame",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 345,
+				"extended_weight": "38.7875 lb"
+			}
+		},
+		{
+			"id": "9b8e7e59-00f1-4c21-9c4f-c77a74d96dd1",
+			"type": "equipment",
+			"description": "Combat Hardsuit",
+			"reference": "UT179",
+			"notes": "partial, no groin, legs, or feet, +1 SM",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "c23a68bd-d958-41f9-9713-e819a9f388f7",
+					"type": "eqp_modifier",
+					"name": "SM +1",
+					"reference": "UT16",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_final_weight",
+					"disabled": true,
+					"cost": "+1 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "75af995e-18aa-4618-8475-606d9155e6d4",
+					"type": "eqp_modifier",
+					"name": "Tech level cost modifier",
+					"disabled": true,
+					"tech_level": "9",
+					"cost": "x32"
+				},
+				{
+					"id": "8cffb5b7-bd27-405d-a3ff-af5600d1525a",
+					"type": "eqp_modifier",
+					"name": "Coverage",
+					"reference": "UT175",
+					"disabled": true,
+					"cost": "x0.45",
+					"weight": "-55%"
+				}
+			],
+			"quantity": 1,
+			"value": 288000,
+			"weight": "27 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 30
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 288000,
+				"extended_weight": "27 lb"
+			}
+		},
+		{
+			"id": "f87bf7fd-cdaf-47e9-80f2-d9d6e894e0ee",
+			"type": "equipment",
+			"description": "Scrap Greatsword",
+			"reference": "LT56",
+			"notes": "+1 SM",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 1800,
+			"weight": "15.75 lb",
+			"weapons": [
+				{
+					"id": "0f7d77b2-d409-450d-951e-e2050ef16153",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "5"
+					},
+					"strength": "15†",
+					"usage": "Swing",
+					"reach": "1-3",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 17,
+						"damage": "4d+5 cut",
+						"parry": "12"
+					}
+				},
+				{
+					"id": "7d6650ff-26ef-4498-bc9c-58c246ef1694",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "15†",
+					"usage": "Thrust",
+					"reach": "3",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 17,
+						"damage": "2d+3 cr",
+						"parry": "12"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1800,
+				"extended_weight": "15.75 lb"
+			}
+		},
+		{
+			"id": "40dea8b2-3688-4856-bbe2-336a3270df14",
+			"type": "equipment",
+			"description": "Harpoon",
+			"reference": "LT72",
+			"notes": "Tethered. See pp. B276, B411. SM +1, Rocket Striker",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"quantity": 2,
+			"value": 1260,
+			"weight": "14.5 lb",
+			"weapons": [
+				{
+					"id": "626a8b2e-c2c1-455e-a455-db908065b28a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "7"
+					},
+					"strength": "11",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon"
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "2d+7 imp",
+						"range": "22/33"
+					}
+				},
+				{
+					"id": "70f63072-7df4-40eb-b8fb-bb68d6e304a9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1d+6"
+					},
+					"strength": "11",
+					"usage": "Thrown (Rocket Striker)",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon"
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "3d+6 imp",
+						"range": "22/33"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 2520,
+				"extended_weight": "29 lb"
+			}
+		}
+	]
+}

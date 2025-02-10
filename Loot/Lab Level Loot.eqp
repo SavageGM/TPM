@@ -1,0 +1,419 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "a5c3066b-5962-4619-9dc7-448f9e2da518",
+			"type": "equipment",
+			"description": "Book Reader",
+			"reference": "UT51",
+			"notes": "2A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"quantity": 10,
+			"value": 640,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b20da1f5-bea3-4b26-9683-bffbbd7111c5",
+			"type": "equipment",
+			"description": "Data Player",
+			"reference": "UT51",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"quantity": 10,
+			"value": 160,
+			"weight": "0.05 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "c00521d0-7f1a-44a6-92cf-8f467e3b7593",
+			"type": "equipment",
+			"description": "Data Bank",
+			"reference": "UT51",
+			"notes": "Per 100TB.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"quantity": 5,
+			"value": 3200,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "588367f8-40d5-4c66-b8fc-641579c31ac1",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "82ba8d7e-953e-4996-af99-d520887fd30c",
+					"type": "equipment",
+					"description": "Food Paste",
+					"reference": "UT73",
+					"notes": "One day's supply.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"quantity": 60,
+					"value": 320,
+					"weight": "0.75 lb",
+					"calc": {
+						"extended_value": 19200,
+						"extended_weight": "45 lb"
+					}
+				}
+			],
+			"open": true,
+			"description": "BX50 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 10,
+			"value": 270,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "50 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 194700,
+				"extended_weight": "600 lb"
+			}
+		},
+		{
+			"id": "5a458fd9-b57d-4a36-97e5-0847b613dcb5",
+			"type": "equipment",
+			"description": "Electronics Repair Toolkit",
+			"reference": "UT82",
+			"notes": "10A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 3,
+			"value": 38400,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 115200,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "902a102a-dc88-4b0a-a08b-6b91ea334ce1",
+			"type": "equipment",
+			"description": "Personal Computer",
+			"reference": "UT22",
+			"notes": "Complexity 5. 100TB. 2C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"quantity": 1,
+			"value": 32000,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "810fb263-70b4-4f4f-84f6-b7dba5b2d570",
+			"type": "equipment",
+			"description": "Small Computer",
+			"reference": "UT22",
+			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "3c1400eb-2e86-4d44-90a6-9f3f99671c03",
+			"type": "equipment",
+			"description": "Optical Cable",
+			"reference": "UT43",
+			"notes": "\"Quantity\" represents yards.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"quantity": 1000,
+			"value": 3.2,
+			"weight": "0.01 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "a22e844b-b3a2-449f-a6ed-cce7e1eebb00",
+			"type": "equipment",
+			"description": "Cable Jack",
+			"reference": "UT42",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"quantity": 100,
+			"value": 160,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8775f80a-9ff9-4c66-a202-e1b4cf304340",
+			"type": "equipment",
+			"description": "Sensor Wire Fence",
+			"reference": "UT102",
+			"notes": "15-yard coil.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"quantity": 10,
+			"value": 4800,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "bff7ce40-3d15-43b8-9b7f-a7c8d6a2dfa4",
+			"type": "equipment",
+			"description": "Sniper Railgun, 7mm",
+			"reference": "UT142",
+			"notes": "D/30 shots.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 4,
+			"value": 18000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "0dbeca73-ad05-440f-a18a-6fbcad16eed8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6dx2",
+						"armor_divisor": 3
+					},
+					"strength": "11B†",
+					"accuracy": "7+3",
+					"range": "2,400/10,000",
+					"rate_of_fire": "1",
+					"shots": "30(3)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx2(3) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "80 lb"
+			}
+		},
+		{
+			"id": "265dfaef-f87f-4548-8da6-214514c11c10",
+			"type": "equipment",
+			"description": "7mm Integrated Railgun Magazine",
+			"notes": "Disposable magazine contains 30 rounds 7mm EMG ammo and a non-rechargeable D cell",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Magazine"
+			],
+			"quantity": 1,
+			"value": 445.4,
+			"weight": "6.4 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 445.4,
+				"extended_weight": "6.4 lb"
+			}
+		},
+		{
+			"id": "5bf10fb7-3ce7-4a4b-871d-5f4b5cb4d35f",
+			"type": "equipment",
+			"description": "Heavy Electrolaser",
+			"reference": "UT120",
+			"notes": "External D-cell.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 4,
+			"value": 20000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "8f542939-88c8-4602-b99a-5980cd1a7530",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-6 (2) aff"
+					},
+					"strength": "10†",
+					"accuracy": "8",
+					"range": "400/1,100",
+					"rate_of_fire": "1",
+					"shots": "72(3)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-6 (2) aff"
+					}
+				},
+				{
+					"id": "003cb5cb-b7d7-4035-982e-25a63d097b47",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "80 lb"
+			}
+		},
+		{
+			"id": "f4cf1d40-ade3-4d39-b965-05c237e0a17b",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "67a32158-9839-4251-9af6-d888cbca4246",
+					"type": "equipment",
+					"description": "D cell",
+					"reference": "UT19",
+					"tech_level": "9",
+					"tags": [
+						"Power"
+					],
+					"quantity": 10,
+					"value": 3200,
+					"weight": "5 lb",
+					"calc": {
+						"extended_value": 32000,
+						"extended_weight": "50 lb"
+					}
+				}
+			],
+			"open": true,
+			"description": "BX50 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 270,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "50 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 32270,
+				"extended_weight": "65 lb"
+			}
+		}
+	]
+}

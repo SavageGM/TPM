@@ -1,0 +1,3267 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "edN9MYOfynrEaxBQ9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eW-u6sOZVDKthoa0o"
+			},
+			"description": "Life Jacket",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 640,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "edDgf4h3ErTRoREnW",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e6mmTjbinTsDwNHcr"
+			},
+			"description": "Magnetized Plates",
+			"reference": "UT187",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eNzdIyth2Fa3AaWb7",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eJkd1phT2KM7KNwd3"
+			},
+			"description": "Mind Shield Circuitry",
+			"reference": "UT188",
+			"notes": "2B/100hr.",
+			"tech_level": "9^",
+			"tags": [
+				"Defenses"
+			],
+			"value": 32000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e-3FdJvfqxhWBUJ8W",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eOb8aJhWC0ww357IQ"
+			},
+			"description": "Mind Shield Helmet",
+			"reference": "UT188",
+			"notes": "2B/100hr.",
+			"tech_level": "9^",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 32000,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eA4k2SyUA9LHrmDcL",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eQXb9IqPiJePZji9e"
+			},
+			"description": "Nasal Filter Plugs",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "et9DA2eyInSFChLws",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e8q0pvMyNO6SvigRJ"
+			},
+			"description": "Near Miss Indicator",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 32000,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Vision to locate enemy fire",
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ey0N07fge66wj51wO",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eOmrk1Fwj0p4h1nUC"
+			},
+			"description": "Personal Radar/Laser Detector",
+			"reference": "UT188",
+			"notes": "A/10 days.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ersLDj1GP6Wb2lHqG",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eHl8GkKSH5C7Aqg_d"
+			},
+			"description": "Suit Patches",
+			"reference": "UT188",
+			"notes": "For battlesuits. Packet of ten.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 320,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eU8xkBTpxKUW6zWTm",
+			"description": "Ablative Jacket",
+			"reference": "UT174",
+			"notes": "DR+20 vs. burning or crushing explosive damage inflicted by any type of laser. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 14400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eqR2Wq7Sa6Bua7UpW",
+			"description": "Ablative Suit",
+			"reference": "UT174",
+			"notes": "DR+20 vs. burning or crushing explosive damage inflicted by any type of laser. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 38400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "exSoa_NCTs45Nvc_N",
+			"description": "Ablative Trousers",
+			"reference": "UT174",
+			"notes": "DR+20 vs. burning or crushing explosive damage inflicted by any type of laser. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 8960,
+			"weight": "2.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8960,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "eROtWD5uTFkRYsftx",
+			"description": "Air Mask",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ena70CVdZoZDxL1Nz",
+			"description": "Armored Shades",
+			"reference": "UT176",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eA4menmt6DLB8aGLn",
+			"description": "Artificial Grill",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 64000,
+			"weight": "25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eOILkympOgHAR2QRY",
+			"description": "Assault Boots",
+			"reference": "UT173",
+			"notes": "DR+6 vs. piercing and cutting.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eIGwl0c3OHQJuXZI4",
+			"description": "Bubble Helmet",
+			"reference": "UT179",
+			"notes": "B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 64000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eoqBuvroERD_uyQ2B",
+			"description": "Civilian Vacc Suit",
+			"reference": "UT179",
+			"notes": "Flexible. 2C/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 320000,
+			"weight": "25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eOGCr-VxfmVf6d_rU",
+			"description": "Combat Hardsuit",
+			"reference": "UT179",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 320000,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eQEAT11Tb5xIOuyU1",
+			"description": "Combat Infantry Helmet",
+			"reference": "UT179",
+			"notes": "B/12hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 64000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e4suqwZYHDAzEndOv",
+			"description": "Combat Walker",
+			"reference": "UT186",
+			"notes": "Bad Grip 2. E/24hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 9600000,
+			"weight": "800 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 80
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 80
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600000,
+				"extended_weight": "800 lb"
+			}
+		},
+		{
+			"id": "ekFvOQT2Z5JdubwG5",
+			"description": "Desert Environment Suit",
+			"reference": "UT178",
+			"notes": "Flexible. C/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eMKEi2b_-uMk3RnV4",
+			"description": "Drysuit",
+			"reference": "UT178",
+			"notes": "Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 6400,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "epEv9hshVep3xoM7t",
+			"description": "Filter Mask",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eLW5cXlAcQ7Vz5NtG",
+			"description": "Heatsuit",
+			"reference": "UT178",
+			"notes": "Flexible. C/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 16000,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e0IMMDXQ6mU1Wt7Rc",
+			"description": "Heavy Clamshell",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 28800,
+			"weight": "18 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 45
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 45
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "eXUgz6mdnXQlrturD",
+			"description": "Light Clamshell",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 19200,
+			"weight": "12 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 30
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eRm7KCwrVkTWZ9l9a",
+			"description": "Light Infantry Helmet",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 8000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 18
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e5idmg3Khqa9YLlzM",
+			"description": "Light Infantry Helmet: Visor",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e4volRNJhFxxXkPnZ",
+			"description": "Marine Combat Walker",
+			"reference": "UT186",
+			"notes": "E/24hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 10240000,
+			"weight": "900 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 80
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 80
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10240000,
+				"extended_weight": "900 lb"
+			}
+		},
+		{
+			"id": "eRY8Kq481Sc-Ar0Ne",
+			"description": "Powered Combat Armor",
+			"reference": "UT186",
+			"notes": "Super Jump 1. E/18hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 2560000,
+			"weight": "150 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 10
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 10
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2560000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "e2X9j-jXz_qe9zGJ4",
+			"description": "Powered Combat Armor: Helmet",
+			"reference": "UT186",
+			"notes": "C/18hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 320000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e34-M-ZViyYevFsDo",
+			"description": "Protective Suit",
+			"reference": "UT178",
+			"notes": "Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ejzzsztb9YFCKepV1",
+			"description": "Reflex Bodysuit",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 28800,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e0ITksbJ0Hev461Qp",
+			"description": "Reflex Gloves",
+			"reference": "UT172",
+			"notes": "DR+4 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 960,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ed72Yop9YwKYjV-Vw",
+			"description": "Reflex Jacket",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 14400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eAZ5h4VvvjCi8N2Wx",
+			"description": "Reflex Suit",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 38400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eiszSJr5-G5cGzums",
+			"description": "Reflex Tacsuit",
+			"reference": "UT178",
+			"notes": "Flexible. Double DR vs. cutting and piercing damage. C/12hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 96000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eJxgGj3kppvsR_tWC",
+			"description": "Reflex Tactical Vest",
+			"reference": "UT173",
+			"notes": "DR+11 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 28800,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e0ouIK-AJ_0Bh58MO",
+			"description": "Reflex Trousers",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 8960,
+			"weight": "2.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8960,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "eJOUwc_JdmrzyOZm9",
+			"description": "Reflex Vacc Suit",
+			"reference": "UT179",
+			"notes": "Flexible. DR+10 vs. piercing and cutting damage. 2C/24hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 384000,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 384000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "esTlTIwwW1i_lzzYv",
+			"description": "Reflex Vest",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 9600,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "exGBXyg-4-NYDy_Vc",
+			"description": "Respirator",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 9600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eT6XsNyxbmtGcyQiu",
+			"description": "Skinsuit",
+			"reference": "UT179",
+			"notes": "Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 48000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ec7Om71El0TCq1iD4",
+			"description": "Space Armor",
+			"reference": "UT179",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 640000,
+			"weight": "45 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "ed2cn4g-gkasHkavI",
+			"description": "Space Combat Helmet",
+			"reference": "UT179",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 96000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 30
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "e_wh1VFmB3OxCmT3L",
+			"description": "Space Combat Walker",
+			"reference": "UT186",
+			"notes": "2E/48hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 10560000,
+			"weight": "950 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 120
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 80
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 80
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10560000,
+				"extended_weight": "950 lb"
+			}
+		},
+		{
+			"id": "e0-Lo-b70iuEou8BB",
+			"description": "Trauma Plates for Reflex Tactical Vest",
+			"reference": "UT173",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 19200,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 34
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 34
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e9Eo1tdwz7Qk91Dt8",
+			"description": "Visored Space Helmet",
+			"reference": "UT179",
+			"notes": "B/24hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 64000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "epiwWXvEXqk3paF9S",
+			"description": "MAD Mk IV Battlesuit",
+			"reference": "PY92:19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 10240000,
+			"weight": "850 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"specialization": "cut",
+					"amount": 140
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 160
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "st",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "st",
+					"amount": 30
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10240000,
+				"extended_weight": "850 lb"
+			}
+		}
+	]
+}

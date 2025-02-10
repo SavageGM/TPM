@@ -1,0 +1,178 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "28ffb8cc-40fb-4794-a42e-0b30b1fbb0ac",
+			"type": "equipment",
+			"description": "Pickled vegetables, jar",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "c71957e3-a00d-4a33-963c-3490a466437c",
+			"type": "equipment",
+			"description": "Wine, bottle 750ml",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "5fcd3a1f-9d71-4e45-8307-92e9ede9d580",
+			"type": "equipment",
+			"description": "Condiment, jar",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "94e6d600-ecb6-4736-964e-6be68af186fe",
+			"type": "equipment",
+			"description": "Condiment, bottle",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.75 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "ec0b608a-6da8-4903-9921-d18de7c32290",
+			"type": "equipment",
+			"description": "Vegetable oil, gal jug",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs",
+				"Fuel"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "8 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "6dae87cf-1d31-48ee-b03b-d1eb1c5ffb88",
+			"type": "equipment",
+			"description": "Vinegar, gal jug",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "8 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "f2a9c5fb-0ec1-475e-a80e-15ed00a6b6d1",
+			"type": "equipment",
+			"description": "Vegetable oil, qt bottle",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs",
+				"Fuel"
+			],
+			"quantity": 1,
+			"value": 7.5,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 7.5,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "0e37ce3e-ac66-4223-b4ae-aaa6fd34fafc",
+			"type": "equipment",
+			"description": "Vinegar, qt bottle",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "c401cce2-8b75-4ba2-941e-c44c45b7018b",
+			"type": "equipment",
+			"description": "Bottle of Liquor",
+			"reference": "HT34",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2.5 lb"
+			}
+		}
+	]
+}

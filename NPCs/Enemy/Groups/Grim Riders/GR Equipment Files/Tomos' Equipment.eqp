@@ -1,0 +1,504 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "2cf21da1-e5aa-4b5f-9394-3b7c31902ccb",
+			"type": "equipment",
+			"description": "Benelli M4 Super 90, 12G 3\"",
+			"reference": "HT104",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Shotgun"
+			],
+			"quantity": 1,
+			"value": 23520,
+			"weight": "8.3 lb",
+			"weapons": [
+				{
+					"id": "09bd000d-c285-4a1a-b6db-d31c6a70e90e",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"usage": "Shot",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x9",
+					"shots": "6+1(2i)",
+					"bulk": "-5",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 17,
+						"damage": "1d+1 pi"
+					}
+				},
+				{
+					"id": "00a7a4b6-51f6-46e7-98e7-1c3275bbd932",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "6d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"usage": "APDS",
+					"accuracy": "4",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "6+1(2i)",
+					"bulk": "-5*",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 17,
+						"damage": "6d(2) pi+"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 23520,
+				"extended_weight": "8.3 lb"
+			}
+		},
+		{
+			"id": "65e72f19-f82b-4033-ad7d-a5cb3cc9e12e",
+			"type": "equipment",
+			"description": "Compass",
+			"reference": "HT52",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "07ad01ca-d676-47d7-86bd-0f701c1a82af",
+			"type": "equipment",
+			"description": "Trench Knife",
+			"reference": "HT200",
+			"notes": "Apply Brawling or Karate damage bonuses.",
+			"tech_level": "6",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 180,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "bed21d4b-8170-4a6a-a114-f5ce5e447abc",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"level": 14,
+						"damage": "1d cr",
+						"parry": "11"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "8ec4cb85-584b-4044-9260-f04c75e1fc7a",
+			"type": "equipment",
+			"description": "Spotting Scope",
+			"reference": "HT47",
+			"notes": "30x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "6f770c87-09b8-4127-bae1-154045956c7e",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "3c74cde7-56f3-4179-a44a-92858ead02ec",
+					"type": "equipment",
+					"description": "12-gauge 2.75\" (18.5x70mmR)",
+					"reference": "HT176",
+					"notes": "Light cased. APDS",
+					"tech_level": "6",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Warheads"
+					],
+					"quantity": 25,
+					"value": 1.5,
+					"weight": "0.11 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 37.5,
+						"extended_weight": "2.75 lb"
+					}
+				},
+				{
+					"id": "595c5d84-2d00-4e9f-9f9c-0e0380d4f91a",
+					"type": "equipment",
+					"description": "12-gauge 2.75\" (18.5x70mmR)",
+					"reference": "HT176",
+					"notes": "Light cased. Shotshell.",
+					"tags": [
+						"Ammunition",
+						"Warheads"
+					],
+					"quantity": 20,
+					"value": 0.5,
+					"weight": "0.11 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "2.2 lb"
+					}
+				}
+			],
+			"description": "Cartridge Bandoleer",
+			"reference": "HT54",
+			"notes": "Holds 50 rounds.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"modifiers": [
+				{
+					"id": "f224eb04-7474-4176-a782-d281fa64efc0",
+					"type": "eqp_modifier",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				},
+				{
+					"id": "3f2641a3-f9a5-47d5-aab6-cef6b41fdd23",
+					"type": "eqp_modifier",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 77.5,
+				"extended_weight": "5.95 lb"
+			}
+		},
+		{
+			"id": "7d0b5a22-749e-4672-8e38-bbbff01ece85",
+			"type": "equipment",
+			"description": "Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "1fb5b6c3-5cea-40fd-9f2b-e9838d73f4ef",
+			"type": "equipment",
+			"description": "Integral Targeting Laser (Shoulder Arm)",
+			"reference": "HT157",
+			"notes": "750-yard range. 2xXS/100hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"modifiers": [
+				{
+					"id": "aa32c02f-c9fa-4252-b5d6-11bb90dc67ac",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 900,
+			"equipped": true,
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "5102057f-a3b8-4d61-8c14-e8e1bf72d0d8",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Patrol Sling",
+			"reference": "HT154",
+			"notes": "+1 Fast-Draw (Long Arm).",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "148abb24-daa2-4634-879a-dbb96b19e0d8",
+			"type": "equipment",
+			"description": "Sharp-Protective Gloves",
+			"reference": "HT69",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

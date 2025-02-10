@@ -1,0 +1,64 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "c9f617b6-61f5-41a7-a5f8-4e8988886585",
+			"type": "equipment",
+			"description": "Zetatech Combat 50, 12.7mmCLP-ETC",
+			"reference": "Custom",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Guns",
+				"Pistol",
+				"ETC"
+			],
+			"quantity": 1,
+			"value": 29312,
+			"weight": "1.02 lb",
+			"weapons": [
+				{
+					"id": "a3daf689-8da2-4cef-86b5-9728ac88bcf9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "6d"
+					},
+					"strength": "7",
+					"usage_notes": "Zetatech Combat 50 (TL9)\nDamage: 6d pi+\nAcc: 2\nRange: 480/3100\nWeight: 1.02/0.41\nShots: Removable A cell (UT19) provides power to fire 10 magazines of ammunition. Takes 3 seconds to reload.\nST 7\nBulk -3\nRcl 4\nMalf 18\nCost $916\nHP: 4\nHT: 10\nDR: 4\n \nInternal B Cell (UT19)\nHUD Link (TL9) (UT149)\n- Cable connection\n- Wireless connection via a micro radio communicator (TL9) (UT44)\nMultispectral Laser Sight (TL9) (UT149)\nDiagnostic Computer (TL9) (UT151)\nIron Sights\nAccessory Rail (Over barrel) (TL9) (UT150)\nMuzzle Weight (TL7) (TS76)\nMuzzle Port (TL7) (TS76)\n \nAmmunition\n12.7mmCLP-ETC (TL9)\nWPS 0.016\nCPS 10.24\nLC 3",
+					"accuracy": "2",
+					"range": "480/3,100",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi+"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 29312,
+				"extended_weight": "1.02 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,146 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "5f49daef-bfe7-4312-84d0-ece8a1446875",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm",
+			"reference": "UT142",
+			"notes": "Ewt listed",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Electromagnetic",
+				"Guns",
+				"Rifle"
+			],
+			"quantity": 1,
+			"value": 592000,
+			"weight": "13.7 lb",
+			"weapons": [
+				{
+					"id": "0dbeca73-ad05-440f-a18a-6fbcad16eed8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6dx2",
+						"armor_divisor": 3
+					},
+					"strength": "12B†",
+					"accuracy": "7+3",
+					"range": "2,400/10,000",
+					"rate_of_fire": "1",
+					"shots": "30(3)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx2(3) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 592000,
+				"extended_weight": "13.7 lb"
+			}
+		},
+		{
+			"id": "fe291725-1f87-41e0-a2e6-9dc2e63ef7d2",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm integrated magazine",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 3795.2,
+			"weight": "6.3 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3795.2,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "cf5710cb-7b52-4e92-bbd5-505a3bf227b7",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm integrated magazine",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 3795.2,
+			"weight": "6.3 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3795.2,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "edabf7ba-2444-4638-b724-d07cfdcbd7b8",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm integrated magazine",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 3795.2,
+			"weight": "6.3 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3795.2,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "4bf2127c-cba3-4b89-9bc6-7b638039e1dd",
+			"type": "equipment",
+			"description": "7mm",
+			"reference": "UT143",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 7.68,
+			"weight": "0.024 lb",
+			"calc": {
+				"extended_value": 7.68,
+				"extended_weight": "0.024 lb"
+			}
+		}
+	]
+}

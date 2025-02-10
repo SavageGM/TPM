@@ -1,0 +1,2735 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "5b6d6112-d325-4eb7-be80-95b4d3249743",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "6ea71295-96d6-4b26-8c01-09f0c905234c",
+					"type": "skill_container",
+					"open": true,
+					"children": [
+						{
+							"id": "3439281a-1a6e-4520-be86-b2dd7fcdce5c",
+							"type": "skill",
+							"name": "Immovable Stance",
+							"reference": "B201",
+							"tags": [
+								"Esoteric"
+							],
+							"difficulty": "dx/h",
+							"points": 1,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "trained by a master"
+										}
+									}
+								]
+							},
+							"calc": {}
+						},
+						{
+							"id": "9b68a000-7b71-424c-bfb3-9db17c423f72",
+							"type": "skill",
+							"name": "Mental Strength",
+							"reference": "B209",
+							"tags": [
+								"Esoteric"
+							],
+							"difficulty": "will/e",
+							"points": 1,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "weapon master"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "trained by a master"
+										}
+									}
+								]
+							},
+							"calc": {}
+						},
+						{
+							"id": "c41b98c2-8e0b-4b76-b258-d6c1a0c9b0d7",
+							"type": "skill",
+							"name": "Pressure Points",
+							"reference": "B215,MA58",
+							"tags": [
+								"Esoteric"
+							],
+							"difficulty": "iq/h",
+							"points": 1,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "weapon master"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "trained by a master"
+										}
+									}
+								]
+							},
+							"calc": {}
+						},
+						{
+							"id": "31b6083b-84b0-4c87-a14d-0b126ffbad69",
+							"type": "skill",
+							"name": "Push",
+							"reference": "B216,MA59",
+							"tags": [
+								"Esoteric"
+							],
+							"difficulty": "dx/h",
+							"points": 1,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "trained by a master"
+										}
+									}
+								]
+							},
+							"calc": {}
+						}
+					],
+					"name": "Cinematic Skills",
+					"calc": {}
+				},
+				{
+					"id": "b0cdab0e-8c54-439f-b063-0ee2ce6835c1",
+					"type": "skill_container",
+					"name": "Cinematic Techniques",
+					"calc": {}
+				},
+				{
+					"id": "48f086e7-57a0-405f-9960-331f818b4f46",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "1932d7fc-19ff-4d11-9fc6-0df303353b7c",
+							"type": "skill",
+							"name": "Judo",
+							"reference": "B203,MA57",
+							"notes": "Allows parrying two different attacks per turn, one with each hand.",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/h",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"calc": {}
+						}
+					],
+					"name": "Skill",
+					"calc": {}
+				},
+				{
+					"id": "594475cd-12d5-4167-a163-ee8d9cde2b6a",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "c0b7611a-c372-4fc7-921b-84803dd0914e",
+							"type": "technique",
+							"name": "Arm Lock",
+							"reference": "MA65",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "a",
+							"points": 1,
+							"default": {
+								"type": "skill",
+								"name": "@Grappling or Melee Weapon Skill@"
+							},
+							"limit": 4,
+							"calc": {}
+						},
+						{
+							"id": "add97335-eb04-4e2c-9f2d-392757f6db2b",
+							"type": "technique",
+							"name": "Breakfall",
+							"reference": "MA68",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "a",
+							"points": 1,
+							"default": {
+								"type": "skill",
+								"name": "Judo"
+							},
+							"limit": 5,
+							"calc": {}
+						},
+						{
+							"id": "15aba4f7-d93b-46f9-b54a-0fcfd107b9bd",
+							"type": "technique",
+							"name": "Disarming",
+							"reference": "MA70",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "h",
+							"points": 2,
+							"default": {
+								"type": "skill",
+								"name": "@Unarmed or Melee Weapon Skill@"
+							},
+							"limit": 5,
+							"calc": {}
+						},
+						{
+							"id": "4118f8cd-4aa7-4648-aa0e-7f3f937a71b7",
+							"type": "technique",
+							"name": "Ground Fighting",
+							"reference": "MA73",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "h",
+							"points": 2,
+							"default": {
+								"type": "skill",
+								"name": "@Combat Skill@",
+								"modifier": -4
+							},
+							"limit": 0,
+							"calc": {}
+						},
+						{
+							"id": "edfdc43b-64bf-42d2-acd4-42aadbe32f0e",
+							"type": "technique",
+							"name": "Low Fighting",
+							"reference": "MA77",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "h",
+							"points": 2,
+							"default": {
+								"type": "skill",
+								"name": "@Combat Skill@",
+								"modifier": -2
+							},
+							"limit": 0,
+							"calc": {}
+						},
+						{
+							"id": "79811021-10e7-430d-a160-198f334b8a91",
+							"type": "technique",
+							"name": "Trip",
+							"reference": "MA81",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Technique",
+								"Weapon"
+							],
+							"difficulty": "h",
+							"points": 2,
+							"default": {
+								"type": "parry",
+								"name": "Judo",
+								"modifier": -1
+							},
+							"limit": 0,
+							"calc": {}
+						}
+					],
+					"name": "Techniques",
+					"calc": {}
+				}
+			],
+			"name": "Aikijutsu",
+			"reference": "MA149",
+			"tags": [
+				"Martial Art",
+				"Style"
+			],
+			"calc": {}
+		},
+		{
+			"id": "339c346b-3320-4d37-add4-cdf5409efca0",
+			"type": "technique",
+			"name": "Arm Lock",
+			"reference": "B230,MA65",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Judo"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "c2c089cd-3bea-4491-8ca7-af48285acc22",
+			"type": "technique",
+			"name": "Arm Lock",
+			"reference": "B230,MA65",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Wrestling"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "41304e3a-b8dc-4f86-9985-eb4a4b540226",
+			"type": "technique",
+			"name": "Back Kick",
+			"reference": "B230,MA67",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Karate"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "b8798290-b16c-4c20-a41d-a87bf15b1bbc",
+			"type": "technique",
+			"name": "Choke Hold",
+			"reference": "B230,MA69",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Judo",
+				"modifier": -2
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Judo"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "56962fc6-c60b-4e2d-85e5-5f15c5919bec",
+			"type": "technique",
+			"name": "Choke Hold",
+			"reference": "B230,MA69",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Wrestling",
+				"modifier": -3
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Wrestling"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "7a00f490-bb38-4594-8e59-e464eadf040d",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"limit": 5,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "cefe3c20-b743-4778-a0cf-e9c18347b6a3",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Brawling"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "3b012363-ea6d-4963-a591-50a2e7f37e9e",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "654ab25a-bc96-4858-819d-d0ec931b5075",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "ddd9f7c4-2a6d-4c64-bc30-02f31063b89f",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "8212d099-4bbc-4fff-bb89-95f2399077a8",
+			"type": "technique",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "b03a99e9-b162-4cc4-a08c-05a7c27e5358",
+			"type": "technique",
+			"name": "Dual-Weapon Attack",
+			"reference": "B230,MA83",
+			"tags": [
+				"Cinematic Techniques",
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Guns",
+				"specialization": "Pistol",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "7d24580e-62e9-48a7-bb14-04dbc76840f7",
+			"type": "technique",
+			"name": "Elbow Strike",
+			"reference": "B230,MA71",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Brawling"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "b7c9d2b9-5452-4edb-a1bc-49123d755926",
+			"type": "technique",
+			"name": "Elbow Strike",
+			"reference": "B230,MA71",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -2
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Karate"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "80dc78eb-85c9-4099-a5a1-ad9acc1af7d1",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"limit": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "fe1147cd-cf44-483f-9d75-7d8dc37fcccd",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Brawling"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "b7125037-a7a7-4437-b944-6d009575984d",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "e75c65ef-baf2-4166-92b2-75f94ab28e4d",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Force Sword"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "205af5b0-0e05-43f7-902a-ff48fcb120a3",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "2d741c95-c0e4-43d5-9b59-1413e3447a3b",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "f95b0de0-2d71-40d3-ab40-949b9cb201fb",
+			"type": "technique",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"limit": 4,
+			"calc": {}
+		},
+		{
+			"id": "9120d9d7-05d3-420b-b936-04112ae4b945",
+			"type": "technique",
+			"name": "Finger Lock",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Arm Lock",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "b1d62ed5-fba6-423f-a922-64e8f48abdc2",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Combat Skill@",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Combat Skill@"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "516788e2-0894-44b9-bade-70de901c09aa",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "a0f304cb-f1b0-4b2f-966b-6f22b437e7c9",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "eba015d6-7b01-4e46-b250-d0e99b322cad",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "24f9d706-b6d7-49bb-9c83-1b27b78ba03e",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "9dee5416-7f1f-4870-ade7-6c1658be803f",
+			"type": "technique",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "acda0175-df61-467c-8b52-c13c2a3198e1",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "573802e4-b106-4f35-b5ca-ad2694e89a78",
+					"type": "technique",
+					"name": "Behind-the-Back Shot",
+					"reference": "GF25",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -7
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "08edcae0-3a78-47df-9c38-bb19d59fdcdc",
+					"type": "technique",
+					"name": "Cavalry Training",
+					"reference": "GF25",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -2
+					},
+					"limit": 0,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Riding"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "e2eb8b4f-09be-4102-b6b0-13ecb57b5878",
+					"type": "technique",
+					"name": "Close Hip Shooting",
+					"reference": "GF26",
+					"tags": [
+						"Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@"
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "ed5f4213-4e74-4a1c-a6bb-c91fd62844ea",
+					"type": "technique",
+					"name": "Close-Quarters Battle",
+					"reference": "GF26",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@"
+					},
+					"limit": 4,
+					"calc": {}
+				},
+				{
+					"id": "80920909-ca61-48b9-8fed-3375d25c282a",
+					"type": "technique",
+					"name": "Combat Riding",
+					"reference": "GF26",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Riding",
+						"specialization": "@Specialty@"
+					},
+					"limit": 4,
+					"calc": {}
+				},
+				{
+					"id": "348242f0-a4db-4ba8-b1d2-af9b4d606774",
+					"type": "technique",
+					"name": "Double-Loading",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Fast-Draw",
+						"specialization": "Ammo",
+						"modifier": -2
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "50d4fdda-5d3e-4344-bf4e-82e472d9650f",
+					"type": "technique",
+					"name": "Dual-Weapon Attack",
+					"reference": "B230,GF27,MA83",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "cac42776-16b6-4db2-a99e-b2c2aea40a16",
+					"type": "technique",
+					"name": "Fanning",
+					"reference": "GF27",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Guns",
+						"specialization": "Pistol",
+						"modifier": -4
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "5eec7fee-02db-43a7-965d-66db3e684168",
+					"type": "technique",
+					"name": "Fast-Draw Opponent's Weapon",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Fast-Draw",
+						"specialization": "@Specialty@",
+						"modifier": -5
+					},
+					"limit": 0,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Fast-Draw"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "44e40616-3ba1-4921-ac60-2fe790a4f8b5",
+					"type": "technique",
+					"name": "Fast-Draw Opponent's Weapon",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Judo",
+						"modifier": -5
+					},
+					"limit": 0,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Fast-Draw"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "4f8a109e-7f53-42b5-babf-b9da675389b4",
+					"type": "technique",
+					"name": "Fast-Draw Opponent's Weapon",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Wrestling",
+						"modifier": -5
+					},
+					"limit": 0,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Fast-Draw"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "b35169d4-b922-4b4e-b4e9-e8871e0375b4",
+					"type": "technique",
+					"name": "Fast-Firing",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"calc": {}
+				},
+				{
+					"id": "b3e77743-7fdb-4510-9afe-0371ba303b6e",
+					"type": "technique",
+					"name": "Feint",
+					"reference": "B231,GF27,MA73",
+					"tags": [
+						"Combat",
+						"Ranged Weapon",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@"
+					},
+					"limit": 4,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "@Shooting Skill@"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "@Specialty@"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "357b22af-b968-4fa8-982f-ab5c1989b320",
+					"type": "technique",
+					"name": "Flank Shot",
+					"reference": "GF27",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skil@",
+						"specialization": "@Specialty@",
+						"modifier": -2
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "50d72db5-9629-4255-ac32-8c609ed3d89c",
+					"type": "technique",
+					"name": "Hands-Free Riding",
+					"reference": "GF28",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Skill",
+						"modifier": -3
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "4975b6dd-52bb-4f53-b508-da284cfd332a",
+					"type": "technique",
+					"name": "Immediate Action",
+					"reference": "GF28",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "1580f9aa-db29-4440-a3c3-48c77e5805f8",
+					"type": "technique",
+					"name": "Immediate Action",
+					"reference": "GF28",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Armoury",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "779a0666-42ec-429a-88c5-237835d67a44",
+					"type": "technique",
+					"name": "Instant Arsenal Disarm",
+					"reference": "GF28",
+					"tags": [
+						"Cinematic",
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Armoury",
+						"specialization": "Small Arms",
+						"modifier": -5
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "4641757f-8f78-4116-9aaf-2a208f8d4a49",
+					"type": "technique",
+					"name": "Mounted Shooting",
+					"reference": "GF28",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": 0,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Riding"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Bicycling"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Driving"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Teamster"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "@Other Skill@"
+								}
+							}
+						]
+					},
+					"calc": {}
+				},
+				{
+					"id": "eadc30f3-292a-42e7-915b-f88736587ec6",
+					"type": "technique",
+					"name": "Precision Aiming",
+					"reference": "GF28",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -6
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "90d55ada-54bd-4f8f-bea4-d74fafdee1fa",
+					"type": "technique",
+					"name": "Quick Mount",
+					"reference": "GF29",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Acrobatics",
+						"modifier": -3
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "372bcc74-ed8c-40a8-b53d-5e7da7ddc193",
+					"type": "technique",
+					"name": "Quick Mount",
+					"reference": "GF29",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Jumping",
+						"modifier": -3
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "e5630818-3960-49f7-b21c-eff7cad3574c",
+					"type": "technique",
+					"name": "Quick Mount",
+					"reference": "GF29",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Riding",
+						"modifier": -3
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "2b423304-98e8-4f34-9664-0e07a881ec96",
+					"type": "technique",
+					"name": "Quick-Shot",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -6
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "2d88536a-de89-4ffb-ab33-fb616010b887",
+					"type": "technique",
+					"name": "Retain Weapon (@Shooting Skill@)",
+					"reference": "B232,MA78",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "dx"
+					},
+					"limit": 5,
+					"calc": {}
+				},
+				{
+					"id": "651cfc62-0f66-4e48-8e47-fdf8bc892d8b",
+					"type": "technique",
+					"name": "Staying Seated",
+					"reference": "GF29",
+					"tags": [
+						"Techinque"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Riding",
+						"specialization": "@Specialty@"
+					},
+					"limit": 4,
+					"calc": {}
+				},
+				{
+					"id": "40024ba0-0144-434c-874b-68b1be894080",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Arm)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -2
+					},
+					"limit": -1,
+					"calc": {}
+				},
+				{
+					"id": "260ce648-0b69-4e99-a084-ac9a1f4bd50a",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Eye)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -9
+					},
+					"limit": -4,
+					"calc": {}
+				},
+				{
+					"id": "42f78ee8-6693-42ec-9e70-c58497fd5b4e",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Face)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -5
+					},
+					"limit": -2,
+					"calc": {}
+				},
+				{
+					"id": "27082054-3afc-4293-8352-e283e0282782",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Foot)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": -2,
+					"calc": {}
+				},
+				{
+					"id": "6fbffd24-9f80-4b81-bafa-3236fd7e824a",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Groin)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -3
+					},
+					"limit": -1,
+					"calc": {}
+				},
+				{
+					"id": "6ab78387-8434-4cdb-8573-892e94d7848b",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Hand)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -4
+					},
+					"limit": -2,
+					"calc": {}
+				},
+				{
+					"id": "af3aaf61-142e-4455-a004-fc6436781a20",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Leg)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -2
+					},
+					"limit": -1,
+					"calc": {}
+				},
+				{
+					"id": "fc849ed0-8ae8-47e2-b504-35a0c62ea7c0",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Neck)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -5
+					},
+					"limit": -2,
+					"calc": {}
+				},
+				{
+					"id": "bc63d4ed-5557-4911-8e32-3ea6c1fa385f",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Skull)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -7
+					},
+					"limit": -3,
+					"calc": {}
+				},
+				{
+					"id": "3dd7c10c-7adf-4d90-b855-4ddd31f76fc8",
+					"type": "technique",
+					"name": "Targeted Attack (@Specialty@/Vitals)",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"specialization": "@Specialty@",
+						"modifier": -3
+					},
+					"limit": -1,
+					"calc": {}
+				},
+				{
+					"id": "36403457-45db-4b6e-a0ae-d52a5946f8f3",
+					"type": "technique",
+					"name": "Thumbing",
+					"reference": "GF29",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Guns",
+						"specialization": "Pistol",
+						"modifier": -2
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "6da0f308-d4ea-4fbd-b791-a964f917c045",
+					"type": "technique",
+					"name": "Two-Handed Thumbing",
+					"reference": "GF30",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Guns",
+						"specialization": "Pistol",
+						"modifier": -2
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "df55217b-4b01-465d-b79f-0baf6227a1df",
+					"type": "technique",
+					"name": "Whirlwind Attack",
+					"reference": "GF30",
+					"tags": [
+						"Cinematic Techniques",
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "@Shooting Skill@",
+						"modifier": -5
+					},
+					"limit": 0,
+					"calc": {}
+				},
+				{
+					"id": "cd5daedd-ce86-42ee-a593-7792149db843",
+					"type": "skill",
+					"name": "Zen Marksmanship (@Shooting Skill@)",
+					"reference": "GF24",
+					"tags": [
+						"Combat",
+						"Esoteric",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "iq/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Meditation"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "@Shooting Skill@"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 18
+								}
+							}
+						]
+					},
+					"calc": {}
+				}
+			],
+			"name": "Gun-Fu Skills \u0026 Techniques",
+			"calc": {}
+		},
+		{
+			"id": "119ae810-1791-4a03-868d-f57d3ff43cf0",
+			"type": "technique",
+			"name": "Horse Archery",
+			"reference": "B231,MA74",
+			"tags": [
+				"Animal",
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Bow",
+				"modifier": -4
+			},
+			"limit": 0,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "riding"
+						}
+					}
+				]
+			},
+			"calc": {}
+		},
+		{
+			"id": "b6115b24-b701-43d3-a682-0d0fcfecfd8d",
+			"type": "technique",
+			"name": "Impersonate",
+			"reference": "B233",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Mimicry",
+				"specialization": "Speech",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "d2a48805-6975-422c-a4a7-4fb4803392ea",
+			"type": "technique",
+			"name": "Jump Kick",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "1835dd5d-7f8a-460e-b63a-d8ceb3e2a5ff",
+			"type": "technique",
+			"name": "Kicking",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "44b27097-d859-4094-a8f7-040e1a9cba8a",
+			"type": "technique",
+			"name": "Kicking",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -2
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "42db923b-82a7-4ca9-8d77-c0d5bf450d12",
+			"type": "technique",
+			"name": "Knee Strike",
+			"reference": "B232,MA76",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -1
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "be140d10-213d-4b3a-8cd6-7553b6ed1860",
+			"type": "technique",
+			"name": "Knee Strike",
+			"reference": "B232,MA76",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -1
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "4eae8823-31c5-460f-9091-133fad2eb6e6",
+			"type": "technique",
+			"name": "Lifesaving",
+			"reference": "B233",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Outdoor",
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Swimming",
+				"modifier": -5
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "f33fb278-8fb8-48cf-a791-494196679e9d",
+			"type": "technique",
+			"name": "Motion-Picture Camera",
+			"reference": "B233",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Spy",
+				"Technical",
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Photography",
+				"modifier": -3
+			},
+			"calc": {}
+		},
+		{
+			"id": "0ef22c60-874a-4704-ad89-d03f4a3a78c6",
+			"type": "technique",
+			"name": "Neck Snap",
+			"reference": "B232,MA77",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "st",
+				"modifier": -4
+			},
+			"limit": 3,
+			"calc": {}
+		},
+		{
+			"id": "db8ebfd3-460c-4cc9-bd83-097b37ba5558",
+			"type": "technique",
+			"name": "No-Landing Extraction",
+			"reference": "B233",
+			"tags": [
+				"Technique",
+				"Vehicle"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Piloting",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "f74693e0-c81f-49d4-a9fa-c62b8ef6976c",
+			"type": "technique",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "6077f0f0-fdb8-4ddd-bd59-79db9096fda1",
+			"type": "technique",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Guns",
+				"specialization": "Pistol",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "40dd017b-5bdc-42f4-8838-8b7d247f7837",
+			"type": "technique",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Guns",
+				"specialization": "Pistol",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "389054da-dd8c-4d73-b9e9-e06ddd02e2ef",
+			"type": "technique",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "fb83f5bf-2419-45dc-b3ad-4485b2e931c7",
+			"type": "technique",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword",
+				"modifier": -4
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "2070c198-ca77-444b-90b1-4b067203dc7e",
+			"type": "technique",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Weapon Skill@"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "6c1478ce-d9e6-4a6c-8ed4-91fa8b16f247",
+			"type": "technique",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "c376adb8-3ce4-4cdc-a5e0-23599723a8ca",
+			"type": "technique",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "888ac290-8a37-474f-8382-b3fb0b55665e",
+			"type": "technique",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "a6af3013-6c83-48e3-b1a8-f76d54d569af",
+			"type": "technique",
+			"name": "Retain Weapon (@Ranged Weapon@)",
+			"reference": "B232,MA78",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "dx"
+			},
+			"limit": 5,
+			"calc": {}
+		},
+		{
+			"id": "2a4d792b-a47f-42b1-8a63-b5c52d09c38f",
+			"type": "technique",
+			"name": "Rope Up",
+			"reference": "B233",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Outdoor",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -2
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "38cf924e-aba4-4699-9891-c93c9c48203d",
+			"type": "technique",
+			"name": "Scaling",
+			"reference": "B233",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Outdoor",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "8dc8eb6d-1a7e-44e7-a51f-57d9033919e5",
+			"type": "technique",
+			"name": "Set Trap",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Explosives",
+				"specialization": "Demolition",
+				"modifier": -2
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "6762217f-a3e1-4959-8867-42b055a8f3a7",
+			"type": "technique",
+			"name": "Slip Handcuffs",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Escape",
+				"modifier": -5
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "bafedf84-c36d-42ea-ab2f-2ca702c686c9",
+			"type": "technique",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Two-Handed Weapon Skill@",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "02808bf9-ff3b-4705-81a3-3d0f55fd96fa",
+			"type": "technique",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Polearm",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "6a3a7da8-149e-4dcf-8bed-c394f10cbdf9",
+			"type": "technique",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Spear",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "877fba8b-232b-424c-abda-797aef075b8f",
+			"type": "technique",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Staff",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "ac27eaed-aeac-46e7-aed8-fbadb7b594ad",
+			"type": "technique",
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed Combat Skill@",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "0071dfaf-e931-4b33-bcce-99768590d9d8",
+			"type": "technique",
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Judo",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "11561544-c62e-41d1-b1ce-9e489824b8e6",
+			"type": "technique",
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "0ff4747a-41e5-4937-82a4-9b7bb0300297",
+			"type": "technique",
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Sumo Wrestling",
+				"modifier": -3
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "6e839757-0562-417a-ab40-008f490eff9f",
+			"type": "technique",
+			"name": "Whirlwind Attack",
+			"reference": "GF30",
+			"tags": [
+				"Cinematic Techniques",
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "@Shooting Skill@",
+				"modifier": -5
+			},
+			"limit": 0,
+			"calc": {}
+		},
+		{
+			"id": "8c9361a2-8629-4b8c-853c-d7d67bb91f02",
+			"type": "technique",
+			"name": "Work by Touch",
+			"reference": "B233",
+			"tags": [
+				"Criminal",
+				"Street",
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Lockpicking",
+				"modifier": -5
+			},
+			"limit": 0,
+			"calc": {}
+		}
+	]
+}

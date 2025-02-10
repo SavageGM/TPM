@@ -1,0 +1,950 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b01e33c6-1dfb-4e6d-ac93-6d3a5b6446e9",
+			"type": "equipment_container",
+			"description": "Charcoal-Filtered Canteen",
+			"reference": "HT53",
+			"notes": "1qt.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "b14d6a3f-2d2b-474a-af51-e6ac2741ebb2",
+			"type": "equipment_container",
+			"open": true,
+			"description": "5-Gallon Can",
+			"reference": "HT54",
+			"notes": "DR 3.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e3e5cd95-4b9f-4ba0-9766-957d3e9e284e",
+			"type": "equipment_container",
+			"open": true,
+			"description": "1-gallon plastic gas can",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "228c23d7-478c-41f5-a4d7-050525ad86df",
+			"type": "equipment_container",
+			"open": true,
+			"description": "20' Conex",
+			"reference": "HT54",
+			"notes": "LWt. 26.5 tons. 20'x8'x8'6\".",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"weight": "5000 lb",
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "5000 lb"
+			}
+		},
+		{
+			"id": "286484ca-c79d-46ab-a60c-f9378afdb0d8",
+			"type": "equipment_container",
+			"open": true,
+			"description": "40' Conex",
+			"reference": "HT54",
+			"notes": "LWt. 33.6 tons. 40'x8'x8'6\".",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"weight": "8000 lb",
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "8000 lb"
+			}
+		},
+		{
+			"id": "5b17744f-b10e-481d-9071-802b5be9ca6f",
+			"type": "equipment_container",
+			"open": true,
+			"description": "55-Gallon Drum",
+			"reference": "HT54",
+			"notes": "DR 3.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "55 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "55 lb"
+			}
+		},
+		{
+			"id": "7dd0f1fc-9bae-4557-9d4f-58f365046465",
+			"type": "equipment_container",
+			"description": "Attaché Case",
+			"reference": "HT31",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "fe84885e-b3eb-4e6d-908e-2243894b22ef",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Frame",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "acca7d76-9d98-455c-969f-9c6c064469d5",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Large",
+			"reference": "HT55",
+			"notes": "Holds 100lbs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "741d11c7-2b74-4f9a-bf32-0c81b7cd1b45",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "5c3ae957-5bad-4cf1-a5b3-e898fcc1332a",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Barrel",
+			"reference": "DF1:24",
+			"notes": "5 gal liquid, DR 1, HP 11",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 65,
+			"weight": "20 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 65,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "110a3228-44bd-4ed4-9be2-ca8bdc0bf095",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bottle",
+			"reference": "DF1:24",
+			"notes": "1 qt liquid, DR 1, HP 4",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1d572ed3-4568-4e27-b8a7-43612ad34726",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bottle",
+			"reference": "DF1:24",
+			"notes": "1 qt liquid, DR 1, HP 4 (see Glass Bottle)",
+			"tags": [
+				"Container",
+				"Storage"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "537ccf29-1d17-4992-a9df-ffbd5f322e4d",
+			"type": "equipment_container",
+			"description": "Bottle, Ceramic",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "7ca4ab49-1372-4d99-b3a4-bbeebc04e353",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bottle, Small",
+			"reference": "DF1:24",
+			"notes": "1 pt liquid, DR 1, HP 2",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "24ee7528-7271-4470-bb0d-eb4e80f061bd",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bottle, Small",
+			"reference": "DF1:24",
+			"notes": "1 pt liquid, DR 1, HP 2 (see Glass Bottle)",
+			"tags": [
+				"Container",
+				"Storage"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "d2066d7f-92a4-4440-bece-ed569901809c",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bucket",
+			"reference": "DF1:24",
+			"notes": "1 gal liquid, DR 1, HP 6",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "dc42a151-3bd5-4c7c-907f-6879e1026794",
+			"type": "equipment_container",
+			"description": "Camera Bag",
+			"reference": "HT43",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "24f764a4-5480-4428-985a-c06ffbf2e5e7",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Canteen",
+			"reference": "B288",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b7f9e28e-dda8-46d3-8f4b-6accfc09f4fe",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Chest, Wooden",
+			"reference": "DF1:24",
+			"notes": "400 lb, 5 ft², brackets for 2 poles, DR 2, HP 14",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "400 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "a41c8624-902b-43d2-9f1b-081a150c8f93",
+			"type": "equipment_container",
+			"description": "Cooler",
+			"reference": "HT57",
+			"notes": "Holds 16cf.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "f9941bec-cc19-422d-84b4-3d1a8188a88d",
+			"type": "equipment_container",
+			"description": "Hip Flask",
+			"reference": "HT31",
+			"notes": "Holds 1 pint. Filled weight.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "cb84864b-c322-46ff-8926-38a0e7fc1a68",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Load-Bearing Vest",
+			"reference": "HT54",
+			"notes": "Holds 20-30lbs.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "cb3fb8c5-082a-4b84-8d1d-5306f152960f",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Plastic Bottle",
+			"reference": "ATE1:30",
+			"notes": "Holds 1 pint",
+			"tech_level": "?",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.05 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e19148c4-c03c-449b-8f63-96fc29e5da3f",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Pouch",
+			"reference": "DF1:23",
+			"notes": "3 lb small items",
+			"tech_level": "1",
+			"tags": [
+				"Basic",
+				"Container",
+				"Portage",
+				"Storage"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "3 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "982b12a6-1a43-4a9d-a686-0d64917b2bb0",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Pouch, Small",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "3 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "d6ab4034-266b-4b73-8fb4-f69e57149282",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Purse, Small",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "a7c26668-bc95-4eed-87de-797319cd6bea",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Quick-Release Backpack",
+			"reference": "DF1:25",
+			"notes": "40 lb. Drop as Free Action. Fragile items break on 1 on 1d.",
+			"tags": [
+				"Adventure-Wear"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "3 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "7c810ca0-cecb-4c48-a43c-e55a08e9d6b6",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Sack",
+			"reference": "DF1:24",
+			"notes": "40 lb, DR 1, HP 5",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "3 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e56283a8-9cef-4133-bda2-5520c208e169",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Strongbox, Iron",
+			"reference": "DF1:23",
+			"notes": "Holds 40 lbs of coins or other small items; DR12, HP10",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "74458783-0464-49c5-b9e1-2eee23a6c797",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Suitcase, Hard",
+			"reference": "B288",
+			"notes": "DR4, with key lock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e2977e9c-a0db-4164-9614-ba8fa319a869",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Thermos Bottle",
+			"reference": "B288",
+			"notes": "Keeps 1 pint hot [24 hours] or cold [72 hours]",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "13a3fae9-4f8d-4f06-8814-7c29ce51643f",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Waist Pack",
+			"reference": "HT54",
+			"notes": "Holds 10lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "9d523216-d45b-4781-8c2d-bec0e1b81916",
+			"type": "equipment_container",
+			"description": "Water Pack",
+			"reference": "HT53",
+			"notes": "2qt",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "b7c5d08f-2b64-4d6a-9a64-ef10ac6a3c89",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Web Gear",
+			"reference": "HT54",
+			"notes": "Holds 20-30lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "229ec9c6-86ed-4e34-a93d-42e8e032899d",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Wineskin",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		}
+	]
+}

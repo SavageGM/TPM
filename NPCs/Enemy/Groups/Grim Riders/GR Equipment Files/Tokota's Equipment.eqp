@@ -1,0 +1,896 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "c487ac5f-80c0-4c8f-8c1f-5ec6559ed5e8",
+			"type": "equipment",
+			"description": "Multi-Tool",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "41b9fa78-7ed4-47fb-8974-d2531221c869",
+			"type": "equipment",
+			"description": "Sunglasses",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "c54f4a52-1406-4d60-9908-1dc59ccf45ab",
+					"type": "eqp_modifier",
+					"name": "SM -2",
+					"reference": "UT16",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_final_weight",
+					"cost": "+0 CF",
+					"weight": "+0 lb"
+				}
+			],
+			"quantity": 1,
+			"value": 40,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d4bc7dad-dffb-4a00-b886-2f1a57695f0c",
+			"type": "equipment",
+			"description": "Personal Dosimeter",
+			"reference": "HT49",
+			"notes": "2xXS/yr.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1920,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1920,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "dfda9de1-0749-45e9-bb26-f1b307f18dc2",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "747ca399-9a18-42e6-991c-cddd817e54f3",
+					"type": "equipment",
+					"description": "Tobacco",
+					"reference": "HT34",
+					"notes": "One pound lasts one month.",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 0.125,
+					"value": 6400,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 800,
+						"extended_weight": "0.125 lb"
+					}
+				},
+				{
+					"id": "a784c62b-50b7-4f5d-9753-0dda9a902d68",
+					"type": "equipment",
+					"description": "Cigarette Lighter",
+					"reference": "HT57",
+					"tech_level": "6",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 40,
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Tobacco Box",
+			"reference": "HT31",
+			"notes": "Holds 1-2oz.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"equipped": true,
+			"calc": {
+				"extended_value": 880,
+				"extended_weight": "0.125 lb"
+			}
+		},
+		{
+			"id": "20e78aeb-ad49-4eea-add0-17a3a6f11a42",
+			"type": "equipment",
+			"description": "Long Coat, Leather",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "e75ab1ab-41da-4c9e-9a50-2a3c050b5919",
+					"type": "eqp_modifier",
+					"name": "SM -2",
+					"reference": "UT16",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_final_weight",
+					"cost": "+0 CF",
+					"weight": "+0 lb"
+				}
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "93111872-e8b5-4ff1-8c3b-879476dcb174",
+			"type": "equipment",
+			"description": "FN BAR Magnum, .300 WM",
+			"reference": "HT120",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"quantity": 1,
+			"value": 7120,
+			"weight": "8.8 lb",
+			"weapons": [
+				{
+					"id": "b8a0792e-b00e-402b-9507-48901a7fa7be",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "8d+1"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1,600",
+					"rate_of_fire": "3",
+					"shots": "4+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 16,
+						"damage": "8d+1 pi"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 7120,
+				"extended_weight": "8.8 lb"
+			}
+		},
+		{
+			"id": "a937ddbe-e80f-4b1e-b918-39b49a688007",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "8a09cff9-f309-401a-86d1-52a3d7db1ec1",
+					"type": "equipment",
+					"description": ".300 Winchester Magnum (7.62x66mmB)",
+					"reference": "HT176",
+					"tech_level": "7",
+					"tags": [
+						"Ammunition",
+						"Warheads"
+					],
+					"quantity": 4,
+					"value": 12,
+					"weight": "0.068 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 48,
+						"extended_weight": "0.272 lb"
+					}
+				}
+			],
+			"description": "FN BAR Magnum, .300 WM 4-round magazine",
+			"reference": "HT120",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Ammo",
+				"Firearms",
+				"Magazine",
+				"Rifle"
+			],
+			"quantity": 3,
+			"value": 10.88,
+			"weight": "0.027 lb",
+			"weapons": [
+				{
+					"id": "b8a0792e-b00e-402b-9507-48901a7fa7be",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "8d+1"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1,600",
+					"rate_of_fire": "3",
+					"shots": "4+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 16,
+						"damage": "8d+1 pi"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 176.64,
+				"extended_weight": "0.897 lb"
+			}
+		},
+		{
+			"id": "d73f4718-6a75-445b-84d3-3a104831d49d",
+			"type": "equipment",
+			"description": "Holdout Pistol, 7.5mmCLP",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 7680,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "27c1421b-197e-4f30-a73d-245633b98b81",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "2d"
+					},
+					"strength": "6",
+					"accuracy": "1",
+					"range": "100/1,200",
+					"rate_of_fire": "3",
+					"shots": "18+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 16,
+						"damage": "2d pi-"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 7680,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "dbcf5c6d-41a7-447a-8e37-0fd74c4d8156",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "ed63604a-37b0-41ed-ac26-e4c9bc3b5157",
+					"type": "equipment",
+					"description": "7.5mmCLP",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Pistol"
+					],
+					"quantity": 18,
+					"value": 3.84,
+					"weight": "0.006 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 69.12,
+						"extended_weight": "0.108 lb"
+					}
+				}
+			],
+			"description": "Holdout Pistol, 7.5mmCLP Magazine",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Magazine",
+				"Ammo"
+			],
+			"quantity": 1,
+			"value": 17.28,
+			"weight": "0.011 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 86.4,
+				"extended_weight": "0.119 lb"
+			}
+		},
+		{
+			"id": "0cf74c36-4603-4835-8790-b10a0f34cee4",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "52679116-db0b-4ddb-b724-16891701bcc8",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "51814e34-c60d-4e27-b225-555eded1bfe9",
+							"type": "equipment",
+							"description": "Water, Clean (pint)",
+							"reference": "ATE1:30",
+							"tech_level": "0",
+							"quantity": 8,
+							"value": 1,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 8,
+								"extended_weight": "8 lb"
+							}
+						}
+					],
+					"description": "1-gallon plastic gas can",
+					"tech_level": "7",
+					"legality_class": "4",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 3,
+					"weight": "2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 11,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "27843b03-cf10-4667-a9da-51f797406c48",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "1ebc02c9-c053-4892-9310-89d1f1d713d2",
+							"type": "equipment",
+							"description": "Gasoline, 1 Gallon",
+							"reference": "B288",
+							"tech_level": "6",
+							"tags": [
+								"Camping and Survival Gear"
+							],
+							"quantity": 5,
+							"value": 250,
+							"weight": "6 lb",
+							"calc": {
+								"extended_value": 1250,
+								"extended_weight": "30 lb"
+							}
+						}
+					],
+					"description": "5-Gallon Can",
+					"reference": "HT54",
+					"notes": "DR 3.",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 6,
+					"value": 15,
+					"weight": "10 lb",
+					"calc": {
+						"extended_value": 7590,
+						"extended_weight": "240 lb"
+					}
+				},
+				{
+					"id": "036d326a-ee8f-4abf-a15b-cf43c9406130",
+					"type": "equipment",
+					"description": "Go-Bar",
+					"reference": "HT29",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 1400,
+					"weight": "17 lb",
+					"weapons": [
+						{
+							"id": "6f2021d2-beca-4c2b-843f-5580c0720707",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "4"
+							},
+							"strength": "13‡",
+							"reach": "1-2*",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "1d+4 cr"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 1400,
+						"extended_weight": "17 lb"
+					}
+				},
+				{
+					"id": "0703785d-fd0d-43b4-80f9-812ae0562f5c",
+					"type": "equipment",
+					"description": "Canned Food Crate",
+					"reference": "HT34",
+					"notes": "24 cans, 8 man-days",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 1200,
+					"weight": "30 lb",
+					"calc": {
+						"extended_value": 1200,
+						"extended_weight": "30 lb"
+					}
+				},
+				{
+					"id": "64d491b1-5af8-43e8-95bb-5df419663e74",
+					"type": "equipment",
+					"description": "Military Rations",
+					"reference": "HT35",
+					"notes": "One meal.",
+					"tech_level": "8",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 80,
+					"weight": "1.5 lb",
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "85728685-9f7f-4d6b-b6d2-2a8bec279652",
+					"type": "equipment",
+					"description": "Hacksaw",
+					"reference": "HT25",
+					"notes": "Using carbide or diamond toothed blade.",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 80,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "22aee15d-1b3a-4d47-84b8-6b1b2cbfbc16",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "-2",
+								"armor_divisor": 2
+							},
+							"usage": "Cut through metal",
+							"reach": "C",
+							"calc": {
+								"damage": "1d-2(2) cut"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ad16dd63-caba-4f9e-8542-e44fac2abd0d",
+					"type": "equipment",
+					"description": "Hammer",
+					"reference": "HT25",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 120,
+					"weight": "1.5 lb",
+					"weapons": [
+						{
+							"id": "27c639ca-2214-44bd-98ee-73d875054962",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "2"
+							},
+							"strength": "10",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0U",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Axe/Mace"
+								}
+							],
+							"calc": {
+								"damage": "1d+2 cr"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "30ef8d10-1011-471e-a79e-702ddcda18c1",
+					"type": "equipment",
+					"description": "Bolt Cutters",
+					"reference": "ATE1:29",
+					"notes": "Only cuts padlocks, chains, etc.",
+					"tech_level": "6",
+					"tags": [
+						"Tools"
+					],
+					"quantity": 1,
+					"value": 120,
+					"weight": "15 lb",
+					"weapons": [
+						{
+							"id": "113a04ff-78d5-4d4e-9a4d-1834061dfe5f",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"base": "8d",
+								"armor_divisor": 2
+							},
+							"usage": "Cut",
+							"reach": "C",
+							"calc": {
+								"damage": "8d(2) cut"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "15 lb"
+					}
+				},
+				{
+					"id": "d37daf39-76e3-4ec1-a073-80ae77821b67",
+					"type": "equipment",
+					"description": "Candy",
+					"reference": "HT34",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 5,
+					"weight": "0.5 lb",
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "6c24b2b9-889b-4232-82e6-9f9908d2ad11",
+					"type": "equipment",
+					"description": "Duct Tape",
+					"reference": "ATE1:29",
+					"notes": "60-yard roll",
+					"tech_level": "6",
+					"tags": [
+						"Tools"
+					],
+					"quantity": 1,
+					"value": 4,
+					"weight": "2 lb",
+					"calc": {
+						"extended_value": 4,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "6e7297b4-95cf-4e9d-a153-1373afda92ef",
+					"type": "equipment",
+					"description": "Rope, 1/2\"",
+					"reference": "HT56",
+					"notes": "\"Quantity\" represents yards. Supports 2 tons.",
+					"tech_level": "8",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 20,
+					"value": 144,
+					"weight": "0.2 lb",
+					"calc": {
+						"extended_value": 2880,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "43186860-e3aa-4b6f-9685-ad3c924d3f03",
+					"type": "equipment",
+					"description": "Bottle of Liquor",
+					"reference": "HT34",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "2.5 lb",
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "2.5 lb"
+					}
+				},
+				{
+					"id": "afec8635-27b7-47dd-b15b-0e04ccb1fa89",
+					"type": "equipment",
+					"description": "Solar-Powered Battery Recharger",
+					"reference": "ATE1:30",
+					"tech_level": "8",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 1600,
+					"weight": "2 lb",
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "d12dabfa-f595-4a9c-a344-ff69f2a332cb",
+					"type": "equipment",
+					"description": "Portable Tool Kit (Mechanic: Automobile)",
+					"reference": "HT24",
+					"tech_level": "8",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 4800,
+					"weight": "20 lb",
+					"calc": {
+						"extended_value": 4800,
+						"extended_weight": "20 lb"
+					}
+				}
+			],
+			"description": "Vehicle Contents",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19900,
+				"extended_weight": "348 lb"
+			}
+		}
+	]
+}

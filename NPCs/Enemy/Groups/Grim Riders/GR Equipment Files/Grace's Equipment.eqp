@@ -1,0 +1,587 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "3084eff4-c2e2-42b0-b6e5-371bde5a780e",
+			"type": "equipment",
+			"description": "Personal Defense Weapon, 5.7mmCL",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "6418cfe3-e376-4d3e-b152-56bc2b8a7f47",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "4d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "350/3,000",
+					"rate_of_fire": "10",
+					"shots": "100+1(5)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 16,
+						"damage": "4d pi-"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "7a78c249-fe75-46e9-bcd0-de449359add1",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "188a1acb-6a71-4f2b-b62a-07998071ab9d",
+					"type": "equipment",
+					"description": "5.7mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"PDW",
+						"Rifle"
+					],
+					"modifiers": [
+						{
+							"id": "aabb6257-6d80-49fa-9930-53ff0f5d104a",
+							"type": "eqp_modifier",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"disabled": true,
+							"cost": "x32"
+						}
+					],
+					"quantity": 100,
+					"value": 8.32,
+					"weight": "0.013 lb",
+					"calc": {
+						"extended_value": 832,
+						"extended_weight": "1.3 lb"
+					}
+				}
+			],
+			"description": "PDW 5.7mmCL Magazine",
+			"reference": "UT137",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition",
+				"Magazine",
+				"Pistol"
+			],
+			"quantity": 1,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 832,
+				"extended_weight": "1.31 lb"
+			}
+		},
+		{
+			"id": "2bbcac34-9737-49e1-8422-5482f46df700",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "da8d6d64-4ef9-447a-9014-38d0132e946e",
+					"type": "equipment",
+					"description": "5.7mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"PDW",
+						"Rifle"
+					],
+					"modifiers": [
+						{
+							"id": "aabb6257-6d80-49fa-9930-53ff0f5d104a",
+							"type": "eqp_modifier",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"disabled": true,
+							"cost": "x32"
+						}
+					],
+					"quantity": 100,
+					"value": 8.32,
+					"weight": "0.013 lb",
+					"calc": {
+						"extended_value": 832,
+						"extended_weight": "1.3 lb"
+					}
+				}
+			],
+			"description": "PDW 5.7mmCL Magazine",
+			"reference": "UT137",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition",
+				"Magazine",
+				"Pistol"
+			],
+			"quantity": 1,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 832,
+				"extended_weight": "1.31 lb"
+			}
+		},
+		{
+			"id": "6562a0f7-a99f-49b7-9b25-61804ddd1fdc",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "7221cb28-c5eb-4a19-a6cd-f0669440f540",
+					"type": "equipment",
+					"description": "5.7mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"PDW",
+						"Rifle"
+					],
+					"modifiers": [
+						{
+							"id": "aabb6257-6d80-49fa-9930-53ff0f5d104a",
+							"type": "eqp_modifier",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"disabled": true,
+							"cost": "x32"
+						}
+					],
+					"quantity": 100,
+					"value": 8.32,
+					"weight": "0.013 lb",
+					"calc": {
+						"extended_value": 832,
+						"extended_weight": "1.3 lb"
+					}
+				}
+			],
+			"description": "PDW 5.7mmCL Magazine",
+			"reference": "UT137",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition",
+				"Magazine",
+				"Pistol"
+			],
+			"quantity": 1,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 832,
+				"extended_weight": "1.31 lb"
+			}
+		},
+		{
+			"id": "3e5d8e44-16ac-4632-bc13-37d427affb0d",
+			"type": "equipment",
+			"description": "Reflex Tacsuit",
+			"reference": "UT178",
+			"notes": "Flexible. Double DR vs. cutting and piercing damage. C/12hr., SM -2",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 19200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "tail",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "wing",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "fin",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "brain",
+					"amount": 10
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "0404ce90-0d08-498d-b074-f3ec7d521251",
+			"type": "equipment",
+			"description": "Thermo-Optic Chameleon Cloak",
+			"reference": "UT99",
+			"notes": "SM -2",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"modifiers": [
+				{
+					"id": "90d563b9-d161-4aef-b8da-8b3c5a54521e",
+					"type": "eqp_modifier",
+					"name": "SM -2",
+					"reference": "UT16",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_final_weight",
+					"disabled": true,
+					"cost": "-0.8 CF",
+					"weight": "x1/5"
+				}
+			],
+			"quantity": 1,
+			"value": 12800,
+			"weight": "0.4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "839e5823-7953-403b-a305-a193d5ff96ac",
+			"type": "equipment",
+			"description": "Mini Hand Grenade (APHEX)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 320,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "ce063b55-bee2-4e2a-ad5f-6ffcbd5a2abd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "2d",
+						"armor_divisor": 2,
+						"fragmentation": "2d",
+						"fragmentation_armor_divisor": 2,
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "2d(2) cr ex [2d(2) cut]"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "bf25590a-7a32-4509-9c2b-8e1575eec5c1",
+			"type": "equipment",
+			"description": "Karatand",
+			"reference": "UT163",
+			"notes": "SM -2",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 640,
+			"weapons": [
+				{
+					"id": "65ca51bd-c34d-4022-92fa-82f5e357659f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 14,
+						"damage": "1d-2 cr",
+						"parry": "11"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ab29bd90-7fa8-4211-abbd-81e8947991be",
+			"type": "equipment",
+			"description": "Armored Shades",
+			"reference": "UT176",
+			"notes": "SM -2",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 640,
+			"weight": "0.02 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 10
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.02 lb"
+			}
+		},
+		{
+			"id": "0f5942fc-e61c-448f-a2d0-43193bb8060b",
+			"type": "equipment",
+			"description": "C cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 4,
+			"value": 320,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "be786e2c-b4c5-48da-8b36-dd9c11a48958",
+			"type": "equipment",
+			"description": "Tiny Radio Communicator",
+			"reference": "UT44",
+			"notes": "1-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "0.05 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "952f75b8-244b-494c-8503-8d52c01e616e",
+			"type": "equipment",
+			"description": "A cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 4,
+			"value": 64,
+			"weight": "0.005 lb",
+			"calc": {
+				"extended_value": 256,
+				"extended_weight": "0.02 lb"
+			}
+		},
+		{
+			"id": "0c897a0d-9248-489c-aabc-a8981c741ce8",
+			"type": "equipment",
+			"description": "Mini Hand Grenade (APHEX)",
+			"legality_class": "4",
+			"quantity": 4,
+			"value": 320,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "ce063b55-bee2-4e2a-ad5f-6ffcbd5a2abd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "2d",
+						"armor_divisor": 2,
+						"fragmentation": "2d",
+						"fragmentation_armor_divisor": 2,
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x4.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"level": 14,
+						"damage": "2d(2) cr ex [2d(2) cut]",
+						"range": "45"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

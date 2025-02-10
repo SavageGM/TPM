@@ -1,0 +1,209 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "9e0128d4-543c-4328-a6f6-229405ffa07b",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm",
+			"reference": "UT142",
+			"notes": "Ewt listed",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Electromagnetic",
+				"Guns",
+				"Rifle"
+			],
+			"modifiers": [
+				{
+					"id": "9b1548ae-6b79-4094-8737-1199c20e0123",
+					"type": "eqp_modifier",
+					"name": "IFF Interrogator",
+					"reference": "UT151",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+3200"
+				},
+				{
+					"id": "6727e9a5-7072-4078-8bb0-c7fd8e4ccad2",
+					"type": "eqp_modifier",
+					"name": "Targeting",
+					"reference": "UT149",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+16000",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "if used with a HUD link.",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "3143536b-8a91-48fe-8d4d-62b28f089368",
+					"type": "eqp_modifier",
+					"name": "Multispectral Laser Sight",
+					"reference": "UT149",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "+1 to skill when used out to the weapon’s 1/2D range",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "dfbbcc78-40f9-4fc8-bd39-4c73d94ac3ee",
+					"type": "eqp_modifier",
+					"name": "Silhouette",
+					"reference": "UT149",
+					"notes": "Complexity 5.",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+64000"
+				},
+				{
+					"id": "6e1070aa-7911-4070-9d70-b7c0f7c044c2",
+					"type": "eqp_modifier",
+					"name": "Enhanced Targeting Scope (ETS)",
+					"reference": "UT149",
+					"notes": "Used as a passive sensor, it provides Hyperspectral Vision with Restricted Vision (Tunnel Vision) with 8x magnification at TL9-10",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+256000",
+					"weight": "+2 lb",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to aimed shots",
+							"amount": 3
+						}
+					]
+				},
+				{
+					"id": "95c772f1-3678-4300-9ad1-acc9f78903d9",
+					"type": "eqp_modifier",
+					"name": "Diagnostic Computer",
+					"reference": "UT151",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to skill rolls to fix damage or malfunctions.",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "7268e11d-a501-4351-a045-2544a95443c3",
+					"type": "eqp_modifier",
+					"name": "HUD Link",
+					"reference": "UT149",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "Acc within 300 yards, not cumulative with the Acc bonus for other targeting systems),",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 592000,
+			"weight": "13.7 lb",
+			"weapons": [
+				{
+					"id": "0dbeca73-ad05-440f-a18a-6fbcad16eed8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6dx2",
+						"armor_divisor": 3
+					},
+					"strength": "12B†",
+					"accuracy": "7",
+					"range": "2,400/10,000",
+					"rate_of_fire": "1",
+					"shots": "30(3)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx2(3) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 931200,
+				"extended_weight": "15.7 lb"
+			}
+		},
+		{
+			"id": "f4ce74d9-bd73-45fa-9b17-ebe855356e47",
+			"type": "equipment",
+			"description": "ER-1 Engle Railgun, 7mm integrated magazine",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 3795.2,
+			"weight": "6.3 lb",
+			"max_uses": 30,
+			"uses": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3795.2,
+				"extended_weight": "6.3 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,277 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "Fc9cT8X9qYbhVEuwE",
+			"name": "Ammunition Types",
+			"children": [
+				{
+					"id": "f68iDEfLsF0RKArxR",
+					"name": "Armor-Piercing Discarding-Sabot",
+					"reference": "UT152",
+					"notes": "Ammo Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "+400%"
+				},
+				{
+					"id": "f0SmkpiIP3tbL542X",
+					"name": "Armor-Piercing Discarding-Sabot",
+					"reference": "UT152",
+					"notes": "Weapon Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "+0",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APDS"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APDS"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 50
+						},
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APDS"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 50
+						},
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APDS"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "fhec8KFkoai_LPJsK",
+					"name": "Armor-Piercing Enhanced Penetrator",
+					"reference": "UT152",
+					"notes": "Ammo Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "x10"
+				},
+				{
+					"id": "f3whEbfziTZ14IuBk",
+					"name": "Armor-Piercing Enhanced Penetrator",
+					"reference": "UT152",
+					"notes": "Weapon Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "+0",
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APEC"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APEC"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						},
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APEC"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fMqXdMIe77GA-Prq3",
+					"name": "Armor-Piercing Hard Core",
+					"reference": "UT152",
+					"notes": "Ammo Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "+100%"
+				},
+				{
+					"id": "fBVIIQLyjs3vdeIIB",
+					"name": "Armor-Piercing Hard Core",
+					"reference": "UT152",
+					"notes": "Weapon Modifier",
+					"tags": [
+						"Ammo",
+						"Equipment Modifier"
+					],
+					"tech_level": "9",
+					"cost": "+0",
+					"features": [
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "APHC"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fu9smn_7xq4g0kDga",
+			"name": "Monowire Blade",
+			"reference": "UT163, B406",
+			"tech_level": "9^",
+			"cost": "x10",
+			"features": [
+				{
+					"type": "weapon_dr_divisor_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 10
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "ffZO73YW8aGLb8Iz5",
+			"name": "Superfine Blade",
+			"reference": "UT163",
+			"cost_type": "to_base_cost",
+			"tech_level": "9",
+			"cost": "x6",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 2
+				},
+				{
+					"type": "weapon_dr_divisor_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 1
+				}
+			]
+		}
+	]
+}

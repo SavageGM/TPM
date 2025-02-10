@@ -1,0 +1,2779 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "TLo8tAyVxmapzrgd4",
+			"name": "Attack Mutations",
+			"reference": "ATE1:26",
+			"children": [
+				{
+					"id": "TbpT1xkyYKxwcFO4_",
+					"name": "Acidic Blood",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "txLnHHs_Cl7ADLqIr",
+							"name": "Corrosion Attack",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mKT7qOgXyhEFgqFqd",
+									"name": "Blood Agent, Reversed",
+									"reference": "B110",
+									"cost": -40
+								},
+								{
+									"id": "m5EzX39x94pYeIoer",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 sec",
+									"cost": 100,
+									"levels": 1
+								},
+								{
+									"id": "msSnHQOOihgXXXzTI",
+									"name": "Melee Attack",
+									"reference": "B112",
+									"notes": "Reach C, No Parry",
+									"cost": -35
+								}
+							],
+							"points_per_level": 10,
+							"weapons": [
+								{
+									"id": "w2baNdCX5Bplln723",
+									"damage": {
+										"type": "cor",
+										"base": "2d"
+									},
+									"usage": "Bleed",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										}
+									],
+									"calc": {
+										"damage": "2d cor"
+									}
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "T5YIMwhN5QWGXeCMn",
+					"name": "Bellow Lungs",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "t3z3aCKin6bERCT0B",
+							"name": "Crushing Attack",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mN-mgedxEvRlj53Lc",
+									"name": "Costs Fatigue",
+									"reference": "B111",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "m6zH926rhNF_ZsMtx",
+									"name": "Double Knockback",
+									"reference": "B104",
+									"cost": 20
+								},
+								{
+									"id": "mUZwlE1HWWYFNj7-g",
+									"name": "Increased 1/2D x2",
+									"reference": "B106",
+									"cost": 5
+								},
+								{
+									"id": "msEchEYoL0W0eRC8x",
+									"name": "Jet",
+									"reference": "B106"
+								},
+								{
+									"id": "mLGeiQeIa1JDjDK2J",
+									"name": "No Blunt Trauma",
+									"reference": "B111",
+									"cost": -20
+								},
+								{
+									"id": "mhzJ9jEzJjVvScbfL",
+									"name": "No Wounding",
+									"reference": "B111",
+									"cost": -50
+								},
+								{
+									"id": "m6exhCwDfQWlpgblA",
+									"name": "ST-Based",
+									"reference": "P103",
+									"cost": 100
+								}
+							],
+							"points_per_level": 5,
+							"weapons": [
+								{
+									"id": "WOTZ0JNrWOgsjxKkV",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "2d"
+									},
+									"usage": "Blow",
+									"accuracy": "3",
+									"range": "10/100",
+									"rate_of_fire": "1",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"specialization": "@Attack Type@"
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "sw+2d cr"
+									}
+								}
+							],
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TLZIV4tx9FKTnACDL",
+					"name": "Bone Spur",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tauQxnYjvZB5GGu3Y",
+							"name": "Impaling Striker (Forearm)",
+							"reference": "B88",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mPj1P1bMXtOSSXwxA",
+									"name": "Long, SM +",
+									"reference": "B88",
+									"cost": 100,
+									"levels": 1
+								},
+								{
+									"id": "mAjxkdbS7mnqhQZ2S",
+									"name": "Switchable",
+									"reference": "B34",
+									"cost": 10
+								}
+							],
+							"base_points": 8,
+							"weapons": [
+								{
+									"id": "wX45jjcDvjmakavX7",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"reach": "1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) imp"
+									}
+								}
+							],
+							"calc": {
+								"points": 17
+							}
+						}
+					],
+					"calc": {
+						"points": 17
+					}
+				},
+				{
+					"id": "TQp5WSqVx6X120Jva",
+					"name": "Electrified Skin",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tqEwmaMObJwXf1qW5",
+							"name": "Affliction",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m6s09ZVashISy3FHN",
+									"name": "HT",
+									"disabled": true
+								},
+								{
+									"id": "mFb4VktnO4gG2FxgO",
+									"name": "Cancellation",
+									"reference": "PSI13",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mdqVcDQiwod1aREFD",
+									"name": "Aura",
+									"reference": "B102",
+									"cost": 80
+								},
+								{
+									"id": "mxFF66Ywo4Uo4kUsg",
+									"name": "Costs Fatigue",
+									"reference": "B111",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "m6S9vCv8GI3oQP53x",
+									"name": "Link",
+									"reference": "B106",
+									"notes": "Burning Attack",
+									"cost": 10
+								},
+								{
+									"id": "mjUf4d4UMv7Kf8FJR",
+									"name": "Melee Attack",
+									"reference": "B112",
+									"notes": "Reach C",
+									"cost": -30
+								},
+								{
+									"id": "mLg3c4N5iJRbKcXZh",
+									"name": "Underwater",
+									"reference": "B109",
+									"cost": 20
+								}
+							],
+							"points_per_level": 10,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 18
+							}
+						},
+						{
+							"id": "tWomOHunNJCj5Duao",
+							"name": "Burning Attack",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mAGAeTfNbloCyj3LP",
+									"name": "Aura",
+									"reference": "B102",
+									"cost": 80
+								},
+								{
+									"id": "m_chl-praCBOuWT_z",
+									"name": "Link",
+									"reference": "B106",
+									"notes": "Affliction",
+									"cost": 10
+								},
+								{
+									"id": "mTp3UvbkQ_uuDCCko",
+									"name": "Melee Attack",
+									"reference": "B112",
+									"notes": "Reach C",
+									"cost": -30
+								},
+								{
+									"id": "mdr4lgyzf9taUdKag",
+									"name": "No Incendiary Effect",
+									"reference": "P102",
+									"cost": -10
+								},
+								{
+									"id": "mJv_-vfLb3hn7xvj2",
+									"name": "Surge",
+									"reference": "B104",
+									"cost": 20
+								},
+								{
+									"id": "mLDUmpEvYXomqc00l",
+									"name": "Underwater",
+									"reference": "B109",
+									"cost": 20
+								}
+							],
+							"points_per_level": 5,
+							"weapons": [
+								{
+									"id": "WGH0RYdAgznncNwGW",
+									"damage": {
+										"type": "burn",
+										"base": "1d"
+									},
+									"accuracy": "3",
+									"range": "10/100",
+									"rate_of_fire": "1",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"specialization": "@Attack Type@"
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "1d burn"
+									}
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 28
+					}
+				},
+				{
+					"id": "To8aa8URja7StQ1O2",
+					"name": "Mighty Roar",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tn6lyK-THExU_Puln",
+							"name": "Affliction",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mkSFt2WqLlrYjoH8A",
+									"name": "HT"
+								},
+								{
+									"id": "mE6SY4NpRtAJhttYx",
+									"name": "Costs Fatigue",
+									"reference": "B111",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "maCzmZvdsge1G9eWE",
+									"name": "Hearing-Based",
+									"reference": "B109",
+									"cost": 150
+								},
+								{
+									"id": "mxcMRLyd5VEK1x7pB",
+									"name": "Increased 1/2D x2",
+									"reference": "B106",
+									"cost": 5
+								},
+								{
+									"id": "mqE1pj4mvuW7ZaNTT",
+									"name": "Jet",
+									"reference": "B106"
+								}
+							],
+							"points_per_level": 10,
+							"weapons": [
+								{
+									"id": "WjkvDO1amVyZbecoF",
+									"damage": {
+										"type": "HT to avoid stun"
+									},
+									"usage": "Shout",
+									"range": "10",
+									"rate_of_fire": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"specialization": "Breath"
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "HT to avoid stun"
+									}
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "T3v9-5gb7En-t7oH2",
+					"name": "Nuclear Core",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tCfMvLwzxjHAu3YSx",
+							"name": "Toxic Attack",
+							"reference": "B62",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mPDVlvOZzBca3vlxO",
+									"name": "Area Effect",
+									"reference": "B102",
+									"notes": "2 yards",
+									"cost": 50,
+									"levels": 1
+								},
+								{
+									"id": "mzUIgldsAeQsJxVbz",
+									"name": "Aura",
+									"reference": "B102",
+									"cost": 80
+								},
+								{
+									"id": "mqNkwEY49Yoc3Kzon",
+									"name": "Costs Fatigue",
+									"reference": "B111",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "mw6A9FVaMjdFVjaDT",
+									"name": "Melee Attack",
+									"reference": "B112",
+									"notes": "Reach C",
+									"cost": -30
+								},
+								{
+									"id": "mvNSAtNbdfwixIS5V",
+									"name": "Toxic Radiation (rad)",
+									"reference": "B105",
+									"notes": "Instead of regular damage",
+									"cost": 25
+								}
+							],
+							"points_per_level": 4,
+							"weapons": [
+								{
+									"id": "wyJoKS_vIBi8NSEjl",
+									"damage": {
+										"type": "rad",
+										"base": "1d-2"
+									},
+									"usage": "Radiation",
+									"reach": "2",
+									"calc": {
+										"damage": "1d-2 rad"
+									}
+								},
+								{
+									"id": "W2CGdcqa-JpwQ75Dp",
+									"damage": {
+										"type": "tox",
+										"base": "1d"
+									},
+									"accuracy": "3",
+									"range": "10/100",
+									"rate_of_fire": "1",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"specialization": "@Attack Type@"
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "1d tox"
+									}
+								}
+							],
+							"can_level": true,
+							"levels": 4,
+							"calc": {
+								"points": 36
+							}
+						}
+					],
+					"calc": {
+						"points": 36
+					}
+				},
+				{
+					"id": "Tp4FwBiM9VDRCVxfq",
+					"name": "Razor Claws",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tdlce3WcWoLnvMDPh",
+							"name": "Long Talons",
+							"reference": "B43",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mZLyzD_QqkChDC45m",
+									"name": "Switchable",
+									"reference": "B34",
+									"cost": 10
+								}
+							],
+							"base_points": 11,
+							"weapons": [
+								{
+									"id": "wCmQ2Lhz1dwQaIvTL",
+									"damage": {
+										"type": "cut",
+										"st": "thr",
+										"base": "-1",
+										"modifier_per_die": 1
+									},
+									"usage": "Punch Slash",
+									"reach": "C,1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 (+1 per die) cut"
+									}
+								},
+								{
+									"id": "w9f06Zp8omqPZqxHS",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "-1",
+										"modifier_per_die": 1
+									},
+									"usage": "Punch Stab",
+									"reach": "C,1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 (+1 per die) imp"
+									}
+								},
+								{
+									"id": "wKKH7in-7Xhx3P8vD",
+									"damage": {
+										"type": "cut",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Kick Slash",
+									"reach": "C,1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Brawling",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Karate",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) cut"
+									}
+								},
+								{
+									"id": "wlM0_TIK_6xZTj_bS",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Kick Stab",
+									"reach": "C,1",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Brawling",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Karate",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) imp"
+									}
+								}
+							],
+							"calc": {
+								"points": 13
+							}
+						}
+					],
+					"calc": {
+						"points": 13
+					}
+				},
+				{
+					"id": "TRlVWSCWmEzBzFR7d",
+					"name": "Super-Strength",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tEjg2geq7VTcoYbLd",
+							"name": "Increased Strength",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mZQuGcpZ_GFh48pj1",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mT0Vwpe-n-TfpeOok",
+									"name": "Size",
+									"reference": "B15",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mpadrmfpmrsGZ0NJB",
+									"name": "Super-Effort",
+									"reference": "SU24",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tcFSKzgyWkNQx45yP",
+							"name": "Striking ST",
+							"reference": "B88",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mbh3r9mlROs85OSPm",
+									"name": "No Fine Manipulators",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m2x6KFemr1z88iLAD",
+									"name": "Size",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mEmiFnZFC_pcm4ir7",
+									"name": "Super Effort",
+									"reference": "SU24",
+									"cost": 400,
+									"disabled": true
+								},
+								{
+									"id": "mVUks4VkouoCr1Ndl",
+									"name": "One Attack Only",
+									"reference": "P79",
+									"notes": "@Attack@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "mXKz1-4vazfGMLXQ7",
+									"name": "Know Your Own Strength Pricing Variant",
+									"reference": "PY83:18",
+									"cost": -4,
+									"cost_type": "points",
+									"affects": "levels_only",
+									"disabled": true
+								}
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"limitation": "striking_only",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TZu2nd43d9G2ZFM2z",
+					"name": "Toothsome",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tl679NskJIZTUElhe",
+							"name": "Fangs",
+							"reference": "B91",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mZ8j8kEFkY1kRWHI5",
+									"name": "Switchable",
+									"reference": "B34",
+									"cost": 10
+								}
+							],
+							"base_points": 2,
+							"weapons": [
+								{
+									"id": "wSMOEbfWQ_eNkRh_B",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 imp"
+									}
+								}
+							],
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "tB7cY4h6UIYmaAfJF",
+							"name": "Sharp Teeth",
+							"reference": "B91",
+							"tags": [
+								"Exotic",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"weapons": [
+								{
+									"id": "wGYaaowWVIgHjCddK",
+									"damage": {
+										"type": "cut",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 cut"
+									}
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						}
+					],
+					"calc": {
+						"points": 4
+					}
+				}
+			],
+			"calc": {
+				"points": 178
+			}
+		},
+		{
+			"id": "TRLP5Sp3gyJl4Gr3L",
+			"name": "Defense Mutations",
+			"reference": "ATE1:26",
+			"children": [
+				{
+					"id": "TD1CoskSi4-DgKUqq",
+					"name": "Adaptable Skin 1",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tecl9YdnsrEse5Fwf",
+							"name": "Chameleon",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TBIu_6Clw8yD_slSw",
+					"name": "Adaptable Skin 2",
+					"reference": "ATE1:26",
+					"children": [
+						{
+							"id": "tfHonCDuDjddNDDEu",
+							"name": "Chameleon",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 4,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "T5JVbu3KvK_aQ52My",
+					"name": "Boosted Hemoglobin",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tYKE49HwI3CPxwZze",
+							"name": "Doesn't Breathe",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mECNODgmowCliVf4T",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 25 times as long as normal",
+									"cost": -50
+								}
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "T19fnSbkOEPP7e1cX",
+					"name": "Flesh Pocket",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tDV9-Gq9rauUVZf4U",
+							"name": "Payload",
+							"reference": "B74",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"can_level": true,
+							"levels": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "T_ZwctgYc6sWkvPMT",
+					"name": "Natural Anti-Rad 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tAxmELaigGpN637LK",
+							"name": "Extra Radiation Points",
+							"reference": "ATE1:27",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "rp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TMKNoy59aSyxws7WC",
+					"name": "Natural Anti-Rad 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tTCSJN50Bf3ASP_dT",
+							"name": "Extra Radiation Points",
+							"reference": "ATE1:27",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "rp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 15,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TvN4OVhACv67lb_tZ",
+					"name": "Natural Anti-Rad 3",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t6k2fqxt_2QHdzIVn",
+							"name": "Extra Radiation Points",
+							"reference": "ATE1:27",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "rp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 20,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "TZ1Iao2usI2zPJ0GN",
+					"name": "Prickly",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tXpvZnyTA_ZHJA-WD",
+							"name": "Long Spines",
+							"reference": "B88",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m8lfvzjc7Y-bu58m1",
+									"name": "Switchable",
+									"reference": "B34",
+									"cost": 10
+								}
+							],
+							"base_points": 3,
+							"weapons": [
+								{
+									"id": "wPKTMmyK8wgJiS0dy",
+									"damage": {
+										"type": "imp",
+										"base": "1d"
+									},
+									"usage": "Stab",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "1d imp"
+									}
+								}
+							],
+							"calc": {
+								"points": 4
+							}
+						}
+					],
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "TYyaoHL01bnoPnxKD",
+					"name": "Redundant Organs",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tIiYTtvc4Jqr2D4BW",
+							"name": "Injury Tolerance",
+							"reference": "B60",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mCZi6Fa1OsG_6SWUb",
+									"name": "Unliving",
+									"reference": "B61",
+									"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+									"cost": 20,
+									"cost_type": "points"
+								}
+							],
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "T2i-2eNu_6sWnxzda",
+					"name": "Resilient Brain",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tJvAu6T8VUe4KzBmW",
+							"name": "Recovery",
+							"reference": "B80",
+							"notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TA-qslOsOgN6eQdM2",
+					"name": "Self-Restoration 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t9OcmOKEd56BObuK5",
+							"name": "Regeneration",
+							"reference": "B80",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mJpYLfgrE2a91oDP3",
+									"name": "Regular",
+									"reference": "B80",
+									"notes": "You recover 1 HP per hour",
+									"cost": 25,
+									"cost_type": "points"
+								}
+							],
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "TNgsHneQ6aV2y4YZk",
+					"name": "Self-Restoration 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tAPU-XBzhin5Kc6PW",
+							"name": "Regeneration",
+							"reference": "B80",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mLb92DtkQx_46OzWh",
+									"name": "Fast",
+									"reference": "B80",
+									"notes": "You recover 1 HP per minute",
+									"cost": 50,
+									"cost_type": "points"
+								}
+							],
+							"calc": {
+								"points": 50
+							}
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "TxwgBdk436Fx1V6zO",
+					"name": "Slimy",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tkGcvGydx29EvZ3Dd",
+							"name": "Slippery",
+							"reference": "B85",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "escape"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 5,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TPPF8iSnBsdg2afUJ",
+					"name": "Starfish Genese",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tBw7dpQKDlXgEWdqg",
+							"name": "Regrowth",
+							"reference": "B80",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 40,
+							"calc": {
+								"points": 40
+							}
+						}
+					],
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "TIvve4FxlOCdHj_r2",
+					"name": "Thick Hide 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tezkEXDYdnLhft2hn",
+							"name": "Damage Resistance",
+							"reference": "B47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"face"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"neck"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"hand"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"foot"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"tail"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"wing"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"fin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"brain"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 4,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "Tm_A_jMiSQjV-0h-r",
+					"name": "Thick Hide 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tjyapqaeQjasz71xd",
+							"name": "Damage Resistance",
+							"reference": "B47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"face"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"neck"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"hand"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"foot"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"tail"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"wing"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"fin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"brain"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 7,
+							"calc": {
+								"points": 35
+							}
+						}
+					],
+					"calc": {
+						"points": 35
+					}
+				},
+				{
+					"id": "TXl7nWXMUEy3NSAk-",
+					"name": "Thick Hide 3",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tpGPhK6JtIJHOYS-S",
+							"name": "Damage Resistance",
+							"reference": "B47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"face"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"neck"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"hand"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"foot"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"tail"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"wing"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"fin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"brain"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 10,
+							"calc": {
+								"points": 50
+							}
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "Tz9cjz3PH-GdCk-QY",
+					"name": "Unnatural Hardiness",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "ttqioW4fHq38a4K3v",
+							"name": "Resistant",
+							"reference": "B81",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mqp0zjJuN6j5P4_qO",
+									"name": "Metabolic Hazards",
+									"reference": "B80",
+									"cost": 30,
+									"cost_type": "points"
+								}
+							],
+							"round_down": true,
+							"calc": {
+								"points": 30
+							}
+						}
+					],
+					"calc": {
+						"points": 30
+					}
+				}
+			],
+			"calc": {
+				"points": 384
+			}
+		},
+		{
+			"id": "TjLNJvpP3XJmEbDA1",
+			"name": "Morphology Mutations",
+			"reference": "ATE1:27",
+			"children": [
+				{
+					"id": "TKUaqwu3MNUVReBqL",
+					"name": "Handy",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "ttzMgthoL2mBI7RKK",
+							"name": "Extra Arm",
+							"reference": "B53",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "md_lp7K-eyNZ3sk-t",
+									"name": "Extra-Flexible",
+									"reference": "B53",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "msg9zkTrvX-hKTlwh",
+									"name": "Long",
+									"reference": "B53",
+									"cost": 100,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "ma7vhrw7lY5LjbszT",
+									"name": "Foot Manipulators",
+									"reference": "B53",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "m43aiSJ3SpnmO8OXw",
+									"name": "No Physical Attack",
+									"reference": "B53",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mZCtsCYc8Kka8gGf4",
+									"name": "Short",
+									"reference": "B53",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "m30Yt8BVObNTUk80t",
+									"name": "Weak",
+									"reference": "B53",
+									"notes": "Half body ST",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "mRFylswkXt1goENcX",
+									"name": "Weak",
+									"reference": "B53",
+									"notes": "Quarter body ST",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mBF96XWEYnmq95x8v",
+									"name": "Weapon Mount",
+									"reference": "B53",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "m0V2JyQLogKTcJsZ4",
+									"name": "No Grasping Hand",
+									"reference": "MATG28",
+									"cost": -40,
+									"disabled": true
+								}
+							],
+							"points_per_level": 10,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "ToGHPnmd2Ad57YBzQ",
+					"name": "Mouthy",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tBHj8uHIka5OwX18y",
+							"name": "Extra Mouth",
+							"reference": "B55",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "T0ymut5RJVt_UHq_r",
+					"name": "Trampler",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tJz7M-EPBXIB88da8",
+							"name": "Extra Legs (Four Legs)",
+							"reference": "B54",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "TQJZMViDk1Bv4jga9",
+					"name": "Brainy",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t-DQpYM0UcZo1XGyG",
+							"name": "Extra Head",
+							"reference": "B54",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "meSrvi_mML_oW0QXs",
+									"name": "Extraneous",
+									"reference": "B54",
+									"cost": -20,
+									"disabled": true
+								}
+							],
+							"points_per_level": 15,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				}
+			],
+			"calc": {
+				"points": 35
+			}
+		},
+		{
+			"id": "T-PPKn2XqgJZZA8EK",
+			"name": "Movement Mutations",
+			"reference": "ATE1:27",
+			"children": [
+				{
+					"id": "T_4H2idk7FspqthN1",
+					"name": "Fast-Twitch Legs 1",
+					"children": [
+						{
+							"id": "tJ3ddJoedzz6d7SHj",
+							"name": "Enhanced Move (Ground)",
+							"reference": "B52",
+							"notes": "Multiply normal Ground Move by 1 + level",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 20,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "t-Mi4ZnECOECrHPz0",
+							"name": "Super Jump",
+							"reference": "B89",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 30
+					}
+				},
+				{
+					"id": "TB83DLUYx7vaD9jnN",
+					"name": "Fast-Twitch Legs 2",
+					"children": [
+						{
+							"id": "tB3EZp_FifsXttctN",
+							"name": "Enhanced Move (Ground)",
+							"reference": "B52",
+							"notes": "Multiply normal Ground Move by 1 + level",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 20,
+							"can_level": true,
+							"levels": 1.5,
+							"calc": {
+								"points": 30
+							}
+						},
+						{
+							"id": "t4hUjOokn53yS93Hb",
+							"name": "Super Jump",
+							"reference": "B89",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 10,
+							"can_level": true,
+							"levels": 2,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "TansS5TPOxHgNLpA5",
+					"name": "Fins 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "txv1nn3Xgb4dBuo0k",
+							"name": "Amphibious",
+							"reference": "B40",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TrevIEIc53dpdR-HK",
+					"name": "Fins 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t5ZgXI6rjnVF1Id6j",
+							"name": "Amphibious",
+							"reference": "B40",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "thFm3od9or1oU8K6J",
+							"name": "Enhanced Move (Water)",
+							"reference": "B52",
+							"notes": "Multiply normal Water Move by 1 + level",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 20,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 30
+					}
+				},
+				{
+					"id": "Tmkn-2p8mTUTahZg-",
+					"name": "Suction Pads",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tDZKgzW7QjT3zkbVq",
+							"name": "Clinging",
+							"reference": "B43",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mgIm06QUi_qaTQDjz",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Common Material@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mKkZLGqpjKKpMq-o9",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Uncommon Material@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "mgCPpYFIo1C2cws4F",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Absurd Material@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "md37GPG9puO4YDrB2",
+									"name": "Attraction",
+									"reference": "P45",
+									"cost": 25,
+									"disabled": true
+								},
+								{
+									"id": "mtN5tsugCJP8eoczT",
+									"name": "Requires Low Gravity",
+									"reference": "P45",
+									"cost": -5,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "TsjqcCnaY5HcVXPZO",
+					"name": "Winged Flight 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t49CHjPbi2GE10jBw",
+							"name": "Flight",
+							"reference": "B56",
+							"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mAXyL3sBbdEsfpqJX",
+									"name": "Winged",
+									"reference": "B56",
+									"cost": -25
+								}
+							],
+							"base_points": 40,
+							"calc": {
+								"points": 30
+							}
+						}
+					],
+					"calc": {
+						"points": 30
+					}
+				},
+				{
+					"id": "TrKsi-rtS4uJyJRX6",
+					"name": "Winged Flight 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tJaY7WjAjg8pwNSTG",
+							"name": "Enhanced Move (Air)",
+							"reference": "B52",
+							"notes": "Multiply normal Air Move by 1 + level",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 20,
+							"can_level": true,
+							"levels": 0.5,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tdERLi1lgp4lmQH1c",
+							"name": "Flight",
+							"reference": "B56",
+							"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mnJNKUh9Nlj2BlZZI",
+									"name": "Winged",
+									"reference": "B56",
+									"cost": -25
+								}
+							],
+							"base_points": 40,
+							"calc": {
+								"points": 30
+							}
+						}
+					],
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "T0E59vJQd91BsI2CM",
+					"name": "Winged Flight 3",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tsFkD0mi6lc907h7y",
+							"name": "Enhanced Move (Air)",
+							"reference": "B52",
+							"notes": "Multiply normal Air Move by 1 + level",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": 20,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "tk1YVr8caKXGFniGX",
+							"name": "Flight",
+							"reference": "B56",
+							"notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "msCv-_0-rsavJk9bb",
+									"name": "Winged",
+									"reference": "B56",
+									"cost": -25
+								}
+							],
+							"base_points": 40,
+							"calc": {
+								"points": 30
+							}
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				}
+			],
+			"calc": {
+				"points": 260
+			}
+		},
+		{
+			"id": "T0w4YMPM6vnzKCnyh",
+			"name": "Sensory Mutations",
+			"reference": "ATE1:27",
+			"children": [
+				{
+					"id": "Tk0OA_RWdUXo7eVVE",
+					"name": "Black Sight",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tgWQF92jFrvNbQ_Ql",
+							"name": "Dark Vision",
+							"reference": "B47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m5FAqCJXFrjIGxEjc",
+									"name": "Can see colors in the dark",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mH9G7Ws8oS33MewMR",
+									"name": "Hypersensory",
+									"reference": "P46",
+									"cost": 40,
+									"disabled": true
+								}
+							],
+							"base_points": 25,
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "TiAz5npLZOab9VcAX",
+					"name": "Eagle Eyes 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tqB8IC5FbHEO-Wyht",
+							"name": "Telescopic Vision",
+							"reference": "B92",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TnbhnejzfCkX2FZFR",
+					"name": "Eagle Eyes 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tNjPoAyIJKQYeH3uc",
+							"name": "Telescopic Vision",
+							"reference": "B92",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 5,
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "Tr0EsB73ltemPj1ep",
+					"name": "Hound Nose 1",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tQVlRmTklhgrcyGBz",
+							"name": "Discriminatory Smell",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TYJaOeWPKFaMB7fjN",
+					"name": "Hound Nose 2",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tINYKBMJXe-AcwgLI",
+							"name": "Discriminatory Smell",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mptjuN2sohN5S97MX",
+									"name": "Emotion Sense",
+									"reference": "B49",
+									"cost": 50
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 23
+							}
+						}
+					],
+					"calc": {
+						"points": 23
+					}
+				},
+				{
+					"id": "TP0P3z0Guxvaa3lyi",
+					"name": "Outsize Eardrums",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tqEyNdUbEIdYCAt0S",
+							"name": "Discriminatory Hearing",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "TUav9Raq59rEGEWVP",
+					"name": "Red Sight",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "trtr-471licryzDrU",
+							"name": "Infravision",
+							"reference": "B60",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TQuqDIDymudVoJbSs",
+					"name": "Rubber Neck",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tEwmfJ14gJYYWiBIs",
+							"name": "360° Vision",
+							"reference": "B34",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 25,
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "TiAiErYmol6C_5UJt",
+					"name": "Sound-Wave Recall",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tM4eqoRrBZM4oIomZ",
+							"name": "Mimicry",
+							"reference": "B68",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mSa4atIZpOxclhyMI",
+									"name": "Voice Library",
+									"reference": "P61",
+									"cost": 50,
+									"disabled": true
+								}
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "TVQ73Oi6Ei6fz_d_M",
+					"name": "Visual Filters",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t6vVtvPJsmqe_PiME",
+							"name": "Protected Vision",
+							"reference": "B78",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "TYYv1C4U2736UhAnb",
+					"name": "Whiskers",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "tUZu4glQvt3BzjkU7",
+							"name": "Vibration Sense (Air)",
+							"reference": "B96",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "T0WQ1kJOECzEGe6Tv",
+					"name": "Aural Filters",
+					"reference": "ATE1:27",
+					"children": [
+						{
+							"id": "t4SUVK7kAqaWbPKCk",
+							"name": "Protected Hearing",
+							"reference": "B78",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"calc": {
+				"points": 183
+			}
+		}
+	]
+}

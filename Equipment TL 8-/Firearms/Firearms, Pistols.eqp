@@ -1,0 +1,7583 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "f0628a3f-1d18-4ba4-b502-06bfde926b06",
+			"type": "equipment",
+			"description": "Zip-Gun",
+			"reference": "HT92",
+			"notes": "Malf 12.",
+			"tags": [
+				"Firearms"
+			],
+			"quantity": 1,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "8732fffe-822a-49da-b5eb-4dd338eb4b35",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "6",
+					"accuracy": "0",
+					"range": "70/800",
+					"rate_of_fire": "1",
+					"shots": "1(10i)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "70/800",
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "f86e3bc5-c56e-4910-86a7-0cb1178843c1",
+			"type": "equipment",
+			"description": "AMT Back Up, .380 ACP",
+			"reference": "HT101",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 2800,
+			"weight": "1.4 lb",
+			"weapons": [
+				{
+					"id": "3de1e405-f9bc-4e8f-a364-4fe5f1d06ae7",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d-1"
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "110/1,200",
+					"rate_of_fire": "3",
+					"shots": "5+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "110/1,200",
+						"damage": "1d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "1.4 lb"
+			}
+		},
+		{
+			"id": "c3517e91-f40a-4a4a-8d7f-b6f7fc0a9edb",
+			"type": "equipment",
+			"description": "AMT Hardballer Longslide, .45 ACP",
+			"reference": "HT98",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 2200,
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"id": "65beb096-7efa-4eaf-90f0-4a46ad659cdf",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "10",
+					"accuracy": "3",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "900e0e24-f3f6-4122-9cc5-a62cf3415299",
+			"type": "equipment",
+			"description": "Beretta Mod 92, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 5600,
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"id": "1367f12c-24fb-427b-8872-76bc0a0da967",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "70945b83-9ea4-4483-b6b1-eeca171f4fa0",
+			"type": "equipment",
+			"description": "Beretta Mod 93R, 9x19mm",
+			"reference": "HT100",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 8800,
+			"weight": "3.4 lb",
+			"weapons": [
+				{
+					"id": "c2173f6f-9a5b-4d7a-8b3f-7d9acab97fe2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8†",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "9",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 8800,
+				"extended_weight": "3.4 lb"
+			}
+		},
+		{
+			"id": "854e55ee-e970-4ff1-88fd-192a0afcbadc",
+			"type": "equipment",
+			"description": "Beretta Mod 96D Brigadier, .40 S\u0026W",
+			"reference": "HT100",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 5600,
+			"weight": "2.7 lb",
+			"weapons": [
+				{
+					"id": "daedde17-b9f3-4179-8973-0a3dd4f25205",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "2.7 lb"
+			}
+		},
+		{
+			"id": "3b87078c-95bb-416b-92c0-ed5d9b6c060a",
+			"type": "equipment",
+			"description": "Charter Arms Bulldog, .44 Special",
+			"reference": "HT97",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "1.7 lb",
+			"weapons": [
+				{
+					"id": "86f19a07-b910-48cb-a7a7-95498254fa9d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "130/1,300",
+					"rate_of_fire": "3",
+					"shots": "5(3i)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "130/1,300",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "3586d6d8-3f17-44f8-af98-a27b2ff67e55",
+			"type": "equipment",
+			"description": "Charter Arms Undercover, .38 Special",
+			"reference": "HT94",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 2800,
+			"weight": "1.2 lb",
+			"weapons": [
+				{
+					"id": "f2e82354-3040-461f-9829-1842cf1dab2d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "90/1,000",
+					"rate_of_fire": "3",
+					"shots": "5(3i)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "90/1,000",
+						"damage": "2d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "1.2 lb"
+			}
+		},
+		{
+			"id": "d1634a38-d8dc-4a5e-bca7-752c4102f608",
+			"type": "equipment",
+			"description": "Colt .38 Super Auto",
+			"reference": "HT98",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 3800,
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"id": "19f9755a-523a-4ae7-a742-559a13d7443b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "3d-1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3800,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "265cd91a-766c-48b6-bb94-62ca983fa37f",
+			"type": "equipment",
+			"description": "Colt Commander, .45 ACP",
+			"reference": "HT101",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 3480,
+			"weight": "2.6 lb",
+			"weapons": [
+				{
+					"id": "b394b1f8-f3fb-41d1-99de-19fdd315ebc2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "7+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3480,
+				"extended_weight": "2.6 lb"
+			}
+		},
+		{
+			"id": "7282b660-da0e-4fdf-9ad8-e8e553be3c3a",
+			"type": "equipment",
+			"description": "Colt Delta Elite, 10x25mm Auto",
+			"reference": "HT98",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 3800,
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"id": "c172a3e3-cd56-43ed-bf28-3257e454536d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d-1"
+					},
+					"strength": "11",
+					"accuracy": "2",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "3d-1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3800,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "40872302-b897-4296-b1e6-233302cb6d42",
+			"type": "equipment",
+			"description": "Colt Government Officer's Model, .45 ACP",
+			"reference": "HT101",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 3400,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "a6312ca5-6866-4b97-9d1a-031fdb74fdad",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "1",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3400,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "e9ad360c-7eb0-4705-affd-7b6dda1592ed",
+			"type": "equipment",
+			"description": "Colt Government, .45 ACP",
+			"reference": "HT98",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 3400,
+			"weight": "2.8 lb",
+			"weapons": [
+				{
+					"id": "31db86b4-1c2a-42ea-8fb5-6babdad27480",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "7+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3400,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "91180ebd-f45c-486b-aa08-1e1eaecf38af",
+			"type": "equipment",
+			"description": "Colt Python, .357 Magnum",
+			"reference": "HT96",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 6800,
+			"weight": "2.9 lb",
+			"weapons": [
+				{
+					"id": "3ef6493c-2f90-43b2-ac61-a2dc7c715988",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "190/2,100",
+					"rate_of_fire": "3",
+					"shots": "6(3i)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "190/2,100",
+						"damage": "3d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 6800,
+				"extended_weight": "2.9 lb"
+			}
+		},
+		{
+			"id": "5582fcff-f7e0-452b-9596-dab8d6fc6505",
+			"type": "equipment",
+			"description": "Detonics Combat Master, .45 ACP",
+			"reference": "HT98",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "2.2 lb",
+			"weapons": [
+				{
+					"id": "2c4dd52e-daed-4bdb-a3b6-86d2535175df",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "1",
+					"range": "150/1,600",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1,600",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "290e1545-7a1b-405f-897e-36b2fc818a2f",
+			"type": "equipment",
+			"description": "FN Five-seveN, 5.7x28mm",
+			"reference": "HT101",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "a6952958-750c-4ce6-b6d3-e681a963988a",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 750,
+			"weight": "1.7 lb",
+			"weapons": [
+				{
+					"id": "8e5291d1-8a30-47a1-b073-1c17256aae9d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "2d+2",
+						"armor_divisor": 2
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "170/1,700",
+					"rate_of_fire": "3",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "170/1,700",
+						"damage": "2d+2(2) pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "2e98b003-0d91-4cf0-acbd-f542b63439b5",
+			"type": "equipment",
+			"description": "FN-Browning High Power, 9x19mm",
+			"reference": "HT101",
+			"notes": "No lanyard ring.",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "40ee9c65-d1f3-420c-ac84-d9b7f8e9c013",
+					"type": "eqp_modifier",
+					"name": "TL6 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x4"
+				}
+			],
+			"quantity": 1,
+			"value": 780,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "b8946e8d-3d37-467b-8ecc-275f7bcc6b9a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3120,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "e51e5dc2-39a6-42ac-83ed-f2aa864453d9",
+			"type": "equipment",
+			"description": "Glock 17, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "8a19562c-412e-430b-88a9-f47dc5c9e03f",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.9 lb",
+			"weapons": [
+				{
+					"id": "b2d7015f-08d7-4d97-8e0a-060ebad16500",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "17+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.9 lb"
+			}
+		},
+		{
+			"id": "58c54406-504c-4b50-866a-fd27848e3923",
+			"type": "equipment",
+			"description": "Glock 18, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "f488c8b9-886c-42f1-a098-94c55301a1b8",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "2.6 lb",
+			"weapons": [
+				{
+					"id": "d54c8b28-49b9-4b3e-9617-e17260355291",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "21",
+					"shots": "31+1(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2.6 lb"
+			}
+		},
+		{
+			"id": "39c8b433-6285-4bb0-abff-69fdcb8a511a",
+			"type": "equipment",
+			"description": "Glock 19, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "5e8a7ee1-39a4-477d-b975-435d9c0ec31c",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"id": "6f31c2be-894f-43f3-906d-3c072dd151a7",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.8 lb"
+			}
+		},
+		{
+			"id": "b5663488-fb58-4c2b-854b-9002ee067e7c",
+			"type": "equipment",
+			"description": "Glock 20, 10x25mm Auto",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "fdfb57ed-318f-460a-a782-6672a1de8f56",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "99328258-0e09-4209-80eb-a88c7e066c35",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "3d-1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "29548338-3ef4-4aea-82ce-a7c39ad1b924",
+			"type": "equipment",
+			"description": "Glock 21, .45 ACP",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "90ccea90-39b1-4890-b9c8-7a138611f7b6",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "9ecfe07a-2458-4c7c-a53d-e25d8e12ad38",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "0cde49bf-74af-4115-9862-66a86e381210",
+			"type": "equipment",
+			"description": "Glock 22, .40 S\u0026W",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "99169607-876d-4ce1-a17b-b926cb4358c6",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "acb83301-c432-4d03-a57f-17e12e57f417",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "4db25cc0-8f11-48a4-86b2-297cc86c7dd3",
+			"type": "equipment",
+			"description": "Glock 23, .40 S\u0026W",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "de8494d6-cdfc-493e-8481-50cd4c95cd67",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.9 lb",
+			"weapons": [
+				{
+					"id": "bfe19073-2549-4eda-995d-cd15af81d544",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.9 lb"
+			}
+		},
+		{
+			"id": "584d09fd-73a9-46b5-b7bb-7bad42ca3254",
+			"type": "equipment",
+			"description": "Glock 25, .380 ACP",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "8fea432d-ba2d-4359-946b-429e9b7b9b21",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.7 lb",
+			"weapons": [
+				{
+					"id": "876dcd4b-0502-4fa3-8cc4-c87d6a82655e",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "5a616440-222d-4fa6-8898-55fb3bd21f43",
+			"type": "equipment",
+			"description": "Glock 26, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "fe03f626-9b03-41be-b1da-f804ae6c9827",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.6 lb",
+			"weapons": [
+				{
+					"id": "caa8b4d7-51ab-404f-926f-0ea4670c216a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.6 lb"
+			}
+		},
+		{
+			"id": "32b14df9-8929-40ea-b187-1c919ab492f1",
+			"type": "equipment",
+			"description": "Glock 27, .40 S\u0026W",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "131624c1-2fe4-4874-b462-42ea017f2f56",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.7 lb",
+			"weapons": [
+				{
+					"id": "1c436e0e-bee0-4c4e-abd1-1574b820e549",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "e06077f2-b76b-4b33-a6da-8f767875607a",
+			"type": "equipment",
+			"description": "Glock 31, .357 SIG",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "7c70ed3f-b07f-4347-b439-d5345f23b16b",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "2e6e507d-8149-4956-8b1d-27b4e4d6ae66",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "595f2c66-568c-4a2f-982c-3fd914b6c380",
+			"type": "equipment",
+			"description": "Glock 36, .45 ACP",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "a6f14605-5aae-47fa-a943-a87586ec8944",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.7 lb",
+			"weapons": [
+				{
+					"id": "249e2ca8-ffbd-4df7-a76f-a693d10c7c57",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d-1"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d-1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "ca4a2ef9-4795-489e-abea-b20449924a84",
+			"type": "equipment",
+			"description": "Glock 37, .45 GAP",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "48d9d687-ce32-4dc7-9ea6-5140a3354aea",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.2 lb",
+			"weapons": [
+				{
+					"id": "6fe50bc1-0919-4c62-9c9e-d6edb4a59dcc",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "9565271c-237c-4e7f-b5d5-361b1926d99c",
+			"type": "equipment",
+			"description": "H\u0026K P8, 9x19",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "738146b5-2a15-425d-9029-bb0d9986720f",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 770,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "49eaacd0-5e56-4d95-b636-5d0915220f77",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12320,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "a9b4fd8b-79b7-4db0-89ea-018a2a0d421f",
+			"type": "equipment",
+			"description": "H\u0026K P12, .45 ACP",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "a65f010e-68d6-4db9-be99-5dd15125518e",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				},
+				{
+					"id": "e66c3763-2fde-4699-827b-f3b91ebe05a8",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1100,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "d36290c8-2abc-414e-91c3-f82c295b1b3e",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 281600,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "3f734bb3-1a76-41e1-a9c6-d0c179e6f9f1",
+			"type": "equipment",
+			"description": "H\u0026K USP Compact, .40 S\u0026W",
+			"reference": "HT102",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "f575a412-2abc-471e-ba19-768f823e8d3f",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "d3ac1cc4-bcec-4106-8a86-247247ca54b9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "1034ae71-da24-44ea-bc0b-7748ed73e4d8",
+			"type": "equipment",
+			"description": "H\u0026K USP Compact, .45 ACP",
+			"reference": "HT102",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "f3a1ca81-201f-4c06-9b71-4275e822e82d",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 900,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "f4a73e19-67af-4275-ae08-b8058b85d219",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "313c6ad6-8e37-4bd1-a19c-31a130a20f08",
+			"type": "equipment",
+			"description": "H\u0026K USP, .40 S\u0026W",
+			"reference": "HT101",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "6efe793c-2af3-45ff-9cd4-412cdc8f08cf",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 770,
+			"weight": "2.3 lb",
+			"weapons": [
+				{
+					"id": "03011529-d974-464b-949e-345aeb24b92d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12320,
+				"extended_weight": "2.3 lb"
+			}
+		},
+		{
+			"id": "4ebdbb83-77d2-4df2-a081-4c0002929550",
+			"type": "equipment",
+			"description": "H\u0026K USP, .45 ACP",
+			"reference": "HT102",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "bd9fceb3-355c-4a37-b4a9-fac6f9517ab5",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "f9f8f8d9-1f91-4564-bcd4-e786049004bf",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "b0bc1312-71ff-4044-9b41-38f88e5a0ba7",
+			"type": "equipment",
+			"description": "IMI Desert Eagle, .44 Magnum",
+			"reference": "HT102",
+			"notes": "No lanyard ring.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "124d66c6-bd6a-419b-b58b-6d1bb1013838",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1250,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "695ade9f-40ff-42ba-a8f8-782a927eb3d1",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d+2"
+					},
+					"strength": "12",
+					"accuracy": "2",
+					"range": "220/2,500",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "220/2,500",
+						"damage": "3d+2 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "4.6 lb"
+			}
+		},
+		{
+			"id": "961d7918-084f-4e68-9c76-98c8f702d07d",
+			"type": "equipment",
+			"description": "IMI Desert Eagle, .50 AE",
+			"reference": "HT101",
+			"notes": "No lanyard ring.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "0a5949b4-ef3f-4739-8f0f-ffa64f70a05e",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1250,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "6537cd9f-3eac-401b-860e-3daf59e8a9cc",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "4d"
+					},
+					"strength": "12",
+					"accuracy": "2",
+					"range": "220/2,500",
+					"rate_of_fire": "3",
+					"shots": "7+1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "220/2,500",
+						"damage": "4d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "4.6 lb"
+			}
+		},
+		{
+			"id": "f23ecd34-a9cf-4d12-a3a4-dedf69e6510b",
+			"type": "equipment",
+			"description": "IMI Desert Eagle, .357 Magnum",
+			"reference": "HT102",
+			"notes": "No lanyard ring.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "4e4b7622-4280-49b3-9ceb-5a0f61636c30",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1250,
+			"weight": "4.2 lb",
+			"weapons": [
+				{
+					"id": "474d80a2-c216-408d-a939-cb550e9f46d6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "220/2,500",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "220/2,500",
+						"damage": "3d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "4.2 lb"
+			}
+		},
+		{
+			"id": "a33e2463-c5fb-4f3f-b85c-d86d79d90b28",
+			"type": "equipment",
+			"description": "Intratec TEC-9, 9x19mm",
+			"reference": "HT101",
+			"notes": "Sling swivels. Malf 16.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "fe0f4863-6d41-4afd-8108-577b4a4b1c77",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "d1c00ac5-4536-4ec9-a34d-82aa54a57e21",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "36(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "c24e6bc1-4e31-4ad4-9b7c-4b1a1a3757f2",
+			"type": "equipment",
+			"description": "Kahr K40, .40 S\u0026W",
+			"reference": "HT101",
+			"notes": "No lanyard ring.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "7db9aa80-94fd-417d-bc6d-b3e54674beba",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 720,
+			"weight": "1.9 lb",
+			"weapons": [
+				{
+					"id": "c386e123-f21c-497a-9802-3ca6ecf57b15",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "140/1,600",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "140/1,600",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 11520,
+				"extended_weight": "1.9 lb"
+			}
+		},
+		{
+			"id": "8e65f367-fa71-496f-8355-f83db9449f9f",
+			"type": "equipment",
+			"description": "Kimber TLE II, .45 ACP",
+			"reference": "TS58",
+			"notes": "No lanyard ring, Fine (accurate)",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "67e22557-a74b-4a3b-95c4-cde41d084b3c",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 1050,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "b339e1ad-633d-4b72-9f9e-95055098440a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "10",
+					"accuracy": "3",
+					"range": "150/1600",
+					"rate_of_fire": "3",
+					"shots": "7+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "150/1600",
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 16800,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "dbc727d7-a5f4-4a04-a72a-cd187153d28c",
+			"type": "equipment",
+			"description": "Lorcin L-25, .25 ACP",
+			"reference": "HT101",
+			"notes": "No lanyard ring. Malf 16.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "658270a4-98f6-4fa6-9c85-09705ed97c1c",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "0.9 lb",
+			"weapons": [
+				{
+					"id": "23947c52-0a7e-4f31-947f-0cf83b050ab0",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d"
+					},
+					"strength": "5",
+					"accuracy": "0",
+					"range": "90/950",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "90/950",
+						"damage": "1d pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.9 lb"
+			}
+		},
+		{
+			"id": "9b02805a-04b3-4659-8e4a-bc2f4420529a",
+			"type": "equipment",
+			"description": "MX Animal TASER",
+			"reference": "HT90",
+			"notes": "Integral tactical light. 8xXS/40sec.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "ad1f1c12-01e9-4f5e-a88b-3aaf96ef539e",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1.1 lb",
+			"weapons": [
+				{
+					"id": "d703fa89-afb9-4c20-84f4-4d279ca3935f",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "7",
+					"accuracy": "0",
+					"range": "7",
+					"rate_of_fire": "1",
+					"shots": "2(3i)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "7",
+						"damage": "1d-3 pi-"
+					}
+				},
+				{
+					"id": "5d21135a-e8a9-4966-85b7-292bc3fd29b1",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-10(0.5) aff"
+					},
+					"usage": "Follow-Up",
+					"calc": {
+						"damage": "HT-10(0.5) aff"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "7ca90b3c-c3ad-4c79-97d6-9f6996f257ce",
+			"type": "equipment",
+			"description": "Ruger Standard MK1, .22 Long Rifle",
+			"reference": "HT101",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "240ff464-f34b-4550-b274-2bd3b9848dfa",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "ed6d7d49-7328-43ce-8dac-b882eb815481",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "70/1,400",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "70/1,400",
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "bdde8ffc-4083-4019-9701-a6ace52e911b",
+			"type": "equipment",
+			"description": "Ruger Standard MK2, .22 Long Rifle",
+			"reference": "HT100",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "a9b912c9-4997-4ee6-98e3-77beb5e74bdc",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 315,
+			"weight": "2.7 lb",
+			"weapons": [
+				{
+					"id": "938ec5a8-90ea-483a-906b-39f349c19a68",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "70/1,400",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "70/1,400",
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2520,
+				"extended_weight": "2.7 lb"
+			}
+		},
+		{
+			"id": "7835d39f-13eb-4b10-9a07-b3477c254929",
+			"type": "equipment",
+			"description": "SIG-Sauer M11, 9x19mm",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "1297bfb1-593f-4dab-8701-b0ad2776e526",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "f2a3b641-d9a9-49f2-8c08-a62c5dc574af",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "aadb935b-012c-48b3-96f2-86c82601ec07",
+			"type": "equipment",
+			"description": "SIG-Sauer P226, 9x19mm",
+			"reference": "HT101",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "db21299c-0f02-4c70-b962-eb269ff4c25d",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "052dfafb-111b-45d0-a3f2-51ebe794b502",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "f7be0594-279f-435e-8a7c-89c35c996e00",
+			"type": "equipment",
+			"description": "SIG-Sauer P226, .40 S\u0026W",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "d21edf14-1bc7-4f51-9913-258ddb360a93",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "fd021719-daf7-4774-8219-7a7d60541bf2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "dd3c886e-3672-4b55-a692-91277d9c4180",
+			"type": "equipment",
+			"description": "SIG-Sauer P226, .357 SIG",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "9bbf20f4-5041-40d6-9a42-84f03a3ad878",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "dbc062ff-feca-4c5a-ad4e-48e721b665b4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "53519ba2-8016-4fcd-99d7-94aa7683d637",
+			"type": "equipment",
+			"description": "SIG-Sauer P228, 9x19mm",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "9a31db5c-1eb0-49d2-9b4d-8157a259e0f7",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "1352330f-0c83-4c2c-a485-2536ea8f0503",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "13+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "08b89a70-fa9e-4031-adec-8218cd778f9e",
+			"type": "equipment",
+			"description": "SIG-Sauer P229, .40 S\u0026W",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "798f3da0-046f-43cc-9413-f8541e87a46b",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "75ca0302-2a80-4296-b2b7-011ea9fca21c",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "009d111f-79e4-4ec9-8540-67c45034164d",
+			"type": "equipment",
+			"description": "SIG-Sauer P229, .357 SIG",
+			"reference": "HT102",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "3cb76fd5-bcc4-43b8-bbab-71a544795d2c",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 840,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "74e88244-8d3b-49e2-8b39-37bc187056bc",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-2"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "3d-2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 13440,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "532f1507-7b64-4897-b160-15ffcab5105e",
+			"type": "equipment",
+			"description": "TASER M26",
+			"reference": "HT89",
+			"notes": "Integral targeting laser. 8xXS/40sec.",
+			"tech_level": "8",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "2c79a8f3-17b8-40c6-aeb8-88b5d35b10cb",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1.1 lb",
+			"weapons": [
+				{
+					"id": "2fa1db19-a118-4fb6-b140-66dc782c9399",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "7",
+					"accuracy": "0",
+					"range": "7",
+					"rate_of_fire": "1",
+					"shots": "2(3i)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "7",
+						"damage": "1d-3 pi-"
+					}
+				},
+				{
+					"id": "7ea66946-d3c0-4566-9903-1d44b1801ab4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-5(0.5) aff"
+					},
+					"usage": "Follow-Up",
+					"calc": {
+						"damage": "HT-5(0.5) aff"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "226e8f92-a3b8-43fa-8d82-a090b2a5dd85",
+			"type": "equipment",
+			"description": "Tasertron TE-76",
+			"reference": "HT89",
+			"notes": "Integral tactical light. S/100sec.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "9d7576f4-5d92-43e6-b9b7-00c923f2b026",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "ebb80e2c-c26e-4275-b09b-32c6e788bbb4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "8",
+					"accuracy": "0",
+					"range": "5",
+					"rate_of_fire": "1",
+					"shots": "1(5)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "5",
+						"damage": "1d-3 pi-"
+					}
+				},
+				{
+					"id": "69e1c5ec-3bbd-4b58-ae71-26302c7ecb3d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-3(0.5) aff"
+					},
+					"usage": "Follow-Up",
+					"calc": {
+						"damage": "HT-3(0.5) aff"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "6bbd9f28-e014-4a53-a7cf-89ce6609818f",
+			"type": "equipment",
+			"description": "Zip-Gun",
+			"reference": "HT92",
+			"notes": "Malf 12.",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"quantity": 1,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "8732fffe-822a-49da-b5eb-4dd338eb4b35",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "6",
+					"accuracy": "0",
+					"range": "70/800",
+					"rate_of_fire": "1",
+					"shots": "1(10i)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "70/800",
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "a7bffa65-5f19-4902-bd5d-5294eceacf22",
+			"type": "equipment",
+			"description": "Walther P38, 9X19mm",
+			"reference": "HT101",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "dadf4bee-ab7d-4cf3-82fc-9e5595b9a688",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "29900f49-d46e-41b8-9e6d-1f57baa3720a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3840,
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "7048970e-7532-43e1-9b2e-0385976e087c",
+			"type": "equipment",
+			"description": "Walther P38K, 9X19mm",
+			"reference": "HT100",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "4e7883ba-ceb7-4d48-a252-624941dcbe59",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "2.3 lb",
+			"weapons": [
+				{
+					"id": "60d9e222-5d1f-4368-8cd9-7b058def60b2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "160/1,800",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3840,
+				"extended_weight": "2.3 lb"
+			}
+		},
+		{
+			"id": "7b13704e-c850-483b-b935-5a5b73cd8e75",
+			"type": "equipment",
+			"description": "Walther P99 Compact, 9x19mm",
+			"reference": "HT103",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "c99321da-ce13-4a78-844c-c4fc5ac44376",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 610,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "eedc1dfe-c1e0-4003-a483-18fad730a48b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "140/1,600",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "140/1,600",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9760,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "86fba622-6a85-489b-98c5-9b7831177ab7",
+			"type": "equipment",
+			"description": "Walther P99, 9x19mm",
+			"reference": "HT101",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "d6ed3972-ff6a-4ae3-a477-a45af568ea88",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 610,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "87df41cd-e929-4c7a-a55c-55708bb45d52",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "140/1,600",
+					"rate_of_fire": "3",
+					"shots": "16+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "140/1,600",
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9760,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e4c9b967-0794-4264-b20a-4f1f8f8a5c66",
+			"type": "equipment",
+			"description": "Walther P99, .40 S\u0026W",
+			"reference": "HT103",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "0434e16c-6ec6-44cd-a00f-59fdd8b907e3",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 610,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "ae911702-f21b-461f-a1da-394634b60c8a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "140/1,600",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "140/1,600",
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9760,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "de3f0020-9d05-4a49-a0e9-fd02933f4646",
+			"type": "equipment",
+			"description": "Thompson/Center Contender, .22 Long Rifle",
+			"reference": "HT91",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "b604c810-55ff-4a95-916b-4d80d190d84d",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 560,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "03f0957c-9247-475d-86b4-1e04164158a6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+2"
+					},
+					"strength": "10",
+					"accuracy": "3",
+					"range": "420/2,600",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "420/2,600",
+						"damage": "1d+2 pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "9e87415f-1d77-4c25-8d29-695958142b49",
+			"type": "equipment",
+			"description": "Thompson/Center Contender, .30-30 Winchester",
+			"reference": "HT91",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "7da92c9f-a8ae-47d8-8e43-087164ee298e",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				},
+				{
+					"id": "e959b810-b589-493b-9859-74405f8c0bf2",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 560,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "ad7c8773-4532-414a-be1b-85ffe8ce6208",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+1"
+					},
+					"strength": "11",
+					"accuracy": "3",
+					"range": "420/2,600",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "420/2,600",
+						"damage": "4d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 35840,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "45664a93-2675-45a1-ba5b-f87e4f0281e4",
+			"type": "equipment",
+			"description": "Thompson/Center Contender, .44 Magnum",
+			"reference": "HT91",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "7d1558c0-bd0e-4cdd-999a-d3c76aef2a60",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 560,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "61f3b026-a2bf-4428-ad07-ec5c131f1e81",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "5d-1"
+					},
+					"strength": "11",
+					"accuracy": "3",
+					"range": "420/2,600",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "420/2,600",
+						"damage": "5d-1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "45fe5a5e-9d4b-436a-93a6-1d95aac17f56",
+			"type": "equipment",
+			"description": "Thompson/Center Contender, .223 Remington",
+			"reference": "HT91",
+			"notes": "No lanyard ring.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Pistol"
+			],
+			"modifiers": [
+				{
+					"id": "cca7d71d-d509-47a1-bbc3-d670f897558d",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 560,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "e7e1b966-9c37-4db0-bfdd-1275b85e9a9d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d"
+					},
+					"strength": "11",
+					"accuracy": "3",
+					"range": "420/2,600",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "420/2,600",
+						"damage": "4d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "3.5 lb"
+			}
+		}
+	]
+}

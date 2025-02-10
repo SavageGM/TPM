@@ -1,0 +1,61 @@
+{
+	"type": "body_type",
+	"version": 4,
+	"name": "XNU-01 Rover",
+	"roll": "3d",
+	"locations": [
+		{
+			"id": "sensor",
+			"choice_name": "Sensors",
+			"table_name": "Sensors",
+			"hit_penalty": -9,
+			"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+			"calc": {
+				"roll_range": "-",
+				"dr": {
+					"all": 0
+				}
+			}
+		},
+		{
+			"id": "arm",
+			"choice_name": "Arm",
+			"table_name": "Arm",
+			"slots": 1,
+			"hit_penalty": -2,
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+			"calc": {
+				"roll_range": "3",
+				"dr": {
+					"all": 10
+				}
+			}
+		},
+		{
+			"id": "torso",
+			"choice_name": "Torso",
+			"table_name": "Torso",
+			"slots": 14,
+			"calc": {
+				"roll_range": "4-17",
+				"dr": {
+					"all": 10
+				}
+			}
+		},
+		{
+			"id": "wheel",
+			"choice_name": "Wheel",
+			"table_name": "Wheel",
+			"slots": 1,
+			"hit_penalty": -4,
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+			"calc": {
+				"roll_range": "18",
+				"dr": {
+					"all": 10
+				}
+			}
+		}
+	]
+}

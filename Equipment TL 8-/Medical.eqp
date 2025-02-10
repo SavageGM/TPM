@@ -1,0 +1,568 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "7d6af444-4e0f-4b68-8f7b-5c243b03c646",
+			"type": "equipment",
+			"description": "Alcohol, Isopryl (Rubbing Alcohol)",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "e600d854-6d7a-4ced-8a74-e60464092c52",
+			"type": "equipment",
+			"description": "Anti-Rad Drugs",
+			"reference": "ATE1:30",
+			"tech_level": "7",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "8294d4e8-8239-46f4-ba9a-ea3c631bf00a",
+			"type": "equipment",
+			"description": "Antibiotic",
+			"reference": "B289",
+			"notes": "Prevents or cures (in 1d days) infections.",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 80,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4d676209-2d87-495e-af03-ee7df0e47510",
+			"type": "equipment",
+			"description": "Antibiotic Ointment",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "7",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 320,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "569dae2a-5699-49b5-9da8-c2a17f3d7b64",
+			"type": "equipment",
+			"description": "Antimalarial Pills",
+			"reference": "HT226",
+			"notes": "Bottle of 30.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 500,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d0351f7f-3450-412a-9e25-5e4591a56407",
+			"type": "equipment",
+			"description": "Antiseptic",
+			"reference": "HT225",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "8ea7f7c7-4b16-4fc3-aed0-d073d55b05cc",
+			"type": "equipment",
+			"description": "Antitoxin Kit",
+			"reference": "B289",
+			"notes": "Antidote for specific poison. 10 uses",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "351800d6-c470-4116-b549-f59e88d3ad58",
+			"type": "equipment",
+			"description": "Bandages",
+			"reference": "B289",
+			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+			"tech_level": "0",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "9cff157f-2d6b-4b6a-8428-eaab86a9057d",
+			"type": "equipment",
+			"description": "Botulin Toxins",
+			"reference": "HT227",
+			"notes": "Per dose.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4cfa05c9-445e-4172-8bb8-0d1296e8550c",
+			"type": "equipment",
+			"description": "Cane",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "07f8fd85-44c9-4f59-b7c7-70dd3fa99962",
+			"type": "equipment",
+			"description": "Casualty Bag",
+			"reference": "HT222",
+			"notes": "M/2hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Medical Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "d035813e-4d85-4952-862c-8e29ed318c89",
+			"type": "equipment",
+			"description": "Chelating Agents",
+			"reference": "ATE1:30",
+			"tech_level": "7",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "43640eba-09cb-4f9c-8d1d-c7ab31ba1b69",
+			"type": "equipment",
+			"description": "Crash Kit/TL0-5",
+			"reference": "B289",
+			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Counts as improvised gear (-5) for Surgery",
+			"tech_level": "0-5",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "423279f1-2e10-4925-9563-bd8c57ffbf90",
+			"type": "equipment",
+			"description": "Crash Kit/TL6+",
+			"reference": "B289",
+			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Includes IV drip, needle, and plasma. Counts as improvised gear (-5) for Surgery",
+			"tech_level": "6+",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "9ccaf4f0-1da0-4759-9685-ebe88ff0bb2b",
+			"type": "equipment",
+			"description": "Curare",
+			"reference": "HT227",
+			"notes": "Per dose.",
+			"tech_level": "5",
+			"legality_class": "1",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 200,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8f54e12f-12bd-4541-9221-5cc4c3f36e6f",
+			"type": "equipment",
+			"description": "First Aid Kit",
+			"reference": "B289",
+			"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
+			"tech_level": "0",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "11ece79b-5c19-4bd1-9598-9de097e4c10c",
+			"type": "equipment",
+			"description": "PatchUp Punch",
+			"reference": "ATE1:30",
+			"tech_level": "?",
+			"tags": [
+				"Consumables"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "fb261a6f-e02d-4714-984d-7dc21d122484",
+			"type": "equipment",
+			"description": "Surgical Instruments",
+			"reference": "B289",
+			"notes": "Includes scalpels, forceps, etc. Basic equipment for Surgery skill.",
+			"tech_level": "1",
+			"tags": [
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "326d0ca9-71b9-423c-8613-144cffb99b70",
+			"type": "equipment",
+			"description": "Suturing Kit",
+			"reference": "HT223",
+			"tech_level": "6",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ba114971-6ef5-4195-960e-c3674e65ae07",
+			"type": "equipment",
+			"description": "Body Bag",
+			"reference": "HT221",
+			"tech_level": "6",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "4840821e-cf25-4f63-b5f9-3d7efabbcc1e",
+			"type": "equipment",
+			"description": "Basic Arm Prosthetic",
+			"reference": "HT226",
+			"tech_level": "5",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "3dc15bed-2e8f-4268-a50f-68356061c56e",
+			"type": "equipment",
+			"description": "Basic Leg Prosthetic",
+			"reference": "HT226",
+			"tech_level": "5",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "c323a7bc-f8dd-4c80-9be8-899638e6b56f",
+			"type": "equipment",
+			"description": "Surgical Kit",
+			"reference": "HT223",
+			"tech_level": "8",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Surgery"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "da776fe6-6580-43ca-b450-7b2d5b02c64d",
+			"type": "equipment",
+			"description": "Activated Charcoal",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 10,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "9e374657-d627-4bf7-9798-36dac0342311",
+			"type": "equipment",
+			"description": "Ammonia Inhalants",
+			"reference": "HT226",
+			"notes": "Per use.",
+			"tech_level": "5",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d7196f31-8142-4374-9148-320daf096a86",
+			"type": "equipment",
+			"description": "Litter",
+			"reference": "HT221",
+			"tech_level": "5",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "7cb42e30-f7f8-4c17-a395-633b8eeae266",
+			"type": "equipment",
+			"description": "Analgesic",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"quantity": 1,
+			"value": 5,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4f64304-6349-4e7e-aa8e-3d426ca33413",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Doctor's Bag",
+			"reference": "HT221",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "75834408-8711-4c30-a1f6-c38300b59927",
+			"type": "equipment_container",
+			"open": true,
+			"description": "First Aid Kit",
+			"reference": "HT221",
+			"tech_level": "7",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		}
+	]
+}

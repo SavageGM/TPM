@@ -1,0 +1,1420 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EFC8vSWCgPmiQzjF3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+				"id": "Eb3oEPuI3_4eI46Sr"
+			},
+			"description": "Modern Warfighter: Gear",
+			"reference": "PY57:4",
+			"quantity": 1,
+			"children": [
+				{
+					"id": "eLxCjni8BqENtsq35",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eTclXyOcagQhIxeAJ"
+					},
+					"description": "Acoustic Detection System (Emplaced)",
+					"reference": "PY57:10",
+					"notes": "S/12 hours. Requires a Complexity 3 program. Skill 12.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 80000,
+					"weight": "4 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 80000,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "e8nOoDFpARGzNbB32",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eJ7el5n_uZGkftAkC"
+					},
+					"description": "Acoustic Detection System (Portable)",
+					"reference": "PY57:10",
+					"notes": "S/12 hours. Device skill 10.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 80000,
+					"weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 80000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eQv4b190YOIkipuyY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "epp4zEnFk9coFdU5D"
+					},
+					"description": "Advanced Ballistic Helmet",
+					"reference": "PY57:10",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 11200,
+					"weight": "2.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 16
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 11200,
+						"extended_weight": "2.5 lb"
+					}
+				},
+				{
+					"id": "ecmch2gq2CnnpTCvw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ec4s9-lEChwHh2SNG"
+					},
+					"description": "Advanced Night Vision Goggles (Lightweight, Panoramic)",
+					"reference": "PY57:10",
+					"notes": "Gives Night Vision 9; Peripheral Vision; XS/12, optional battery pack 2/XS batteries (+25 h., +$25, +0.3 lbs).",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 480000,
+					"weight": "0.9 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 480000,
+						"extended_weight": "0.9 lb"
+					}
+				},
+				{
+					"id": "e-9_1aNCy80T6BM3_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "edheoGywiogunHzlI"
+					},
+					"description": "Advanced Night Vision Goggles (Lightweight)",
+					"reference": "PY57:10",
+					"notes": "Gives Night Vision 9; XS/12, optional battery pack 2/XS batteries (+25 h., +$25, +0.3 lbs).",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 240000,
+					"weight": "0.9 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 240000,
+						"extended_weight": "0.9 lb"
+					}
+				},
+				{
+					"id": "eBhqYiV_lw3-D9O6G",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eI9ekl8G3g9f9JJjB"
+					},
+					"description": "Advanced Night Vision Goggles (Low Profile, Panoramic)",
+					"reference": "PY57:10",
+					"notes": "Gives Night Vision 9 and includes built-in IR illuminators; Peripheral Vision; XS/15, optional battery pack 2/XS batteries (+25 h., +$25, +0.3 lbs).",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 640000,
+					"weight": "1.7 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 640000,
+						"extended_weight": "1.7 lb"
+					}
+				},
+				{
+					"id": "eNrgCf0CnTnY90Ics",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e_3OKmcx42aqtz5LG"
+					},
+					"description": "Advanced Night Vision Goggles (Low Profile)",
+					"reference": "PY57:10",
+					"notes": "Gives Night Vision 9 and includes built-in IR illuminators; XS/15, optional battery pack 2/XS batteries (+25 h., +$25, +0.3 lbs).",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 320000,
+					"weight": "1.7 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320000,
+						"extended_weight": "1.7 lb"
+					}
+				},
+				{
+					"id": "eLaCzJVmFpDyY0t4M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ezb2_k-jG7C7RuMjJ"
+					},
+					"description": "Biometric Scanner",
+					"reference": "PY57:10",
+					"notes": "2xS/4 hours.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 400000,
+					"weight": "3.6 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 400000,
+						"extended_weight": "3.6 lb"
+					}
+				},
+				{
+					"id": "ezdAHRIIlRbENf5MC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eG8_QRtxOk9e_gNgP"
+					},
+					"description": "Bump Helmet",
+					"reference": "PY57:11",
+					"notes": "5 DR against crushing attacks; 1 gainst all other damages type.",
+					"tech_level": "8",
+					"tags": [
+						"Armor"
+					],
+					"value": 2400,
+					"weight": "1.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2400,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "ev3-KQRa4Y7_VaNil",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e7-NSWgSSi-et05DJ"
+					},
+					"description": "Canine Tactical Harness",
+					"reference": "PY57:11",
+					"notes": "For dogs.",
+					"tech_level": "8",
+					"tags": [
+						"Armor"
+					],
+					"value": 3200,
+					"weight": "2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3200,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eiLe3JySxxoZaQhfA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eaG5JM1iLlT6HV4kD"
+					},
+					"description": "Combat Earplugs",
+					"reference": "PY57:11",
+					"notes": "Protected Heating and -1 to Hearing roll.",
+					"tech_level": "8",
+					"tags": [
+						"Armor"
+					],
+					"value": 240,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hearing",
+							"amount": -1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 240,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eMKA5PN2ncJbN5DQL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eUmZnKj9ntctReLh_"
+					},
+					"description": "Combat Tourniquets",
+					"reference": "PY57:14",
+					"tech_level": "8",
+					"value": 560,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 560,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eLsZigQVfyWfEJ9h0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eHM_yq0J3c-KgdNeS"
+					},
+					"description": "Drone Bomb",
+					"reference": "PY57:13",
+					"notes": "M/6 hours; (SM -3, DR 1, HP 5, Move 40).",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Drone"
+					],
+					"value": 480000,
+					"weight": "7.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 480000,
+						"extended_weight": "7.5 lb"
+					}
+				},
+				{
+					"id": "e16rvyXZf3UKoy5YE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "exn08s7yBohUvqQxT"
+					},
+					"description": "Dual-Sensor Detector",
+					"reference": "PY57:14",
+					"notes": "4×S/8 hrs",
+					"tech_level": "8",
+					"value": 6400,
+					"weight": "8.8 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "8.8 lb"
+					}
+				},
+				{
+					"id": "eXSRc7To29oqjl0EM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eg6FXS-kHNSRsz1x8"
+					},
+					"description": "Dummy Cords",
+					"reference": "PY57:11",
+					"notes": "DR 2, HP 2.",
+					"tech_level": "8",
+					"tags": [
+						"Other"
+					],
+					"value": 16,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eGjcQNDjHNSv7Exj4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eCouRPSO35LvGs6VE"
+					},
+					"description": "EOD Utility Robot",
+					"reference": "PY57:11",
+					"notes": "Effective range 500’; Complexity 1 program; SM 0, DR 3, HP 32, Move 4; Reach 1, ST 7.",
+					"tech_level": "8",
+					"tags": [
+						"Other"
+					],
+					"value": 800000,
+					"weight": "500 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 800000,
+						"extended_weight": "500 lb"
+					}
+				},
+				{
+					"id": "e4VAHZiZRj9Yp15DF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eHTcGxblHa7thsa9l"
+					},
+					"description": "Expeditionary Shelters (Inflatable Beam)",
+					"reference": "PY57:12",
+					"notes": "20'×21'×10'",
+					"tech_level": "7",
+					"tags": [
+						"Other"
+					],
+					"value": 16000,
+					"weight": "520 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "520 lb"
+					}
+				},
+				{
+					"id": "ezEQ37LzHTHzaZrDX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ehswNOnMeDt2_Uymg"
+					},
+					"description": "Expeditionary Shelters (Internal Frame)",
+					"reference": "PY57:12",
+					"notes": "18'×35'×10'",
+					"tech_level": "7",
+					"tags": [
+						"Other"
+					],
+					"value": 8000,
+					"weight": "710 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 8000,
+						"extended_weight": "710 lb"
+					}
+				},
+				{
+					"id": "e3gq6zQPIG5CigI_5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e3Q4Svdv0RkPPkSMe"
+					},
+					"description": "Heavy Targeting Laser",
+					"reference": "PY57:12",
+					"notes": "Adds -1 to Bulk; 4×XS/4 hrs.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Electronics"
+					],
+					"value": 40000,
+					"weight": "1.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "evAwZBlf6zhMfJdCR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "elpMFlTk8Vs298hzo"
+					},
+					"description": "ID Strobe",
+					"reference": "PY57:11",
+					"notes": "2×XS/8 hours",
+					"tech_level": "8",
+					"tags": [
+						"Armor"
+					],
+					"value": 2400,
+					"weight": "0.4 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2400,
+						"extended_weight": "0.4 lb"
+					}
+				},
+				{
+					"id": "eh0b_8tVRAEDVDo5-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eBTvilA_eQmYzr0Ad"
+					},
+					"description": "ID Tags",
+					"reference": "PY57:12",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Clothes"
+					],
+					"value": 80,
+					"weight": "0.3 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "0.3 lb"
+					}
+				},
+				{
+					"id": "emNsHsowf8oeZfXb5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eRlUlVkiVC5qwJqhK"
+					},
+					"description": "Improved Assault Vest",
+					"reference": "PY57:12",
+					"notes": "12 DR against piercing and cutting attacks; 5 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 17600,
+					"weight": "8 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 17600,
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "eDnl41cOXC77La7UD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e9qgevPcJCEevFdcZ"
+					},
+					"description": "Improved Assault Vest + Advanced Trauma Plates",
+					"reference": "PY57:12",
+					"notes": "47 DR against piercing and cutting attacks; 40 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Armor"
+					],
+					"value": 46400,
+					"weight": "21 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 47
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 47
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 46400,
+						"extended_weight": "21 lb"
+					}
+				},
+				{
+					"id": "e4f6Y4420inEI5GNN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eipb3Fg9b42zDNocn"
+					},
+					"description": "Improved Assault Vest + Ballistic Panels",
+					"reference": "PY57:12",
+					"notes": "16 DR against piercing and cutting attacks; 6 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 20800,
+					"weight": "10 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 16
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 16
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 16
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 16
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 20800,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "e9NbHWcSD1dTycWZH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "en8-V3clwaCU6J8Pt"
+					},
+					"description": "Improved Assault Vest + Enhanced Ballistic Plates",
+					"reference": "PY57:12",
+					"notes": "42 DR against piercing and cutting attacks; 35 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 36800,
+					"weight": "19 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 42
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 42
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 36800,
+						"extended_weight": "19 lb"
+					}
+				},
+				{
+					"id": "ej8KFvWBsE5szc3Hn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eaViNWAMbcfFSdBlr"
+					},
+					"description": "Improved Assault Vest + Enhanced Ballistic Plates + Enhanced Small Inserts",
+					"reference": "PY57:12",
+					"notes": "42 DR against piercing and cutting attacks; 35 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 46400,
+					"weight": "24.1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 42
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 42
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 46400,
+						"extended_weight": "24.1 lb"
+					}
+				},
+				{
+					"id": "eDcsrAWZ56L5Xg2OZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eJOugauPGi7FQhYsF"
+					},
+					"description": "Improved Assault Vest + Large Trauma Plates",
+					"reference": "PY57:12",
+					"notes": "37 DR against piercing and cutting attacks; 30 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 27200,
+					"weight": "16 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 37
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 37
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 27200,
+						"extended_weight": "16 lb"
+					}
+				},
+				{
+					"id": "e0RXhFhPJJDnxy8Bh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e2t2gQkjHfQIffYPB"
+					},
+					"description": "Improved Assault Vest + Large Trauma Plates + Small Trauma Plates",
+					"reference": "PY57:12",
+					"notes": "37 DR against piercing and cutting attacks; 30 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Armor"
+					],
+					"value": 32000,
+					"weight": "20.6 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 37
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 37
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 32000,
+						"extended_weight": "20.6 lb"
+					}
+				},
+				{
+					"id": "ew4blAqubdkWIXlMT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e0_-zBTowhx-nwrZf"
+					},
+					"description": "Infantry utility uniform",
+					"reference": "PY57:8",
+					"notes": "With boots.",
+					"tech_level": "8",
+					"tags": [
+						"Clothes"
+					],
+					"value": 4960,
+					"weight": "5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 4960,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "eA3fYrBS2YPqlKRbz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eD_AAwE_w2GUqPo6V"
+					},
+					"description": "Large View Dot Sight",
+					"reference": "PY57:13",
+					"notes": "XS/700 hrs; Adds -1 to Bulk; Can fit a flip-up 3× magnifier for longdistance aiming ($200, +0.9 lbs).",
+					"tech_level": "8",
+					"tags": [
+						"Other"
+					],
+					"value": 8000,
+					"weight": "2.9 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 8000,
+						"extended_weight": "2.9 lb"
+					}
+				},
+				{
+					"id": "eKWr0kvZt5OdnIr8w",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eJNZbS6m_OiQYe7GD"
+					},
+					"description": "Laser Target Designator",
+					"reference": "PY57:13",
+					"notes": "XS/4 hours.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Other"
+					],
+					"value": 480000,
+					"weight": "7 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 480000,
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "eXzwXEgk-f3NJQUVw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e4N8GKUbebI70_wbU"
+					},
+					"description": "Laser Target Locator",
+					"reference": "PY57:13",
+					"notes": "XS/12 hours.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Other"
+					],
+					"value": 320000,
+					"weight": "5.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320000,
+						"extended_weight": "5.5 lb"
+					}
+				},
+				{
+					"id": "e6MR_1ltNhG1DDzKO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "efKKdD-IN6ZCme4bT"
+					},
+					"description": "Military First Aid Kit",
+					"reference": "PY57:14",
+					"tech_level": "8",
+					"value": 1600,
+					"weight": "2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "exImOeR83qP-bbkhx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eoR6lmbkPR6M4IQOh"
+					},
+					"description": "Military Metal Detector",
+					"reference": "PY57:14",
+					"notes": "3×S/6 hrs",
+					"tech_level": "8",
+					"value": 8000,
+					"weight": "5.3 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 8000,
+						"extended_weight": "5.3 lb"
+					}
+				},
+				{
+					"id": "eJVYIEf3y_Rrpee5L",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "evhKeBNMawHyPa8WB"
+					},
+					"description": "Multi-Cellular Defense Barriers",
+					"reference": "PY57:14",
+					"notes": "Wall 4.5’ tall, 3.5’ thick, and 32’ long.",
+					"tech_level": "8",
+					"value": 10400,
+					"weight": "2,450 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10400,
+						"extended_weight": "2,450 lb"
+					}
+				},
+				{
+					"id": "e0hop4XE_d21sTYpf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eoxorJtWEPdq0nWVO"
+					},
+					"description": "Multi-Threat EWS",
+					"reference": "PY57:11",
+					"notes": "Range is 500 yards; L/30 minutes.",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Electronics"
+					],
+					"value": 800000,
+					"weight": "15 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 800000,
+						"extended_weight": "15 lb"
+					}
+				},
+				{
+					"id": "eT70aSM7fJdf-OeUM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ew655-RZelFki53Uf"
+					},
+					"description": "Nonballistic Carrier",
+					"reference": "PY57:14",
+					"tech_level": "8",
+					"value": 2400,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 1
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2400,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eReCFEo0yHiPt9v7C",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ece0-IRYFuzYOGmmX"
+					},
+					"description": "Plate Carriers",
+					"reference": "PY57:14",
+					"notes": "12 DR against piercing and cutting attacks; 5 DR against all other damage types.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"value": 6400,
+					"weight": "6 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 12
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "eG8YCFzO58t_dtsFm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eZQPBwoeFVSmyjKov"
+					},
+					"description": "Pocket Interpreter",
+					"reference": "PY57:13",
+					"notes": "Complexity 0 software application.",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Other"
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "edRCyymLT7mYYtMqd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e7nWX4qfUQt9h8mnH"
+					},
+					"description": "Reflective Panels",
+					"reference": "PY57:11",
+					"tech_level": "8",
+					"tags": [
+						"Armor"
+					],
+					"value": 160,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 160,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eJln9Dj9xq3vDug2o",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ezfWO6wr1EACkkPXO"
+					},
+					"description": "Remote Pull Kit",
+					"reference": "PY57:14",
+					"tech_level": "8",
+					"value": 5600,
+					"weight": "1.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5600,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "eZyWIIfhy6JavuYOt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "ezF5tsBuGfvW020f5"
+					},
+					"description": "Scout Robot",
+					"reference": "PY57:14",
+					"notes": "S/6 hours; (SM -5, DR 3, HP 7, Move 1).",
+					"tech_level": "8",
+					"value": 320000,
+					"weight": "5.4 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320000,
+						"extended_weight": "5.4 lb"
+					}
+				},
+				{
+					"id": "ephebv0zwKryYkxca",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e7ye1l5pPeQAOowS5"
+					},
+					"description": "Service uniform.",
+					"reference": "PY57:8",
+					"notes": "With shoes.",
+					"tech_level": "7",
+					"tags": [
+						"Clothes"
+					],
+					"value": 960,
+					"weight": "4 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 960,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "elrKIGqcNO80xoRLH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e1y85WO2r94FbeMCO"
+					},
+					"description": "Service uniform.",
+					"reference": "PY57:8",
+					"notes": "With shoes.",
+					"tech_level": "8",
+					"tags": [
+						"Clothes"
+					],
+					"value": 1920,
+					"weight": "3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1920,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eE8c3cGk_GhTYyT8F",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eaSYGt2IzSSsohkw0"
+					},
+					"description": "Shooting Gloves",
+					"reference": "PY57:14",
+					"tech_level": "7",
+					"value": 160,
+					"weight": "0.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 160,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "elsDhwBgFWovBVjzS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eEnI8Gx5qD7gLn3MP"
+					},
+					"description": "Single-Threat EWS",
+					"reference": "PY57:11",
+					"notes": "Range is 50 yards; M/4 hours.",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Electronics"
+					],
+					"value": 400000,
+					"weight": "2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 400000,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ezeGI6nub51BUBHUM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eYhTpxnua8VFWzo-S"
+					},
+					"description": "Standard utility uniform",
+					"reference": "PY57:8",
+					"notes": "With boots.",
+					"tech_level": "7",
+					"tags": [
+						"Clothes"
+					],
+					"value": 1920,
+					"weight": "5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1920,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e77uaJnedxhhIWvm4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e3-jNTN8HFqWlhTP-"
+					},
+					"description": "Standard utility uniform",
+					"reference": "PY57:8",
+					"notes": "With boots.",
+					"tech_level": "8",
+					"tags": [
+						"Clothes"
+					],
+					"value": 3840,
+					"weight": "4 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3840,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "eEHaT-I1VnbWuP8Ae",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "eIw2XHGgeS-v90DH8"
+					},
+					"description": "Tactical Sound System",
+					"reference": "PY57:14",
+					"notes": "1×L/4 hours or external power.",
+					"tech_level": "7",
+					"value": 40000,
+					"weight": "92 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "92 lb"
+					}
+				},
+				{
+					"id": "ehxvQ94JL6UrBua1m",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 57\\Pyramid 57 Equipment.eqp",
+						"id": "e9_68MSUD4uwsQ8TG"
+					},
+					"description": "Translator Program",
+					"reference": "PY57:13",
+					"notes": "Complexity 1 software application.",
+					"tech_level": "9",
+					"tags": [
+						"Other"
+					],
+					"value": 16000,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 6270016,
+				"extended_weight": "4,505.3 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,245 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eRke8Xhw1EEjkQ0DY",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "e51LLBn6eTnOp1XiU"
+			},
+			"description": "Blaze Hand Flamer",
+			"reference": "UT127",
+			"notes": "2C/56 shots.",
+			"tech_level": "9^",
+			"legality_class": "3",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 38400,
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"id": "WqwOHpBdYA5OoQf3Y",
+					"damage": {
+						"type": "burn",
+						"base": "4d"
+					},
+					"strength": "6",
+					"accuracy": "3",
+					"range": "30/90",
+					"rate_of_fire": "1",
+					"shots": "56(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "3.3 lb"
+			}
+		},
+		{
+			"id": "eAfbLSI5JfqNw15hr",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eFJMuWs6u6UuwH03E"
+			},
+			"description": "Hellfire Semi-Portable Flamer",
+			"reference": "UT127",
+			"notes": "External E-cell.",
+			"tech_level": "9^",
+			"legality_class": "1",
+			"tags": [
+				"Beams",
+				"Gunner",
+				"Plasma Flamer"
+			],
+			"value": 1120000,
+			"weight": "70 lb",
+			"weapons": [
+				{
+					"id": "WU5LJNaQkiyCPDXT8",
+					"damage": {
+						"type": "burn",
+						"base": "6dx3"
+					},
+					"strength": "18M",
+					"accuracy": "12",
+					"range": "150/450",
+					"rate_of_fire": "1",
+					"shots": "100(5)",
+					"bulk": "-8",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1120000,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "eWnjL_tUw6kRVASVB",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eRO-jY0voHAdn58Bu"
+			},
+			"description": "Immolator Heavy Flamer",
+			"reference": "UT127",
+			"notes": "External D-cell.",
+			"tech_level": "9^",
+			"legality_class": "1",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 320000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "WtU2nRSI_D2Ip6Ymi",
+					"damage": {
+						"type": "burn",
+						"base": "8d"
+					},
+					"strength": "10†",
+					"accuracy": "6",
+					"range": "130/390",
+					"rate_of_fire": "1",
+					"shots": "35(5)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eqs4DvmNeEA-qN9VX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eEVMIUa1A847v6jfJ"
+			},
+			"description": "Incinerator Assault Flamer",
+			"reference": "UT127",
+			"notes": "2C/28 shots.",
+			"tech_level": "9^",
+			"legality_class": "2",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 73600,
+			"weight": "5.6 lb",
+			"weapons": [
+				{
+					"id": "WSWy_M-Yhqc7PGb-s",
+					"damage": {
+						"type": "burn",
+						"base": "5d"
+					},
+					"strength": "5†",
+					"accuracy": "6",
+					"range": "50/150",
+					"rate_of_fire": "1",
+					"shots": "28(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 73600,
+				"extended_weight": "5.6 lb"
+			}
+		}
+	]
+}

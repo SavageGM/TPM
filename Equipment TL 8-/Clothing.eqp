@@ -1,0 +1,1873 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "fffaef2e-5e63-4eac-9b18-d76bfeddfebc",
+			"type": "equipment",
+			"description": "Apron, Leather",
+			"reference": "LT99",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "a7cae7ee-ee5d-4f78-b834-963946785d10",
+			"type": "equipment",
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "335321e1-b7be-4391-98eb-4a12b441e27e",
+			"type": "equipment",
+			"description": "Boots",
+			"reference": "B284",
+			"notes": "Flexible; Concealable",
+			"tech_level": "2",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "5bc95035-34e9-4386-a801-2ea69b69df5a",
+			"type": "equipment",
+			"description": "Boots, Arctic",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "9becba53-1b2e-447f-9a46-1c619db74608",
+			"type": "equipment",
+			"description": "Boots, Jungle",
+			"reference": "HT68",
+			"notes": "DR+1 to sole.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To sole",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "519e7f32-b8a2-44c0-9fc6-86370056bc32",
+			"type": "equipment",
+			"description": "Belt",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "21d3ca7f-b6e2-4d54-8f5e-313d3082ba36",
+			"type": "equipment",
+			"description": "Boots, leather",
+			"reference": "LT98",
+			"tech_level": "2",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "43dbe271-ad21-4c1e-9a3d-fb9f4b79abb6",
+			"type": "equipment",
+			"description": "Boots, Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -4; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "5118d415-79fa-46a7-b3aa-bea1e6adeb7d",
+			"type": "equipment",
+			"description": "Boots, Light Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -1; Flexible and susceptible to blunt trauma (p. B379); +1 DR vs. cutting.",
+			"tech_level": "1",
+			"legality_class": "5",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 0
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "2ae83619-2b3c-47d7-b576-790d1f6e43df",
+			"type": "equipment",
+			"description": "Boots, Steel-Toed",
+			"reference": "HT68",
+			"notes": "DR+4 to toes.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To tose",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": -4
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "bf26b8b1-dcc6-4093-b501-709297871973",
+			"type": "equipment",
+			"description": "Cleats",
+			"reference": "HT68",
+			"notes": "Flexible. Count as boots for kicking damage.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a7d5f596-9fe5-4d11-bce6-68021160b0ca",
+			"type": "equipment",
+			"description": "Cloak, Freeman (Status 0)",
+			"reference": "LT99",
+			"notes": "May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404).",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "02ffe628-a98c-4dde-b502-f154b9015fd3",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "5",
+					"usage": "Throw",
+					"accuracy": "1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "spec."
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "46eccd1c-3292-4db4-b99c-604d13ce993b",
+			"type": "equipment",
+			"description": "Cloak, Leather/Wool, Freeman (Status 0)",
+			"reference": "LT99",
+			"notes": "May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404).",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 90,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "01ea748b-93db-4a3f-81f6-ad53ba77f1e2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "8",
+					"usage": "Throw",
+					"accuracy": "1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "spec."
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "368e1fb4-3b6d-4b5d-9070-ec1bf323dab8",
+			"type": "equipment",
+			"description": "Cloth Cap",
+			"reference": "B284",
+			"notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 5,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "b80e37dd-c4b1-4e29-818f-264e22c9fdc8",
+			"type": "equipment",
+			"description": "Cloth Gloves",
+			"reference": "B284",
+			"notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 15,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d57de293-6a3f-4987-9895-97e16a57225b",
+			"type": "equipment",
+			"description": "Clothing, Ordinary",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"modifiers": [
+				{
+					"id": "b13bb21c-930a-46c4-8b14-6e041df5a4ac",
+					"type": "eqp_modifier",
+					"name": "Status -2",
+					"notes": "Serf, street person",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.2"
+				},
+				{
+					"id": "145d5574-d88c-4ae2-bef2-b0085826236b",
+					"type": "eqp_modifier",
+					"name": "Status -1",
+					"notes": "Bondsman, poor citizen",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.5"
+				},
+				{
+					"id": "be7e9dc8-e711-47b1-93e4-d19444aec2af",
+					"type": "eqp_modifier",
+					"name": "Status 0",
+					"notes": "Freeman, apprentice, ordinary citizen",
+					"cost": "+0"
+				},
+				{
+					"id": "298d696a-f609-491c-88e5-4847b7016985",
+					"type": "eqp_modifier",
+					"name": "Status 1",
+					"notes": "Squire, merchant, priest, doctor, councilor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x2"
+				},
+				{
+					"id": "d7200232-24af-490a-acfe-448a21217d56",
+					"type": "eqp_modifier",
+					"name": "Status 2",
+					"notes": "Landless knight, mayor, business leader",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x5"
+				},
+				{
+					"id": "01ede262-023d-4780-9194-4a0dbeadfeaf",
+					"type": "eqp_modifier",
+					"name": "Status 3",
+					"notes": "Landed knight, guild master, big city mayor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x20"
+				},
+				{
+					"id": "4de60b73-350b-4541-bb3e-d21727f3a2c0",
+					"type": "eqp_modifier",
+					"name": "Status 4",
+					"notes": "Lesser noble, congressional representative",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100"
+				},
+				{
+					"id": "9df282f1-4bf7-4489-ba36-8653d73fee83",
+					"type": "eqp_modifier",
+					"name": "Status 5",
+					"notes": "Great noble, multinational corporate boss",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000"
+				},
+				{
+					"id": "9ff40bf5-145a-4c80-aae0-fbc5a15868f2",
+					"type": "eqp_modifier",
+					"name": "Status 6",
+					"notes": "Royal family, governor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x10000"
+				},
+				{
+					"id": "325cc780-6397-4326-b5aa-661542d3da39",
+					"type": "eqp_modifier",
+					"name": "Status 7",
+					"notes": "King, pope, president",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100000"
+				},
+				{
+					"id": "4d39c8ae-d151-4760-a5ad-8d9e70d3c6b7",
+					"type": "eqp_modifier",
+					"name": "Status 8",
+					"notes": "Emperor, god-king, overlord",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000000"
+				}
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3c801054-9434-4a65-bb71-87f78c50ca19",
+			"type": "equipment",
+			"description": "Clothing, Ordinary, Status 0",
+			"reference": "HT63",
+			"tech_level": "7",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 960,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "110c569e-233a-4282-961d-ade5214dd034",
+			"type": "equipment",
+			"description": "Clothing, Summer",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"modifiers": [
+				{
+					"id": "013171b2-d834-462c-8f5d-1641bdf4aaa1",
+					"type": "eqp_modifier",
+					"name": "Status -2",
+					"notes": "Serf, street person",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.2"
+				},
+				{
+					"id": "3633319b-9796-450d-87e1-9a3af2315bcd",
+					"type": "eqp_modifier",
+					"name": "Status -1",
+					"notes": "Bondsman, poor citizen",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.5"
+				},
+				{
+					"id": "a8330b49-4fac-4838-a39b-eb0bf64d7b76",
+					"type": "eqp_modifier",
+					"name": "Status 0",
+					"notes": "Freeman, apprentice, ordinary citizen",
+					"cost": "+0"
+				},
+				{
+					"id": "d6d110eb-f406-44b6-b62c-0d119773e35d",
+					"type": "eqp_modifier",
+					"name": "Status 1",
+					"notes": "Squire, merchant, priest, doctor, councilor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x2"
+				},
+				{
+					"id": "64d2b993-87a0-471a-8e5a-75a869db31a7",
+					"type": "eqp_modifier",
+					"name": "Status 2",
+					"notes": "Landless knight, mayor, business leader",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x5"
+				},
+				{
+					"id": "6226f81e-5c8d-46b6-8b1b-93acda98d414",
+					"type": "eqp_modifier",
+					"name": "Status 3",
+					"notes": "Landed knight, guild master, big city mayor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x20"
+				},
+				{
+					"id": "90a0b25e-0683-47a1-a540-34572af13bb9",
+					"type": "eqp_modifier",
+					"name": "Status 4",
+					"notes": "Lesser noble, congressional representative",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100"
+				},
+				{
+					"id": "6dfa91fa-b9cb-4916-b0b1-c9526f8f7d71",
+					"type": "eqp_modifier",
+					"name": "Status 5",
+					"notes": "Great noble, multinational corporate boss",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000"
+				},
+				{
+					"id": "a3d4f35b-27aa-460c-8ff9-76d3b86b456f",
+					"type": "eqp_modifier",
+					"name": "Status 6",
+					"notes": "Royal family, governor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x10000"
+				},
+				{
+					"id": "6a027f4b-7105-4d09-b9ac-d0ae3831ebfc",
+					"type": "eqp_modifier",
+					"name": "Status 7",
+					"notes": "King, pope, president",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100000"
+				},
+				{
+					"id": "11648a47-5d4e-461a-8fa7-7c7784561f15",
+					"type": "eqp_modifier",
+					"name": "Status 8",
+					"notes": "Emperor, god-king, overlord",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000000"
+				}
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "01b2a769-24eb-416b-b35e-0462b96a7151",
+			"type": "equipment",
+			"description": "Clothing, Summer, Status 0",
+			"reference": "HT63",
+			"tech_level": "7",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "607c56b1-4299-48f3-8fef-763b20430b16",
+			"type": "equipment",
+			"description": "Clothing, Winter",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"modifiers": [
+				{
+					"id": "a92993e2-77dc-4e2f-98b8-e73df4afa2c6",
+					"type": "eqp_modifier",
+					"name": "Status -2",
+					"notes": "Serf, street person",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.2"
+				},
+				{
+					"id": "70ab58cb-fed8-4632-b925-0b9f5cd4dcb5",
+					"type": "eqp_modifier",
+					"name": "Status -1",
+					"notes": "Bondsman, poor citizen",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x0.5"
+				},
+				{
+					"id": "c5b6d04f-ffb4-4aaa-b862-1ff92f13d3ea",
+					"type": "eqp_modifier",
+					"name": "Status 0",
+					"notes": "Freeman, apprentice, ordinary citizen",
+					"cost": "+0"
+				},
+				{
+					"id": "8e9ca832-c02b-452d-9adb-8979b83056d4",
+					"type": "eqp_modifier",
+					"name": "Status 1",
+					"notes": "Squire, merchant, priest, doctor, councilor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x2"
+				},
+				{
+					"id": "e0dbfc14-c0d1-4149-a578-10f462b15a83",
+					"type": "eqp_modifier",
+					"name": "Status 2",
+					"notes": "Landless knight, mayor, business leader",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x5"
+				},
+				{
+					"id": "8683af8e-d9dd-4521-805a-28e2acad84ab",
+					"type": "eqp_modifier",
+					"name": "Status 3",
+					"notes": "Landed knight, guild master, big city mayor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x20"
+				},
+				{
+					"id": "6284ab5c-ba39-4fad-ae52-00020c0b2297",
+					"type": "eqp_modifier",
+					"name": "Status 4",
+					"notes": "Lesser noble, congressional representative",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100"
+				},
+				{
+					"id": "ca9ad3d3-a6aa-4786-9d7d-6e28bbc04d3c",
+					"type": "eqp_modifier",
+					"name": "Status 5",
+					"notes": "Great noble, multinational corporate boss",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000"
+				},
+				{
+					"id": "ca573fda-e862-4a3d-8191-9629291c7a26",
+					"type": "eqp_modifier",
+					"name": "Status 6",
+					"notes": "Royal family, governor",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x10000"
+				},
+				{
+					"id": "642fce9f-7d77-4f04-b335-ec5fb5cae0c7",
+					"type": "eqp_modifier",
+					"name": "Status 7",
+					"notes": "King, pope, president",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x100000"
+				},
+				{
+					"id": "44bb8bee-b296-44f6-a3c8-5487313bde48",
+					"type": "eqp_modifier",
+					"name": "Status 8",
+					"notes": "Emperor, god-king, overlord",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x1000000"
+				}
+			],
+			"quantity": 1,
+			"value": 180,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "cutting",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "cutting",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "cutting",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "cutting",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "cutting",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "d053f1a3-5be2-4cdd-b0ff-d75cdbf06cc0",
+			"type": "equipment",
+			"description": "Coat, Long",
+			"reference": "LT99",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "8746bc06-79e5-4cb9-adfc-91f75c685b25",
+			"type": "equipment",
+			"description": "Coat, Long, Heavy",
+			"reference": "LT99",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "a66cb4a7-499c-4c7f-a408-8db46546b6ca",
+			"type": "equipment",
+			"description": "Foot Wrappings",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "93440abd-f79a-4a37-a0c4-34ed4f1ed3d8",
+			"type": "equipment",
+			"description": "Foot Wrappings, Boot",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "18bfc607-2c53-4e67-90e5-f68e6e91c5c7",
+			"type": "equipment",
+			"description": "Frisk Gloves",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "6bfec6ae-1cd3-4b1e-87db-826fe2cb068e",
+			"type": "equipment",
+			"description": "Ghillie Suit",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "54d8f854-3753-482a-a5cc-a8c965601959",
+			"type": "equipment",
+			"description": "Ghillie Suit (IR-suppressing)",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "06f2690c-3258-47b0-b5f1-ac94b40dfd2c",
+			"type": "equipment",
+			"description": "Goggles",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 80,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "265bec3a-43a5-4b13-ab25-ab7356607b1b",
+			"type": "equipment",
+			"description": "Goggles, Tinted",
+			"reference": "ATE1:29",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "0.05 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "23b2d586-2aee-4a19-b676-eebb9b4f9467",
+			"type": "equipment",
+			"description": "Hat, Cloth",
+			"reference": "HT64",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 6,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "fea4d74b-e2e6-45ed-a1b9-9646afaf1722",
+			"type": "equipment",
+			"description": "Heavy Cloak",
+			"reference": "B287",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "6b94e647-9960-4647-b945-1cfe8e22e816",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "-"
+					},
+					"strength": "-",
+					"reach": "-",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "block",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"parry": "No",
+						"block": "+0",
+						"damage": "-"
+					}
+				},
+				{
+					"id": "3f1504d3-e7e4-45dc-a292-0590dadfac2a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"strength": "8",
+					"usage": "Thrown",
+					"accuracy": "+1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Cloak"
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "Special"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "a464e618-bbbc-4a4e-a251-18f0a1e62f65",
+			"type": "equipment",
+			"description": "Heavy Cloak",
+			"reference": "B287",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "231361a9-32ee-4e15-9a63-bd611fdb38b3",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "-"
+					},
+					"strength": "-",
+					"reach": "-",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "block",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"parry": "No",
+						"block": "+0",
+						"damage": "-"
+					}
+				},
+				{
+					"id": "b6064b63-8744-42a4-a5bd-14470eee6d92",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"strength": "8",
+					"usage": "Thrown",
+					"accuracy": "+1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Cloak"
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "Special"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "6453c29d-0886-41c3-8a41-de6a7679523c",
+			"type": "equipment",
+			"description": "Hunting Shirt, Dyed",
+			"reference": "LT126",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "c5c14a3c-7f57-4107-a643-1d18d5b5d895",
+			"type": "equipment",
+			"description": "Hunting Shirt, Plain",
+			"reference": "LT126",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "fbceebd9-08fa-40e0-80aa-f7557bdbb08d",
+			"type": "equipment",
+			"description": "Leather Gloves",
+			"reference": "B284",
+			"notes": "Flexible",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 30,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "bb84658b-5076-44a8-abbb-7ffbe48c68e9",
+			"type": "equipment",
+			"description": "Light Cloak",
+			"reference": "B287",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "82f4656c-74ca-47a6-a5e5-208a54a4bf3e",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "-"
+					},
+					"strength": "-",
+					"reach": "-",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "block",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"parry": "No",
+						"block": "+0",
+						"damage": "-"
+					}
+				},
+				{
+					"id": "011f5041-1acd-4e0d-835d-f14eb04d86d2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"accuracy": "+1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Cloak"
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "Special"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "0e02f606-7fd9-43e3-870e-a93ec385a91c",
+			"type": "equipment",
+			"description": "Long Coat",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "090abe75-7e69-4320-8e20-3463ea105187",
+			"type": "equipment",
+			"description": "Long Coat, Heavy",
+			"reference": "LT99",
+			"notes": "Felt or Leather",
+			"tags": [
+				"Body Armor",
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Holdout"
+					},
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "194e43fe-c302-4922-9bd3-1eca635e1ab8",
+			"type": "equipment",
+			"description": "Long Coat, Leather",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "43112979-4be1-4ba4-bf8c-9780998dca5e",
+			"type": "equipment",
+			"description": "Long Coat, Light",
+			"reference": "LT99",
+			"notes": "Duster, Kaftan, Overcoat, Raglan, Trench Coat",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Holdout"
+					},
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "67016b41-2dc4-4581-b37b-355ea7cace4e",
+			"type": "equipment",
+			"description": "Mittens",
+			"reference": "LT98",
+			"notes": "DR1 vs. cutting",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "883b74cd-576d-4bb3-bc18-d2ae0bb713d3",
+			"type": "equipment",
+			"description": "Mittens, Padded Cloth ",
+			"reference": "LTIA15",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); Enclosedmittens andgloves protectvs.cold,heat,contactpoison,etc.,but giveBadGrip1(p.B123); Gives Ham-Fisted 2 (p. B138).",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "c1242b01-4b12-4fb3-94ad-9045a12acb67",
+			"type": "equipment",
+			"description": "Moccasins ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -1; Flexible and susceptible to blunt trauma (p. B379); Gives +1 to Stealth.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "a1e45a46-47cc-42f5-b64d-c0ef330ccad0",
+			"type": "equipment",
+			"description": "Reinforced Boots",
+			"reference": "B284",
+			"tech_level": "7",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "75cd6892-dc63-4909-a71c-b2802b0af66f",
+			"type": "equipment",
+			"description": "Sandals",
+			"reference": "B284",
+			"notes": "Concealable",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "underside",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "1e3fdeff-9fb6-4078-8030-910febfdc15a",
+			"type": "equipment",
+			"description": "Sandals ",
+			"reference": "LTIA16",
+			"notes": "Don: 10 secs; Holdout: -2; Flexible and susceptible to blunt trauma (p. B379); DR applies to underside only.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "f695a3fd-8568-4544-8f16-1c3efb811289",
+			"type": "equipment",
+			"description": "Shoes",
+			"reference": "B284",
+			"notes": "Flexible; Concealable",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a1dad097-670a-413a-b166-b82567111cbe",
+			"type": "equipment",
+			"description": "Shoes ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e4bd145c-88df-4e3f-a396-9f14d912d1f8",
+			"type": "equipment",
+			"description": "Shoes, Climbing",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1280,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "fc220237-0205-4a4c-bfe4-e3bc09bfdb36",
+			"type": "equipment",
+			"description": "Shoes, leather",
+			"reference": "LT98",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "20f04bc9-a7b2-429e-90ff-5365d7d591b6",
+			"type": "equipment",
+			"description": "Shoes, Medium Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 45,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 45,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "404b9a66-5302-45c1-b0e2-0178b5e32ea0",
+			"type": "equipment",
+			"description": "Sneakers",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "155d7e90-c6fa-4747-92f6-4de2ceb74eb3",
+			"type": "equipment",
+			"description": "Sunglasses",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "a8d70ba0-0dcc-4e2b-910b-7cbf1d6d81d3",
+			"type": "equipment",
+			"description": "Wicking Undergarment",
+			"reference": "HT64",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 480,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

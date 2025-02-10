@@ -1,0 +1,5552 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "c01e38a0-40a2-4e88-97d8-9dad690cbe9c",
+			"type": "equipment",
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 15
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "3ebbe41f-31b1-4103-851f-c6b0fe0cd5eb",
+			"type": "equipment",
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 8
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "c507ec6e-fb67-49c6-b397-f590f53dc810",
+			"type": "equipment",
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "22439e0a-c418-44b8-b42b-386a0212398f",
+			"type": "equipment",
+			"description": "Bomb Disposal Suit + Visor",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 163200,
+			"weight": "68 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 17
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 17
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "not from front",
+					"amount": -15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "not from front",
+					"amount": -15
+				}
+			],
+			"calc": {
+				"extended_value": 163200,
+				"extended_weight": "68 lb"
+			}
+		},
+		{
+			"id": "16b1eb06-59e4-4ba1-b949-830a0d793330",
+			"type": "equipment",
+			"description": "Trauma Plate",
+			"reference": "HT67",
+			"notes": "DR+25 to torso from one direction, front or back",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "02b4c4e7-b454-41da-b817-bf0c09ad0560",
+			"type": "equipment",
+			"description": "Tactical Vest Trauma Plates",
+			"reference": "B284",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 28800,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 23
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 23
+				}
+			],
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e2860d00-66c2-43cd-b118-faf8b7850097",
+			"type": "equipment",
+			"description": "Tactical Vest",
+			"reference": "B284",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 14400,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 12
+				}
+			],
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "87e164c0-05d5-4b8b-bf49-b222262e08ec",
+			"type": "equipment",
+			"description": "Tactical Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "159ad0fb-0950-402a-826e-5a92f6034359",
+			"type": "equipment",
+			"description": "Advanced Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 4rhs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 112200,
+			"weight": "45 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 112200,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "5e290624-1057-4570-8dc1-8f43f4cd6f65",
+			"type": "equipment",
+			"description": "Ghillie Suit (IR-suppressing)",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "2711aa36-6df8-4075-afe3-d912e5b0bd3c",
+			"type": "equipment",
+			"description": "Fragmentation Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+3 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 11200,
+			"weight": "22 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 11200,
+				"extended_weight": "22 lb"
+			}
+		},
+		{
+			"id": "40d13150-a98e-4c10-92da-e6b93aea729f",
+			"type": "equipment",
+			"description": "Hard-Hat Rig Hose",
+			"reference": "HT74",
+			"notes": "200'",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "ed28109d-40f1-4de5-8733-ade345f5cc32",
+			"type": "equipment",
+			"description": "Anti-Laser Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "b8c2526d-7d79-4da4-91ca-ba18242f8ab7",
+			"type": "equipment",
+			"description": "Anti-Stab Plate",
+			"reference": "HT67",
+			"notes": "DR+4 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "03577a14-c18f-4c17-ae4d-39e0f0d7adcd",
+			"type": "equipment",
+			"description": "Small Trauma Plate",
+			"reference": "HT67",
+			"notes": "DR+25 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e6e86ad5-97f0-406a-9fe0-02243d26e409",
+			"type": "equipment",
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45min.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "af42ecb9-a939-4168-aa69-5db08423f138",
+			"type": "equipment",
+			"description": "Hard-Hat Suit",
+			"reference": "HT74",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 144000,
+			"weight": "95 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "tail",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "wing",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "fin",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "brain",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 144000,
+				"extended_weight": "95 lb"
+			}
+		},
+		{
+			"id": "bcd5d772-6c89-4bb7-9f7c-e13ce4fec6cf",
+			"type": "equipment",
+			"description": "Anti-Stab Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 to front torso.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "8794a0b8-124e-4235-967b-d85cfbec84e1",
+			"type": "equipment",
+			"description": "Frisk Gloves",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ac461e76-73a6-4b1b-bcce-b7b92f4dfd5f",
+			"type": "equipment",
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 5600,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "c1677a28-b77a-4648-a9cb-583ba248d659",
+			"type": "equipment",
+			"description": "Assault Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 14400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "a80a24ed-03f9-4711-961a-576983e1fbc1",
+			"type": "equipment",
+			"description": "Assault Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 24000,
+			"weight": "16 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "16 lb"
+			}
+		},
+		{
+			"id": "c8f02c38-530d-44ab-8421-d90bad1f5640",
+			"type": "equipment",
+			"description": "Shoes, Climbing",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1280,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "d8fa4b3a-848c-415c-b019-16d4e30a74b6",
+			"type": "equipment",
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a62afb54-7fc7-4a18-8d73-f29e66ecb593",
+			"type": "equipment",
+			"description": "Ballistic Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 12
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "010356bf-cced-4713-899d-8f10a5c25b15",
+			"type": "equipment",
+			"description": "Sharp-Protective Gloves",
+			"reference": "HT69",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1c5db7c5-02f7-4193-8af4-1d47e8b398ae",
+			"type": "equipment",
+			"description": "Sharp-Protective Armor (legs)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "2d8fc1c1-4d0a-401b-bd6c-26f7f365b102",
+			"type": "equipment",
+			"description": "Sharp-Protective Armor (arms)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "f3a4fa1a-88f8-4ff2-927f-729a3a3736e2",
+			"type": "equipment",
+			"description": "Ballistic Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 7200,
+			"weight": "4.4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 10
+				}
+			],
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "4.4 lb"
+			}
+		},
+		{
+			"id": "e896560d-18a6-4b6b-8dee-3ced8505c2c9",
+			"type": "equipment",
+			"description": "Boots, Firefighter",
+			"reference": "HT68",
+			"notes": "DR+3 to sole or toes.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 64000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To sole or toes",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "600ab2c7-20dd-41c9-9bc8-a553887e201c",
+			"type": "equipment",
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "09717a57-9d92-456a-99cc-289eb1a9959d",
+			"type": "equipment",
+			"description": "Hockey Helmet",
+			"reference": "HT70",
+			"notes": "DR+1 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing damage type",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "9fbc3b16-f3e0-41e2-bc26-5a8481b23741",
+			"type": "equipment",
+			"description": "Wicking Undergarment",
+			"reference": "HT64",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 480,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "6787ede5-c2f6-4fe0-96bc-761079825979",
+			"type": "equipment",
+			"description": "Ballistic Leggings",
+			"reference": "HT68",
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "7f1bd4ba-df5c-4cd2-a8aa-d0921edf4a26",
+			"type": "equipment",
+			"description": "Ballistic Sunglasses",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 560,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "2fd8739b-3331-4bd7-a032-84ed72b0f3ef",
+			"type": "equipment",
+			"description": "Infrared-Suppressing Poncho",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "15dca29a-0d43-499e-b98c-88127f55a5fa",
+			"type": "equipment",
+			"description": "Riot Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "f03646ef-1bda-4a17-beed-11f4cfe973bc",
+			"type": "equipment",
+			"description": "Riot Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "96431a0a-d1fc-42a9-b971-5a86302bed72",
+			"type": "equipment",
+			"description": "IR Camouflage Net",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 12800,
+			"weight": "100 lb",
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ab66dc75-8960-4a50-90ad-2337b9d2b309",
+			"type": "equipment",
+			"description": "Kneepads",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 320,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "f3176ab6-9445-47cb-ac92-b770cee2c6d9",
+			"type": "equipment",
+			"description": "Ballistic Vest",
+			"reference": "B284",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 8
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "2c3e680a-2779-4af5-ba0e-d5159e58af8f",
+			"type": "equipment",
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 3hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 9600,
+			"weight": "35 lb",
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "41b34ad8-aaa9-451b-b7b4-d3d9b216ac3e",
+			"type": "equipment",
+			"description": "Large Entry Shield",
+			"reference": "HT72",
+			"notes": "DR12 HP60",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 22400,
+			"weight": "22 lb",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 3
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 3
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 22400,
+				"extended_weight": "22 lb"
+			}
+		},
+		{
+			"id": "eda2d660-4387-47a6-9f33-b60b4a49cb13",
+			"type": "equipment",
+			"description": "Radiation Blanket",
+			"reference": "HT72",
+			"notes": "PF3",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 32000,
+			"weight": "70 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "824b8f2b-7a55-4050-9e9c-bed12962d5e7",
+			"type": "equipment",
+			"description": "Football Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "afc82409-63c0-4d67-9ec2-5849ded74a64",
+			"type": "equipment",
+			"description": "FFM",
+			"reference": "HT73",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "994f593d-0de6-4cdb-a1e1-59ea3f716a44",
+			"type": "equipment",
+			"description": "Advanced Body Armor",
+			"reference": "HT66",
+			"notes": "DR-30 vs. cr.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 73600,
+			"weight": "17 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -5
+				}
+			],
+			"calc": {
+				"extended_value": 73600,
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "5eb63308-24ec-4470-a11a-e8bab3dfcbde",
+			"type": "equipment",
+			"description": "Electronic Earplugs",
+			"reference": "HT70",
+			"notes": "T/400hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 24000,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "b2be4b5a-0037-4f33-9d97-4716af809716",
+			"type": "equipment",
+			"description": "Electronic Earmuffs",
+			"reference": "HT70",
+			"notes": "XS/100hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "903735f1-e954-4417-b5fd-f08a4c216588",
+			"type": "equipment",
+			"description": "Elbow Pads",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 320,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "edd0e1ef-13ba-4a35-a800-5d28a4dc0b4f",
+			"type": "equipment",
+			"description": "Early Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR8 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "4c99deba-0762-4918-ac6f-125e3fc82cd2",
+			"type": "equipment",
+			"description": "DAP",
+			"reference": "HT68",
+			"notes": "Flexible. DR+6 vs. pi, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "a52118bd-e7ee-44f4-9d35-b13faee924f9",
+			"type": "equipment",
+			"description": "Bomb Disposal Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160000,
+			"weight": "65 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "not from front",
+					"amount": -15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "not from front",
+					"amount": -15
+				}
+			],
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "1c508d3d-3c18-4596-b531-fb7b70ffc29a",
+			"type": "equipment",
+			"description": "Cooling System",
+			"reference": "HT74",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "f0873b58-5bc9-4d50-9008-85f42b905dfb",
+			"type": "equipment",
+			"description": "Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "d752cb14-b19b-40de-997b-817c0ee85477",
+			"type": "equipment",
+			"description": "Medium Entry Shield",
+			"reference": "HT72",
+			"notes": "DR12 HP40",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 19200,
+			"weight": "17 lb",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "256fa1b3-a387-49bd-bc6f-7220cbfe1c2b",
+			"type": "equipment",
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 90mins.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "d4e7a74d-d4c4-42ea-a6d5-ba27e81d11b5",
+			"type": "equipment",
+			"description": "Heated Clothing",
+			"reference": "HT74",
+			"notes": "M/8hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8800,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 8800,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "d5c51eeb-345e-42b4-bfa5-153e2ac86672",
+			"type": "equipment",
+			"description": "Improved Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR4. vs pi, cut.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "3fd1505e-b29c-4bb1-b5dd-d7eed7fcf6a0",
+			"type": "equipment",
+			"description": "Clean Suit",
+			"reference": "HT75",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f3317d7e-0044-4ef3-b3bf-f68ff8494457",
+			"type": "equipment",
+			"description": "Boots, Jungle",
+			"reference": "HT68",
+			"notes": "DR+1 to sole.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To sole",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "0249f75b-328c-43bc-b6c7-797d49646f5b",
+			"type": "equipment",
+			"description": "Climate-Control System",
+			"reference": "HT74",
+			"notes": "4xS/8hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 20000,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "3af572c8-b58a-4c13-bdf2-5bbad6f01b0c",
+			"type": "equipment",
+			"description": "Boots, Blast",
+			"reference": "HT68",
+			"notes": "DR+13 to sole.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2800,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To sole",
+					"amount": -13
+				}
+			],
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "c2df4201-f8cb-4006-9876-0669aa3c73be",
+			"type": "equipment",
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "f3fe193c-7366-4a81-8700-e20f0c546dd2",
+			"type": "equipment",
+			"description": "Cup",
+			"reference": "HT71",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d20d1179-34b0-4b88-8507-b8a71a0fabd6",
+			"type": "equipment",
+			"description": "Biomedical Sensors",
+			"reference": "HT75",
+			"notes": "2xXS/24hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "8c942556-22b6-4c59-a3fd-62bee3c995e0",
+			"type": "equipment",
+			"description": "Dry Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "33cd0ca0-4206-4848-876f-da26944aa6b6",
+			"type": "equipment",
+			"description": "Modern Firefighter's Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "75192d21-3108-4662-825d-857a6dac166e",
+			"type": "equipment",
+			"description": "Early Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 1.5hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "fbccad29-1a50-4352-a404-082be378c1d7",
+			"type": "equipment",
+			"description": "Earplugs",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f50f1d86-7f5d-4d22-a0bd-3f03247b21b6",
+			"type": "equipment",
+			"description": "Modern Firefighter's Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "a3a28105-81ee-4345-920e-6e071c74d64c",
+			"type": "equipment",
+			"description": "Motorcycle Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "3bde7eee-20d9-4ad5-836c-24a1f683f58a",
+			"type": "equipment",
+			"description": "Motorcycle Helmet + Visor",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"specialization": "non-crushing",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "08177008-4dec-4f22-afe2-b8c1cf87488d",
+			"type": "equipment",
+			"description": "Explosives Blanket",
+			"reference": "HT72",
+			"notes": "DR25",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "45 lb",
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "ca25e4c0-fd0a-46e3-a428-cf4c0912aa55",
+			"type": "equipment",
+			"description": "Mouthguard",
+			"reference": "HT71",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "0aaf5c92-40f1-45ad-abd7-9bd5f788054e",
+			"type": "equipment",
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "88434b26-066e-4dbe-8f57-a40dab4e0046",
+			"type": "equipment",
+			"description": "Wetsuit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "8327eb5d-4a44-46ff-a865-152b24e89034",
+			"type": "equipment",
+			"description": "Turnout Gear",
+			"reference": "HT75",
+			"notes": "DR+3 vs. burn.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 12000,
+			"weight": "12 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "ac813018-51af-4f8a-9039-befb3d6c62f7",
+			"type": "equipment",
+			"description": "Aircrew Armor",
+			"reference": "HT66",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 20
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "c3046175-4f20-4a1e-87a1-e97c0d4e136e",
+			"type": "equipment",
+			"description": "Aircrew Leg Armor",
+			"reference": "HT68",
+			"notes": "DR15 to front legs.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "18 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "a793d9fa-a502-4e27-b322-5576602f8e21",
+			"type": "equipment",
+			"description": "Hard Hat",
+			"reference": "HT70",
+			"notes": "DR+2 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing damage type",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "d72153ea-c05c-4f11-9e2f-122675eca1ed",
+			"type": "equipment",
+			"description": "Anti-G Suit",
+			"reference": "HT75",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 40000,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e4f49a2b-a316-48f9-9489-f65ab7574b09",
+			"type": "equipment",
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22min.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "5f94d47e-7ce3-471f-b4da-ab9117f81580",
+			"type": "equipment",
+			"description": "Shoulder Pads",
+			"reference": "HT66",
+			"notes": "DR3 vs. cr. To slam: +1 damage, DR3.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "7c656b4e-6ee5-4705-871c-dd1bc44fdaa3",
+			"type": "equipment",
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "c6f7837f-90a5-40b1-93c3-29eaf476b124",
+			"type": "equipment",
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "DR8 to the front vitals",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "13.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "frontal",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "13.5 lb"
+			}
+		},
+		{
+			"id": "b105154f-0d4e-4671-82b6-178ea8bdb73b",
+			"type": "equipment",
+			"description": "Hockey Glove",
+			"reference": "HT69",
+			"notes": "DR3 to one hand only; that hand is Ham-Fisted 1.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "bb724234-2b9e-4c6a-883b-ce97b55fb722",
+			"type": "equipment",
+			"description": "SCBA mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "46c18dc9-85b1-45d9-b716-263625713455",
+			"type": "equipment",
+			"description": "Biohazard Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "bd7f669f-86d7-4b31-bd18-07921ea6966a",
+			"type": "equipment",
+			"description": "Improved Fragmentation Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+2 vs. pi, cut.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 32000,
+			"weight": "23 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 22
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 22
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "23 lb"
+			}
+		},
+		{
+			"id": "dea29622-fff2-4164-880a-c200557bcb19",
+			"type": "equipment",
+			"description": "Riot Shield",
+			"reference": "HT72",
+			"notes": "DR7 HP40",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "7.5 lb",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "7c043332-b9eb-49e9-97e2-405cefb2cb17",
+			"type": "equipment",
+			"description": "Riot Gear (legs)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "278cc1f4-adfb-4997-aaec-08fab19a8e01",
+			"type": "equipment",
+			"description": "Riot Gear (arms)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "7f5724dc-c9d5-420a-b2c6-706881f416f4",
+			"type": "equipment",
+			"description": "Reinforced Boots",
+			"reference": "B284",
+			"tech_level": "7",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "dec7c57f-4b9f-4ac3-9850-e553ae8e6ce8",
+			"type": "equipment",
+			"description": "Frag Vest Plate Inserts",
+			"reference": "B284",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 20
+				}
+			],
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "9592cb9f-4c06-4d10-a41d-b634e37a1202",
+			"type": "equipment",
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 90mins.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "35 lb",
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "cbb42dde-993e-4681-9b42-04c3d41ec59b",
+			"type": "equipment",
+			"description": "Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 4hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 28000,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 28000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "a7c253ca-ca8e-458d-8bd6-e034df97c5a8",
+			"type": "equipment",
+			"description": "Frag Vest",
+			"reference": "B284",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 2800,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "040a844a-01e8-44c9-9912-f1d0eb61672e",
+			"type": "equipment",
+			"description": "Frag Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1050,
+			"weight": "4.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 1050,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "f97a9a1a-b915-4980-ad0f-c04bb8809095",
+			"type": "equipment",
+			"description": "Frag Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "6370d8e9-4278-43fc-8c75-81542db48da6",
+			"type": "equipment",
+			"description": "NBC Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "be4c0c4d-72d4-4f6f-a9e0-f38dd8705ab3",
+			"type": "equipment",
+			"description": "Flak Vest",
+			"reference": "HT66",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 7
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "6ad91f70-c95f-4746-80f1-59f20aebdb7c",
+			"type": "equipment",
+			"description": "Fireproof Suit",
+			"reference": "HT75",
+			"notes": "Flexible. DR+3 vs. burn.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "non-burning damage type",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "f279a2eb-1d4a-4100-a3ee-ae76307bd5be",
+			"type": "equipment",
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "3c8e3510-398f-436b-88c8-c5899f008028",
+			"type": "equipment",
+			"description": "Ghillie Suit",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e950383b-7200-43ec-9d75-9690293ea66a",
+			"type": "equipment",
+			"description": "Steel Pot",
+			"reference": "B285",
+			"tech_level": "6",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "b18da1d0-e1ef-4631-92de-f49dcecaf688",
+			"type": "equipment",
+			"description": "Bulletproof Vest, Improvised",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "ece637f6-726a-4b58-a8e0-8c00d64ee978",
+			"type": "equipment",
+			"description": "Goggles",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 80,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "189b215b-6dfc-42a7-88dc-2a61e253f16c",
+			"type": "equipment",
+			"description": "Cleats",
+			"reference": "HT68",
+			"notes": "Flexible. Count as boots for kicking damage.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "53f7fc8b-f22c-46b3-970b-b5219f691dcd",
+			"type": "equipment",
+			"description": "Sneakers",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "c74791dd-f998-4824-a520-c810a09e4350",
+			"type": "equipment",
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "35 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "876dfd0d-ca2d-4128-9aa0-894db1cb3a6b",
+			"type": "equipment",
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 12min.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "f8476605-db44-44b8-b0b1-8e686eccb7a7",
+			"type": "equipment",
+			"description": "Sentry Armor",
+			"reference": "HT66",
+			"notes": "DR+14 to the front torso",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 14
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "d09251b7-55af-445a-be4a-e958fb36d415",
+			"type": "equipment",
+			"description": "Leather Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b295aecd-bcd1-40aa-8f7d-65095115ed78",
+			"type": "equipment",
+			"description": "Medium Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e54d6d79-aae4-40cc-b08b-cc520be1606a",
+			"type": "equipment",
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "9db06ebb-a5d7-4a62-9763-8c6301f9d536",
+			"type": "equipment",
+			"description": "Flak Jacket",
+			"reference": "B284",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 7
+				}
+			],
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "03a767ce-c673-49ca-b604-54b36e898dfa",
+			"type": "equipment",
+			"description": "Bulletproof Shield",
+			"reference": "HT72",
+			"notes": "DR10 HP80",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "070f8a12-be51-4015-b730-97bcff7eb75c",
+			"type": "equipment",
+			"description": "Boots, Steel-Toed",
+			"reference": "HT68",
+			"notes": "DR+4 to toes.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To tose",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": -4
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "9515e9ee-28fd-43a3-9ca5-8a8621f404d4",
+			"type": "equipment",
+			"description": "Bulletproof Vest",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 3000,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "a42ed5aa-8e6d-47e6-8d93-b56fee579f53",
+			"type": "equipment",
+			"description": "Sunglasses",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "65d46ac0-4e9f-471c-a9d8-0c3f137a362e",
+			"type": "equipment",
+			"description": "Heated Clothing",
+			"reference": "HT74",
+			"notes": "External power.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 2200,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "50d62bca-cb44-42db-9c31-cd6858759ea6",
+			"type": "equipment",
+			"description": "Light Body Armor (arms)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "fc160df3-3813-43d3-bab0-cc8e1ae0b6c3",
+			"type": "equipment",
+			"description": "Light Body Armor (legs)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 1400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 1400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "882b3d79-79d3-4ea9-b2f7-f13fd9716e26",
+			"type": "equipment",
+			"description": "Earmuffs",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "c9dfce41-20d0-4956-a909-1c8221cac952",
+			"type": "equipment",
+			"description": "Light Body Armor (torso)",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "960483e3-0abf-408a-a731-ad24a59ca27c",
+			"type": "equipment",
+			"description": "Early Firefighter's Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "29a5c4d0-b690-40bf-bb04-9ba0dbbd7d1d",
+			"type": "equipment",
+			"description": "Composite Body Armor",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "18ae2fa6-0aae-425a-a405-0f7cfe04fce0",
+			"type": "equipment",
+			"description": "Light Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e06c1841-8abd-453a-8666-281d44c3ee67",
+			"type": "equipment",
+			"description": "Dive Mask",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "bb244195-b122-4323-89d2-b2c714eaf933",
+			"type": "equipment",
+			"description": "Boots, Arctic",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "156e26c6-8321-4abb-8186-99034d886fa0",
+			"type": "equipment",
+			"description": "Skullcap",
+			"reference": "HT70",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "cf548c49-4432-4ba1-8949-3c0d7db96789",
+			"type": "equipment",
+			"description": "Long Coat",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "accc173f-408b-40b2-937e-042cfc0b2777",
+			"type": "equipment",
+			"description": "Shin Guards",
+			"reference": "HT68",
+			"notes": "DR4 with 2/6 coverage, front only.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "23ad53a1-5660-40d5-98f8-e22db864099b",
+			"type": "equipment",
+			"description": "Long Coat, Leather",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "38053a75-f60d-4aeb-ace2-1400906870ce",
+			"type": "equipment",
+			"description": "Boots",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "1bfabe02-3964-4a72-8d53-4653f85a3945",
+			"type": "equipment",
+			"description": "Chaps",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3b08e07a-502c-4190-84e4-1be665b85205",
+			"type": "equipment",
+			"description": "Boots, High",
+			"reference": "HT68",
+			"notes": "Flexible. 3/6 coverage to legs.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "13e97ad2-8935-4b0c-bd8c-e252f5784098",
+			"type": "equipment",
+			"description": "Buff Coat (Leather)",
+			"reference": "B283",
+			"notes": "Flexible",
+			"tech_level": "4",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 210,
+			"weight": "16 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 210,
+				"extended_weight": "16 lb"
+			}
+		},
+		{
+			"id": "c7567111-205d-4b68-abca-b152dfba6067",
+			"type": "equipment",
+			"description": "Steel Laminate Plate",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 900,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "21a33980-ac81-4e2a-be97-2e7902b73247",
+			"type": "equipment",
+			"description": "Steel Corselet",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1300,
+			"weight": "35 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"extended_value": 1300,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "a08ed557-2e64-4cc8-b033-6338f8726178",
+			"type": "equipment",
+			"description": "Steel Breastplate",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "18 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "frontal",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "frontal",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "cefb7904-dd7f-4e01-a9ae-d365ce782dc4",
+			"type": "equipment",
+			"description": "Heavy Steel Corselet",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 2300,
+			"weight": "45 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 7
+				}
+			],
+			"calc": {
+				"extended_value": 2300,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "02c2952b-610d-4b96-a71e-2ce7a7f2c59d",
+			"type": "equipment",
+			"description": "Double Mail Hauberk",
+			"reference": "B283",
+			"notes": "Flexible",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 520,
+			"weight": "44 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 520,
+				"extended_weight": "44 lb"
+			}
+		},
+		{
+			"id": "1523c818-e00f-4bbe-bd93-0e2ebf4fa5b8",
+			"type": "equipment",
+			"description": "Mail Shirt",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "16 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "16 lb"
+			}
+		},
+		{
+			"id": "20eaae55-bf18-490e-8fa9-071ca176e1d5",
+			"type": "equipment",
+			"description": "Scale Armor",
+			"reference": "B283",
+			"tech_level": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 420,
+			"weight": "35 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 420,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "9214d597-06b9-4ad1-ac07-cabd0a141f7c",
+			"type": "equipment",
+			"description": "Mail Hauberk",
+			"reference": "B283",
+			"notes": "Flexible",
+			"tech_level": "2",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 230,
+			"weight": "25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 230,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "7def662e-9988-4db7-b669-29cb5456216b",
+			"type": "equipment",
+			"description": "Light Scale Armor",
+			"reference": "B283",
+			"tech_level": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "9bee5881-69c9-49e6-8833-f97f678f02db",
+			"type": "equipment",
+			"description": "Lorica Segmentata",
+			"reference": "B283",
+			"tech_level": "2",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 680,
+			"weight": "26 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 680,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "14ddbed7-1692-4997-9fc0-175f866f550a",
+			"type": "equipment",
+			"description": "Mittens, Padded Cloth ",
+			"reference": "LTIA15",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); Enclosedmittens andgloves protectvs.cold,heat,contactpoison,etc.,but giveBadGrip1(p.B123); Gives Ham-Fisted 2 (p. B138).",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "cca5a093-5f93-4bc4-b407-5d6f08c687e0",
+			"type": "equipment",
+			"description": "Leather Armor",
+			"reference": "B283",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "0bec7365-3b56-47ab-a879-70a17c6490e9",
+			"type": "equipment",
+			"description": "Boots, Light Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -1; Flexible and susceptible to blunt trauma (p. B379); +1 DR vs. cutting.",
+			"tech_level": "1",
+			"legality_class": "5",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 0
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "42473dec-6613-468b-9bca-7823e1e3bb1c",
+			"type": "equipment",
+			"description": "Sandals, Hobnailed ",
+			"reference": "LTIA16",
+			"notes": "Don: 10 secs; Holdout: -2; Flexible and susceptible to blunt trauma (p. B379); DR applies to underside only; Lets wearer ignore -2 to attacks and -1 to defenses for bad terrain.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "80f80e64-3d21-43cb-9db2-789594023cd4",
+			"type": "equipment",
+			"description": "Leather Jacket",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "92dba1a7-bba3-455c-9052-df35a0756b4e",
+			"type": "equipment",
+			"description": "Cloth Armor",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "8e446ba8-dffe-4d15-91d4-c96051f6eb93",
+			"type": "equipment",
+			"description": "Light Cloak",
+			"reference": "B287",
+			"tech_level": "1",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "82f4656c-74ca-47a6-a5e5-208a54a4bf3e",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "-"
+					},
+					"strength": "-",
+					"reach": "-",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "block",
+							"name": "Cloak"
+						}
+					],
+					"calc": {
+						"parry": "No",
+						"block": "+0",
+						"damage": "-"
+					}
+				},
+				{
+					"id": "011f5041-1acd-4e0d-835d-f14eb04d86d2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"accuracy": "+1",
+					"range": "2",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Cloak"
+						},
+						{
+							"type": "skill",
+							"name": "Net",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "2",
+						"damage": "Special"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "20dcc77b-7c54-4d9f-8a3e-cfe1962e4c72",
+			"type": "equipment",
+			"description": "Bronze Breastplate",
+			"reference": "B283",
+			"tech_level": "1",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "frontal",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"specialization": "frontal",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "1cefe26e-94f2-43c2-bca4-a7a7b02d04c3",
+			"type": "equipment",
+			"description": "Shoes, Medium Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 45,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 45,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "c21faf88-10f0-434d-927a-4352a073db15",
+			"type": "equipment",
+			"description": "Shoes, Hobnailed ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling; Lets wearer ignore -2 to attacks and -1 to defenses for bad terrain.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 65,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 65,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "d46dbbf1-77e7-4068-943f-98669b1ca51e",
+			"type": "equipment",
+			"description": "Shoes ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a881a27c-9f43-4132-a3ec-0084aeb1eefc",
+			"type": "equipment",
+			"description": "Leather Gloves",
+			"reference": "B284",
+			"notes": "Flexible",
+			"tech_level": "1",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 30,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "2a161f02-21bf-44b3-8dfc-cc9998d0cc5c",
+			"type": "equipment",
+			"description": "Bronze Corselet",
+			"reference": "B283",
+			"tech_level": "1",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1300,
+			"weight": "40 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				}
+			],
+			"calc": {
+				"extended_value": 1300,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eb260400-b3a4-4794-bba0-1487848d6a39",
+			"type": "equipment",
+			"description": "Boots, Leather ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -4; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "fb37aad8-3c2f-4ce1-8bce-cc4870414ce5",
+			"type": "equipment",
+			"description": "Leather, Heavy Arm Armor, Improvised",
+			"reference": "LTIA7",
+			"notes": "Don: 15 secs; Holdout: -4; Reaction Pen.-1; -1 DR vs. impaling.",
+			"tech_level": "0",
+			"tags": [
+				"Limb Armor"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "a159a548-f24f-41db-9d53-fdb3e839b789",
+			"type": "equipment",
+			"description": "Sandals ",
+			"reference": "LTIA16",
+			"notes": "Don: 10 secs; Holdout: -2; Flexible and susceptible to blunt trauma (p. B379); DR applies to underside only.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "9e512439-329e-4053-a777-bb1dff477538",
+			"type": "equipment",
+			"description": "Fur Loincloth",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "0",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 10,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "73ca3f9b-f75b-4195-8e10-3d3ad78aaf6e",
+			"type": "equipment",
+			"description": "Mukluks ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -5; Flexible and susceptible to blunt trauma (p. B379); Erases -2 in Stealth penalties when walking on snow.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "5fdff011-4be1-407c-b546-6100ae669ca9",
+			"type": "equipment",
+			"description": "Moccasins ",
+			"reference": "LTIA16",
+			"notes": "Don: 6 secs; Holdout: -1; Flexible and susceptible to blunt trauma (p. B379); Gives +1 to Stealth.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "11d592ab-2336-443d-acf3-932c1a61ede9",
+			"type": "equipment",
+			"description": "Mittens ",
+			"reference": "LTIA15",
+			"notes": "Don: 6 secs; Holdout: -3; Flexible and susceptible to blunt trauma (p. B379); +1 DR vs. cutting; Enclosedmittens andgloves protectvs.cold,heat,contactpoison,etc.,but giveBadGrip1(p.B123); Gives Ham-Fisted 2 (p. B138).",
+			"tech_level": "0",
+			"legality_class": "5",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 0
+				}
+			],
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "4fa3527b-b345-4197-982c-8abfda3a1df6",
+			"type": "equipment",
+			"description": "Fur Tunic",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "0",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3744e6e2-eed1-490c-b137-132ea02ef80f",
+			"type": "equipment",
+			"description": "Leather, Heavy Leg Armor, Improvised",
+			"reference": "LTIA10",
+			"notes": "Don: 30 secs; Holdout: -4; Reaction Pen.-1; -1 DR vs. impaling.",
+			"tech_level": "0",
+			"tags": [
+				"Limb Armor"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "d153ae6e-3d14-4dcd-bb7a-144cc6fd2807",
+			"type": "equipment",
+			"description": "Leather, Heavy Torso Armor, Improvised",
+			"reference": "LTIA4",
+			"notes": "Don: 30 secs; Holdout: -4; Reaction Pen.-2; -1 DR vs. impaling.",
+			"tech_level": "0",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "9ca3c253-d6e8-4dc1-8258-61330c2d4c2a",
+			"type": "equipment",
+			"description": "Leather, Heavy Neck Armor, Improvised",
+			"reference": "LTIA15",
+			"notes": "Don: 3 secs; Holdout: -5; Reaction Pen.-1; -1 DR vs. impaling.",
+			"tech_level": "0",
+			"tags": [
+				"Neck Armor"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "a3194b39-1e5e-4838-a74b-218354ddd043",
+			"type": "equipment",
+			"description": "Leather, Heavy Groin Armor, Improvised",
+			"reference": "LTIA7",
+			"notes": "Don: 3 secs; Holdout: -4; Reaction Pen.-1; Flexible and susceptible to blunt trauma (p. B379); -1 DR vs. impaling.",
+			"tech_level": "0",
+			"tags": [
+				"Groin Armor"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "c97c400e-0d6b-4b4d-90d8-af05e710f09a",
+			"type": "equipment",
+			"description": "Leather, Reinforced Heavy Greaves; roll 1d on a leg hit; on 1-3, the armor is hit",
+			"reference": "LTIA10",
+			"notes": "Don: 30 secs; Holdout: -4; Reaction Pen.-1; -1 DR vs. impaling; +1 DR vs. cutting",
+			"tech_level": "0",
+			"tags": [
+				"Limb Armor"
+			],
+			"quantity": 1,
+			"value": 125,
+			"weight": "12.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "cut",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"specialization": "imp",
+					"amount": -1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 125,
+				"extended_weight": "12.5 lb"
+			}
+		},
+		{
+			"id": "9a755b7c-815d-4d23-85df-58a30f9a6dca",
+			"type": "equipment",
+			"description": "Long Coat, Heavy",
+			"reference": "LT99",
+			"notes": "Felt or Leather",
+			"tags": [
+				"Body Armor",
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Holdout"
+					},
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "f825cafb-e22b-47b8-bf68-0960995494ce",
+			"type": "equipment",
+			"description": "Reinforced Heavy Leather Bracers",
+			"notes": "roll 1d on an arm hit; on 1-3, the armor is hit\n[3] -1 DR vs. impaling. +1 DR vs. cutting",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 62.5,
+			"weight": "6.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "imp",
+					"amount": -1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"specialization": "cut",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 62.5,
+				"extended_weight": "6.25 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,464 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "31882e17-f0a2-4bc0-860a-554168037695",
+			"type": "equipment",
+			"description": "AN-M8",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 360,
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"id": "fe68d8ed-0bb4-4333-92e9-32109d5931da",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Smoke (7 yd.)"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "Smoke (7 yd.)"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 360,
+				"extended_weight": "1.8 lb"
+			}
+		},
+		{
+			"id": "352c1aa5-8072-4c08-a49f-d44bafb2c86c",
+			"type": "equipment",
+			"description": "AN-M14",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 360,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "0f31603e-5c68-4d6f-b0c7-d7901444fbc4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Thermite"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "Thermite"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 360,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a957f98f-3591-4c64-9d92-cb02bcdf26fc",
+			"type": "equipment",
+			"description": "M67",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "0.9 lb",
+			"weapons": [
+				{
+					"id": "aa8cc149-cd03-4fac-b166-8994fa9e82ba",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "9d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "9d cr ex [2d cut]"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "0.9 lb"
+			}
+		},
+		{
+			"id": "fe52cfbf-1a72-4c7b-9ca0-60c8f6c90d3b",
+			"type": "equipment",
+			"description": "M34 WP",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "66e8519c-9767-4c2d-9062-4815bb84bae9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn ex",
+						"base": "2d",
+						"fragmentation": "1d",
+						"fragmentation_armor_divisor": 0.2,
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "2d burn ex [1d(0.2) cut]"
+					}
+				},
+				{
+					"id": "f0e853f7-f3c2-47d6-8449-de841cad11c5",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Smoke (5 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (5 yd.)"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "0437843d-910b-4c0d-a967-10086ba58164",
+			"type": "equipment",
+			"description": "Schermuly Stun",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "a4cc8780-55a5-4d69-a3a0-c7da755638e3",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "e0efcf36-2823-4029-86c1-b2a7a2064faf",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "403c7de5-883f-45af-be57-86d532f1dfaa",
+			"type": "equipment",
+			"description": "ARGES HG 86",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "0.4 lb",
+			"weapons": [
+				{
+					"id": "31651a63-3597-4d9f-acb5-f6d4552456f9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "3d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "3d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "cc683f8d-bff5-4641-9086-3d89fb61a3c6",
+			"type": "equipment",
+			"description": "M452 Stingball",
+			"reference": "HT192",
+			"notes": "Fuse 2-3. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "44aba15b-1784-4247-9a3e-12ffbef20f22",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d+1",
+						"fragmentation": "1d-1",
+						"fragmentation_type": "cr"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr ex [1d-1 cr]"
+					}
+				},
+				{
+					"id": "e9d563b1-72ea-4364-8b98-1c42fca88d31",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "34d32dc1-1b2c-4ada-b57d-3163eb9f261b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "3cc275fe-4d10-44f7-a482-63e81fb2e8c4",
+			"type": "equipment",
+			"description": "M452C Comboball",
+			"reference": "HT192",
+			"notes": "Fuse 2-3. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 560,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "44aba15b-1784-4247-9a3e-12ffbef20f22",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d+1",
+						"fragmentation": "1d-1",
+						"fragmentation_type": "cr"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr ex [1d-1 cr]"
+					}
+				},
+				{
+					"id": "e9d563b1-72ea-4364-8b98-1c42fca88d31",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "34d32dc1-1b2c-4ada-b57d-3163eb9f261b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "0.5 lb"
+			}
+		}
+	]
+}

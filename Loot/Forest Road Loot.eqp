@@ -1,0 +1,2131 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EkCc7dRTeIH1S_5P6",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+				"id": "Ef4rSZEYHKyQoX4tv"
+			},
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 120,
+			"weight": "3 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ETsTpOTmeXBjduNYA",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+				"id": "EWqdpf8UmV3Du6vCP"
+			},
+			"description": "Hip Flask",
+			"reference": "HT31",
+			"notes": "Holds 1 pint. Filled weight.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"quantity": 2,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eltdxhgd16Z9dpeAw",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eSOvZDFYQUgKZR1nJ"
+					},
+					"description": "Alcohol",
+					"reference": "HT34",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 10,
+					"weight": "2.5 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "2.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "E1MFkzI0ETnr5N1EE",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "EFYxXJybq_ER22L1K"
+			},
+			"description": "Magazine Blackthorn BI-25, Anti-Material Rifle, 25mmCL",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Rifle"
+			],
+			"value": 2560,
+			"weight": "3.8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 8
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eQV6uG9537P-1zOPj",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+						"id": "enhIP4GRQQcqpeR2Q"
+					},
+					"description": "25mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Cannon"
+					],
+					"value": 640,
+					"weight": "1 lb",
+					"quantity": 8,
+					"equipped": true,
+					"calc": {
+						"extended_value": 5120,
+						"extended_weight": "8 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 7680,
+				"extended_weight": "11.8 lb"
+			}
+		},
+		{
+			"id": "EGnd5m9gTdhJS7Q5K",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "EFYxXJybq_ER22L1K"
+			},
+			"description": "Magazine Blackthorn BI-25, Anti-Material Rifle, 25mmCL",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Rifle"
+			],
+			"value": 2560,
+			"weight": "3.8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 8
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ex-mqo4cq5U5OnxaW",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+						"id": "eBUmsnhw_wq_AOM9a"
+					},
+					"description": "25mmCL (APDS)",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Cannon"
+					],
+					"value": 3200,
+					"weight": "1 lb",
+					"quantity": 3,
+					"equipped": true,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "3 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12160,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "EkbvH9g0HJOaVc4NK",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "EFYxXJybq_ER22L1K"
+			},
+			"description": "Magazine Blackthorn BI-25, Anti-Material Rifle, 25mmCL",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Rifle"
+			],
+			"value": 2560,
+			"weight": "3.8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 8
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e3cC-bt5wP1v_jX0_",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+						"id": "enhIP4GRQQcqpeR2Q"
+					},
+					"description": "25mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Cannon"
+					],
+					"value": 640,
+					"weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 640,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "4.8 lb"
+			}
+		},
+		{
+			"id": "EKCFdVIRMRYR6yzjA",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "ECDI9wN-KEHf7JOi4"
+			},
+			"description": "Magazine Colt M4A1",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Magazine"
+			],
+			"value": 64.8,
+			"weight": "0.891 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 30
+						}
+					}
+				]
+			},
+			"quantity": 8,
+			"equipped": true,
+			"children": [
+				{
+					"id": "enYl8ltcwb8mQ4mhC",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Rifles and Machine Guns.eqp",
+						"id": "ev0NaU04eZNA8fsuu"
+					},
+					"description": "5.56x45mm NATO",
+					"reference": "HT176",
+					"tags": [
+						"Ammunition",
+						"Warheads"
+					],
+					"value": 8,
+					"weight": "0.027 lb",
+					"quantity": 30,
+					"equipped": true,
+					"calc": {
+						"extended_value": 240,
+						"extended_weight": "0.81 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2438.4,
+				"extended_weight": "13.608 lb"
+			}
+		},
+		{
+			"id": "EpCFoLlBmluuJi5-y",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+				"id": "E1SiJhQQ2H_HsKQlU"
+			},
+			"description": "Plastic Bottle",
+			"reference": "ATE1:30",
+			"notes": "Holds 1 pint",
+			"tech_level": "?",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1,
+			"weight": "0.05 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"quantity": 2,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eCnlxWiSuWiV0KwZ6",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eoGa497IECVp8rk1i"
+					},
+					"description": "Water, Clean (pint)",
+					"reference": "ATE1:30",
+					"tech_level": "0",
+					"value": 1,
+					"weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "e6m0rL7dJ9-6pxutI",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "ehndmaP4KN2WSKHea"
+			},
+			"description": "5.5mmCL Pocket Pistol",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Guns",
+				"Pistol"
+			],
+			"value": 6400,
+			"weight": "0.7 lb",
+			"weapons": [
+				{
+					"id": "WP0O1DJ_59SDHcXVU",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "6",
+					"usage": "Solid Shot",
+					"accuracy": "1",
+					"range": "70/1,400",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.7 lb"
+			}
+		},
+		{
+			"id": "eXRtrqAhsHh6C2zmE",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Rifles and Machine Guns.eqp",
+				"id": "ev0NaU04eZNA8fsuu"
+			},
+			"description": "5.56x45mm NATO",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 8,
+			"weight": "0.027 lb",
+			"quantity": 437,
+			"calc": {
+				"extended_value": 3496,
+				"extended_weight": "11.799 lb"
+			}
+		},
+		{
+			"id": "ePGg4p1CBXHNBefZm",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eTpW4Cn7QO6ZBnq0P"
+			},
+			"description": "10mmCLP",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 8.96,
+			"weight": "0.014 lb",
+			"modifiers": [
+				{
+					"id": "fmgK0it7LUwu6JHDf",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 46,
+			"calc": {
+				"extended_value": 412.16,
+				"extended_weight": "0.644 lb"
+			}
+		},
+		{
+			"id": "eS_JHrPuCZ8Myszi5",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Shotgun.eqp",
+				"id": "eATtZGIy9M-YI7mfv"
+			},
+			"description": "12-gauge 2.75\" (18.5x70mmR)",
+			"reference": "HT176",
+			"notes": "Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 11.2,
+			"weight": "0.13 lb",
+			"quantity": 31,
+			"calc": {
+				"extended_value": 347.2,
+				"extended_weight": "4.03 lb"
+			}
+		},
+		{
+			"id": "ejSfy10KQ9NYlyFfc",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Shotgun.eqp",
+				"id": "elWEjmRG0p5bXWYUr"
+			},
+			"description": "12-gauge 3\" (18.5x76mmR)",
+			"reference": "HT176",
+			"notes": "Light cased. APDS",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 22.4,
+			"weight": "0.18 lb",
+			"quantity": 11,
+			"calc": {
+				"extended_value": 246.4,
+				"extended_weight": "1.98 lb"
+			}
+		},
+		{
+			"id": "ebpWYnX-QkGrEhnkt",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Shotgun.eqp",
+				"id": "epXb8KGKP1sKkxTM0"
+			},
+			"description": "12-gauge 3\" (18.5x76mmR)",
+			"reference": "HT176",
+			"notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 11.2,
+			"weight": "0.18 lb",
+			"quantity": 23,
+			"calc": {
+				"extended_value": 257.6,
+				"extended_weight": "4.14 lb"
+			}
+		},
+		{
+			"id": "e6nlKcJ3zfoqoO5KH",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "el_wsobp0ZuK3sTrl"
+			},
+			"description": "15mmCLP (Magnum)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 42,
+			"weight": "0.06 lb",
+			"quantity": 17,
+			"calc": {
+				"extended_value": 714,
+				"extended_weight": "1.02 lb"
+			}
+		},
+		{
+			"id": "eEMJC4ugw4CAsWXEL",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eD96eQfxNQIEEGcZM"
+			},
+			"description": "25mmPC",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 422.4,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 4,
+			"uses": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1689.6,
+				"extended_weight": "2.64 lb"
+			}
+		},
+		{
+			"id": "enLse-jwuZUnLKno3",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eD96eQfxNQIEEGcZM"
+			},
+			"description": "25mmPC APHEX",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 1689.6,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 2,
+			"uses": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3379.2,
+				"extended_weight": "1.32 lb"
+			}
+		},
+		{
+			"id": "epdaq29Hj_fSEIVKr",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "er6NV2NOeIg_vf-_V"
+			},
+			"description": "25mmPC HEC",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 422.4,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 2,
+			"uses": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 844.8,
+				"extended_weight": "1.32 lb"
+			}
+		},
+		{
+			"id": "eqJbHY0TVovE7QKNN",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Rifles and Machine Guns.eqp",
+				"id": "eWaZmgOhJcPfqcgG5"
+			},
+			"description": ".300 Winchester Magnum (7.62x66mmB)",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"value": 1.5,
+			"weight": "0.068 lb",
+			"quantity": 27,
+			"calc": {
+				"extended_value": 40.5,
+				"extended_weight": "1.836 lb"
+			}
+		},
+		{
+			"id": "eBbddPOUyqZo2PuOm",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "etn_ybkrzRQIKByrR"
+			},
+			"description": "AI AWM-F, .300 Winchester Magnum",
+			"reference": "HT118",
+			"notes": "Fine (accurate).",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"value": 92800,
+			"weight": "20.1 lb",
+			"weapons": [
+				{
+					"id": "WLMuaSOo_5G9ciNfl",
+					"damage": {
+						"type": "pi",
+						"base": "8d+2"
+					},
+					"strength": "10B†",
+					"accuracy": "6+3",
+					"range": "1,600/6,600",
+					"rate_of_fire": "1",
+					"shots": "5+1(3)",
+					"bulk": "-7*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 92800,
+				"extended_weight": "20.1 lb"
+			}
+		},
+		{
+			"id": "eiI2nvoimsBQ4bKfR",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Shotguns.eqp",
+				"id": "eCWYSoSibjk4Fj1-k"
+			},
+			"description": "Armsel Striker, 12G 2.75\"",
+			"reference": "HT104",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Shotgun"
+			],
+			"value": 9600,
+			"weight": "10.6 lb",
+			"weapons": [
+				{
+					"id": "WwTz5OkiInkDqK73K",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x9",
+					"shots": "12(3i)",
+					"bulk": "-5*",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "10.6 lb"
+			}
+		},
+		{
+			"id": "ew9L5wbDK-sfd-As9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Shotguns.eqp",
+				"id": "en1jvbb9vjU2oPlaD"
+			},
+			"description": "Benelli M3T Super 90, 12G 3\"",
+			"reference": "HT104",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearms",
+				"Shotgun"
+			],
+			"value": 18720,
+			"weight": "8.6 lb",
+			"weapons": [
+				{
+					"id": "WYOmtC_0f4-4ipH7a",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x9",
+					"shots": "7+1(2i)",
+					"bulk": "-5*",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				},
+				{
+					"id": "Wp4IgOZNv0_mRkAfd",
+					"damage": {
+						"type": "pi",
+						"base": "6d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"usage": "APDS",
+					"accuracy": "4",
+					"range": "150/160",
+					"rate_of_fire": "3x9",
+					"shots": "7+1(2i)",
+					"bulk": "-5*",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d(2) pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 18720,
+				"extended_weight": "8.6 lb"
+			}
+		},
+		{
+			"id": "eI2-Zhs7u_t9DVJra",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "ecpoj5YtgQRFxeeem"
+			},
+			"description": "Blackthorn BI-25, Anti-Material Rifle, 25mmCL",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Rifle"
+			],
+			"value": 256000,
+			"weight": "38 lb",
+			"weapons": [
+				{
+					"id": "Wv3KKSLGL94yz2Dbb",
+					"damage": {
+						"type": "pi++",
+						"base": "10d"
+					},
+					"strength": "12B†",
+					"accuracy": "4",
+					"range": "700/8,500",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "10d pi++"
+					}
+				},
+				{
+					"id": "WwZUeJyqry8XhdSMU",
+					"damage": {
+						"type": "pi+",
+						"base": "10d",
+						"armor_divisor": 2,
+						"modifier_per_die": 1
+					},
+					"strength": "12B†",
+					"usage": "APDS",
+					"accuracy": "4",
+					"range": "1,050/2,750",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "10d(2) (+1 per die) pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 256000,
+				"extended_weight": "38 lb"
+			}
+		},
+		{
+			"id": "evzRr6SRvKd7BaDAL",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Power TL 9.eqp",
+				"id": "ey9wZ4XhsSB1_rncO"
+			},
+			"description": "C cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 320,
+			"weight": "0.5 lb",
+			"quantity": 8,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2560,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eVMzvrQ3VmV6EHrcL",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eBSLsTxth83Oygwnb"
+			},
+			"description": "Candy",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 5,
+			"weight": "0.5 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eH0LDPUK3yvSST28D",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eH2KdE5TZWSna1US2"
+			},
+			"description": "Canned Food",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "0.5 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eec9zs2egLrSFBQpq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "e6tn4nBAD-wbciV0K"
+			},
+			"description": "Colt M4A1 SOPMOD, 5.56x45mm",
+			"reference": "HT121",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"value": 19200,
+			"weight": "7.6 lb",
+			"weapons": [
+				{
+					"id": "W0yaG1ul2e5-okUJQ",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "750/2,900",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+2 pi"
+					}
+				}
+			],
+			"quantity": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 57600,
+				"extended_weight": "22.8 lb"
+			}
+		},
+		{
+			"id": "eMYapbuLEGpL_ZsOq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "euxlue_thnO-iKvQJ"
+			},
+			"description": "Colt M16A4, 5.56x45mm",
+			"reference": "HT117",
+			"notes": "Accessory rail.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"value": 7600,
+			"weight": "8.9 lb",
+			"weapons": [
+				{
+					"id": "Wqn1EgJD98M-V4euk",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "8†",
+					"accuracy": "5",
+					"range": "800/3,500",
+					"rate_of_fire": "13",
+					"shots": "30+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 15200,
+				"extended_weight": "17.8 lb"
+			}
+		},
+		{
+			"id": "ezhMHFVt5f34uk26M",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "e-Jk5sD2WB_hkUdpo"
+			},
+			"description": "Daniel Defense Mk 18 Mod 0, 5.56x45mm",
+			"reference": "HT121",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"value": 19200,
+			"weight": "6.8 lb",
+			"weapons": [
+				{
+					"id": "WqqMtSLzkpalH0JZV",
+					"damage": {
+						"type": "pi",
+						"base": "4d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "600/2,500",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "eZmwQPkjgStZV8rBf",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eyEUaBquo0G6YTO73"
+			},
+			"description": "Freeze-Dried Food",
+			"reference": "HT35",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 32,
+			"weight": "0.25 lb",
+			"quantity": 9,
+			"equipped": true,
+			"calc": {
+				"extended_value": 288,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eLpPFZ903HF8sC2o0",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eiYENCyEQhqCuqkFs"
+			},
+			"description": "Hardtack Meal",
+			"reference": "HT34",
+			"notes": "10 crackers.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1,
+			"weight": "1 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eoSJRSlJhPNsQZi3e",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eEVMIUa1A847v6jfJ"
+			},
+			"description": "Incinerator Assault Flamer",
+			"reference": "UT127",
+			"notes": "2C/28 shots.",
+			"tech_level": "9^",
+			"legality_class": "2",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 73600,
+			"weight": "5.6 lb",
+			"weapons": [
+				{
+					"id": "W573FAsX6coy6bJy2",
+					"damage": {
+						"type": "burn",
+						"base": "5d"
+					},
+					"strength": "5†",
+					"accuracy": "6",
+					"range": "50/150",
+					"rate_of_fire": "1",
+					"shots": "28(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 73600,
+				"extended_weight": "5.6 lb"
+			}
+		},
+		{
+			"id": "eKCDSSrUl-a1q3PAu",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "ea53kgJkUcdLlxO2Y"
+			},
+			"description": "Jerky",
+			"reference": "HT35",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 4,
+			"weight": "0.25 lb",
+			"quantity": 8,
+			"equipped": true,
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e1E3_EGh7xoPGdnUl",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "e-0jPbZNiz8IZ6HNu"
+			},
+			"description": "NG-10 Machine Pistol, 10mmCLP",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 24000,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WXDR7546wXa5sWZwu",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "10",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eZ7x4pnUn4mh1vF5C",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Security Cards.eqp",
+				"id": "eRmdbAMdVczVeVwss"
+			},
+			"description": "Red Security Badge",
+			"notes": "ff0000",
+			"tech_level": "9",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eKUhjh33EughG0GRe",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eiGj40TFmAwR3ZLH9"
+			},
+			"description": "Snack",
+			"reference": "HT35",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 16,
+			"weight": "0.25 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e5-jGuesCVlS0iO4z",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Guided Missiles and Rockets TL 9.eqp",
+				"id": "e8Vw0jNB2Pmhg-xpt"
+			},
+			"description": "SST-40V (Swarm Missile Launcher) SML, 40mm",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WKaMx8RZzJOFcayvp",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10†",
+					"usage": "SST-40V",
+					"accuracy": "3",
+					"range": "2,400",
+					"rate_of_fire": "1x5",
+					"shots": "5(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "8d cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eUctKqlCJVx597Hd8",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "ea9jNvJkoG9TBXHwE"
+			},
+			"description": "Underbarrel Grenade Launcher, 25mmPC",
+			"reference": "UT138",
+			"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Grenade Launcher",
+				"Guns"
+			],
+			"value": 9600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "W0zaT6oSCIXbBC5or",
+					"damage": {
+						"type": "pi++",
+						"base": "4d"
+					},
+					"strength": "10",
+					"accuracy": "4+2",
+					"range": "360/2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d pi++"
+					}
+				},
+				{
+					"id": "W9xnUb-13G_fFOULT",
+					"damage": {
+						"type": "pi++",
+						"base": "4d",
+						"armor_divisor": 2,
+						"fragmentation": "1d+1",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10",
+					"usage": "APHEX",
+					"accuracy": "4+2",
+					"range": "360/2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(2) pi++ [1d+1 cut]"
+					}
+				},
+				{
+					"id": "WZRI2LdYyGRJiHxSB",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d"
+					},
+					"usage": "APHEX Linked",
+					"rate_of_fire": "1",
+					"calc": {
+						"damage": "1d cr ex"
+					}
+				},
+				{
+					"id": "WFNdZ5nOU81XP3y92",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d",
+						"armor_divisor": 0.5
+					},
+					"strength": "10",
+					"usage": "HEC",
+					"accuracy": "4+2",
+					"range": "360/2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(0.5) cr ex"
+					}
+				}
+			],
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "et4auZRD0aD2IIFR9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "eRCXP0ofuqr3W2rbb"
+			},
+			"description": "Vitamin Pills",
+			"reference": "HT221",
+			"notes": "Month's supply.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 192,
+			"weight": "0.1 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 384,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eOyb_ENO9rlYYx2Ah",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+				"id": "e824nzmRsF7XnsekZ"
+			},
+			"description": "Water, Clean (pint)",
+			"reference": "ATE1:30",
+			"tech_level": "0",
+			"value": 1,
+			"weight": "1 lb",
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "2 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,1555 @@
+{
+	"type": "character",
+	"version": 4,
+	"id": "47846e0f-9852-4ce4-a239-afd16835c2e9",
+	"total_points": 250,
+	"points_record": [
+		{
+			"when": "2023-12-18T14:15:32-06:00",
+			"points": 250,
+			"reason": "Initial points"
+		}
+	],
+	"profile": {
+		"name": "Purifier",
+		"player_name": "NPC",
+		"title": "Interrogator",
+		"organization": "Purified Ones",
+		"portrait": "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"
+	},
+	"settings": {
+		"page": {
+			"paper_size": "letter",
+			"orientation": "portrait",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"traits skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"name": "ST",
+				"full_name": "Strength",
+				"attribute_base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "dx",
+				"type": "integer",
+				"name": "DX",
+				"full_name": "Dexterity",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "iq",
+				"type": "integer",
+				"name": "IQ",
+				"full_name": "Intelligence",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"name": "HT",
+				"full_name": "Health",
+				"attribute_base": "10",
+				"cost_per_point": 10
+			},
+			{
+				"id": "will",
+				"type": "integer",
+				"name": "Will",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fright Check",
+				"attribute_base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "vision",
+				"type": "integer",
+				"name": "Vision",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "hearing",
+				"type": "integer",
+				"name": "Hearing",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "taste_smell",
+				"type": "integer",
+				"name": "Taste \u0026 Smell",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "touch",
+				"type": "integer",
+				"name": "Touch",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Basic Speed",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "floor($basic_speed)",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"expression": "$fp-1"
+					},
+					{
+						"state": "Rested",
+						"expression": "$fp"
+					}
+				]
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"attribute_base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$hp*5)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"expression": "round(-$hp*4)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"expression": "round(-$hp*3)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"expression": "round(-$hp*2)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"expression": "-$hp",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"expression": "ceil($hp/3)-1",
+						"explanation": "Move and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"expression": "$hp-1"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "rp",
+				"type": "pool",
+				"name": "RP",
+				"full_name": "Radiation Points",
+				"attribute_base": "($st+$ht)/2",
+				"cost_per_point": 1,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$rp*10)"
+					},
+					{
+						"state": "Unconscious",
+						"expression": "round(-$rp*5)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\nAutomatically fall unconscious\u003cbr\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every hour. On a failure, you are treated as mortally wounded.\u003cbr\u003e\nOn a critical failugre, you die!\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Reeling",
+						"expression": "-$rp",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-4\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003cb\u003e-2\u003c/b\u003e to all active defenses\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Sick",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-2\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003cb\u003e-1\u003c/b\u003e to all active defenses\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Queasy",
+						"expression": "round($rp/3)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-1\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$rp"
+					}
+				]
+			}
+		],
+		"body_type": {
+			"name": "Humanoid",
+			"roll": "3d",
+			"locations": [
+				{
+					"id": "eye",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -9,
+					"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"slots": 2,
+					"hit_penalty": -7,
+					"dr_bonus": 2,
+					"description": "An attack that misses by 1 hits the torso instead. Wounding\nmodifier is x4. Knockdown rolls are at -10. Critical hits\nuse the Critical Head Blow Table (B556). Exception: These\nspecial effects do not apply to toxic (tox) damage.",
+					"calc": {
+						"roll_range": "3-4",
+						"dr": {
+							"all": 2
+						}
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"slots": 1,
+					"hit_penalty": -5,
+					"description": "An attack that misses by 1 hits the torso instead. Jaw,\ncheeks, nose, ears, etc. If the target has an open-faced\nhelmet, ignore its DR. Knockdown rolls are at -5. Critical\nhits use the Critical Head Blow Table (B556). Corrosion\n(cor) damage gets a x1½ wounding modifier, and if it\ninflicts a major wound, it also blinds one eye (both eyes on\ndamage over full HP). Random attacks from behind hit the\nskull instead.",
+					"calc": {
+						"roll_range": "5",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Right Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "6-7",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Right Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "8",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 2,
+					"calc": {
+						"roll_range": "9-10",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"slots": 1,
+					"hit_penalty": -3,
+					"description": "An attack that misses by 1 hits the torso instead. Human\nmales and the males of similar species suffer double shock\nfrom crushing (cr) damage, and get -5 to knockdown rolls.\nOtherwise, treat as a torso hit.",
+					"calc": {
+						"roll_range": "11",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Left Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "12",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Left Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "13-14",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "hand",
+					"choice_name": "Hand",
+					"table_name": "Hand",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "If holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4. Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
+					"calc": {
+						"roll_range": "15",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "foot",
+					"choice_name": "Foot",
+					"table_name": "Foot",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "16",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"slots": 2,
+					"hit_penalty": -5,
+					"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
+					"calc": {
+						"roll_range": "17-18",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"hit_penalty": -3,
+					"description": "An attack that misses by 1 hits the torso instead. Heart,\nlungs, kidneys, etc. Increase the wounding modifier for an\nimpaling (imp) or any piercing (pi-, pi, pi+, pi++) attack\nto x3. Increase the wounding modifier for a tight-beam\nburning (burn) attack to x2. Other attacks cannot target the\nvitals.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				}
+			]
+		},
+		"damage_progression": "basic_set",
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"show_spell_adj": true,
+		"exclude_unspent_points_from_total": false
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": -2,
+			"calc": {
+				"value": 8,
+				"points": -20
+			}
+		},
+		{
+			"attr_id": "dx",
+			"adj": -2,
+			"calc": {
+				"value": 8,
+				"points": -40
+			}
+		},
+		{
+			"attr_id": "iq",
+			"adj": 6,
+			"calc": {
+				"value": 16,
+				"points": 120
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": -2,
+			"calc": {
+				"value": 8,
+				"points": -20
+			}
+		},
+		{
+			"attr_id": "will",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 16,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 4,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 4,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"current": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"current": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "rp",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"current": 8,
+				"points": 0
+			}
+		}
+	],
+	"traits": [
+		{
+			"id": "88010e61-bdcb-4519-88d5-595d7c2a3b2d",
+			"type": "trait",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "9dff871e-bc94-420c-bd2a-e93c8388aaa5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 8,
+						"parry": "No",
+						"block": "No",
+						"damage": "1d-4 cr"
+					}
+				},
+				{
+					"id": "3bd2269b-70ea-447d-abea-b6a2617f57d7",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 8,
+						"parry": "7",
+						"damage": "1d-4 cr"
+					}
+				},
+				{
+					"id": "69c05037-5ee9-408d-9681-a225516935b0",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 6,
+						"parry": "No",
+						"damage": "1d-3 cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "d4d78ba9-c6b1-472e-a3bf-2e6441d2f72c",
+			"type": "trait",
+			"name": "Protected Power (Telepathy)",
+			"reference": "PSI67",
+			"tags": [
+				"Communication",
+				"Mental",
+				"Psionics",
+				"Telepathy"
+			],
+			"modifiers": [
+				{
+					"id": "eb8b5b8c-3d14-4936-8b30-4cce651224fe",
+					"type": "modifier",
+					"name": "Telepathy",
+					"cost": -10
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "2ed3d5a0-c745-47f9-bcf7-321bb189a589",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "de3ab530-2371-4bdb-9a46-a651d310cfed",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "80692ddd-3868-43a4-8390-b45edbe86f19",
+							"type": "trait_container",
+							"children": [
+								{
+									"id": "ff4267e2-4bab-4e3b-96f9-bb0a1ad00708",
+									"type": "trait",
+									"name": "Mind Swap",
+									"reference": "PSI62",
+									"notes": "Control ability.  You can trade bodies with someone.",
+									"tags": [
+										"Control",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "ea3c74fd-f000-49bf-a498-a4178f97b9bc",
+											"type": "modifier",
+											"name": "Mind Swap_1",
+											"cost": 20,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "e02fefce-0b83-4c49-87f3-d15544084bf6",
+											"type": "modifier",
+											"name": "Mind Swap_2",
+											"cost": 45,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "14aa1f99-29aa-4afb-9d0c-b4f919004b27",
+											"type": "modifier",
+											"name": "Mind Swap_3",
+											"cost": 60,
+											"cost_type": "points"
+										},
+										{
+											"id": "238dd580-0bba-4f62-bb63-3705ab685e2e",
+											"type": "modifier",
+											"name": "Mind Swap_4",
+											"cost": 65,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "86ccc3be-e2ae-4fd9-bd40-deac0970dba2",
+											"type": "modifier",
+											"name": "Mind Swap_5",
+											"cost": 70,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 60
+									}
+								},
+								{
+									"id": "b3770001-4a0e-43a3-b1be-f92b8a12ec2b",
+									"type": "trait",
+									"name": "Mindwipe",
+									"reference": "PSI62",
+									"notes": "Control ability.  You can wipe the last few minutes from someone's mind.",
+									"tags": [
+										"Control",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "7fe6b2de-7964-47f3-af79-f6ce3640fbf8",
+											"type": "modifier",
+											"name": "Mindwipe_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 20,
+											"cost_type": "points"
+										},
+										{
+											"id": "5fde7f20-0bc5-44de-8759-45d0dfecc208",
+											"type": "modifier",
+											"name": "Mindwipe_2",
+											"notes": "Any touch will suffice",
+											"cost": 23,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "2945908a-dcb7-4aac-837c-44eff8472bd9",
+											"type": "modifier",
+											"name": "Mindwipe_3",
+											"notes": "Mindwipe at range; -1 penalty/yard distance",
+											"cost": 26,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "62301263-80c0-4f77-857f-f76ca05c5a52",
+											"type": "modifier",
+											"name": "Mindwipe_4",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 31,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "cbabab0e-898e-441c-a73b-190d43db90df",
+											"type": "modifier",
+											"name": "Mindwipe_5",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 36,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "2e0da4ba-2b74-49a8-aa75-9e0c175bc019",
+											"type": "modifier",
+											"name": "Mindwipe_6",
+											"notes": "No penalty for range",
+											"cost": 41,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "befe766e-29fa-4ecf-8cb9-f753ef7384e5",
+									"type": "trait",
+									"name": "Sensory Control",
+									"reference": "PSI62",
+									"notes": "Control ability.  You can control what your target sees, hears, etc.",
+									"tags": [
+										"Control",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "8953dd26-b16d-4932-961c-666676d5f7fa",
+											"type": "modifier",
+											"name": "Sensory Control_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 33,
+											"cost_type": "points"
+										},
+										{
+											"id": "71a2f3c3-3168-4481-ae53-ed4849d633b1",
+											"type": "modifier",
+											"name": "Sensory Control_2",
+											"notes": "Sensory control at range; -1 penalty/yard distance",
+											"cost": 40,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "de290dc3-4fea-49bb-bcbe-990ff0019f99",
+											"type": "modifier",
+											"name": "Sensory Control_3",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 43,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "ed2901ea-eee6-47e0-aa64-b781fc1322d0",
+											"type": "modifier",
+											"name": "Sensory Control_4",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 45,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "31973fb9-9106-46bb-aefe-6db5f634a9b7",
+											"type": "modifier",
+											"name": "Sensory Control_5",
+											"notes": "No penalty for range",
+											"cost": 48,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 33
+									}
+								}
+							],
+							"name": "Control",
+							"calc": {
+								"points": 113
+							}
+						},
+						{
+							"id": "c38064b5-610c-41e7-83fe-f7189c9eca18",
+							"type": "trait_container",
+							"children": [
+								{
+									"id": "490baadd-598c-4f90-8b70-01f2c39df2ef",
+									"type": "trait",
+									"name": "Borrow Skill",
+									"reference": "PSI57",
+									"notes": "Communication ability. Borrow a skill or language from someone.",
+									"tags": [
+										"Communication",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"base_points": 4,
+									"levels": 1,
+									"points_per_level": 3,
+									"can_level": true,
+									"calc": {
+										"points": 7
+									}
+								},
+								{
+									"id": "8f1c9ec2-12d8-414d-85d4-9ab17b0ead14",
+									"type": "trait",
+									"name": "Telespeak",
+									"reference": "PSI59",
+									"notes": "Communication ability. You can converse with someone telepathically. ",
+									"tags": [
+										"Communication",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "ec680f12-f6b3-428f-ba71-d5a1899d948f",
+											"type": "modifier",
+											"name": "Telespeak_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 18,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "d5058e6f-215b-4724-a3aa-e340a80bd269",
+											"type": "modifier",
+											"name": "Telespeak_2",
+											"notes": "Any touch will suffice",
+											"cost": 30,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "3c6888d4-cf12-496a-9cef-5d02b825e1e9",
+											"type": "modifier",
+											"name": "Telespeak_3",
+											"notes": "Telespeak at range; -1 penalty/yard distance",
+											"cost": 39,
+											"cost_type": "points"
+										},
+										{
+											"id": "322c9caf-8510-4cc8-8a5b-573f1b43ed45",
+											"type": "modifier",
+											"name": "Telespeak_4",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 45,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "12bcfa86-5de3-4d3b-995f-7083908e21f3",
+											"type": "modifier",
+											"name": "Telespeak_5",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 63,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "e0d93bff-6665-462f-a3b1-d1b4aa918694",
+											"type": "modifier",
+											"name": "Telespeak_6",
+											"notes": "No penalty for range",
+											"cost": 93,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 39
+									}
+								},
+								{
+									"id": "e387f751-e1e0-44a7-b3c2-3972757feabc",
+									"type": "trait",
+									"name": "Telereceive",
+									"reference": "PSI58",
+									"notes": "Communication ability. You can read another person's thoughts. ",
+									"tags": [
+										"Communication",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "cee028d6-b6d0-4df8-9c56-5b161883ac7b",
+											"type": "modifier",
+											"name": "Telereceive_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 21,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "33e80be0-b041-475a-a5c6-859261de4b28",
+											"type": "modifier",
+											"name": "Telereceive_2",
+											"notes": "Any touch will suffice",
+											"cost": 36,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "453d0ca8-f516-4bb6-9ee2-057fd522a5a3",
+											"type": "modifier",
+											"name": "Telereceive_3",
+											"notes": "Telereceive at range; -1 penalty/yard distance",
+											"cost": 42,
+											"cost_type": "points"
+										},
+										{
+											"id": "e9cd7cca-cb3a-418c-a042-e8f6b84c6d34",
+											"type": "modifier",
+											"name": "Telereceive_4",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 45,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "292dfd9e-1fbe-4bb0-b63b-e75ef5f7e11e",
+											"type": "modifier",
+											"name": "Telereceive_5",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 60,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "b96c5d64-13a2-45b9-82cf-a83bf5a57c87",
+											"type": "modifier",
+											"name": "Telereceive_6",
+											"notes": "No penalty for range",
+											"cost": 75,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 42
+									}
+								}
+							],
+							"name": "Communication",
+							"calc": {
+								"points": 88
+							}
+						}
+					],
+					"name": "Telepathy",
+					"calc": {
+						"points": 201
+					}
+				}
+			],
+			"name": "Advantages",
+			"calc": {
+				"points": 201
+			}
+		},
+		{
+			"id": "d4195c16-ca2b-4951-a7ba-5c398134d110",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "99b9f79e-565a-4258-841b-97e3ea58a80c",
+					"type": "trait",
+					"name": "Callous",
+					"reference": "B125",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "psychology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "teaching"
+							},
+							"amount": -3
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from past victims and anyone with Empathy",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to Interrogation and Intimidation rolls when you use threats or torture",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "8bec9f39-8534-477f-a52f-ce52cc21cfaf",
+					"type": "trait",
+					"name": "Fanaticism (The Purified Ones)",
+					"reference": "B136",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "478df057-c461-425c-8d04-17a240d0e6e4",
+							"type": "modifier",
+							"name": "Extreme",
+							"reference": "B136",
+							"disabled": true
+						}
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "7b7ad875-9ea5-4dc2-ade7-9aa1feaa6943",
+					"type": "trait",
+					"name": "Sadism",
+					"reference": "B152",
+					"notes": "Make a self-control roll whenever you have an opportunity to indulge your desires and know you shouldn’t (e.g., because the prisoner is one who should be released unharmed). If you fail, you cannot restrain yourself.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -15,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those who become aware of your Sadism unless they are from a culture that holds life in little esteem",
+							"amount": -3
+						}
+					],
+					"cr": 12,
+					"calc": {
+						"points": -15
+					}
+				}
+			],
+			"name": "Disadvantages",
+			"calc": {
+				"points": -35
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "bee41c9b-5fbb-44ba-91eb-8cb9c6abeab3",
+			"type": "technique",
+			"name": "New Approach",
+			"reference": "PSI62",
+			"tags": [
+				"Control",
+				"Psionics",
+				"Technique",
+				"Telepathy"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Mind Swap",
+				"modifier": -5
+			},
+			"limit": 0,
+			"calc": {
+				"level": 10,
+				"rsl": "-4"
+			}
+		},
+		{
+			"id": "a6f49256-adce-4aa7-8b4c-a67ce99a9eff",
+			"type": "skill",
+			"name": "Mind Swap",
+			"reference": "PSI62",
+			"tags": [
+				"Control",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Mind Swap"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ-2"
+			}
+		},
+		{
+			"id": "c52980a1-1a22-4315-a1a6-d80656a2f294",
+			"type": "skill",
+			"name": "Telereceive",
+			"reference": "PSI58",
+			"tags": [
+				"Communication",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telereceive (Shallow)"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telereceive"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ-2"
+			}
+		},
+		{
+			"id": "fa4a259b-1f42-4444-8e36-39f5b7e9f621",
+			"type": "skill",
+			"name": "Telesend",
+			"reference": "PSI60",
+			"tags": [
+				"Communication",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telespeak"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telesend"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ-2"
+			}
+		},
+		{
+			"id": "3d11316b-87fb-4ac5-833f-f96d49e2fff6",
+			"type": "technique",
+			"name": "Deep Probe",
+			"reference": "PSI59",
+			"tags": [
+				"Communication",
+				"Psionics",
+				"Technique",
+				"Telepathy"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "skill",
+				"name": "Telereceive",
+				"modifier": -8
+			},
+			"limit": 0,
+			"calc": {
+				"level": 7,
+				"rsl": "-7"
+			}
+		},
+		{
+			"id": "fa9d1606-2897-4d3a-bff0-2d78221ad1f1",
+			"type": "skill",
+			"name": "Mindwipe",
+			"reference": "PSI62",
+			"tags": [
+				"Control",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "will/h",
+			"points": 1,
+			"defaulted_from": {
+				"type": "will",
+				"modifier": -6,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Mindwipe"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "Will-2"
+			}
+		}
+	],
+	"created_date": "2023-12-18T14:15:32-06:00",
+	"modified_date": "2023-12-19T09:49:15-06:00",
+	"calc": {
+		"swing": "1d-2",
+		"thrust": "1d-3",
+		"basic_lift": "13 lb",
+		"move": [
+			4,
+			3,
+			2,
+			1,
+			1
+		],
+		"dodge": [
+			7,
+			6,
+			5,
+			4,
+			3
+		]
+	}
+}

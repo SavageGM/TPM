@@ -1,0 +1,728 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b366a619-dca5-4d2b-bd06-00add70914af",
+			"type": "equipment_container",
+			"open": true,
+			"description": "BX50 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 4,
+			"value": 270,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "50 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 1080,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "d211b606-607f-4f51-a0e3-027d32fd1ade",
+			"type": "equipment_container",
+			"open": true,
+			"description": "BX100 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 3,
+			"value": 540,
+			"weight": "23 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 1620,
+				"extended_weight": "69 lb"
+			}
+		},
+		{
+			"id": "6c4a947f-be79-456d-b230-0ec5274da9f3",
+			"type": "equipment_container",
+			"open": true,
+			"description": "BX250 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 3,
+			"value": 1350,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "250 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 4050,
+				"extended_weight": "120 lb"
+			}
+		},
+		{
+			"id": "4b654ae2-6d9e-44ba-af70-7f75aed997d3",
+			"type": "equipment",
+			"description": "1/8\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 400lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"quantity": 300,
+			"value": 6.4,
+			"weight": "0.01 lb",
+			"calc": {
+				"extended_value": 1920,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "f1561577-7b99-4da8-9a64-bfeba38997f0",
+			"type": "equipment",
+			"description": "50 nails",
+			"reference": "UT83",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 10,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "1fee3bd9-1221-4be9-90c3-b3de3e68f90a",
+			"type": "equipment",
+			"description": "Armored Shades",
+			"reference": "UT176",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 8,
+			"value": 3200,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 10
+				}
+			],
+			"calc": {
+				"extended_value": 25600,
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "8eeed086-cf66-4279-8701-ac69edb6dabe",
+			"type": "equipment",
+			"description": "Armoury (Body Armor/TL9) Toolkit",
+			"reference": "UT82",
+			"notes": "10B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "6e398eef-cfbc-4316-aa8e-6a43bd8a0532",
+			"type": "equipment",
+			"description": "Armoury (Small Arms/TL9) Toolkit",
+			"reference": "UT82",
+			"notes": "10B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eb8d38cf-df7e-4258-8030-dc20bef593fe",
+			"type": "equipment",
+			"description": "Assault Boots",
+			"reference": "UT173",
+			"notes": "DR+6 vs. piercing and cutting.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 8,
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				}
+			],
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "2bb05d2b-9427-4c9c-afb0-376d9811d8aa",
+			"type": "equipment",
+			"description": "Filtration Canteen",
+			"reference": "UT75",
+			"notes": "3lbs. full.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 12,
+			"value": 5760,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 69120,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "19c16e1b-f083-4639-bc9a-bc7e15b67f0a",
+			"type": "equipment",
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"notes": "Per foot. 2\" wide. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 100,
+			"value": 1,
+			"weight": "0.01 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4071acda-821f-4e60-acc0-c1cc8bfac1e3",
+			"type": "equipment",
+			"description": "Glow Stick",
+			"reference": "UT74",
+			"notes": "2-yard radius.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"quantity": 100,
+			"value": 64,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "0ea810c5-5317-455a-be88-e073b2103db4",
+			"type": "equipment",
+			"description": "Heavy Flashlight",
+			"reference": "UT74",
+			"notes": "50-yard beam. 2B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food",
+				"Melee Weapon"
+			],
+			"quantity": 4,
+			"value": 640,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "0991f81e-9b78-4e74-8c37-19dfd0d87c93",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "5b4404be-7a23-47dc-b233-42ae1bd9c5e8",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2560,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "0d55e772-cdb0-4ab2-b870-0d3ce2bc0307",
+			"type": "equipment",
+			"description": "Light Infantry Helmet",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 8,
+			"value": 8000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 18
+				}
+			],
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "5bb48684-00e5-477a-b47e-4477ecc4d602",
+			"type": "equipment",
+			"description": "Machinist (Duralloy) Toolkit",
+			"reference": "UT82",
+			"notes": "10B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "1b845309-2d9e-4678-983b-8b242475bfb6",
+			"type": "equipment",
+			"description": "Mini Flashlight",
+			"reference": "UT74",
+			"notes": "15-yard beam. B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"quantity": 12,
+			"value": 320,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 3840,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "d7bb1331-0e62-474e-a78e-76932b4be0fb",
+			"type": "equipment",
+			"description": "Penlight",
+			"reference": "UT74",
+			"notes": "5-yard beam. 2A/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing Tools and Survival Gear"
+			],
+			"quantity": 4,
+			"value": 96,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 384,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "71eb55e8-7ef6-426a-9bc6-c51816fb70f3",
+			"type": "equipment",
+			"description": "Power Tool Box",
+			"reference": "UT81",
+			"notes": "3C/3hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "a6e8818b-2f4f-49bd-872b-092f6315a6fb",
+			"type": "equipment",
+			"description": "Pressure Tent (for eight)",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 480000,
+			"weight": "200 lb",
+			"calc": {
+				"extended_value": 480000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "789af64a-eae9-4b94-88e9-6e68d87132f6",
+			"type": "equipment",
+			"description": "Pressure Tent (for one)",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 8,
+			"value": 48000,
+			"weight": "60 lb",
+			"calc": {
+				"extended_value": 384000,
+				"extended_weight": "480 lb"
+			}
+		},
+		{
+			"id": "eccbec36-8ca0-4f2c-a53d-88b30dc3cd1a",
+			"type": "equipment",
+			"description": "Reflex Bodysuit",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 8,
+			"value": 28800,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				}
+			],
+			"calc": {
+				"extended_value": 230400,
+				"extended_weight": "48 lb"
+			}
+		},
+		{
+			"id": "599c1437-4443-4579-b20f-a8e2f81c28c5",
+			"type": "equipment",
+			"description": "Reflex Gloves",
+			"reference": "UT172",
+			"notes": "DR+4 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 8,
+			"value": 960,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 7680,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "50f3cfb0-7a30-43e9-98cd-621bbabac33f",
+			"type": "equipment",
+			"description": "Reflex Tactical Vest",
+			"reference": "UT173",
+			"notes": "DR+11 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 12,
+			"value": 28800,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 7
+				}
+			],
+			"calc": {
+				"extended_value": 345600,
+				"extended_weight": "108 lb"
+			}
+		},
+		{
+			"id": "a3cf4400-221c-4b73-90d7-6995c18a9b34",
+			"type": "equipment",
+			"description": "Smart Nail Gun",
+			"reference": "UT83",
+			"notes": "Holds 50 nails. 1 propellant bottle/1,000 shots.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "325ebc5a-c449-4e88-ba37-b75231edfbcf",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"accuracy": "0+3",
+					"range": "5/25",
+					"rate_of_fire": "10",
+					"shots": "50(5)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "1d+1(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "7f1a5717-acb7-496c-9343-136d2faa571f",
+			"type": "equipment",
+			"description": "Survival Rations",
+			"reference": "UT73",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"quantity": 96,
+			"value": 160,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 15360,
+				"extended_weight": "48 lb"
+			}
+		}
+	]
+}

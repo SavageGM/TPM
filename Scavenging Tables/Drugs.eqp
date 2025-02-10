@@ -1,0 +1,317 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "af31eccf-8494-44b1-91bd-5c4803a057d4",
+			"type": "equipment",
+			"description": "Pain / Fever reliever, bottle",
+			"notes": "Reduces penalty for pain by 1 temporarily",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.1 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "c1fb279b-18c9-4a8a-839a-76b078d4e3c6",
+			"type": "equipment",
+			"description": "Anti-nausea, bottle",
+			"notes": "Reduces attribute penalties by 1 temporarily",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "0.1 lb",
+			"max_uses": 12,
+			"uses": 12,
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "268918c6-629e-4572-901a-b2a89b5bc3b5",
+			"type": "equipment",
+			"description": "Antibiotics, bottle",
+			"notes": "Gives a +1 to rolls to recover from infections",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"modifiers": [
+				{
+					"id": "34fde961-892f-4910-8bb7-fb05deaa2b75",
+					"type": "eqp_modifier",
+					"name": "Equipment Modifier"
+				}
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "0.1 lb",
+			"max_uses": 60,
+			"uses": 18,
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "c3721d43-4d86-4eac-83cb-b8ffd4191c89",
+			"type": "equipment",
+			"description": "Anti-drowsiness, bottle",
+			"notes": "Reduces Will roll frequency to every 4 hours temporarily",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.1 lb",
+			"max_uses": 20,
+			"uses": 20,
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e270407a-bd32-48cf-85ae-fd15eb5bd21e",
+			"type": "equipment",
+			"description": "Cough reliever, bottle",
+			"notes": "Reduces coughing penalty for IQ \u0026 DX by 1 temporarily",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "0.1 lb",
+			"max_uses": 24,
+			"uses": 24,
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "57120b11-a486-454d-8d34-34a25d86d797",
+			"type": "equipment",
+			"description": "Allergy reliever, bottle",
+			"notes": "Reduces sneezing penalty for IQ \u0026 DX by 1 temporarily",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 48,
+			"weight": "0.1 lb",
+			"max_uses": 24,
+			"uses": 24,
+			"equipped": true,
+			"calc": {
+				"extended_value": 48,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "3c6ebacf-986b-4f60-a3e4-84d57809db77",
+			"type": "equipment",
+			"description": "Motion sickness reliever, bottle",
+			"notes": "side-effect: causes drowsiness for 4 hours",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 55,
+			"weight": "0.1 lb",
+			"max_uses": 10,
+			"uses": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 55,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "c7a9149b-6b0d-4442-bc3c-3bdfbb71f7da",
+			"type": "equipment",
+			"description": "Disinfectant, tube",
+			"notes": "+1 to medical rolls to treat wounds per use",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "0.25 lb",
+			"max_uses": 15,
+			"uses": 15,
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "74a890f7-31db-4c99-8d1a-57e0374d4208",
+			"type": "equipment",
+			"description": "Topical Pain reliever, tube",
+			"notes": "Gives temporary advantage High Pain Threshold for 1 hour for wounds",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "0.15 lb",
+			"max_uses": 15,
+			"uses": 15,
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "6f46980f-7752-45bb-b568-9a6270e86d2f",
+			"type": "equipment",
+			"description": "Hyperstim",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 100,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "aff9b593-21e3-4019-ab8c-da8b2d0de308",
+			"type": "equipment",
+			"description": "Morphazine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 10,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "21d0391d-558a-4893-a6f2-b89faf031a74",
+			"type": "equipment",
+			"description": "Soothe",
+			"reference": "UT205",
+			"tech_level": "9",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 15,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8ae2341a-2641-4aff-aa3f-f2f40cfb7088",
+			"type": "equipment",
+			"description": "Analgine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 50,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "a4a53680-3132-4aea-a55d-303e5f7f3d55",
+			"type": "equipment",
+			"description": "Antirad",
+			"reference": "UT205",
+			"tech_level": "9",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 150,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f58fd35d-8ca1-495b-8477-bbd32c2bb1c2",
+			"type": "equipment",
+			"description": "Credilene",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 240,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,809 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "d16bc586-baf6-43f0-9c22-03af1d44495e",
+			"type": "equipment",
+			"description": "Arrow",
+			"reference": "B276",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "badde529-185e-41dd-930b-43962ab963c5",
+			"type": "equipment",
+			"description": "Arrow Foundry",
+			"reference": "PY96:18",
+			"tech_level": "9",
+			"legality_class": "3",
+			"quantity": 1,
+			"value": 5000,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "22c89f3a-d42f-458d-b528-678fd70e624a",
+			"type": "equipment",
+			"description": "Arrow, Bodkin",
+			"reference": "B277",
+			"notes": "Changes damage to piercing with armor divisor of (2).",
+			"tech_level": "3",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "0cf59f86-e8bb-4d37-bf8a-32554a80d811",
+			"type": "equipment",
+			"description": "Bowstring Silencer",
+			"reference": "HT201",
+			"notes": "Per pair. -2 Hearing.",
+			"tech_level": "7",
+			"tags": [
+				"Muscle-Powered Ranged Weapon"
+			],
+			"quantity": 1,
+			"value": 8,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "3f229817-2bfc-4e39-ad8f-da1616f80a2d",
+			"type": "equipment",
+			"description": "Compound Hunting Bow (ST 13)",
+			"reference": "PY33:14",
+			"notes": "[1] Requires ST 13 to draw, but only ST 9 to hold at full draw.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"rated_strength": 13,
+			"quantity": 1,
+			"value": 7744,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "13",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"accuracy": "3",
+					"range": "431/764",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 7744,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "4c609fd0-e562-40ba-bdd4-b35f38726ad7",
+			"type": "equipment",
+			"description": "Covert Bow",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"quantity": 1,
+			"value": 80000,
+			"weight": "0.7 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "7"
+					},
+					"strength": "7†",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"calc": {
+						"damage": "thr+7 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "0.7 lb"
+			}
+		},
+		{
+			"id": "3139111b-77e6-4be5-ba41-0f1c800bc8ba",
+			"type": "equipment",
+			"description": "Hunting Broadhead, Modern",
+			"reference": "PY33:11",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "0.015 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0.015 lb"
+			}
+		},
+		{
+			"id": "881a31c4-0b97-4006-ae10-6f4218f6efcb",
+			"type": "equipment",
+			"description": "Leaf Spring Crossbow",
+			"reference": "LT74",
+			"notes": "ST30",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "d0a00dea-04b6-4381-a827-13d8553dbd66",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"base": "3d"
+					},
+					"strength": "12†",
+					"usage": "Fire Bolt",
+					"accuracy": "3",
+					"range": "375/450",
+					"rate_of_fire": "1",
+					"shots": "1(32)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "3d imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "42470e85-87ad-4078-bc77-8e6ad39786dd",
+			"type": "equipment",
+			"description": "Modern Compound Crossbow",
+			"reference": "PY33:14",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"modifiers": [
+				{
+					"id": "4d803fa9-a5b9-4395-aa97-270285d9a857",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"disabled": true,
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 13552,
+			"weight": "5.2 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"base": "2d+1"
+					},
+					"strength": "11",
+					"accuracy": "4",
+					"range": "645",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "2d+1 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 13552,
+				"extended_weight": "5.2 lb"
+			}
+		},
+		{
+			"id": "0be02858-97eb-46c0-b80e-d5c7b2baa15f",
+			"type": "equipment",
+			"description": "Modern Compound Crossbow (Ammunition)",
+			"reference": "PY33:14",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 158.4,
+			"weight": "0.09 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 158.4,
+				"extended_weight": "0.09 lb"
+			}
+		},
+		{
+			"id": "016ffa5a-62b2-4ceb-980f-c2689e1b50bb",
+			"type": "equipment",
+			"description": "Modern Pistol Crossbow",
+			"reference": "PY33:14",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"modifiers": [
+				{
+					"id": "4d803fa9-a5b9-4395-aa97-270285d9a857",
+					"type": "eqp_modifier",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"value": 99,
+			"weight": "3.8 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"base": "1d+1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "255",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1584,
+				"extended_weight": "3.8 lb"
+			}
+		},
+		{
+			"id": "6ed9c2d1-f166-4263-910a-78c8732401bb",
+			"type": "equipment",
+			"description": "Rocket Arrow",
+			"reference": "PY96:16",
+			"notes": "Damage 6dx3 imp | Acc 3 | Range 1900 | Rcl 2",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "3ea3a859-eef9-42e5-ba51-7d37f9157b5e",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "fd4cf7c6-0680-44b2-995f-d0e7470a9e68",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Shoulder Quiver",
+			"reference": "B289",
+			"notes": "Holds 12 arrows or bolts",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "408bb78a-fddd-4b45-9294-84eefa8f24fb",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Smart Quiver",
+			"reference": "PY96:18",
+			"tech_level": "9",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 200,
+			"weight": "3 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "71c09787-2f7d-47d1-a2a9-e683c84b3ef0",
+			"type": "equipment",
+			"description": "Spiker",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"weight": "37 lb",
+			"weapons": [
+				{
+					"id": "9e93a7b8-85bb-46c4-963f-1821ee08dd85",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"base": "4d-1"
+					},
+					"strength": "15M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "360/450",
+					"rate_of_fire": "1",
+					"shots": "1(10)",
+					"bulk": "-9",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "37 lb"
+			}
+		},
+		{
+			"id": "2206dd49-ba7a-424b-b0ac-1cc369b6f03f",
+			"type": "equipment",
+			"description": "Spiker Bolt",
+			"reference": "LT81",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "64f61dbc-eacd-489c-9ae5-d8f925d4e40d",
+			"type": "equipment",
+			"description": "Spiker Tripod",
+			"reference": "LT83",
+			"tech_level": "3",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "32 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "0eaf2cb3-3b92-4a5d-a085-be33dff7977f",
+			"type": "equipment",
+			"description": "Sport Bow",
+			"reference": "PY96:14",
+			"notes": "Cost includes $1,000 for scope. Subtract to find base cost of bow for quality modifiers.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"quantity": 1,
+			"value": 33600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "6"
+					},
+					"strength": "7†",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"accuracy": "0+2",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bow"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+6 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 33600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "3e981dda-8d5b-4ada-8d21-7df0bdcefbc7",
+			"type": "equipment",
+			"description": "Sport Bow (No scope)",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "6"
+					},
+					"strength": "7†",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"accuracy": "0+2",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bow"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+6 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "234144f3-7de7-4f50-a46f-91fb365a4757",
+			"type": "equipment",
+			"description": "Vehicle Double Crossbow",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83). Uses same ammunition as Spiker",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"quantity": 1,
+			"value": 2500,
+			"weight": "45 lb",
+			"weapons": [
+				{
+					"id": "9e93a7b8-85bb-46c4-963f-1821ee08dd85",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"base": "4d-1"
+					},
+					"strength": "15M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "360/450",
+					"rate_of_fire": "2",
+					"shots": "2(10i)",
+					"bulk": "-12",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2500,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "9a52622a-f3f6-4de9-affc-219759956189",
+			"type": "equipment",
+			"description": "Vehicular Double Crossbow Tripod",
+			"reference": "LT83",
+			"tech_level": "3",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "38 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "38 lb"
+			}
+		},
+		{
+			"id": "82e82a1a-6794-4f3b-9ab9-1f199188d46c",
+			"type": "equipment",
+			"description": "War Bow",
+			"reference": "PY96:14",
+			"notes": "Cost includes $8,000 for scope. Subtract to find base cost of bow for quality modifiers.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"value": 259200,
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "9"
+					},
+					"strength": "10",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"accuracy": "3",
+					"range": "x35/x50",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+9 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 259200,
+				"extended_weight": "3.3 lb"
+			}
+		},
+		{
+			"id": "9ce45ef8-b3b6-463b-bf15-87492c0b2f4a",
+			"type": "equipment",
+			"description": "War Bow (No Scope)",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"value": 3200,
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"id": "b2265c48-65db-488f-b4e3-152bb47f344b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "9"
+					},
+					"strength": "10",
+					"usage_notes": "[1] Requires ST 13 to draw, but only ST 10 to hold at full draw.",
+					"range": "x35/x50",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+9 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3.3 lb"
+			}
+		}
+	]
+}

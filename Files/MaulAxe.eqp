@@ -1,0 +1,764 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eFMst4rCBmF6qKR9j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "ebrSfrMcJyO0OROH1"
+			},
+			"description": "MaulAxe",
+			"reference": "B274",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 100,
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"id": "wTEby4ityArwYZjTh",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "18‡",
+					"usage": "Swung Axe",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+10(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wcL49T2mcugmVbg5-",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "18‡",
+					"usage": "Swung Axe - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "7d+11(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wMMyerQyJI_8u0-SB",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "18‡",
+					"usage": "Swung Axe - Committed Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+14(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wM9g5c95TDGoMJWiW",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "18‡",
+					"usage": "Swung Axe - All-Out Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+18(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "w7Sm7qgiK1V-5TePD",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "18‡",
+					"usage": "Swung Axe - All-Out Attack (Strong) - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "7d+25(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wb6h8M0V8Vjb9cMT6",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "6"
+					},
+					"strength": "18‡",
+					"usage": "Swung Hammer Head",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+6 cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wvLRK5we8OAVWikQA",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "6"
+					},
+					"strength": "18‡",
+					"usage": "Swung Hammer Head - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "7d+9(2) cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wcfpL0CwDSXfI2wOB",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "6"
+					},
+					"strength": "18‡",
+					"usage": "Swung Hammer Head - Committed Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+12(2) cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wY4zQvSinr9S9UjDl",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "6"
+					},
+					"strength": "18‡",
+					"usage": "Swung Hammer Head - All-Out Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d+16(2) cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wLDs7vKey-j8ZyZ71",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "6"
+					},
+					"strength": "18‡",
+					"usage": "Swung Hammer Head - All-Out Attack (Strong) - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "7d+23(2) cr",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "why6BAtPjKah6U874",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "21‡",
+					"usage": "Swung Axe - Rocket Striker",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "5d+11(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wgLhc32cZeXqKPifL",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "21‡",
+					"usage": "Swung Axe - Rocket Striker  - Committed Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "5d+16(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wsDlikscSr01kAQV2",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "21‡",
+					"usage": "Swung Axe - Rocket Striker - All-Out Attack (Strong)",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "5d+21(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wgtR51vgFDjOvUDu5",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "21‡",
+					"usage": "Swung Axe - Rocket Striker - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "8d+9(2) cut",
+						"parry": "11U"
+					}
+				},
+				{
+					"id": "wzUdh9bxwoMkiflec",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "8"
+					},
+					"strength": "21‡",
+					"usage": "Swung Axe - Rocket Striker - All-Out Attack (Strong) - Power Blow",
+					"reach": "1-3*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "8d+25(2) cut",
+						"parry": "11U"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fRV8ehpcEyn5XDiuf",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Files\\ATE Equipment Modifiers.eqm",
+						"id": "fj4JUhu1mDXwJhJo6"
+					},
+					"name": "Superfine Blade",
+					"reference": "UT163",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is_not",
+								"qualifier": "Swung Hammer Head"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						},
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "is_not",
+								"qualifier": "Swung Hammer Head"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fsiLtPwDpqmFz_FtR",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Files\\ATE Equipment Modifiers.eqm",
+						"id": "fnsJOuuMVkOA3-mSW"
+					},
+					"name": "SM +1",
+					"reference": "UT16",
+					"weight_type": "to_final_weight",
+					"cost": "x2.25",
+					"weight": "x2.25"
+				},
+				{
+					"id": "f3qnzNilHWRZq33tL",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Files\\ATE Equipment Modifiers.eqm",
+						"id": "fdnqEZMoKU4BFPvSa"
+					},
+					"name": "Rocket Striker",
+					"reference": "UT163",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_final_base_weight",
+					"tech_level": "9",
+					"cost": "+500",
+					"weight": "+1 lb",
+					"features": [
+						{
+							"type": "weapon_effective_st_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"specialization": {
+								"compare": "contains",
+								"qualifier": "Rocket Striker"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 6
+						}
+					]
+				},
+				{
+					"id": "fWAl6A24G2UugxUpN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f7obZ3VDi4x0PWmGT"
+					},
+					"name": "Hammer Head",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+25",
+					"weight": "+0.5 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "21.375 lb"
+			}
+		}
+	]
+}

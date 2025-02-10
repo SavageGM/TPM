@@ -1,0 +1,210 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "57f3f16a-6f26-4436-b665-18bcaeddae92",
+			"type": "equipment",
+			"description": "Blanket",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "07351ce5-5ce8-4faa-b68a-ea3dfc3ab061",
+			"type": "equipment",
+			"description": "Candle, Tallow",
+			"reference": "B288",
+			"notes": "Lasts 12 hours",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "5b7dfaee-a570-4b2b-8707-833f6ddcc206",
+			"type": "equipment",
+			"description": "Ballpoint Pen",
+			"reference": "HT19",
+			"tech_level": "7",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 0.5,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "0ef4ef7b-afb4-4f5f-9eb4-5a0fcdae9ab1",
+			"type": "equipment",
+			"description": "Basic Library",
+			"reference": "HT18",
+			"notes": "\"Quantity\" represents the number of fields covered.",
+			"tech_level": "5",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 7000,
+			"weight": "250 lb",
+			"calc": {
+				"extended_value": 7000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "71019226-dc9b-40e4-8311-5bdd4328cda2",
+			"type": "equipment",
+			"description": "Blank Book",
+			"reference": "HT17",
+			"notes": "Holdout -1",
+			"tech_level": "5",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "171ffd70-d9d5-48a4-a70c-7fd38b204128",
+			"type": "equipment",
+			"description": "Boom Box",
+			"reference": "HT44",
+			"notes": "6xS/5hrs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e630ad09-d93c-4108-a056-f8a52952d0e9",
+			"type": "equipment",
+			"description": "Business Card",
+			"reference": "HT18",
+			"tech_level": "5",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 2,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "382063dd-ddfa-465f-a7db-438c35fa0535",
+			"type": "equipment",
+			"description": "Business Card Disc",
+			"reference": "HT18",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 8,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "55ffd016-b250-49d9-9c15-b0f6e6d9f6f6",
+			"type": "equipment",
+			"description": "Cigar Case",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "a844a99b-5ab3-4829-8ae0-2bc0c9c6daa9",
+			"type": "equipment",
+			"description": "Cigarette Case",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "017d7b2b-c70a-4360-b9a7-65b5ff3676db",
+			"type": "equipment",
+			"description": "Cigarette Lighter",
+			"reference": "HT57",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "2657fba2-91cf-44c0-a6c8-6c3c84b93b38",
+			"type": "equipment",
+			"description": "Cigarette Lighter",
+			"reference": "HT57",
+			"notes": "Windproof. Waterproof.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 480,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

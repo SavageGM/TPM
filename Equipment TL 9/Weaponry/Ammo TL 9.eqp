@@ -1,0 +1,2018 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eLWMMl95On5mKy8q_",
+			"description": "3mmN",
+			"reference": "UT140",
+			"tech_level": "9",
+			"tags": [
+				"Ammunition",
+				"Pistol",
+				"Weaponry"
+			],
+			"value": 3.2,
+			"weight": "0.005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3.2,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "evwZafm1Kl6NZYXQt",
+			"description": "5.7mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 5.76,
+			"weight": "0.009 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5.76,
+				"extended_weight": "0.009 lb"
+			}
+		},
+		{
+			"id": "ebCeWbTmtHOGZXb0m",
+			"description": "5.7mmCL (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 28.8,
+			"weight": "0.009 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28.8,
+				"extended_weight": "0.009 lb"
+			}
+		},
+		{
+			"id": "exguJp_LaWYWfAKB1",
+			"description": "5.7mmCL (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 57.6,
+			"weight": "0.009 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 57.6,
+				"extended_weight": "0.009 lb"
+			}
+		},
+		{
+			"id": "ezbr1OCuTDCdR4cg5",
+			"description": "5.7mmCL (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 11.52,
+			"weight": "0.009 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 11.52,
+				"extended_weight": "0.009 lb"
+			}
+		},
+		{
+			"id": "eV_OJX-mtc-U8SmSD",
+			"description": "5.7mmCL (HP)",
+			"reference": "UT139, UT154",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 5.76,
+			"weight": "0.009 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5.76,
+				"extended_weight": "0.009 lb"
+			}
+		},
+		{
+			"id": "e4weUOOcuJuZnNCn1",
+			"description": "7.5mmCLP",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 3.84,
+			"weight": "0.006 lb",
+			"modifiers": [
+				{
+					"id": "fHBeS5kYqeZj19YrX",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3.84,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "ekVE1ALTrL6Stoxc6",
+			"description": "7.5mmCLP (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 19.2,
+			"weight": "0.006 lb",
+			"modifiers": [
+				{
+					"id": "fYTqkyXdSY90CfthS",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 19.2,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "e_s_rCjXc8lAjerc4",
+			"description": "7.5mmCLP (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 38.4,
+			"weight": "0.006 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "ePIYKwoxoJLl0sZHN",
+			"description": "7.5mmCLP (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 7.68,
+			"weight": "0.006 lb",
+			"modifiers": [
+				{
+					"id": "fWn2iXTxA9R1icGqS",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7.68,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "e0ZAnKvH224a-u3dZ",
+			"description": "7.5mmCLP (HP)",
+			"reference": "UT139, UT154",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 3.84,
+			"weight": "0.006 lb",
+			"modifiers": [
+				{
+					"id": "fn95HmheJq7_cg-xz",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3.84,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "eUTyhVMy9QEtQwIvu",
+			"description": "7mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 17.28,
+			"weight": "0.027 lb",
+			"modifiers": [
+				{
+					"id": "fva-uPE4vmv2oq0Co",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 17.28,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "ekTcmg8weoXghgl--",
+			"description": "7mmCL (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 86.4,
+			"weight": "0.027 lb",
+			"modifiers": [
+				{
+					"id": "fqKQqY2dNe8B_DqoN",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 86.4,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "es6CGI2CIbLBkBTdt",
+			"description": "7mmCL (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 172.8,
+			"weight": "0.027 lb",
+			"modifiers": [
+				{
+					"id": "f8W0yRJVXElMj_hJp",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 172.8,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "eiIJdfQeViocNGXvd",
+			"description": "7mmCL (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 34.56,
+			"weight": "0.027 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 34.56,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "eshYgBs3hxyoLOrFM",
+			"description": "7mmCL (HP)",
+			"reference": "UT139, UT154",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 17.28,
+			"weight": "0.027 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 17.28,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "eq7KLrKFEytzB_KAA",
+			"description": "10mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 25.6,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fcOV87XCHE0NtnlyL",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25.6,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "ed-i_K_mVBA6JickG",
+			"description": "10mmCL (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fQWoCVId6oAxVWlQb",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "evlOM5e5qhEZ7RHGr",
+			"description": "10mmCL (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 256,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fmYHY2pRaoRU1p7af",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 256,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "ec8jQuj08Zkn5xMvL",
+			"description": "10mmCL (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 51.2,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fg3Lh0ooq1VFp0_cS",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 51.2,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "ehPgPU0X-0v4NW7s8",
+			"description": "10mmCL (APHEX)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fADMOo1lJDwCvEXYS",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "ey5N5m-gZaU2c7pDX",
+			"description": "10mmCL (HE)",
+			"reference": "UT139, UT153",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 25.6,
+			"weight": "0.04 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25.6,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "enTYlJjeaMULWxcsj",
+			"description": "10mmCL (HEC)",
+			"reference": "UT139, UT153",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 25.6,
+			"weight": "0.04 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25.6,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "em9hUMEA_uZnIXMBV",
+			"description": "10mmCL (HP)",
+			"reference": "UT139, UT154",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 25.6,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fiJIoMoqBs-D7H3Te",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25.6,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "eTpW4Cn7QO6ZBnq0P",
+			"description": "10mmCLP",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 8.96,
+			"weight": "0.014 lb",
+			"modifiers": [
+				{
+					"id": "fZ6pvH9Hw0w2Be5hO",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8.96,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "e_EHjN6mlmUR-btao",
+			"description": "10mmCLM-ETC",
+			"reference": "Ammo, Pistol",
+			"notes": "Disintegrating Magazine",
+			"tech_level": "9",
+			"legality_class": "4",
+			"value": 1152,
+			"weight": "1.89 lb",
+			"max_uses": 90,
+			"quantity": 1,
+			"uses": 90,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1152,
+				"extended_weight": "1.89 lb"
+			}
+		},
+		{
+			"id": "eZycQ4k-oj2Mxm5wv",
+			"description": "10mmCLM-ETC",
+			"reference": "Ammo, Pistol",
+			"tech_level": "9",
+			"legality_class": "4",
+			"value": 12.8,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 12.8,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "elHNchYe36-tTlnfc",
+			"description": "10mmCLP (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 44.8,
+			"weight": "0.014 lb",
+			"modifiers": [
+				{
+					"id": "fYCEFawXkV3d_atPV",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 44.8,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "eR7jBL8L_NSVwG2ax",
+			"description": "10mmCLP (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 89.6,
+			"weight": "0.014 lb",
+			"modifiers": [
+				{
+					"id": "fhHPJ53kxQVzs4pPt",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 89.6,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "e8UWk_WjuHOLKn2me",
+			"description": "10mmCLP (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 17.92,
+			"weight": "0.014 lb",
+			"modifiers": [
+				{
+					"id": "fPGo6MMaDMvUJ3fDm",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 17.92,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "erBy4ZeBVEVLr-FX4",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "ATE\\ATE UT Equipment\\ATE UT Ammo.eqp",
+				"id": "eTpW4Cn7QO6ZBnq0P"
+			},
+			"description": "10mmCLP (APHEX)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 35.84,
+			"weight": "0.014 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 35.84,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "eXq3wnviAQoHxnlld",
+			"description": "10mmCLP (HE)",
+			"reference": "UT139, UT153",
+			"notes": "High-Explosive",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 8.96,
+			"weight": "0.014 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8.96,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "eZDX02gKgVHpdvo6S",
+			"description": "10mmCLP (HEC)",
+			"reference": "UT139, UT153",
+			"notes": "High-Explosive Concussion",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 8.96,
+			"weight": "0.014 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8.96,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "eLpKurGR4jaD-_Ifo",
+			"description": "10mmCLP (HP)",
+			"reference": "UT139, UT153",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 8.96,
+			"weight": "0.014 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8.96,
+				"extended_weight": "0.014 lb"
+			}
+		},
+		{
+			"id": "eC-XEBCu0rxonWNC-",
+			"description": "10mmCLR",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 38.4,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fMoonrRubqV1F9CFO",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eS8vROVH2KZV4EJwi",
+			"description": "10mmCLR (APDS)",
+			"reference": "UT139, UR152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 192,
+			"weight": "0.06 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 192,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eobQHJyFtnWTCxdQ5",
+			"description": "10mmCLR (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 384,
+			"weight": "0.06 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 384,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "esAlclI2xxRzhIvJ0",
+			"description": "10mmCLR (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 76.8,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fl1mIUMZmJxnm9Xwd",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 76.8,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eFbG7GPkwKgECYivQ",
+			"description": "10mmCLR (HE)",
+			"reference": "UT139, UT153",
+			"notes": "High Explosive",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 38.4,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fenuirBvCl9BbTcRw",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "ejH6cnIXYTQDeuaq9",
+			"description": "10mmCLR (HEC)",
+			"reference": "UT139, UT154",
+			"notes": "High Explosive Concussion",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 38.4,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fLgSEFUHy8wB8qsig",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eEkTYHWDKt4orNSBd",
+			"description": "10mmCLR (HP)",
+			"reference": "UT139, UT154",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 38.4,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fEopVspy_6Gndk1cW",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eRR_jTreZMOuyZSMU",
+			"description": "15mm gyroc",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 160,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eNkGZvYkRiJPOlBLl",
+			"description": "15mm HEC gyroc",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 160,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ecIk3R5m_cyeL85Qi",
+			"description": "15mm APHEX gyroc",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 640,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eWpg4wEX08C4Uzzhr",
+			"description": "15mm gyroc \"Viper\"",
+			"reference": "UT145, UT146",
+			"notes": "Infrared Homing",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 480,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ezn2szApsgzrNWPjN",
+			"description": "15mm gyroc \"Viper\" (SEFOP)",
+			"reference": "UT145, UT146, UT155",
+			"notes": "Infrared Homing",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 1280,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e6gtL-GVTb1rOLD8O",
+			"description": "15mm gyroc \"Pit Viper\"",
+			"reference": "UT145, UT146",
+			"notes": "Multi-Spectral Homing",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"modifiers": [
+				{
+					"id": "f0F1DIHeRRy6m_rPv",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "exPmjfWGKqivyUBDs",
+			"description": "15mm gyroc \"Pit Viper\" (SEFOP)",
+			"reference": "UT145, UT146, UT155",
+			"notes": "Multi-Spectral Homing",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 2400,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eDcR6AkL5pQzWa1la",
+			"description": "15mm micromissile",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Gyroc"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"modifiers": [
+				{
+					"id": "fADXz7MVnOehIQER1",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eiwulRfwQc8JM6Sxk",
+			"description": "15mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fAr5l7gHTJ6PXnVrY",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eYVmLRALbDKlsVBxy",
+			"description": "15mmCL (APHC)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 256,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 256,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eT8xtv2mj1PHzmAsa",
+			"description": "15mmCL (APDS)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 640,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eeQPnLx8FuXepBdmk",
+			"description": "15mmCL (APEP)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 1280,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fwEBI5xJsizNC54_S",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eQmAdD4sYbKwxWvpZ",
+			"description": "15mmCL (APHEX)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 512,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "faBxeA52A_7mZPiT-",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 512,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eY5BsJ02CDp5-fy_V",
+			"description": "15mmCL (HE)",
+			"reference": "UT139",
+			"notes": "High Explosive",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fiJ6sirRFKxrQQNyi",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "evftsWvFGiAkoVxtK",
+			"description": "15mmCL (HEC)",
+			"reference": "UT139",
+			"notes": "High Explosive Concussion",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "e6m8ApNog3CFlSFMZ",
+			"description": "15mmCL (HP)",
+			"reference": "UT139",
+			"notes": "Hollow-Point",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fnRQhSR-wwmiBxckF",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "ehR0RYh0D9JggHCfC",
+			"description": "15mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "f-YNym3uJXYsRuXkQ",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eZbyrnZ9MAXhnyaNv",
+			"description": "15mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Rifle"
+			],
+			"value": 128,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "f4Bwmw6F4-pTy-rTC",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "e4JkU7SsTK7C1XmuX",
+			"description": "15mmCLP",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 38.4,
+			"weight": "0.06 lb",
+			"modifiers": [
+				{
+					"id": "fP90hfmAgUHH9L64A",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38.4,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "el_wsobp0ZuK3sTrl",
+			"description": "15mmCLP (Magnum)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 42,
+			"weight": "0.06 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 42,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eFIjIR4uL9LGSae5Z",
+			"description": "15mmPLB",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Pistol"
+			],
+			"value": 224,
+			"weight": "0.27 lb",
+			"modifiers": [
+				{
+					"id": "fzqiFI2ArmOD5kurd",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 224,
+				"extended_weight": "0.27 lb"
+			}
+		},
+		{
+			"id": "ep2wp6fpCRpYDLWMB",
+			"description": "18.5mmPC",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Shotgun"
+			],
+			"value": 57.6,
+			"weight": "0.092 lb",
+			"modifiers": [
+				{
+					"id": "fclRm-ghE7rXZeFrT",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 57.6,
+				"extended_weight": "0.092 lb"
+			}
+		},
+		{
+			"id": "enhIP4GRQQcqpeR2Q",
+			"description": "25mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ef0gBItb_NIgRNjJx",
+			"description": "25mmCL (APHC)",
+			"reference": "UT139, UT152",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eBUmsnhw_wq_AOM9a",
+			"description": "25mmCL (APDS)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ebUVbymlECdJapv1Y",
+			"description": "25mmCL (APEP)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "egpIl_6xJ_4ZlWtau",
+			"description": "25mmCL (APHEX)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 2560,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fuKbgX8owhoPqxX6R",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2560,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e8geV6I9L7XVFItmz",
+			"description": "25mmCL (HE)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fteBUR8Sd2pe4G--X",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ew0ug31Id187OTJ2g",
+			"description": "25mmCL (HEC)",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "ffqespwmb-7N5OHlU",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e4X0m-d2hJfmhpG-x",
+			"description": "25mmCL (SC)",
+			"reference": "UT139",
+			"notes": "Shaped Charge",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fI5mL-O4OaLRAHMYu",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "elV2SGOL7VsvOIuhT",
+			"description": "25mmPC",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 140.8,
+			"weight": "0.22 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 140.8,
+				"extended_weight": "0.22 lb"
+			}
+		},
+		{
+			"id": "eD96eQfxNQIEEGcZM",
+			"description": "25mmPC APHEX",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 1689.6,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 1,
+			"uses": 3,
+			"calc": {
+				"extended_value": 1689.6,
+				"extended_weight": "0.66 lb"
+			}
+		},
+		{
+			"id": "eEFTs0zvquCwvQgeu",
+			"description": "25mmPC",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 422.4,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 1,
+			"uses": 3,
+			"calc": {
+				"extended_value": 422.4,
+				"extended_weight": "0.66 lb"
+			}
+		},
+		{
+			"id": "er6NV2NOeIg_vf-_V",
+			"description": "25mmPC HEC",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher"
+			],
+			"value": 422.4,
+			"weight": "0.66 lb",
+			"max_uses": 3,
+			"quantity": 1,
+			"uses": 3,
+			"calc": {
+				"extended_value": 422.4,
+				"extended_weight": "0.66 lb"
+			}
+		},
+		{
+			"id": "eFUq_HIPRaGPxwtdL",
+			"description": "25mmT",
+			"reference": "UT140",
+			"tech_level": "9",
+			"tags": [
+				"Ammunition",
+				"Pistol",
+				"Tangler"
+			],
+			"value": 76.8,
+			"weight": "0.12 lb",
+			"modifiers": [
+				{
+					"id": "fAqi7gqBkM3fMIPF_",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 76.8,
+				"extended_weight": "0.12 lb"
+			}
+		},
+		{
+			"id": "eiFhU7-ehrg9k5N9q",
+			"description": "40mmPLB",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 320,
+			"weight": "0.4 lb",
+			"modifiers": [
+				{
+					"id": "fjviE_rDNP9I28G2f",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "eCweLoUqmKAuTMCuX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eiFhU7-ehrg9k5N9q"
+			},
+			"description": "40mmPLB",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 1600,
+			"weight": "2 lb",
+			"max_uses": 5,
+			"quantity": 1,
+			"uses": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eoLbtb9RSPd9NLdFg",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eiFhU7-ehrg9k5N9q"
+			},
+			"description": "40mmPLB HEC",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 1600,
+			"weight": "2 lb",
+			"max_uses": 5,
+			"quantity": 1,
+			"uses": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eaLRiNQcSfoxs9eCg",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eiFhU7-ehrg9k5N9q"
+			},
+			"description": "40mmPLB APHEX",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 1600,
+			"weight": "2 lb",
+			"max_uses": 5,
+			"quantity": 1,
+			"uses": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eDOVzx97FOWWW6INc",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eiFhU7-ehrg9k5N9q"
+			},
+			"description": "40mmPLB Thermobaric",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 6400,
+			"weight": "2 lb",
+			"max_uses": 5,
+			"quantity": 1,
+			"uses": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eTzCBHZiL_VMxCI5g",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+				"id": "eiFhU7-ehrg9k5N9q"
+			},
+			"description": "40mmPLB Shaped Charge",
+			"reference": "UT139",
+			"notes": "Pre-loaded barrel",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 3200,
+			"weight": "2 lb",
+			"max_uses": 5,
+			"quantity": 1,
+			"uses": 5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ekEsbwFKos66rFaMI",
+			"description": "64mmPLB",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Grenade Launcher",
+				"Mortar"
+			],
+			"value": 1280,
+			"weight": "2 lb",
+			"modifiers": [
+				{
+					"id": "f2G9OhXad20uCDT2B",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "erUWrqiqsqHqW1TC_",
+			"description": "100mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition",
+				"Cannon"
+			],
+			"value": 12800,
+			"weight": "40 lb",
+			"modifiers": [
+				{
+					"id": "fCHny9c5IcOzf5YCo",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "40 lb"
+			}
+		}
+	]
+}

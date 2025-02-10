@@ -1,0 +1,839 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "elbv8vLXPunoVzXEP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eatYVIU0Nn4rZaLey"
+			},
+			"description": "15mm \"Viper\" micromissile",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 50,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ePmpm_UkqxjgRbMzM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eatYVIU0Nn4rZaLey"
+			},
+			"description": "15mm \"Viper\" micromissile",
+			"reference": "UT145",
+			"notes": "SEFOP",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 50,
+			"weight": "0.1 lb",
+			"weapons": [
+				{
+					"id": "W1-LG-usGPnEGVyM3",
+					"damage": {
+						"type": "cr",
+						"base": "1d"
+					},
+					"rate_of_fire": "1",
+					"calc": {
+						"damage": "1d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ePylGBQRXHOViMLG2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eLX3pHRRnBjt0wJaX"
+			},
+			"description": "15mm gyroc",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 5,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eeEHN-nZw4XFW88q9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eI3Q0zjULTNcT00ZN"
+			},
+			"description": "Gyroc Carbine, 15mm",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 500,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WYMvSCRkNCyFMZjxk",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "7†",
+					"usage": "HE",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				},
+				{
+					"id": "WfAgRyFpTZxF_xKhs",
+					"damage": {
+						"type": "imp inc",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"usage": "SEFOP",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(2) imp inc"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e55CpR0JSCHbyJ5l9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e-q5loJqqU9wDZQzJ"
+			},
+			"description": "IML, 64mm",
+			"reference": "UT146",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 64000,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WhDftwRiuIhdHnDSi",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3"
+					},
+					"strength": "7†",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eChfnCibEm6AezY4q",
+			"description": "IML 64mm Missile",
+			"legality_class": "4",
+			"value": 3200,
+			"weight": "1.5 lb",
+			"max_uses": 1,
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eIm3sQPq2bmzukVDv",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "Armor-Piercing Hardcore Explosive (APHEX)",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 1280,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "Wwo333vVEFLDUgOtF",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"usage": "APHEX",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3(2) pi++"
+					}
+				},
+				{
+					"id": "WfmhPfGGggp2jky2a",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "APHEX linked",
+					"calc": {
+						"damage": "4d cr ex [3d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eW2lV6URGSkt0aRBY",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "High Explosive (HE)",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 1280,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WG465vs0irvT9XfZ5",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3",
+						"armor_divisor": 0.5
+					},
+					"strength": "7†",
+					"usage": "HE",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3(0.5) pi++"
+					}
+				},
+				{
+					"id": "W3Fdbemq4XdWxcnF4",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "HE linked",
+					"calc": {
+						"damage": "8dx2 cr ex [3d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "egG-uFh43zQzAJvqU",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "High Explosive Concussion (HEC)",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 320,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WsEQZSsEPsqTmI71X",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3",
+						"armor_divisor": 0.5
+					},
+					"strength": "7†",
+					"usage": "HEC",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3(0.5) pi++"
+					}
+				},
+				{
+					"id": "WHKcbc5HuEusPyAI1",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2"
+					},
+					"usage": "HE linked",
+					"calc": {
+						"damage": "8dx2 cr ex"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eZsKWAS6jueVefMpu",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "Shaped Charge (SC)",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 640,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WM2EFvwdQ7gDaLnvK",
+					"damage": {
+						"type": "cr inc",
+						"base": "6dx7",
+						"armor_divisor": 10
+					},
+					"strength": "7†",
+					"usage": "SC",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx7(10) cr inc"
+					}
+				},
+				{
+					"id": "W4yMJE5QXwz6Jq_dn",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "SC linked",
+					"calc": {
+						"damage": "8dx2 cr ex [3d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eyFbG-7uwqYyiKE9T",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "Smart Explosively Forged Projectile (SEFOP)",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 1600,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WsXykSNgoGp3rOeb1",
+					"damage": {
+						"type": "cr inc",
+						"base": "6dx7",
+						"armor_divisor": 3
+					},
+					"strength": "7†",
+					"usage": "SEFOP",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx7(3) cr inc"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eViRp4KoSGnCpSwjy",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "Thermobaric",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 1600,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WrrkPqssR1mUVDsZ_",
+					"damage": {
+						"type": "cr ex inc",
+						"base": "6dx5"
+					},
+					"strength": "7†",
+					"usage": "Thermobaric",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx5 cr ex inc"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eFGEpcswqyi6uroSP",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "EMP",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WatyBb_6aRxvYZudi",
+					"damage": {
+						"type": "spec"
+					},
+					"strength": "7†",
+					"usage": "EMP",
+					"usage_notes": "8 yd",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "spec"
+					}
+				},
+				{
+					"id": "WK3hGKUk7AA-9NECx",
+					"damage": {
+						"type": "cr ex",
+						"base": "2d"
+					},
+					"usage": "EMP Linked",
+					"calc": {
+						"damage": "2d cr ex"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "etg3AoTPBqjVRrIsJ",
+			"description": "IML 64mm Warhead",
+			"reference": "UT145",
+			"notes": "solid “kinetic kill” projectile",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Missile",
+				"Warhead"
+			],
+			"value": 320,
+			"weight": "0.5 lb",
+			"max_uses": 1,
+			"weapons": [
+				{
+					"id": "WIqCnBoV7zfYG7rO3",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3"
+					},
+					"strength": "7†",
+					"accuracy": "3",
+					"range": "500/4,000",
+					"rate_of_fire": "1",
+					"shots": "1(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e8Vw0jNB2Pmhg-xpt",
+			"description": "SST-40V (Swarm Missile Launcher) SML, 40mm",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WEhMabhPbK2K9-8VR",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10†",
+					"usage": "SST-40V",
+					"accuracy": "3",
+					"range": "2,400",
+					"rate_of_fire": "1x5",
+					"shots": "5(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -4
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "8d cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		}
+	]
+}

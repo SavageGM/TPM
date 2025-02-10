@@ -1,0 +1,53 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "d2e219d7-882d-4f95-9313-f10b2d951100",
+			"type": "trait",
+			"name": "Gun Master",
+			"reference": "GF15, B58",
+			"userdesc": "https://www.scabard.com/pbs/campaign/2543388/note/3555187",
+			"tags": [
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "4ea18cb0-7bb1-4eca-b25e-aed745e67bf3",
+					"type": "modifier",
+					"name": "Arsenal",
+					"reference": "GF16",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "399948af-286c-4920-9661-fdde4ee9f98e",
+					"type": "modifier",
+					"name": "Gun Rack",
+					"reference": "GF16",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "6111d802-121f-479a-8c0e-8deabf868540",
+					"type": "modifier",
+					"name": "Type",
+					"reference": "GF16",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "86d215bf-fbdd-48fe-aba1-1ccbebe4e46c",
+					"type": "modifier",
+					"name": "Model",
+					"reference": "GF16",
+					"disabled": true
+				}
+			],
+			"base_points": 45,
+			"calc": {
+				"points": 45
+			}
+		}
+	]
+}

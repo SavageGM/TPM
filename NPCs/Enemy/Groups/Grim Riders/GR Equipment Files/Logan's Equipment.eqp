@@ -1,0 +1,451 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "ab288c64-fdca-429a-a1b0-a98f3ac6eea6",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "99b42322-173d-49fd-b22f-cc781a97d5a2",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "a15052fe-35f7-43c9-9af5-f99a08d7c81c",
+							"type": "equipment",
+							"description": ".50 Action Express (12.7x33mm)",
+							"reference": "HT176",
+							"tags": [
+								"Ammunition",
+								"Warheads"
+							],
+							"quantity": 7,
+							"value": 8,
+							"weight": "0.067 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 56,
+								"extended_weight": "0.469 lb"
+							}
+						}
+					],
+					"description": "IMI Desert Eagle, .50 AE 7 Round Magazine",
+					"reference": "HT101",
+					"tech_level": "7",
+					"legality_class": "4",
+					"tags": [
+						"Magazine"
+					],
+					"quantity": 4,
+					"value": 18.8,
+					"weight": "0.047 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 299.2,
+						"extended_weight": "2.064 lb"
+					}
+				},
+				{
+					"id": "ca89a4e9-ae37-47f7-8016-f33502245989",
+					"type": "equipment",
+					"description": "IMI Desert Eagle, .50 AE",
+					"reference": "HT101",
+					"notes": "No lanyard ring.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Firearms",
+						"Pistol"
+					],
+					"quantity": 1,
+					"value": 20000,
+					"weight": "4.6 lb",
+					"weapons": [
+						{
+							"id": "6537cd9f-3eac-401b-860e-3daf59e8a9cc",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "pi+",
+								"base": "4d"
+							},
+							"strength": "12",
+							"accuracy": "2",
+							"range": "220/2,500",
+							"rate_of_fire": "3",
+							"shots": "7+1(3)",
+							"bulk": "-3",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"level": 13,
+								"damage": "4d pi+"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 20000,
+						"extended_weight": "4.6 lb"
+					}
+				},
+				{
+					"id": "d3f29585-e787-417f-b909-5034a57adf6f",
+					"type": "equipment",
+					"description": "Integral Targeting Laser (Sidearm)",
+					"reference": "HT157",
+					"notes": "150-yard range. 4xT/2hrs.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 7200,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 7200,
+						"extended_weight": "0.5 lb"
+					}
+				}
+			],
+			"description": "Belt Holster",
+			"reference": "HT153",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 27549.2,
+				"extended_weight": "7.664 lb"
+			}
+		},
+		{
+			"id": "4b435c30-56f2-40b6-8153-e43cef8433ec",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "16d9c25e-80ce-4fe5-8984-0839091cb98b",
+					"type": "equipment",
+					"description": "MRE",
+					"reference": "ATE1:30",
+					"tech_level": "8",
+					"tags": [
+						"Camping and Survival Gear",
+						"Consumables"
+					],
+					"quantity": 2,
+					"value": 1280,
+					"weight": "1.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 2560,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "2bd53e2a-a652-4faa-b017-85d03e2e4ab0",
+					"type": "equipment",
+					"description": "Vitamin Pills",
+					"reference": "HT221",
+					"notes": "Month's supply.",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 192,
+					"weight": "0.1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 192,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "f0759803-6d3f-4956-a0fb-78c402047850",
+					"type": "equipment",
+					"description": "Sports Drink",
+					"reference": "HT35",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 2,
+					"value": 128,
+					"weight": "2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 256,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "7a15584b-2403-45ae-ac4e-946b9dc858a0",
+					"type": "equipment_container",
+					"description": "Charcoal-Filtered Canteen",
+					"reference": "HT53",
+					"notes": "1qt.",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "3 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "1a2e9c97-6128-4628-9020-2af9aff07c8a",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "3a0c9f6e-a8d5-440c-a4c8-3fbd1e7205ca",
+							"type": "equipment",
+							"description": "Antibiotic Ointment",
+							"reference": "HT226",
+							"notes": "Per dose.",
+							"tech_level": "7",
+							"tags": [
+								"Drugs and Poisons"
+							],
+							"quantity": 6,
+							"value": 320,
+							"equipped": true,
+							"calc": {
+								"extended_value": 1920,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "9b80e600-224e-45f8-ab25-f222d64671d6",
+							"type": "equipment",
+							"description": "Bandages",
+							"reference": "B289",
+							"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+							"tech_level": "0",
+							"tags": [
+								"Medical Gear"
+							],
+							"quantity": 1,
+							"value": 10,
+							"weight": "2 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 10,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "9974e75c-2b86-46cf-a278-b6fd2cc52f2e",
+							"type": "equipment",
+							"description": "Chloroform or Ether mask",
+							"reference": "HT223",
+							"tech_level": "5",
+							"legality_class": "3",
+							"tags": [
+								"Surgery"
+							],
+							"quantity": 1,
+							"value": 50,
+							"weight": "2 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 50,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "5fabeb28-43a7-4be0-9f4c-a903caaafde1",
+							"type": "equipment",
+							"description": "Antiseptic",
+							"reference": "HT225",
+							"tech_level": "5",
+							"legality_class": "3",
+							"tags": [
+								"Surgery"
+							],
+							"quantity": 1,
+							"value": 5,
+							"weight": "1 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 5,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "47582c72-83bb-4d96-b310-e81bec805b5c",
+							"type": "equipment",
+							"description": "Suturing Kit",
+							"reference": "HT223",
+							"tech_level": "6",
+							"tags": [
+								"Surgery"
+							],
+							"quantity": 1,
+							"value": 20,
+							"weight": "1 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 20,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "82108a88-94db-444c-9beb-56b7591bb788",
+							"type": "equipment",
+							"description": "Otoscope",
+							"reference": "HT222",
+							"notes": "2xS/10hrs.",
+							"tech_level": "7",
+							"tags": [
+								"Medical Equipment"
+							],
+							"quantity": 1,
+							"value": 150,
+							"weight": "0.25 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 150,
+								"extended_weight": "0.25 lb"
+							}
+						}
+					],
+					"description": "First Aid Kit",
+					"reference": "HT221",
+					"tech_level": "7",
+					"tags": [
+						"Emergency Equipment"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 1
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 2205,
+						"extended_weight": "8.25 lb"
+					}
+				}
+			],
+			"description": "Backpack, Frame",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 5513,
+				"extended_weight": "28.35 lb"
+			}
+		}
+	]
+}

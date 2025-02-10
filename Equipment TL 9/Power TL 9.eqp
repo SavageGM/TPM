@@ -1,0 +1,143 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "15e20548-fbe3-4c31-9191-25bcd2b24163",
+			"type": "equipment",
+			"description": "AA Cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 32,
+			"weight": "0.0005 lb",
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.0005 lb"
+			}
+		},
+		{
+			"id": "accb9713-5436-45bf-ab26-ceb95bfe50a2",
+			"type": "equipment",
+			"description": "A cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 64,
+			"weight": "0.005 lb",
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "1ee0837e-4441-4830-bc9f-e22121a55087",
+			"type": "equipment",
+			"description": "B cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 96,
+			"weight": "0.05 lb",
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "bc480fa8-13dc-46a6-aad7-ddd1c1b3f946",
+			"type": "equipment",
+			"description": "C cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 320,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "67d3dd5c-e6f5-4648-8da6-f2e991426f8d",
+			"type": "equipment",
+			"description": "D cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 3200,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "553ae488-79c4-46bd-b1c7-6dc44e1e20e8",
+			"type": "equipment",
+			"description": "E cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 64000,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "648b00f9-e4ec-4ac0-ab2e-dc968586fac8",
+			"type": "equipment",
+			"description": "F cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 640000,
+			"weight": "200 lb",
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "6ef8ab50-3c8e-4906-ab4e-d18f9c74e7bd",
+			"type": "equipment",
+			"description": "Fission Generator",
+			"reference": "UT20",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 3200000,
+			"weight": "1,000 lb",
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "1,000 lb"
+			}
+		}
+	]
+}

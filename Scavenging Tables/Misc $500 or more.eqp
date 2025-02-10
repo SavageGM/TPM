@@ -1,0 +1,1167 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "20e0054a-1b3d-4f8d-8c9a-09725259c98b",
+			"type": "equipment",
+			"description": "Air Compressor",
+			"reference": "HT27",
+			"notes": "Consumes 1 gallon of gasoline per hour.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "62.5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "62.5 lb"
+			}
+		},
+		{
+			"id": "8d2caa5a-39b9-470c-9b00-1aa97a78d484",
+			"type": "equipment",
+			"description": "Cable Ladder",
+			"reference": "HT30",
+			"notes": "10 yards long.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "804222cf-d116-4d04-a391-a7e0d5b26b2c",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Casket",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4500,
+			"weight": "200 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4500,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "ec1414c2-96a7-42b7-a879-4c810e4d98ec",
+			"type": "equipment",
+			"description": "Circular Saw",
+			"reference": "HT27",
+			"notes": "Cordless. M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "669ffad7-ddc3-4968-9435-d4f2bc0959ab",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "a913d557-1b2a-43c8-8d93-c9ab15eeb133",
+			"type": "equipment",
+			"description": "Circular Table Saw (broken)",
+			"reference": "HT27",
+			"notes": "External power.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "40 lb",
+			"weapons": [
+				{
+					"id": "80e86fa3-6370-4a8c-9688-99fc9a4106cb",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "63650762-172f-4429-9cb8-b84c298c3e30",
+			"type": "equipment",
+			"description": "Climbing Kit",
+			"reference": "HT55",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "26 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "52aac573-7390-4c16-b683-b36f0baaba7b",
+			"type": "equipment",
+			"description": "Collapsable worktable",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1650,
+			"weight": "40 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1650,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "bd135e63-56da-4100-86e1-937d5c84b90d",
+			"type": "equipment",
+			"description": "Cooler",
+			"reference": "HT57",
+			"notes": "Holds 16cf.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "42d93ecd-4e02-4394-a235-3c639b150457",
+			"type": "equipment",
+			"description": "Cooler",
+			"reference": "HT57",
+			"notes": "Holds 16cf. External power.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "8aa490b8-d743-4ebc-b7bd-dcc0e14d8506",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Electric Bike (broken)",
+			"reference": "HT230",
+			"tech_level": "8",
+			"tags": [
+				"Personal Conveyances"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "60 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "200 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "d99b3e33-2bbf-42a8-ad35-339c20eaee4b",
+			"type": "equipment",
+			"description": "Folding Ladder",
+			"reference": "HT30",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "bff79f68-0a32-46fa-b465-d11a9fe5d348",
+			"type": "equipment",
+			"description": "Gas Grill",
+			"reference": "HT32",
+			"notes": "Uses propane tanks.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "30 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "e44a6eee-4dff-4fbe-9da8-9691e454a026",
+			"type": "equipment",
+			"description": "Jackhammer (broken)",
+			"reference": "HT27",
+			"notes": "Requires air compressor and hose. External power.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3000,
+			"weight": "160 lb",
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "160 lb"
+			}
+		},
+		{
+			"id": "a747aefb-1fd2-4104-bd27-210151e0d96c",
+			"type": "equipment",
+			"description": "Manhole cover",
+			"notes": "1\" thick cast iron 50DR",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 500,
+			"weight": "250 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "bed63836-8b1e-433d-a64d-3ad1dea4092a",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Electronics Repair: Communications)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "6286d47e-b89a-416c-8a4e-8dce266c4be0",
+			"type": "equipment",
+			"description": "Parachute",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "30 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "4c35c1e4-250f-4ad1-96e2-ed83abae3667",
+			"type": "equipment",
+			"description": "Plastywood sheet 4'x8'x3/4\"",
+			"notes": "DR/HP 1/18",
+			"tech_level": "9",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4480,
+			"weight": "35 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "2bb1d2d2-b23f-4171-93f6-537cdb0808c5",
+			"type": "equipment",
+			"description": "Power Drill",
+			"reference": "HT27",
+			"notes": "M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "068e0a55-2182-4fa4-a657-199ae9cda5cd",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "1d+2",
+						"armor_divisor": 2
+					},
+					"usage": "Drill through wood, plastic, or metal",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "1d+2(2) pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e0a623dc-9c8a-408c-b4b1-54f460cfd5dc",
+			"type": "equipment",
+			"description": "Radio controlled car controller",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "86f7290d-c0fa-48e7-9fe1-67b208cc001f",
+			"type": "equipment",
+			"description": "Riding lawn mower (broken)",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2400,
+			"weight": "550 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "550 lb"
+			}
+		},
+		{
+			"id": "41241693-e046-4783-9a5d-69077ac9c08a",
+			"type": "equipment",
+			"description": "Rowing machine",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 680,
+			"weight": "65 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 680,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "b55ab763-6601-4ff6-ac62-c18ea91ba9e9",
+			"type": "equipment",
+			"description": "Scuba Gear",
+			"reference": "B288",
+			"notes": "Includes 2-hour underwater air tank",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 6000,
+			"weight": "32 lb",
+			"calc": {
+				"extended_value": 6000,
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "f9cbf580-2161-42e3-88d5-e9af8da63e6f",
+			"type": "equipment",
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "94d3c4c1-4e64-4678-84a7-7551334ce829",
+			"type": "equipment",
+			"description": "Skateboard",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "5fbb2342-d6c8-4cbf-97d7-ea39dbbb99a1",
+			"type": "equipment",
+			"description": "Sleeping Bag, Insulated",
+			"reference": "B288",
+			"notes": "+3 HT to resist freezing",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "ab50de14-ddae-41bc-9b33-b3f7355ffff5",
+			"type": "equipment",
+			"description": "Smartwatch (broken)",
+			"reference": "B288",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5120,
+			"weight": "0.075 lb",
+			"calc": {
+				"extended_value": 5120,
+				"extended_weight": "0.075 lb"
+			}
+		},
+		{
+			"id": "d819fe71-c03b-490b-8162-fd466523cdbf",
+			"type": "equipment",
+			"description": "Snow board",
+			"notes": "DR/HP 1/18",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5600,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "ee298aba-5ce1-4e7b-900d-74af48b7ce48",
+			"type": "equipment",
+			"description": "Solar Power Array",
+			"reference": "UT20",
+			"notes": "100sq.ft.",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 80000,
+			"weight": "125 lb",
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "125 lb"
+			}
+		},
+		{
+			"id": "a5ce8d06-3f89-42eb-8529-0f0461d9ea4a",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Suitcase, Hard",
+			"reference": "B288",
+			"notes": "DR4, with key lock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "9e78aa08-b16a-4fd9-a786-f6bf61dc6938",
+			"type": "equipment_container",
+			"description": "Refrigerator (broken)",
+			"reference": "HT32",
+			"notes": "Holds 20cf. External power. DR 2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "200 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "6e0ae890-63c3-430b-976d-1f0470de34bf",
+			"type": "equipment",
+			"description": "Surfboard, 5'6\"",
+			"notes": "DR/HP 1/9",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2400,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "32d98c55-7e67-47b0-ad60-fc880e36ddc3",
+			"type": "equipment",
+			"description": "Telephoto Lens",
+			"reference": "HT43",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "8.5 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "8.5 lb"
+			}
+		},
+		{
+			"id": "a41d278d-6765-403a-81e1-687b7b0bb2b1",
+			"type": "equipment",
+			"description": "Military-Grade Binoculars",
+			"reference": "HT47",
+			"notes": "10x magnification.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 12800,
+			"weight": "3.5 lb",
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "191cde31-1d25-4102-8e75-7c21e5064479",
+			"type": "equipment",
+			"description": "Talking doll",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "8bc75002-c421-4610-9d36-7941ddd1983c",
+			"type": "equipment",
+			"description": "Gas Range (broken)",
+			"reference": "HT32",
+			"notes": "DR 6.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3000,
+			"weight": "400 lb",
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "3fe9783f-01d8-40db-a2f3-836626f2b754",
+			"type": "equipment",
+			"description": "Doorbuster (bent)",
+			"reference": "HT30",
+			"notes": "4d(2) pi++",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 12000,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "c689219b-5cef-4aec-a032-c7e180116a26",
+			"type": "equipment",
+			"description": "Workstation Terminal (broken)",
+			"reference": "HT21",
+			"notes": "External power.",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "12.5 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "12.5 lb"
+			}
+		},
+		{
+			"id": "1d9ba415-7592-48fa-8c51-1409c177b536",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Mechanic: Automobile)",
+			"reference": "HT24",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 8600,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 8600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "c62d6bf2-3b51-406d-8bd0-857bd1f48525",
+			"type": "equipment",
+			"description": "Portable Tool Kit (Electrician)",
+			"reference": "HT24",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 9600,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "16c95a68-f523-44bf-b6a2-a58790264a49",
+			"type": "equipment",
+			"description": "Headphones and Throat Mike (broken)",
+			"reference": "HT38",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "488c77c2-08a8-45ba-b479-81405366f129",
+			"type": "equipment",
+			"description": "Microwave (broken)",
+			"reference": "HT32",
+			"notes": "DR 1. External power.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "100 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "0ad4e4d4-de8b-4ced-a477-19069f87cc9b",
+			"type": "equipment",
+			"description": "Hand-Pumped Desalinator",
+			"reference": "HT59",
+			"notes": "1 cup water per 10 mins.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "0e88797a-851d-4614-91af-a550459f670a",
+			"type": "equipment",
+			"description": "Mini-DV Camera (broken)",
+			"reference": "HT43",
+			"notes": "Rechargeable battery lasts 1hr.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "8c9df41c-97b1-4f3e-a99c-bfa4e0e13fdc",
+			"type": "equipment",
+			"description": "Sleeping Bag, Heavy",
+			"reference": "HT57",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "3.75 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to survival checks when using the heavy sleeping bag",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "3.75 lb"
+			}
+		},
+		{
+			"id": "7e9b1325-c9c1-4f77-904e-f1d70940682b",
+			"type": "equipment",
+			"description": "Ear Microphone System (missing one earpiece)",
+			"reference": "HT39",
+			"notes": "T/72hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "9d1e8abc-c165-4140-9abc-9be71333f0ac",
+			"type": "equipment",
+			"description": "Stokes Litter (bent)",
+			"reference": "HT29",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "19ecf233-68ef-4a00-8ef8-4bd75135515a",
+			"type": "equipment",
+			"description": "Digital Miniature Camera (waterproof)",
+			"reference": "HT43",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "5d69bad3-24fd-4759-a423-11109904de5d",
+			"type": "equipment",
+			"description": "Electric Range (broken)",
+			"reference": "HT32",
+			"notes": "DR 2. External power.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "150 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "09ae48ea-ed42-4fe3-9c09-92e521bb80e9",
+			"type": "equipment",
+			"description": "Printer (broken)",
+			"reference": "HT21",
+			"notes": "External power.",
+			"tech_level": "7",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "200 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "4073ceb6-3ead-4a85-a2ba-1476a332b90b",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Medium Computer (broken)",
+			"reference": "HT20",
+			"notes": "Complexity 3. Stores 100 GB. M/2.5hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ef4a4a6a-0f9e-4c9d-89b0-053f81ed7f83",
+			"type": "equipment",
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 2. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "01d49458-ab1e-46d5-80d2-37493c15a8a9",
+			"type": "equipment",
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 4. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "ca3f744a-ae44-4c2d-b4ef-0696dbdf882b",
+			"type": "equipment",
+			"description": "Photocopier (broken)",
+			"reference": "HT19",
+			"notes": "\u003e12 pages per minute, external power.",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 52000,
+			"weight": "300 lb",
+			"calc": {
+				"extended_value": 52000,
+				"extended_weight": "300 lb"
+			}
+		},
+		{
+			"id": "4919c37c-dc97-478c-a73f-a0d7fb9f04f5",
+			"type": "equipment",
+			"description": "Small Radio (broken)",
+			"reference": "HT38",
+			"notes": "2-mile range. 3xS/8hrs.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "a4453b15-2d97-43d5-9331-635f8fe6cac8",
+			"type": "equipment",
+			"description": "Lightweight Litter",
+			"reference": "HT221",
+			"tech_level": "8",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "12 lb",
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "1f8d061c-2b30-4696-9b73-cca79c4a358a",
+			"type": "equipment",
+			"description": "Tent, Personal",
+			"reference": "HT57",
+			"notes": "Survival +1.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ae104af3-199f-4625-93ed-ac13e940ad55",
+			"type": "equipment",
+			"description": "Tricycle, plastic",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "d98166b9-7427-4553-91ba-894e9d9d75a8",
+			"type": "equipment",
+			"description": "TV Set, Mini",
+			"reference": "B288",
+			"notes": "5'' x 5'' flat-screen. 4 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "a095efcf-b093-466a-95a1-486c3eded288",
+			"type": "equipment",
+			"description": "Washing machine, broken",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4600,
+			"weight": "150 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4600,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eddd2d68-f892-48d2-aa0c-5bcfcad63da5",
+			"type": "equipment",
+			"description": "Water Filter",
+			"reference": "HT59",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "369a4676-9dff-491d-af1f-b10046557a74",
+			"type": "equipment",
+			"description": "Weedeater, cordless (broken)",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 560,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "12 lb"
+			}
+		}
+	]
+}

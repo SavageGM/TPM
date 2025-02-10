@@ -1,0 +1,4656 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "4a2fe1b1-4098-4d1b-b79d-a061fb2b9ec1",
+			"type": "equipment",
+			"description": "Zingers 3/pkg",
+			"notes": "1 meal",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 32,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ed10d97c-6a6f-4c03-b1e2-23c07be59aef",
+			"type": "equipment",
+			"description": "Woodworking Chisel",
+			"reference": "LT28",
+			"notes": "5\"-8\" long.",
+			"tech_level": "1",
+			"tags": [
+				"Armoury",
+				"Smith",
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.75 lb",
+			"weapons": [
+				{
+					"id": "e77c1eb7-9655-4d19-99b6-dc6f7442ae46",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "11",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1U",
+					"block": "No",
+					"calc": {
+						"parry": "-1U",
+						"block": "No",
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Axe"
+					},
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "5c6d8f94-78e1-493f-a68c-913df954601d",
+			"type": "equipment",
+			"description": "Wisk broom",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 9,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 9,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1c683ad7-9a6c-4754-8674-12c2e8fe582c",
+			"type": "equipment",
+			"description": "Wisk",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "7bc1e288-bca1-4bd9-b7a0-f24ef0367362",
+			"type": "equipment",
+			"description": "Wireless mouse",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "83a6d1ae-847d-4f43-8aa9-761243bd6d57",
+			"type": "equipment",
+			"description": "Whetstone",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "dd5668bf-75cc-4262-9381-234ea865d67a",
+			"type": "equipment",
+			"description": "Wheelchair",
+			"reference": "HT226",
+			"tech_level": "8",
+			"tags": [
+				"Surgery"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "40 lb",
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "5671a891-53b0-4132-a6df-161f1ec2f260",
+			"type": "equipment",
+			"description": "Wheel clamp lock, with key",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 416,
+			"weight": "4.7 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 416,
+				"extended_weight": "4.7 lb"
+			}
+		},
+		{
+			"id": "f08a1c38-e708-4182-a7b9-f6e288e6e06d",
+			"type": "equipment",
+			"description": "Weedkiller 1 gal",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 180,
+			"weight": "8.8 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "8.8 lb"
+			}
+		},
+		{
+			"id": "5aa1a705-e464-412e-8534-41effc815fc0",
+			"type": "equipment",
+			"description": "Weedeater, cordless (broken)",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 560,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "3cdf40a1-a2e7-41ea-8e73-9f7eeb32abf2",
+			"type": "equipment",
+			"description": "Washing machine, broken",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4600,
+			"weight": "150 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4600,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "53abe2b4-faa9-4d90-a7e6-06f96e69c6cf",
+			"type": "equipment",
+			"description": "Vinegar, qt bottle",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "d596f952-e24f-446d-8b30-d1ecd3b1c83a",
+			"type": "equipment",
+			"description": "Utility Knife",
+			"reference": "HT25",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "3f124ac4-9cdf-4ed4-bce6-85e897caf6f0",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Cut",
+					"reach": "C,1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife"
+						}
+					],
+					"calc": {
+						"parry": "-1",
+						"block": "No",
+						"damage": "sw-3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "bca610ef-3ecd-4a92-a346-5a6ce8416952",
+			"type": "equipment",
+			"description": "TV Set, Mini",
+			"reference": "B288",
+			"notes": "5'' x 5'' flat-screen. 4 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "f8da8229-3854-4185-abe5-44a63f33046a",
+			"type": "equipment",
+			"description": "Trowel, garden",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 24,
+			"weight": "0.6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 24,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "753a62b6-06c8-4ff2-993b-5517c6d519ad",
+			"type": "equipment",
+			"description": "Trophy (sports)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "4b8f4cd1-30e0-4198-a61d-e34b170cc8b5",
+			"type": "equipment",
+			"description": "Tricycle, plastic",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "85fa8fb8-057f-4f2b-81a9-dc49dbbec4ab",
+			"type": "equipment",
+			"description": "Transistor Radio (broken)",
+			"reference": "HT44",
+			"notes": "S/10hrs.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "1cb840d4-87b2-4bc3-a422-4649b649b2d3",
+			"type": "equipment",
+			"description": "Toothpaste tube 6 oz.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "dafcd6f1-b021-42a1-831a-5713041f3b2c",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Toolbox, plastic",
+			"reference": "B288",
+			"notes": "DR2, with hasp for padlock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ad08ed02-42c9-4786-a600-eb5b6060a120",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Toolbox, metal",
+			"reference": "B288",
+			"notes": "DR4, with hasp for padlock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "50 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "0bed988b-ef88-4507-a0c3-a612ef7d9b51",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Toolbelt",
+			"reference": "HT54",
+			"notes": "Holds 20-30lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "49efec15-e26d-4264-8bdd-d78432708adb",
+			"type": "equipment",
+			"description": "Toaster (broken)",
+			"reference": "HT32",
+			"notes": "1d-3 burn. External power.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "5c40fd64-2531-46df-944f-7ef3f6679439",
+			"type": "equipment",
+			"description": "Three hole punch",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 6,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "2d17aeb3-69ce-424b-8b2c-24124dbf49d6",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Thermos Travel Mug",
+			"reference": "B288",
+			"notes": "Keeps 1/2 pint hot [24 hours] or cold [72 hours]",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b472961d-d38a-400a-8865-1cf9adc6df98",
+			"type": "equipment",
+			"description": "Terrarium, glass (cracked)",
+			"vtt_notes": "https://www.amazon.com/Ferrisland-Terrarium-Container-Wardian-Succulent/dp/B082SM2R2Y/ref=sr_1_7?crid=3T3AJKF5GCREB\u0026keywords=terrarium\u0026qid=1697821105\u0026sprefix=terrarium%2Caps%2C96\u0026sr=8-7\u0026th=1",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 320,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "75eb213c-98c1-40bf-9eb6-2b17d9204276",
+			"type": "equipment",
+			"description": "Tennis Racket",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 240,
+			"weight": "4.3 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "4.3 lb"
+			}
+		},
+		{
+			"id": "0d7a3c4c-de6f-48c6-963c-2cfe55843bdb",
+			"type": "equipment",
+			"description": "Tape measure, 25'",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 288,
+			"weight": "1.7 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 288,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "fed49ba1-dd89-403b-b0cd-63bef7bf0bb0",
+			"type": "equipment",
+			"description": "Talking doll",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "4e84a232-a2eb-4bbc-bc16-fbcaa95158bc",
+			"type": "equipment",
+			"description": "T-shirt, sealed in plastic",
+			"reference": "HT63",
+			"notes": "Graphic design",
+			"tech_level": "7",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "da5b160d-1b0e-4d2a-b30b-db6e7fa5619b",
+			"type": "equipment",
+			"description": "Surfboard, 5'6\"",
+			"notes": "DR/HP 1/9",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2400,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "4a37690a-3782-4b63-9e8d-1d1af806f795",
+			"type": "equipment",
+			"description": "Superglue",
+			"reference": "HT26",
+			"notes": "\"Quantity\" represents applications. Holds up to 2 tons, ST 20.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1.6,
+			"calc": {
+				"extended_value": 1.6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f4bf69b3-9ac7-4f9e-9478-4f239ff16f32",
+			"type": "equipment",
+			"description": "Sunscreen",
+			"reference": "HT221",
+			"notes": "4 uses.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "da06fc94-3e25-4036-bf6b-f39ca244a324",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Suitcase, Hard",
+			"reference": "B288",
+			"notes": "DR4, with key lock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "933b68d7-340e-4701-b87b-4c38da035e08",
+			"type": "equipment",
+			"description": "Stuffed animal (pig)",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "d9f36041-caee-4d43-9291-5965c67b8d83",
+			"type": "equipment",
+			"description": "Steel Piton",
+			"reference": "HT55",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "67cfd80e-5475-468f-9981-1e485b27d849",
+			"type": "equipment",
+			"description": "Squeak toy (bone)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "9dc2a133-3250-4247-be0a-40c5643b13dc",
+			"type": "equipment",
+			"description": "Squeak toy (ball)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "f2836d3c-a884-4d50-9c42-3384dc599b76",
+			"type": "equipment",
+			"description": "Solar Power Array",
+			"reference": "UT20",
+			"notes": "100sq.ft.",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"quantity": 1,
+			"value": 80000,
+			"weight": "125 lb",
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "125 lb"
+			}
+		},
+		{
+			"id": "4ad4d395-6d0d-4549-baf0-3919a854b7d9",
+			"type": "equipment",
+			"description": "Soap",
+			"reference": "HT221",
+			"notes": "Month's supply",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "f20c7b9c-16f8-4002-92a4-21a2b9d22c90",
+			"type": "equipment",
+			"description": "Snowshoes",
+			"reference": "HT56",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "249521ce-b1d2-46ab-8633-58a50ad666c7",
+			"type": "equipment",
+			"description": "Snow board",
+			"notes": "DR/HP 1/18",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5600,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "64b13e25-de21-4fb3-beff-5e51d789a5ea",
+			"type": "equipment",
+			"description": "Smartwatch (broken)",
+			"reference": "B288",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5120,
+			"weight": "0.075 lb",
+			"calc": {
+				"extended_value": 5120,
+				"extended_weight": "0.075 lb"
+			}
+		},
+		{
+			"id": "87ab9ac1-8bd8-4b4c-9d19-2e0045548ec0",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Small First Aid Kit",
+			"reference": "HT221",
+			"tech_level": "6",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "aaaa40bb-09a7-40b2-a412-a75766be4468",
+			"type": "equipment",
+			"description": "Slippers",
+			"reference": "B284",
+			"notes": "Flexible; Concealable",
+			"tech_level": "1",
+			"tags": [
+				"Footwear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "07f8b1df-2eca-4d62-9bee-c3aa263637b9",
+			"type": "equipment",
+			"description": "Sledgehammer",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "ce4657e2-42f7-42fc-8024-81731629efca",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "4"
+					},
+					"strength": "13‡",
+					"usage": "Swing",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+4 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "0a4ce6fa-f383-4152-a7ef-872390968374",
+			"type": "equipment",
+			"description": "Sled, snow",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 80,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "c69ccccf-40e8-4ba5-b3bd-f5c159575ea0",
+			"type": "equipment",
+			"description": "Skipping rope (cord, 3/16\")",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 90lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 2,
+			"value": 4,
+			"weight": "0.22 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.44 lb"
+			}
+		},
+		{
+			"id": "83d2fb0d-c607-4f57-b8dd-a5e9ac7761a2",
+			"type": "equipment",
+			"description": "Skillet",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 36,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 36,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "581051ef-8754-4f96-8874-f959ba2d516f",
+			"type": "equipment",
+			"description": "Skateboard",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 640,
+			"weight": "6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "2a701b90-3f82-4adb-9b9b-1356339b9f39",
+			"type": "equipment",
+			"description": "Shovel",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "22b22f65-9993-4150-9bb1-b248410e0b46",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing Shovel",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "de3d7d48-aa35-4611-ae8c-1ad990a8c6b7",
+			"type": "equipment",
+			"description": "Sewing kit",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "09571d69-dc44-4727-a8a0-2957362e9aaf",
+			"type": "equipment",
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "06e6b2da-17af-433b-bd58-8a40e5525c51",
+			"type": "equipment",
+			"description": "Scuba Gear (flippers)",
+			"reference": "HT60",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "b4fcf400-73a3-46ec-9c1b-d98bf1b33133",
+			"type": "equipment",
+			"description": "Scuba Gear (flipper)",
+			"reference": "HT60",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 75,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "97e27e21-ae21-48ce-a4b0-2fe2ce6e08c4",
+			"type": "equipment",
+			"description": "Screwdriver",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "b16e6362-a9b7-41e2-a314-b5176767a1a1",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "e7292699-938a-45f2-827e-bb5d1404e473",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-2"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "-1",
+						"block": "No",
+						"damage": "thr-2 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "fc45d171-3399-4585-ab3c-de832106e66b",
+			"type": "equipment",
+			"description": "Scientific Calculator (broken)",
+			"reference": "HT18",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "a5d26e8d-d37a-424f-af29-ea8cc2b39847",
+			"type": "equipment",
+			"description": "Scented candle",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 8,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1eb11565-76ce-4aca-88b2-51222931dc7b",
+			"type": "equipment",
+			"description": "Saw",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "3b6903c2-6dd1-42ee-8973-6a9b75aea27e",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 2
+					},
+					"usage": "Cut through wood",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw-2(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "f5880f1c-e1ff-4169-a916-ee568d0efaed",
+			"type": "equipment",
+			"description": "Sandpaper",
+			"notes": "[[1d]] sheets",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "619b119b-aeed-4c8a-9fee-96c474c73bbc",
+			"type": "equipment",
+			"description": "Safety pin",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "14e6c82d-3936-4523-a8bb-8ea1552d47f3",
+			"type": "equipment",
+			"description": "Saddle, Equine, Riding",
+			"reference": "LT135",
+			"notes": "+2 to HT rolls to resist FP loss. +2 to Riding to stay mounted. Eliminates encumberance penalty.",
+			"tech_level": "2",
+			"tags": [
+				"Animal Handling"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Riding"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Equines"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "9c6bd942-9f14-48da-8328-33c2e504be1a",
+			"type": "equipment",
+			"description": "Rowing machine",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 680,
+			"weight": "65 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 680,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "d8dff764-35dc-424c-b374-22bdfb0279ce",
+			"type": "equipment",
+			"description": "Roll of wallpaper 5 sq yds",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 132,
+			"weight": "1.65 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 132,
+				"extended_weight": "1.65 lb"
+			}
+		},
+		{
+			"id": "8e2dd9cd-4c54-4ee6-b579-abbd04d646d5",
+			"type": "equipment",
+			"description": "Riding lawn mower (broken)",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2400,
+			"weight": "550 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "550 lb"
+			}
+		},
+		{
+			"id": "554756a3-ef92-4277-8e70-85933ae5f1c2",
+			"type": "equipment",
+			"description": "Ream of paper, soaking wet",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "dee37ef1-360a-4b2a-a00e-d6b5eaddbe30",
+			"type": "equipment",
+			"description": "Rat Trap",
+			"reference": "HT58",
+			"notes": "ST 5, Survival +1. Damage thr crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "932e6beb-9f99-4940-a6e7-57862f00fe06",
+			"type": "equipment",
+			"description": "Radio controlled car controller",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 800,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "c577595c-6ee0-405f-a7b9-a3b381cc4c9d",
+			"type": "equipment",
+			"description": "Radio controlled car",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 400,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "26928e06-b17f-4ad7-ab94-5fc394b7b01b",
+			"type": "equipment",
+			"description": "Puncture repair kit (car tires)",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 60,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "94e9ace5-e3ed-43aa-8e3b-4b370ea341c8",
+			"type": "equipment",
+			"description": "Puncture repair kit (bicycle tires)",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "0fb576f5-cedf-4a28-ae3f-8b429a8aace8",
+			"type": "equipment",
+			"description": "Power Drill",
+			"reference": "HT27",
+			"notes": "M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "068e0a55-2182-4fa4-a657-199ae9cda5cd",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "1d+2",
+						"armor_divisor": 2
+					},
+					"usage": "Drill through wood, plastic, or metal",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "1d+2(2) pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "d2c631da-3131-42d1-908f-248a7194f6f3",
+			"type": "equipment",
+			"description": "Pop rivet gun",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 62,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 62,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "c6bea16a-7263-47d6-90e6-eff45b3bcbf4",
+			"type": "equipment",
+			"description": "Pool Noodle, 52\"",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "7c3bf212-6cc7-4174-be3b-7813f6344aaa",
+			"type": "equipment",
+			"description": "Polyhedral dice",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8cccae02-1d14-433f-8c56-6860662f0edc",
+			"type": "equipment",
+			"description": "Pocketknife",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ddf573d9-2db7-452e-82a9-c7f888358ffa",
+			"type": "equipment",
+			"description": "Plywood sheet 4'x8'x3/4\"",
+			"notes": "DR/HP 1/18",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 280,
+			"weight": "70 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 280,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "ba0387c9-fcdb-4cb6-a4b0-8b9b80342a29",
+			"type": "equipment",
+			"description": "Plunger",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "df39fa90-c082-4825-a585-6f5b8ebf78d2",
+			"type": "equipment",
+			"description": "Plastywood sheet 4'x8'x3/4\"",
+			"notes": "DR/HP 1/18",
+			"tech_level": "9",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4480,
+			"weight": "35 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "7f64c1f5-2868-47cc-95c3-32f63c5faf3e",
+			"type": "equipment",
+			"description": "Plastic trashcan lid",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 20,
+			"weight": "4 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "932e1384-113c-46a5-a70a-1708ff5fe792",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Plastic storage bin",
+			"reference": "B288",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "5d9b3cf4-7dbe-4aca-9e11-a1ea618689e0",
+			"type": "equipment",
+			"description": "Plastic spork",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "0b8814e4-cb20-45a5-a35f-c63078cdffe7",
+			"type": "equipment",
+			"description": "Plastic knife",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "710752e7-1125-46f8-a335-76559de1822f",
+			"type": "equipment",
+			"description": "Plastic gutter 1yd",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 14,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b41d48ee-197f-4214-b23e-65bdf39697cb",
+			"type": "equipment",
+			"description": "Planter pot (plastic) 1 gal",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "683e059e-f80e-4315-8045-e4dfa345e792",
+			"type": "equipment",
+			"description": "Planter pot (ceramic) 1 gal",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 6,
+			"weight": "3 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "0303e1bc-e444-4c6c-b0cc-a321dfffdab9",
+			"type": "equipment",
+			"description": "Plant bulbs",
+			"legality_class": "4",
+			"quantity": 1,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "c15c99ac-d392-4ce1-93b7-7f609df0f45b",
+			"type": "equipment",
+			"description": "Pitchfork",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "22b22f65-9993-4150-9bb1-b248410e0b46",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Thrust Fork",
+					"reach": "1,2*",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+3 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "779a0a1c-b595-4729-bb33-3b7f522d734b",
+			"type": "equipment",
+			"description": "Pencil, dozen",
+			"reference": "LT47",
+			"tech_level": "4",
+			"tags": [
+				"Personal Gear"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "3edeb203-0a7a-4b10-8a96-cd2ddd0b366e",
+			"type": "equipment",
+			"description": "Pen, dozen",
+			"reference": "LT47",
+			"tech_level": "5",
+			"tags": [
+				"Personal Gear"
+			],
+			"quantity": 1,
+			"value": 16,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "d1f02697-f5be-4b3e-a55a-d9188109f257",
+			"type": "equipment",
+			"description": "Paint brush",
+			"notes": "[[1d]]",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "48a0faf9-b102-4f76-946b-b91c7a029540",
+			"type": "equipment",
+			"description": "Padlock, Good",
+			"reference": "DF1:26",
+			"notes": "DR 6, HP 5, +0 to Lockpicking",
+			"tags": [
+				"Covert Ops and Security Gear"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "30208476-6ce8-46d2-95c5-4dc487586d9c",
+			"type": "equipment",
+			"description": "Packet of soup",
+			"notes": "[[1d meals when mixed with water]]",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 11,
+			"equipped": true,
+			"calc": {
+				"extended_value": 11,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "cfa05139-b17a-46ce-ac0e-cb6808feef28",
+			"type": "equipment",
+			"description": "Oil paints",
+			"notes": "[[2d tubes]]",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 18,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 18,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "509d03d4-b8bd-4144-9b68-09dc767ccae5",
+			"type": "equipment",
+			"description": "Notebook (Journal)",
+			"reference": "HT17",
+			"notes": "Holdout -1",
+			"tech_level": "6",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "041e62bb-e0ab-4427-8707-5c53d8ccb90f",
+			"type": "equipment",
+			"description": "Nightlight",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4805be30-a67e-44d7-97c2-fe8b38595719",
+			"type": "equipment",
+			"description": "Nail file",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "b965dff1-c06f-479a-aa48-8a812b73e5dd",
+			"type": "equipment",
+			"description": "Nail clippers",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "6d366e8d-0806-4a3f-b356-38f6ede9ef0c",
+			"type": "equipment",
+			"description": "Mittens",
+			"reference": "LT98",
+			"notes": "DR1 vs. cutting",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "2631c02c-426d-4645-97da-60367566101c",
+			"type": "equipment",
+			"description": "Mini-Tool Kit (Electronics Repair: Communications)",
+			"reference": "HT24",
+			"notes": "-2 quality.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "0c85fc47-1a73-4426-90f0-18d4bb1cd4c7",
+			"type": "equipment",
+			"description": "Metalworking Chisel",
+			"reference": "LT28",
+			"notes": "5\"-8\" long",
+			"tech_level": "1",
+			"tags": [
+				"Armoury",
+				"Smith",
+				"Tools"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.75 lb",
+			"weapons": [
+				{
+					"id": "e77c1eb7-9655-4d19-99b6-dc6f7442ae46",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "11",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1U",
+					"block": "No",
+					"calc": {
+						"parry": "-1U",
+						"block": "No",
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Axe"
+					},
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "3cb543c3-2ddb-4684-8e7b-683c5c9fb8de",
+			"type": "equipment",
+			"description": "Metal shelving",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"weight": "20 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "ac735ece-7760-4cc2-8bed-d964b79bed6d",
+			"type": "equipment",
+			"description": "Mechanical Clock",
+			"reference": "HT188",
+			"tech_level": "6",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "8d93f631-863f-4346-bb5d-337bbd64250b",
+			"type": "equipment",
+			"description": "Meat Cleaver",
+			"reference": "LT56",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "ebce99ab-17fe-4b9e-87b4-6635d3ea7e3a",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "d703270a-1da6-4ed7-be21-3b36a0921184",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1.5/x2.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					],
+					"calc": {
+						"range": "x1.5/x2.5",
+						"damage": "sw cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "3a429a60-0361-44a2-8bb1-0b52ca01bfe3",
+			"type": "equipment",
+			"description": "Measuring Cup",
+			"tech_level": "7",
+			"quantity": 1,
+			"value": 20,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "93777005-b429-4199-8c67-88fba1eac25c",
+			"type": "equipment",
+			"description": "Manicure set",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 90,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "400834cf-b7d3-48da-ae6b-3826ba132584",
+			"type": "equipment",
+			"description": "Manhole cover",
+			"notes": "1\" thick cast iron 50DR",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 500,
+			"weight": "250 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "4acbf3c2-5e9b-4a6e-980d-fbb233cbe21e",
+			"type": "equipment",
+			"description": "Makeup (lipstick)",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 72,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 72,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "3a964674-aa5a-43a2-932f-e5c150f02d49",
+			"type": "equipment",
+			"description": "Makeup (eye shadow)",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 64,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "a614462f-407f-4063-b968-532c1dd10c14",
+			"type": "equipment",
+			"description": "LED Display (broken)",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 400,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "63ea4374-9198-422b-8b64-ea5b4f4f8a5f",
+			"type": "equipment",
+			"description": "Leash",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "0ce7e056-11d6-4166-aee3-4d1fce6fc657",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Laundry basket",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "49e8b17e-fe75-4b40-b9ef-3e1c8ad17f84",
+			"type": "equipment",
+			"description": "Lampshade",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 6,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "3dbb4b22-fe19-4bf6-887b-3e5d1e67a80c",
+			"type": "equipment",
+			"description": "Knitting needle",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "288b7e9f-f287-482d-9b97-76e582da36d1",
+			"type": "equipment",
+			"description": "Kick Scooter",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 350,
+			"weight": "20 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "c36ca84f-8d7e-43dc-8a08-fe3da030b214",
+			"type": "equipment",
+			"description": "Jewelry, costume",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "81a3d6c5-c3ea-4fec-b588-30e8fc8e2371",
+			"type": "equipment",
+			"description": "Jeweller’s loupe",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "9ee0b1a2-1f58-4076-9960-881f05d1df1d",
+			"type": "equipment",
+			"description": "Jam",
+			"notes": "[[1d meals]]",
+			"legality_class": "4",
+			"quantity": 1,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "801ff1b2-7ef8-461d-a24c-645b86a3be16",
+			"type": "equipment",
+			"description": "Jackhammer (broken)",
+			"reference": "HT27",
+			"notes": "Requires air compressor and hose. External power.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3000,
+			"weight": "160 lb",
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "160 lb"
+			}
+		},
+		{
+			"id": "6a1591a0-0d8a-423d-bc6c-c40ae25e592b",
+			"type": "equipment",
+			"description": "Ice scraper",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "7ac353a0-f4d4-4a0f-ac29-23adf2935b1a",
+			"type": "equipment",
+			"description": "Hot glue gun",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 8,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "3ddeb235-b66f-4cea-9b0a-d8d9ffb7902c",
+			"type": "equipment",
+			"description": "Hockey Glove",
+			"reference": "HT69",
+			"notes": "DR3 to one hand only; that hand is Ham-Fisted 1.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "7007b41f-5bd9-4ec3-bca4-c62f8048b00a",
+			"type": "equipment",
+			"description": "High Visibility Vest",
+			"reference": "HT59",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1d2658d9-b72b-4d57-a6eb-baa1634851bf",
+			"type": "equipment",
+			"description": "Hazard triangle",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "030cd30c-5026-43d5-b58a-484defb81ee5",
+			"type": "equipment",
+			"description": "Hat, Cloth fur-lined",
+			"reference": "HT64",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 18,
+			"calc": {
+				"extended_value": 18,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8ba14456-6591-4221-89d8-bba7e6433ea2",
+			"type": "equipment",
+			"description": "Hardwood Knife Block",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 60,
+			"weight": "1.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "8c99f2fd-46f9-4634-921e-f6f96b746eec",
+			"type": "equipment",
+			"description": "Hard Hat",
+			"reference": "HT70",
+			"notes": "DR+2 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "non-crushing damage type",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b201fc76-901b-4cd5-b8d1-a0dc2626a971",
+			"type": "equipment",
+			"description": "Hand Flare",
+			"reference": "HT58",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "9d658fc1-5ea5-4798-a06e-cf70b99c7cb3",
+			"type": "equipment",
+			"description": "Hand Drill",
+			"reference": "HT55",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "a092ffcd-6fba-44e0-9a50-2fd716a17104",
+			"type": "equipment",
+			"description": "Hair flat iron",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 24,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 24,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f393ff42-6baa-48c2-80dc-9937341bd216",
+			"type": "equipment",
+			"description": "Grinder",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 70,
+			"weight": "40 lb",
+			"calc": {
+				"extended_value": 70,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "3926f0b7-df2a-4a50-ac59-88ea2b7a4f38",
+			"type": "equipment",
+			"description": "Greeting card (plays music when opened)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "b9e99edb-fc79-4127-b288-4f20f6e35f9b",
+			"type": "equipment",
+			"description": "Granite cutting board",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "db14e6b5-4e4c-4fe4-9f4b-04cb08266a40",
+			"type": "equipment",
+			"description": "Golf ball",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "5c224dbc-77bd-4cde-aa32-91d7955c80d9",
+			"type": "equipment",
+			"description": "Goggles",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 20,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "33969a76-80c1-4de6-9d5d-9df7f0b7c01a",
+			"type": "equipment",
+			"description": "Glowstick",
+			"reference": "HT52",
+			"notes": "Lasts 12 hours.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 8,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "d765a10f-79e9-43fd-955e-ce4f380bc426",
+			"type": "equipment",
+			"description": "Gloves",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "32bdac7f-b697-4d45-9328-158af9cb2220",
+			"type": "equipment",
+			"description": "Glove",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "1f500294-9cbf-4ab1-a668-5a2dc62d2b7c",
+			"type": "equipment",
+			"description": "Gas Grill",
+			"reference": "HT32",
+			"notes": "Uses propane tanks.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "30 lb",
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "51d471d6-cc40-42d1-8beb-0851f87ef220",
+			"type": "equipment",
+			"description": "Garmet rack",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 212,
+			"weight": "12.6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 212,
+				"extended_weight": "12.6 lb"
+			}
+		},
+		{
+			"id": "e50123c9-d091-4178-8a44-6ff122b9db6d",
+			"type": "equipment",
+			"description": "Garden shears",
+			"reference": "LT61",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "df507cc8-de98-4fe9-ab0e-51d70bd5c582",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "64f5080a-19d4-421d-a6c6-ae5cf6796bba",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "61df89f1-c719-46e6-8386-2d4db4e50d20",
+			"type": "equipment",
+			"description": "Garden Rake (no handle)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 8,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "5c45f74b-ec5b-4ed3-8a53-5e9261450ddc",
+			"type": "equipment",
+			"description": "Garden gnome",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "3c8a5bef-f3b3-4d18-abf1-ad7c209b0a71",
+			"type": "equipment",
+			"description": "Garage door opener remote",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 17,
+			"equipped": true,
+			"calc": {
+				"extended_value": 17,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "3737c2c8-07cd-4f4f-9232-2c7fe1d17b68",
+			"type": "equipment",
+			"description": "Frisbee",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "8860ae77-eba2-4508-801f-e77dce174919",
+			"type": "equipment",
+			"description": "Football",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 27,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 27,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "5b577409-45e2-4f11-9858-e1845e91c170",
+			"type": "equipment",
+			"description": "Folding Ladder",
+			"reference": "HT30",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4800,
+			"weight": "20 lb",
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "0694ba24-d3bd-4f39-8cd6-b65a90d937ac",
+			"type": "equipment",
+			"description": "Folding Chaise Lounge chair",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 320,
+			"weight": "8 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "d4859909-4cf5-449f-8508-d42b083a9f8e",
+			"type": "equipment",
+			"description": "Flotation Vest",
+			"reference": "HT59",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "9fc417f3-86a7-4780-85c5-1a2fc577c43a",
+			"type": "equipment",
+			"description": "Fireplace poker",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "930f717b-8644-4ff3-bf56-052f1de87e29",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Thrust",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "9673f641-d0c8-4916-9d3e-222fde93efa9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Swing",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cr"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "fda75f13-d6df-4859-a8a9-88147b70b425",
+			"type": "equipment",
+			"description": "Fencing foil",
+			"reference": "LT62",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "04564893-d2d0-4214-8f37-c2d008171dc7",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C,1",
+					"parry": "0F",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword"
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0F",
+						"block": "No",
+						"damage": "thr imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "3e02efe9-ea24-4bdb-b21c-e898fd0bf2de",
+			"type": "equipment",
+			"description": "Fence post (metal)",
+			"reference": "ATE1:31",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "bfac5e15-ff9a-4196-805a-98097abc3bd4",
+					"type": "eqp_modifier",
+					"name": "SP -1",
+					"reference": "ATE1:31",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "a9e71919-3e3d-49ff-8268-9b516dcbe7c4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cr"
+					}
+				},
+				{
+					"id": "c0958b0f-5318-4086-ba2d-f214da229c8f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "6e2fced7-4a59-431c-bc1d-e4cc67c94b63",
+			"type": "equipment",
+			"description": "False teeth (uppers)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 90,
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "6bf78bfc-b87e-4a09-b5b6-48ec96587751",
+			"type": "equipment",
+			"description": "False teeth (lowers)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 90,
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d5cbe457-e19f-4b53-a3f8-9c4ec4ae793f",
+			"type": "equipment",
+			"description": "False teeth (full set)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 180,
+			"equipped": true,
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "47de7a6f-19a2-411b-a270-82f4d609e84a",
+			"type": "equipment",
+			"description": "Fake blood",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 6,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "23181383-3e76-45ec-9985-ada85b32bcab",
+			"type": "equipment",
+			"description": "Exercise bike",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 400,
+			"weight": "80 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "80 lb"
+			}
+		},
+		{
+			"id": "0224ea2a-d571-46a1-a837-03c89897dca6",
+			"type": "equipment",
+			"description": "Electronic Clock",
+			"reference": "HT188",
+			"tech_level": "6",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "973e53aa-671b-474e-82a8-75fc11e63fb6",
+			"type": "equipment",
+			"description": "Electric toothbrush (broken)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "2e30514a-18fb-4979-9141-dc717a000bdc",
+			"type": "equipment",
+			"description": "Electric Sander (broken)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 60,
+			"weight": "6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "74866308-af5c-4fc4-9871-6a96de2814d8",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Electric Bike (broken)",
+			"reference": "HT230",
+			"tech_level": "8",
+			"tags": [
+				"Personal Conveyances"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "60 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "200 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "7afee4a8-7552-40c6-aad8-dd25d2076ca4",
+			"type": "equipment",
+			"description": "Dumbbell, rubber encased, 30 lb",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 62,
+			"weight": "30 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 62,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "842c82e2-ba7e-4afc-99f7-c39d798da930",
+			"type": "equipment",
+			"description": "Drum",
+			"reference": "B288",
+			"notes": "Audible for several miles",
+			"tech_level": "0",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b28bc178-f001-4c7e-9dcf-809213923938",
+			"type": "equipment",
+			"description": "Door, wood",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "50 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "565d9203-0b37-44d8-92f7-d55c2381cf1f",
+			"type": "equipment",
+			"description": "Door knob",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "c4137a75-8ae9-4297-bd2d-e983f27ba977",
+			"type": "equipment",
+			"description": "Door hinge",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "7f779159-176b-4219-baee-ed39479dfdcb",
+			"type": "equipment",
+			"description": "Digital scale",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 160,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "195a173b-d026-4de7-8716-2800c456ceac",
+			"type": "equipment",
+			"description": "Digital photo frame",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 200,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "0c3d492b-3f51-41a9-9ae5-fc8c85a3a3c9",
+			"type": "equipment",
+			"description": "Dehumidifier, broken",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 14,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ac057c51-321e-46d5-8554-eced4fcf2c52",
+			"type": "equipment",
+			"description": "Datapad",
+			"reference": "HT21",
+			"tech_level": "8",
+			"tags": [
+				"Information Technology"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "0.05 lb",
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eb437ece-f6e0-4d5d-93ff-a51ee104a820",
+			"type": "equipment",
+			"description": "Cushion",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 20,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "19cde78a-7b0a-46fd-85c3-0c845315a72b",
+			"type": "equipment",
+			"description": "Curtains sq yd",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 60,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "2d3fca2e-951f-459d-a737-0dc83352bb66",
+			"type": "equipment",
+			"description": "Curtain hooks, box of 50",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "df1d957c-b805-429f-baaf-2a266792900f",
+			"type": "equipment",
+			"description": "Costume (Fake teeth)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4e518148-1d6b-4b02-96c2-fc061bcbbfcd",
+			"type": "equipment",
+			"description": "Copper Pipe 1 yd",
+			"tech_level": "2",
+			"quantity": 1,
+			"value": 35,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "1ead740f-ddce-4cba-ae52-c32ad9c72d8b",
+			"type": "equipment",
+			"description": "Cooler",
+			"reference": "HT57",
+			"notes": "Holds 16cf. External power.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 2400,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "5dc6eac8-7e9d-42fd-ae41-6471e6b56671",
+			"type": "equipment",
+			"description": "Cooler",
+			"reference": "HT57",
+			"notes": "Holds 16cf.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "97247edd-d7e3-415c-b398-b3044abe05cb",
+			"type": "equipment",
+			"description": "Compact with mirror",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "90fe0dc3-72b5-470c-9ba5-9cdc6bfeaa3a",
+			"type": "equipment",
+			"description": "Communications Wire",
+			"reference": "HT37",
+			"notes": "\"Quantity\" represents miles.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "35 lb",
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "b7cd9a11-2a94-4d03-91f9-73d5bc7587e2",
+			"type": "equipment",
+			"description": "Come-A-Long",
+			"reference": "HT29",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 160,
+			"weight": "15 lb",
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "8dc9b575-1278-4ba8-9d40-e6a8d43819f2",
+			"type": "equipment",
+			"description": "Collapsable worktable",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1650,
+			"weight": "40 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1650,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "7d16a61c-d4bc-4105-88a5-24eb57d205ab",
+			"type": "equipment",
+			"description": "Coin",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "4f0285b5-eb0e-4c1d-afac-13a95532bc98",
+			"type": "equipment",
+			"description": "Coffee Maker (broken)",
+			"reference": "HT32",
+			"notes": "Hot coffee deals 1d-3 burn. External power.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "2d84b2d9-d2ae-48fe-8db7-dbb502201e8f",
+			"type": "equipment",
+			"description": "Coat rack/stand, wooden",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 148,
+			"weight": "6.8 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 148,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "9108aaa9-81f7-4366-8e97-ba1fd327add4",
+			"type": "equipment",
+			"description": "Circular Table Saw (broken)",
+			"reference": "HT27",
+			"notes": "External power.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "40 lb",
+			"weapons": [
+				{
+					"id": "80e86fa3-6370-4a8c-9688-99fc9a4106cb",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "f63d5f83-3fe1-4947-8e5a-486ad4e47f25",
+			"type": "equipment",
+			"description": "Circular Saw",
+			"reference": "HT27",
+			"notes": "Cordless. M/30min.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "669ffad7-ddc3-4968-9435-d4f2bc0959ab",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 2
+					},
+					"usage": "Cut",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"calc": {
+						"parry": "No",
+						"block": "No",
+						"damage": "sw+3(2) cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "7dc06c7a-2e2b-4a98-ad69-965546a940ac",
+			"type": "equipment",
+			"description": "Chicken wire 1 sq yd",
+			"notes": "[[3d+2]] yds",
+			"legality_class": "4",
+			"quantity": 1,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "54d4ff14-36a2-460c-a972-b44b26119285",
+			"type": "equipment",
+			"description": "Cheese wheel in wax",
+			"notes": "[[1d6]] meals",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 120,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "1e211d6d-89b1-41f1-89e2-52ddfc776747",
+			"type": "equipment",
+			"description": "Cheese grater",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 12,
+			"weight": "0.2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "47fc1b34-667e-4dc7-a47b-11e753fe5416",
+			"type": "equipment",
+			"description": "CFL Lightbulb",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f6932c80-76ab-466a-af2a-3e19e90099f8",
+			"type": "equipment",
+			"description": "Cellular Phone (broken)",
+			"reference": "HT39",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "239f6835-2d4e-4ee1-a962-e700c204e3bd",
+			"type": "equipment",
+			"description": "Caulking Gun",
+			"reference": "HT187",
+			"notes": "You can use it with Extrudable Explosives.",
+			"tech_level": "8",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "53730fff-1516-4d5e-90c9-7560e924e06e",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Casket",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4500,
+			"weight": "200 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4500,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "8d7fd4c8-304d-4aae-aee3-daf3fdb40cb9",
+			"type": "equipment",
+			"description": "Carpet roll sq yd",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 40,
+			"weight": "12.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "12.5 lb"
+			}
+		},
+		{
+			"id": "73af95a9-a5f7-4997-ba4f-a644f0e45c28",
+			"type": "equipment_container",
+			"description": "Canvas shopping bag",
+			"notes": "can hold upto 20 lb",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "2b3c6af3-845a-4c84-9317-480823d505fd",
+			"type": "equipment",
+			"description": "Canned Pet Food",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival Gear",
+				"Foodstuffs"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "0a355f4c-9b0e-4585-aad5-7418be85d423",
+			"type": "equipment",
+			"description": "Can of yellow paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "082a806e-45f3-4e3c-84e6-d88c880e1c0b",
+			"type": "equipment",
+			"description": "Can of white paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "930295ec-af98-4f94-bc73-8b20fe26d088",
+			"type": "equipment",
+			"description": "Can of red paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "bd2de913-3110-482c-b3c3-54d5e6ed8ee0",
+			"type": "equipment",
+			"description": "Can of Hairspray",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.5 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "1fa847ee-59b1-4303-a38e-acfcb39af218",
+			"type": "equipment",
+			"description": "Can of brown paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "79b06482-f90e-427d-ad2d-b2422152b22f",
+			"type": "equipment",
+			"description": "Can of blue paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "0ea0ca12-e324-4c26-98be-70a2148448c1",
+			"type": "equipment",
+			"description": "Can of black paint 1 qt",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ae6d8173-4882-473d-88b2-55933bd2e3ab",
+			"type": "equipment",
+			"description": "Can of air",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e98fe327-e0f3-48f5-a8fd-9c9604a1eb38",
+			"type": "equipment",
+			"description": "Cable zip-ties (ST15)",
+			"notes": "DR/HP 4/10",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 120,
+			"weight": "1.5 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "c0c8a45c-1f49-4270-8c5d-c8c3ad0d4fa3",
+			"type": "equipment",
+			"description": "Cable zip-ties (ST10)",
+			"notes": "DR/HP 2/5",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 80,
+			"weight": "1 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e18ebcad-d522-4708-9c28-0f960d18cdd2",
+			"type": "equipment",
+			"description": "Cable zip-ties (ST5)",
+			"notes": "DR/HP 1/1",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.5 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "9db65ad3-c195-4989-989b-92575eb5a6f4",
+			"type": "equipment",
+			"description": "Cable Ladder",
+			"reference": "HT30",
+			"notes": "10 yards long.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "fea44beb-b6ed-4e89-934d-c7aa4f20c9be",
+			"type": "equipment",
+			"description": "Buckle",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 0.5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4fbe6b43-4401-45f1-8873-6daae2858a6b",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Bucket",
+			"reference": "DF1:24",
+			"notes": "1 gal liquid, DR 1, HP 6",
+			"tags": [
+				"Container"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ac355011-a202-4831-b8c4-988f4e52a7ad",
+			"type": "equipment",
+			"description": "Brick",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "52656b64-2e28-40c1-bfdf-bfb69eb79f3e",
+			"type": "equipment",
+			"description": "Brass tacks",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.5 lb",
+			"max_uses": 100,
+			"uses": 100,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "2a4c9632-1b5b-4c8c-b924-402eef2fd407",
+			"type": "equipment",
+			"description": "Box of chalk (white)",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "f5ad1f35-e477-4449-9cf5-72144dd5b194",
+			"type": "equipment",
+			"description": "Box of chalk (multicolored)",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "dd26416c-da03-40a7-923e-658eaab5db6c",
+			"type": "equipment",
+			"description": "Box fan",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 50,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ba700b50-218e-44f7-ac0f-893bf702e335",
+			"type": "equipment",
+			"description": "Bowling ball",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"weight": "10 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "838d6dbc-4191-446b-a383-a4444e8fb55e",
+			"type": "equipment",
+			"description": "Bottle of shampoo",
+			"tech_level": "5",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "43106477-71a4-4895-a1af-39a6aeeb7b66",
+			"type": "equipment",
+			"description": "Boots, Steel-Toed",
+			"reference": "HT68",
+			"notes": "DR+4 to toes.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"specialization": "To toes",
+					"amount": -4
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "9f51e490-b489-4bee-92a8-a7f619098e3d",
+			"type": "equipment",
+			"description": "Boardgame",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 12,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "7098950b-b0a5-4795-83a0-289f06ddfb01",
+			"type": "equipment",
+			"description": "Bluetooth earpiece",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 160,
+			"equipped": true,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "fd99d25c-60b4-4abe-9b01-48871b9710dd",
+			"type": "equipment",
+			"description": "Blanket (Duvet)",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "2c89e391-6fd9-4862-9574-e7a2a85221c3",
+			"type": "equipment",
+			"description": "Birdcage",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "cc3789f0-9622-4dbc-a5db-314c688ae57d",
+			"type": "equipment",
+			"description": "Belt",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4e6927a2-afec-4420-8ea2-7c36f1bde72c",
+			"type": "equipment",
+			"description": "Baseball cap",
+			"reference": "HT64",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 6,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d3fafabe-15fa-4fdc-a236-2b02f4adc9c3",
+			"type": "equipment",
+			"description": "Barbecue tongs",
+			"notes": "reach 1 for grabbing things",
+			"tech_level": "4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 3,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "b125a0a5-a956-44ed-ab83-9aa2dc0012b8",
+			"type": "equipment",
+			"description": "Bag of sand",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 20,
+			"weight": "20 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "efc603ab-ba83-4521-903a-ecd5336f002b",
+			"type": "equipment",
+			"description": "Bag of potting soil",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 80,
+			"weight": "20 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "6b857092-5758-4033-9a4d-0ee6f8819919",
+			"type": "equipment",
+			"description": "Bag of glass marbles",
+			"notes": "contains 50 marbles",
+			"tech_level": "6",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 28,
+			"weight": "10 lb",
+			"max_uses": 50,
+			"uses": 50,
+			"equipped": true,
+			"calc": {
+				"extended_value": 28,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "4c7fa3d1-f706-4189-9441-d7e2e635b7a5",
+			"type": "equipment",
+			"description": "Bag of chips",
+			"tech_level": "8",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 16,
+			"weight": "0.5 lb",
+			"max_uses": 4,
+			"uses": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "8e1b2886-ad0f-4343-9968-a389aed4039d",
+			"type": "equipment",
+			"description": "Bag of charcoal",
+			"tech_level": "6",
+			"legality_class": "4",
+			"tags": [
+				"Camping and Survival",
+				"Fuel",
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "10 lb",
+			"max_uses": 10,
+			"uses": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "5fd3722d-ce20-4c8e-a4bb-888ede9f8c75",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 240,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "72a90981-0f3d-4b2b-b100-548726ea6cf0",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Attaché Case",
+			"reference": "HT31",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "06029841-0597-4d4d-89dc-bf92ee780809",
+			"type": "equipment",
+			"description": "Artificial Christmas tree (prelit)",
+			"tech_level": "7",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 400,
+			"weight": "50 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "6fa017e5-661c-4116-adbf-419c80b45a30",
+			"type": "equipment",
+			"description": "Air freshener",
+			"tech_level": "6",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 0.5,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "8a90f748-6b93-4fcc-8aee-e39bf1e20658",
+			"type": "equipment",
+			"description": "Air Compressor Hose",
+			"reference": "HT27",
+			"notes": "\"Quantity\" represents feet.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "344fb4d9-5b39-4216-adf5-54a1fc57f07f",
+			"type": "equipment",
+			"description": "Air Compressor",
+			"reference": "HT27",
+			"notes": "Consumes 1 gallon of gasoline per hour.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "62.5 lb",
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "62.5 lb"
+			}
+		},
+		{
+			"id": "445c5600-3ee6-4581-b637-a846e3551d16",
+			"type": "equipment",
+			"description": "5.5\" Record",
+			"reference": "HT42",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1.5,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 1.5,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "0a76cca6-ea21-4ec3-a81b-bff66969f8ca",
+			"type": "equipment_container",
+			"open": true,
+			"description": "5-Gallon Can",
+			"reference": "HT54",
+			"notes": "DR 3.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "514308c3-24a6-40dd-9066-5a274f7e5169",
+			"type": "equipment_container",
+			"open": true,
+			"description": "1-gallon plastic gas can",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "2 lb"
+			}
+		}
+	]
+}

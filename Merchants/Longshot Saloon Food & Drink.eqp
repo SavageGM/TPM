@@ -1,0 +1,189 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "285e95e8-b6e5-42c3-bd1e-c8c5410e671e",
+			"type": "equipment",
+			"description": "Zarka Water",
+			"notes": "12oz plastic bottle of pure filtered water",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.75 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "f91c1afc-7f55-40b1-a328-a584cf32aca8",
+			"type": "equipment",
+			"description": "Pipe Water",
+			"notes": "16oz water served in plastic cup",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d591fcba-420c-42c6-b3d5-e96a8e4b2c75",
+			"type": "equipment",
+			"description": "Whiskey",
+			"notes": "1 shot of grain alcohol aged in oak barrels imported from Manfist, served in a small glass container",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "0bace842-92b1-4ce5-a7c2-8c6c9a9c438d",
+			"type": "equipment",
+			"description": "White Lightnin’",
+			"notes": "1 shot of grain alcohol made locally, served in a small glass container",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "174a3017-4702-45ef-9928-29860dce0a23",
+			"type": "equipment",
+			"description": "Honey Mead",
+			"notes": "1 pint of honey mead imported from Fredsburg, served in pint glass jars",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1.75 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1.75 lb"
+			}
+		},
+		{
+			"id": "1fbd9adc-7811-4fdc-a53b-2c03a70140e8",
+			"type": "equipment",
+			"description": "Stout",
+			"notes": "1 pint of dark porter imported from Fredsburg, served in pint glass jars",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1.75 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1.75 lb"
+			}
+		},
+		{
+			"id": "3af423ed-47cd-46ef-9ca6-0a54430e2be6",
+			"type": "equipment",
+			"description": "Pale Ale",
+			"notes": "1 pint of blonde ale imported from KaySee, served in pint glass jars",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment",
+				"Beverage"
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "1.75 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1.75 lb"
+			}
+		},
+		{
+			"id": "befe9e5a-8524-4168-be8b-93e5eb5e65ad",
+			"type": "equipment",
+			"description": "Bottle of Liquor",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"modifiers": [
+				{
+					"id": "e48e26fc-4a51-420b-b7b1-d5fa46ecf3af",
+					"type": "eqp_modifier",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "d79a54ad-95ee-4688-b02f-be133a7513b2",
+			"type": "equipment",
+			"description": "Fresh Food",
+			"reference": "HT34",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"modifiers": [
+				{
+					"id": "87cbae09-d278-4d19-b169-b537a9043430",
+					"type": "eqp_modifier",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"value": 3,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "2 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,556 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "6499aa80-8699-4e47-9ce5-f9485ed750ad",
+			"type": "equipment",
+			"description": "Targeting",
+			"reference": "UT149",
+			"notes": "+2 skill. Complexity 4.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "768174cd-0e0d-4c18-bf36-439d00ecb45b",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1500,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "2737c04a-b88b-4f86-925b-7dad23204a10",
+			"type": "equipment",
+			"description": "Silhouette",
+			"reference": "UT149",
+			"notes": "Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "6f3db50d-86cf-4b9c-8ac5-51cbee147e64",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 2000,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "9b71d755-eb5e-4061-ac16-103926f1ce7f",
+			"type": "equipment",
+			"description": "TacNet",
+			"reference": "UT149",
+			"notes": "+1 Tactics. Complexity 5.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "5f7eaf16-6e83-4fe9-a979-f3f40a0e7d75",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 10000,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "102edd92-5ca6-4b0c-b01c-55c83bbab0b1",
+			"type": "equipment",
+			"description": "TacNet",
+			"reference": "UT149",
+			"notes": "+2 Tactics. Complexity 6.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "ba85575d-a5fc-42e3-ba53-afb0f5a7495d",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 30000,
+			"calc": {
+				"extended_value": 960000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "070bc7ed-ca31-45a3-b9c9-038da723944a",
+			"type": "equipment",
+			"description": "Targeting",
+			"reference": "UT149",
+			"notes": "+1 skill. Complexity 3.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "af75ba48-3715-491a-9db6-80509cc8aa19",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 500,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f7582489-a854-4059-bdf3-6f407c318c6c",
+			"type": "equipment",
+			"description": "Shoulder Servomount",
+			"reference": "UT152",
+			"notes": "Plus $1,000 and 3lbs. per pound of weapon loaded weight.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "eb8a69c8-fe58-42fb-b6f5-446a03ebb5ba",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 5000,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "234b1e35-03bf-4ed3-a145-cd01eb3260e3",
+			"type": "equipment",
+			"description": "Transponder Ring",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "7040e3f7-90e7-47ff-8951-432379b10569",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d89296ef-afd5-4a8f-9840-9d8228b43c40",
+			"type": "equipment",
+			"description": "Articulated Weapon Harness (@Weapon@)",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "72df78ea-7208-4941-96c7-555a78984cd0",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "046c64b5-6ac3-4f63-bf8b-65153bc306a9",
+			"type": "equipment",
+			"description": "Compact Targeting Scope",
+			"reference": "UT149",
+			"notes": "+2 to aimed shots. A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "0e809e16-3c01-4160-96b6-b03beda92f00",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "af46ee0a-1d9d-497b-80ab-2a4ed567f891",
+			"type": "equipment",
+			"description": "D-Tag",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "24904aa9-c644-4851-97a3-6298c159ff96",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				},
+				{
+					"id": "e0dc86f4-dfe2-4694-b898-97dcf105a07f",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 20,
+			"calc": {
+				"extended_value": 20480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "c174e7ce-33df-41ff-bf5f-c1d33cc83f03",
+			"type": "equipment",
+			"description": "Enhanced Targeting Scope",
+			"reference": "UT149",
+			"notes": "+3 to aimed shots. Hyperspectral Vision 8x. Tunnel Vision. B/400hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "a214a18f-2486-40f7-ab95-c2f6ac95d640",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 256000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "dc877716-74b6-4d46-aa72-4549aa5b9967",
+			"type": "equipment",
+			"description": "Gyrostabilized Weapon Harness",
+			"reference": "UT150",
+			"notes": "Plus $200 and 1lb. per pound of loaded weight.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "02e41f55-8f67-4313-94db-eb31f99bff50",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1000,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "4ec840f6-9dba-4e41-acf4-530aefae5203",
+			"type": "equipment",
+			"description": "IFF Interrogator",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "605fa05f-2e6a-420d-b0e1-6431fd5188c4",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "df685d76-8179-4dee-b81e-4bcc1349502d",
+			"type": "equipment",
+			"description": "Power Holster (@Weapon@)",
+			"reference": "UT151",
+			"notes": "B/100 uses.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "b7e71804-3961-453b-b8e2-45e09154b4d3",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "1360b140-999e-48f7-a21c-b2e441d33d2a",
+			"type": "equipment",
+			"description": "Powered Tripod Mount",
+			"reference": "UT151",
+			"notes": "D/100 hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "819bd391-ac1a-47ae-9ec4-8099227be8ea",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 5000,
+			"weight": "50 lb",
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "04a678d5-6735-4875-b2b3-07fc954fc246",
+			"type": "equipment",
+			"description": "Recognition Grip",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "817b3cf6-cb48-4653-93e7-8d70ad5b3e01",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "094ed0f1-c290-4275-94d4-5a7398446830",
+			"type": "equipment",
+			"description": "Tripod",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "2555db33-b3b7-489d-9bd5-814721c9ac05",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 1250,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "63d95a9c-fd16-41fb-a889-9d47f46309b6",
+			"type": "equipment",
+			"description": "Sniper Mirror",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "880ddd51-91e7-47f9-9e27-865d65f3fc1b",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4981f39d-6a73-4189-894a-7d99c75e6aa4",
+			"type": "equipment",
+			"description": "Accessory Rail",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"modifiers": [
+				{
+					"id": "c17c4059-be26-480f-8635-a5a46fae2469",
+					"type": "eqp_modifier",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				}
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2 lb"
+			}
+		}
+	]
+}

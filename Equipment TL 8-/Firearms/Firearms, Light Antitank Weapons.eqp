@@ -1,0 +1,229 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b958fd11-1ebe-4e89-9618-16cadfe62241",
+			"type": "equipment",
+			"description": "Carl Gustaf M2, 84x250mmR",
+			"reference": "HT148",
+			"notes": "Sling swivels.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Light Antitank Weapon"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "38.9 lb",
+			"weapons": [
+				{
+					"id": "9b7aa408-74ed-4775-83e5-92436d665ab4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx5",
+						"armor_divisor": 10
+					},
+					"strength": "10†",
+					"accuracy": "4+1",
+					"range": "10/1,100",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-7",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "10/1,100",
+						"damage": "6dx5(10) cr ex"
+					}
+				},
+				{
+					"id": "38c3383d-2aa3-4e35-9280-df3b2b15803d",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "6dx3 cr ex"
+					}
+				},
+				{
+					"id": "c86dfb68-9b99-4a41-bbb0-a50d8c0b44ef",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "4d"
+					},
+					"usage": "Backblast",
+					"calc": {
+						"damage": "4d burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "38.9 lb"
+			}
+		},
+		{
+			"id": "1ef7232c-a4ab-4831-9ed1-33a55c690cc9",
+			"type": "equipment",
+			"description": "KMZ RPG-7, 40mm",
+			"reference": "HT148",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Light Antitank Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "1e216b4f-65ec-416e-a2f2-7d8f2ff1fde8",
+					"type": "eqp_modifier",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"value": 2300,
+			"weight": "18.9 lb",
+			"weapons": [
+				{
+					"id": "970f02fd-e3ec-4279-b079-38addc4672a4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx4",
+						"armor_divisor": 10
+					},
+					"strength": "9†",
+					"usage": "85mm HEAT",
+					"accuracy": "2+1",
+					"range": "10/1,000",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-7",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "10/1,000",
+						"damage": "6dx4(10) cr ex"
+					}
+				},
+				{
+					"id": "908dcdd1-69d1-403f-948c-eae6765289e8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "5dx2",
+						"fragmentation": "2d"
+					},
+					"strength": "9†",
+					"usage": "40mm HE",
+					"accuracy": "2+1",
+					"range": "10/1,000",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-7",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"range": "10/1,000",
+						"damage": "5dx2 cr ex [2d ]"
+					}
+				},
+				{
+					"id": "65c1cb3e-ce53-4cf5-b103-21185fbf2387",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "7dx2"
+					},
+					"usage": "Linked (85mm HEAT)",
+					"calc": {
+						"damage": "7dx2 cr ex"
+					}
+				},
+				{
+					"id": "3a93746f-5c81-4d18-bf36-bf94ac25087f",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2"
+					},
+					"usage": "Backblast",
+					"calc": {
+						"damage": "1d+2 burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 18400,
+				"extended_weight": "18.9 lb"
+			}
+		}
+	]
+}

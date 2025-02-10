@@ -1,0 +1,436 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "1417b826-a9eb-4e3e-a150-5092aa1b7dde",
+			"type": "equipment",
+			"description": "Alcohol",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "5c6cee55-a394-4269-bad6-3efe50a59703",
+			"type": "equipment",
+			"description": "Bottle of Liquor",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "ea7eb37e-60f4-4a3c-96aa-476f7cbf70da",
+			"type": "equipment",
+			"description": "Candy",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "1108a8f4-4c8c-4325-91ad-3f5a74331e18",
+			"type": "equipment",
+			"description": "Canned Food",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "22ffab09-bf4c-4574-b9d9-3058a8f458a0",
+			"type": "equipment",
+			"description": "Canned Food Crate",
+			"reference": "HT34",
+			"notes": "24 cans, 8 man-days",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "30 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "73149dfc-a5ce-4e77-b204-4c533c13b545",
+			"type": "equipment",
+			"description": "Coffee",
+			"reference": "HT34",
+			"notes": "One pound lasts one month.",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "5e94ea72-3017-436c-bccd-2763a06654a0",
+			"type": "equipment",
+			"description": "Compressed Rations",
+			"reference": "HT35",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 96,
+			"weight": "0.75 lb",
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "d7668068-45c5-4799-ab83-7989cb18d7f7",
+			"type": "equipment",
+			"description": "Food Canner",
+			"reference": "HT34",
+			"notes": "Produces jars.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "29af83db-2818-4e31-a21a-a73c9982fa26",
+			"type": "equipment",
+			"description": "Food Canner",
+			"reference": "HT34",
+			"notes": "Produces tins.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "25 lb",
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "4d343579-ef13-4387-9952-6ed35854f9c5",
+			"type": "equipment",
+			"description": "Freeze-Dried Food",
+			"reference": "HT35",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 32,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "02eb592e-fd0b-4bb3-8c51-b1ac5fd29660",
+			"type": "equipment",
+			"description": "Fresh Food",
+			"reference": "HT34",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "4ec38a46-342a-4ea8-a998-f0417108135e",
+			"type": "equipment",
+			"description": "GO!Juice",
+			"reference": "ATE1:30",
+			"tech_level": "?",
+			"tags": [
+				"Consumables"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "d1982fad-381e-4f74-90f9-4a300ec65b8e",
+			"type": "equipment",
+			"description": "Hardtack crate",
+			"reference": "HT34",
+			"notes": "16 man-days.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "50 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "359c1ca1-2798-4836-9a92-705183bdb32f",
+			"type": "equipment",
+			"description": "Hardtack Meal",
+			"reference": "HT34",
+			"notes": "10 crackers.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f1392d52-0447-41f6-8806-61f68fe709c2",
+			"type": "equipment",
+			"description": "Jerky",
+			"reference": "HT35",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 4,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "5cbbe552-7972-43df-b2a9-78df2e319a7a",
+			"type": "equipment",
+			"description": "Military Rations",
+			"reference": "HT35",
+			"notes": "One meal.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "89e690e2-adf4-4947-aea0-7a1a697456b9",
+			"type": "equipment",
+			"description": "Military Rations Box",
+			"reference": "HT35",
+			"notes": "12 meals.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 15360,
+			"weight": "22 lb",
+			"calc": {
+				"extended_value": 15360,
+				"extended_weight": "22 lb"
+			}
+		},
+		{
+			"id": "9bfd3259-de6e-4adf-9970-d38d2f3fdc5b",
+			"type": "equipment",
+			"description": "MRE",
+			"reference": "ATE1:30",
+			"tech_level": "8",
+			"tags": [
+				"Camping and Survival Gear",
+				"Consumables"
+			],
+			"quantity": 1,
+			"value": 1280,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "6de1b1bc-ac52-4b7c-a875-83604b47e500",
+			"type": "equipment",
+			"description": "Rations",
+			"reference": "ATE1:30",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear",
+				"Consumables"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "40c6f6c4-1fbb-49bd-9e80-618277649602",
+			"type": "equipment",
+			"description": "SieverTasty",
+			"reference": "ATE1:30",
+			"tech_level": "?",
+			"tags": [
+				"Consumables"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "29fe2dca-108c-4d2f-8b6a-bd1ca8016f52",
+			"type": "equipment",
+			"description": "Snack",
+			"reference": "HT35",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 16,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "a97a9b38-a97a-4e59-b2f6-9de4e28f046a",
+			"type": "equipment",
+			"description": "Sports Drink",
+			"reference": "HT35",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 128,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 128,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "8419796c-b4dc-45bf-8212-6f916bd8d183",
+			"type": "equipment",
+			"description": "Traveler's Rations",
+			"reference": "B288",
+			"notes": "One meal",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "951ca98c-b758-4713-8566-bcadc4962731",
+			"type": "equipment",
+			"description": "Vitamin Pills",
+			"reference": "HT221",
+			"notes": "Month's supply.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 192,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 192,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "74a00471-8382-48fc-967d-8e48690248c6",
+			"type": "equipment",
+			"description": "Water, Clean (pint)",
+			"reference": "ATE1:30",
+			"tech_level": "0",
+			"quantity": 1,
+			"value": 1,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

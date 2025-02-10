@@ -1,0 +1,274 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "96658110-4d67-4a76-a023-9712da3d12de",
+			"type": "equipment",
+			"description": "Binoculars",
+			"reference": "HT47",
+			"notes": "4x magnification.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "87b8c116-54e2-432e-aa46-c06855fde97b",
+			"type": "equipment",
+			"description": "Binoculars",
+			"reference": "HT47",
+			"notes": "6x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "abb53891-e7ba-49a2-8c74-edbc1164de49",
+			"type": "equipment",
+			"description": "Camcorder",
+			"reference": "B289",
+			"notes": "Has 10x zoom. Gives Night Vision 5. 7 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 16000,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "dc99ac35-da79-4179-8e8d-3b5c9a2d109c",
+			"type": "equipment",
+			"description": "Camera, 35mm",
+			"reference": "B289",
+			"notes": "Basic equipment for Photography skill. Extra film is 32 shots ($10, neg.).",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "53b9b1fc-215c-463a-8061-00b6a0dcb2c5",
+			"type": "equipment",
+			"description": "Camera-Film",
+			"reference": "B289",
+			"notes": "Extra film with 32 shots",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 80,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f395d779-45e3-4ea1-9148-51ee3c4eb609",
+			"type": "equipment",
+			"description": "Metal Detector Wand",
+			"reference": "B289",
+			"notes": "+3 to find metal items. 8 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "d35bfd29-bf8d-4c6d-8e42-58c4e6deb6dd",
+			"type": "equipment",
+			"description": "Military Surplus Night-Vision Binoculars",
+			"reference": "HT48",
+			"notes": "Night Vision 4. 2xXS/30hrs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "82b0410d-2d6f-4214-94b9-374bb3251356",
+			"type": "equipment",
+			"description": "Military-Grade Binoculars",
+			"reference": "HT47",
+			"notes": "10x magnification",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 6400,
+			"weight": "3.5 lb",
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "a44dcc4b-e50b-4874-bdfd-06f9d3c88829",
+			"type": "equipment",
+			"description": "Military-Grade Binoculars",
+			"reference": "HT47",
+			"notes": "10x magnification.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 12800,
+			"weight": "3.5 lb",
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "f32e1953-93ee-4062-b0a4-51b70cb683f8",
+			"type": "equipment",
+			"description": "Mini-Camera, Digital",
+			"reference": "B289",
+			"notes": "Stores pictures on optical disk.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d270e231-0c22-42ee-b54a-336fdd11cab4",
+			"type": "equipment",
+			"description": "Night Vision Goggles",
+			"reference": "B289",
+			"notes": "Give Night Vision 9. 8 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 9600,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "0ca5e66d-e037-43dd-aaf7-cdf2759e7c85",
+			"type": "equipment",
+			"description": "Spotting Scope",
+			"reference": "HT47",
+			"notes": "30x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "10 lb",
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "3c0193fb-4ce6-444f-a8d4-d8daf01f787a",
+			"type": "equipment",
+			"description": "Spy Camera",
+			"reference": "B289",
+			"notes": "Holds 36 exposures, uses microfilm",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "d7979983-a434-4462-9dc9-4d7a4bf013e0",
+			"type": "equipment",
+			"description": "Stabilized Binoculars",
+			"reference": "HT47",
+			"notes": "10x magnification.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 80000,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ca636943-3838-425a-bf1a-e052c7825e7c",
+			"type": "equipment",
+			"description": "Telescope",
+			"reference": "B289",
+			"notes": "Gives (TL-3) levels of Telescopic Vision.",
+			"tech_level": "4",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "6 lb",
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "6 lb"
+			}
+		}
+	]
+}

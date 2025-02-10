@@ -1,0 +1,185 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ELY2nnwoVltijh6Cc",
+			"description": "Basic Fighting Load",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "efxnSi0KLBV1CzJKu",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Defenses  TL 9.eqp",
+						"id": "eOILkympOgHAR2QRY"
+					},
+					"description": "Assault Boots",
+					"reference": "UT173",
+					"notes": "DR+6 vs. piercing and cutting.",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 4800,
+					"weight": "3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 6
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 4800,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "EvIo8V0D4sE1upe-x",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Defenses  TL 9.eqp",
+						"id": "eRm7KCwrVkTWZ9l9a"
+					},
+					"description": "Light Infantry Helmet",
+					"reference": "UT176",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 8000,
+					"weight": "3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 18
+						}
+					],
+					"quantity": 1,
+					"children": [
+						{
+							"id": "eHBjwewvyZlANq9uS",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "evzXytSlLJkK86EJO"
+							},
+							"description": "3D Pocketcam",
+							"reference": "UT51",
+							"notes": "B/10hr.",
+							"tech_level": "9",
+							"tags": [
+								"Media and Education"
+							],
+							"value": 1000,
+							"weight": "0.25 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "eeslyqaFakzqZbUsU",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "eNWvSXWXj9Zaai1r2"
+							},
+							"description": "ESM Detector",
+							"reference": "UT62",
+							"notes": "A/1wk.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Sensors and Scientific Equipment"
+							],
+							"value": 8000,
+							"weight": "0.25 lb",
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "Dodge if detects targeting sensor",
+									"amount": 1
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 8000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "ennXgneNvs-WMbhgs",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "e8q0pvMyNO6SvigRJ"
+							},
+							"description": "Near Miss Indicator",
+							"reference": "UT188",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"value": 32000,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to Vision to locate enemy fire",
+									"amount": 4
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 32000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eKmIuyGZvASNBxwTO",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "ekyliTmL_aMotOJz8"
+							},
+							"description": "Tiny Laser Communicator",
+							"reference": "UT44",
+							"notes": "5-mile range. 2A/10hr.",
+							"tech_level": "9",
+							"tags": [
+								"Communication and Interface"
+							],
+							"value": 3200,
+							"weight": "0.05 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 3200,
+								"extended_weight": "0.05 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 52200,
+						"extended_weight": "3.55 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 57000,
+				"extended_weight": "6.55 lb"
+			}
+		}
+	]
+}

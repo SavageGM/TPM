@@ -1,0 +1,1122 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EV0WUvd6Gzw8_uGYG",
+			"description": "Matches, Waterproof",
+			"reference": "B288",
+			"notes": "Box of 50",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"children": [
+				{
+					"id": "eyMywAdaCpoB8ssRh",
+					"description": "Match, Single, Waterproof",
+					"reference": "B288",
+					"tech_level": "6",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 1,
+					"weight": "0.001 lb",
+					"quantity": 50,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.05 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.051 lb"
+			}
+		},
+		{
+			"id": "eIl7GpUrbELZyXsPx",
+			"description": "Alcohol Pocket Stove",
+			"reference": "HT57",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4cNUWSdjX1bDuPaF",
+			"description": "Ascender",
+			"reference": "HT55",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eGabamfGd1wR7MeCL",
+			"description": "Barbecue Grill",
+			"reference": "HT32",
+			"notes": "Uses charcoal.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 600,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eEL1etRTHlrea4GoX",
+			"description": "Bear Trap",
+			"reference": "HT58",
+			"notes": "ST 15. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 150,
+			"weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "eIt7KQSf4YI60b1P2",
+			"description": "Beaver Trap",
+			"reference": "HT58",
+			"notes": "ST 8. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 40,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eXefNZ8_0o6hYQ5He",
+			"description": "Blanket",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ep6QYThLgzY5m7RnK",
+			"description": "Blanket",
+			"reference": "HT56",
+			"notes": "Survival -2",
+			"tech_level": "1",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "euX_p2ayUY7U6ugw_",
+			"description": "Blanket, Emergency",
+			"reference": "HT57",
+			"notes": "Survival -1",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eyVwMd4QI5mmC4Quc",
+			"description": "Cable Ladder",
+			"reference": "HT30",
+			"notes": "10 yards long.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "elfM3tHU3dYE_OqRz",
+			"description": "Cable, Steel, 1.5\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 3,700 lbs.",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "17 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "ejINm-M-tJ1kQh8s6",
+			"description": "Camouflage Net",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 80,
+			"weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "ektQEKQUGxC50JHLV",
+			"description": "Camp Shower",
+			"reference": "HT59",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 160,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e11vafw0C7lPDSdrr",
+			"description": "Camp Stove",
+			"reference": "HT57",
+			"notes": "Needs propane.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 320,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eWBX_iibkgzGFs4VQ",
+			"description": "Camp Stove Propane Tank",
+			"reference": "HT57",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 80,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ei8YeMBPaWTtoW_3w",
+			"description": "Camp Stove, Small",
+			"reference": "B288",
+			"notes": "Uses 1/4 gallon of kerosene per 4 hrs",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 200,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e9V1J0qZq89Dc6gCr",
+			"description": "Candle, Tallow",
+			"reference": "B288",
+			"notes": "Lasts 12 hours",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 5,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoSkr3kV4Y3nPlW2Z",
+			"description": "Chain",
+			"reference": "DFA111",
+			"notes": "1 yard long; Supports 2000 lb",
+			"tags": [
+				"Miscellaneous Hardware"
+			],
+			"value": 15,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ec9fyNxPQqQzzfsdL",
+			"description": "Chalk",
+			"reference": "DFA112",
+			"tags": [
+				"Tools"
+			],
+			"value": 1,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eKj2eDaNCaQBvwcd6",
+			"description": "Cigarette Lighter",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 40,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eNkaZHJ0J2dYGMGEo",
+			"description": "Climbing Bolt",
+			"reference": "HT55",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 40,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "en0twJu9JZqKAn5LH",
+			"description": "Climbing Gear",
+			"reference": "B288",
+			"notes": "Hammer, spikes, carabiners",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "esNY7oGfm0QhWr27w",
+			"description": "Climbing Kit",
+			"reference": "HT55",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 6400,
+			"weight": "26 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "e8hta5I-c8qXmdii0",
+			"description": "Collapsible Cup",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e2hO3tVJ2fO-91JtW",
+			"description": "Compass",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 200,
+			"weight": "0.144 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "navigation"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.144 lb"
+			}
+		},
+		{
+			"id": "e5QiYdtGGWsyXK6lv",
+			"description": "Cord",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 350lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 4,
+			"weight": "0.22 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.22 lb"
+			}
+		},
+		{
+			"id": "e9WztAly6t_xq6wyo",
+			"description": "Cord, 3/16\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "enx7vClhAnTjA7tn2",
+			"description": "Cord, 3/16\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 2,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "etQX68gWqwF7Y3XBu",
+			"description": "Descender",
+			"reference": "HT55",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 200,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "e6UkRb3JBASrhQXIF",
+			"description": "Fishhooks \u0026 Line",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "e9l1PiL6n-d-BQmrR",
+			"description": "Fishing Kit",
+			"reference": "HT58",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eQZ3GNOaO9rFOUQcG",
+			"description": "Flashlight, Heavy",
+			"reference": "B288",
+			"notes": "30' beam, lasts 5 hours",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 80,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "evFPuUm5jXqUd4dGc",
+			"description": "Flashlight, Mini",
+			"reference": "B288",
+			"notes": "15' beam, lasts 1 hour",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 160,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e85vO_mhxzIKDbZd_",
+			"description": "Flint and Steel",
+			"reference": "HT57",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "echUIGpoq-4YydWD7",
+			"description": "Grapnel",
+			"reference": "B288",
+			"notes": "Supports 300 lbs; throw to STx2 yards",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 40,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e-mC17OyuegVDCd6B",
+			"description": "Group Basics",
+			"reference": "B288",
+			"notes": "Basic equipment for Cooking and Survival skill for a group. Cook pot, rope, hatchet etc., for 3-8 campers.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eE4tWNFjjlUHy946T",
+			"description": "Harness",
+			"reference": "HT55",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eOlEVC3rWEzrppqhE",
+			"description": "Iron Spike/Piton",
+			"reference": "B288",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eOncyzpVF5eP9pMKp",
+			"description": "Lantern",
+			"reference": "B288",
+			"notes": "Uses 1 pint of oil per 24 hours",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e0dtFlL6clx5EEoYf",
+			"description": "Life Jacket",
+			"reference": "B288",
+			"notes": "Floats up to 350 lbs.",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 400,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "euylCLGOVvNSHwgmM",
+			"description": "Map",
+			"reference": "ATE1:30",
+			"tech_level": "1",
+			"value": 15,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e7Etos5Iobli0lSR6",
+			"description": "Match, Single, Waterproof",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1,
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "esGqWTP1MqKExCT-t",
+			"description": "Parachute",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 4000,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eTfxNu0dbBH1j-WE8",
+			"description": "Personal Basics",
+			"reference": "B288",
+			"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 5,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "esTVJnnD6RwI3jRPC",
+			"description": "Pole, 6'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 5,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eBoaftcX4i79sGxDh",
+			"description": "Pole, 10'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 8,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "exsEptQO9zBc1q7Rt",
+			"description": "Rope, 3/4\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 25,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eWrrlm5tw41xsaoH0",
+			"description": "Rope, 3/4\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "egkopTAD7J65RJVI3",
+			"description": "Rope, 3/8\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 300 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 5,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "erlHrOAERUIrDcxR_",
+			"description": "Rope, 3/8\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 300 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 10,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "evnZkdSZdTeRsb4_y",
+			"description": "Scuba Gear",
+			"reference": "B288",
+			"notes": "Includes 2-hour underwater air tank",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 6000,
+			"weight": "32 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6000,
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "eaxJPvSLaCj1LYCZF",
+			"description": "Sleeping Bag",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "7 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ebswscIfi9UyT4q8B",
+			"description": "Sleeping Bag, Insulated",
+			"reference": "B288",
+			"notes": "+3 HT to resist freezing",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 800,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eDt1z63t8XqnCKdnL",
+			"description": "Sleeping Fur",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eR9Cy0Lqrkd5EnAba",
+			"description": "Tent, 1-Man",
+			"reference": "B288",
+			"notes": "Includes ropes; no poles needed",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e1B8ZlAtn3HG2nn4M",
+			"description": "Tent, 2-Man",
+			"reference": "B288",
+			"notes": "Includes ropes; requires one 6' pole",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 80,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eohYcVP0bovQqmPlT",
+			"description": "Tent, 4-Man",
+			"reference": "B288",
+			"notes": "Includes ropes; requires two 6' poles",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 150,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eZWtCYPeLMKaZokbs",
+			"description": "Tent, 20-Man",
+			"reference": "B288",
+			"notes": "Includes ropes; requires 12 6' poles, 4 10' poles",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 300,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "epVzOJg0zTLkDG7My",
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 2. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1200,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e6CGVyQP9Q_SMhBpS",
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 4. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 2400,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eNYS7XhaLzIr9YTDN",
+			"description": "Tent, Personal",
+			"reference": "HT57",
+			"notes": "Survival +1.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ezFZRbdnGBt4oRwyl",
+			"description": "Torch",
+			"reference": "B288",
+			"notes": "Burns for 1 hour",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 3,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eouRfhJCFMwvH00p2",
+			"description": "Water Filter",
+			"reference": "HT59",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e939LbqBOTuYoI7TX",
+			"description": "Water Purification Tablets",
+			"reference": "B288",
+			"notes": "Bottle of 50; Purifies 1 quart each",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "0.1 lb",
+			"max_uses": 50,
+			"quantity": 1,
+			"uses": 50,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eJHeMaUx6Afslfeqi",
+			"description": "Whistle",
+			"reference": "ATE1:30",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 10,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eJxeCiUx8LNV9BRL0",
+			"description": "Wristwatch",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "0.075 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.075 lb"
+			}
+		}
+	]
+}
