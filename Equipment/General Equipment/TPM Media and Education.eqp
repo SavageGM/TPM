@@ -1,0 +1,511 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eJjwqotLAL9ea4aCV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e3GI4jJmMnyKG01N8"
+			},
+			"description": "Flatcam",
+			"reference": "UT51",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "elEW-OwpaVoPtvLdT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "ediiMCRnb-Qrl1Koi"
+			},
+			"description": "Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 64000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ekL4u1txfGWJvZ8V9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eW0Xv9mpQjhkJR9yq"
+			},
+			"description": "Datachip",
+			"reference": "UT51",
+			"notes": "1TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "erj1-k4wxBBWndLjV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eVBoNwbBPXnVsA7Vc"
+			},
+			"description": "Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eOiR2s4jowcVEUhG7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "evzXytSlLJkK86EJO"
+			},
+			"description": "3D Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 7200,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eVVhMeQ4mGKG4Co8L",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eh6xNLuqM1oHVNY1c"
+			},
+			"description": "VR Gloves",
+			"reference": "UT54",
+			"notes": "Requires Complexity 2+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1280,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eL6rPC14qx0THEjyr",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "ewC4GpMXKCPhNCv_Z"
+			},
+			"description": "Medium Sonic Projector",
+			"reference": "UT52",
+			"notes": "100-yard range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ehmKsYALToGbv1HXe",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eSbkhFvZbYNKWOgdl"
+			},
+			"description": "3D Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eiYPyJmDb1eizDAjD",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "ed8U33XwqGVfMFoQv"
+			},
+			"description": "Data Player",
+			"reference": "UT51",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 320,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "efxtdONI7wuvYe1OA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eWflo8ofElo929wAR"
+			},
+			"description": "Data Dot Drive",
+			"reference": "UT51",
+			"notes": "AA/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 320,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eUGm5Tx_1bNf4HJNB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "euozEkQZb08bCkdbQ"
+			},
+			"description": "Data Dot",
+			"reference": "UT51",
+			"notes": "1GB. AA/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "ePRTTLdWaeg_8tnkT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "ehqhNlSz1Mmc-kWaY"
+			},
+			"description": "Datachip Drive",
+			"reference": "UT51",
+			"notes": "AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.02 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.02 lb"
+			}
+		},
+		{
+			"id": "eAT4iuLz4qbmNR_sI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eVkib27OUOU0c72mr"
+			},
+			"description": "Large Sonic Projector",
+			"reference": "UT52",
+			"notes": "200-yard range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ewUlYQqbZPgZUXrB_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e6VRZpAHdWsArNTKd"
+			},
+			"description": "3D Flatcam",
+			"reference": "UT51",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 8000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eSrq1LZrEjiGgSdS9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "evEazj2kgC2X-4_Oy"
+			},
+			"description": "Book Reader",
+			"reference": "UT51",
+			"notes": "2A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "euZ_rVD_T9bRdjB5x",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eORS5gUbqFUx8NZXX"
+			},
+			"description": "Entertainment Console",
+			"reference": "UT51",
+			"notes": "Complexity 4. 4B/5hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e3IHc1e2yR5slELE-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eIjbbkq3qWqpHwStq"
+			},
+			"description": "Odor Synthesizer",
+			"reference": "UT52",
+			"notes": "100 mixes. B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "etQn1owVmh8l7elc0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e_Y4U9mB_eb2OA0ri"
+			},
+			"description": "Video Wall",
+			"reference": "UT51",
+			"notes": "Per square foot. External power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eaKKmdeAFTmhPStlQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eD93MwDx7bLe9QiWO"
+			},
+			"description": "Basic VR Suit",
+			"reference": "UT54",
+			"notes": "Requires Complexity 3+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 72000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e5zddlGwS5fjeeuiC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "epBKlrLkLMAM3ketS"
+			},
+			"description": "Full VR Suit",
+			"reference": "UT54",
+			"notes": "Requires Complexity 5+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 144000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 144000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eh2hbJtM4eFg6JhCo",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eMRjfooKTT3z6OXHy"
+			},
+			"description": "Small Sonic Projector",
+			"reference": "UT52",
+			"notes": "10-yard range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eZjV_9jvTeb0DWc7M",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e0gWHJ58ITQ8vD4z2"
+			},
+			"description": "Data Bank",
+			"reference": "UT51",
+			"notes": "Per 100TB.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eAxEWrMEpCt-_7ZtZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e0qadG5Lbsqy0NG4a"
+			},
+			"description": "Multi-Media Wall",
+			"reference": "UT51",
+			"notes": "Per square foot. External power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1280,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.05 lb"
+			}
+		}
+	]
+}

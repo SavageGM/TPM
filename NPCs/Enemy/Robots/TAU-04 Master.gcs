@@ -1,0 +1,4040 @@
+{
+	"version": 5,
+	"id": "AS4sfxpYVN6KfLJcR",
+	"total_points": 552,
+	"points_record": [
+		{
+			"when": "2025-04-30T14:24:27-04:00",
+			"points": 552,
+			"reason": "Reconcile"
+		}
+	],
+	"profile": {
+		"name": "TAU-04 Master",
+		"height": "6'",
+		"weight": "800 lb",
+		"player_name": "NPC",
+		"tech_level": "9"
+	},
+	"settings": {
+		"page": {
+			"paper_size": "letter",
+			"orientation": "portrait",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"traits skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"name": "ST",
+				"full_name": "Strength",
+				"attribute_base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "dx",
+				"type": "integer",
+				"name": "DX",
+				"full_name": "Dexterity",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "iq",
+				"type": "integer",
+				"name": "IQ",
+				"full_name": "Intelligence",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"name": "HT",
+				"full_name": "Health",
+				"attribute_base": "10",
+				"cost_per_point": 10
+			},
+			{
+				"id": "will",
+				"type": "integer",
+				"name": "Will",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fright Check",
+				"attribute_base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "vision",
+				"type": "integer",
+				"name": "Vision",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "hearing",
+				"type": "integer",
+				"name": "Hearing",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "taste_smell",
+				"type": "integer",
+				"name": "Taste \u0026 Smell",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "touch",
+				"type": "integer",
+				"name": "Touch",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Basic Speed",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "floor($basic_speed)",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"expression": "$fp-1"
+					},
+					{
+						"state": "Rested",
+						"expression": "$fp"
+					}
+				]
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"attribute_base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$hp*5)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"expression": "round(-$hp*4)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"expression": "round(-$hp*3)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"expression": "round(-$hp*2)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"expression": "-$hp",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"expression": "ceil($hp/3)-1",
+						"explanation": "Move and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"expression": "$hp-1"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$hp"
+					}
+				]
+			}
+		],
+		"body_type": {
+			"name": "4-Leg Robot",
+			"roll": "3d",
+			"locations": [
+				{
+					"id": "eye",
+					"choice_name": "Eyes",
+					"table_name": "Sensors",
+					"hit_penalty": -9,
+					"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 25
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Foreleg",
+					"slots": 3,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "3-5",
+						"dr": {
+							"all": 25
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 8,
+					"calc": {
+						"roll_range": "6-13",
+						"dr": {
+							"all": 25
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Hindleg",
+					"slots": 3,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "14-16",
+						"dr": {
+							"all": 25
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Arm",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "17-18",
+						"dr": {
+							"all": 25
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"hit_penalty": -3,
+					"description": "An attack that misses by 1 hits the torso instead. Heart,\nlungs, kidneys, etc. Increase the wounding modifier for an\nimpaling (imp) or any piercing (pi-, pi, pi+, pi++) attack\nto x3. Increase the wounding modifier for a tight-beam\nburning (burn) attack to x2. Other attacks cannot target the\nvitals.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 25
+						}
+					}
+				}
+			]
+		},
+		"damage_progression": "basic_set",
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"show_spell_adj": true
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": 0,
+			"calc": {
+				"value": 25,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "dx",
+			"adj": 0,
+			"calc": {
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "iq",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 0,
+			"calc": {
+				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "will",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 12,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"calc": {
+				"value": 11,
+				"current": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"calc": {
+				"value": 25,
+				"current": 25,
+				"points": 0
+			}
+		}
+	],
+	"traits": [
+		{
+			"id": "TfZ5BfPK4pk6Xw-2P",
+			"name": "Advantages",
+			"children": [
+				{
+					"id": "tP-Pv8EwM5XISI5eI",
+					"name": "Buzzsaw (3d)",
+					"reference": "RSWL20",
+					"tags": [
+						"Built-In Weapon",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m7CxueA_yzLUIF2e7",
+							"name": "Melee Attack (Reach 1)",
+							"reference": "B112",
+							"cost": -25
+						}
+					],
+					"points_per_level": 7,
+					"weapons": [
+						{
+							"id": "w6sr2tiZ_jL2nB4MH",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "1d",
+								"armor_divisor": 3
+							},
+							"usage": "Buzzsaw",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"level": 11,
+								"damage": "8d+7(3) cut",
+								"parry": "9"
+							}
+						}
+					],
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 16
+					}
+				},
+				{
+					"id": "tAWmmAc-wLpOPlLHw",
+					"name": "Damage Resistance",
+					"reference": "B47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m-COdPs4SGZxGOodP",
+							"name": "Force Field",
+							"reference": "B47",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mMK6_JncgYxFc-jWX",
+							"name": "Hardened",
+							"reference": "B47",
+							"cost": 20,
+							"levels": 1
+						},
+						{
+							"id": "mNknWtebDHpM0l1_F",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances @Trait@",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mAELk6wwAqRNOdgIq",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Healing only",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mFlUxAK_7g7yIR9uu",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances any trait",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m7GHk0grKSYqZoEc1",
+							"name": "Reflection",
+							"reference": "B47",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "m9mwx9ERk1-zqGwJd",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Rare@",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ms_gi_wgdd17vhKzi",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Occasional@",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "mJ06-0I_JfBjy7Kbt",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Common@",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "myXDLCjyENemiJ11z",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Very Common@",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "mLCbrms37t1EhnGYI",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "Front",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mW4IS2YetgvhtNLTN",
+							"name": "Flexible",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mdEfB7qchobvYygFS",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Very Common Attack Form@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mt_pnghKZIFrffei7",
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m_0QIZksPoAQJtbeT",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost": -40
+						},
+						{
+							"id": "mA8YRHJDVx8_2paPF",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mG32Z-iD2IUOmMkWV",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Common Attack Form@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "m9Tz_drDJllGmUzAk",
+							"name": "Tough Skin",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mbJXORKfvCyeV8LQQ",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Occasional Attack Form@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "m7TDuXYHwjEnf7OHn",
+							"name": "Ablative",
+							"reference": "B47",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mRLicgJhY9elm70rE",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Rare Attack Form@",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mZ7_aPFKXhOqkJ1pN",
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"eye"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"face"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"tail"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"wing"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"fin"
+							],
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"brain"
+							],
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 25,
+					"calc": {
+						"points": 100
+					}
+				},
+				{
+					"id": "tsBQcm2KUWdBbPd2X",
+					"name": "Discriminatory Smell",
+					"reference": "B49",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m68iU7kYRJ3ouTw4x",
+							"name": "Emotion Sense",
+							"reference": "B49",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mcOMMCOEky1qMOkbE",
+							"name": "Profiling",
+							"reference": "P47",
+							"cost": 50
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 23
+					}
+				},
+				{
+					"id": "thSmqY_JNf2f_tHeI",
+					"name": "Doesn't Eat or Drink",
+					"reference": "B50",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "twnAtBlFyzgVvUiCI",
+					"name": "Enhanced Move (Ground: 10)",
+					"reference": "B52",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mQsDI8nTPtF51tCXf",
+							"name": "Handling Bonus",
+							"reference": "B52",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mm6OMrtw28kOJ0iK2",
+							"name": "Handling Penalty",
+							"reference": "B52",
+							"cost": -5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "m9g9K89bZEoDZgER-",
+							"name": "Newtonian",
+							"reference": "B52",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mx4I_X1CNVl0PQomV",
+							"name": "Road-Bound",
+							"reference": "B52",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mfWJgI7dL4AfWe-YY",
+							"name": "All-Out",
+							"reference": "P49",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m7OuPjM3dN93Nbso2",
+							"name": "Cosmic",
+							"reference": "SU26",
+							"notes": "Instantaneous Acceleration",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mTKNxceY-7z0xPvvL",
+							"name": "Cosmic",
+							"reference": "SU27",
+							"notes": "Complete Maneuverability",
+							"cost": 50,
+							"disabled": true
+						}
+					],
+					"points_per_level": 20,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "tQMYBy5LjiE3DMuH5",
+					"name": "Extra Arm",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "maeNkgTeUAleOvtbk",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost": 50
+						},
+						{
+							"id": "mgHXUs3SKAXidO9KK",
+							"name": "Long",
+							"reference": "B53",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mTloTO1xoGmpJTtfg",
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mmoZ3YWhqUSEA8sYw",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mKCJ0yk_yXAyIPWxX",
+							"name": "Short",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m2Aro3KB2aibbyAKi",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Half body ST",
+							"cost": -25
+						},
+						{
+							"id": "m6GkcyrO-ansMiHXz",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Quarter body ST",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mB2REjmyE8Q_cjEHn",
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 13
+					}
+				},
+				{
+					"id": "tawFPdvwe3O4a-E6Y",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tLFklg798TKhdKuDn"
+					},
+					"name": "Extra Legs",
+					"reference": "B54",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mvk8Pr_ubCx7xfu-0",
+							"name": "@3 or 4@",
+							"reference": "B54",
+							"replacements": {
+								"3 or 4": "4"
+							},
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "mh25QxFqbppMPhaMj",
+							"name": "@5 or 6@",
+							"reference": "B55",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mX-XJWfFpuX-CdCMd",
+							"name": "@7+@",
+							"reference": "B55",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m8fVeKXddCaRAfWkR",
+							"name": "Long",
+							"reference": "B55",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mNaJgbX3BqVdBqNDu",
+							"name": "Cannot Kick",
+							"reference": "B55",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mlIQbZzSIdDkZTCB4",
+							"name": "Extra Flexible",
+							"reference": "MATG27",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mm3OqkclJOurA50Ql",
+							"name": "Prehensile Feet",
+							"reference": "MATG28",
+							"cost": 20,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "t3UwVJFwcbNFONhE9",
+					"name": "Extra Arm",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mNF1Pc1YL_r0fAwfb",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mwFcAhU5hLIheq9OI",
+							"name": "Long",
+							"reference": "B53",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mJDpO9byBYSd-DM4w",
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mLnFhsgYfhzgprm8-",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "myNheKWwyB_PRLNrd",
+							"name": "Short",
+							"reference": "B53",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mqVHEcvnaRQWlQ7dx",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Half body ST",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "m2w1hj03-YHkZK5OQ",
+							"name": "Weak",
+							"reference": "B53",
+							"notes": "Quarter body ST",
+							"cost": -50
+						},
+						{
+							"id": "mi5qtduH0OHdHQIUo",
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tgNUI83h39vZj54c6",
+					"name": "High Manual Dexterity",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mhQFiTWJ0QwcQEgLT",
+							"name": "Weak Arm Only",
+							"cost": -20
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "jeweler"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "knot-tying"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leatherworking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "lockpicking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "pickpocket"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sewing"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sleight of hand"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "surgery"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "machinist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "mechanic"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 8
+					}
+				},
+				{
+					"id": "tQTbplhXg3bcqiat-",
+					"name": "Infravision",
+					"reference": "B60",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mCp_8PMzAVU2UJbj9",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tmSSF2W6skeMC7-Ay",
+					"name": "Laser Torch (2d)",
+					"reference": "RSWL20",
+					"tags": [
+						"Built-In Weapon",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m8JVrhFlk8LJuDhHM",
+							"name": "Armor Divisor (2)",
+							"reference": "B102",
+							"cost": 50
+						},
+						{
+							"id": "mphOkYglH6InalJvC",
+							"name": "Melee Attack (Reach C, 1, Cannot Parry)",
+							"reference": "B112",
+							"cost": -25
+						}
+					],
+					"points_per_level": 5,
+					"weapons": [
+						{
+							"id": "wIV2c9DCnLoOn_DVy",
+							"damage": {
+								"type": "burn",
+								"base": "1d",
+								"armor_divisor": 2
+							},
+							"usage": "Laser Torch",
+							"reach": "C,1",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"level": 11,
+								"damage": "2d+2(2) burn"
+							}
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 13
+					}
+				},
+				{
+					"id": "tx1sBTiZfWX9mN7xM",
+					"name": "Microscopic Vision",
+					"reference": "B68",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tJ6w7l39sCCyehqRU",
+					"name": "Mind Probe",
+					"reference": "B69",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "m-aDwvQtlci1_dZWQ",
+							"name": "Cybernetic",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "moLojZRSf5hGk8wId",
+							"name": "Sensory",
+							"reference": "B69",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "miBknfTGrdG_6Bqe1",
+							"name": "Universal",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mHDCj3ZIXEkPEG_Xz",
+							"name": "Cybernetic Only",
+							"reference": "B70",
+							"cost": -50
+						},
+						{
+							"id": "mACYeRgXREKEKfIHi",
+							"name": "Racial",
+							"reference": "B70",
+							"notes": "@Race@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mF_0Rw1GNNmYCsY9s",
+							"name": "Sensory Only",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mfHKD3jWXF_Mk8tbk",
+							"name": "Telecommunication",
+							"reference": "B70",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mF4VTEl5qpzvwhpj6",
+							"name": "Invasive",
+							"reference": "P62",
+							"cost": 75,
+							"disabled": true
+						},
+						{
+							"id": "ma6Xi8hwGnVqFbiW1",
+							"name": "Memory Bank",
+							"reference": "P62",
+							"notes": "IQ snapshots",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mqxBkz4OFZZoQdAEx",
+							"name": "Memory Bank",
+							"reference": "P62",
+							"notes": "Unlimited snapshots",
+							"cost": 150,
+							"disabled": true
+						}
+					],
+					"base_points": 20,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tTAo8wON_1qk9i3nX",
+					"name": "Reduced Consumption",
+					"reference": "B80",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mRpIvmaRwGyGd6KPP",
+							"name": "Cast-Iron Stomach",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mWZ3Q_EPhU-EyR_Nn",
+							"name": "Food Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mYBu42MzUxuu0yx6n",
+							"name": "Water Only",
+							"reference": "B80",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 4,
+					"calc": {
+						"points": 8
+					}
+				},
+				{
+					"id": "tWsXnEzfhRlnWDhuy",
+					"name": "Sealed",
+					"reference": "B82",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "twOKf9Msl1z3QfJ5c",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m1R3S2X1BnXCm30p4",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mZeB6z_w7MxekOTrn",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mLooqMVOf0dFnuZHO",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mTLXo4253nXpoLufn",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mmtlRA7-VBtuzjRWq",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mLAp9EYom4Lc7C_yS",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "m9mcDjxEzyr72SdLx",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mkoDS4WEsgE2D5J0b",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40
+						},
+						{
+							"id": "mQ35LeYoRzhKmVnM3",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mj-7vB8kMlrJwquJ_",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "moPVvnu3-O8f7uwMB",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mAZpDThODBq8DgFEH",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mNXEljTpE0gaNcDqp",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ml-4xXlqlyGvQI65f",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mGHgTYuHyCfxVJOyI",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mM2FzroC1HQcCyCqr",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mz2aZWMgnUupJFPjg",
+							"name": "Burst",
+							"reference": "P81",
+							"cost": 30,
+							"levels": 1
+						},
+						{
+							"id": "mW3PxjXgXH2GpkVSJ",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "mNNWouxuh89gMQ4kD",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mgOI10MF3xW9ao8xv",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mfLVd2vPGPs7oIV5g",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 17
+					}
+				},
+				{
+					"id": "tbOumRhU65IiY0rO1",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m6HniaZCDZKGGDQFW",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m0IPyp2LFfbZ8Y3zq",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points"
+						},
+						{
+							"id": "mDJrKNX1JwrPp3kEJ",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mOQelwpja6HBSJEU5",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m3emcl8dYq6H7K3GG",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "ms5pSOyK4xPnqiVHL",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "my0EObvq-8dw3b7ss",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mWq_zazVS1bliSNeL",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40
+						},
+						{
+							"id": "mJ11MeygwaNM1SWQQ",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mxjF9T0_ipZyNpuTr",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "ml3nKo5x8v6hkSoeb",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mr4a8NEZFF-BNcAGX",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m5df9co3Yl6hU8kZ4",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "maTlf8s1FVQrC--iH",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m8qKXVgz7POFa9yKZ",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mM94drbTf_LU4cTR7",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-TrV5hDkreEF0KdT",
+							"name": "Burst",
+							"reference": "P81",
+							"cost": 30,
+							"levels": 1
+						},
+						{
+							"id": "mjC3Vc6Sw6Z9aX44_",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "m1ZFIyhDNlNf540oH",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mNOfCWJKPLa6Cb4pY",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mFzhdUiRsMUvxXCeK",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 26
+					}
+				},
+				{
+					"id": "ty8D2LElI3ADa_nId",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m6NcCkQDx1u-e5Ej4",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "maQ3x2jAce37fXFmq",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mC9SkNhKP8udBElIW",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "m8h9-oY2cR6j6kCRB",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mPHy3Pomy28hEcVaz",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mA1c6iVHRXCmmqTUf",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mwMWzFCZwBdz0LhJM",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mCdgexbXJ8BwDsCjr",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "mIHix7Cq94SXTf912",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mcbhx-BIIiTXiWsfH",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mHvjVsqESVrFyeetQ",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mQ-HW2jydT6b1DGc3",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mlKANA61dSc2xpzDs",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mCz-JLoFl3LTYYyM-",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m3YmnVj-X3Gvhq70F",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mlSo7sjecLawEMNWx",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mCDhUnRjZRdJxXoCM",
+							"name": "Burst",
+							"reference": "P81",
+							"cost": 30,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mo_HpttLMpNNXCWHJ",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "mm70X_XKLpq9rSl7A",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mM1iHq4AtH7CAncQF",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mGlqN9XrIRF3tku6q",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "miFCaawfOurOyheQb",
+							"name": "Increased Range",
+							"reference": "B106",
+							"cost": 10,
+							"levels": 4
+						}
+					],
+					"calc": {
+						"points": 14
+					}
+				}
+			],
+			"calc": {
+				"points": 323
+			}
+		},
+		{
+			"id": "TaMO0laiUAlCMU2Dx",
+			"name": "Attributes",
+			"children": [
+				{
+					"id": "tj4QE0-OMAPwUd-WQ",
+					"name": "Decreased Dexterity",
+					"reference": "B15",
+					"tags": [
+						"Attribute",
+						"Disadvantage",
+						"Physical"
+					],
+					"points_per_level": -20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "tJlFZf9dxfm8O3xyv",
+					"name": "Increased Health",
+					"reference": "B14",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "tnnD1y-PMtXzqun0O",
+					"name": "Increased Strength",
+					"reference": "B14",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mnVWREL0bkpAIOEcw",
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "mHkW685EZXRnxr4cA",
+							"name": "Size",
+							"reference": "B15",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mp9mJvzCdEuktN5dt",
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 15,
+					"calc": {
+						"points": 150
+					}
+				}
+			],
+			"calc": {
+				"points": 140
+			}
+		},
+		{
+			"id": "TyfNwTwAil1y6M-5H",
+			"name": "Disadvantages",
+			"children": [
+				{
+					"id": "t1A2Hw0bt9ZzkncCg",
+					"name": "Maintenance (Electronics Repair and Mechanic)",
+					"reference": "B143",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "ms4PBJhPhDyQwV7S8",
+							"name": "People Required: 1",
+							"reference": "B143",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "m8urMUBc8fpNwCG7t",
+							"name": "People Required: 2",
+							"reference": "B143",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mO4YrdH5sHdH-DFXE",
+							"name": "People Required: 3-5",
+							"reference": "B143",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mbX7S-3EA-bpwl-_K",
+							"name": "People Required: 6-10",
+							"reference": "B143",
+							"cost": -40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mms2h4QwEPiS-twzS",
+							"name": "People Required: 11-20",
+							"reference": "B143",
+							"cost": -50,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mEcrfjXIKYp6mRi54",
+							"name": "People Required: 21-50",
+							"reference": "B143",
+							"cost": -60,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mMJWZLjJYofQGzV_C",
+							"name": "People Required: 51-100",
+							"reference": "B143",
+							"cost": -70,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "msRcwcmGTP-PxZYLC",
+							"name": "People Required: 101-200",
+							"reference": "B143",
+							"cost": -80,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mxgwh7n2Kp1MGyBve",
+							"name": "People Required: 201-400",
+							"reference": "B143",
+							"cost": -90,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mVymqDYsh5AvQqj-B",
+							"name": "People Required: 401-800",
+							"reference": "B143",
+							"cost": -100,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m1XRdqhXnB0Bo_IQm",
+							"name": "People Required: 801-1600",
+							"reference": "B143",
+							"cost": -110,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m_TEBFDggASQhFN3e",
+							"name": "People Required: 1601-3200",
+							"reference": "B143",
+							"cost": -120,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mdiJJYGcH1vTDQP9V",
+							"name": "People Required: 3201-6400",
+							"reference": "B143",
+							"cost": -130,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mXm8pkzSgK6sg9jni",
+							"name": "People Required: 6401-12800",
+							"reference": "B143",
+							"cost": -140,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mPQA8hw55WgxNte9S",
+							"name": "People Required: 12801-25600",
+							"reference": "B143",
+							"cost": -150,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ms_v1csM13Raqy7mw",
+							"name": "Frequency: Monthly",
+							"reference": "B143",
+							"cost": 0.2,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mM31rqK1Ber7i5V2o",
+							"name": "Frequency: Bi-weekly",
+							"reference": "B143",
+							"cost": 0.3333,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mKD5l1zTIeA5C4b2-",
+							"name": "Frequency: Weekly",
+							"reference": "B143",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mINK0-2YJH82Ce49y",
+							"name": "Frequency: Every other day",
+							"reference": "B143",
+							"cost": 0.75,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mhBqoOUUmhVAGNnDU",
+							"name": "Frequency: Daily",
+							"reference": "B143",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m5pug3EOIzPvao21F",
+							"name": "Frequency: Twice daily",
+							"reference": "B143",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mjjxtjMKoh8CZA37C",
+							"name": "Frequency: Three to five times daily",
+							"reference": "B143",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m--G8QvxCN0OlOdQV",
+							"name": "Frequency: Constant",
+							"reference": "B143",
+							"cost": 5,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				}
+			],
+			"calc": {
+				"points": -2
+			}
+		},
+		{
+			"id": "TTqSPruNnoqKJzfEK",
+			"name": "Meta-Trait: Autonomous Unit",
+			"reference": "RSWL24",
+			"children": [
+				{
+					"id": "t7GjrLuds-TcAvJhP",
+					"name": "Accessory (Computer)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "t6Uwo-48X9S_S9rgt",
+					"name": "Attentive",
+					"reference": "B163",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tk5xyuWxNzsXLaoJl",
+					"name": "Broad-Minded",
+					"reference": "B163",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tV_pRdoIiP6GCOdc8",
+					"name": "Doesn't Breathe",
+					"reference": "B49",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mcUaz8_iZsqGoKzze",
+							"name": "Gills",
+							"reference": "B49",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m4u0U-munk5ewBtSc",
+							"name": "Gills",
+							"reference": "B49",
+							"notes": "Suffocates in air",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m_Le7CEW-QB_HySr_",
+							"name": "Oxygen Absorption",
+							"reference": "B49",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "mGtJ-qD9bilzR-Gjx",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"notes": "Can hold breath 25 times as long as normal",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mw-1isxP4yd7KbnRW",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"notes": "Can hold breath 50 times as long as normal",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "m54m6mja_1KjZjA7Z",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"notes": "Can hold breath 100 times as long as normal",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mUi5anWZ88sg1-tZx",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"notes": "Can hold breath 200 times as long as normal",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "m064vnoaehiVMYBE9",
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"notes": "Can hold breath 300 times as long as normal",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mArjSK0ymTwX5zh4N",
+							"name": "Oxygen Combustion",
+							"reference": "B49",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"base_points": 20,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "t3ysed3U6MzSisYWD",
+					"name": "Electrical",
+					"reference": "B134",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "tGsjHsC4XnxGlJDL1",
+					"name": "Enhanced Time Sense",
+					"reference": "B52",
+					"notes": "You immediately act in combat before those without Enhanced Time Sense; Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Combat Reflexes"
+								}
+							}
+						]
+					},
+					"base_points": 45,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "fast-draw"
+							},
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "dodge",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "parry",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "block",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "fright_check",
+							"amount": 2
+						}
+					],
+					"calc": {
+						"points": 45
+					}
+				},
+				{
+					"id": "tGVon69aHu4mvQxC2",
+					"name": "Extra Life",
+					"reference": "B55",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mzGdiWOPeQaHyzg5U",
+							"name": "Copy",
+							"reference": "B55",
+							"cost": -20
+						},
+						{
+							"id": "mBVD2joPEVIx_p-5v",
+							"name": "Requires Body",
+							"reference": "B55",
+							"cost": -20
+						},
+						{
+							"id": "mM10_33-daIw8RaA2",
+							"name": "Requires Body",
+							"reference": "B55",
+							"notes": "@Illegal, rare or expensive body@",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"points_per_level": 25,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tlKpSvXLQu9vSYQ77",
+					"name": "Fearlessness",
+					"reference": "B55",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "tNOFRJZ5o4cqX45OX",
+					"name": "Hidebound",
+					"reference": "B138",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tH5TE1yJmlDLonRc-",
+					"name": "Honesty",
+					"reference": "B138",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 9,
+					"base_points": -10,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t3c5IvvRm2ra0jtd9",
+					"name": "Injury Tolerance (No Neck)",
+					"reference": "B61",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tMC4KUIZhjs77rTUR",
+					"name": "Low Empathy",
+					"reference": "B142",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "oblivious"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "callous"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "empathy"
+								}
+							}
+						]
+					},
+					"base_points": -20,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "acting"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "carousing"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "criminology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "detect lies"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "enthrallment"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "interrogation"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "politics"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "psychology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "savoir-faire"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sociology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							},
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "TvFvV098MTys-pyid",
+					"name": "Meta-Trait: Artificial Intelligence",
+					"reference": "B263",
+					"children": [
+						{
+							"id": "tL5BcQxxWye1lwwdQ",
+							"name": "Absolute Timing",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mhAbXJ6lvJkvG8bOQ",
+									"name": "Chronolocation",
+									"cost": 3,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"base_points": 2,
+							"calc": {
+								"points": 2
+							}
+						},
+						{
+							"id": "t3gO-DuSZgzridX13",
+							"name": "Digital Mind",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tM4vPzRAFOVXauTfI",
+							"name": "Doesn't Sleep",
+							"reference": "B50",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "tKO8jGkIfhz5Qs7xO",
+							"name": "Eidetic Memory",
+							"reference": "B51",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mZ_AIdLXtFmZIxWW5",
+									"name": "Photographic",
+									"reference": "B51",
+									"cost": 5,
+									"cost_type": "points"
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tM9YiZfRUHqFUWQvp",
+							"name": "Lightning Calculator",
+							"reference": "B66",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mW7cHppRzhO4IwsH-",
+									"name": "Intuitive Mathematician",
+									"reference": "B66",
+									"cost": 3,
+									"cost_type": "points"
+								}
+							],
+							"base_points": 2,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tAIZ6HBV95uikvdJI",
+							"name": "Reprogrammable",
+							"reference": "B150",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Mental"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						}
+					],
+					"calc": {
+						"points": 32
+					}
+				},
+				{
+					"id": "TK0oHiFXOmt_l2X7n",
+					"name": "Meta-Trait: Machine",
+					"reference": "B263",
+					"children": [
+						{
+							"id": "tCIf6IGBvvyy3bgdK",
+							"name": "Eight-hour energy reserve, Refuel 3 times per day",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "t44PvrTwlCPj7oKki",
+							"name": "Injury Tolerance (No Blood)",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "t6H4-eLvsGWSdjJJu",
+							"name": "Injury Tolerance (Unliving)",
+							"reference": "B61",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "t6oR2ze2J3nUTIPay",
+							"name": "No fatigue points, Don't spend fatigue points",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tO52GBZJiAUObKJUQ",
+							"name": "Resistant",
+							"reference": "B81",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mPLk0522HO8cKbX0y",
+									"name": "Metabolic Hazards",
+									"reference": "B80",
+									"cost": 30,
+									"cost_type": "points"
+								},
+								{
+									"id": "mQm4gc2PdUMCjOq4p",
+									"name": "@Common: Poison, Sickness, etc.@",
+									"reference": "B81",
+									"cost": 15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mOcLKrHSxZHLtYl3V",
+									"name": "@Occasional: Disease, Ingested Poison, etc.@",
+									"reference": "B81",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mPbc2S27TOpkX6bjA",
+									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+									"reference": "B81",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mVsef1A2KP0VEicQW",
+									"name": "Immunity",
+									"reference": "B81",
+									"cost": 1,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "mVWHTkIo3z6I4xb2Z",
+									"name": "+8 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.5,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "m3_9ixnM638oV7krD",
+									"name": "+3 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 30
+							}
+						},
+						{
+							"id": "t5nzKIuE-rP-c4gsZ",
+							"name": "Unhealing (Total)",
+							"reference": "B160",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -30,
+							"calc": {
+								"points": -30
+							}
+						},
+						{
+							"id": "tmhtRIUTtO0dh64Ha",
+							"name": "Wears out instead of aging",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "tl2dgd9CY8y_6U4d3",
+					"name": "Numb",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "th4Voyv92rc9Uq6vD",
+					"name": "Social Stigma (Valuable Property)",
+					"reference": "B156",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "teX0-Re5hMclbK4_X",
+					"name": "Staid",
+					"reference": "B164",
+					"tags": [
+						"Mental",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "t2bMU3KWaqEcgfdH1",
+					"name": "Sterile",
+					"tags": [
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tc66bK0T8y-FdnLDA",
+					"name": "Taboo Traits (Physical Changes)",
+					"tags": [
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tdgPYBFmbzERtWy93",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mroQQNIY8ThQwiu5M",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mTumNkX_kC21WwRjo",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-Cp0x3xQ6BOflxnq",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mcG3rSDTyY0UACNy2",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mXIq4OgzT3lp995ze",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "maINCsUPw-9O6YQC1",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mGp-YEDIqnX20l0Cp",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mnujCJKwfHOY662CX",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40
+						},
+						{
+							"id": "mRdaSlBde96Oqac1J",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mgm2tVAS6Deeu4772",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m40nHahAHlOoFEC6Z",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mx5jdhzFUh8hlNaUj",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m18pljVGThViV2SCw",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mrcLdOF8ksEHE4uUp",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mL_AJOlexL6-jqcpz",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "miZ6-0hD-BGd9Awdy",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m39FiKZgFVJRj19X2",
+							"name": "Burst",
+							"reference": "P81",
+							"cost": 30,
+							"levels": 1
+						},
+						{
+							"id": "mqOZ6iz_LTgp79b8C",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "mgEVxSS425QN7S3GD",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m4UYtZfJF5frx_kZK",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 17
+					}
+				},
+				{
+					"id": "tUwYR0ixhU_rgpjKi",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mPRsHsuRuaE6XhNIs",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mLJ2JQNY0otVHAOXC",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mJcMIZrd0s3ebxYH3",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mOZFjvY7u7RlCKD5q",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ment2aQqK4RxWryta",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mGI0ezDsGa2MtdXRQ",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mZMVWN_DYkqemHAHN",
+							"name": "Universal",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "mCTIBVF03emFs1SmC",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40
+						},
+						{
+							"id": "mmvEP2Mb19pxRvB7T",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mOJrkBerq0g2qx47y",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "m_xjeek1EjQMrPEt3",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "myF8HbFgj1NFJjRGf",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "mpnn2zJ--LvegRLXQ",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mMUb-JQK_yUR12V0w",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mo_rgfGv9-rV0zuiR",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mppzT5BVdtZ7ccziV",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m7Q0PFZjgssLVKKqB",
+							"name": "Burst",
+							"reference": "P81",
+							"cost": 30,
+							"levels": 1
+						},
+						{
+							"id": "m5g4ucjL77oWU2ZQE",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "msElqCkUWnFUqVJDd",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mliPQScYEx7WTsXp5",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "mYGWwUH2ZXEpI2h7Q",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 9
+					}
+				},
+				{
+					"id": "tjn6QnqHFlImw8vnY",
+					"name": "Unaging",
+					"reference": "B95",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m135yIjQRDQayMvbZ",
+							"name": "Age Control",
+							"reference": "B95",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "mJqQt50lwHLtiJ_UB",
+							"name": "IQ Only",
+							"reference": "RSWL24",
+							"cost": -75
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "t5BmWi6NTde-ieNRO",
+					"name": "Visualization",
+					"reference": "B96",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "m3onqb9t7GzNzeb-8",
+							"name": "Blessing",
+							"reference": "P87",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mHQv6qHXqtwQR1Ofn",
+							"name": "Blessing",
+							"reference": "P87",
+							"notes": "Others Only",
+							"disabled": true
+						},
+						{
+							"id": "mLU3DaU3pAuTE5aou",
+							"name": "Cursing",
+							"reference": "P87",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "mpfZzVd2fZVMAVJTv",
+							"name": "Reliable",
+							"reference": "P109",
+							"cost": 5,
+							"levels": 4
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 12
+					}
+				},
+				{
+					"id": "tuW_OhPhURKR5pbEe",
+					"name": "Wealth",
+					"reference": "B25",
+					"tags": [
+						"Advantage",
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "meSirE723-2a2XcGI",
+							"name": "Dead Broke",
+							"reference": "B25",
+							"notes": "Starting wealth is $0",
+							"cost": -25,
+							"cost_type": "points"
+						},
+						{
+							"id": "mwR_rFYwAxWpqcU59",
+							"name": "Poor",
+							"reference": "B25",
+							"notes": "Starting wealth is 1/5 average",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mPQ4ZvdWPCHFTmk9o",
+							"name": "Struggling",
+							"reference": "B25",
+							"notes": "Starting wealth is 1/2 average",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mZ4uh-JT_Tre-GthW",
+							"name": "Average",
+							"reference": "B25",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mxKeROmKTM5P3zaAG",
+							"name": "Comfortable",
+							"reference": "B25",
+							"notes": "Starting wealth is 2x average",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mzLii-QqPg1nV7OrC",
+							"name": "Wealthy",
+							"reference": "B25",
+							"notes": "Starting wealth is 5x average",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mejewBIh-ftDHxpjb",
+							"name": "Very Wealthy",
+							"reference": "B25",
+							"notes": "Starting wealth is 20x average",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mR2fiYVakPz28HCTI",
+							"name": "Filthy Rich",
+							"reference": "B25",
+							"notes": "Starting wealth is 100x average",
+							"cost": 50,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -25
+					}
+				}
+			],
+			"calc": {
+				"points": 71
+			}
+		},
+		{
+			"id": "TP7V0_EPoYHFwVQUg",
+			"name": "Perks",
+			"children": [
+				{
+					"id": "tiDCpWFU_oLy0v-8U",
+					"name": "Accessory (Flashlight)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "t2F8b-MvfUFeZKY2v",
+					"name": "Accessory (IFF Transponder)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "t42YtV_OQGF650Tnq",
+					"name": "Accessory (Portable toolkit for Armoury (choose speciality))",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tDXcKDVMKB8_iE9Z8",
+					"name": "Accessory (Portable toolkit for Electronics Repair (Computers))",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tpEhxLIPZonG-FjRy",
+					"name": "Accessory (Portable toolkit for Machinist (Robotics))",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "tI966M2gZ__JRN6BM",
+					"name": "Accessory (Portable toolkit for Mechanic (Robotics))",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 6
+			}
+		},
+		{
+			"id": "TG2Ik0kjTCSs1ryTK",
+			"name": "Quirks",
+			"children": [
+				{
+					"id": "tg-PW5Hu2GC6Ufj7w",
+					"name": "Cannot Float",
+					"reference": "B165",
+					"tags": [
+						"Physical",
+						"Quirk"
+					],
+					"base_points": -1,
+					"calc": {
+						"points": -1
+					}
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "T3dLhOyQ4VpLhkRpp",
+			"name": "Secondary Characteristics",
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "saiI4q4Nnar8b-_I3",
+			"name": "Administration",
+			"reference": "B174",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 9,
+				"rsl": "IQ-1"
+			}
+		},
+		{
+			"id": "sbwBq2e8sD6D0Gnk-",
+			"name": "Computer Operation",
+			"reference": "B184",
+			"tags": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"tech_level": "3",
+			"points": 8,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 13,
+				"rsl": "IQ+3"
+			}
+		},
+		{
+			"id": "s9dHP2iC6YrLZ2mxV",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Computer",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Computer Operation",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"tech_level": "3",
+			"points": 1,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Computer Operation",
+				"modifier": -3,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": 2
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "sf-O1F5IBYHjod0yC",
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Robotics",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Robotics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "3",
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "sZ1Cz10zi-Vg8SJke",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Skills.skl",
+				"id": "shtDdl5thrvKSnJHf"
+			},
+			"name": "Brawling",
+			"reference": "B182,MA55",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
+			"points": 4,
+			"calc": {
+				"level": 11,
+				"rsl": "DX+2"
+			}
+		}
+	],
+	"created_date": "2025-04-30T14:24:27-04:00",
+	"modified_date": "2025-04-30T14:44:33-04:00",
+	"calc": {
+		"swing": "5d-1",
+		"thrust": "2d+2",
+		"basic_lift": "125 lb",
+		"dodge_bonus": 1,
+		"parry_bonus": 1,
+		"block_bonus": 1,
+		"move": [
+			5,
+			4,
+			3,
+			2,
+			1
+		],
+		"dodge": [
+			9,
+			8,
+			7,
+			6,
+			5
+		]
+	}
+}

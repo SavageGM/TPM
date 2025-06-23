@@ -1,0 +1,2663 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "Es8Q4UjKEVDG0C2lb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EOO1ejeO_8UQe0rge"
+			},
+			"description": "Belt Holster",
+			"reference": "HT153",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 50,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "E6KMd7nIFqkT2YcQN",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EL2EjPmxD2ItqeD8N"
+			},
+			"description": "Cartridge Bandoleer",
+			"reference": "HT54",
+			"notes": "Holds 50 rounds.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 15,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fibIeqTrvTPOFDeTm",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				},
+				{
+					"id": "f9i9PPDeGU6xOt5kq",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EY8y09zV-R-pxw5rW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EoIxLRhWZTL1L88xB"
+			},
+			"description": "Drag Bag",
+			"reference": "HT161",
+			"notes": "DR 1.",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 250,
+			"weight": "4 lb",
+			"modifiers": [
+				{
+					"id": "fAmyHvLOnrkUSFTeK",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "E207Q-7C6OIsGOuqs",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "E9Tts6I5_KVPTY10W"
+			},
+			"description": "Fast-Draw Rig",
+			"reference": "HT154",
+			"notes": "+2 Fast-Draw (Pistol).",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 500,
+			"weight": "3 lb",
+			"modifiers": [
+				{
+					"id": "fsO-45H0rSkp2X13C",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "EmBA7cn70nm-lJ4ZZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EjThC8P-538B1mVgS"
+			},
+			"description": "Gun Case",
+			"reference": "HT160",
+			"notes": "DR 2.",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 250,
+			"weight": "25 lb",
+			"modifiers": [
+				{
+					"id": "fjbCvv6DU0wK4hmTL",
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "EaS0DCWngUi6afxai",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EDmn_Aa0inGlIZ48s"
+			},
+			"description": "Lanyard, Leather",
+			"reference": "B289",
+			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 2, HP 2.",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EojucozvBdZkmOmIF",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "ErfKgPoE0MFAlKPEG"
+			},
+			"description": "Lanyard, Woven Steel",
+			"reference": "B289",
+			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 6, HP 4.",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 60,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EYDCNvKYSNzLmPpyN",
+			"description": "Magazines",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EG2iSBUBHXhfVRNNR",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Ammo, Air Gun.eqp",
+						"id": "eocZKwux8h-5Y16Zh"
+					},
+					"description": "FN 303, .68 FN magazine",
+					"reference": "HT88",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Air Gun",
+						"Ammo",
+						"Firearms"
+					],
+					"value": 336,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 336,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "E9fbUvpP-ZfIp-jTU",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+						"id": "ECDI9wN-KEHf7JOi4"
+					},
+					"description": "Magazine Colt M4A1",
+					"tech_level": "8",
+					"legality_class": "4",
+					"tags": [
+						"Ammo",
+						"Magazine"
+					],
+					"value": 64.8,
+					"weight": "0.891 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_quantity_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 30
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 64.8,
+						"extended_weight": "0.891 lb"
+					}
+				},
+				{
+					"id": "E5c7Khn0bLglPW07a",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EChiF6FnIAN-KONJB"
+					},
+					"description": "ERMA MP40, 9x19mm 32-round magazine",
+					"reference": "HT124",
+					"tech_level": "7",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"SMG"
+					],
+					"value": 155.2,
+					"weight": "0.668 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 155.2,
+						"extended_weight": "0.668 lb"
+					}
+				},
+				{
+					"id": "EK8lOu3bhlLZWA0pC",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EU5pbOHWaCBkjKqsQ"
+					},
+					"description": "FN BAR Magnum, .300 WM 4-round magazine",
+					"reference": "HT120",
+					"tech_level": "7",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Rifle"
+					],
+					"value": 160,
+					"weight": "0.128 lb",
+					"weapons": [
+						{
+							"id": "WsBFSLyJ1nD5NVEhV",
+							"damage": {
+								"type": "pi",
+								"base": "8d+1"
+							},
+							"strength": "10†",
+							"accuracy": "5",
+							"range": "1,600",
+							"rate_of_fire": "3",
+							"shots": "4+1(3)",
+							"bulk": "-6",
+							"recoil": "4",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "8d+1 pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 160,
+						"extended_weight": "0.128 lb"
+					}
+				},
+				{
+					"id": "ECb5uYtHxIXenzCbG",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EuZSjp0sjiI_sv87t"
+					},
+					"description": "FN FAL, 7.62X51mm 20-round magazine",
+					"reference": "HT115",
+					"tech_level": "7",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Rifle"
+					],
+					"value": 120,
+					"weight": "0.58 lb",
+					"weapons": [
+						{
+							"id": "W_cY7R6FZWJUppvbN",
+							"damage": {
+								"type": "pi",
+								"base": "7d-1"
+							},
+							"strength": "10†",
+							"accuracy": "5",
+							"range": "900/3,900",
+							"rate_of_fire": "11",
+							"shots": "20+1(3)",
+							"bulk": "-5*",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "7d-1 pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.58 lb"
+					}
+				},
+				{
+					"id": "EFopqCKZpkRrI-QBW",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "E353Z9IVhUc1Fq1jm"
+					},
+					"description": "FN Five-seveN, 5.7x28mm 20-round magazine",
+					"reference": "HT101",
+					"notes": "Accessory rail.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 480,
+					"weight": "0.14 lb",
+					"weapons": [
+						{
+							"id": "W6nrKwqG9n6SDHw7o",
+							"damage": {
+								"type": "pi-",
+								"base": "2d+2",
+								"armor_divisor": 2
+							},
+							"strength": "8",
+							"accuracy": "2",
+							"range": "170/1,700",
+							"rate_of_fire": "3",
+							"shots": "20+1(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d+2(2) pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 480,
+						"extended_weight": "0.14 lb"
+					}
+				},
+				{
+					"id": "EIE1zImvixG7Lv7zH",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EhGHapolyQ86P6oEm"
+					},
+					"description": "FN MK 16 MOD 0, 5.56x45mm 30-round magazine",
+					"reference": "HT121",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Rifle"
+					],
+					"value": 304,
+					"weight": "0.19 lb",
+					"weapons": [
+						{
+							"id": "Wf33sIEMcqthZ8LVH",
+							"damage": {
+								"type": "pi",
+								"base": "4d"
+							},
+							"strength": "9†",
+							"accuracy": "4",
+							"range": "600/2,500",
+							"rate_of_fire": "9",
+							"shots": "30+1(3)",
+							"bulk": "-4*",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "4d pi"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fxA5nhQfE2UJfcFAI",
+							"name": "TL8 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x16",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 304,
+						"extended_weight": "0.19 lb"
+					}
+				},
+				{
+					"id": "ETsnmeJ36Eo9q8s3V",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EwnbRiJUoqEFG1GbP"
+					},
+					"description": "FN MK 17 MOD 0, 7.62x51mm 20-round magazine",
+					"reference": "HT122",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Rifle"
+					],
+					"value": 288,
+					"weight": "0.48 lb",
+					"weapons": [
+						{
+							"id": "WtfIHmeDfHYn6c25_",
+							"damage": {
+								"type": "pi",
+								"base": "5d+1"
+							},
+							"strength": "10†",
+							"accuracy": "4",
+							"range": "700/3,000",
+							"rate_of_fire": "9",
+							"shots": "20+1(3)",
+							"bulk": "-4*",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "5d+1 pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 288,
+						"extended_weight": "0.48 lb"
+					}
+				},
+				{
+					"id": "EZuYLyn6mW8WUkw0C",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EmPJiWNps9LQ8Xp8T"
+					},
+					"description": "FN P90, 5.7x28mm magazine 50-round magazine",
+					"reference": "HT124",
+					"tech_level": "8",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"SMG"
+					],
+					"value": 560,
+					"weight": "0.35 lb",
+					"weapons": [
+						{
+							"id": "Wep-PSx8QKrLBUkoD",
+							"damage": {
+								"type": "pi-",
+								"base": "3d-1",
+								"armor_divisor": 2
+							},
+							"strength": "8†",
+							"accuracy": "4",
+							"range": "180/1,900",
+							"rate_of_fire": "15",
+							"shots": "50+1(5)",
+							"bulk": "-3",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "3d-1(2) pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 560,
+						"extended_weight": "0.35 lb"
+					}
+				},
+				{
+					"id": "EEPxxnLLmJWlVt33a",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EMqB0rAychbZ7JUUu"
+					},
+					"description": "FN-Browning High Power, 9x19mm 13-round magazine",
+					"reference": "HT101",
+					"tech_level": "6",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 124.4,
+					"weight": "0.162 lb",
+					"weapons": [
+						{
+							"id": "WNEjcphutx4gE2ip_",
+							"damage": {
+								"type": "pi",
+								"base": "2d+2"
+							},
+							"strength": "9",
+							"accuracy": "2",
+							"range": "160/1,800",
+							"rate_of_fire": "3",
+							"shots": "13+1(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d+2 pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 124.4,
+						"extended_weight": "0.162 lb"
+					}
+				},
+				{
+					"id": "EJUiBRPtWoJQY7mgU",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EGZlD6O6_rIFd_YPj"
+					},
+					"description": "Glock 17, 9x19mm 15-round magazine",
+					"reference": "HT100",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 360,
+					"weight": "0.11 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 360,
+						"extended_weight": "0.11 lb"
+					}
+				},
+				{
+					"id": "ENdwl3k6CCT2p5byK",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "ETOneznC-avQ1w1Up"
+					},
+					"description": "Glock 17, 9x19mm 19-round magazine",
+					"reference": "HT100",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 428.8,
+					"weight": "0.506 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 428.8,
+						"extended_weight": "0.506 lb"
+					}
+				},
+				{
+					"id": "EBPne-qIx5UCzBsoI",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EbkL8X1cxjIUmZ9F3"
+					},
+					"description": "IMI Uzi, 9x19mm 25-round magazine",
+					"reference": "HT126",
+					"tech_level": "7",
+					"legality_class": "4",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"SMG"
+					],
+					"value": 164,
+					"weight": "0.45 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 164,
+						"extended_weight": "0.45 lb"
+					}
+				},
+				{
+					"id": "EM6LWwVC-6EctmiJ0",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EptMooZb93EeTWAoS"
+					},
+					"description": "Intratec TEC-9, 9x19mm 20-round magazine",
+					"reference": "HT102",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 352,
+					"weight": "0.28 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 352,
+						"extended_weight": "0.28 lb"
+					}
+				},
+				{
+					"id": "EzaGp9HfOFrDmS22e",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EUolY27xOcZztLcpr"
+					},
+					"description": "Intratec TEC-9, 9x19mm 50-round magazine",
+					"reference": "HT102",
+					"notes": "-1 Bulk.",
+					"tech_level": "8",
+					"legality_class": "3",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 240,
+					"weight": "0.3 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 240,
+						"extended_weight": "0.3 lb"
+					}
+				},
+				{
+					"id": "EBp-F5h0zw_tzEO0M",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "E2eJ65GnWxLLSVaLb"
+					},
+					"description": "Magazine, MAC-Ingram M10, 9x19mm 32-round magazine",
+					"reference": "HT124",
+					"tech_level": "7",
+					"legality_class": "4",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"SMG"
+					],
+					"value": 155,
+					"weight": "0.468 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 155,
+						"extended_weight": "0.468 lb"
+					}
+				},
+				{
+					"id": "EQpOR8v_kYumx0r09",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EdpD5YcAvfLp6SSob"
+					},
+					"description": "SIG-Sauer P226, 9x19mm 20-round magazine",
+					"reference": "HT102",
+					"tech_level": "8",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Pistol"
+					],
+					"value": 352,
+					"weight": "0.28 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 352,
+						"extended_weight": "0.28 lb"
+					}
+				},
+				{
+					"id": "E0xx4c8ZEG1tTy4sT",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "Ez8geP2V7LiyhuwZk"
+					},
+					"description": "Springfield M14, 7.62x51mm 20-round magazine",
+					"reference": "HT120",
+					"tech_level": "7",
+					"legality_class": "2",
+					"tags": [
+						"Ammo",
+						"Firearms",
+						"Magazine",
+						"Rifle"
+					],
+					"value": 120,
+					"weight": "0.48 lb",
+					"weapons": [
+						{
+							"id": "WBr3uE8fUUp7gK7gs",
+							"damage": {
+								"type": "pi",
+								"base": "7d"
+							},
+							"strength": "10†",
+							"accuracy": "5",
+							"range": "1,000/4,200",
+							"rate_of_fire": "12",
+							"shots": "20+1(3)",
+							"bulk": "-5",
+							"recoil": "3",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "7d pi"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.48 lb"
+					}
+				},
+				{
+					"id": "EwDmqKYc04Ar7FPcP",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Ammo\\Magazines.eqp",
+						"id": "EmjjpYnmy4xxUjJ1s"
+					},
+					"description": "IMI Desert Eagle, .50 AE 7 Round Magazine",
+					"reference": "HT101",
+					"tech_level": "7",
+					"legality_class": "4",
+					"tags": [
+						"Magazine"
+					],
+					"value": 18.8,
+					"weight": "0.047 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 18.8,
+						"extended_weight": "0.047 lb"
+					}
+				},
+				{
+					"id": "eCof6wGWr88GPY6m4",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 9\\Magazines  TL 9.eqp",
+						"id": "eeelsJlAWlotSTNnm"
+					},
+					"description": "Holdout Pistol, 7.5mmCLP Magazine",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Ammo",
+						"Magazine"
+					],
+					"value": 17.28,
+					"weight": "0.011 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 17.28,
+						"extended_weight": "0.011 lb"
+					}
+				},
+				{
+					"id": "EWPMPJOqnI5dzsqQA",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "ATE\\ATE UT Equipment\\ATE UT Weapons.eqp",
+						"id": "EQX5xMI5ZgLBIS5I8"
+					},
+					"description": "Magazine, Heavy Pistol, 10mmCLP",
+					"tech_level": "9",
+					"legality_class": "4",
+					"value": 172,
+					"weight": "0.025 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 172,
+						"extended_weight": "0.025 lb"
+					}
+				},
+				{
+					"id": "EUbeDVQqMgx9kxWg1",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 9\\Magazines  TL 9.eqp",
+						"id": "EbSaccf14sBzW4wuF"
+					},
+					"description": "Magazine, Gyroc Carbine",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Magazine"
+					],
+					"value": 1600,
+					"weight": "0.4 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "0.4 lb"
+					}
+				},
+				{
+					"id": "E0BGTGQNJeDN1LGX7",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 9\\Magazines  TL 9.eqp",
+						"id": "Egkxs-Pm8-6L6jIlf"
+					},
+					"description": "NG-10 Machine Pistol Magazine",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Ammo",
+						"Pistol. Magazine"
+					],
+					"value": 67.2,
+					"weight": "0.05 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_quantity_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 30
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 67.2,
+						"extended_weight": "0.05 lb"
+					}
+				},
+				{
+					"id": "ESVni1h3GFpMyiMQU",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "EFYxXJybq_ER22L1K"
+					},
+					"description": "Magazine BI-25, 25mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 2560,
+					"weight": "3.8 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_quantity_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 8
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2560,
+						"extended_weight": "3.8 lb"
+					}
+				},
+				{
+					"id": "EkX0BBfsrM0CwKb7D",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "ERVSGqZz8lU8TLNDs"
+					},
+					"description": "Magazine, SA Model 21, 10mmCL",
+					"notes": "interchangable with SA Model 28",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 576,
+					"weight": "0.08 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 576,
+						"extended_weight": "0.08 lb"
+					}
+				},
+				{
+					"id": "Elv4WotQbGtaTGg-8",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "E1ECMDAobDTZuUeGk"
+					},
+					"description": "Magazine, SA Model 28, 10mmCLR",
+					"notes": "interchangable with SA Model 21",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Accessory",
+						"Magazine"
+					],
+					"value": 864,
+					"weight": "0.1 lb",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 864,
+						"extended_weight": "0.1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10639.48,
+				"extended_weight": "10.976 lb"
+			}
+		},
+		{
+			"id": "EiKLr1abBw7YY7PnL",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EJhj3C9UaDsvDr2Z_"
+			},
+			"description": "Military Holster",
+			"reference": "HT154",
+			"notes": "-2 Fast-Draw (Pistol).",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "EepKc5Guu81gRxb5E",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "Eepk3qgoPTimEP0oh"
+			},
+			"description": "Patrol Sling",
+			"reference": "HT154",
+			"notes": "+1 Fast-Draw (Long Arm).",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "Ehv2ZJXq8xmSOh99r",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "E5HwHQTmL_cEEvjzx"
+			},
+			"description": "Rifle Sling",
+			"reference": "HT154",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "E3PJpc1z3b5-3mJWW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "Ew0yNf6HjY25Ir3u1"
+			},
+			"description": "Scabbard",
+			"reference": "HT154",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 50,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EMaakMxrMD9SG1ZWw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EvWK4cGFytlCrGb5N"
+			},
+			"description": "Shoulder Holster",
+			"reference": "HT154",
+			"notes": "-1 Fast-Draw (Pistol).",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EzNbWix83-Ek7A5jI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "Egys13rHwjDiVxNWr"
+			},
+			"description": "Sleeve Holster",
+			"reference": "HT154",
+			"notes": "-2 Holdout.",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 1000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ENicc-DixtSgfNJ3r",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "EckQdEz3rEfyj3OSe"
+			},
+			"description": "Undercover Holster",
+			"reference": "HT154",
+			"notes": "-1 Fast-Draw (Pistol), +1 Holdout",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 1000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e7LQJXn8fCItReLuf",
+			"description": "Accessory Rail",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 3200,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eIBcH8a2ZrIipqXGJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eF46oUfgAMeeTo4_b"
+			},
+			"description": "Accessory Rail",
+			"reference": "HT161",
+			"notes": "Per facing.",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 200,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fySIhMLprJu9Dytju",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eFjjOTkN7J673q9XK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eVcncAdsMtqq09Ceo"
+			},
+			"description": "Advanced Night Sight, Add-On",
+			"reference": "HT156",
+			"notes": "Night Vision 7. 2xXS/90hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 1500,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fImPZLl_pPNAi4M3y",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eN9ROwoHIigzWBxEc",
+			"description": "Articulated Weapon Harness (@Weapon@)",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "egGuCBYh-AXrM3rQe",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "e0Pi9ho9ijGrqfVCm"
+			},
+			"description": "Bipod",
+			"reference": "HT160",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "fqxiPRjJcW1CK_3BM",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoKH7hbscQ46lieI8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eQBoSJSjcBSluuIvM"
+			},
+			"description": "Bipod",
+			"reference": "HT160",
+			"tech_level": "8",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 100,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fiJ1jRCSjQ0UqBRR8",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ehYTLjZPVLwlQWg-B",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eMZMsORgmYqBjJShu"
+			},
+			"description": "Collimating Sight, Battery",
+			"reference": "HT156",
+			"notes": "XS/250hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 250,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fv5ykfUCeeFplB_-g",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "en7ZyubyEO0KxbQEc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "e3FWS_WtphIfqfyBt"
+			},
+			"description": "Collimating Sight, Tritium",
+			"reference": "HT156",
+			"tech_level": "7",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 400,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fM2NzBT2xQmFam09B",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "erLPJz_20HXIhIg7v",
+			"description": "Compact Targeting Scope",
+			"reference": "UT149",
+			"notes": "+2 to aimed shots. A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 32000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eE21TQPMXO7jUHl68",
+			"description": "D-Tag",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 640,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eVD1WknWQ2ODdU4Kw",
+			"description": "Enhanced Targeting Scope",
+			"reference": "UT149",
+			"notes": "+3 to aimed shots. Hyperspectral Vision 8x. Tunnel Vision. B/400hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 256000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 256000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eJhQWAqehzOLMGjss",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eBEerrY3ukYJlVvUF"
+			},
+			"description": "Folding Stock",
+			"reference": "HT160",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 100,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fKjBZRB9d4PlFwkf8",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eaMKQ3xmMOkqpAze_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "ekn1LIHqSND_CH1E6"
+			},
+			"description": "Gun-Cleaning Kit",
+			"reference": "HT160",
+			"tech_level": "4",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 20,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eLJ-E-9Efalcx1pXS",
+			"description": "Gyrostabilized Weapon Harness",
+			"reference": "UT150",
+			"notes": "Plus $200 and 1lb. per pound of loaded weight.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 32000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ez1NA1pECZjAfJUES",
+			"description": "IFF Interrogator",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ei-jnpqF-7EPJz9vA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "egnTa5bvNpanhykYZ"
+			},
+			"description": "Integral Targeting Laser (Shoulder Arm)",
+			"reference": "HT157",
+			"notes": "750-yard range. 2xXS/100hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 900,
+			"modifiers": [
+				{
+					"id": "fgn1wL68S83m8l4KQ",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "edLGUmMpAsetrtUOX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "esKoCWO_oPpZO-K4M"
+			},
+			"description": "Integral Targeting Laser (Sidearm)",
+			"reference": "HT157",
+			"notes": "150-yard range. 4xT/2hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 450,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "f4OoBs-Un17aZGI2Z",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eFyosnrvFWnHk169M",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "euhxCa5bDakdgS6vd"
+			},
+			"description": "Lanyard",
+			"reference": "HT154",
+			"notes": "-6 to hit. DR 2. HP 2.",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 2,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eL5dDbHUpcCVS7ICh",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "ei6MVYS9NyJisVnjD"
+			},
+			"description": "Laser Sight",
+			"reference": "B289",
+			"notes": "+1 to skill; see Laser Sights (B412). 6 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 1600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eCLnVjVeIskA6qEd3",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eoE0nAwXqN9U8Zd3O"
+			},
+			"description": "MG Brass Catcher",
+			"reference": "HT161",
+			"notes": "500 cases. -2 Bulk.",
+			"tech_level": "8",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 1200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eVBsKNziUuTwq6JNc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eD8xBtuR6XXmEhMt3"
+			},
+			"description": "Pistol Brass Catcher",
+			"reference": "HT161",
+			"notes": "20-30 cases. -1 Bulk.",
+			"tech_level": "8",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 800,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e7Pn9aqkEhKuzSQti",
+			"description": "Power Holster (@Weapon@)",
+			"reference": "UT151",
+			"notes": "B/100 uses.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 32000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eZxW6m7Q8ln6qOIFY",
+			"description": "Powered Tripod Mount",
+			"reference": "UT151",
+			"notes": "D/100 hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 160000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "etrLg8OIrpVPWDwyC",
+			"description": "Recognition Grip",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ez3gbxDxlIaRnwvb2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eD8Li1s9sXAjX_SLX"
+			},
+			"description": "Rifle/SMG Brass Catcher",
+			"reference": "HT161",
+			"notes": "60-100 cases. -1 Bulk.",
+			"tech_level": "8",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 800,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e4ooGAqbqD44x4jOI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "e54h_EPyKx95ZSEbM"
+			},
+			"description": "Scope, 4x",
+			"reference": "B289",
+			"notes": "+2 to Acc for aimed shots only.",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 600,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eZDmP7Ks1p5qUaYX1",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eqqWEKmm2tGz8uPFB"
+			},
+			"description": "Scope, 4x, Thermal Imaging",
+			"reference": "B289",
+			"notes": "+2 to Acc for aimed shots only. Gives the user Infravision. 2 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 128000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e2EJcVMgHRnzofbix",
+			"description": "Shoulder Servomount",
+			"reference": "UT152",
+			"notes": "Plus $1,000 and 3lbs. per pound of weapon loaded weight.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 160000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e9ohkkuJilq8VW9SX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eaOm_Sz9hpms-pYyZ"
+			},
+			"description": "Silencer, Pistol or SMG",
+			"reference": "B289",
+			"notes": "Reduces damage by -1 per die; see Silencers (B412)",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eHm9z3cl4btIzV9NE",
+			"description": "Silhouette",
+			"reference": "UT149",
+			"notes": "Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 64000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ewmN1kr3P1FNs5rY0",
+			"description": "Sniper Mirror",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e43gdue1uVoan5fKk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "edzqCUkyP4708s_Ky"
+			},
+			"description": "Speedloader",
+			"reference": "HT155",
+			"tech_level": "6",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 40,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eKp35bj6I0k15GZw_",
+			"description": "TacNet",
+			"reference": "UT149",
+			"notes": "+1 Tactics. Complexity 5.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 320000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ed5wcJY4vJL2bSzZJ",
+			"description": "TacNet",
+			"reference": "UT149",
+			"notes": "+2 Tactics. Complexity 6.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 960000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eUeQq0NBFomtx1kDe",
+			"description": "Targeting",
+			"reference": "UT149",
+			"notes": "+1 skill. Complexity 3.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 16000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eeUHmwk4jitDZsy_N",
+			"description": "Targeting",
+			"reference": "UT149",
+			"notes": "+2 skill. Complexity 4.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 48000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e-wwDK7SHU_L2UNfd",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eZN5VQ6mKGwU3UD8B"
+			},
+			"description": "Targeting Laser (Shoulder Arm)",
+			"reference": "HT157",
+			"notes": "750-yard range. 2xXS/50hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 12000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "esPPTqVVmCnS-qnrz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "e2WnXCG_ri78o2AGn"
+			},
+			"description": "Targeting Laser (Sidearm)",
+			"reference": "HT157",
+			"notes": "150-yard range. 2xXS/50hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 2400,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "evNebD0gZiIgCTS-i",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms Accessories.eqp",
+				"id": "eYBFheA3FwR_LSfjw"
+			},
+			"description": "Thermal-Imaging Sight",
+			"reference": "HT157",
+			"notes": "Infravision. +2 Acc. -2 Bulk. M/5hrs.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"value": 128000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eqYgvgXeNxVzarfdS",
+			"description": "Transponder Ring",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eCBHb_TPwOUOwJMgU",
+			"description": "Tripod",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 40000,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "25 lb"
+			}
+		}
+	]
+}

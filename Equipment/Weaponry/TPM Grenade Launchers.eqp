@@ -1,0 +1,728 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eLXGvTiCMSClQYoNA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "e1ho_mmZ_CetG07_p"
+			},
+			"description": "Underbarrel Grenade Launcher, 40mmPLB",
+			"reference": "UT138",
+			"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Grenade Launcher",
+				"Guns"
+			],
+			"value": 6400,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "W3MElRkesajMCRUh_",
+					"damage": {
+						"type": "pi++",
+						"base": "1d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "75/450",
+					"rate_of_fire": "3",
+					"shots": "5(5)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fyEdqeWhlAwxkyzHW",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e-Y0qBzykj5RYYWw8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "eMxou1Tf7_KfLpoSU"
+			},
+			"description": "ATK-H\u0026K M29, 20x28mm",
+			"reference": "HT145",
+			"notes": "Accessory rail. Sling swivels.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade Launcher"
+			],
+			"value": 192000,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "WF9E9-3ljLanP7UgR",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d+1",
+						"fragmentation": "1d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "11†",
+					"accuracy": "3+3",
+					"range": "30/2,200",
+					"rate_of_fire": "2",
+					"shots": "6+1(3)",
+					"bulk": "-6",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr ex [1d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 192000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eYTfF3-IGX-fLSRdM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "ehaHNjw6Elejjfbqw"
+			},
+			"description": "Colt M203, 40x46mmSR",
+			"reference": "HT145",
+			"notes": "Add weight to host weapon, and -1 to host weapon's bulk.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade Launcher"
+			],
+			"value": 10000,
+			"weight": "4.1 lb",
+			"weapons": [
+				{
+					"id": "WuA8gp76OZ5l6FdU9",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9†",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "4.1 lb"
+			}
+		},
+		{
+			"id": "eR-6IAbGQrm1HZiod",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "ecviDLrSATvS2vbyo"
+			},
+			"description": "GD M307, 25x59mmB",
+			"reference": "HT145",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade Launcher"
+			],
+			"value": 20000,
+			"weight": "39 lb",
+			"weapons": [
+				{
+					"id": "Wp-MOpKLz-f-Uu2gy",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d+2",
+						"armor_divisor": 10
+					},
+					"strength": "17M",
+					"accuracy": "3+3",
+					"range": "30/2,200",
+					"rate_of_fire": "4",
+					"shots": "31(5)",
+					"bulk": "-7",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+2(10) cr ex"
+					}
+				},
+				{
+					"id": "Wkhi1aK3xmIp5yW8u",
+					"damage": {
+						"type": "cr ex",
+						"base": "3d-1",
+						"fragmentation": "1d+1",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "3d-1 cr ex [1d+1 cut]"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fKQeCn4oFtz1j95U1",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "39 lb"
+			}
+		},
+		{
+			"id": "eE4g4zynYAtKzMDAQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "ep5pSZRhShLXNynTg"
+			},
+			"description": "H\u0026K AG36, 40x46mmSR",
+			"reference": "HT145",
+			"notes": "Add weight to host weapon and -1 to host weapon's Bulk.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade Launcher"
+			],
+			"value": 1550,
+			"weight": "3.8 lb",
+			"weapons": [
+				{
+					"id": "WlOVTEQMwuzHIsRxe",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "9†",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fzDOwp3imFc7xKY3p",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24800,
+				"extended_weight": "3.8 lb"
+			}
+		},
+		{
+			"id": "eQX2FWEfFKXtCh1jp",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "epm6CXh0WWNXfIaHX"
+			},
+			"description": "H\u0026K HK69A1, 40x46mmSR",
+			"reference": "HT145",
+			"notes": "Sling swivels.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade Launcher"
+			],
+			"value": 1550,
+			"weight": "6.3 lb",
+			"weapons": [
+				{
+					"id": "W3TsCgxWygz1TKDDt",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "8†",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f2o1xNFc-___RQgia",
+					"name": "TL7 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x8"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12400,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "eBK0ttlaD9K9hfi-X",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Grenade Launchers.eqp",
+				"id": "eg_ftpyIJ1DZhF96m"
+			},
+			"description": "Hawk MM1, 40x46mmSR",
+			"reference": "HT145",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms"
+			],
+			"value": 2000,
+			"weight": "18.5 lb",
+			"weapons": [
+				{
+					"id": "WPKmXGI9z8-YYCd_q",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10†",
+					"accuracy": "1",
+					"range": "30/440",
+					"rate_of_fire": "3",
+					"shots": "12(3i)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "18.5 lb"
+			}
+		},
+		{
+			"id": "eo_MCN22RB77gKT3H",
+			"description": "M-19 25mm Smart Grenade Launcher",
+			"reference": "Custom",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Grenade launcher",
+				"Guns",
+				"Infantry Support Weapon"
+			],
+			"value": 240000,
+			"weapons": [
+				{
+					"id": "WljYSG6h62UaNBFJq",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx3"
+					},
+					"strength": "11†",
+					"usage": "High-Exploisive (HE)",
+					"accuracy": "4",
+					"range": "600",
+					"rate_of_fire": "2",
+					"shots": "8",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 cr ex"
+					}
+				},
+				{
+					"id": "WV-lLtUmBbo36ptNw",
+					"damage": {
+						"type": "cr ex",
+						"base": "5dx2"
+					},
+					"strength": "11†",
+					"usage": "Air-burst (AB)",
+					"accuracy": "4",
+					"range": "600",
+					"rate_of_fire": "2",
+					"shots": "8",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5dx2 cr ex"
+					}
+				},
+				{
+					"id": "WWJuv9LFWX2JuvB5w",
+					"damage": {
+						"type": "burn",
+						"base": "4d+1",
+						"armor_divisor": 2
+					},
+					"strength": "11†",
+					"usage": "Armor-Piercing Incendiary (API)",
+					"accuracy": "4",
+					"range": "600",
+					"rate_of_fire": "2",
+					"shots": "8",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+1(2) burn"
+					}
+				},
+				{
+					"id": "WZOUBUxwW1G-moOu_",
+					"damage": {
+						"type": "burn",
+						"base": "8d+2"
+					},
+					"strength": "11†",
+					"usage": "Thermobaric (TH)",
+					"accuracy": "4",
+					"range": "600",
+					"rate_of_fire": "2",
+					"shots": "8",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8d+2 burn"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f6WmWQAK0lynoXIKt",
+					"name": "Infantry Version",
+					"tech_level": "9",
+					"weight": "+15 lb"
+				},
+				{
+					"id": "f_r2nv0i32_e9BEtl",
+					"name": "Robot Version",
+					"tech_level": "9",
+					"weight": "+12 lb",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 240000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "erY-XeMmE-6mwfOYR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "ea9jNvJkoG9TBXHwE"
+			},
+			"description": "M-209 “Viper” 25mmPC Underbarrel Grenade Launcher",
+			"reference": "UT138",
+			"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Grenade Launcher",
+				"Guns"
+			],
+			"value": 9600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WF7GW2iEOT2ZtdAvG",
+					"damage": {
+						"type": "pi++",
+						"base": "4d"
+					},
+					"strength": "10",
+					"accuracy": "4+2",
+					"range": "360/2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 15,
+						"damage": "4d pi++"
+					}
+				}
+			],
+			"vtt_notes": "[https://www.scabard.com/pbs/campaign/2543388/item/4547962]",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "1.5 lb"
+			}
+		}
+	]
+}

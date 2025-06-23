@@ -1,0 +1,661 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eyvTU-I59yR1i0gyY",
+			"description": "AA Cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 32,
+			"weight": "0.0005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.0005 lb"
+			}
+		},
+		{
+			"id": "emgv6vEpcHjIbChP2",
+			"description": "A cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 64,
+			"weight": "0.005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "ewD3R3TCWA87HLC3P",
+			"description": "B cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 96,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eTH7EsrC_UV5c96R8",
+			"description": "C cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 320,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e58SrBvJXk7ckCjL3",
+			"description": "D cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 3200,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ex71lDM6mK6Mj1iM-",
+			"description": "E cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 64000,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "e7IZkbIbRArV176oj",
+			"description": "F cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 640000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "ej_VqmCQZ3ydCwMYY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e79X2pG_EYb72vuzw"
+			},
+			"description": "Hydrogen Fuel Rod",
+			"notes": "Replacement for internal fuel supply for the Semi-Portable Fusion Reactor",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Power"
+			],
+			"value": 1440000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1440000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e3GT_i2zHAn1eK9Th",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eGE3DExbuK9kfZrBr"
+			},
+			"description": "Fission Generator",
+			"reference": "UT20",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Power"
+			],
+			"value": 6400000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "e8OZiV7BHfucjzFzv",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "e7q_QzQxnaigNOgSP"
+			},
+			"description": "Solar Power Array",
+			"reference": "UT20",
+			"notes": "400sq.ft.",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 320000,
+			"weight": "500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "eG-o4eNfK-_kRgjxD",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Equipment TL 9.eqp",
+				"id": "eM9nfc6-7kLI6dNTw"
+			},
+			"description": "Semi-Portable Fusion Reactor",
+			"reference": "UT20",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Power"
+			],
+			"value": 28880000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28880000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ekQzi48xMxOzqu2vL",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "ee4yuhhGEiCNED0VI"
+			},
+			"description": "Wood chips",
+			"reference": "ATE1:35",
+			"tech_level": "0",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 0.15,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.15,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eWsMNwpXj2CoXYpzG",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "e9AI6PsCpygynb-IC"
+			},
+			"description": "Kerosene",
+			"reference": "HT16",
+			"notes": "\"Quantity\" represents gallons.",
+			"tech_level": "6",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 200,
+			"weight": "6.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "6.5 lb"
+			}
+		},
+		{
+			"id": "e5GT_SPyJtqkHDAUX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "euHtsE2WP9Fl_hkXm"
+			},
+			"description": "Diesel Fuel",
+			"reference": "HT16",
+			"notes": "\"Quantity\" represents gallons.",
+			"tech_level": "6",
+			"tags": [
+				"Power"
+			],
+			"value": 125,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 125,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ec9JvrKF2pK8omViw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "eJab3OWVCRHse8ys3"
+			},
+			"description": "Gasoline, 1 Gallon",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 150,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eo-S_ptnnA51U9GE5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "eu-v2aZryVH7VaJrg"
+			},
+			"description": "Methane / Natural Gas compressed",
+			"notes": "\"quantity represents gallons\"",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 150,
+			"weight": "5.66 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "5.66 lb"
+			}
+		},
+		{
+			"id": "eBnGb17AkCffk-FTG",
+			"description": "Backpack Power Unit",
+			"reference": "PY12:4",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 1600000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eJGIB-jnkhn2dj4VO",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "enplin-Ox-tRCnz3y"
+			},
+			"description": "Propane, liquid",
+			"notes": "\"quantity represents gallons\" 12% more efficient than propane gas",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 90,
+			"weight": "4.24 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "4.24 lb"
+			}
+		},
+		{
+			"id": "el4ZLXldGYaM4cMP9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "eT3slQjhxZ7cAcEYF"
+			},
+			"description": "Ethanol",
+			"reference": "ATE1:33",
+			"notes": "\"Quantity represents gallons\"",
+			"legality_class": "4",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 112,
+			"weight": "6.8 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 112,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "eKzq9wlYZETNrWr0R",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "e-bXmV2Smx7HXDp5g"
+			},
+			"description": "Propane, Gas",
+			"notes": "\"quantity represents gallons\"",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 80,
+			"weight": "4.11 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "4.11 lb"
+			}
+		},
+		{
+			"id": "ejwWUn8CXB42mGUEG",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "euJaDsnZzVNbi1tqL"
+			},
+			"description": "Alcohol",
+			"reference": "HT16",
+			"notes": "\"Quantity\" represents gallons. At least 80% pure.",
+			"tech_level": "5",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 50,
+			"weight": "6.8 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "e8pyPU8-HbjEWMPtk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "eOr7S4af1DJWTbgGT"
+			},
+			"description": "Biodiesel",
+			"reference": "ATE1:34",
+			"notes": "\"Quantity represents gallons\"",
+			"legality_class": "4",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 120,
+			"weight": "7.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "exe0aUZCtw7uYNinF",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "eIB-oVlIjAb82sBTR"
+			},
+			"description": "Wood logs",
+			"reference": "ATE1:35",
+			"notes": "for fuel purposes have to be turned into wood chips but taking 2/3 as long",
+			"tech_level": "0",
+			"tags": [
+				"Fuel",
+				"Power"
+			],
+			"value": 0.05,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.05,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EcYrDx4xibug48Axo",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "ENSsQfDDpvOKTa9hX"
+			},
+			"description": "20 lb, Small Tank, 5 gal",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 360,
+			"weight": "20 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 5
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 360,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "E5gn91cJgcg2vEcHA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "EFStc0cHJKTuqLKX2"
+			},
+			"description": "100 lb Medium Tank 24 gal",
+			"notes": "However, due to safety considerations, it is typically filled to only 80-85% of its capacity, which means the usable amount is around 19 to 20 gallons",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 2400,
+			"weight": "70 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 24
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "EFaSi4uZD0H6sLhpi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "EshWllwt0I8ZnXIOL"
+			},
+			"description": "250 gal Medium Tank",
+			"notes": "However, due to safety considerations, it is typically filled to only 80-85% of its capacity, which means the usable amount is around 215 to 225 gallons",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 19200,
+			"weight": "483 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 250
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "483 lb"
+			}
+		},
+		{
+			"id": "EiVJ1AJ83iy9ub_2-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "EjYuwDpJc_RTc6eVF"
+			},
+			"description": "500 gal Large Tank",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 32200,
+			"weight": "949 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 250
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 32200,
+				"extended_weight": "949 lb"
+			}
+		},
+		{
+			"id": "EoWrjpRmmyBgmjxVk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Fuel.eqp",
+				"id": "EhxTO4z4245zcoG8Y"
+			},
+			"description": "1000 gal Large Tank",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 75000,
+			"weight": "1,760 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 250
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "1,760 lb"
+			}
+		}
+	]
+}

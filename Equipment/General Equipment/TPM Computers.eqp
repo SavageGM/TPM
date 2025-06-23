@@ -1,0 +1,497 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eVS4XtSgH-4oXhy--",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "evnRk9GFwbCd6jcji"
+			},
+			"description": "1 TB (Terabyte) Data Storage",
+			"reference": "UT23",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "etUdJ4nCyhrstmgsW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ehY6HwQZVdfNBUIm6"
+			},
+			"description": "Computerized Crew Station",
+			"reference": "UT24",
+			"notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 64000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eS3QFcQ92sBG0VzxH",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ex3BdMcnIFOj9X1Hp"
+			},
+			"description": "Datapad",
+			"reference": "UT23",
+			"notes": "2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eZG_mmr2z4ZMO9JoW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "epDYGemHSrVr3M-oz"
+			},
+			"description": "Head-Up Display (HUD)",
+			"reference": "UT24",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 4800,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ejk1p0ESBc-q1zxBN",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e74IBec0ejbqFdICq"
+			},
+			"description": "Holographic Crew Station",
+			"reference": "UT24",
+			"notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "ew5KO4nmF1oCkxH_I",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "enmCKDhCsTGELqK2b"
+			},
+			"description": "Macroframe",
+			"reference": "UT22",
+			"notes": "Complexity 8. 100,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000000,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "exbSLxLHNd9_k6wJv",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ejJpOY_pR6-r-9Bbv"
+			},
+			"description": "Mainframe",
+			"reference": "UT22",
+			"notes": "Complexity 7. 10,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 32000000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "epgj2h00cGcx5wCPA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "esJdmK37ggiaRQdLw"
+			},
+			"description": "Megacomputer",
+			"reference": "UT22",
+			"notes": "Complexity 9. 1,000,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000000,
+			"weight": "40,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000000,
+				"extended_weight": "40,000 lb"
+			}
+		},
+		{
+			"id": "e72-rYm6EVj4bLfkW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBWVmkNw7kl3xinq3"
+			},
+			"description": "Microframe",
+			"reference": "UT22",
+			"notes": "Complexity 6. 1,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "e2dcvcFx5nKHtwQm5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBWVmkNw7kl3xinq3"
+			},
+			"description": "Vehicular Tactical Computer",
+			"reference": "UT22",
+			"notes": "Complexity 7. 1,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000,
+			"weight": "40 lb",
+			"modifiers": [
+				{
+					"id": "fcdDI2DoGteOgM_D9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fORPlSDsTOr2fk5Wz"
+					},
+					"name": "Fast (+1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+19 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fpoUqYWwYNeFJZMM1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fOdqzWq5hDOqIdQ4O"
+					},
+					"name": "Hardened",
+					"reference": "UT23",
+					"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "fS9NVj8DhUp6Sykqm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "fCCyfLRyp9wVPOsej",
+					"name": "Complexity 7. 1,000TB. External power."
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 70400000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "e9_8kIBm1ByXCI-ZH",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "erF2WgMVF_2fR4xJC"
+			},
+			"description": "Personal Computer",
+			"reference": "UT22",
+			"notes": "Complexity 5. 100TB. 2C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eg_c-MNdwEMTlh1aa",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "erF2WgMVF_2fR4xJC"
+			},
+			"description": "Personal Computer",
+			"reference": "UT22",
+			"notes": "Complexity 5. 100TB. 2C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320000,
+			"weight": "5 lb",
+			"modifiers": [
+				{
+					"id": "fMR0DNPZKksPnYALk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fV3DRKJenyjBaC_5S"
+					},
+					"name": "Genius (+2 Complexity)",
+					"reference": "UT23",
+					"notes": "Using Multipliers, -1 LC",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+499 CF"
+				},
+				{
+					"id": "fS18OpPuksmLKLjsy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "f6bethDp0T0_g47Z6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fOdqzWq5hDOqIdQ4O"
+					},
+					"name": "Hardened",
+					"reference": "UT23",
+					"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "f0VsKkWKg6AFkXUsO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f0W_ChQGkQqPIhLv2"
+					},
+					"name": "Rugged",
+					"reference": "PY37:20",
+					"notes": "+2 HT and Skill to repair.",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x2"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 321280000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "enioewHanucZn8c7i",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eGagHZf6z_HI9lmtR"
+			},
+			"description": "Portable Terminal",
+			"reference": "UT24",
+			"notes": "2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eT0BLp-KZyObd18mp",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eeMDvxk8SMiL1gk63"
+			},
+			"description": "Sleeve Display",
+			"reference": "UT24",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eQAqbECo2hoKcHvlu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eMvIb4QFiXuQS2q-_"
+			},
+			"description": "Small Computer",
+			"reference": "UT22",
+			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eijSTAh0oZOilpFXj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eSUebmNT85Vp_ZY6R"
+			},
+			"description": "Tiny Computer",
+			"reference": "UT22",
+			"notes": "Complexity 3. 1TB. 2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e27OCSvImjP0PTk0k",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eh3UJACglflKtkcqw"
+			},
+			"description": "Workstation Terminal",
+			"reference": "UT24",
+			"notes": "C/10hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 16000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,462 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eNDoFVX5NA1RRqrNo",
+			"description": "Blasting Caps",
+			"reference": "ACT1:26",
+			"notes": "Pack of six.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ePHrq72p47Gze61U5",
+			"description": "Caulking Gun",
+			"reference": "HT187",
+			"notes": "You can use it with Extrudable Explosives.",
+			"tech_level": "8",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 480,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "evDrES_B2KhxkyysQ",
+			"description": "Cigarette Lighter",
+			"reference": "ACT1:26",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ePNo1UJjimgE-J9mC",
+			"description": "Cutting Cord",
+			"reference": "HT188",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 720,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e9dac0H8PZ8WSPnBP",
+			"description": "Detonating Cord",
+			"reference": "HT187",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eQNvpzymyOYSMQeK_",
+			"description": "Early Blasting Machine",
+			"reference": "HT187",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 60,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eaG8Kk-IuTq9sUF6r",
+			"description": "Exploder",
+			"reference": "ACT1:26",
+			"notes": "Detonates up to 50 blasting caps.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 800,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eEdJ5Inubx0r_a513",
+			"description": "Explosive Collar",
+			"reference": "UT107",
+			"notes": "B/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 6400,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eX97WegZhRyn2zXRI",
+			"description": "Explosives Blanket",
+			"reference": "HT72",
+			"notes": "DR25",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 8000,
+			"weight": "45 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e7cAzkzidtpmsR_8L",
+			"description": "Extrudable Explosive",
+			"reference": "ACT1:26",
+			"notes": "7d cr ex damage; always deals 42 points to a door.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 160,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "ee5TBAiJ5vUQeM8qg",
+			"description": "Extrudable Explosive: caulking-gun cartridge",
+			"reference": "HT187",
+			"notes": "1lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 640,
+			"weight": "1.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "e1sieXGZvpVt1fMQp",
+			"description": "Extrudable Explosive: toothpaste tube",
+			"reference": "HT187",
+			"notes": "0.25lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eH-kPXnvfVGFzZf6f",
+			"description": "Foam Explosive: aerosol can",
+			"reference": "HT187",
+			"notes": "0.9lb of explosive.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 160,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "effsjQqUrbkyj4ev3",
+			"description": "Military Blasting Machine",
+			"reference": "HT187",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 400,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eWaKCe9lH0CVey9Xq",
+			"description": "Plastex B",
+			"reference": "UT88",
+			"notes": "REF4",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Expedition Gear",
+				"Explosive"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eDjKxwYc25t1HztNL",
+			"description": "Demex (RDX)",
+			"reference": "PY51:9",
+			"notes": "REF1.4, Extrudable filler",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Explosive"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "em1DizqlBCJvDXOVa",
+			"description": "CL-20",
+			"reference": "PY51:9",
+			"notes": "REF2.3, Hexanitro hexaazaisowurtzitane",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Explosive"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ezKb32VeGAQiwL1g9",
+			"description": "VOMEX",
+			"reference": "PY51:9",
+			"notes": "REF 15, Advanced thermobaric compound [1]",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Explosive"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"vtt_notes": "[1] Produces an explosive cloud that is then detonated. Blast radius is increased (see Explosion, p. B104); damage is divided by 2 x distance in yards from the blast instead of the usual 4 x distance. Only works in atmosphere.",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "euctzrmgJaZSAsEht",
+			"description": "Plastic Explosive",
+			"reference": "HT186",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 240,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eE5_NM0qIGspi091F",
+			"description": "Portable Tool Kit, Explosives",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 1200,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eyA0kVMbEPnDYrx8e",
+			"description": "Remote",
+			"reference": "ACT1:26",
+			"notes": "Can detonate a blasting cap at 5 miles.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 800,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eyzCcII9g2aNazGpz",
+			"description": "Remote Blasting Machine",
+			"reference": "HT187",
+			"notes": "4xS/14 days.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 8000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eMGh9fQ-59h9ZaIn0",
+			"description": "Thermite",
+			"reference": "ACT1:26",
+			"notes": "One application. Burns for 25 seconds.",
+			"tech_level": "8",
+			"tags": [
+				"Demolition"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "em2oqBT-IMBc0MQuE",
+			"description": "Time Fuse",
+			"reference": "HT187",
+			"notes": "Quick-match",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eDSTCd2JlracXWNpm",
+			"description": "Time Pencils",
+			"reference": "HT188",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 120,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eyhu4fa-8MtE2KNgN",
+			"description": "Timer",
+			"reference": "ACT1:26",
+			"notes": "Detonates blasting caps at specified time.",
+			"tech_level": "7",
+			"tags": [
+				"Demolition"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.5 lb"
+			}
+		}
+	]
+}

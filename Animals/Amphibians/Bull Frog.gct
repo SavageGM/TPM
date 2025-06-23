@@ -1,0 +1,771 @@
+{
+	"version": 5,
+	"id": "BOmrQL1O6PBLZYtKt",
+	"traits": [
+		{
+			"id": "TNMXxJpR4won6yVo9",
+			"name": "Bull Frog",
+			"ancestry": "Mutant Animal",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "Tk06EFyOKluhm8z-w",
+					"name": "Advantages",
+					"children": [
+						{
+							"id": "tW6qOAS4Qsoe1PYyI",
+							"name": "Increased Water Move",
+							"reference": "B17",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "water_move",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "t7QfRy8oaBJNMn5DY",
+							"name": "Doesn't Breathe",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mhH5Ugkv1oDdhUVMa",
+									"name": "Gills",
+									"reference": "B49",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mGdzMJEIj2SCS_Mi3",
+									"name": "Gills",
+									"reference": "B49",
+									"local_notes": "Suffocates in air",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mUzSYUp0MhnrzjNYK",
+									"name": "Oxygen Absorption",
+									"reference": "B49",
+									"cost": -25
+								},
+								{
+									"id": "mSO2DE6Zy4xuLMcv8",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"local_notes": "Can hold breath 25 times as long as normal",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "m_Ki5j9GVBZyMOtL5",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"local_notes": "Can hold breath 50 times as long as normal",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mFRNaAY30MCMVP8Iy",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"local_notes": "Can hold breath 100 times as long as normal",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "mU9P0RQsn9ojlNhFc",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"local_notes": "Can hold breath 200 times as long as normal",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mDraCBQn3w6y94Bi-",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"local_notes": "Can hold breath 300 times as long as normal",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mUjZ1ziwBhGMH2cRp",
+									"name": "Nuisance Effect: Skin DOES absorb poison gasses, etc",
+									"cost": -50
+								},
+								{
+									"id": "mypFcECvqxPeT3FWr",
+									"name": "Oxygen Combustion",
+									"reference": "B49",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tSPSxgX5AxNywbnyP",
+							"name": "Crushing Striker (Tongue)",
+							"reference": "B88,MA47",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mSFRyp-OQda6n5E4G",
+									"name": "Long",
+									"cost": 100
+								},
+								{
+									"id": "myxeXHAESurKVN2ZK",
+									"name": "Weak",
+									"cost": -50
+								},
+								{
+									"id": "mA-vgziD1McRC3iff",
+									"name": "Switchable",
+									"cost": 10
+								},
+								{
+									"id": "mXorZLI-fElEqnoOk",
+									"name": "Extra Flexible",
+									"cost": 50
+								},
+								{
+									"id": "mTAyXbAYmKP79-iXI",
+									"name": "Cannot Parry",
+									"cost": -40
+								},
+								{
+									"id": "m9VvZszZl5vhCc5fb",
+									"name": "Limited Arc- Front",
+									"cost": -40
+								}
+							],
+							"base_points": 5,
+							"weapons": [
+								{
+									"id": "wbXQ55GoR5VuWjyIz",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Tongue",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) cr"
+									}
+								}
+							],
+							"calc": {
+								"points": 7
+							}
+						},
+						{
+							"id": "tIoX7ZXSAd_0fn8Gb",
+							"name": "Binding (Tongue)",
+							"reference": "B40,P42",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "msC5BlCA6Zi9ZKDZF",
+									"name": "Engulfing",
+									"reference": "B40",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "mNoNor43An3PPsrhU",
+									"name": "Only Damaged by @Burning/Corrosion/Cutting/Crushing@",
+									"reference": "B40",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "mCS_xBlI5iOziu747",
+									"name": "Only Damaged by @1. Choose one from Burning/Corrosion/Cutting/Crushing@ or @2. Choose one from Burning/Corrosion/Cutting/Crushing@",
+									"reference": "B40",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "m9HDU5Rxz4k2J36qi",
+									"name": "Follow-up"
+								},
+								{
+									"id": "mjRHywS-hPZsYXg2p",
+									"name": "Only Damaged by @1. Choose one from Burning/Corrosion/Cutting/Crushing@, @2. Choose one from Burning/Corrosion/Cutting/Crushing@ or @3. Choose one from Burning/Corrosion/Cutting/Crushing@",
+									"reference": "B40",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mB4eEVdK1-FLPx4kW",
+									"name": "Sticky",
+									"reference": "B40",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mEozZnCTS0mYplTT0",
+									"name": "Unbreakable",
+									"reference": "B40",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "mGFNRO2qSKNTcog1k",
+									"name": "One Shot",
+									"reference": "B40",
+									"cost": -10
+								},
+								{
+									"id": "m4Vxp5o-IWXswQ0tJ",
+									"name": "Super-Binding",
+									"reference": "SU25",
+									"cost": 400,
+									"disabled": true
+								}
+							],
+							"points_per_level": 2,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 2
+							}
+						},
+						{
+							"id": "tlIwnwu73uelwWULh",
+							"name": "Amphibious",
+							"reference": "B40,P42",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tF4N5iZDFp06pEUOx",
+							"name": "Super Jump",
+							"reference": "B89,P79",
+							"local_notes": "2",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mJnuKvKouMMBz9QNy",
+									"name": "Bouncing",
+									"reference": "P80",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "m3B-EDFvVjKdhAw1H",
+									"name": "Maneuverable",
+									"reference": "P80",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mNrtTcYQ1ov8C9Omc",
+									"name": "Full Power Only",
+									"reference": "P80",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mpJPVO2NboApLFCHp",
+									"name": "Horizontal Only",
+									"reference": "P80",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "mzKwPmXXymC3fHUJU",
+									"name": "Lighter Than Air",
+									"reference": "P80",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "m8kKGTM5xQAvh7-Lt",
+									"name": "Planetary",
+									"reference": "P80",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "mx7-EJxrYtlC63ePq",
+									"name": "Projectile",
+									"reference": "P80",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "m8jyNX5Tao-nmEgqs",
+									"name": "Vertical Only",
+									"reference": "P80",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "mGVlSB8MAyFt--68m",
+									"name": "Bouncing Only",
+									"reference": "SU28",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"points_per_level": 10,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"calc": {
+						"points": 39
+					}
+				},
+				{
+					"id": "TB8TGVX0wtTKiEkBE",
+					"name": "Disadvantages",
+					"children": [
+						{
+							"id": "tv4haLQHNvURLgOI2",
+							"name": "Short Lifespan",
+							"reference": "B154",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"points_per_level": -10,
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": -30
+							}
+						},
+						{
+							"id": "tRab_fIMpSYTqZ_R5",
+							"name": "Weak Bite",
+							"reference": "B161",
+							"tags": [
+								"Animal",
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -2,
+							"weapons": [
+								{
+									"id": "w8V_jI0bCRr6aXNtS",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "-1",
+										"modifier_per_die": -2
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 (-2 per die) cr"
+									}
+								}
+							],
+							"calc": {
+								"points": -2
+							}
+						},
+						{
+							"id": "TPwdAVvl7J3Yp8XbS",
+							"name": "Meta-Trait: Quadruped",
+							"reference": "B263",
+							"children": [
+								{
+									"id": "tJKG3oupv3c-NbRny",
+									"name": "Extra Legs",
+									"reference": "B54",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mbB_KPDJ6aS6-DGnB",
+											"name": "4",
+											"reference": "B54",
+											"cost": 5,
+											"cost_type": "points"
+										},
+										{
+											"id": "mMOrBpdf6_bdECksC",
+											"name": "@5 or 6@",
+											"reference": "B55",
+											"cost": 10,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "mnuFflC3iGmIGlunZ",
+											"name": "@7+@",
+											"reference": "B55",
+											"cost": 15,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "miRltXCYxuY96y7B3",
+											"name": "Long",
+											"reference": "B55",
+											"cost": 100,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "mT7EaPjkFtbHTNlEx",
+											"name": "Cannot Kick",
+											"reference": "B55",
+											"cost": -50,
+											"disabled": true
+										},
+										{
+											"id": "mLG2k2OWiVYDvPYxv",
+											"name": "Extra Flexible",
+											"reference": "MATG27",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "mAMnJcK6mX6NFuqBr",
+											"name": "Prehensile Feet",
+											"reference": "MATG28",
+											"cost": 20,
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tG1BoLA1ZwBwLwwdZ",
+									"name": "Horizontal",
+									"reference": "B139",
+									"tags": [
+										"Disadvantage",
+										"Exotic",
+										"Physical"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tAWHdnfh9Byf9YV45",
+									"name": "No Fine Manipulators",
+									"reference": "B145",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -30,
+									"features": [
+										{
+											"type": "cost_reduction",
+											"attribute": "st",
+											"percentage": 40
+										},
+										{
+											"type": "cost_reduction",
+											"attribute": "dx",
+											"percentage": 40
+										}
+									],
+									"calc": {
+										"points": -30
+									}
+								}
+							],
+							"calc": {
+								"points": -35
+							}
+						},
+						{
+							"id": "Ts912Pvp64TEQWNsb",
+							"name": "Meta-Trait: Wild Animal",
+							"reference": "B263",
+							"children": [
+								{
+									"id": "tvmaV0z0fLq0HGowf",
+									"name": "Bestial",
+									"reference": "B124",
+									"tags": [
+										"Disadvantage",
+										"Exotic",
+										"Mental"
+									],
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tL0lUBqbQIyp8NUBc",
+									"name": "Cannot Speak",
+									"reference": "B125",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "stuttering"
+												}
+											}
+										]
+									},
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "tO-vN0EXBC92_yFlu",
+									"name": "Hidebound",
+									"reference": "B138",
+									"local_notes": "-2 penalty on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage.",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "t0w4c5crLyvsKwAXC",
+									"name": "Taboo Trait (Fixed IQ)",
+									"reference": "B263",
+									"tags": [
+										"Physical"
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": -30
+							}
+						}
+					],
+					"calc": {
+						"points": -97
+					}
+				},
+				{
+					"id": "todL_0TbVBQQwbGCt",
+					"name": "Natural Attacks",
+					"reference": "B271",
+					"weapons": [
+						{
+							"id": "wbnIFEzs9RmAgLSRq",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						},
+						{
+							"id": "wb0CIrXIlUyrO8O5X",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Punch",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 cr"
+							}
+						},
+						{
+							"id": "wvqpbXZ_4Nlgv8uGP",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Kick",
+							"reach": "C,1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Kicking"
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "T1lmjhbcakK0P5_EM",
+					"name": "Features",
+					"children": [
+						{
+							"id": "tyVT3nVavcUcBfMrP",
+							"name": "Born Biter",
+							"reference": "DF3:15",
+							"tags": [
+								"Feature"
+							],
+							"can_level": true,
+							"levels": 3,
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tvMCRjcN3wQ-TYvxn",
+							"name": "Omnivore",
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tLsQGwMvpR4FbPOnf",
+							"name": "SM-6",
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"calc": {
+				"points": -58
+			}
+		}
+	]
+}

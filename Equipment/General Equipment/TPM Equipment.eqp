@@ -1,0 +1,4653 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EDD787WhEHUwGm7r3",
+			"description": "Armored Vault",
+			"reference": "UT102",
+			"notes": "Holds 50cf. DR400. 100HP.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 960000,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "EKKCFm3KxoOCCxQZT",
+			"description": "Attaché Case w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 2cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 12800,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EfNFYlCNFdzKIFpZe",
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "2 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "Ez_SEs4-eubDeCEWS",
+			"description": "Pressure Box",
+			"reference": "UT75",
+			"notes": "2'x1'x1'. 2C/2 days.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 28800,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "Eguw7DDKETCceL_Xe",
+			"description": "Shipping Container w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 320000,
+			"weight": "1,000 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10,000 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EBOZg_jBRWf3uJQ0T",
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "1,000 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "EIikA0bdy43Cr6fAH",
+			"description": "Small Safe",
+			"reference": "UT102",
+			"notes": "Holds 5cf. DR300. 80HP.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 16000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "E_s9gkohI8kk3MQT6",
+			"description": "Travel Bag w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 5cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 38400,
+			"weight": "100 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EXWz9ZxnFHnzbC40x",
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "10 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "EjZi1C_3Dq9obPTUR",
+			"description": "Trunk w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 128000,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "400 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EZSU81DqtycbctraE",
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "40 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "ERa-ph37g3w1LM5vG",
+			"description": "Wall Safe",
+			"reference": "UT102",
+			"notes": "Holds 1cf. DR100. 25HP.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 3200,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "evnRk9GFwbCd6jcji",
+			"description": "1 TB (Terabyte) Data Storage",
+			"reference": "UT23",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "eHt5dCDmSSS1m9Ncz",
+			"description": "1/8\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 400lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 6.4,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6.4,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eJcjHzg9hrVuaByw2",
+			"description": "3/4\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 16,000lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 96,
+			"weight": "0.4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "eNvX5ta6SVahPq-yX",
+			"description": "3/8\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 4,000lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 64,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ezJ8myThEj1rBObge",
+			"description": "3/16\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 1,000lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 1.6,
+			"weight": "0.025 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.6,
+				"extended_weight": "0.025 lb"
+			}
+		},
+		{
+			"id": "e6VRZpAHdWsArNTKd",
+			"description": "3D Flatcam",
+			"reference": "UT51",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 8000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "evzXytSlLJkK86EJO",
+			"description": "3D Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 7200,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eSbkhFvZbYNKWOgdl",
+			"description": "3D Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "egvlx3Z2aCr2Gb98O",
+			"description": "Accented Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 4. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 9600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3_vgZD-EJtYCWk5W",
+			"description": "Armored Door",
+			"reference": "UT101",
+			"notes": "10 square feet. DR100.",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 32000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "ebk7BmOUjojdumni9",
+			"description": "Basic Encryption",
+			"reference": "UT47",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Communication and Interface"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "egPv2YjdBuxLXoq1S",
+			"description": "Basic Neural VR",
+			"reference": "UT25",
+			"notes": "Requires neural interface. Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 72000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eD93MwDx7bLe9QiWO",
+			"description": "Basic VR Suit",
+			"reference": "UT54",
+			"notes": "Requires Complexity 3+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 72000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "enqis2xP4UpsZtNEg",
+			"description": "Biometric Cracker Tools",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 132000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 132000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "evEazj2kgC2X-4_Oy",
+			"description": "Book Reader",
+			"reference": "UT51",
+			"notes": "2A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eE5zsmH-vAgLL2TAZ",
+			"description": "Broken Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 3. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "esV0nDzkq-Rc7Bc-w",
+			"description": "Bug Stomper",
+			"reference": "UT106",
+			"notes": "B/24 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"value": 19200,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ekxfV7AiTBjwc8AvG",
+			"description": "Cable Jack",
+			"reference": "UT42",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e6QsGVCE76p2Skw8I",
+			"description": "Com Tap",
+			"reference": "UT105",
+			"notes": "A/100 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 16000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eON7NaTm2M_yNswBP",
+			"description": "Complex Lock",
+			"reference": "UT102",
+			"notes": "Lockpicking -4.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 6400,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ehY6HwQZVdfNBUIm6",
+			"description": "Computerized Crew Station",
+			"reference": "UT24",
+			"notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 64000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eTIYayETy9k2xfTb3",
+			"description": "Contact SQUID",
+			"reference": "UT100",
+			"notes": "2C/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 640000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ecZH6sZsDxpXAFtk8",
+			"description": "Cosmetic Filter",
+			"reference": "UT56",
+			"notes": "Complexity 4.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 12800,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eQJQ6dx5QC1t1SBnl",
+			"description": "Cufftape",
+			"reference": "UT107",
+			"notes": "100-foot spool. DR 1. HP 6. ST 20.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 320,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "etIj6YTOUAMJQHYqC",
+			"description": "Cutting Wire Fence",
+			"reference": "UT102",
+			"notes": "15-yard coil.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 3200,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e0gWHJ58ITQ8vD4z2",
+			"description": "Data Bank",
+			"reference": "UT51",
+			"notes": "Per 100TB.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "euozEkQZb08bCkdbQ",
+			"description": "Data Dot",
+			"reference": "UT51",
+			"notes": "1GB. AA/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eWflo8ofElo929wAR",
+			"description": "Data Dot Drive",
+			"reference": "UT51",
+			"notes": "AA/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 320,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "ed8U33XwqGVfMFoQv",
+			"description": "Data Player",
+			"reference": "UT51",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 320,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eW0Xv9mpQjhkJR9yq",
+			"description": "Datachip",
+			"reference": "UT51",
+			"notes": "1TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "ehqhNlSz1Mmc-kWaY",
+			"description": "Datachip Drive",
+			"reference": "UT51",
+			"notes": "AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.02 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.02 lb"
+			}
+		},
+		{
+			"id": "ex3BdMcnIFOj9X1Hp",
+			"description": "Datapad",
+			"reference": "UT23",
+			"notes": "2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e6w3IdyQZ7v1KBE3w",
+			"description": "Deceptive Radar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Radar -4. Imaging radar -2.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eqCiObGsBm_u3jGmq",
+			"description": "Deceptive Sonar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Sonar -4.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "euqeNI7aR2J0fxaUo",
+			"description": "Decryption Program",
+			"reference": "UT47",
+			"notes": "Complexity 2.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 9600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eydJ1CmmZwDWq_o5M",
+			"description": "Dedicated Chemsniffer",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "ee4I_o4470lckReki",
+			"description": "Desktop Doc-Fab",
+			"reference": "UT97",
+			"notes": "4D/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 640000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "es_It462WiM2hN8uh",
+			"description": "Disguise Fabricator",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 51200,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 51200,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eD1P4xOhPuCXTSdy2",
+			"description": "Electro-Optical Binoculars (\"Televiewers\")",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 64x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 16000,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e40EYspWEyxGJSMwu",
+			"description": "Electro-Optical Surveillance Camera",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 8000,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eJzJvpz2bGuT0p5wx",
+			"description": "Electrolaser Fence (open)",
+			"reference": "UT101",
+			"notes": "Per post.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 160000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eHRtMBf9dj-jL_VoO",
+			"description": "Electrolaser Fence (tight)",
+			"reference": "UT101",
+			"notes": "Per post.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 320000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eUUXYX6x_OZMS5wIB",
+			"description": "Electronic Cuffs",
+			"reference": "UT107",
+			"notes": "ST 20. DR 10. A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 1280,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e2dTeHZfiygqWrOpc",
+			"description": "Electronic Lockpick",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "esWQxiewv_wZqMl7O",
+			"description": "Electronic Thumb",
+			"reference": "UT96",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 160000,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eLyAPLv7QmFbn2AdT",
+			"description": "Emissions Nanobug",
+			"reference": "UT105",
+			"notes": "AA/year",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eORS5gUbqFUx8NZXX",
+			"description": "Entertainment Console",
+			"reference": "UT51",
+			"notes": "Complexity 4. 4B/5hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eNWvSXWXj9Zaai1r2",
+			"description": "ESM Detector",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 8000,
+			"weight": "0.25 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Dodge if detects targeting sensor",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "elgRVu1l_DQMHcyVk",
+			"description": "Explosive Collar",
+			"reference": "UT107",
+			"notes": "B/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 6400,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eGIYTzkgc6HuLxMcG",
+			"description": "Extensible Sensor Pod",
+			"reference": "UT66",
+			"notes": "100-yard range. 4x magnification. 2C/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 1600000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e3GI4jJmMnyKG01N8",
+			"description": "Flatcam",
+			"reference": "UT51",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eLHUGNMI4EziNt09R",
+			"description": "Food Paste",
+			"reference": "UT73",
+			"notes": "One day's supply.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 320,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eKJd3fmFtThvdy5Ze",
+			"description": "Food Tablets",
+			"reference": "UT73",
+			"notes": "One day's supply.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 320,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eS4VnyChij1o413tJ",
+			"description": "Fragwire Fence",
+			"reference": "UT102",
+			"notes": "15-yard coil.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 6400,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eI5G99aY6x7deJ5oH",
+			"description": "Full Neural VR",
+			"reference": "UT25",
+			"notes": "Requires neural interface. Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 144000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 144000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "epBKlrLkLMAM3ketS",
+			"description": "Full VR Suit",
+			"reference": "UT54",
+			"notes": "Requires Complexity 5+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 144000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 144000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eFKVXAYHn0B2hSpMn",
+			"description": "Glow Stick",
+			"reference": "UT74",
+			"notes": "2-yard radius.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 64,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "epDYGemHSrVr3M-oz",
+			"description": "Head-Up Display (HUD)",
+			"reference": "UT24",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 4800,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eATUHLj0NHQ0QZ6Lb",
+			"description": "Heavy Flashlight",
+			"reference": "UT74",
+			"notes": "50-yard beam. 2B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food",
+				"Melee Weapon"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wkusI2rGCVIwxkP6c",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "wApEKcBzAEAgQRnt3",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e8hw-c2hoxNxILuLg",
+			"description": "Heavy Laser Torch",
+			"reference": "UT80",
+			"notes": "D/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 21600,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "wgM2U8G2vipIFgSQo",
+					"damage": {
+						"type": "burn",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "4d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 21600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "exhG-h2eHTQMpapkU",
+			"description": "Heavy Plasma Torch",
+			"reference": "UT80",
+			"notes": "D/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 64000,
+			"weight": "40 lb",
+			"weapons": [
+				{
+					"id": "wLkqmMY7RcPPNhQUu",
+					"damage": {
+						"type": "burn",
+						"base": "4d+1",
+						"armor_divisor": 5
+					},
+					"strength": "8†",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "4d+1(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eVhUY6oLBSO7e9zLC",
+			"description": "Heavy-Duty Electronic Cuffs",
+			"reference": "UT107",
+			"notes": "ST 40. DR 15. A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e74IBec0ejbqFdICq",
+			"description": "Holographic Crew Station",
+			"reference": "UT24",
+			"notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "ef3ghGwK7jjtq43kB",
+			"description": "Homing Beacon",
+			"reference": "UT105",
+			"notes": "AA/100 hours - 1 year in \"sleeper\" mode",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 1280,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eE7OneVtDxJ0C08cn",
+			"description": "Hyperspectral Binoculars",
+			"reference": "UT61",
+			"notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 480000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eBtnRdGLyj6A4AmRs",
+			"description": "Hyperspectral Goggles",
+			"reference": "UT61",
+			"notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 72000,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "ewtdzLBE5ZfOzNQ2u",
+			"description": "Hyperspectral Imaging Sensor Array",
+			"reference": "UT61",
+			"notes": "32x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 5120000,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5120000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eGDSWUtZazSBg3XpA",
+			"description": "Hyperspectral Surveillance Camera",
+			"reference": "UT61",
+			"notes": "4x magnification. C/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eKYlaaRTX4p-HfkC9",
+			"description": "Hyperspectral Visor",
+			"reference": "UT61",
+			"notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eTUgffNKtpdfANDUw",
+			"description": "Industrial Water Knife",
+			"reference": "UT81",
+			"notes": "C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 1600,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "wnLB0nt6XYsmZ8r9R",
+					"damage": {
+						"type": "cut",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(2) cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eepLnFl4w1lUJf10A",
+			"description": "Inertial Compass",
+			"reference": "UT75",
+			"notes": "A/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 3840,
+			"weight": "0.2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Air"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Sea"
+					},
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3840,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "evP6wjCqXT_9SSIos",
+			"description": "Inertial Navigation System",
+			"reference": "UT75",
+			"notes": "B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 160000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Air"
+					},
+					"amount": 4
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"amount": 4
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Sea"
+					},
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eNBGveOSaHEP4Uwcn",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\General Equipment\\TPM Equipment.eqp",
+				"id": "eA14lZwwJ6PSKE0Cc"
+			},
+			"description": "Infrared Armored Tactical Goggles",
+			"reference": "UT61, UT176, HT71",
+			"notes": "Nonfogging ballistic goggles, 2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses",
+				"Sensors and Scientific Equipment"
+			],
+			"value": 19200,
+			"weight": "0.7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "0.7 lb"
+			}
+		},
+		{
+			"id": "eBo0ij5ZF6VanOh6o",
+			"description": "Infrared Binoculars",
+			"reference": "UT61",
+			"notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 80000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ei-x63eRjbHDn7JpR",
+			"description": "Infrared Cloaking",
+			"reference": "UT99",
+			"notes": "Thermal detection -4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eA14lZwwJ6PSKE0Cc",
+			"description": "Infrared Goggles",
+			"reference": "UT61",
+			"notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 16000,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eOebTutGOC7c1Sc2q",
+			"description": "Infrared Imaging Sensor Array",
+			"reference": "UT61",
+			"notes": "64x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 1280000,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "elrEomVTP7czRewOE",
+			"description": "Infrared Surveillance Camera",
+			"reference": "UT61",
+			"notes": "4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 8000,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eKGHSp9funeAIf87c",
+			"description": "Infrared Video Glasses",
+			"reference": "UT61",
+			"notes": "1x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 16000,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eChGIrkP1jjlZzgVV",
+			"description": "Infrared Visor",
+			"reference": "UT61",
+			"notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 16000,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "epSlC2jSU81TA0eWQ",
+			"description": "Keyboard Bug",
+			"reference": "UT100",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eFFnOGtutlKXo_Oqa",
+			"description": "Large Hydrophone",
+			"reference": "UT63",
+			"notes": "+12 to detection. D/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eZLhB4IERYIgW1MSv",
+			"description": "Large IR Communicator",
+			"reference": "UT44",
+			"notes": "25-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 64000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "e4es57TCeBozRietP",
+			"description": "Large Ladar",
+			"reference": "UT64",
+			"notes": "100-mile range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 6400000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "e7ecBuxxImVou9vc_",
+			"description": "Large Laser Communicator",
+			"reference": "UT44",
+			"notes": "5,000-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 320000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eFRmdY6CJYpx6kfld",
+			"description": "Large Radar",
+			"reference": "UT65",
+			"notes": "100-mile search range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "en4ENDmp7NAB0AqqT",
+			"description": "Large Radio Communicator",
+			"reference": "UT44",
+			"notes": "1,000-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 128000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "erIXmxuby0wdNbEdb",
+			"description": "Large Search Hydrophone",
+			"reference": "UT63",
+			"notes": "D/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 320000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e16CpSvh5VJNLbXKA",
+			"description": "Large Sonar",
+			"reference": "UT65",
+			"notes": "20,000-yard range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 640000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eVkib27OUOU0c72mr",
+			"description": "Large Sonic Projector",
+			"reference": "UT52",
+			"notes": "200-yard range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eoAKy6pqZ8uneG86n",
+			"description": "Large Tactical Ladar",
+			"reference": "UT64",
+			"notes": "100-mile range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 48000000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "etfDeLA7EGJdsZ-zI",
+			"description": "Large Tactical Radar",
+			"reference": "UT65",
+			"notes": "100-mile search range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ei-Glm6Rkrqwl_Fp5",
+			"description": "Large Tactical Sonar",
+			"reference": "UT65",
+			"notes": "20,000-yard range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 6400000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eJqn7o-YOGoVEy0gT",
+			"description": "Large Tactical Terahertz Radar",
+			"reference": "UT65",
+			"notes": "2,000-yard range. +3 Acc. D/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ewdrIEz9fY5Dhj3zZ",
+			"description": "Large Terahertz Radar",
+			"reference": "UT65",
+			"notes": "2,000-yard range. D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 6400000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eY0VISezUkNTQ5Zs4",
+			"description": "Laser Fence (open)",
+			"reference": "UT101",
+			"notes": "Per post.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 160000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOCMz5uouH9csjcOx",
+			"description": "Laser Fence (tight)",
+			"reference": "UT101",
+			"notes": "Per post.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 320000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ece3FxnpZTPB28dFp",
+			"description": "Laser Microphone",
+			"reference": "UT105",
+			"notes": "Range 3000 yards; C/10 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 6400,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "e2wnjFDEbup19bjlH",
+			"description": "Laser Torch",
+			"reference": "UT80",
+			"notes": "C/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wjGhUIPHx5wcYrCml",
+					"damage": {
+						"type": "burn",
+						"base": "2d",
+						"armor_divisor": 2
+					},
+					"strength": "5",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "2d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "enywsxiQw7NM6wZBR",
+			"description": "Long-Range Scanner",
+			"reference": "UT100",
+			"notes": "1,000-yard range. C/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 160000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "enmCKDhCsTGELqK2b",
+			"description": "Macroframe",
+			"reference": "UT22",
+			"notes": "Complexity 8. 100,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000000,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "ejJpOY_pR6-r-9Bbv",
+			"description": "Mainframe",
+			"reference": "UT22",
+			"notes": "Complexity 7. 10,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 32000000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eJw30EqoS9zKggie9",
+			"description": "Medium Hydrophone",
+			"reference": "UT63",
+			"notes": "+10 to detection. C/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 800000,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "etRE8rhx1yMZG7YhT",
+			"description": "Medium IR Communicator",
+			"reference": "UT44",
+			"notes": "2.5-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 16000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eCykHuziZp70Wlf8o",
+			"description": "Medium Ladar",
+			"reference": "UT64",
+			"notes": "30-mile range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 100000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eBpzaJaBsN9rF1uFs",
+			"description": "Medium Laser Communicator",
+			"reference": "UT44",
+			"notes": "500-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 64000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ej4KoCQDK0gopSq63",
+			"description": "Medium Radar",
+			"reference": "UT65",
+			"notes": "30-mile search range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 320000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eCvle4alNG2Uxoo4E",
+			"description": "Medium Radio Communicator",
+			"reference": "UT44",
+			"notes": "100-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 32000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eaNsy8kSTMcsq9LYn",
+			"description": "Medium Search Hydrophone",
+			"reference": "UT63",
+			"notes": "C/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 80000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "evgBNm7ap75WWibqc",
+			"description": "Medium Sonar",
+			"reference": "UT65",
+			"notes": "2,000-yard range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ewC4GpMXKCPhNCv_Z",
+			"description": "Medium Sonic Projector",
+			"reference": "UT52",
+			"notes": "100-yard range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ep9F9goXrabkQnv6E",
+			"description": "Medium Tactical Radar",
+			"reference": "UT65",
+			"notes": "30-mile search range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 320000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eoVMRwbEGlF3bN7q7",
+			"description": "Medium Tactical Sonar",
+			"reference": "UT65",
+			"notes": "2,000-yard range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 640000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eTi2xY9C4ARNoCrVS",
+			"description": "Medium Tactical Terahertz Radar",
+			"reference": "UT65",
+			"notes": "600-yard range. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e_MyhMsqzQYC19L9R",
+			"description": "Medium Terahertz Radar",
+			"reference": "UT65",
+			"notes": "600-yard range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 640000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "esJdmK37ggiaRQdLw",
+			"description": "Megacomputer",
+			"reference": "UT22",
+			"notes": "Complexity 9. 1,000,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000000,
+			"weight": "40,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000000,
+				"extended_weight": "40,000 lb"
+			}
+		},
+		{
+			"id": "ef35nSPSNstYEbv26",
+			"description": "Micro IR Communicator",
+			"reference": "UT44",
+			"notes": "5-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eU-kLeyPgrEHKG3XL",
+			"description": "Micro Laser Communicator",
+			"reference": "UT44",
+			"notes": "1,000-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3TLw86nv-Zt8XKir",
+			"description": "Micro Radio Communicator",
+			"reference": "UT44",
+			"notes": "200-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eBWVmkNw7kl3xinq3",
+			"description": "Microframe",
+			"reference": "UT22",
+			"notes": "Complexity 6. 1,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eovL2TMwJPx5Q0H8t",
+			"description": "Mini Flashlight",
+			"reference": "UT74",
+			"notes": "15-yard beam. B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 320,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "evAcWp4zLmmw8ZPAk",
+			"description": "Mini Laser Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 1600,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "wZnzhSBfCCn1wBF6_",
+					"damage": {
+						"type": "burn",
+						"base": "1d",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eOhjUwbX_qf0-9bKA",
+			"description": "Mini Plasma Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wZfLB2j1TZ0tJqt2j",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2",
+						"armor_divisor": 5
+					},
+					"strength": "3",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d+2(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e-DfQ_JyEXzpmjk96",
+			"description": "Mini Scanner",
+			"reference": "UT100",
+			"notes": "100-yard range. A/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 16000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e7E-sA1gu0vcPna3B",
+			"description": "Mobile Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2400000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "euQi8suPUfgIzkckW",
+			"description": "Monowire Razortape",
+			"reference": "UT107",
+			"notes": "100-foot spool. ST 20.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 2560,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2560,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e0qadG5Lbsqy0NG4a",
+			"description": "Multi-Media Wall",
+			"reference": "UT51",
+			"notes": "Per square foot. External power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1280,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eF3xrx5YJTOwv2rkC",
+			"description": "Multispectral Bug Sweeper",
+			"reference": "UT106",
+			"notes": "C/10 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"value": 320000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eTuhRpNcTI5HZyGE_",
+			"description": "Native Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 5. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 32000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1EYOSvDqVgy8nX4O",
+			"description": "Neural Input Receiver",
+			"reference": "UT48",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eogZocOURSaVB_5_p",
+			"description": "Night Vision Glasses (\"Night Shades\")",
+			"reference": "UT60",
+			"notes": "Night Vision 8. 2x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 8000,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eG57KLoMr1ABJiD_j",
+			"description": "Night Vision Goggles",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000,
+			"weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "egs9K126YJr78UHHd",
+			"description": "Night Vision Visor",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000,
+			"weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eIjbbkq3qWqpHwStq",
+			"description": "Odor Synthesizer",
+			"reference": "UT52",
+			"notes": "100 mixes. B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e6OoX2zekmRY5KuaG",
+			"description": "Optical Cable",
+			"reference": "UT43",
+			"notes": "\"Quantity\" represents yards.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3.2,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3.2,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "ehOhkKKf07SkKdEIx",
+			"description": "Penlight",
+			"reference": "UT74",
+			"notes": "5-yard beam. 2A/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing Tools and Survival Gear"
+			],
+			"value": 96,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "el7YpgdxQAA4MGfaw",
+			"description": "Personal Chemsniffer",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "erF2WgMVF_2fR4xJC",
+			"description": "Personal Computer",
+			"reference": "UT22",
+			"notes": "Complexity 5. 100TB. 2C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 320000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e_qvtlJ5jof_TEpRM",
+			"description": "Personal Sound Detector",
+			"reference": "UT62",
+			"notes": "8x amplification. Requires Complexity 4+. A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eD5lM3Um25o-7Q1IY",
+			"description": "Plasma Torch",
+			"reference": "UT80",
+			"notes": "C/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 8000,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "woGluenCLuElhBtfS",
+					"damage": {
+						"type": "burn",
+						"base": "2d",
+						"armor_divisor": 5
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "2d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e_hpckz1RUGUJ79pd",
+			"description": "Pocket Analyzer (@Scientific Skill@)",
+			"reference": "UT67",
+			"notes": "2B/5hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 8000,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eWT2PZrTDXLDfrNNj",
+			"description": "Pocket Laser Mike",
+			"reference": "UT105",
+			"notes": "Range 300 yards; A/hour",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 1280,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eVBoNwbBPXnVsA7Vc",
+			"description": "Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 6400,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eGagHZf6z_HI9lmtR",
+			"description": "Portable Terminal",
+			"reference": "UT24",
+			"notes": "2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ediiMCRnb-Qrl1Koi",
+			"description": "Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 64000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e6FJ4S-smiq4vuq1k",
+			"description": "Power Tool Box",
+			"reference": "UT81",
+			"notes": "3C/3hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e1m5MacYwivy87F6o",
+			"description": "Programmable Camouflage",
+			"reference": "UT99",
+			"notes": "Changes in 4sec.",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 32000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e7UcvRnHSXEpRFQqc",
+			"description": "Radar Stealth",
+			"reference": "UT100",
+			"notes": "Detection -4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eeZ02rSxo3QcBw8ZV",
+			"description": "Razortape",
+			"reference": "UT107",
+			"notes": "100-foot spool. ST 20.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 1280,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "exDM3KwlcWykivTIa",
+			"description": "Responsive Bed, Double",
+			"reference": "UT69",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 22400,
+			"weight": "140 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 22400,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "eQhV-vlU07mhZvyH9",
+			"description": "Responsive Bed, Single",
+			"reference": "UT69",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 16000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eSvFcBWZ_4l8ojOWb",
+			"description": "Restraint Mask",
+			"reference": "UT108",
+			"notes": "+2 (quality) to Interrogation vs. wearer. 2C/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 16000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eoOMYdc8ly45h-xq5",
+			"description": "RF Bug Detector",
+			"reference": "UT106",
+			"notes": "A/10 hours",
+			"tech_level": "9",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"value": 6400,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "envTm4ZdEAOgbLsRp",
+			"description": "Robobug",
+			"reference": "UT109",
+			"notes": "2A/1hr.",
+			"tech_level": "9",
+			"tags": [
+				"Enforcement and Coercion",
+				"Robot"
+			],
+			"value": 3200,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eScl_Qnco7W9mZgai",
+			"description": "Scent Masking",
+			"reference": "UT100",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e_kCPxApdsnW_awAF",
+			"description": "Secure Encryption",
+			"reference": "UT47",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 16000,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eGJ0wYnHH8XVlt8MG",
+			"description": "Semi-Portable Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"notes": "2D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 4800000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eV-grXMN8GC38Iz-_",
+			"description": "Sensor Periscope",
+			"reference": "UT66",
+			"notes": "10-mile range. 10x magnification. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 11200000,
+			"weight": "150 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 11200000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eTasymlqj46R6TPjs",
+			"description": "Sensor Wire Fence",
+			"reference": "UT102",
+			"notes": "15-yard coil.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 4800,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eCEW9p-Tj3gVveYoW",
+			"description": "Sensory Deprivation Tank",
+			"reference": "UT108",
+			"notes": "+2 (quality) to Interrogation vs. wearer, +3 after 1hr. D/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 320000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e0JrkwpoH71_CBsWj",
+			"description": "Simple Lock",
+			"reference": "UT102",
+			"notes": "Lockpicking +0.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 800,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eeMDvxk8SMiL1gk63",
+			"description": "Sleeve Display",
+			"reference": "UT24",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eMvIb4QFiXuQS2q-_",
+			"description": "Small Computer",
+			"reference": "UT22",
+			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eEz-6yRlOIvHQjksC",
+			"description": "Small Hydrophone",
+			"reference": "UT63",
+			"notes": "+8 to detection. B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 160000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ev2wOVW2dB4fxtpiY",
+			"description": "Small IR Communicator",
+			"reference": "UT44",
+			"notes": "500-yard range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eclPXsjADlRJVZkiJ",
+			"description": "Small Ladar",
+			"reference": "UT64",
+			"notes": "10-mile range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 320000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eCBJkil-oMnfhvOKi",
+			"description": "Small Ladar",
+			"reference": "UT64",
+			"notes": "10-mile range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "evTaCx9YbNHiyfv2-",
+			"description": "Small Laser Communicator",
+			"reference": "UT44",
+			"notes": "50-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 12800,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "elmPfKzFcrYnB834m",
+			"description": "Small Radar",
+			"reference": "UT65",
+			"notes": "10-mile search range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 32000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ee9T_T5876_OLP41B",
+			"description": "Small Radio Communicator",
+			"reference": "UT44",
+			"notes": "10-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eD-ZgNjxj9k_n4YRA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ee9T_T5876_OLP41B"
+			},
+			"description": "Small Radio Communicator (secure encryption)",
+			"reference": "UT44",
+			"notes": "10-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 22400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 22400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eC_7wZ94NwNiBMaXi",
+			"description": "Small Search Hydrophone",
+			"reference": "UT63",
+			"notes": "B/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 16000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ebqRkTXvCiWJ-3Inf",
+			"description": "Small Sonar",
+			"reference": "UT65",
+			"notes": "200-yard range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eMRjfooKTT3z6OXHy",
+			"description": "Small Sonic Projector",
+			"reference": "UT52",
+			"notes": "10-yard range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "en78gg18SzoZgO7_K",
+			"description": "Small Tactical Radar",
+			"reference": "UT65",
+			"notes": "10-mile search range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e2L8oyfdj0f7_ZAat",
+			"description": "Small Tactical Sonar",
+			"reference": "UT65",
+			"notes": "200-yard range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eDufLV_YhLTn5jYj7",
+			"description": "Small Tactical Terahertz Radar",
+			"reference": "UT65",
+			"notes": "200-yard range. B/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 320000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eTzJ2-awlev51H31_",
+			"description": "Small Terahertz Radar",
+			"reference": "UT65",
+			"notes": "200-yard range. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 64000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eyI2-l3n86Ye8qBtg",
+			"description": "Smart Blindfold",
+			"reference": "UT108",
+			"notes": "+1 (quality) to Interrogation vs. wearer. C/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 3200,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "exsmeU47H3370B61o",
+			"description": "Sonic Barrier",
+			"reference": "UT102",
+			"notes": "Covers 10 square yards.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 96000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e-jZGCLk_3tJ-lQZd",
+			"description": "Suitcase Disguise Kit",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 9600,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "epD1BvWG6_nuxbNPV",
+			"description": "Suitcase Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"notes": "4C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 96000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eSMbDWoft_UbI1FHI",
+			"description": "Surveillance Worm",
+			"reference": "UT105",
+			"notes": "+3 on Search attempts",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 144000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 144000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ez2HbiJyRCqyzOTb2",
+			"description": "Survival Rations",
+			"reference": "UT73",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 160,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eUid6Q3ci_KeOw6WB",
+			"description": "Tactical Chemsniffer",
+			"reference": "UT62",
+			"notes": "B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "e8TglvAkYR2L9MS5Y",
+			"description": "Tactical ESM Detector",
+			"reference": "UT62",
+			"notes": "B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 48000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eR2AU8FB7hkkxZsPV",
+			"description": "Tactical Sensor Turret",
+			"reference": "UT66",
+			"notes": "10-mile range. 10x magnification. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 9600000,
+			"weight": "70 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600000,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "eMkCjOdcS4aD1Aqli",
+			"description": "Tactical Sound Detector",
+			"reference": "UT62",
+			"notes": "32x amplification. Requires Complexity 4+. B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 960000,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eKE2hhuoIxwF-93H1",
+			"description": "Thermo-Optic Chameleon Cloak",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eGOy1QacCaXgOdmrm",
+			"description": "Thermo-Optic Chameleon Net",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1280000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "e14QuYxjkXf375XCr",
+			"description": "Thermo-Optic Chameleon Surface",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 128000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eSUebmNT85Vp_ZY6R",
+			"description": "Tiny Computer",
+			"reference": "UT22",
+			"notes": "Complexity 3. 1TB. 2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e35Zl7rDsktZTgBXr",
+			"description": "Tiny IR Communicator",
+			"reference": "UT44",
+			"notes": "50-yard range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ekyliTmL_aMotOJz8",
+			"description": "Tiny Laser Communicator",
+			"reference": "UT44",
+			"notes": "5-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3200,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ejo2D1m_1E4qDxpUZ",
+			"description": "Tiny Radio Communicator",
+			"reference": "UT44",
+			"notes": "1-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eVxiy3UALOcNOhiRk",
+			"description": "Total VR",
+			"reference": "UT25",
+			"notes": "Requires neural interface. Complexity 6.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 216000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 216000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eLSTd6GMCq3mCyvsG",
+			"description": "Verifier Software",
+			"reference": "UT106",
+			"notes": "Detect Lies-12. Complexity 4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion",
+				"Software"
+			],
+			"value": 9600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e_y0ByGpw7uwBvE7M",
+			"description": "Very Large Laser Communicator",
+			"reference": "UT44",
+			"notes": "50,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1280000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eSTzjZJmXoCWyacYB",
+			"description": "Very Large Radio Communicator",
+			"reference": "UT44",
+			"notes": "10,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eIGIUfR8tX1pof-zn",
+			"description": "Video Masking",
+			"reference": "UT56",
+			"notes": "Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 25600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e_Y4U9mB_eb2OA0ri",
+			"description": "Video Wall",
+			"reference": "UT51",
+			"notes": "Per square foot. External power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 640,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ehoRTLajfQjG91lFx",
+			"description": "Virtual character",
+			"reference": "UT55",
+			"notes": "0.001TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 1440,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1440,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eXngOGrCG4lCBN5cj",
+			"description": "Virtual city",
+			"reference": "UT55",
+			"notes": "1,000TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 72000000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eC0V6iCDTMfMAWi8F",
+			"description": "Virtual house or park",
+			"reference": "UT55",
+			"notes": "0.01TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 7200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e5xOJUh9Bi3BFyvIy",
+			"description": "Virtual large nation",
+			"reference": "UT55",
+			"notes": "100,000TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 7200000000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200000000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "enz0OvAl0DmPsvCPZ",
+			"description": "Virtual mansion or wilderness",
+			"reference": "UT55",
+			"notes": "0.1TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 7200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3rn8NPB8648uSCm5",
+			"description": "Virtual neighborhood",
+			"reference": "UT55",
+			"notes": "10TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 720000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ekT6fHbXNFX20biaf",
+			"description": "Virtual room",
+			"reference": "UT55",
+			"notes": "0.001TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 1440,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1440,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eVRE6mXonEWXFdR_L",
+			"description": "Virtual street or mall",
+			"reference": "UT55",
+			"notes": "1TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 72000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "evwnk-GSHVGkjpJKp",
+			"description": "Virtual town",
+			"reference": "UT55",
+			"notes": "100TB",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 7200000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "etgq8YPOI9br0-XUA",
+			"description": "Virtual Tutor (@Average+ Skill@)",
+			"reference": "UT57",
+			"notes": "Complexity 4.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 21600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 21600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "etE2UVPYJhtJ0rnF8",
+			"description": "Virtual Tutor (@Easy skill@)",
+			"reference": "UT57",
+			"notes": "Complexity 3.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 7200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4-jRL7r_9y82rRfV",
+			"description": "Visual Enhancement",
+			"reference": "UT56",
+			"notes": "Complexity 4.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 32000,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "vision",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "edlOkBPm6rnv8dbAh",
+			"description": "Voice Mask",
+			"reference": "UT98",
+			"notes": "B/20hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e8TtOH037mwlDQqTB",
+			"description": "Voice Processor",
+			"reference": "UT51",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eh6xNLuqM1oHVNY1c",
+			"description": "VR Gloves",
+			"reference": "UT54",
+			"notes": "Requires Complexity 2+.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1280,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "e8650AcWJ5rW-u3yc",
+			"description": "VR Manager",
+			"reference": "UT25",
+			"notes": "Supports up to full VR. Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 72000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 72000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e-zePJLAfEO3jv7Wc",
+			"description": "VR Manager",
+			"reference": "UT25",
+			"notes": "Supports up to total VR. Complexity 6.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 216000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 216000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ekLpQ1CByK5apl_0E",
+			"description": "VR Manager",
+			"reference": "UT25",
+			"notes": "Supports VR gloves or basic VR. Complexity 4.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education",
+				"Software"
+			],
+			"value": 21600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 21600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eh3UJACglflKtkcqw",
+			"description": "Workstation Terminal",
+			"reference": "UT24",
+			"notes": "C/10hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 16000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e7--hmGiwV8HI5bmY",
+			"description": "Wristwatch Rad Counter",
+			"reference": "UT67",
+			"notes": "A/6mo.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

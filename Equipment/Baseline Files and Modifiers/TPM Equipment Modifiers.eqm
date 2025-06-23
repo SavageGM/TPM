@@ -1,0 +1,2355 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "FFakqWMjTcs2hX98g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+				"id": "FLI9jhlDy52NhQIhi"
+			},
+			"name": "Scaling Weapons and Armor",
+			"reference": "LTC2:20",
+			"children": [
+				{
+					"id": "fGtlLZPhv8qPUHtKF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "foRlX2ph3cagJmOZB"
+					},
+					"name": "SM -6",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.01",
+					"weight": "x0.01"
+				},
+				{
+					"id": "fj-C3ZOU32ws8olxy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fE-Zdiz3BNQ8x6mLi"
+					},
+					"name": "SM -5",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.04",
+					"weight": "x0.04"
+				},
+				{
+					"id": "fxR-ZocZO3BFx8yw7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f6JnG5sxxGTrpnjJ9"
+					},
+					"name": "SM -4",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.09",
+					"weight": "x0.09"
+				},
+				{
+					"id": "ffhEnlYEIK2Qe4Ud2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fC2oOA3qgnKWl2vRA"
+					},
+					"name": "SM -3",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.16",
+					"weight": "x0.16"
+				},
+				{
+					"id": "fGFwVFU3gfDqd9fvP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f7z55W-NK-nFX1IX7"
+					},
+					"name": "SM -2",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.25",
+					"weight": "x0.25"
+				},
+				{
+					"id": "fjP_2F2hFPuScO68P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fyJpvzouA0L0QBrSW"
+					},
+					"name": "SM -1",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.64",
+					"weight": "x0.64"
+				},
+				{
+					"id": "fgoz_zmTU1LmBfRvO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fUc33HAFXNcS9GO0q"
+					},
+					"name": "SM +2",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x6.25",
+					"weight": "x6.25"
+				},
+				{
+					"id": "fXlBozBby53Cbv8rZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fQrwebjjvZq9TGsje"
+					},
+					"name": "SM +1",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x2.25",
+					"weight": "x2.25"
+				},
+				{
+					"id": "fDzExfkSgLErzrsfe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "foM16RKxJTaYZGoKV"
+					},
+					"name": "SM +3",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x12.25",
+					"weight": "x12.25"
+				},
+				{
+					"id": "f-ztfPtPN-1emYOYy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fnTQ20cGBxnSTtKok"
+					},
+					"name": "SM +4",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x25",
+					"weight": "x25"
+				},
+				{
+					"id": "fQAUgIKWUd_l6nyLE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fWC4epmv159-d4P2J"
+					},
+					"name": "SM +5",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x56.25",
+					"weight": "x56.25"
+				},
+				{
+					"id": "fA0zRiYRBpziJ2dQa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fAFxiqXYycAv9GHSG"
+					},
+					"name": "SM +6",
+					"reference": "LTC2:21",
+					"cost_type": "to_final_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x100",
+					"weight": "x100"
+				}
+			]
+		},
+		{
+			"id": "FLVcRSeRCSdJd4mig",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+				"id": "FJ-1vcQcdCc0_sg2p"
+			},
+			"name": "Integrating and Modifying Equipment",
+			"reference": "UT15",
+			"notes": "Multiplicative Cost Modifiers as of HT9",
+			"children": [
+				{
+					"id": "f_Ck2cZP8FPFBeObD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "ftF83lkar9WZWnqQ1"
+					},
+					"name": "Cheap",
+					"reference": "UT15",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_final_base_weight",
+					"cost": "x0.5",
+					"weight": "x1.5"
+				},
+				{
+					"id": "fITgGqz6BdcWtbEHB",
+					"name": "Combined with other equipment",
+					"reference": "UT16",
+					"notes": "Can be used at the same time as other components",
+					"weight": "+80 lb"
+				},
+				{
+					"id": "fND6OpXjuSAdqcLSb",
+					"name": "Combined with other equipment",
+					"reference": "UT16",
+					"notes": "Cannot be used at the same time as other components",
+					"weight": "+50 lb"
+				},
+				{
+					"id": "fpB0cCYWAZXz-1hMA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fmLLYReiOOpsJN09P"
+					},
+					"name": "Disguised",
+					"reference": "UT15",
+					"notes": "Custom-built item",
+					"cost_type": "to_final_base_cost",
+					"cost": "x5"
+				},
+				{
+					"id": "fpE-yhWfGVDDOYJg7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f_jQRBn8KOdDwxVQ_"
+					},
+					"name": "Disguised",
+					"reference": "UT15",
+					"notes": "Mass Produced",
+					"cost_type": "to_final_base_cost",
+					"cost": "x2"
+				},
+				{
+					"id": "fWDpVu7T7J5an9sB7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fWUQh1AyC_6CUS9Ui"
+					},
+					"name": "Expensive",
+					"reference": "UT15",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x2/3"
+				},
+				{
+					"id": "fh6hqxxSjjYIY5nc0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f3qm3q8z7QOQJbJkP"
+					},
+					"name": "Rugged",
+					"reference": "UT15",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x1.2"
+				},
+				{
+					"id": "f_dkFPuZ0fsdwyGbE",
+					"name": "Cutting-Edge",
+					"reference": "ACT1-26",
+					"notes": "Made of the latest materials.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_final_weight",
+					"cost": "+1 CF",
+					"weight": "+2/3 lb"
+				},
+				{
+					"id": "fNtIeGWPaLMYV_1Kl",
+					"name": "Waterproof Coating",
+					"reference": "PY12-4",
+					"tech_level": "9",
+					"cost": "+25%"
+				}
+			]
+		},
+		{
+			"id": "FFKYF_wkizZscNB4g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+				"id": "FeyXc9i7Ay_EqtAdu"
+			},
+			"name": "Melee and Thrown Weapons",
+			"reference": "UT162",
+			"notes": "Multiplicative Cost Modifiers as of HT9",
+			"children": [
+				{
+					"id": "fCrdQ46QLR0WoVqFH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f8ngL8U5GW72ujt41"
+					},
+					"name": "Lacks Hilt",
+					"reference": "LTC2:15",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "-0.25 CF",
+					"weight": "-0.25 lb"
+				},
+				{
+					"id": "fiLS8Xl-yK_HSu3ZV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "foGOPZmQZl0WzzvdX"
+					},
+					"name": "Butt Spike",
+					"reference": "LTC2:14",
+					"cost": "+20"
+				},
+				{
+					"id": "fOGbCyF7V1Z9s-vMg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fVFEnn1cl6HBah3oK"
+					},
+					"name": "Sickle",
+					"reference": "LTC2:15",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fi07JqNipygddToaq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fdI_G6_DWO2H99T8q"
+					},
+					"name": "Short Handle",
+					"reference": "LTC2:13",
+					"notes": "Polearms with Reach 3+",
+					"cost": "-20",
+					"weight": "-2 lb"
+				},
+				{
+					"id": "fQsVMx3GSLm_JLcnW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fVW2zxjWXauOiFXtJ"
+					},
+					"name": "Falchion",
+					"reference": "LTC2:12",
+					"cost_type": "to_base_cost",
+					"cost": "+0.25 CF",
+					"weight": "+50%"
+				},
+				{
+					"id": "fiBfgUIxzssouSgC0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fE3JOqzM3v6Pw2f0x"
+					},
+					"name": "Throwable",
+					"reference": "LTC2:13",
+					"notes": "Axes; knives; sticks.",
+					"cost": "+10"
+				},
+				{
+					"id": "f7rq9vPMDJKUHC1_P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fodXzVBOgk1ujP6RF"
+					},
+					"name": "Throwable",
+					"reference": "LTC2:13",
+					"notes": "Swords",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "fLZ-tvjFLBblJTV_4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fvWb2TXR13D8zsdZB"
+					},
+					"name": "Prongs",
+					"reference": "LTC2:15",
+					"weight_type": "to_base_weight",
+					"cost": "+50",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fHs_i6XOs9uVccalC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fGlav0dnKnnEm6mFI"
+					},
+					"name": "Pick",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+50",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fIvcmIvQanH1DhniO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "faTsAv6NoJz_DptRj"
+					},
+					"name": "Partial Basket Hilt",
+					"reference": "LTC2:15",
+					"cost_type": "to_base_cost",
+					"cost": "+0.25 CF"
+				},
+				{
+					"id": "f_9hFUJjxoWtzhm5n",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f02DzI9cDnxvLJ43o"
+					},
+					"name": "Weapon damage modifiers included where applicable",
+					"notes": "You may need to change the modifiers directly if a weapon deals crush and cut."
+				},
+				{
+					"id": "fRiOmz2j5Cs5baBc6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fPalRIBQ36rhyVneR"
+					},
+					"name": "Small Spearhead",
+					"reference": "LTC2:15",
+					"weight_type": "to_base_weight",
+					"cost": "+20",
+					"weight": "+2.5 lb"
+				},
+				{
+					"id": "fYIL3CYR59GbYwVEO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fbyN2FvYUkLZDRE0I"
+					},
+					"name": "@Flanges, Spikes, or End Caps@",
+					"reference": "LTC2:14",
+					"cost": "+40%"
+				},
+				{
+					"id": "faDY8iUWqh21pVyf9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fa5HS6px4nexC3ZRW"
+					},
+					"name": "Long Handle",
+					"reference": "LTC2:13",
+					"notes": "Polearms",
+					"cost_type": "to_base_cost",
+					"cost": "+0.33 CF",
+					"weight": "+33%"
+				},
+				{
+					"id": "fFv5X_3dLmFmjluLf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fAhGUdC7tHrVYpPTr"
+					},
+					"name": "Throwable",
+					"reference": "LTC2:13",
+					"notes": "Any other weapon",
+					"cost_type": "to_base_cost",
+					"cost": "+9 CF"
+				},
+				{
+					"id": "fjMXjA2ogAfnvLTVl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f1kuUuo3aVqRUsNN9"
+					},
+					"name": "Lacks @Flanges, Spikes, or End Caps@",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "-5",
+					"weight": "-1 lb"
+				},
+				{
+					"id": "fZjvltwCMObDnZD6C",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fbWlrcmSqze88Ilkt"
+					},
+					"name": "Kusari, Two-Yard",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+40",
+					"weight": "+2.5 lb"
+				},
+				{
+					"id": "fg2r0eOPwn2Bew6BU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fYCw30cKHoPGBfjTV"
+					},
+					"name": "Kusari, Four-Yard",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+80",
+					"weight": "+5 lb"
+				},
+				{
+					"id": "fV6JEhy-mtzcBvcXV",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f9UQlRBcetv0qdxQJ"
+					},
+					"name": "Hilt",
+					"reference": "LTC2:15",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+0.25 CF",
+					"weight": "+0.25 lb"
+				},
+				{
+					"id": "fsZsyQ_LnhavvG_tz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f7PD4h7TgM5aoohGV"
+					},
+					"name": "Axe Head",
+					"reference": "LTC2:13",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+1 lb"
+				},
+				{
+					"id": "fUmY2xPVA23489dQt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f7obZ3VDi4x0PWmGT"
+					},
+					"name": "Hammer Head",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+25",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fnd8XRB6D1l6Uo8-a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fPPRliu6aCfWgw23x"
+					},
+					"name": "Barbs",
+					"reference": "LTC2:14",
+					"cost": "+60"
+				},
+				{
+					"id": "fMacq9uTDQ5_xSWw_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fpFuVH_V_UtEsxj4a"
+					},
+					"name": "Basket Hilt",
+					"reference": "LTC2:15",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+0.25 CF",
+					"weight": "+0.25 lb"
+				},
+				{
+					"id": "f5bU2Qq7IALrqcVEr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fVQ930EmagOmLTBm5"
+					},
+					"name": "Long Handle",
+					"reference": "LTC2:13",
+					"notes": "Axes; maces; picks.",
+					"cost_type": "to_base_cost",
+					"cost": "+0.5 CF",
+					"weight": "+50%"
+				},
+				{
+					"id": "fkWoPp28AVQrBsFn2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fuHaPfqFrU_DAD_MW"
+					},
+					"name": "Butt Spike",
+					"reference": "LTC2:14",
+					"notes": "Small Spear Point, Impaling Damage.",
+					"cost": "+20"
+				},
+				{
+					"id": "fZuw90tfU4DPEKq13",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fZ7DGz0KgU6pYw3o5"
+					},
+					"name": "@Blunt or Sharp@ Hook",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+25",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fjtCo6t-9dXFUU5Z0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fVCa5n4pJNPR4N8r2"
+					},
+					"name": "Full Size Spearhead",
+					"reference": "LTC2:15",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+1 lb"
+				},
+				{
+					"id": "fhu8evT4VvC0Ss-yX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fVPV6J0Q6zfaBK91s"
+					},
+					"name": "Chain",
+					"reference": "LTC2:14",
+					"weight_type": "to_base_weight",
+					"cost": "+20",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fGAuHoSY1AFQSvTLh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fb4QuQgqwOVluhpQg"
+					},
+					"name": "Carrying Strap",
+					"reference": "LT36",
+					"notes": "For items 10 lbs or less",
+					"tech_level": "0",
+					"cost": "+1",
+					"weight": "+0.1 lb"
+				},
+				{
+					"id": "fNG5Aefmhr8xgr7IQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f8QPHkHEI_5cpsPvO"
+					},
+					"name": "Fine",
+					"reference": "LT59",
+					"notes": "Projectiles, and crushing- or impaling-only melee or thrown weapons.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+2 CF"
+				},
+				{
+					"id": "fjcdL9qjwDLB4B3aa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fwqOjkYUgiiyDgL-K"
+					},
+					"name": "Very Fine",
+					"reference": "LT59",
+					"notes": "Crushing-only melee and thrown weapons:.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+14 CF"
+				},
+				{
+					"id": "fByA4yLkLfPKyRXD_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f2uIDkDrEczUlSaqJ"
+					},
+					"name": "Very Fine",
+					"reference": "LT59",
+					"notes": "Other melee or thrown weapons, and projectiles.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+49 CF",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fMUcGLLh_h2IczoeT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fQPRWL7wJr_qVtRvY"
+					},
+					"name": "Cheap",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "-0.6 CF"
+				},
+				{
+					"id": "fA71csIPMTQ8sCnGU",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fpisvHCKI9VsMMDmt"
+					},
+					"name": "Fine",
+					"reference": "LT59",
+					"notes": "Fencing weapons, knives, swords, and missile weapons.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+3 CF",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "f1UgmsMpEpVeKdcu8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fNrHT3QVTC0023J22"
+					},
+					"name": "Fine",
+					"reference": "LT59",
+					"notes": "Other cutting melee or thrown weapons.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+9 CF",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "fp0n7iiZAjP4E-KrY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fsgT5NYRqc1aTNgqD"
+					},
+					"name": "Very Fine",
+					"reference": "LT59",
+					"notes": "Fencing weapons, knives, and swords.",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+19 CF",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fYYiNEg1vjVXL85cz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fBItEwbkEb49jZtAt"
+					},
+					"name": "Poorly Balanced",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "-0.6 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "fYOvvpY5x480ONEw_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fe_7_hLq73r6PKnIq"
+					},
+					"name": "Carrying Strap, Heavy",
+					"reference": "LT36",
+					"notes": "For items over 10 lbs",
+					"tech_level": "0",
+					"cost": "+5",
+					"weight": "+0.2 lb"
+				},
+				{
+					"id": "ftNr_hMKu4gNg9tvi",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fTxWsfc1SX6iVxSwd"
+					},
+					"name": "Balanced",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+4 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "fsgF3JQ25kw6s32kw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fQbzES76NXVMeDjYk"
+					},
+					"name": "Cheap",
+					"reference": "LT109",
+					"notes": "Armor, -1 DR",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "-0.6 CF"
+				},
+				{
+					"id": "fFh77QcS8oft5nPxG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fPhNjVsLP9VwEzOZv"
+					},
+					"name": "Fluting",
+					"reference": "LT110",
+					"notes": "Plate, Scale, Lamellar",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "1",
+					"cost": "+4 CF",
+					"weight": "x90%"
+				},
+				{
+					"id": "fgmF0fqZLXoQHw8ka",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "ffSsTPYBq85b6lBvU"
+					},
+					"name": "Masterful Tailoring",
+					"reference": "LT110",
+					"notes": "Gives opponents targeting you an additional -1 to target chinks in armor",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "1",
+					"cost": "+29 CF",
+					"weight": "x70%"
+				},
+				{
+					"id": "fKiXloB9zTvbgtYw6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fGj0pmtX8zpDyLXId"
+					},
+					"name": "Expert Tailoring",
+					"reference": "LT110",
+					"notes": "Gives opponents targeting you an additional -1 to target chinks in armor",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "1",
+					"cost": "+5 CF",
+					"weight": "x85%"
+				},
+				{
+					"id": "fd7BYbL5pI_6NTMcX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fNaQS9NlVMM2T-l1C"
+					},
+					"name": "Hardened Steel",
+					"reference": "LT110",
+					"notes": "+1 DR",
+					"cost_type": "to_base_cost",
+					"tech_level": "4",
+					"cost": "+4 CF"
+				},
+				{
+					"id": "fA5O3Wxq6oOhu2zuN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fKNUjX75UEEerW0Yq"
+					},
+					"name": "Duplex Plate",
+					"reference": "LT110",
+					"notes": "+1 DR",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "4",
+					"cost": "+8 CF",
+					"weight": "x90%"
+				},
+				{
+					"id": "fF-rNSwlOgdNbOmxf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fH5DOeHQC4VhoOc9P"
+					},
+					"name": "Rocket Striker",
+					"reference": "UT163",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_final_base_weight",
+					"tech_level": "9",
+					"cost": "+500",
+					"weight": "+1 lb"
+				},
+				{
+					"id": "fxC6wNnJDzaPQzv6l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fzPuWWYsiz4068D4q"
+					},
+					"name": "Superfine Blade",
+					"reference": "UT163",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x6"
+				},
+				{
+					"id": "fhfdpPqjk9qYe0lrH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fFsUMzlqBNsLbCD-n"
+					},
+					"name": "Superfine Vibroblade",
+					"reference": "UT164",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "10",
+					"cost": "x30"
+				},
+				{
+					"id": "feDx8RpAahIKij_-O",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fIcBJBASQXoaQDRr7"
+					},
+					"name": "Vibroblade",
+					"reference": "UT164",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "10",
+					"cost": "x10"
+				},
+				{
+					"id": "fHWCMTKryCLWnEwSP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f1Xrobev1wk2-OJ0P"
+					},
+					"name": "Hyperdense Blade",
+					"reference": "UT164",
+					"notes": "Cost is higher of: 500x Weight in lb, or 10x normal cost.",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "11",
+					"cost": "x10"
+				},
+				{
+					"id": "fmYIZ9ICCo3HIFW2a",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fnmpACPvJkiJH01yH"
+					},
+					"name": "Nanothorn Blade",
+					"reference": "UT164",
+					"notes": "Upgrade for Monowire.",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "11^",
+					"cost": "x4"
+				},
+				{
+					"id": "fH3p9WHlDNCQ0ecsQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f5N6d6Bvt_hD6-Zqe"
+					},
+					"name": "Nanothorn Blade",
+					"reference": "UT164",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "11^",
+					"cost": "x20"
+				}
+			]
+		},
+		{
+			"id": "FSk9Eq52SBzCvC62U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+				"id": "FX4eycou_r2pyAZVY"
+			},
+			"name": "Tailoring Armor",
+			"reference": "UT174",
+			"notes": "Multiplicative Cost Modifiers as of HT9",
+			"vtt_notes": "[\"See also Coverage Table\" [PDF:UT175]]",
+			"children": [
+				{
+					"id": "FIWXFk8t4RA4bVxv8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "F6z9WPm3OkuqGU2RO"
+					},
+					"name": "Cut",
+					"children": [
+						{
+							"id": "fJv--BCQ-i7F_TmYa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fIy5OvNuiE9LGQHpy"
+							},
+							"name": "Fashion Original",
+							"reference": "UT175",
+							"cost_type": "to_final_base_cost",
+							"cost": "x20"
+						},
+						{
+							"id": "f8qwJdMfylPeasdeO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fZARw6cfNbBqj1dq6"
+							},
+							"name": "Stylish",
+							"reference": "UT175",
+							"cost_type": "to_final_base_cost",
+							"cost": "x4"
+						}
+					]
+				},
+				{
+					"id": "FpcDnZ-HwD6qN33nh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "F_7spCnRPOkMoKwRb"
+					},
+					"name": "Style",
+					"reference": "UT175",
+					"children": [
+						{
+							"id": "fsfvKkQRAgOAmMZfm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fiJXNUc8xVq0nko6x"
+							},
+							"name": "Diaphanous",
+							"reference": "UT175",
+							"notes": "Multiply DR by 0.5, Increase LC by 1",
+							"cost_type": "to_final_base_cost",
+							"weight_type": "to_base_weight",
+							"cost": "x0.5",
+							"weight": "x0.5"
+						},
+						{
+							"id": "fg2qpIoTltPTO-25n",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "f8H6oqWz-j6-FPUY5"
+							},
+							"name": "Heavy",
+							"reference": "UT175",
+							"notes": "Multiply DR by 1.5, Reduce LC by 1",
+							"cost_type": "to_final_base_cost",
+							"weight_type": "to_final_base_weight",
+							"cost": "x1.5",
+							"weight": "x1.5"
+						},
+						{
+							"id": "f7cFceuqOXMMm_LFl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fbje4tUqGZwRGmZhP"
+							},
+							"name": "Light",
+							"reference": "UT175",
+							"notes": "Multiply DR by 2/3, Increase LC by 1",
+							"cost_type": "to_final_base_cost",
+							"weight_type": "to_final_base_weight",
+							"cost": "x0.67",
+							"weight": "x2/3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "FHkFN3tBIloH3Gus2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+				"id": "F5rRzOrTDIpFERvu2"
+			},
+			"name": "Warheads and Ammunition",
+			"reference": "UT152",
+			"notes": "Multiplicative Cost Modifiers as of HT9",
+			"children": [
+				{
+					"id": "f6hdIfKrMds_X4lw3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fNRlBoJgApx2i9NQ5"
+					},
+					"name": "Armor Piercing Hyperdense Dart",
+					"reference": "UT156",
+					"cost_type": "to_final_base_cost",
+					"cost": "x10"
+				},
+				{
+					"id": "fjvuOvkPcrFDEi0r8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fyLcDokVe_AjwZqcn"
+					},
+					"name": "Armor-Piercing Enhanced Penetrator",
+					"reference": "UT152",
+					"cost_type": "to_final_base_cost",
+					"cost": "x10"
+				},
+				{
+					"id": "fNfQXQaNh9ZzYG3_W",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fuZTeHDGZMqbERcig"
+					},
+					"name": "Armor-Piercing Hardcore",
+					"reference": "UT152",
+					"cost_type": "to_final_base_cost",
+					"cost": "x2"
+				},
+				{
+					"id": "fC85517Xnh52qH_iZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fEfwDLyVSkK7XWq0w"
+					},
+					"name": "Armor-Piercing Hardcore Explosive",
+					"reference": "UT152",
+					"cost_type": "to_final_base_cost",
+					"cost": "x4"
+				},
+				{
+					"id": "fOwODT8DoghHMQcJc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fgMGWz2w8J_b0AR2M"
+					},
+					"name": "Shotshell",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fcLlQDz5yfD0XJMCE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fJjJ6KbM21mPaeB0_"
+					},
+					"name": "Biochemical Liquid",
+					"reference": "UT153",
+					"notes": "Cost Plus Filler x # of Doses",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fcKfVDudcwm8npY_c",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fHyT0ClHAiWxsNDRx"
+					},
+					"name": "Warbler",
+					"reference": "UT157",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x4"
+				},
+				{
+					"id": "fUEVZqfXWIDaUtHjs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fcubpxLdEndYUq7EZ"
+					},
+					"name": "Electrothermal-Chemical",
+					"reference": "UT139",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x2"
+				},
+				{
+					"id": "ftloSS-sTjoXMkE39",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fZ5nfxmQQ9Ku1Zv6k"
+					},
+					"name": "EMP",
+					"reference": "UT157",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x10"
+				},
+				{
+					"id": "fD3zEGL3e-oi5hzXH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fJgt-6m-V5iJQmViC"
+					},
+					"name": "Expendable Jammer",
+					"reference": "UT157",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "fWRfm8Pav_KUAinzs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f2ksOtNm7Dprllx-Y"
+					},
+					"name": "Flare",
+					"reference": "UT153",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x2"
+				},
+				{
+					"id": "f1jLW51KBd6f3_8u7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fgj5DNlnckU46hBeG"
+					},
+					"name": "Thermobaric",
+					"reference": "UT155",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "fu8QRjMMMJ-X4BYUz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fT9ZucSE1gCimyDTh"
+					},
+					"name": "High Explosive",
+					"reference": "UT153",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fVIYtNS_aYlNJJHYq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvKTq4sg9jHJkWfP2"
+					},
+					"name": "High Explosive Concussion",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fxi5EhT9_3jaxGCA5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f0nq-witoSEqJDOM9"
+					},
+					"name": "Tangler",
+					"reference": "UT155",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x2"
+				},
+				{
+					"id": "fmYTaMCp0hCh4cVN4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fM7xTWUDF5MFDRuAD"
+					},
+					"name": "Hollow-Point",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fjaswz5PetbizYTPr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fuUeOg8k6MEHolVtn"
+					},
+					"name": "Swarm",
+					"reference": "UT156",
+					"notes": "Plus Cost of Swarm",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "fB1X8h46aoxdJAOl2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f0h6cH-N44ZPE6svD"
+					},
+					"name": "Infrared Homing",
+					"reference": "UT146",
+					"tech_level": "9",
+					"cost": "+300%"
+				},
+				{
+					"id": "fNyRaRydRrL1R2h3L",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fCyubJK2LZrGQWWvU"
+					},
+					"name": "Liquid Propellant",
+					"reference": "UT139",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1.5"
+				},
+				{
+					"id": "fqxV5SQaca7iajFEB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fNvW1xoJjRzs0UIME"
+					},
+					"name": "Memory Baton",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "f3HhdaaP5D5ODG_2E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "f8bCFO8W-xLy5r9UH"
+					},
+					"name": "Mininuke",
+					"reference": "UT156",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1000"
+				},
+				{
+					"id": "fPmpa_9c9tp4CCD4o",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fCOE2GQ7jJ_EfOvax"
+					},
+					"name": "Strobe",
+					"reference": "UT157",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x4"
+				},
+				{
+					"id": "fZ5wRM5C4qxD_nRnu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fwwaAoJcd79rd3gfl"
+					},
+					"name": "Stingray",
+					"reference": "UT156",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "fwkHdnMSwA1kDvq4J",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fVx1_bx-swVmBXfaQ"
+					},
+					"name": "Multi-Spectral Homing",
+					"reference": "UT146",
+					"tech_level": "9",
+					"cost": "+900%"
+				},
+				{
+					"id": "fFnIAJG5bvquTB9mS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fSDiBtCZZX1_O6sJg"
+					},
+					"name": "Smart Explosively Forged Projectile",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x5"
+				},
+				{
+					"id": "f-xXTiNKBoF_jVEa0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fORVkYxPVDbSSIPdq"
+					},
+					"name": "Biochemical Aerosol",
+					"reference": "UT153",
+					"notes": "Cost Plus Filler x # of Doses",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9",
+					"cost": "x1"
+				},
+				{
+					"id": "fXrt6HC7mHryiYFwj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fcS42LKUdmwUwVN4A"
+					},
+					"name": "Shaped Charge",
+					"reference": "UT154",
+					"cost_type": "to_final_base_cost",
+					"tech_level": "9+-",
+					"cost": "x2"
+				}
+			]
+		},
+		{
+			"id": "FKoK5-G2BtDooihWZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+				"id": "FmttWbI86tTMAfISE"
+			},
+			"name": "Interfaces",
+			"reference": "PY37:21",
+			"notes": "Multiplicative Quality, as per HT9",
+			"children": [
+				{
+					"id": "fNk6U7MMPDVnPk_GM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f3QCDkEYTMaLT4tjN"
+					},
+					"name": "Command Center",
+					"reference": "PY37:21",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x20",
+					"weight": "x5"
+				},
+				{
+					"id": "f5WvOajuzJqEFjdLX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f1SEOokFCvrC0447f"
+					},
+					"name": "Datapad",
+					"reference": "PY37:21",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x0.25",
+					"weight": "x0.01"
+				},
+				{
+					"id": "foE4KyBSqYYI0FwVJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f42BtkTpcRwDJLAB8"
+					},
+					"name": "Luxurious",
+					"reference": "PY37:21",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x4",
+					"weight": "x2"
+				},
+				{
+					"id": "fSgeXdOrAYp1SSPmo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "fBKZ3iqHlVjbZqEIB"
+					},
+					"name": "Portable",
+					"reference": "PY37:21",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x0.5",
+					"weight": "x0.2"
+				},
+				{
+					"id": "fmCuIMWskt39Fch3v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "ftcZLQcr2McZWrueT"
+					},
+					"name": "Wrist-Top",
+					"reference": "PY37:21",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x0.01",
+					"weight": "x0.001"
+				}
+			]
+		},
+		{
+			"id": "FChB1YdRMR0NVYcsc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+				"id": "FA93yc0sbSiP97rOn"
+			},
+			"name": "Armor-Piercer Modifiers",
+			"reference": "LTC2:12",
+			"children": [
+				{
+					"id": "f5cFUoOimYx5uFST-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fgRbpM_I_UZ6Rr0yX"
+					},
+					"name": "Armor-Piercer",
+					"reference": "LTC2:12",
+					"notes": "Add (2) to thr damage, change cut attack to cr, -1 imp damage; for arrows, swords, knives",
+					"cost_type": "to_base_cost",
+					"tech_level": "3",
+					"cost": "+3 CF"
+				},
+				{
+					"id": "fvrefWbKfGpdtvJVg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "ftOf4DJ-HBP0SV8Fu"
+					},
+					"name": "Armor-Piercer",
+					"reference": "LTC2:12",
+					"notes": "Choose attack(s) to affect, -1 damage, (2) armor divisor; for all other weapons.",
+					"cost_type": "to_base_cost",
+					"tech_level": "3",
+					"cost": "+9 CF"
+				}
+			]
+		},
+		{
+			"id": "FWl7Zv1BVdX6ZHNXh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+				"id": "FXbqXiROddtF4KS0r"
+			},
+			"name": "Face Protection",
+			"reference": "LT112",
+			"children": [
+				{
+					"id": "f9nS9Ecn1b2hzDiOa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f00KbiC57RcnfVk7E"
+					},
+					"name": "Brim",
+					"reference": "LT112",
+					"notes": "Protects face on 1/6 or 5/6 from above",
+					"cost": "+15%",
+					"weight": "+15%"
+				},
+				{
+					"id": "fxIH2F6znKuxucz2u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "ffY__F__KJZqXRA2o"
+					},
+					"name": "Cheek Guards",
+					"reference": "LT112",
+					"notes": "Covers Ears, Protects face on 3/6, Gives Hard of Hearing",
+					"cost": "+10%",
+					"weight": "+10%"
+				},
+				{
+					"id": "fArecVd7d6xDLF22V",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fCXMTWocjGv0UvX7o"
+					},
+					"name": "Cheek Guards",
+					"reference": "LT112",
+					"notes": "Covers Ears, Protects face on 3/6, Gives Hard of Hearing",
+					"cost": "+10%",
+					"weight": "+10%"
+				},
+				{
+					"id": "f0q6KDS6foMBqKaT4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fMRP8HefZlyt64uTs"
+					},
+					"name": "Cheek Guards",
+					"reference": "LT112",
+					"notes": "Protects face on 2/6",
+					"cost": "+10%",
+					"weight": "+10%"
+				},
+				{
+					"id": "f-mQCl3JR07wYwJ96",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f_aRvUfodhS3_Vz8N"
+					},
+					"name": "Nasal",
+					"reference": "LT112",
+					"notes": "Protects face on 1/6",
+					"cost": "+5%",
+					"weight": "+5%"
+				},
+				{
+					"id": "fZmXile3sTxNuvwaB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fRwERouw_5hFG9qyL"
+					},
+					"name": "Perforations",
+					"reference": "LT112",
+					"notes": "For helme that cover the ears. Reduces Hard of Hearing and Chink targetting penalty by 2 ",
+					"cost_type": "to_base_cost",
+					"cost": "+0.2 CF"
+				},
+				{
+					"id": "f5okQ3RlGievYWdfe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "f0YyIPOyJZElECNgS"
+					},
+					"name": "Spectacles",
+					"reference": "LT112",
+					"notes": "Protects face on 1/6, No Peripheral Vision, Target eyes at -10",
+					"cost": "+5%",
+					"weight": "+5%"
+				},
+				{
+					"id": "fbVTb9XAFrr5Msy3t",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fmam5ZmgzOO_ti1Jw"
+					},
+					"name": "Visor",
+					"reference": "LT112",
+					"notes": "Protects face on 5/6. Hard of Hearing, No Peripheral Vision",
+					"cost": "+25%",
+					"weight": "+25%"
+				}
+			]
+		},
+		{
+			"id": "FlshmtEMGclqcpJUA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+				"id": "FAV-0xC_zCIBGDtBa"
+			},
+			"name": "Shield Modifiers",
+			"reference": "LTC2:19",
+			"children": [
+				{
+					"id": "fxeG1lq-kbDgjjk9P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f_PgA3V42NDVQPXul"
+					},
+					"name": "Alternate Grips",
+					"reference": "LTC2:19",
+					"weight_type": "to_base_weight",
+					"cost": "+20",
+					"weight": "+2 lb"
+				},
+				{
+					"id": "fe8RJL8520-qa5YxI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fAKBHxxKkCyCpEgEu"
+					},
+					"name": "Blades, Large",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+40",
+					"weight": "+1 lb"
+				},
+				{
+					"id": "fySXsRmATWNHcZ_wY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fYQ_loH_KbqrdSZAa"
+					},
+					"name": "Blades, Long",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+120",
+					"weight": "+1.5 lb"
+				},
+				{
+					"id": "fuj-S7BErgECZR_90",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fTBkXO6mewTYXwmVc"
+					},
+					"name": "Blades, Small",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fDCRl4k3FwDehzzaG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f0FGr1KHIEiaz0HpT"
+					},
+					"name": "Conical Boss",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+50",
+					"weight": "+3 lb"
+				},
+				{
+					"id": "fxJkN9qtzTOtsfORE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "f7GWl9A-mtGW6pw-N"
+					},
+					"name": "Disarming Spikes",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+1 lb"
+				},
+				{
+					"id": "fjsdu25uijpP4XT3T",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fIb2gXfrmZMQ1KBVn"
+					},
+					"name": "Lance Cutout",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+30",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fepACZWBp_YzdUJle",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fZ9Fl4NC6uJmxQmPu"
+					},
+					"name": "Lantern Hook",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+20",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "fPdYLLsnKjIwviF_E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fKDafKgtZ0Ceo-LZ7"
+					},
+					"name": "Long Spike Boss",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "+50",
+					"weight": "+3 lb"
+				},
+				{
+					"id": "fnrHGmz7nnOPpo_kz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fyyygrSObWBKxwrWZ"
+					},
+					"name": "No Boss",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "-25",
+					"weight": "-2 lb"
+				},
+				{
+					"id": "fFRSEKxhGIjIUz5J5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fNlbKCBqKUtw0g2Hz"
+					},
+					"name": "No Guige",
+					"reference": "LTC2:20",
+					"weight_type": "to_base_weight",
+					"cost": "-10",
+					"weight": "-1 lb"
+				},
+				{
+					"id": "fi-S4b9w3DRKprFfx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Companion 2 Equipment Modifiers.eqm",
+						"id": "fRhRwd6n4u-SxvtMp"
+					},
+					"name": "Rim Blade",
+					"reference": "LTC2:20",
+					"cost_type": "to_base_cost",
+					"cost": "+0.5 CF"
+				}
+			]
+		},
+		{
+			"id": "ForNqMN_6vhREpb0q",
+			"name": "Materials",
+			"children": [
+				{
+					"id": "f-5b1yft8gkbi4M61",
+					"name": "Bone (cut)",
+					"reference": "LT71",
+					"notes": "changes cut to cr",
+					"cost": "-95%",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "fk_wW1rnQQDpBAcd9",
+					"name": "Bone (imp)",
+					"reference": "LT71",
+					"cost": "-95%",
+					"features": [
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 0.5
+						},
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "fJrZttvrCYKECs9QU",
+					"name": "Horn or Tooth (imp)",
+					"reference": "LT71",
+					"cost": "-80%",
+					"features": [
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 0.5
+						},
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "fP90GOvW1e3_N2_N3",
+					"name": "Horn or Tooth (cut)",
+					"reference": "LT71",
+					"notes": "changes cut to cr",
+					"cost": "-80%",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "f7sz40yO4DMLesR2R",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fU0HQQfztaqDVgEvI"
+					},
+					"name": "Silver Coated",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+2 CF"
+				},
+				{
+					"id": "fFxJnp--pL3_Yww7l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Low Tech\\Low Tech Equipment Modifiers.eqm",
+						"id": "fM-fb39MJmA4C2FZy"
+					},
+					"name": "Silver",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+19 CF"
+				}
+			]
+		},
+		{
+			"id": "FzOp4nMcWOGljJYUW",
+			"name": "ATE Equipment Modifiers",
+			"children": [
+				{
+					"id": "fUPggAPy3qmS7d1WT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "f5yJenRGroTyHnYFh"
+					},
+					"name": "Tainted (@Disease@)",
+					"reference": "ATE1:30",
+					"cost_type": "to_base_cost",
+					"cost": "-0.75 CF"
+				},
+				{
+					"id": "fmVZ9ksFgvbYWKs15",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fx-GQPU6M2Ahx_jv9"
+					},
+					"name": "Tainted (Radiation)",
+					"reference": "ATE1:30",
+					"cost_type": "to_base_cost",
+					"cost": "-0.75 CF"
+				},
+				{
+					"id": "finBqUq0K9L179-QO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "ft_qxyY588MLf7ovu"
+					},
+					"name": "Bulky",
+					"reference": "ATE1:29",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "-0.5 CF",
+					"weight": "x1.5"
+				},
+				{
+					"id": "fE0u99bs21nNtbdFg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fV1qYOyGdmSBZm8Ft"
+					},
+					"name": "Fragile",
+					"reference": "ATE1:29",
+					"notes": "-1 to HT, 3/4 normal DR",
+					"cost_type": "to_base_cost",
+					"cost": "-0.2 CF"
+				},
+				{
+					"id": "fRCe3BB3wUf4yw8f7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fARix99jw6VmsYSAi"
+					},
+					"name": "Hard to Use 1",
+					"reference": "ATE1:29",
+					"notes": "-1 on rolls to operate.",
+					"cost_type": "to_base_cost",
+					"cost": "-0.2 CF"
+				},
+				{
+					"id": "fVahnrCQYQP8UOXAe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fDduC2CVV2A4NgnGz"
+					},
+					"name": "Hard to Use 2",
+					"reference": "ATE1:29",
+					"notes": "-2 on rolls to operate.",
+					"cost_type": "to_base_cost",
+					"cost": "-0.4 CF"
+				},
+				{
+					"id": "fDHe9i05ooUkBJXcz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "f42pxbfN7HiabV2sw"
+					},
+					"name": "Hard to Use 3",
+					"reference": "ATE1:29",
+					"notes": "-3 on rolls to operate.",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF"
+				},
+				{
+					"id": "fj6zlsDgSvxZIdnFe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fFQpR4KO-mBt8eM6u"
+					},
+					"name": "Hard to Use 4",
+					"reference": "ATE1:29",
+					"notes": "-4 on rolls to operate.",
+					"cost_type": "to_base_cost",
+					"cost": "-0.8 CF"
+				},
+				{
+					"id": "fpg3JJdrpg0r9wU26",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fSco7pCtlLwhknx2e"
+					},
+					"name": "Unreliable",
+					"reference": "ATE1:29",
+					"notes": "Roll HT to avoid breakage",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF"
+				},
+				{
+					"id": "fYaThP5sietXRn6uD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "f2Wm4X8G56FHyb36B"
+					},
+					"name": "Very Fragile",
+					"reference": "ATE1:29",
+					"notes": "-2 to HT, 1/2 normal DR",
+					"cost_type": "to_base_cost",
+					"cost": "-0.5 CF"
+				}
+			]
+		},
+		{
+			"id": "FfORL9Bm90-d7bju6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+				"id": "FVq_Q2gpmaogpbxo2"
+			},
+			"name": "Computer Hardware Modifiers",
+			"notes": "Cost Factor Conversion as of LT14",
+			"children": [
+				{
+					"id": "foBuiQ4FukvwVHa-S",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f0W_ChQGkQqPIhLv2"
+					},
+					"name": "Rugged",
+					"reference": "PY37:20",
+					"notes": "+2 HT and Skill to repair.",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x2"
+				},
+				{
+					"id": "fcE9b0rCr4KhptmwX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "fc_53BulCexNFyFfv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fORPlSDsTOr2fk5Wz"
+					},
+					"name": "Fast (+1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+19 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fjT-bV0bp3mT7Ybkw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fgR2We4I31YgNotD0"
+					},
+					"name": "FTL (+1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using Mulitpliers, may require Quantum, -1 LC",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "11^",
+					"cost": "+99 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "f-tr24TTvs2JAQ-xX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fOdqzWq5hDOqIdQ4O"
+					},
+					"name": "Hardened",
+					"reference": "UT23",
+					"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "fzD7zpzjvG7s-9Vs3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fRx_ReXkAdcqOxLce"
+					},
+					"name": "High-Capacity",
+					"reference": "UT23",
+					"notes": "Using multipliers, Run 50% more programs simultaneously.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+0.5 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "f1zX-MQXHnGl2HnLO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fV3DRKJenyjBaC_5S"
+					},
+					"name": "Genius (+2 Complexity)",
+					"reference": "UT23",
+					"notes": "Using Multipliers, -1 LC",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+499 CF"
+				},
+				{
+					"id": "fJ3ZlND5kAWAkkLvT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fCGs6y2MHu5bT_3Rs"
+					},
+					"name": "Printed (-1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using multipliers, -1 Complexity, divide data storage by 1,000",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "TL9",
+					"cost": "+0 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fFiGE22YSzsMdv4s6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "foC7Y-2pXgtU-FL2_"
+					},
+					"name": "Quantum",
+					"reference": "UT23",
+					"notes": "Using multipliers, -1 LC",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+9 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "fJZt26_YGB23oL3tG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fJm4iwpibmE93_T75"
+					},
+					"name": "Slow (-1 Complexity)",
+					"notes": "Using multipliers, reduce storage by 1/10",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "-0.8 CF",
+					"weight": "+0 lb"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2535 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "e7x-Zx9Z4SYBakA41",
+			"description": "Gecko Soles",
+			"reference": "PY12:6",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "19200",
+			"base_weight": "0.25 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 19200,
+				"extended_value": 19200,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e8ipvioT9QiX3iXt7",
+			"description": "Rope Traverser up to 3/16” diameter",
+			"reference": "PY12:7",
+			"local_notes": "2C/8 minutes",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "12800",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 12800,
+				"extended_value": 12800,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eG7KloV78Mc3Ub5z5",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eV0MAnqneGqp0Yd1y"
+			},
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"local_notes": "Per foot. 2\" wide. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "32",
+			"quantity": 1,
+			"calc": {
+				"value": 32,
+				"extended_value": 32,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eDVWSsudW6Ao4tSUj",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eF8DPAkiZhKUnGKXx"
+			},
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"local_notes": "Per square inch. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "3.2",
+			"quantity": 1,
+			"calc": {
+				"value": 3.2,
+				"extended_value": 3.2,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ehkB3l-U4oRXIa6y-",
+			"description": "Vapor Collector",
+			"reference": "UT76",
+			"local_notes": "E/30 days.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320000",
+			"base_weight": "120 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "120 lb",
+				"extended_weight": "120 lb"
+			}
+		},
+		{
+			"id": "epofqB0DF8yVx_hMt",
+			"description": "Vapor Canteen",
+			"reference": "UT76",
+			"local_notes": "4lbs full.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "14400",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 14400,
+				"extended_value": 14400,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ekcmZIDOQllLItaYR",
+			"description": "Gecko Gear (bodysuit)",
+			"reference": "PY12:6",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320000",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "Exws2NP9Mb4cqe83V",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "Eb9zT33pJ78m0IO4r"
+			},
+			"description": "Hovercart (Robo)",
+			"reference": "UT75",
+			"local_notes": "Move 4. C/12hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "19200",
+			"base_weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "500 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"value": 19200,
+				"extended_value": 19200,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eJnht4OGfa0xZma3R",
+			"description": "Gecko Gear (gloves)",
+			"reference": "PY12:6",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "96000",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 96000,
+				"extended_value": 96000,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "E_X1jQyYH6YTNg8bo",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "Ez_SEs4-eubDeCEWS"
+			},
+			"description": "Pressure Box",
+			"reference": "UT75",
+			"local_notes": "2'x1'x1'. 2C/2 days.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "28800",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 28800,
+				"extended_value": 28800,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eMuYu4RPtDSw4RLbH",
+			"description": "50 nails",
+			"reference": "UT83",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "0.5 lb",
+			"max_uses": 50,
+			"quantity": 1,
+			"uses": 50,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eHkOR2cTgn0JE2rZN",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "esktix5Pq-uZrmh4c"
+			},
+			"description": "Armoury (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "480000",
+			"base_weight": "200 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "(@Specialization@)",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "eUZNyI59L8V9bXTDk",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eXa7z6PB43fjhsjR5"
+			},
+			"description": "Techbot",
+			"reference": "UT86",
+			"local_notes": "D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "640000",
+			"base_weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 640000,
+				"extended_value": 640000,
+				"weight": "50 lb",
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "emxatyO5Ua_4sjBiG",
+			"description": "TalonLine-4H Rope Splicer up to 3/4” diameter",
+			"reference": "PY12:7",
+			"local_notes": "D/60 uses",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Stonewolf Expedition Systems",
+				"Tools"
+			],
+			"base_value": "224000",
+			"base_weight": "70 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 224000,
+				"extended_value": 224000,
+				"weight": "70 lb",
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "e_nQcK4XZNDTIPUbU",
+			"description": "TalonLine-3R Rope Splicer up to 3/8” diameter",
+			"reference": "PY12:7",
+			"local_notes": "C/25 uses",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Stonewolf Expedition Systems",
+				"Tools"
+			],
+			"base_value": "76800",
+			"base_weight": "24 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 76800,
+				"extended_value": 76800,
+				"weight": "24 lb",
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "ecquZE0bvu0SEgpaR",
+			"description": "TalonLine-2S Rope Splicer up to 3/16” diameter",
+			"reference": "PY12:7",
+			"local_notes": "C/100 uses",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Stonewolf Expedition Systems",
+				"Tools"
+			],
+			"base_value": "25600",
+			"base_weight": "8 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 25600,
+				"extended_value": 25600,
+				"weight": "8 lb",
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eoy_DDSbLcGiGHCME",
+			"description": "TalonLine-1X Rope Splicer up to 1/8” diameter",
+			"reference": "PY12:7",
+			"local_notes": "B/30 uses",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Stonewolf Expedition Systems",
+				"Tools"
+			],
+			"base_value": "12800",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 12800,
+				"extended_value": 12800,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eUPr4MSiaaCACHRlY",
+			"description": "Splat Piton",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320",
+			"base_weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "0.05 lb",
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "elXHuUh9VEmbghyNg",
+			"description": "Spider Cage",
+			"reference": "UT76",
+			"local_notes": "For SM0",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "64000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "egeRyGVgPA9AE2q7i",
+			"description": "Smart Piton",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eKg06Ot6lWb3km7ja",
+			"description": "Smart Nail Gun Propellant",
+			"reference": "UT83",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ewXYQEFKyoZNC-BRe",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eAcFgJ_XTAcHF11uF"
+			},
+			"description": "Filtration Canteen",
+			"reference": "UT75",
+			"local_notes": "3lbs. full.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "5760",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 5760,
+				"extended_value": 5760,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "erfdBtHap51wH01MD",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e4JJ7yAPL-Rteq-N4"
+			},
+			"description": "Smart Nail Gun",
+			"reference": "UT83",
+			"local_notes": "Holds 50 nails. 1 propellant bottle/1,000 shots.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "8000",
+			"base_weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WeUAjnYNDmwNEvPOG",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"accuracy": "0+3",
+					"range": "5/25",
+					"rate_of_fire": "10",
+					"shots": "50(5)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "1d+1(2) pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eT6WygtE7TrdSEBMd",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eGi7t1uXdSZGQZxNb"
+			},
+			"description": "Small Fire Extinguisher",
+			"reference": "UT87",
+			"local_notes": "10-second discharge. 3-yard range.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ekkyqkXzrK3JhpSAS",
+			"description": "Slipspray",
+			"reference": "UT83",
+			"local_notes": "Covers 100sqft.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "960",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960,
+				"extended_value": 960,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "euoS09_SQGaAGbanS",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "ejuIHFUiVD0AXRZ9w"
+			},
+			"description": "Penlight",
+			"reference": "UT74",
+			"local_notes": "5-yard beam. 2A/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "96",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 96,
+				"extended_value": 96,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "etGmfLgTT_OUwkJoC",
+			"description": "Skyhaul Backpack Climbing Unit (BCU)",
+			"reference": "PY12:7",
+			"local_notes": "C/10 minutes (traverser) or 300 uses (splicer)",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear",
+				"Stonewolf Expedition Systems",
+				"Tools"
+			],
+			"base_value": "267200",
+			"base_weight": "28 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 267200,
+				"extended_value": 267200,
+				"weight": "28 lb",
+				"extended_weight": "28 lb"
+			}
+		},
+		{
+			"id": "ercnM0kZY0wdW7S51",
+			"description": "Gecko Gear (toe-socks)",
+			"reference": "PY12:6",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "64000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "Em17LQgfdXoLdqDdX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "E5qE3TlrHwgLk3pms"
+			},
+			"description": "Hovercart",
+			"reference": "UT75",
+			"local_notes": "C/12hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "9600",
+			"base_weight": "4 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "500 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"value": 9600,
+				"extended_value": 9600,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eLTyr6PWJm6XrK7L1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eD603YSXa_kQb_7cn"
+			},
+			"description": "Scout Robot (Submarine)",
+			"reference": "UT80",
+			"local_notes": "2B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "160000",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 160000,
+				"extended_value": 160000,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "epSfvqgV4dnG-oeMr",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "ej5bBwouszFoL0lxt"
+			},
+			"description": "Scout Robot (Aerial)",
+			"reference": "UT80",
+			"local_notes": "2B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "160000",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 160000,
+				"extended_value": 160000,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eK29-6oVspq-owB1z",
+			"description": "Rope Traverser upto 3/8” diameter",
+			"reference": "PY12:7",
+			"local_notes": "D/10 minutes",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "38400",
+			"base_weight": "12 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 38400,
+				"extended_value": 38400,
+				"weight": "12 lb",
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "ekmdXywiRhLsJgfJ-",
+			"description": "Rope Traverser upto 3/4” diameter",
+			"reference": "PY12:7",
+			"local_notes": "2D/8 minutes",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "112000",
+			"base_weight": "35 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 112000,
+				"extended_value": 112000,
+				"weight": "35 lb",
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "exu6dVcmlb3hM8HKL",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eodfvoPTAY7FVeuDm"
+			},
+			"description": "Gripboots",
+			"reference": "UT75",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "16000",
+			"base_weight": "2 lb",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Kicking"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eUvqRw22QD0HYFhg1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eK1GGUItZ7RRXMNIo"
+			},
+			"description": "Large Fire Extinguisher",
+			"reference": "UT87",
+			"local_notes": "30-second discharge. 3-yard range.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "6400",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "enOYKC8K7f8152Tr0",
+			"description": "Rope Splicer up to 3/16” diameter Connector Cap Cartridge",
+			"reference": "PY12:7",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "1600",
+			"base_weight": "0.7 lb",
+			"max_uses": 20,
+			"quantity": 1,
+			"uses": 20,
+			"equipped": true,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "0.7 lb",
+				"extended_weight": "0.7 lb"
+			}
+		},
+		{
+			"id": "eDBjaKwQply0XH15-",
+			"description": "Rope Splicer up to 3/8” diameter Connector Cap Cartridge",
+			"reference": "PY12:7",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "6400",
+			"base_weight": "2.8 lb",
+			"max_uses": 20,
+			"quantity": 1,
+			"uses": 20,
+			"equipped": true,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "2.8 lb",
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "eup3lP40nCMDuXjo5",
+			"description": "Rope Splicer up to 3/4” diameter Connector Cap Cartridge",
+			"reference": "PY12:7",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "25600",
+			"base_weight": "11 lb",
+			"max_uses": 20,
+			"quantity": 1,
+			"uses": 20,
+			"equipped": true,
+			"calc": {
+				"value": 25600,
+				"extended_value": 25600,
+				"weight": "11 lb",
+				"extended_weight": "11 lb"
+			}
+		},
+		{
+			"id": "e1b7qOli_NEGNIn7g",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "epcv_wGlfq-TKL_jK"
+			},
+			"description": "Blast Foam",
+			"reference": "UT87",
+			"local_notes": "Covers 3sqyd.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "3200",
+			"base_weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200,
+				"extended_value": 3200,
+				"weight": "30 lb",
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ep3ngsWbZXjl3u37k",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eubOTHY1hM8RtHYdi"
+			},
+			"description": "Fire Extinguisher Tube",
+			"reference": "UT87",
+			"local_notes": "4-second discharge. 2-yard range.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eKHyd2UlWM4hyxkOV",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e7wuQCjZdlJbCASPt"
+			},
+			"description": "Modular Environmental Cage",
+			"reference": "UT76",
+			"local_notes": "DR70",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "320000",
+			"base_weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "400 lb",
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "elGHm-Ojjcc5jP0Mc",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eY-MwdesjRjo2sL0n"
+			},
+			"description": "Rocket Piton reload",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "32",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32,
+				"extended_value": 32,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e0YbZ0eS0qliRlDzA",
+			"description": "Rope Traverser up to 1/8” diameter",
+			"reference": "PY12:7",
+			"local_notes": "C/10 minutes",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "6400",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e2Kffv0exwVUGFfX8",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eBQDXkBWF8a3DUvt9"
+			},
+			"description": "Machinist (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "480000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "eghVLiWqP1tyvbTsP",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e4bsVTuinsjWOuR0_"
+			},
+			"description": "Electronics Repair Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "960000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960000,
+				"extended_value": 960000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eSxBqymnzJmp6lENr",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eOdTgnmW9KlL5h3pq"
+			},
+			"description": "Envirobag",
+			"reference": "UT75",
+			"local_notes": "C/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "5120",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 5120,
+				"extended_value": 5120,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eZ7BskehBebL8lGra",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e4IIqINMqcbFHH3YO"
+			},
+			"description": "Mechanic (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "480000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e8fkWUSvq5_K8Elj7",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eh6FpYJm35ZCGeQ6w"
+			},
+			"description": "Mechanic (Micromachines) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "960000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960000,
+				"extended_value": 960000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eU7eGxUTjrjLlZs3e",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e-h0kzqS-2uSoNG2I"
+			},
+			"description": "Mechanic (Nanomachines) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "960000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960000,
+				"extended_value": 960000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eWPfqlXNXRt2xONqP",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "evJIxZgjTtctYN_GI"
+			},
+			"description": "Modular Cage",
+			"reference": "UT76",
+			"local_notes": "DR70",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "32000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e1raREIjQlyA3odg7",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "edN3qNSrLu969W-1X"
+			},
+			"description": "Industrial Water Knife Backpack (self-sterilizing)",
+			"reference": "UT81",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "960",
+			"base_weight": "18 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960,
+				"extended_value": 960,
+				"weight": "18 lb",
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "eBx7jhQsgn8D204To",
+			"description": "Rope Splicer up to 1/8” diameter Connector Cap Cartridge",
+			"reference": "PY12:7",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Expedition Gear",
+				"Tools"
+			],
+			"base_value": "640",
+			"base_weight": "0.3 lb",
+			"max_uses": 20,
+			"quantity": 1,
+			"uses": 20,
+			"equipped": true,
+			"calc": {
+				"value": 640,
+				"extended_value": 640,
+				"weight": "0.3 lb",
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "erWcopQfF82PllNCa",
+			"description": "Balloon Piton",
+			"reference": "PY12:6",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "640",
+			"base_weight": "0.05 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 640,
+				"extended_value": 640,
+				"weight": "0.05 lb",
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eHbpobQFn9ssjt1JY",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "ezN0_pZHrG99_qD0s"
+			},
+			"description": "Electrician (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"local_notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "480000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e_-hgFX8OwRYeJos5",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eY-8SZhVoQ3G2uBmg"
+			},
+			"description": "Plastex B",
+			"reference": "UT88",
+			"local_notes": "REF4",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "1280",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1280,
+				"extended_value": 1280,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eUwEV0A4Xx7F5pLjV",
+			"description": "Inflatable Boat",
+			"reference": "PY12:5",
+			"tech_level": "9",
+			"legality_class": "5",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "4800",
+			"base_weight": "6 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 4800,
+				"extended_value": 4800,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eoAsXjE8LqP2LMBMA",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eSdVnaMSXJvSmVI_K"
+			},
+			"description": "Industrial Water Knife replacement filter",
+			"reference": "UT81",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "640",
+			"quantity": 1,
+			"calc": {
+				"value": 640,
+				"extended_value": 640,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOQ1VlsxFeZ-C98w1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e_zK9Jm8DBg0V8n8o"
+			},
+			"description": "Pressure Tent (for eight)",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "480000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "eivoGa1qZzoCvePqw",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e1fTjietj0lv3iJwh"
+			},
+			"description": "Pressure Tent (for one)",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "48000",
+			"base_weight": "60 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 48000,
+				"extended_value": 48000,
+				"weight": "60 lb",
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "etYvu9y0xduYyqQZd",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eeJbzfSnerzqEUq9U"
+			},
+			"description": "Pressure Tent (for three)",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "96000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 96000,
+				"extended_value": 96000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eQnp1zggEvzeFU8Ts",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eYEm5P-dleWlNND0g"
+			},
+			"description": "Rescue Bubble",
+			"reference": "UT77",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "25600",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 25600,
+				"extended_value": 25600,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "esm-cJa7cSO-tlXbO",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eLRwP8kL3aveXXi6g"
+			},
+			"description": "Robot Mule",
+			"reference": "UT80",
+			"local_notes": "D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "96000",
+			"base_weight": "150 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 96000,
+				"extended_value": 96000,
+				"weight": "150 lb",
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "e-3qBxJW-js0WRp4k",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eUVLlo0rGujbQ2N5i"
+			},
+			"description": "Rocket Piton",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "1280",
+			"base_weight": "2 lb",
+			"weapons": [
+				{
+					"id": "Wtw6L2M9nTLznYbMk",
+					"damage": {
+						"type": "imp",
+						"base": "1d+2"
+					},
+					"accuracy": "2",
+					"range": "70/200",
+					"rate_of_fire": "1",
+					"shots": "1(5)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 1280,
+				"extended_value": 1280,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eHfA-rr0Sra0Ii0Fr",
+			"description": "UV Inspection Light",
+			"local_notes": "9' beam, lasts 2.5 hours, A-cell",
+			"tech_level": "8",
+			"legality_class": "4",
+			"base_value": "1548",
+			"base_weight": "0.25 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 1548,
+				"extended_value": 1548,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ebiuI5gkrapg8PL46",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eLCUeFx9TYmL0emnE"
+			},
+			"description": "Sleeping Bag, Insulated",
+			"reference": "B288",
+			"local_notes": "+3 HT to resist freezing",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "12800",
+			"base_weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 12800,
+				"extended_value": 12800,
+				"weight": "15 lb",
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e4zBJ-y4EG7V3Fewo",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ekzhBORhpKjBxZ6GK"
+			},
+			"description": "Flashlight, Mini",
+			"reference": "B288",
+			"local_notes": "15' beam, lasts 1 hour",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "2560",
+			"base_weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2560,
+				"extended_value": 2560,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e_MPaPnc2oVw5rLx5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "exQQvd9ue1rFKAsEQ"
+			},
+			"description": "Camp Stove, Small",
+			"reference": "B288",
+			"local_notes": "Uses 1/4 gallon of kerosene per 4 hrs",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "200",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 200,
+				"extended_value": 200,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eM9v1MTwsB7URWsF4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eV6CPMLTAjkJuAAHu"
+			},
+			"description": "Flashlight, Heavy",
+			"reference": "B288",
+			"local_notes": "30' beam, lasts 5 hours",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1280",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1280,
+				"extended_value": 1280,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eYqx4AYMHv_S3j4ux",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eb2DTLDQPrPWNRwxr"
+			},
+			"description": "Sleeping Bag",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "7 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "7 lb",
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "e2U-VpY8WtMCBmbPa",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eQDltLrCjNnAbVKoA"
+			},
+			"description": "Cigarette Lighter",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "40",
+			"base_weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 40,
+				"extended_value": 40,
+				"weight": "0.01 lb",
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "e1Jj1PXtovupbsMH1",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e3hyv14L_lD0vna4E"
+			},
+			"description": "Compass",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "3200",
+			"base_weight": "0.144 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "navigation"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 3200,
+				"extended_value": 3200,
+				"weight": "0.144 lb",
+				"extended_weight": "0.144 lb"
+			}
+		},
+		{
+			"id": "eiCTGDyIPIhp-ToBK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ec89onnYvJw6k8ts3"
+			},
+			"description": "Life Jacket",
+			"reference": "B288",
+			"local_notes": "Floats up to 350 lbs.",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "6400",
+			"base_weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eDDLrW2ZgI46dJbh9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eVrjscCBavh_NSr-F"
+			},
+			"description": "Barbed Wire",
+			"reference": "HT204",
+			"local_notes": "15-yard coil.",
+			"tech_level": "6",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"base_value": "400",
+			"base_weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 400,
+				"extended_value": 400,
+				"weight": "15 lb",
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eNz8Spou4Nlavz4d7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eXHVSA1fFUqgzNRJT"
+			},
+			"description": "Wristwatch",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "0.075 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "0.075 lb",
+				"extended_weight": "0.075 lb"
+			}
+		},
+		{
+			"id": "e3Rpza5kQSY85oceE",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ehuuxPT7Z7EMOLgDD"
+			},
+			"description": "Scuba Gear",
+			"reference": "B288",
+			"local_notes": "Includes 2-hour underwater air tank",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "96000",
+			"base_weight": "32 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 96000,
+				"extended_value": 96000,
+				"weight": "32 lb",
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "eOUQ_fLmTcgYz2Hm1",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "er-DvQu5ALbls4-uY"
+			},
+			"description": "Parachute",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "64000",
+			"base_weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "30 lb",
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "EDXsn7P5OwxlCvUFz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "E34cuMGZevfGzyMJQ"
+			},
+			"description": "Matches, Waterproof",
+			"reference": "B288",
+			"local_notes": "Box of 50",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_weight": "0.001 lb",
+			"quantity": 1,
+			"children": [
+				{
+					"id": "e9tlGGOMruTeQCQan",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+						"id": "eN9FfpNDWNrpWGJSQ"
+					},
+					"description": "Match, Single, Waterproof",
+					"reference": "B288",
+					"tech_level": "6",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"base_value": "16",
+					"base_weight": "0.001 lb",
+					"quantity": 50,
+					"calc": {
+						"value": 16,
+						"extended_value": 800,
+						"weight": "0.001 lb",
+						"extended_weight": "0.05 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 800,
+				"weight": "0.001 lb",
+				"extended_weight": "0.051 lb"
+			}
+		},
+		{
+			"id": "e0-CPabMyNjZjaIDp",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e-XoW8e4S0Kwndn3x"
+			},
+			"description": "Match, Single, Waterproof",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "16",
+			"base_weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 16,
+				"extended_value": 16,
+				"weight": "0.001 lb",
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "e5s4PgDPoQpkAxqGQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e7cpp3zhv881mpHHb"
+			},
+			"description": "Water Purification Tablets",
+			"reference": "B288",
+			"local_notes": "Bottle of 50; Purifies 1 quart each",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "0.1 lb",
+			"max_uses": 50,
+			"quantity": 1,
+			"uses": 50,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eQlDSZbOM6pZEayp9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eRkzMFHfCZIH9ovFJ"
+			},
+			"description": "Cable, Steel, 1.5\", 10 yards",
+			"reference": "B288",
+			"local_notes": "Supports 3,700 lbs.",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1600",
+			"base_weight": "17 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1600,
+				"extended_value": 1600,
+				"weight": "17 lb",
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "eamaAoJ0XTa5sJvK-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eqyT_mOIDpopWYv7q"
+			},
+			"description": "Grapnel",
+			"reference": "B288",
+			"local_notes": "Supports 300 lbs; throw to STx2 yards",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "10240",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 10240,
+				"extended_value": 10240,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ecLRC308XAjyAzPoK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eov-mwypKyYn3GR_o"
+			},
+			"description": "Climbing Gear",
+			"reference": "B288",
+			"local_notes": "Hammer, spikes, carabiners",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "320",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eAeZScd0u5W3rRg24",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eIB3-QzsGy0gg0JUm"
+			},
+			"description": "Iron Spike/Piton",
+			"reference": "B288",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "16",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 16,
+				"extended_value": 16,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "esV0LOx_RjDRo1j94",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ezB-IWpZnoq23-fvV"
+			},
+			"description": "Lantern",
+			"reference": "B288",
+			"local_notes": "Uses 1 pint of oil per 24 hours",
+			"tech_level": "2",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "320",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e1UPi7aafSWohPQKR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e2zAtBEoDfcvsvabK"
+			},
+			"description": "Rope, 3/4\", 20 yards",
+			"reference": "B288",
+			"local_notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "12800",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 12800,
+				"extended_value": 12800,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eiOAnhm1kXI3NCAGY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e2cAzx11auL4dYpcN"
+			},
+			"description": "Rope, 3/4\", 10 yards",
+			"reference": "B288",
+			"local_notes": "Supports 1,100 lbs.",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "6400",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eEVRczW5O1-Yrnz7l",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "epRb3ssBmf3d57lgc"
+			},
+			"description": "Tent, 20-Man",
+			"reference": "B288",
+			"local_notes": "Includes ropes; requires 12 6' poles, 4 10' poles",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "4800",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 4800,
+				"extended_value": 4800,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eJGcYKTnEApLWo34h",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eLMD_h-llQNP7gitH"
+			},
+			"description": "Blanket",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "320",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320,
+				"extended_value": 320,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ej8Z4NE6ty3PMAesQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eWrntoB9ajPnN2eJR"
+			},
+			"description": "Candle, Tallow",
+			"reference": "B288",
+			"local_notes": "Lasts 12 hours",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "80",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "et1YNnlXzUWp2jTsE",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "efyYofJSbirerzsVO"
+			},
+			"description": "Map",
+			"reference": "ATE1:30",
+			"tech_level": "1",
+			"tags": [
+				"Expedition Gear"
+			],
+			"base_value": "15",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 15,
+				"extended_value": 15,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e4PubqlxLIvkUfxRE",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eSSde_gdmZ2RPjk68"
+			},
+			"description": "Pole, 6'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "80",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eREhKmCgoO4bMlLag",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e930Ne_3wzhYYGv7D"
+			},
+			"description": "Rope, 3/8\", 10 yards",
+			"reference": "B288",
+			"local_notes": "Supports 300 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "80",
+			"base_weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "1.5 lb",
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "efKBbtkveXhKYy6TM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e7unMXg7idcVmpidx"
+			},
+			"description": "Personal Basics",
+			"reference": "B288",
+			"local_notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "80",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eRHC-aIujqFx5R8d-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eTIBJPS1jlXfCzsJV"
+			},
+			"description": "Torch",
+			"reference": "B288",
+			"local_notes": "Burns for 1 hour",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "48",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 48,
+				"extended_value": 48,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eUjxvAFscO69mnXl6",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eUoBSYwn7qnx8KCWS"
+			},
+			"description": "Cord, 3/16\", 10 yards",
+			"reference": "B288",
+			"local_notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "16",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 16,
+				"extended_value": 16,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eDiRr2rPr-_Pc0ttR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eNFKb7La3wQ6ygreg"
+			},
+			"description": "Pole, 10'",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "128",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 128,
+				"extended_value": 128,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eVEDLXYe3JkNbSIJr",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e-0G-J0HTRWdYR_uN"
+			},
+			"description": "Group Basics",
+			"reference": "B288",
+			"local_notes": "Basic equipment for Cooking and Survival skill for a group. Cook pot, rope, hatchet etc., for 3-8 campers.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "800",
+			"base_weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "20 lb",
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eqhpddPetdjd0Ubfh",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eB3BSPVGDfH0xTHSD"
+			},
+			"description": "Cord, 3/16\", 20 yards",
+			"reference": "B288",
+			"local_notes": "Supports 90 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "32",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32,
+				"extended_value": 32,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eh93ViIVrha98yx_2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eJ_l0lBzVR4elVeRt"
+			},
+			"description": "Rope, 3/8\", 20 yards",
+			"reference": "B288",
+			"local_notes": "Supports 300 lbs.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "160",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 160,
+				"extended_value": 160,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eiNWZilW_8mDI8aiI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e0iGAHbT8wkt6DcTW"
+			},
+			"description": "Sleeping Fur",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "800",
+			"base_weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "8 lb",
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "etl3musTDlglu0Kv-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eck8YPLI53pz2Gdgl"
+			},
+			"description": "Tent, 1-Man",
+			"reference": "B288",
+			"local_notes": "Includes ropes; no poles needed",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "800",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eJ-FrlcT4xziiiDUn",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "exOwnTwiCFlduMnMC"
+			},
+			"description": "Tent, 2-Man",
+			"reference": "B288",
+			"local_notes": "Includes ropes; requires one 6' pole",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "1280",
+			"base_weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1280,
+				"extended_value": 1280,
+				"weight": "12 lb",
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e0ASGE0LKsZW-tpjP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ewXKWvndtCb50aPFg"
+			},
+			"description": "Tent, 4-Man",
+			"reference": "B288",
+			"local_notes": "Includes ropes; requires two 6' poles",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "2400",
+			"base_weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2400,
+				"extended_value": 2400,
+				"weight": "30 lb",
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ezN8lVMlHknIDHAIM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "euesKNcrrbwqJUwj2"
+			},
+			"description": "Fishhooks \u0026 Line",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "800",
+			"base_weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "0.01 lb",
+				"extended_weight": "0.01 lb"
+			}
+		}
+	]
+}

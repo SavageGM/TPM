@@ -1,0 +1,4298 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "Msy7u1bGp5ds6CnWT",
+			"name": "Always/Usually On",
+			"children": [
+				{
+					"id": "mElBDN33VozAB_GaT",
+					"name": "Always On",
+					"reference": "B110,P99",
+					"notes": "Dangerous to you",
+					"cost": -40
+				},
+				{
+					"id": "miYF6YlrvXACuLVBT",
+					"name": "Always On",
+					"reference": "B110,P99",
+					"notes": "Physically inconvenient",
+					"cost": -20
+				},
+				{
+					"id": "mGruR-ILuOa8J3Ibb",
+					"name": "Always On",
+					"reference": "B110,P99",
+					"notes": "Social or cosmetic",
+					"cost": -10
+				},
+				{
+					"id": "m6tKc_E6VWSxMkc1s",
+					"name": "Usually On",
+					"reference": "PU4:18",
+					"cost": 5
+				},
+				{
+					"id": "mFlLJR9Nsylj6wEx9",
+					"name": "Usually On",
+					"reference": "PU8:19",
+					"notes": "Cosmetic/Social",
+					"cost": -5
+				},
+				{
+					"id": "mT1NbJ0lZrPubTzHp",
+					"name": "Usually On",
+					"reference": "PU8:19",
+					"notes": "Crippling",
+					"cost": -40
+				},
+				{
+					"id": "mBSwSBAMvA-Kr1WVz",
+					"name": "Usually On",
+					"reference": "PU8:19",
+					"notes": "Dangerous",
+					"cost": -30
+				},
+				{
+					"id": "mYoS9186KigqZjrDd",
+					"name": "Usually On",
+					"reference": "PU8:19",
+					"notes": "Physically Inconvenient",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "MJQ1dyR6fDy5jgqVV",
+			"name": "Accessibilities",
+			"children": [
+				{
+					"id": "mi4BwGYDwM0BAVi_w",
+					"name": "All-Out",
+					"reference": "PU8:11",
+					"cost": -25
+				},
+				{
+					"id": "mXx2JOaz9GpXPwYnE",
+					"name": "All-Out, Concentrate",
+					"reference": "PU8:11",
+					"cost": -25
+				},
+				{
+					"id": "mW0-cujIhzAO8h2Ng",
+					"name": "While Conscious",
+					"reference": "PU8:5",
+					"cost": -5
+				},
+				{
+					"id": "mcwToZd7LwkalKtC7",
+					"name": "Unconscious Only",
+					"reference": "B115",
+					"cost": -20
+				},
+				{
+					"id": "m1QrtqL6hXWY8AMWZ",
+					"name": "Magnetic",
+					"reference": "PU8:18",
+					"cost": -50
+				},
+				{
+					"id": "mhM19WqLKddjYPCVb",
+					"name": "Full Power in Emergencies Only",
+					"reference": "B112",
+					"cost": -20
+				},
+				{
+					"id": "mN7x4EqJdYXdQPFW4",
+					"name": "Insubstantial Only",
+					"reference": "PU8:15",
+					"cost": -30
+				},
+				{
+					"id": "mFUCzdshSxnUlrLOM",
+					"name": "Emergencies Only",
+					"reference": "B112,P102",
+					"cost": -30
+				},
+				{
+					"id": "mylAZy-GArJnwxxR8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Star Wars\\Star Wars Trait Modifiers.adm",
+						"id": "mDs9hLfefTkCJ8wuR"
+					},
+					"name": "Accessibility",
+					"reference": "SWF25",
+					"notes": "Only when subject to negative emotions",
+					"cost": -10
+				},
+				{
+					"id": "mtDcbuja5HAcBxwpI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Star Wars\\Star Wars Trait Modifiers.adm",
+						"id": "mrEdiIEjtrBY_xfeE"
+					},
+					"name": "Accessibility",
+					"reference": "SWF25",
+					"notes": "Only when subject to anger",
+					"tags": [
+						"Force"
+					],
+					"cost": -40
+				},
+				{
+					"id": "mhON-Pc-O-JDgnhgH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Star Wars\\Star Wars Trait Modifiers.adm",
+						"id": "mF-_takv5VPfvsHSY"
+					},
+					"name": "Accessibility",
+					"reference": "SWF25",
+					"notes": "Only when subject to fear",
+					"tags": [
+						"Force"
+					],
+					"cost": -40
+				},
+				{
+					"id": "muzU8UN7JS_VCgX9j",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Star Wars\\Star Wars Trait Modifiers.adm",
+						"id": "mtjxrNiWess2GFNU1"
+					},
+					"name": "Accessibility",
+					"reference": "SWF25",
+					"notes": "Only when subject to hate",
+					"tags": [
+						"Force"
+					],
+					"cost": -40
+				},
+				{
+					"id": "m8WXOj2s7GPl7XRk5",
+					"name": "Accessibility",
+					"reference": "B110,P99",
+					"notes": "Must enter cost manually"
+				},
+				{
+					"id": "mHTw6pjKkEFvyhDQJ",
+					"name": "Only When Berserk",
+					"reference": "PU8:16",
+					"cost": -20
+				},
+				{
+					"id": "mJf6v9GNM95Eavu3h",
+					"name": "Only While Moving (Full Move)",
+					"reference": "PU8:5",
+					"cost": -30
+				},
+				{
+					"id": "mFeqRo76UFatS3Rsv",
+					"name": "Only While Moving (Half Move)",
+					"reference": "PU8:5",
+					"cost": -20
+				},
+				{
+					"id": "mvyRd_vyvesqtsQ9U",
+					"name": "Only While Moving (Step)",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "md3KA6BAyEqj5FI4U",
+					"name": "Only While Using @Ability@",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "MCAu53_tZtI3yI5HV",
+					"name": "Only With Assistants",
+					"children": [
+						{
+							"id": "mEDPFFLW6rt2r96_U",
+							"name": "Only With Assistants",
+							"reference": "PU8:5",
+							"notes": "1",
+							"cost": -5
+						},
+						{
+							"id": "ms6r65XzjQQR0nhYj",
+							"name": "Only With Assistants (1)",
+							"reference": "PU8:5",
+							"cost": -5
+						},
+						{
+							"id": "m_snztg-XZ3JziM_H",
+							"name": "Only With Assistants (2)",
+							"reference": "PU8:5",
+							"cost": -10
+						},
+						{
+							"id": "mt2a_N2Tiu6fb67uX",
+							"name": "Only With Assistants (@3-5@)",
+							"reference": "PU8:5",
+							"cost": -15
+						},
+						{
+							"id": "mzfAa7Ftj2C-yYEHQ",
+							"name": "Only With Assistants (@6-10@)",
+							"reference": "PU8:5",
+							"cost": -20
+						},
+						{
+							"id": "mDFImHRuTODk1RJ_u",
+							"name": "Only With Assistants (@11-20@)",
+							"reference": "PU8:5",
+							"cost": -25
+						},
+						{
+							"id": "mbK1Su4xzWr0Iz3-z",
+							"name": "Only With Assistants (@21-50@)",
+							"reference": "PU8:5",
+							"cost": -30
+						},
+						{
+							"id": "mTWDQd_0ogtaYnTGi",
+							"name": "Only With Assistants (@51-100@)",
+							"reference": "PU8:5",
+							"cost": -35
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "MtecyET6qeiEFMF2o",
+			"name": "Backlash",
+			"children": [
+				{
+					"id": "mF41apuHAFVS5OGdS",
+					"name": "Backlash (@Attribute Penalty, Incapacitation, Irritant, Stunning@)",
+					"reference": "PU8:11",
+					"levels": 1,
+					"cost": -1
+				},
+				{
+					"id": "mDrFX7zfru8RqoxM6",
+					"name": "Backlash, Resistable (@Attribute Penalty, Incapacitation, Irritant, Stunning@)",
+					"reference": "PU8:11",
+					"notes": "Half value of Unresistable",
+					"levels": 1,
+					"cost": -1
+				}
+			]
+		},
+		{
+			"id": "MM7sbTddRkNpUbMJQ",
+			"name": "Active Defense",
+			"reference": "PU8:10",
+			"children": [
+				{
+					"id": "m1qQsHACNGPSDpD6C",
+					"name": "Active Defense",
+					"reference": "PU8:10",
+					"cost": -40
+				},
+				{
+					"id": "mAalSJmbs0NjXRxlB",
+					"name": "Active Defense, Independent",
+					"reference": "PU8:10",
+					"cost": -20
+				}
+			]
+		},
+		{
+			"id": "M4igEcIdg0cScqBT5",
+			"name": "Affects @Type@",
+			"children": [
+				{
+					"id": "miXlICtji1ZaaKwfc",
+					"name": "Affects Insubstantial",
+					"reference": "B102,P99",
+					"cost": 20
+				},
+				{
+					"id": "mIPti72qQWEa0ktNy",
+					"name": "Affects Insubstantial, Selective",
+					"reference": "PU4:12",
+					"cost": 30
+				},
+				{
+					"id": "mqEYN1E7akGzdTQJ4",
+					"name": "Affects Others",
+					"reference": "PU4:12",
+					"levels": 1,
+					"cost": 50
+				},
+				{
+					"id": "mPCbzEB2f7JApD5_h",
+					"name": "Affects Substantial",
+					"reference": "B102,P99",
+					"cost": 40
+				},
+				{
+					"id": "met1h9yDUsMUvOTMI",
+					"name": "Affects Substantial, Selective",
+					"reference": "PU4:12",
+					"cost": 50
+				}
+			]
+		},
+		{
+			"id": "Mb8gfSmBhhdbsCbic",
+			"name": "Affliction Enhancements",
+			"children": [
+				{
+					"id": "meLL0hLU8bmfRJzaW",
+					"name": "Density Increase, 2x",
+					"reference": "PU4:21",
+					"cost": 5
+				},
+				{
+					"id": "mWPdWaogfedxcXDWV",
+					"name": "Density Increase, 5x",
+					"reference": "PU4:21",
+					"cost": 10
+				},
+				{
+					"id": "mYKEZDSWuo-sThLHG",
+					"name": "Density Increase, 10x",
+					"reference": "PU4:21",
+					"cost": 15
+				},
+				{
+					"id": "mtmfIEBKpAT8fxx2O",
+					"name": "Density Increase, 20x",
+					"reference": "PU4:21",
+					"cost": 20
+				},
+				{
+					"id": "myNkwIb2QpIiGxT8B",
+					"name": "Density Increase, 50x",
+					"reference": "PU4:21",
+					"cost": 25
+				},
+				{
+					"id": "me3gTDXofG99m-ECU",
+					"name": "Density Increase, 100x",
+					"reference": "PU4:21",
+					"cost": 30
+				},
+				{
+					"id": "mVHZd2-QB66MkMyuJ",
+					"name": "Itching",
+					"reference": "PU4:21",
+					"cost": 10
+				},
+				{
+					"id": "myBH5yhd4FNCYfPln",
+					"name": "Slower Move (@-0.2x move per level@)",
+					"reference": "PU4:21",
+					"levels": 1,
+					"cost": 10
+				},
+				{
+					"id": "mzKQPguUVl60KYymH",
+					"name": "Slower Move, Move 0",
+					"reference": "PU4:21",
+					"cost": 50
+				}
+			]
+		},
+		{
+			"id": "M6vO1aj5cR0VgQuy0",
+			"name": "Aftermath",
+			"children": [
+				{
+					"id": "mJfo-5z2cwWAgzJFy",
+					"name": "Aftermath",
+					"reference": "PU8:11",
+					"notes": "@Disadvantage@",
+					"levels": 1,
+					"cost": -1
+				},
+				{
+					"id": "mLkgmJxM66_kEpSUu",
+					"name": "Aftermath, 2 FP/Level",
+					"reference": "PU8:11",
+					"levels": 1,
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "MHHhBzMWXk36a0aT2",
+			"name": "Area Effects",
+			"children": [
+				{
+					"id": "mYtZFfvWbNAFYdTzV",
+					"name": "Drifting",
+					"reference": "B105",
+					"cost": 20
+				},
+				{
+					"id": "m5VnCyPSIMyqca_fV",
+					"name": "Mobile",
+					"reference": "B107,P104",
+					"levels": 1,
+					"cost": 40
+				},
+				{
+					"id": "mfOX0kQeOxV8YYZyB",
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"notes": "2^level radius",
+					"levels": 1,
+					"cost": 50
+				},
+				{
+					"id": "mwqIx_8TYDkKH0SUm",
+					"name": "Area Effect, Spherical",
+					"reference": "MT29",
+					"notes": "+75% for extra extra level",
+					"cost": 40
+				},
+				{
+					"id": "mTTVgL8Hy4QAcihfh",
+					"name": "Cone",
+					"reference": "B103,P100",
+					"notes": "Must manually adjust cost upwards +10% per yard of maximum width",
+					"cost": 50
+				}
+			]
+		},
+		{
+			"id": "MJ5mnqCkPptxiNrOO",
+			"name": "Armor Divisor",
+			"children": [
+				{
+					"id": "mJnujjsa3B7yCK59I",
+					"name": "Armor Divisor (0.1)",
+					"reference": "B110",
+					"cost": -70
+				},
+				{
+					"id": "mLJVoald0Dziy0yFF",
+					"name": "Armor Divisor (0.2)",
+					"reference": "B110",
+					"cost": -50
+				},
+				{
+					"id": "mgg_06tugrsVquaWg",
+					"name": "Armor Divisor (0.5)",
+					"reference": "B110",
+					"cost": -30
+				},
+				{
+					"id": "meiQIngMxpOBkqGlj",
+					"name": "Armor Divisor (2)",
+					"reference": "B102",
+					"cost": 50
+				},
+				{
+					"id": "mupz7Xv8k3NPYtzN_",
+					"name": "Armor Divisor (3)",
+					"reference": "B102",
+					"cost": 100
+				},
+				{
+					"id": "mAxyFwj6tOVSgX2tF",
+					"name": "Armor Divisor (5)",
+					"reference": "B102",
+					"cost": 150
+				},
+				{
+					"id": "mijId0aE4Uy5joX4f",
+					"name": "Armor Divisor (10)",
+					"reference": "B102",
+					"cost": 200
+				},
+				{
+					"id": "mGNU3JFb7eD9jB_1a",
+					"name": "Armor Divisor (100)",
+					"reference": "MT29",
+					"cost": 300
+				}
+			]
+		},
+		{
+			"id": "my6-3bANWGrZSTOq5",
+			"name": "Aspected (@Aspect@)",
+			"reference": "PU8:11",
+			"cost": -20
+		},
+		{
+			"id": "MxapQgbqs6zJ0LBSt",
+			"name": "Attack Enhancements",
+			"children": [
+				{
+					"id": "m7Io4ExBrdzPPscR3",
+					"name": "Accurate",
+					"reference": "B102,P99",
+					"notes": "+1/level to Accuracy",
+					"levels": 1,
+					"cost": 5
+				},
+				{
+					"id": "mRSA4LA55AOeWKrT7",
+					"name": "Toxic Radiation (rad)",
+					"reference": "B105",
+					"notes": "Instead of regular damage",
+					"cost": 25
+				},
+				{
+					"id": "mXLtNtnLKNXVzrLBK",
+					"name": "Surge (sur)",
+					"reference": "B105",
+					"cost": 20
+				},
+				{
+					"id": "mzBiiZQSO2atvJMO4",
+					"name": "Reliable",
+					"reference": "PU4:16",
+					"cost": 5
+				},
+				{
+					"id": "mf9og_ADwl7nGibcA",
+					"name": "Overhead",
+					"reference": "B107,P104",
+					"cost": 30
+				},
+				{
+					"id": "mRqxkypDImo7-hAOy",
+					"name": "Guided",
+					"reference": "B105,P103",
+					"cost": 50
+				},
+				{
+					"id": "mIHM8t6NrEZMo4F2j",
+					"name": "Homing (@sense@)",
+					"reference": "B105",
+					"notes": "Must manually add +1% per point of cost of the chosen sense to the cost of Homing",
+					"cost": 50
+				},
+				{
+					"id": "mIHF5F-obLRU8mpcr",
+					"name": "Jet",
+					"reference": "B106,P103"
+				},
+				{
+					"id": "muK3EFFyuf2bgyjck",
+					"name": "Decreased Immunity",
+					"reference": "PU4:13",
+					"levels": 1,
+					"cost": 50
+				},
+				{
+					"id": "mqwhd9CFSiPl1Etln",
+					"name": "Aura",
+					"reference": "B102,P100",
+					"cost": 80
+				},
+				{
+					"id": "mvZTlriC-TtzAF21j",
+					"name": "Bodkin Points",
+					"reference": "MT29",
+					"notes": "Ammunition Option ",
+					"cost": 20
+				},
+				{
+					"id": "mYv8ha6UhE3ZPpQMO",
+					"name": "Burning Radiation (rad)",
+					"reference": "B105",
+					"notes": "In addition to regular damage",
+					"cost": 100
+				},
+				{
+					"id": "mGl5q_6LhLqpeh1J2",
+					"name": "Delay, Supernatural",
+					"reference": "PU4:18",
+					"notes": "Variable Trigger",
+					"cost": 100
+				},
+				{
+					"id": "mM9Sp0oPXVAv3ccnR",
+					"name": "Delay, Supernatural (@Fixed Trigger@)",
+					"reference": "PU4:18",
+					"cost": 50
+				},
+				{
+					"id": "m2PjLjs3lYgdjtInT",
+					"name": "Destructive Parry",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "mALru6TKz5JH945NF",
+					"name": "Double Blunt Trauma (dbt)",
+					"reference": "B104",
+					"cost": 20
+				},
+				{
+					"id": "m6WCBliA3KEsBJlOs",
+					"name": "Double Knockback (dkb)",
+					"reference": "B104",
+					"cost": 20
+				},
+				{
+					"id": "m0fjcUuvwMbsMBftu",
+					"name": "Dual",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "mu9gSj8mk_Nk2pvhX",
+					"name": "Erosive",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "mL0xa4CPkyYsOYy6W",
+					"name": "Explosion (exp)",
+					"reference": "B104",
+					"levels": 1,
+					"cost": 50
+				},
+				{
+					"id": "mnAimUrMG0DRiayfq",
+					"name": "Extra Passes",
+					"reference": "PU4:18",
+					"levels": 1,
+					"cost": 10
+				},
+				{
+					"id": "mDVGv_2NWC4sLyUd3",
+					"name": "Fragmentation (frag)",
+					"reference": "B104",
+					"notes": "Take levels equal to the number of dice",
+					"levels": 1,
+					"cost": 15
+				},
+				{
+					"id": "mxsJMvpaLlQ0r2NCh",
+					"name": "Fragmentation, Cutting",
+					"reference": "PU4:19",
+					"levels": 1,
+					"cost": 15
+				},
+				{
+					"id": "m9vMO8nNx646tBzor",
+					"name": "Fragmentation, Hot",
+					"reference": "PU4:19",
+					"levels": 1,
+					"cost": 15
+				},
+				{
+					"id": "mvWb60UosTQIyg7xB",
+					"name": "Fragmentation, Impaling",
+					"reference": "PU4:19",
+					"levels": 1,
+					"cost": 20
+				},
+				{
+					"id": "mJoPDMMGH-YjMhayL",
+					"name": "Fragmentation, Large Piercing",
+					"reference": "PU4:19",
+					"levels": 1,
+					"cost": 15
+				},
+				{
+					"id": "mTdEMVsYp6k-LOG9Q",
+					"name": "Hard to Use",
+					"reference": "PU8:14",
+					"notes": "-3 per Level",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "m282_Tk9k81ZcfVqu",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Dehydration",
+					"cost": 20
+				},
+				{
+					"id": "mX3iOwbHSXLjCl6c_",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Drowning"
+				},
+				{
+					"id": "mpjYmSow2Fi7dAHDM",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Freezing",
+					"cost": 20
+				},
+				{
+					"id": "mrBmYuQF2ODE0rHTY",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Missed Sleep",
+					"cost": 50
+				},
+				{
+					"id": "mgPotYG8CopT5awkV",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Starvation",
+					"cost": 40
+				},
+				{
+					"id": "mRY8-X6n6dPS71Ph6",
+					"name": "Hazard",
+					"reference": "B104",
+					"notes": "Suffocation"
+				},
+				{
+					"id": "mZkHX_Uqm_gbGNhQL",
+					"name": "Hazard",
+					"reference": "PU4:19",
+					"notes": "Heat",
+					"cost": 20
+				},
+				{
+					"id": "m8aLrlZlCskjkaBt1",
+					"name": "Hotshotable",
+					"reference": "MT31",
+					"notes": "Adds +1 damage per die",
+					"cost": 20
+				},
+				{
+					"id": "mZs746T6B3NCC-fVC",
+					"name": "Incendiary (inc)",
+					"reference": "B105",
+					"cost": 10
+				},
+				{
+					"id": "mYOFDilNwxpgEqxAI",
+					"name": "Melee Capable",
+					"reference": "PU4:19",
+					"cost": 40
+				},
+				{
+					"id": "mPbACbfE36AOQ9rfa",
+					"name": "Mental Defense Only",
+					"reference": "PU4:19",
+					"cost": 250
+				},
+				{
+					"id": "m_P3mgC7vfvhaouX5",
+					"name": "Ricochet",
+					"reference": "PU4:20",
+					"cost": 10
+				},
+				{
+					"id": "mDc-QxxtqgsOBQ0Oc",
+					"name": "ST Based",
+					"reference": "PU4:20",
+					"cost": 100
+				},
+				{
+					"id": "mDO3fqL1XVlqwPVj4",
+					"name": "ST Based, Limited",
+					"reference": "PU4:20",
+					"cost": 30
+				},
+				{
+					"id": "mYiuXzKxz4UTMLG8g",
+					"name": "Surge, Arcing",
+					"reference": "PU4:21",
+					"cost": 100
+				},
+				{
+					"id": "mYIRd-BdfVSlrAJs4",
+					"name": "Surprise Attack",
+					"reference": "PU4:21",
+					"cost": 150
+				},
+				{
+					"id": "mshYDomextVCVfmrL",
+					"name": "Thrusting Blade",
+					"reference": "PU4:21",
+					"cost": 15
+				},
+				{
+					"id": "m-oOdUx0_Z_7xHKTX",
+					"name": "Very Rapid Fire",
+					"reference": "PU4:21",
+					"cost": 10
+				}
+			]
+		},
+		{
+			"id": "MpyZXRO-Kig5ZtkPm",
+			"name": "Attack Limitations",
+			"children": [
+				{
+					"id": "mXBdruIp1GMEQuUeQ",
+					"name": "Can Be Parried",
+					"reference": "PU8:12",
+					"cost": -5
+				},
+				{
+					"id": "MriA50c1a7t8plaCK",
+					"name": "Weaponized",
+					"children": [
+						{
+							"id": "mSoMDTJ8X40Rw0GPc",
+							"name": "Weaponized",
+							"reference": "MT34",
+							"notes": "DR protects as normal",
+							"cost": -80
+						},
+						{
+							"id": "mQAo89fIAI3LZxpQ5",
+							"name": "Weaponized",
+							"reference": "MT34",
+							"notes": "Ignores DR",
+							"cost": -50
+						}
+					]
+				},
+				{
+					"id": "MItZpB_XCAXvVL4id",
+					"name": "Blood Agent",
+					"children": [
+						{
+							"id": "m-wUqbedEDpgdXITJ",
+							"name": "Blood Agent",
+							"reference": "B110,P100",
+							"cost": -40
+						},
+						{
+							"id": "mtdyUiiZMtZVfFynb",
+							"name": "Blood Agent",
+							"reference": "B102,P100",
+							"notes": "Area Effect or Cone",
+							"cost": 100
+						},
+						{
+							"id": "mymmQCygcuYIO7iHq",
+							"name": "Blood Agent, Reversed",
+							"reference": "PU8:12",
+							"cost": -40
+						}
+					]
+				},
+				{
+					"id": "mk-sUQZmr1sB5kWyU",
+					"name": "Contact Agent",
+					"reference": "B111,P101",
+					"cost": -30
+				},
+				{
+					"id": "mTtP39wPjYAJ1Xd1g",
+					"name": "Touch Based",
+					"reference": "PU8:17",
+					"notes": "Skin Contact",
+					"cost": -20
+				},
+				{
+					"id": "m9_cVi1JvCN4OcAAH",
+					"name": "Touch Based, Reversed",
+					"reference": "PU8:17",
+					"cost": -20
+				},
+				{
+					"id": "mqkDBUC1CqwKqvunw",
+					"name": "Requires Bipod",
+					"reference": "MT30",
+					"cost": -5
+				},
+				{
+					"id": "mjICKbJYSWM8MqIxn",
+					"name": "Glamour (@Will, Per, or IQ@)",
+					"reference": "PU8:13",
+					"notes": "Resistance roll is -5 Plus levels of Glamour",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "m7Y3Kg59KYs4BqO4T",
+					"name": "Mounted",
+					"reference": "MT30",
+					"cost": -10
+				},
+				{
+					"id": "mrzEkvSpbFt6NK5O7",
+					"name": "Increased Immunity",
+					"reference": "PU8:14",
+					"levels": 1,
+					"cost": -10
+				},
+				{
+					"id": "m8-G1Cpry6djfmHdq",
+					"name": "Inaccurate",
+					"reference": "B112",
+					"notes": "-1/level to Accuracy",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "mQyHH5A4yU6Yq4sBu",
+					"name": "Extra Minimum ST",
+					"reference": "MT30",
+					"notes": "1 level per +3 ST or 1/3 increase",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "mwgPM7JjhbIwAekff",
+					"name": "Extra Bulk",
+					"reference": "MT30",
+					"notes": "1 level per -1 Bulk",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "m7bkFd4iTrP7c5pwm",
+					"name": "Dissipation",
+					"reference": "B112",
+					"cost": -50
+				},
+				{
+					"id": "m2HBHIJ0AtrfnKrDV",
+					"name": "Easily Resisted",
+					"reference": "PU8:13",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "mKRm4-mgZ1IlWbNvD",
+					"name": "Missing Damage Effect",
+					"reference": "PU8:16",
+					"notes": "@Absence of an effect that damages the target’s HP, FP, or DR@",
+					"cost": -20
+				},
+				{
+					"id": "m_wisFmMQ_8_jB4ME",
+					"name": "Missing Damage Effect",
+					"reference": "PU8:16",
+					"notes": "@Absence of Non-Damaging Effect@",
+					"cost": -10
+				},
+				{
+					"id": "mX5C_F8Q2d_zggqy2",
+					"name": "No Blunt Trauma (nbt)",
+					"reference": "B111",
+					"cost": -20
+				},
+				{
+					"id": "mv3GVglFcgZxiLuxS",
+					"name": "No Knockback (nkb)",
+					"reference": "B111",
+					"cost": -10
+				},
+				{
+					"id": "mkrxfqNzEUGRTOrtF",
+					"name": "No Wounding (nw)",
+					"reference": "B111",
+					"cost": -50
+				}
+			]
+		},
+		{
+			"id": "MLNfKSNqEZOGfeBQW",
+			"name": "Attracts Threats",
+			"children": [
+				{
+					"id": "mOyCVNnXZ6daogzfz",
+					"name": "Extra Recoil",
+					"reference": "B112,P102",
+					"notes": "+1/level to Recoil",
+					"levels": 1,
+					"cost": -10
+				},
+				{
+					"id": "mjJLS3FchGXCWDzoX",
+					"name": "Attracts Threats",
+					"reference": "PU8:11",
+					"notes": "CR 6",
+					"cost": -5
+				},
+				{
+					"id": "mc4ICXusQomV4dcgy",
+					"name": "Attracts Threats",
+					"reference": "PU8:11",
+					"notes": "CR 9",
+					"cost": -10
+				},
+				{
+					"id": "mxzsj9YCSVtXgkoa_",
+					"name": "Emanation",
+					"reference": "B112,P102",
+					"cost": -20
+				}
+			]
+		},
+		{
+			"id": "mv-UhrRdD6oTLXlCr",
+			"name": "Based on @Attribute@",
+			"reference": "B102",
+			"notes": "Must manually alter advantage for Attribute chosen",
+			"cost": 20
+		},
+		{
+			"id": "mGAqIYMNKjZ4hAX9q",
+			"name": "Based on @Different Attribute@, Own Roll",
+			"reference": "PU4:12",
+			"cost": 20
+		},
+		{
+			"id": "Me8f_Rntqw25oic6q",
+			"name": "Blockable",
+			"children": [
+				{
+					"id": "mNWXrPzA1F363KfYw",
+					"name": "Blockable",
+					"reference": "PU8:12",
+					"cost": -5
+				},
+				{
+					"id": "mIULyJEK27YpCTZRj",
+					"name": "Blockable or Parryable",
+					"reference": "PU8:12",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "MOrnUUfzbWEEUhEQJ",
+			"name": "Bombardment",
+			"children": [
+				{
+					"id": "m0_x5S1YonsiLXlLk",
+					"name": "Bombardment",
+					"reference": "B111,P100",
+					"notes": "Effective Skill 8",
+					"cost": -20
+				},
+				{
+					"id": "mthRNO8GzwCaUejpM",
+					"name": "Bombardment",
+					"reference": "B111,P100",
+					"notes": "Effective Skill 10",
+					"cost": -15
+				},
+				{
+					"id": "mA1Q5V8Msp2HUnXvJ",
+					"name": "Bombardment",
+					"reference": "B111,P100",
+					"notes": "Effective Skill 12",
+					"cost": -10
+				},
+				{
+					"id": "mEhV_hnWWRr3wifBy",
+					"name": "Bombardment",
+					"reference": "B111,P100",
+					"notes": "Effective Skill 14",
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "MCb5k94ZLqFNL_lSq",
+			"name": "Can Carry @Encumbrance@",
+			"children": [
+				{
+					"id": "mS2VT9iCaeTmVyZYD",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13"
+				},
+				{
+					"id": "mayxrCG07Mj5MG1te",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13",
+					"notes": "Extra-Heavy Encumberance",
+					"cost": 150
+				},
+				{
+					"id": "m_Nrq385Pzgu2uMux",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13",
+					"notes": "Heavy Encumbrance",
+					"cost": 100
+				},
+				{
+					"id": "mZ4zTGKOp5o6R4dFx",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13",
+					"notes": "Light Encumbrance",
+					"cost": 20
+				},
+				{
+					"id": "mrstMpGl3qLaFzGVk",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13",
+					"notes": "Medium Encumbrance",
+					"cost": 50
+				},
+				{
+					"id": "m0zUm5S6QRQrP1igE",
+					"name": "Can Carry Objects",
+					"reference": "PU4:13",
+					"notes": "No encumbrance",
+					"cost": 10
+				}
+			]
+		},
+		{
+			"id": "M49NaaAGHBVVNHUQ1",
+			"name": "Cancellation",
+			"children": [
+				{
+					"id": "mjw7GHzFz_5eachQH",
+					"name": "Cancellation I",
+					"reference": "MT29",
+					"notes": "Must touch or target the effect",
+					"cost": 10
+				},
+				{
+					"id": "m2yxvAMvjFGdUX1lk",
+					"name": "Cancellation II",
+					"reference": "MT29",
+					"cost": 20
+				}
+			]
+		},
+		{
+			"id": "MpmIOWXu8j2d8iaNI",
+			"name": "Cardiac Stress",
+			"children": [
+				{
+					"id": "myjxBi1fTfR3vmdzx",
+					"name": "Cardiac Stress",
+					"reference": "PU8:12",
+					"notes": "Every 10 minutes",
+					"cost": -20
+				},
+				{
+					"id": "mLu8yDY1euVC7pX-e",
+					"name": "Cardiac Stress",
+					"reference": "PU8:12",
+					"notes": "Every 10 seconds",
+					"cost": -40
+				},
+				{
+					"id": "m0-ZPmP342J6HKCtm",
+					"name": "Cardiac Stress",
+					"reference": "PU8:12",
+					"notes": "Every hour",
+					"cost": -10
+				},
+				{
+					"id": "mLI0K__b89scxR6iw",
+					"name": "Cardiac Stress",
+					"reference": "PU8:12",
+					"notes": "Every minute",
+					"cost": -30
+				},
+				{
+					"id": "mEtjhbDAPMu6vRyu0",
+					"name": "Cardiac Stress",
+					"reference": "PU8:12",
+					"notes": "Every second",
+					"cost": -50
+				}
+			]
+		},
+		{
+			"id": "MoMODf4hk57ZkyTD0",
+			"name": "Cerebral Stress",
+			"children": [
+				{
+					"id": "mm0dlbMaQKejDkDrw",
+					"name": "Cerebral Stress",
+					"reference": "PU8:12",
+					"notes": "Every 10 minutes",
+					"cost": -20
+				},
+				{
+					"id": "mrMeKkzUApnibZO6e",
+					"name": "Cerebral Stress",
+					"reference": "PU8:12",
+					"notes": "Every 10 seconds",
+					"cost": -40
+				},
+				{
+					"id": "mizXcZd75RlDxrSKG",
+					"name": "Cerebral Stress",
+					"reference": "PU8:12",
+					"notes": "Every hour",
+					"cost": -10
+				},
+				{
+					"id": "m2BoE4cEeYpXq0wl6",
+					"name": "Cerebral Stress",
+					"reference": "PU8:12",
+					"notes": "Every minute",
+					"cost": -30
+				},
+				{
+					"id": "mpt9oo-N9MeztSzpF",
+					"name": "Cerebral Stress",
+					"reference": "PU8:12",
+					"notes": "Every second",
+					"cost": -50
+				}
+			]
+		},
+		{
+			"id": "M9c1QIN3-28uPsfZM",
+			"name": "Cosmic",
+			"reference": "MT29",
+			"children": [
+				{
+					"id": "mtZWP7ts1ZL5lG-N7",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mzPx8IxasLJQfOgnv"
+					},
+					"name": "Cosmic ",
+					"reference": "PU4:17",
+					"notes": "@Avoiding drawbacks@",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 50,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "m_ux_yOC55a5PrQ_g",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "m76PaDoiV7xFlfGM8"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:7",
+					"notes": " Defensive",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 50,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mcBkZ_iraCK9wlZxt",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mASBJyicWURwsD7G9"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "Irresistible Attack",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 300,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mBpp2vMp-j8p_ieCK",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mPYlbrFW9v86M5JWR"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "Lingering Effects",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 100,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mK0O9F_viI4NuRBtI",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "msglOJQ4Gxk4h0BWK"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "No Active Defense Allowed",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 300,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mLfvz6gez-pBfNdUE",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mve1wGyP1KD1S-PM5"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "No Dice Roll Required",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 100,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mC96euyEv3gcCH-LD",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mAKJ_lbx6cKs-2VmW"
+					},
+					"name": "Cosmic ",
+					"reference": "PU4:7",
+					"notes": "No Rule of 16",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 50,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mhLU0FEoc6iLItDhW",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mvqXkHHT63GBhFN7T"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:7",
+					"notes": "Privileged Attack; Cannot be rerolled ",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 50,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mq38nXJ0dUURRmbid",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mc-ajHo1lti7-0v2D"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "Unhealing damage",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 100,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "m88-QHLYmNllFP8Ph",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Odds and ends\\Cosmic Modifier.adm",
+						"id": "mDh6Ie4uzvEHqbyRz"
+					},
+					"name": "Cosmic",
+					"reference": "PU4:8",
+					"notes": "Unrestricted Powers",
+					"tags": [
+						"Cosmic"
+					],
+					"cost": 300,
+					"use_level_from_trait": true
+				},
+				{
+					"id": "m7VwiLcOO07KZIBON",
+					"name": "Cosmic",
+					"reference": "B103",
+					"notes": "Ability other than an attack or a defense",
+					"cost": 50
+				},
+				{
+					"id": "mBHOqWaIYOIpJsj23",
+					"name": "Cosmic",
+					"reference": "MT29",
+					"notes": "Erodes DR",
+					"cost": 100
+				},
+				{
+					"id": "mw8es8MtC5-uguQha",
+					"name": "Cosmic ",
+					"reference": "MT29",
+					"notes": "Irresistible Assault; Ignore Injury Tolerance",
+					"cost": 300
+				},
+				{
+					"id": "moXB4SoBB8S7lsR7U",
+					"name": "Cosmic, Rainbow Damage",
+					"reference": "MT30",
+					"notes": "Damage Modifier",
+					"cost": 300
+				}
+			]
+		},
+		{
+			"id": "MJGv3-PQYQ0TSZkik",
+			"name": "Costs @Resource@",
+			"children": [
+				{
+					"id": "mW0vJoJ4F7MPLs2co",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "m3BKapm1w2al9hsUW"
+					},
+					"name": "Costs Fatigue",
+					"reference": "TCEP17",
+					"notes": "1 FP per hour"
+				},
+				{
+					"id": "mbLRe-6s5La0649wC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "m22rz_WypiO-JY3eO"
+					},
+					"name": "Costs Fatigue",
+					"reference": "TCEP17",
+					"notes": "1 FP per minute",
+					"cost": -5
+				},
+				{
+					"id": "mZVparOOKJDxiyNcZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "m2igwkpyZ3gxuMnxt"
+					},
+					"name": "Costs Fatigue",
+					"reference": "TCEP17",
+					"notes": "1 FP per second",
+					"cost": -10
+				},
+				{
+					"id": "mdHxmic1Wpxysy0-Y",
+					"name": "Costs Hit Points",
+					"reference": "PU8:12",
+					"notes": "Per second",
+					"levels": 1,
+					"cost": -20
+				},
+				{
+					"id": "mmxEjyioFCuuZ-MVS",
+					"name": "Costs Hit Points",
+					"reference": "PU8:12",
+					"notes": "Per use",
+					"levels": 1,
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "Mm9Ibl-sAvVoWvSEs",
+			"name": "Cyclic",
+			"children": [
+				{
+					"id": "mAuu66MAXonDZiX38",
+					"name": "Cyclic - 1 day",
+					"reference": "B103",
+					"notes": "Halted by @description of what halts the cycle@",
+					"cost": 10
+				},
+				{
+					"id": "mB6__juYhSBKrh4Nq",
+					"name": "Cyclic - 1 hour",
+					"reference": "B103",
+					"notes": "Halted by @description of what halts the cycle@",
+					"cost": 20
+				},
+				{
+					"id": "mSk2xO3FNDPtcgmTy",
+					"name": "Cyclic - 1 minute",
+					"reference": "B103",
+					"notes": "Halted by @description of what halts the cycle@",
+					"cost": 40
+				},
+				{
+					"id": "m-LWrfy7Cxys7lcVK",
+					"name": "Cyclic - 1 second",
+					"reference": "B103",
+					"notes": "Halted by @description of what halts the cycle@",
+					"cost": 100
+				},
+				{
+					"id": "mtoNu29df_-kSUv20",
+					"name": "Cyclic - 10 seconds",
+					"reference": "B103",
+					"notes": "Halted by @description of what halts the cycle@",
+					"cost": 50
+				}
+			]
+		},
+		{
+			"id": "mMotPvk3wJuAcrldl",
+			"name": "Electrical",
+			"reference": "B134",
+			"cost": -20
+		},
+		{
+			"id": "M7qA4WksB-Uvs8EAl",
+			"name": "Environmental",
+			"children": [
+				{
+					"id": "mHmas9mtU8b0pqEzJ",
+					"name": "Environmental (@Common Environment@)",
+					"reference": "PU8:13",
+					"cost": -10
+				},
+				{
+					"id": "m7Jmk00yv9VXNHnDP",
+					"name": "Environmental (@Occasional Environment@)",
+					"reference": "PU8:13",
+					"cost": -20
+				},
+				{
+					"id": "moAbezXOsheW2lpsK",
+					"name": "Environmental (@Rare Environment@)",
+					"reference": "PU8:13",
+					"cost": -40
+				},
+				{
+					"id": "mBLNFce0f2Bme8UK5",
+					"name": "Environmental (@Very Common Environment@)",
+					"reference": "PU8:13",
+					"cost": -5
+				},
+				{
+					"id": "mEURTw2-hs0F1urmH",
+					"name": "Environmental (@Very Rare Environment@)",
+					"reference": "PU8:13",
+					"cost": -80
+				}
+			]
+		},
+		{
+			"id": "MJT3eNdQbv2B57c8K",
+			"name": "Exposure Time",
+			"children": [
+				{
+					"id": "mW0HlToW-N9Ed0o3U",
+					"name": "Exposure Time",
+					"reference": "B113",
+					"notes": "1 day",
+					"cost": -50
+				},
+				{
+					"id": "mJ84KpoUXizGIZ_bb",
+					"name": "Exposure Time",
+					"reference": "B113",
+					"notes": "1 hour",
+					"cost": -40
+				},
+				{
+					"id": "m_uWwKHvaS1j1vx-i",
+					"name": "Exposure Time",
+					"reference": "B113",
+					"notes": "1 minute",
+					"cost": -30
+				},
+				{
+					"id": "mcboct6e3Tok-3c4A",
+					"name": "Exposure Time",
+					"reference": "B113",
+					"notes": "1 week",
+					"cost": -60
+				}
+			]
+		},
+		{
+			"id": "m2OudTuJnUMkkmBS3",
+			"name": "Fickle",
+			"reference": "PU8:13",
+			"cost": -20
+		},
+		{
+			"id": "mq4-hmVpdgzKMpjy8",
+			"name": "Fixed Delay",
+			"reference": "B105",
+			"notes": "@delay period@, @method to neutralize@"
+		},
+		{
+			"id": "m6sneb8tZ8DBsXZmF",
+			"name": "Fixed Duration",
+			"reference": "PU4:14"
+		},
+		{
+			"id": "MLaTT16edDQFF0Tuj",
+			"name": "Follow-Up",
+			"reference": "MT30",
+			"children": [
+				{
+					"id": "mvG6zFTxFeddeFGZl",
+					"name": "Follow-Up",
+					"reference": "B105,P102",
+					"notes": "Cost is variable and must be entered manually"
+				},
+				{
+					"id": "mp2vr68LL7nF2Vqzn",
+					"name": "Follow-Up @Common@",
+					"reference": "MT30",
+					"notes": "All mele attacks, all ranged attacks, all weapon attacks",
+					"cost": 40
+				},
+				{
+					"id": "m84JM_yx-ffZxI2E2",
+					"name": "Follow-Up @Rare@",
+					"reference": "MT30",
+					"notes": "all attacks with one specific skill",
+					"cost": 20
+				},
+				{
+					"id": "mHkh9es3QATFxuXH8",
+					"name": "Follow-Up @Uncommon@",
+					"reference": "MT30",
+					"notes": "all unarmed attacks, all attacks involving a category of weapons",
+					"cost": 30
+				},
+				{
+					"id": "m2Ec1yqMrIeVA6o2m",
+					"name": "Follow-Up, Universal",
+					"reference": "PU4:14",
+					"cost": 50
+				}
+			]
+		},
+		{
+			"id": "myE2Lp-odGlyaUshD",
+			"name": "Force Field",
+			"reference": "PU4:14",
+			"cost": 20
+		},
+		{
+			"id": "M6uBAdiYs5Tyw0VG2",
+			"name": "Gadget Limitations",
+			"children": [
+				{
+					"id": "MWuQ9_0Zu9s7YzVIA",
+					"name": "Can be Stolen",
+					"children": [
+						{
+							"id": "mbWmORgcE7zQo_huk",
+							"name": "Can be Stolen",
+							"reference": "B117",
+							"notes": "Easily Snatched",
+							"cost": -40
+						},
+						{
+							"id": "mZ2ng66o6U7qsd1Yn",
+							"name": "Can be Stolen",
+							"reference": "B117",
+							"notes": "Forcibly Removed",
+							"cost": -10
+						},
+						{
+							"id": "mLYBJrD1lJOPr7D7z",
+							"name": "Can be Stolen",
+							"reference": "B117",
+							"notes": "Stealth or Trickery",
+							"cost": -20
+						},
+						{
+							"id": "mAFlrKcAtfVmsygxS",
+							"name": "Can be Stolen",
+							"reference": "B117",
+							"notes": "Win QC",
+							"cost": -30
+						}
+					]
+				},
+				{
+					"id": "MfN_sVUv5yofctbd_",
+					"name": "Gadget Limitations - Breakable",
+					"children": [
+						{
+							"id": "m4d1bvBp6IphdDh50",
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"notes": "DR 2 or less",
+							"cost": -20
+						},
+						{
+							"id": "mcBOvCLaa4BpMlW6S",
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"notes": "DR 3-5",
+							"cost": -15
+						},
+						{
+							"id": "mog4IUvzYsJqznsar",
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"notes": "DR 6-15",
+							"cost": -10
+						},
+						{
+							"id": "mBv0SDN30N8_bSsdN",
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"notes": "DR 16-25",
+							"cost": -5
+						},
+						{
+							"id": "mUigfGoh9F375Z0b_",
+							"name": "Gadget Limitations - Breakable",
+							"reference": "B117",
+							"notes": "DR 26+"
+						},
+						{
+							"id": "mFJbJIit8bSa1Cqiv",
+							"name": "Gadget Limitations - Breakable (Cannot Repair)",
+							"reference": "B117",
+							"cost": -15
+						},
+						{
+							"id": "mCOkUn31wz2cOVrTx",
+							"name": "Gadget Limitations - Breakable (Machine)",
+							"reference": "B117",
+							"notes": "If the object is a machine that can break down",
+							"cost": -5
+						},
+						{
+							"id": "mTTM--ieUyU72eBFG",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "0+",
+							"cost": -25
+						},
+						{
+							"id": "m34AnpMRCu41Btc1N",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "-1 or -2",
+							"cost": -20
+						},
+						{
+							"id": "m0Bv6mjaSFOAboWwa",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "-3 or -4",
+							"cost": -15
+						},
+						{
+							"id": "mKArHDXDstt-Q_EkY",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "-5 or -6",
+							"cost": -10
+						},
+						{
+							"id": "mFCQhJprOOsc5-gBN",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "-7 or -8",
+							"cost": -5
+						},
+						{
+							"id": "miAQc-zGa-1YDLyBf",
+							"name": "Gadget Limitations - Breakable (Size)",
+							"reference": "B117",
+							"notes": "-9 or less"
+						}
+					]
+				},
+				{
+					"id": "mtNImoDPbY1SPhTfI",
+					"name": "Unique",
+					"cost": -25
+				}
+			]
+		},
+		{
+			"id": "mnHZVPCn5mBEIQfIg",
+			"name": "Game Time",
+			"reference": "PU4:14"
+		},
+		{
+			"id": "mU0qwQcmJXjH4oDNI",
+			"name": "Granted by (@Other@)",
+			"reference": "PU8:14",
+			"cost": -40
+		},
+		{
+			"id": "MtocNZK3oL7lOOkmX",
+			"name": "Granter Group",
+			"reference": "PU8:14",
+			"children": [
+				{
+					"id": "meNv5dkN8nfGbiWH6",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "2 Members",
+					"cost": -30
+				},
+				{
+					"id": "m_kfLTHdj4KLHb2uY",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "3 Members",
+					"cost": -25
+				},
+				{
+					"id": "m5bzaza1foTNlnfUh",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "11-15 Members",
+					"cost": -5
+				},
+				{
+					"id": "m0MsFAW1xN6mGCvQx",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "16+  Members"
+				},
+				{
+					"id": "miGK7116MnaLqW-Sz",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "@4-5@ Members",
+					"cost": -20
+				},
+				{
+					"id": "m-rSXA9nGxykcE5T1",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "@6-7@ Members",
+					"cost": -15
+				},
+				{
+					"id": "mvQdusC_Go9U9pd5P",
+					"name": "Granter Group",
+					"reference": "PU8:14",
+					"notes": "@8-10@ Members",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "Mn9DyGYHAfciMJtBF",
+			"name": "Independent",
+			"children": [
+				{
+					"id": "m6JXMt06hxLRzx3OK",
+					"name": "Independent",
+					"reference": "PU4:15",
+					"cost": 40
+				},
+				{
+					"id": "mB5CrvxzyYhy0OiCy",
+					"name": "Independent",
+					"reference": "PU4:15",
+					"notes": "On Advantages with penalties for simultaneous use",
+					"cost": 70
+				}
+			]
+		},
+		{
+			"id": "mVeEdM9iOhxdm1x4W",
+			"name": "Informal",
+			"reference": "PU8:15",
+			"cost": -50
+		},
+		{
+			"id": "MumCobL4hCvi_wrky",
+			"name": "Limited Use",
+			"reference": "MT32",
+			"children": [
+				{
+					"id": "mSjH2IHpO5zR6Bv7H",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "2 uses per day",
+					"cost": -30
+				},
+				{
+					"id": "m2lshAdMrXUzKyzXr",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "2 uses per day, Fast Reload",
+					"cost": -15
+				},
+				{
+					"id": "m0TBQM6YDmC_AdPwG",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "2 uses per day, Slow Reload",
+					"cost": -25
+				},
+				{
+					"id": "m4FXlZFdkwMv0UNb5",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@3-4@ uses per day",
+					"cost": -20
+				},
+				{
+					"id": "mt4cNfX3XWW62GplJ",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@3-4@ uses per day, Fast Reload",
+					"cost": -10
+				},
+				{
+					"id": "mjYZ6wbjgqjuezZCT",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@3-4@ uses per day, Slow Reload",
+					"cost": -15
+				},
+				{
+					"id": "mX9MLy6fnohWQMGqO",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@5-10@ uses per day",
+					"cost": -10
+				},
+				{
+					"id": "mU1WUg6LFPFcBl_JQ",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@5-10@ uses per day, Fast Reload",
+					"cost": -5
+				},
+				{
+					"id": "mSKwP7UTjxqtPC-Nd",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "@5-10@ uses per day, Slow Reload",
+					"cost": -5
+				},
+				{
+					"id": "m7NPdcXV5zT04JJzc",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "Once per day",
+					"cost": -40
+				},
+				{
+					"id": "mWjygyfBjHluQVupa",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "Once per day, Fast Reload",
+					"cost": -20
+				},
+				{
+					"id": "mZPz4t1kRce_s3QM3",
+					"name": "Limited Use",
+					"reference": "B112,P103",
+					"notes": "Once per day, Slow Reload",
+					"cost": -35
+				},
+				{
+					"id": "m6Wgelbz2KPdN3f6W",
+					"name": "Limited Use, Continuous Use",
+					"reference": "MT32",
+					"notes": "See enhancement for details",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "mtkjlqrzNtUBI7lRc",
+					"name": "Quick Reload",
+					"reference": "MT32",
+					"notes": "Modifies value of Limited Use",
+					"cost": 0.33,
+					"cost_type": "multiplier"
+				},
+				{
+					"id": "mxJDmLLhL_H4WNFhn",
+					"name": "Special Reload @Common@ Condition",
+					"reference": "MT32",
+					"cost": -20
+				},
+				{
+					"id": "mxZvxqH7uwyVjizPV",
+					"name": "Special Reload @Common@ Substance",
+					"reference": "MT32",
+					"cost": -10
+				},
+				{
+					"id": "mnwLkF8TjpTMndsZL",
+					"name": "Special Reload @Occasional@ Condition",
+					"reference": "MT32",
+					"cost": -30
+				},
+				{
+					"id": "mZMShq7tu4oyoZdVp",
+					"name": "Special Reload @Occasional@ Substance",
+					"reference": "MT32",
+					"cost": -20
+				},
+				{
+					"id": "me6qqttUUzFbtdZcT",
+					"name": "Special Reload @Rarel@ Condition",
+					"reference": "MT32",
+					"cost": -40
+				},
+				{
+					"id": "m1C9QzsMAqH8oMnkA",
+					"name": "Special Reload @Rarel@ Substance",
+					"reference": "MT32",
+					"cost": -30
+				},
+				{
+					"id": "mkKiu5PeH8eHwDOeE",
+					"name": "Special Reload @Very Common@ Condition",
+					"reference": "MT32",
+					"cost": -10
+				},
+				{
+					"id": "mw3vnxy_2xNH6dn0K",
+					"name": "Special Reload @Very Common@ Substance",
+					"reference": "MT32",
+					"cost": -5
+				},
+				{
+					"id": "mzD3Eu9WWRzDML2AA",
+					"name": "Thrown",
+					"reference": "MT32",
+					"notes": "Must be retrieved",
+					"cost": -25
+				},
+				{
+					"id": "mQuuxSeIlWhnld64n",
+					"name": "Thrown",
+					"reference": "MT32",
+					"notes": "Must be retrieved; Regulatable",
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "MNUG2RJFZLAhmsHGT",
+			"name": "Linked",
+			"children": [
+				{
+					"id": "maaMGXzmFpxL_KtuG",
+					"name": "Link",
+					"reference": "B106,P103",
+					"notes": "@linked abilities@",
+					"cost": 20
+				},
+				{
+					"id": "mMRlVHORKONUOlsm1",
+					"name": "Link",
+					"reference": "B106,P103",
+					"notes": "@linked abilities@, must be used as a single ability",
+					"cost": 10
+				}
+			]
+		},
+		{
+			"id": "M3SDGisJ53hsq-TOj",
+			"name": "Malediction",
+			"children": [
+				{
+					"id": "msl3Pkn0R_-ee-8DN",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "-1 per yard of range",
+					"cost": 100
+				},
+				{
+					"id": "m4G11K8Gf5co6dS2z",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "Use SSRT range penalties",
+					"cost": 150
+				},
+				{
+					"id": "m0QRx8OS5GvZdk1Yd",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "Uses Long-Distance Modifiers",
+					"cost": 200
+				}
+			]
+		},
+		{
+			"id": "mdicVy4i4QS6Nr1NL",
+			"name": "Mana Sensitive",
+			"reference": "B34",
+			"notes": "Does not work in no mana, -5 to die rolls in low mana",
+			"cost": -10
+		},
+		{
+			"id": "Mg7yg93pi5KLIJrx4",
+			"name": "Maximum Duration",
+			"children": [
+				{
+					"id": "movLZMiEvBDciRpq_",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "1 Night",
+					"cost": -5
+				},
+				{
+					"id": "mKizhz9CODDk0baiK",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Greater than 12 Hours"
+				},
+				{
+					"id": "mLEhkTjt_mvYfaVVR",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Less than 30 seconds",
+					"cost": -75
+				},
+				{
+					"id": "mdOMezSHh6PcIaK4Z",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 1 Hour",
+					"cost": -10
+				},
+				{
+					"id": "msWEv8HvHoE_diZ3_",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 1 minute",
+					"cost": -65
+				},
+				{
+					"id": "m9ofd5EB0udSpP30g",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 10 Minutes",
+					"cost": -50
+				},
+				{
+					"id": "msIaKgEvG6GdtAMsm",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 12 hours",
+					"cost": -5
+				},
+				{
+					"id": "m4sXBdOuwEkLQmUIn",
+					"name": "Maximum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 30 Minutes",
+					"cost": -25
+				}
+			]
+		},
+		{
+			"id": "MCzYDm1rfxbYI27tg",
+			"name": "Melee Attack",
+			"reference": "MT32",
+			"children": [
+				{
+					"id": "mWpq71xxKkRM3kqxq",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach 1-4",
+					"cost": -15
+				},
+				{
+					"id": "mpQzEardKB5JSYXbW",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach 1-4, No Parry",
+					"cost": -20
+				},
+				{
+					"id": "m-g8T6F5XwPlJQdJk",
+					"name": "Melee Attack",
+					"reference": "MT32",
+					"notes": "Reach 1-5",
+					"cost": -10
+				},
+				{
+					"id": "mY2nY5w-8QUxnduvH",
+					"name": "Melee Attack",
+					"reference": "MT32",
+					"notes": "Reach 1-6",
+					"cost": -5
+				},
+				{
+					"id": "meVYiUb3Y815ySj0t",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach @1 or 2@",
+					"cost": -25
+				},
+				{
+					"id": "mFGfh_9yRuYLk4Vfj",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach @1 or 2@, No Parry",
+					"cost": -30
+				},
+				{
+					"id": "mcwujPhgOUr0FnM0P",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach @C,1 or 1,2 or 2,3@",
+					"cost": -20
+				},
+				{
+					"id": "mjwA_beD5606z6BYj",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach @C,1 or 1,2 or 2,3@, No Parry",
+					"cost": -25
+				},
+				{
+					"id": "m98AoSkNW5OdegQ6T",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach C",
+					"cost": -30
+				},
+				{
+					"id": "m2Uj8Ci6NqqSq5ZRM",
+					"name": "Melee Attack",
+					"reference": "B112,P103",
+					"notes": "Reach C, No Parry",
+					"cost": -35
+				},
+				{
+					"id": "mt8FDxTb0GK8X4Auh",
+					"name": "Melee Attack (Destructive Parry)",
+					"reference": "MT33",
+					"cost": 10
+				},
+				{
+					"id": "mZgqeQvjQDpx1NDYm",
+					"name": "Melee Attack (Dual)",
+					"reference": "MT33",
+					"notes": "+5% per attack beyond two",
+					"cost": 10
+				},
+				{
+					"id": "mF51246jXLbQal1Ho",
+					"name": "Melee Attack (Flexible)",
+					"reference": "MT33",
+					"cost": 20,
+					"features": [
+						{
+							"type": "weapon_parry_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -2
+						}
+					]
+				},
+				{
+					"id": "mmQxUeZ8O0wYeA3p-",
+					"name": "Melee Attack (Heavy)",
+					"reference": "MT33",
+					"notes": "1 level per 10% increase",
+					"levels": 1,
+					"cost": 5
+				},
+				{
+					"id": "mgYaKhzKWHr-l3bYD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "m7iRqG1uln_b1g4aK"
+					},
+					"name": "Melee Attack",
+					"reference": "TCEP17",
+					"notes": "ST-based",
+					"cost": 100
+				},
+				{
+					"id": "m-sId-i5P9APm-9fg",
+					"name": "Melee Attack (Lighter)",
+					"reference": "MT33",
+					"notes": "1 level per -20% weight",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "m6j8dXlK0zMMxqlIu",
+					"name": "Melee Attack (Modified Parry)",
+					"reference": "MT33",
+					"notes": "cost varies"
+				},
+				{
+					"id": "mAuiOasmuXCcpi_8v",
+					"name": "Trait Modifier",
+					"reference": "MT32",
+					"notes": "Reach 1-7"
+				}
+			]
+		},
+		{
+			"id": "MUhg4LfDUqMNTOC3r",
+			"name": "Minimum Duration",
+			"children": [
+				{
+					"id": "msZ1MvP2MD9cMclq3",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Greater than 1 Month",
+					"cost": -30
+				},
+				{
+					"id": "mkaZIL_NnzASnAceh",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Less than 1 hour",
+					"cost": -5
+				},
+				{
+					"id": "m9F6ECU6Sek6aIZ1v",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Less than 1 month",
+					"cost": -25
+				},
+				{
+					"id": "mUFKsH3mHTrupYUM3",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Less than 1 week",
+					"cost": -20
+				},
+				{
+					"id": "mkCwlOKD7-7Fg7d3y",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 8 Hours",
+					"cost": -5
+				},
+				{
+					"id": "mYi15hA29tPqsE-5_",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to 24 Hours",
+					"cost": -15
+				},
+				{
+					"id": "mECZF-jtlgjwLJZEX",
+					"name": "Minimum Duration",
+					"reference": "PU8:15",
+					"notes": "Up to @12 Hours or 1 Night@",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "M8T5cmu8Yoj6I4Scv",
+			"name": "Mitigators",
+			"children": [
+				{
+					"id": "mRqB0jxT42T94r7uB",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Daily treatment of @drug or treatment@",
+					"cost": -60
+				},
+				{
+					"id": "m-QiM5YTEVcAZE4T9",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Daily treatment of @experimental/single-source drug or treatment@",
+					"cost": -50
+				},
+				{
+					"id": "m5O0Fe0Gtlc2hpToA",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Daily treatment of @special/expensive drug or treatment@",
+					"cost": -55
+				},
+				{
+					"id": "mAr5A6aLr61iTeTrH",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Monthly treatment of @drug or treatment@",
+					"cost": -70
+				},
+				{
+					"id": "mS0GrNlAS2wYQMHaH",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Monthly treatment of @experimental/single-source drug or treatment@",
+					"cost": -60
+				},
+				{
+					"id": "mJu0gbU768VlAno2b",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Monthly treatment of @special/expensive drug or treatment@",
+					"cost": -65
+				},
+				{
+					"id": "mnnUzA1MDBucLIIgy",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Vulnerable, @what is it@",
+					"cost": -60
+				},
+				{
+					"id": "m8BffOhSAFSTsQx3S",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Weekly treatment of @drug or treatment@",
+					"cost": -65
+				},
+				{
+					"id": "maJ7bunvGl7oW-Wql",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Weekly treatment of @experimental/single-source drug or treatment@",
+					"cost": -55
+				},
+				{
+					"id": "mUbgfxA2iGewYcYfE",
+					"name": "Mitigator",
+					"reference": "B112",
+					"notes": "Weekly treatment of @special/expensive drug or treatment@",
+					"cost": -60
+				}
+			]
+		},
+		{
+			"id": "MP2IUhJpgbSJxuHfx",
+			"name": "Modified Duration",
+			"children": [
+				{
+					"id": "mNk2MATxPnU-o7WQI",
+					"name": "3x Duration",
+					"reference": "B105",
+					"cost": 20
+				},
+				{
+					"id": "mPhXjCLxolECy2pbz",
+					"name": "10x Duration",
+					"reference": "B105",
+					"cost": 40
+				},
+				{
+					"id": "mlA9Y94xzpoR_6MgM",
+					"name": "30x Duration",
+					"reference": "B105",
+					"cost": 60
+				},
+				{
+					"id": "mj-yg4KohWNlAOwJg",
+					"name": "100x Duration",
+					"reference": "B105",
+					"cost": 80
+				},
+				{
+					"id": "mdXkopgJ2WruWfBv2",
+					"name": "300x Duration",
+					"reference": "B105",
+					"cost": 100
+				},
+				{
+					"id": "meCqzUbqx5JZdDIaR",
+					"name": "1000x Duration",
+					"reference": "B105",
+					"cost": 120
+				},
+				{
+					"id": "mQ5bnlRvluiqSBsLA",
+					"name": "Extended Duration 1,000,000x",
+					"reference": "PU4:14",
+					"cost": 240
+				},
+				{
+					"id": "mUfWFOM1C5THOmfp7",
+					"name": "Extended Duration 3,000,000x",
+					"reference": "PU4:14",
+					"cost": 260
+				},
+				{
+					"id": "mZZM4cNEDRQwpV0f5",
+					"name": "Extended Duration 3,000x",
+					"reference": "PU4:14",
+					"cost": 140
+				},
+				{
+					"id": "mqSDzSxCWCCmFVv1N",
+					"name": "Extended Duration 10,000,000x",
+					"reference": "PU4:14",
+					"cost": 280
+				},
+				{
+					"id": "mZV2XMISWkRfAx7Hg",
+					"name": "Extended Duration 10,000x",
+					"reference": "PU4:14",
+					"cost": 160
+				},
+				{
+					"id": "mM61aMUtT8QxfHAIP",
+					"name": "Extended Duration 30,000x",
+					"reference": "PU4:14",
+					"cost": 180
+				},
+				{
+					"id": "m0at7tV5g-kEfnE_K",
+					"name": "Extended Duration 100,000x",
+					"reference": "PU4:14",
+					"cost": 200
+				},
+				{
+					"id": "m_Dqp3qfGxzRUYLOH",
+					"name": "Extended Duration 300,000x",
+					"reference": "PU4:14",
+					"cost": 220
+				},
+				{
+					"id": "mPMScMRUfsyCj8xvD",
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"cost": 300
+				},
+				{
+					"id": "mEhnIJ627V7vjftyU",
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"notes": "Dispelled by @method of dispelling effect@",
+					"cost": 150
+				},
+				{
+					"id": "mfdN2I5PSCfCsTPQB",
+					"name": "Reduced Duration, 1/2",
+					"reference": "PU8:16",
+					"cost": -5
+				},
+				{
+					"id": "mQPyK27vq0Db7pygY",
+					"name": "Reduced Duration, 1/3",
+					"reference": "PU8:16",
+					"cost": -10
+				},
+				{
+					"id": "mt5KJNPkG-oqecJ6p",
+					"name": "Reduced Duration, 1/6",
+					"reference": "PU8:16",
+					"cost": -15
+				},
+				{
+					"id": "mcQ4w3V_Wl8RA5qhz",
+					"name": "Reduced Duration, 1/10",
+					"reference": "PU8:16",
+					"cost": -20
+				},
+				{
+					"id": "m2Vd4e-T8eb1C6Mb8",
+					"name": "Reduced Duration, 1/20",
+					"reference": "PU8:16",
+					"cost": -25
+				},
+				{
+					"id": "mMN5FSEwieE1R3wQo",
+					"name": "Reduced Duration, 1/30",
+					"reference": "PU8:16",
+					"cost": -30
+				},
+				{
+					"id": "mfiUa8Rr81ZaoA4kj",
+					"name": "Reduced Duration, 1/60",
+					"reference": "PU8:16",
+					"cost": -35
+				}
+			]
+		},
+		{
+			"id": "M__rYiB5m4iIrubuj",
+			"name": "Modified Range",
+			"children": [
+				{
+					"id": "mpzclmVv-E00UzGcX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+						"id": "m0Eb74zIwgb-E30D1"
+					},
+					"name": "Reduced Range 1/10",
+					"reference": "B115,P105",
+					"cost": -30,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -90
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -90
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mnRCJp3TfZYS8gmaP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+						"id": "mBiJCN2DvROTZnYPj"
+					},
+					"name": "Reduced Range 1/5",
+					"reference": "B115,P105",
+					"cost": -20,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -80
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -80
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mKZo49TzOGqLNXCDt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Limitation Modifiers.adm",
+						"id": "muEHnnBcFvKfMCDHp"
+					},
+					"name": "Reduced Range 1/2",
+					"reference": "B115,P105",
+					"cost": -10,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -50
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -50
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mu409mz5hKiLCy4x4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mpImIeHrC-EfHWB2p"
+					},
+					"name": "100x Increased Range",
+					"reference": "B106",
+					"cost": 60,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 9900
+						},
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 9900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mLn2LNM7fyS_Lmdsq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mpImIeHrC-EfHWB2p"
+					},
+					"name": "100x Increased Max Range",
+					"reference": "B106",
+					"cost": 30,
+					"features": [
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 9900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mHOOjhclUPO-RhcyA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "m-AnXjtgyaWQKXuDo"
+					},
+					"name": "50x Increased Range",
+					"reference": "B106",
+					"cost": 50,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 4900
+						},
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 4900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "msBd0BEzJOajnlQ3T",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "m-AnXjtgyaWQKXuDo"
+					},
+					"name": "50x Increased Max Range",
+					"reference": "B106",
+					"cost": 25,
+					"features": [
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 4900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m91Fv7gPpWmY0gtKJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mQ_2bajRRS_CtkWAn"
+					},
+					"name": "20x Increased Range",
+					"reference": "B106",
+					"cost": 40,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1900
+						},
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mQi2YaL0l7nOiVMb_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mQ_2bajRRS_CtkWAn"
+					},
+					"name": "20x Increased Max Range",
+					"reference": "B106",
+					"cost": 20,
+					"features": [
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mxrXbQdTe7jDtAWJA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mpGDFBAfsyxU5j-2Z"
+					},
+					"name": "10x Increased Range",
+					"reference": "B106",
+					"cost": 30,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 900
+						},
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "maBgp3kneQOQ9UHye",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mpGDFBAfsyxU5j-2Z"
+					},
+					"name": "10x Increased Max Range",
+					"reference": "B106",
+					"cost": 15,
+					"features": [
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 900
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mjBUsqEzibpLJKx_6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mBGfUgwdVmDu-JkEa"
+					},
+					"name": "10x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 15,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 900
+						}
+					]
+				},
+				{
+					"id": "mMC-X9HrwkLIv9Z81",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mZK4bwt1NTuzRaUUs"
+					},
+					"name": "5x Increased Range",
+					"reference": "B106",
+					"cost": 20,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 400
+						},
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 400
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m79Xl8cWBWs8Sy_wy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mZK4bwt1NTuzRaUUs"
+					},
+					"name": "5x Increased Max Range",
+					"reference": "B106",
+					"cost": 10,
+					"features": [
+						{
+							"type": "weapon_max_reach_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telekinesis Attacks"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 400
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mw6P2V_NpQhce-Xyz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mQ81Xfa00tiKIE3rq"
+					},
+					"name": "5x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 10,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 400
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mmPetqRNNurQZOr-E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mIgewYjuzmPvs7Jx9"
+					},
+					"name": "2x Increased Range",
+					"reference": "B106",
+					"cost": 10,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						},
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mfPJ1X2VagwxAXKtN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "mIgewYjuzmPvs7Jx9"
+					},
+					"name": "2x Increased Max Range",
+					"reference": "B106",
+					"cost": 5,
+					"features": [
+						{
+							"type": "weapon_max_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "moLQjensfsvsJnNSw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Enhancement Modifiers.adm",
+						"id": "m5qUBbGg9xeI4r3J2"
+					},
+					"name": "2x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 5,
+					"features": [
+						{
+							"type": "weapon_half_damage_range_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 100
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mDpo6U-Y0oBHYvLj7",
+					"name": "Short-Range",
+					"reference": "PU8:18",
+					"cost": -10
+				},
+				{
+					"id": "m-GIaNLbpBSl6DzID",
+					"name": "Musle-Powered Range",
+					"reference": "MT33"
+				},
+				{
+					"id": "moPVGMip5bXhWVpY3",
+					"name": "Increased Range, Throwing Range",
+					"reference": "MT32",
+					"cost": 5
+				},
+				{
+					"id": "mkr13In48VWz8u5jL",
+					"name": "Long-Range",
+					"reference": "PU4:15",
+					"levels": 1,
+					"cost": 50
+				},
+				{
+					"id": "mHcpVRg08Z6MK0wZo",
+					"name": "Minimum Range",
+					"reference": "PU8:16",
+					"notes": "@1% of Maximum Range@",
+					"cost": -5
+				},
+				{
+					"id": "m0dOJGbMmW2qnC3zd",
+					"name": "Minimum Range",
+					"reference": "PU8:16",
+					"notes": "@5% of Maximum Range@",
+					"cost": -10
+				},
+				{
+					"id": "mKhK5fifwD_FKMY09",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Psionics\\Psionics Enhancement Modifiers.adm",
+						"id": "mtYsQDGexXw1T3y6c"
+					},
+					"name": "Increased Range, Line of Sight",
+					"reference": "PSI20",
+					"notes": "For 100 Yard Range abilities",
+					"cost": 40
+				},
+				{
+					"id": "mwVe-Za81H73WM_Ji",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Psionics\\Psionics Enhancement Modifiers.adm",
+						"id": "mX9sXU-l-QABLtqaA"
+					},
+					"name": "Increased Range, Line of Sight",
+					"reference": "PSI20",
+					"notes": "For 10 Yard Range abilities",
+					"cost": 70
+				}
+			]
+		},
+		{
+			"id": "mVXs3fW-tIJk0zBPJ",
+			"name": "Nuisance Effect",
+			"reference": "B112,P104",
+			"notes": "Must enter cost manually"
+		},
+		{
+			"id": "m_aBDshxMdU69NIaO",
+			"name": "Once On, Stays On",
+			"reference": "PU4:16",
+			"cost": 50
+		},
+		{
+			"id": "Ms2q36Wz12uHvpsZ2",
+			"name": "Onsets",
+			"children": [
+				{
+					"id": "mpPpholVXPaz2leGq",
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 day",
+					"cost": -30
+				},
+				{
+					"id": "mw7zfhk7VgKAWqpUB",
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 minute",
+					"cost": -10
+				},
+				{
+					"id": "mWdKmyzoUMrEPUJ6v",
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 hour",
+					"cost": -20
+				},
+				{
+					"id": "mzywf-At2zGy-06ZZ",
+					"name": "Onset",
+					"reference": "B113,P104",
+					"notes": "1 week",
+					"cost": -40
+				}
+			]
+		},
+		{
+			"id": "mCRXygn1FwXxNLgiV",
+			"name": "Pact",
+			"reference": "B113,P104",
+			"notes": "Must enter cost manually"
+		},
+		{
+			"id": "M_0oz7hAzc6_peG3r",
+			"name": "Periodic Recharge",
+			"children": [
+				{
+					"id": "m3g-HEH2dzWjaV0BG",
+					"name": "Periodic Recharge",
+					"reference": "PU8:16",
+					"notes": "Interval 1 Hour",
+					"cost": -20
+				},
+				{
+					"id": "mToJzkKMDOUXOK_AN",
+					"name": "Periodic Recharge",
+					"reference": "PU8:16",
+					"notes": "Interval 1 Minute",
+					"cost": -80
+				},
+				{
+					"id": "mBL6GiWgKRBm3BOYi",
+					"name": "Periodic Recharge",
+					"reference": "PU8:16",
+					"notes": "Interval 8 Hours",
+					"cost": -10
+				},
+				{
+					"id": "m3nQbT8pEXjOw36jk",
+					"name": "Periodic Recharge",
+					"reference": "PU8:16",
+					"notes": "Interval 10 Minutes",
+					"cost": -40
+				},
+				{
+					"id": "m2sviCaWfj4fhydi-",
+					"name": "Periodic Recharge",
+					"reference": "PU8:16",
+					"notes": "Interval 24 Hours",
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "m2lhpsGJHYoqDvWWn",
+			"name": "Persistent",
+			"reference": "B107,P104",
+			"cost": 40
+		},
+		{
+			"id": "M95Tp7-Zt3v9WddOp",
+			"name": "Preparation Modifier",
+			"children": [
+				{
+					"id": "m0fTJz6yr7sjAKRDh",
+					"name": "Immediate Preparation Required",
+					"reference": "PU8:14",
+					"notes": "1 hour",
+					"cost": -75
+				},
+				{
+					"id": "mymtD07fU0g1n9v0L",
+					"name": "Immediate Preparation Required",
+					"reference": "PU8:14",
+					"notes": "1 minute",
+					"cost": -30
+				},
+				{
+					"id": "mvttBbGzfOH7kxOwW",
+					"name": "Immediate Preparation Required",
+					"reference": "PU8:14",
+					"notes": "8 hours",
+					"cost": -90
+				},
+				{
+					"id": "mbdHrWAxOy0XUjuTW",
+					"name": "Immediate Preparation Required",
+					"reference": "PU8:14",
+					"notes": "10 minutes",
+					"cost": -45
+				},
+				{
+					"id": "mJb8EX2ZxaIr_Y5Z9",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "1 hour",
+					"cost": -50
+				},
+				{
+					"id": "mzDHEnSgXZYyzhEX2",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "1 hour, Weakened without preparation",
+					"cost": -25
+				},
+				{
+					"id": "mXEvskD9LcgJ-48b-",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "1 minute",
+					"cost": -20
+				},
+				{
+					"id": "mNW47A4TvXkjXCmZK",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "1 minute, Weakened without preparation",
+					"cost": -10
+				},
+				{
+					"id": "mwmhk-R_C5E6G5HEP",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "8 hours",
+					"cost": -60
+				},
+				{
+					"id": "mfWaI9SvG9dp4n3lr",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "8 hours, Weakened without preparation",
+					"cost": -30
+				},
+				{
+					"id": "mCGh9CaKEDIIwPQ_j",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "10 minutes",
+					"cost": -30
+				},
+				{
+					"id": "mrKNwluU6uvwdHm0H",
+					"name": "Preparation Required",
+					"reference": "B114",
+					"notes": "10 minutes, Weakened without preparation",
+					"cost": -15
+				}
+			]
+		},
+		{
+			"id": "marjDmBXAK19mAw_0",
+			"name": "Ranged",
+			"reference": "B107,P105",
+			"cost": 40
+		},
+		{
+			"id": "MbhPGLTmVK4ngd3Qi",
+			"name": "Rapid Fire",
+			"children": [
+				{
+					"id": "moWiKBBP6TJ23SlpJ",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF 2",
+					"cost": 40
+				},
+				{
+					"id": "mMwnnzuYW7BiJwXYj",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF 3",
+					"cost": 50
+				},
+				{
+					"id": "mJbDXrHcnK6xbICdq",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @4-7@",
+					"cost": 70
+				},
+				{
+					"id": "mYnu0tTP-u8XXLOrG",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @8-15@",
+					"cost": 100
+				},
+				{
+					"id": "m_M-yaiDNZdHRUn05",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @16-30@",
+					"cost": 150
+				},
+				{
+					"id": "m2vYtREefzW0mtMGW",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @31-70@",
+					"cost": 200
+				},
+				{
+					"id": "m__WTsne8rzUmbMhT",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @71-150@",
+					"cost": 250
+				},
+				{
+					"id": "m0Cs4xW-qun5A7uHh",
+					"name": "Rapid Fire",
+					"reference": "B108,P105",
+					"notes": "RoF @151-300@",
+					"cost": 300
+				}
+			]
+		},
+		{
+			"id": "M2oJjvOIUw0u1HVGG",
+			"name": "Real Time",
+			"children": [
+				{
+					"id": "mq_kSkRhd7Py3rJ28",
+					"name": "Once per Adventure",
+					"reference": "MT33",
+					"cost": -80
+				},
+				{
+					"id": "m2X6Uy5q7rmnKk_qc",
+					"name": "Once per Campaign",
+					"reference": "MT33",
+					"cost": 0.2,
+					"cost_type": "multiplier"
+				},
+				{
+					"id": "mx0j9GiBif7ZzCe_7",
+					"name": "Once per Scene",
+					"reference": "MT33",
+					"cost": -20
+				},
+				{
+					"id": "ml6MzkKXdTrKQfjoC",
+					"name": "Once per Session",
+					"reference": "MT33",
+					"cost": -60
+				},
+				{
+					"id": "mVvkqup7kTFIYwg-D",
+					"name": "Once per Task",
+					"reference": "MT33",
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "mSxpDS21Aeixk2aOY",
+			"name": "Reduced Fatigue Cost",
+			"reference": "B108,P105",
+			"levels": 1,
+			"cost": 20
+		},
+		{
+			"id": "mJozT50eTO_RvxEH4",
+			"name": "Reduced Time",
+			"reference": "B108",
+			"levels": 1,
+			"cost": 20
+		},
+		{
+			"id": "m93ZNQwfOu8bxG-oY",
+			"name": "Reflexive",
+			"reference": "PU4:16",
+			"cost": 40
+		},
+		{
+			"id": "mKlGfqYuaRyBu6qot",
+			"name": "Regulatable Limitation",
+			"reference": "MT34",
+			"notes": "Modifies limitations (minimum cost, +5%)",
+			"cost": 40
+		},
+		{
+			"id": "MtYBRnXbIJ_jRuoZd",
+			"name": "Requires",
+			"children": [
+				{
+					"id": "myVMIayrh22V3gAxz",
+					"name": "Required Disadvantage",
+					"reference": "PU8:16",
+					"notes": "@Disadvantage, -1% Level per Point@",
+					"levels": 1,
+					"cost": -1
+				},
+				{
+					"id": "meBYhMcxLnUXA--pj",
+					"name": "Requires (@Attribute DX, IQ, or HT@) Roll",
+					"reference": "PU8:17",
+					"cost": -10
+				},
+				{
+					"id": "mLE9Bo2bixwSiJ815",
+					"name": "Requires (@Attribute Will or Per@) Roll",
+					"reference": "PU8:17",
+					"cost": -5
+				},
+				{
+					"id": "mj7mIyjhpvrmnXPQc",
+					"name": "Requires @Item@",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "mtLpzjmSElkIljzSA",
+					"name": "Requires Complex Ritual",
+					"reference": "PU8:5",
+					"notes": "@1d/2 hours work, serious expense, actively illegal or somewhat dangerous behavior@",
+					"cost": -20
+				},
+				{
+					"id": "mc_-5Jjlr9vijhOUQ",
+					"name": "Requires Concentrate",
+					"reference": "PU8:17",
+					"cost": -15
+				},
+				{
+					"id": "mnReCES8DzwDZz91A",
+					"name": "Requires Gestures",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "mz_kbDIx4yLJqaeiH",
+					"name": "Requires Low Gravity",
+					"reference": "PU8:17",
+					"notes": "Requires @Gravity Required in Gs (0.1G Lower per Level)@",
+					"levels": 1,
+					"cost": -5
+				},
+				{
+					"id": "mLwf7ZIDMqn27Aaki",
+					"name": "Requires Magic Words",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "msbb3kfQptilmfCSm",
+					"name": "Requires Material Component",
+					"reference": "PU8:5",
+					"cost": -10
+				},
+				{
+					"id": "mwbjBWvTqXvj6fJBj",
+					"name": "Requires Material Component",
+					"reference": "PU8:5",
+					"notes": "Extermely Rare",
+					"cost": -15
+				},
+				{
+					"id": "mDPbwcoD9q2Cm-145",
+					"name": "Requires Reaction Roll",
+					"reference": "PU8:13",
+					"cost": -5
+				},
+				{
+					"id": "mKfnp9SeD8QjLwref",
+					"name": "Requires Ready",
+					"reference": "PU8:17",
+					"cost": -10
+				},
+				{
+					"id": "mfW2lCE_Z8Xhi1IDE",
+					"name": "Requires Simple Ritual",
+					"reference": "PU8:5",
+					"notes": "1d minutes of quiet chanting and simple materials",
+					"cost": -5
+				},
+				{
+					"id": "mZ5b2frDmerP2GR5V",
+					"name": "Requires Skill Roll (@Easy Skill@)",
+					"reference": "PU8:17",
+					"cost": -5
+				},
+				{
+					"id": "mlUCfl74Do0Fq8qmx",
+					"name": "Requires Skill Roll (@Skill@)",
+					"reference": "PU8:17",
+					"cost": -10
+				},
+				{
+					"id": "mBatTnpfCH5coHsPJ",
+					"name": "Requires Typical Ritual",
+					"reference": "PU8:5",
+					"notes": "1dx5 minutes and @cumbersome preparation materials or successful casting of relevant spell (specify spell)@",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "mKw_qfxFyTh1IPcY4",
+			"name": "Resistible",
+			"reference": "B115,P105",
+			"notes": "HT + (level - 6) to resist",
+			"levels": 1,
+			"cost": -5
+		},
+		{
+			"id": "m3n--XRFVJxyE86gs",
+			"name": "Respiratory Agent",
+			"reference": "B108",
+			"cost": 50
+		},
+		{
+			"id": "MxiLUIDHUb51l4JuJ",
+			"name": "Selective",
+			"children": [
+				{
+					"id": "mZ0BJc1gTloY_hGKf",
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost": 20
+				},
+				{
+					"id": "mDcJvvmfYMgaBaDUI",
+					"name": "Selective Damage Type",
+					"reference": "MT34",
+					"notes": "Per type",
+					"cost": 20
+				},
+				{
+					"id": "mzja4SVp0cNPYlEQy",
+					"name": "Selective Effect",
+					"reference": "PU4:16",
+					"cost": 20
+				},
+				{
+					"id": "mkMrbHqR0c44VXxC7",
+					"name": "Selective Effect, Smart",
+					"reference": "MT34",
+					"cost": 50
+				},
+				{
+					"id": "mITAIU6JM2bgbOJjB",
+					"name": "Selective Fire",
+					"reference": "B108",
+					"cost": 10
+				},
+				{
+					"id": "miIpbhP42k1-Ck4LR",
+					"name": "Selectivity",
+					"reference": "B108,P105",
+					"cost": 10
+				}
+			]
+		},
+		{
+			"id": "Mx1NpjjAzR8rv9Rjh",
+			"name": "Sense-Based",
+			"children": [
+				{
+					"id": "mXIkeH_oitDpDv4MB",
+					"name": "Sense Based, Reversed",
+					"reference": "PU8:17",
+					"notes": "(@1 Sense@)",
+					"cost": -20
+				},
+				{
+					"id": "mwPjupELJVdCVyT12",
+					"name": "Sense Based, Reversed",
+					"reference": "PU8:17",
+					"notes": "(@2 Senses@)",
+					"cost": -15
+				},
+				{
+					"id": "m1wkAN0mn7h35TQzt",
+					"name": "Sense Based, Reversed",
+					"reference": "PU8:17",
+					"notes": "(@3 Sense@)",
+					"cost": -10
+				},
+				{
+					"id": "m5oeypiIgzlehPzSk",
+					"name": "Sense-Based (@senses)",
+					"reference": "B115",
+					"notes": "Manually add -5% for each sense beyond the first",
+					"cost": -20
+				},
+				{
+					"id": "mUL1tHjOI9DnkE8WT",
+					"name": "Sense-Based (@senses@)",
+					"reference": "B109",
+					"notes": "Manually add +50% for each sense beyond the first",
+					"cost": 150
+				}
+			]
+		},
+		{
+			"id": "mTgJj2t-X2ME4Fobt",
+			"name": "Side Effect",
+			"reference": "B109,P106",
+			"cost": 50
+		},
+		{
+			"id": "mVDeknrjly3z8u_pU",
+			"name": "Skill Enhancement Only",
+			"reference": "PU8:18",
+			"cost": -60
+		},
+		{
+			"id": "MVDBPwi6pS9okKvx-",
+			"name": "Signature",
+			"children": [
+				{
+					"id": "mi8mkevYsH2NVU8DZ",
+					"name": "Low Psychic Signature",
+					"reference": "PU4:15",
+					"levels": 1,
+					"cost": 5
+				},
+				{
+					"id": "m5isiRmico9Zl14uw",
+					"name": "Low Signature",
+					"reference": "B106,P103",
+					"cost": 10
+				},
+				{
+					"id": "mBf-QuR8o5y6UO-w2",
+					"name": "Low Signature, Variable",
+					"reference": "PU4:15",
+					"levels": 1,
+					"cost": 5
+				},
+				{
+					"id": "mhKm6yKSxOWYCj1kO",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "mCv_sOxWCeuXfY1iI",
+					"name": "Visible",
+					"reference": "PU8:19",
+					"cost": -10
+				},
+				{
+					"id": "mXMwbyrywhVFTPg8e",
+					"name": "Visible",
+					"reference": "PU8:19",
+					"notes": "Usually Invisible Attack",
+					"cost": -20
+				}
+			]
+		},
+		{
+			"id": "M4pPY1nXUVurQAbQR",
+			"name": "Specific",
+			"children": [
+				{
+					"id": "msQDRnc9-SW2JmcBh",
+					"name": "Specific (@Absurd Material@)",
+					"reference": "PU8:18",
+					"cost": -80
+				},
+				{
+					"id": "mXYzbLGVfZUtqHLCe",
+					"name": "Specific (@Common Material@)",
+					"reference": "PU8:18",
+					"cost": -40
+				},
+				{
+					"id": "my3emrwxbyA40Tjss",
+					"name": "Specific (@Uncommon Material@)",
+					"reference": "PU8:18",
+					"cost": -60
+				}
+			]
+		},
+		{
+			"id": "mo3jhRue66vCnMS_K",
+			"name": "ST-based",
+			"reference": "MT34",
+			"notes": "variable"
+		},
+		{
+			"id": "mBfNztq5UbwfYBZ_c",
+			"name": "Super Attribute",
+			"reference": "PU4:17",
+			"cost": 25
+		},
+		{
+			"id": "mLxLsZvdyUuySNzSQ",
+			"name": "Switchable",
+			"reference": "PU4:17",
+			"cost": 10
+		},
+		{
+			"id": "mFRvqS9ALP7Blpqzg",
+			"name": "Symptoms",
+			"reference": "B109",
+			"notes": "Cost must be manually entered"
+		},
+		{
+			"id": "mBfCUyEMmpTB90OPb",
+			"name": "Takes Extra Time",
+			"reference": "B115,P106",
+			"levels": 1,
+			"cost": -10
+		},
+		{
+			"id": "MwZfVJq9f7W8AlZDF",
+			"name": "Recharge",
+			"children": [
+				{
+					"id": "mSHQRRbSoutOJve_Z",
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"notes": "1 hour between uses, or 10x the time required to use the ability, whichever is longer",
+					"cost": -30
+				},
+				{
+					"id": "m0sJl4uOKCLe10ZrZ",
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"notes": "5 seconds between uses, or 2x the time required to use the ability, whichever is longer",
+					"cost": -10
+				},
+				{
+					"id": "mOh58pVdYHPhRzUTC",
+					"name": "Takes Recharge",
+					"reference": "B115,P106",
+					"notes": "15 seconds between uses, or 5x the time required to use the ability, whichever is longer",
+					"cost": -20
+				}
+			]
+		},
+		{
+			"id": "mAL2xVEz3jpu8TCSJ",
+			"name": "Temporary Disadvantage",
+			"reference": "B115,P106",
+			"notes": "Cost must be entered manually"
+		},
+		{
+			"id": "Muk60-5fM3tYOJ25J",
+			"name": "Terminal Condition",
+			"children": [
+				{
+					"id": "mzw3uUw1WdGBijlP6",
+					"name": "Terminal Condition (@Condition@)",
+					"reference": "PU8:18",
+					"notes": "Common Knowlege",
+					"cost": -20
+				},
+				{
+					"id": "mZPOfvp0w_p9gZ_x2",
+					"name": "Terminal Condition (@Condition@)",
+					"reference": "PU8:18",
+					"notes": "Requires Research",
+					"cost": -5
+				},
+				{
+					"id": "mELQCeKLrt3dX1iov",
+					"name": "Terminal Condition (@Condition@)",
+					"reference": "PU8:18",
+					"notes": "Requires Skill Roll",
+					"cost": -10
+				}
+			]
+		},
+		{
+			"id": "Mdn6cFBpzebVGFSZA",
+			"name": "Spans Space and Time",
+			"children": [
+				{
+					"id": "mra19sHPmfxrahhFt",
+					"name": "Time-Spanning (@Past OR Future@)",
+					"reference": "PU4:17",
+					"cost": 50
+				},
+				{
+					"id": "mfr7L9mTEuyMjzBmk",
+					"name": "Time-Spanning (@Past OR Future@)",
+					"reference": "PU4:17",
+					"notes": "No Function in the Present"
+				},
+				{
+					"id": "mx07ces0iJm9ELb31",
+					"name": "Time-Spanning (Past \u0026 Future)",
+					"reference": "PU4:17",
+					"cost": 100
+				},
+				{
+					"id": "mjiguBVW2yuPoGlub",
+					"name": "Time-Spanning (Past \u0026 Future)",
+					"reference": "PU4:17",
+					"notes": "No Function in the Present",
+					"cost": 50
+				},
+				{
+					"id": "mWhhCfisz67jrMyrt",
+					"name": "World Spanning",
+					"reference": "PU4:18",
+					"notes": "Only other Worlds or Planes",
+					"cost": 50
+				},
+				{
+					"id": "mfAqYG4Ll4afPPrOS",
+					"name": "World Spanning",
+					"reference": "PU4:18",
+					"notes": "Other Worlds \u0026 Current World",
+					"cost": 100
+				}
+			]
+		},
+		{
+			"id": "MQX7BDXvW1UECBdwC",
+			"name": "Trigger",
+			"children": [
+				{
+					"id": "mhgp9vMtwaYXnUkLD",
+					"name": "Uncontrollable Trigger (@Common@)",
+					"reference": "PU8:19",
+					"cost": -10
+				},
+				{
+					"id": "m7xhmMYkzRFeItwoo",
+					"name": "Uncontrollable Trigger (@Occasional@)",
+					"reference": "PU8:19",
+					"cost": -5
+				},
+				{
+					"id": "mRF0GKh47NooaoEVn",
+					"name": "Uncontrollable Trigger (@Rare@)",
+					"reference": "PU8:19"
+				},
+				{
+					"id": "m9P67MywbF8i0KVAC",
+					"name": "Uncontrollable Trigger (@Very Common@)",
+					"reference": "PU8:19",
+					"cost": -15
+				},
+				{
+					"id": "m4WvkBRLTFtQgC6cU",
+					"name": "Trigger",
+					"reference": "B115,P106",
+					"notes": "@common trigger@",
+					"cost": -20
+				},
+				{
+					"id": "mBxNygN1k_ZkC0Dvm",
+					"name": "Illegal trigger",
+					"cost": 1.5,
+					"cost_type": "multiplier",
+					"use_level_from_trait": true
+				},
+				{
+					"id": "mUucPug5OtURzPKA5",
+					"name": "Trigger",
+					"reference": "B115,P106",
+					"notes": "@occasional trigger@",
+					"cost": -30
+				},
+				{
+					"id": "mVa4O6kWhj-wUybwz",
+					"name": "Trigger",
+					"reference": "B115,P106",
+					"notes": "@rare trigger@",
+					"cost": -40
+				},
+				{
+					"id": "myeSe3FWqcbmDp6aQ",
+					"name": "Trigger",
+					"reference": "B115,P106",
+					"notes": "@very common trigger@",
+					"cost": -10
+				},
+				{
+					"id": "mKnzKawcuNaJDU3Hs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "mCMj2-t9DC81tqMbn"
+					},
+					"name": "Trigger",
+					"reference": "TCEP18",
+					"notes": "Lasts 10 minutes",
+					"cost": 0.5,
+					"cost_type": "multiplier"
+				},
+				{
+					"id": "mAQSg_9SvFplwUqPe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "mdHMLNCWV_lF2p6NP"
+					},
+					"name": "Trigger",
+					"reference": "TCEP18",
+					"notes": "Lasts 1 hour",
+					"cost": 0.25,
+					"cost_type": "multiplier"
+				},
+				{
+					"id": "m2ru2pjhanMFqArCF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology\\Thaumatology - CEP Modifiers.adm",
+						"id": "mRRAH2yrlZ6XvYULm"
+					},
+					"name": "Trigger",
+					"reference": "TCEP18",
+					"notes": "Lasts 8 hours",
+					"cost": 0.125,
+					"cost_type": "multiplier"
+				}
+			]
+		},
+		{
+			"id": "mXYX78JcFpbozgPAN",
+			"name": "Triggered Delay",
+			"reference": "B105",
+			"notes": "@trigger@, @method to neutralize@",
+			"cost": 50
+		},
+		{
+			"id": "MdkncT5D9ZFDzgWGP",
+			"name": "Uncontrollable",
+			"children": [
+				{
+					"id": "mIEqw6JdfVQpn2FxN",
+					"name": "Uncontrollable",
+					"reference": "B116,P106",
+					"notes": "Harmless",
+					"cost": -10
+				},
+				{
+					"id": "m7nlzCBrxbo1zAMqT",
+					"name": "Uncontrollable",
+					"reference": "B116,P106",
+					"notes": "Destructive",
+					"cost": -30
+				}
+			]
+		},
+		{
+			"id": "mEfuyAw_UV72arGqw",
+			"name": "Underwater",
+			"reference": "B109,P107",
+			"cost": 20
+		},
+		{
+			"id": "MSpk6yOIEzgmt1RJ5",
+			"name": "Unreliable",
+			"children": [
+				{
+					"id": "mOz6ocBboFXxE_wPM",
+					"name": "Unreliable",
+					"reference": "B116,P107",
+					"notes": "Activation 5",
+					"cost": -80
+				},
+				{
+					"id": "myO2_456oFi9MkSwR",
+					"name": "Unreliable",
+					"reference": "B116,P107",
+					"notes": "Activation 8",
+					"cost": -40
+				},
+				{
+					"id": "m7SfMOQanqHidPbfA",
+					"name": "Unreliable",
+					"reference": "B116,P107",
+					"notes": "Activation 11",
+					"cost": -20
+				},
+				{
+					"id": "maF0vqSt12FH9Cyd1",
+					"name": "Unreliable",
+					"reference": "B116,P107",
+					"notes": "Activation 14",
+					"cost": -10
+				},
+				{
+					"id": "mt32SKH2i13QCXmi7",
+					"name": "Unreliable Gadget",
+					"reference": "B116",
+					"notes": "Malf 12",
+					"cost": -25
+				},
+				{
+					"id": "maw6er4GRstok2cmc",
+					"name": "Unreliable Gadget",
+					"reference": "B116",
+					"notes": "Malf 13",
+					"cost": -20
+				},
+				{
+					"id": "me6Xy0Qd7Nn3lwHye",
+					"name": "Unreliable Gadget",
+					"reference": "B116",
+					"notes": "Malf 14",
+					"cost": -15
+				},
+				{
+					"id": "mkusOzuH1PbXJ1E85",
+					"name": "Unreliable Gadget",
+					"reference": "B116",
+					"notes": "Malf 15",
+					"cost": -10
+				},
+				{
+					"id": "mWGO1EtV-53t42Nrz",
+					"name": "Unreliable Gadget",
+					"reference": "B116",
+					"notes": "Malf 16",
+					"cost": -5
+				}
+			]
+		},
+		{
+			"id": "mLbw-p3efEiY_UB9O",
+			"name": "Unsupported",
+			"reference": "PU8:19",
+			"cost": -25
+		},
+		{
+			"id": "mUANcYnvw-uWi_dZK",
+			"name": "Untrainable",
+			"reference": "B116,P107",
+			"cost": -40
+		},
+		{
+			"id": "mN5blCTwK03Y9u5sA",
+			"name": "Variable",
+			"reference": "B109,P107",
+			"cost": 5
+		},
+		{
+			"id": "Mavsk0xKvc1RivMSB",
+			"name": "Variable Delay",
+			"children": [
+				{
+					"id": "m44iWaIsR8XjtWTDk",
+					"name": "Variable Delay",
+					"reference": "B105",
+					"notes": "Delay up to 10 seconds, @method to neutralize@",
+					"cost": 10
+				},
+				{
+					"id": "moba758fC4R-ZdYTK",
+					"name": "Variable Delay",
+					"reference": "B105",
+					"notes": "@method to neutralize@",
+					"cost": 20
+				}
+			]
+		},
+		{
+			"id": "MEHcQckUC5D0symRr",
+			"name": "Wall",
+			"children": [
+				{
+					"id": "mQyPKNxSjvnB6GTk9",
+					"name": "Wall",
+					"reference": "B109",
+					"notes": "Permeable",
+					"cost": 60
+				},
+				{
+					"id": "mAbHSSt8H_yj22fwc",
+					"name": "Wall",
+					"reference": "B109",
+					"notes": "Permeable Line",
+					"cost": 30
+				},
+				{
+					"id": "m0UTNRhxR5K6dQe1n",
+					"name": "Wall",
+					"reference": "B109",
+					"notes": "Rigid",
+					"cost": 60
+				},
+				{
+					"id": "m2Z5da8k3OaSWZ5h5",
+					"name": "Wall",
+					"reference": "B109",
+					"notes": "Rigid Line",
+					"cost": 30
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2049 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eb2ISbGqU_sgq0tRY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "etU5NTY1oP_-Ly66Y"
+			},
+			"description": "Binoculars",
+			"reference": "HT47",
+			"local_notes": "4x magnification.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "200",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 200,
+				"extended_value": 200,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e3Dk30ofHFK2zUaDX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "eDugRlOnnpl_4wPDv"
+			},
+			"description": "Binoculars",
+			"reference": "HT47",
+			"local_notes": "6x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "600",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 600,
+				"extended_value": 600,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eY9gjFVPuVuec-ELM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "ehfQu9O_qJixaUdOv"
+			},
+			"description": "Camcorder",
+			"reference": "B289",
+			"local_notes": "Has 10x zoom. Gives Night Vision 5. 7 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "16000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ercUht6gpATQ0adzP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "ezvgeT6ZO8vzVdR3s"
+			},
+			"description": "Camera, 35mm",
+			"reference": "B289",
+			"local_notes": "Basic equipment for Photography skill. Extra film is 32 shots ($10, neg.).",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "200",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 200,
+				"extended_value": 200,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eU_YEuIyylDy5-Bn5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "es-J3KJ6RjH3JVlrn"
+			},
+			"description": "Camera-Film",
+			"reference": "B289",
+			"local_notes": "Extra film with 32 shots",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "80",
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ejGctJHDrGd-iFqEQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "esV0nDzkq-Rc7Bc-w"
+			},
+			"description": "Bug Stomper",
+			"reference": "UT106",
+			"local_notes": "B/24 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"base_value": "19200",
+			"base_weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 19200,
+				"extended_value": 19200,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e7bS3Zf2QFetxYJ8V",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eF3xrx5YJTOwv2rkC"
+			},
+			"description": "Multispectral Bug Sweeper",
+			"reference": "UT106",
+			"local_notes": "C/10 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"base_value": "320000",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e8kf_hiFNOyYQH7NB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eoOMYdc8ly45h-xq5"
+			},
+			"description": "RF Bug Detector",
+			"reference": "UT106",
+			"local_notes": "A/10 hours",
+			"tech_level": "9",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"base_value": "6400",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eAL7HIF_ZaA6R8m6f",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "escb3V_UauVujW1Hj"
+			},
+			"description": "Metal Detector Wand",
+			"reference": "B289",
+			"local_notes": "+3 to find metal items. 8 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "400",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 400,
+				"extended_value": 400,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e4919vQCwxv_Mq7u7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "eIOLfSwKk-bIV-Df5"
+			},
+			"description": "Military Surplus Night-Vision Binoculars",
+			"reference": "HT48",
+			"local_notes": "Night Vision 4. 2xXS/30hrs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "6400",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eMtrZoNZO1tlkTJ5K",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "e7emdJVRBfiCewIqQ"
+			},
+			"description": "Military-Grade Binoculars",
+			"reference": "HT47",
+			"local_notes": "10x magnification",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "6400",
+			"base_weight": "3.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "3.5 lb",
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "emWLqqtang7P-FSBR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "e-UXlZEJFTp-BBYRJ"
+			},
+			"description": "Military-Grade Binoculars",
+			"reference": "HT47",
+			"local_notes": "10x magnification.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "12800",
+			"base_weight": "3.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 12800,
+				"extended_value": 12800,
+				"weight": "3.5 lb",
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "ehcxji11s97vFQd71",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "eUrL843jEdkFAkLW_"
+			},
+			"description": "Mini-Camera, Digital",
+			"reference": "B289",
+			"local_notes": "Stores pictures on optical disk.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "4000",
+			"quantity": 1,
+			"calc": {
+				"value": 4000,
+				"extended_value": 4000,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eJN3mv9V0BZrFik5I",
+			"description": "SNIFF-PX \"Pathfinder\" – Personal Chemsniffer",
+			"reference": "UT62",
+			"local_notes": "A/1wk.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Sensors and Scientific Equipment",
+				"Sentek Biosystems International"
+			],
+			"base_value": "64000",
+			"base_weight": "2",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ec6p6b959F956TojO",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "eoJxDIHVwC0kUiWFi"
+			},
+			"description": "Night Vision Goggles",
+			"reference": "B289",
+			"local_notes": "Give Night Vision 9. 8 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "9600",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 9600,
+				"extended_value": 9600,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "euQUD3q8TVudipovD",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "efRLTV-EM7LIU1PfL"
+			},
+			"description": "Spotting Scope",
+			"reference": "HT47",
+			"local_notes": "30x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "1200",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1200,
+				"extended_value": 1200,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ePm4QlqQWKi4r3Btz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "efufShkfWmlCkXbzT"
+			},
+			"description": "Spy Camera",
+			"reference": "B289",
+			"local_notes": "Holds 36 exposures, uses microfilm",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "2000",
+			"quantity": 1,
+			"calc": {
+				"value": 2000,
+				"extended_value": 2000,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "elDSraX3BbJdxVS5D",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "e9XZGhh_YAUD22bGT"
+			},
+			"description": "Stabilized Binoculars",
+			"reference": "HT47",
+			"local_notes": "10x magnification.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "80000",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 80000,
+				"extended_value": 80000,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ee1vuHKd1Cp8Z48Ab",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Optics \u0026 Sensors.eqp",
+				"id": "el5CGHihkw7kCfEC6"
+			},
+			"description": "Telescope",
+			"reference": "B289",
+			"local_notes": "Gives (TL-3) levels of Telescopic Vision.",
+			"tech_level": "4",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"base_value": "500",
+			"base_weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 500,
+				"extended_value": 500,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eYZSAifyjYWo40n1S",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eydJ1CmmZwDWq_o5M"
+			},
+			"description": "Dedicated Chemsniffer",
+			"reference": "UT62",
+			"local_notes": "A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200",
+			"base_weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200,
+				"extended_value": 3200,
+				"weight": "0.2 lb",
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "evZLASTGxj_ZbEGDB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eD1P4xOhPuCXTSdy2"
+			},
+			"description": "Electro-Optical Binoculars (\"Televiewers\")",
+			"reference": "UT60",
+			"local_notes": "Night Vision 9. 64x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "16000",
+			"base_weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "exQAC2XcsbIK1PDVo",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e40EYspWEyxGJSMwu"
+			},
+			"description": "Electro-Optical Surveillance Camera",
+			"reference": "UT60",
+			"local_notes": "Night Vision 9. 4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "8000",
+			"base_weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e0IrdU49dqcVzLilP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eNWvSXWXj9Zaai1r2"
+			},
+			"description": "ESM Detector",
+			"reference": "UT62",
+			"local_notes": "A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "8000",
+			"base_weight": "0.25 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Dodge if detects targeting sensor",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ea7dVQQCJz-a2b64d",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eGIYTzkgc6HuLxMcG"
+			},
+			"description": "Extensible Sensor Pod",
+			"reference": "UT66",
+			"local_notes": "100-yard range. 4x magnification. 2C/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "1600000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1600000,
+				"extended_value": 1600000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e1Jfxmb05Kbgvaan0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eE7OneVtDxJ0C08cn"
+			},
+			"description": "Hyperspectral Binoculars",
+			"reference": "UT61",
+			"local_notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "480000",
+			"base_weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 480000,
+				"extended_value": 480000,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eqejCBTJa7QtKripi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBtnRdGLyj6A4AmRs"
+			},
+			"description": "Hyperspectral Goggles",
+			"reference": "UT61",
+			"local_notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "72000",
+			"base_weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 72000,
+				"extended_value": 72000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eURJYNrrWR6xPqbkc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ewtdzLBE5ZfOzNQ2u"
+			},
+			"description": "Hyperspectral Imaging Sensor Array",
+			"reference": "UT61",
+			"local_notes": "32x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "5120000",
+			"base_weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 5120000,
+				"extended_value": 5120000,
+				"weight": "50 lb",
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eN7DmrEfnpiIMy1z4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eGDSWUtZazSBg3XpA"
+			},
+			"description": "Hyperspectral Surveillance Camera",
+			"reference": "UT61",
+			"local_notes": "4x magnification. C/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e2BSOnI5y9KQgrXXY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eKYlaaRTX4p-HfkC9"
+			},
+			"description": "Hyperspectral Visor",
+			"reference": "UT61",
+			"local_notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e9oeza7do3L4xQc2f",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBo0ij5ZF6VanOh6o"
+			},
+			"description": "Infrared Binoculars",
+			"reference": "UT61",
+			"local_notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "80000",
+			"base_weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 80000,
+				"extended_value": 80000,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e9pMm-X3iRanovmwg",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eA14lZwwJ6PSKE0Cc"
+			},
+			"description": "Infrared Goggles",
+			"reference": "UT61",
+			"local_notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "16000",
+			"base_weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "ePcSnLqVNyNPiaHla",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eOebTutGOC7c1Sc2q"
+			},
+			"description": "Infrared Imaging Sensor Array",
+			"reference": "UT61",
+			"local_notes": "64x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "1280000",
+			"base_weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 1280000,
+				"extended_value": 1280000,
+				"weight": "50 lb",
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "etFS6U-Km9-LFlDQj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "elrEomVTP7czRewOE"
+			},
+			"description": "Infrared Surveillance Camera",
+			"reference": "UT61",
+			"local_notes": "4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "8000",
+			"base_weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eAfDd0TUEHTognj_F",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eKGHSp9funeAIf87c"
+			},
+			"description": "Infrared Video Glasses",
+			"reference": "UT61",
+			"local_notes": "1x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "16000",
+			"base_weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eW9qIcBJpyQgMRRIt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eChGIrkP1jjlZzgVV"
+			},
+			"description": "Infrared Visor",
+			"reference": "UT61",
+			"local_notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "16000",
+			"base_weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e-oEOqesPYu2Ft_cL",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eFFnOGtutlKXo_Oqa"
+			},
+			"description": "Large Hydrophone",
+			"reference": "UT63",
+			"local_notes": "+12 to detection. D/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200000,
+				"extended_value": 3200000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "erUhN2Cr9iXiq3ePZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e4es57TCeBozRietP"
+			},
+			"description": "Large Ladar",
+			"reference": "UT64",
+			"local_notes": "100-mile range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "6400000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400000,
+				"extended_value": 6400000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "en4P3qi0BkVRLhCRy",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eFRmdY6CJYpx6kfld"
+			},
+			"description": "Large Radar",
+			"reference": "UT65",
+			"local_notes": "100-mile search range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200000,
+				"extended_value": 3200000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "e_jWoTcV8NMCasWAV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "erIXmxuby0wdNbEdb"
+			},
+			"description": "Large Search Hydrophone",
+			"reference": "UT63",
+			"local_notes": "D/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "320000",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ehcFZOGGteCSAltLW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e16CpSvh5VJNLbXKA"
+			},
+			"description": "Large Sonar",
+			"reference": "UT65",
+			"local_notes": "20,000-yard range. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "640000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 640000,
+				"extended_value": 640000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "e6Wetiosz7P8ckngx",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eoAKy6pqZ8uneG86n"
+			},
+			"description": "Large Tactical Ladar",
+			"reference": "UT64",
+			"local_notes": "100-mile range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "48000000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 48000000,
+				"extended_value": 48000000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "elevryX8aZ1RPmRPj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "etfDeLA7EGJdsZ-zI"
+			},
+			"description": "Large Tactical Radar",
+			"reference": "UT65",
+			"local_notes": "100-mile search range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200000,
+				"extended_value": 3200000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ecTyyO4GdqKuoVcvz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ei-Glm6Rkrqwl_Fp5"
+			},
+			"description": "Large Tactical Sonar",
+			"reference": "UT65",
+			"local_notes": "20,000-yard range. +3 Acc. D/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "6400000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400000,
+				"extended_value": 6400000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "erDngu36KxJ8B8tV0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eJqn7o-YOGoVEy0gT"
+			},
+			"description": "Large Tactical Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "2,000-yard range. +3 Acc. D/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32000000,
+				"extended_value": 32000000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eR8jC7iPkCOBwYmNk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ewdrIEz9fY5Dhj3zZ"
+			},
+			"description": "Large Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "2,000-yard range. D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "6400000",
+			"base_weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400000,
+				"extended_value": 6400000,
+				"weight": "100 lb",
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ePrsUKij32v0M19fK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eJw30EqoS9zKggie9"
+			},
+			"description": "Medium Hydrophone",
+			"reference": "UT63",
+			"local_notes": "+10 to detection. C/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "800000",
+			"base_weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 800000,
+				"extended_value": 800000,
+				"weight": "25 lb",
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "ed1CSM-s9V0Kr5uar",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eCykHuziZp70Wlf8o"
+			},
+			"description": "Medium Ladar",
+			"reference": "UT64",
+			"local_notes": "30-mile range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "100000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 100000,
+				"extended_value": 100000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "egUMLOSeODigIVJ2D",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ej4KoCQDK0gopSq63"
+			},
+			"description": "Medium Radar",
+			"reference": "UT65",
+			"local_notes": "30-mile search range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "320000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eBoCWD1I0mR37go8w",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eaNsy8kSTMcsq9LYn"
+			},
+			"description": "Medium Search Hydrophone",
+			"reference": "UT63",
+			"local_notes": "C/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "80000",
+			"quantity": 1,
+			"calc": {
+				"value": 80000,
+				"extended_value": 80000,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ehMiTUYqwNhnOATRE",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "evgBNm7ap75WWibqc"
+			},
+			"description": "Medium Sonar",
+			"reference": "UT65",
+			"local_notes": "2,000-yard range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "et5DZwNjjcfuOquuJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ep9F9goXrabkQnv6E"
+			},
+			"description": "Medium Tactical Radar",
+			"reference": "UT65",
+			"local_notes": "30-mile search range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "320000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ecFOTqPAi9x1mCaJC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eoVMRwbEGlF3bN7q7"
+			},
+			"description": "Medium Tactical Sonar",
+			"reference": "UT65",
+			"local_notes": "2,000-yard range. +3 Acc. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "640000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 640000,
+				"extended_value": 640000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eOtU6nvdu8LIL3qY5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eTi2xY9C4ARNoCrVS"
+			},
+			"description": "Medium Tactical Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "600-yard range. C/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200000,
+				"extended_value": 3200000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eB69obym2unqLqsKI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e_MyhMsqzQYC19L9R"
+			},
+			"description": "Medium Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "600-yard range. C/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "640000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 640000,
+				"extended_value": 640000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e2u_A-kK-ZUcYIctW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e7E-sA1gu0vcPna3B"
+			},
+			"description": "Mobile Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"local_notes": "External power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "2400000",
+			"base_weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2400000,
+				"extended_value": 2400000,
+				"weight": "200 lb",
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "efC40USPX5p3C8L0R",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eogZocOURSaVB_5_p"
+			},
+			"description": "Night Vision Glasses (\"Night Shades\")",
+			"reference": "UT60",
+			"local_notes": "Night Vision 8. 2x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "8000",
+			"base_weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eyU82Vb0HfbHqYdoT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eG57KLoMr1ABJiD_j"
+			},
+			"description": "Night Vision Goggles",
+			"reference": "UT60",
+			"local_notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000",
+			"base_weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "0.3 lb",
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eQ99B0rSh5k1fc9ei",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "egs9K126YJr78UHHd"
+			},
+			"description": "Night Vision Visor",
+			"reference": "UT60",
+			"local_notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000",
+			"base_weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "0.3 lb",
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "e-9prbKT5UCx8vuph",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "el7YpgdxQAA4MGfaw"
+			},
+			"description": "Personal Chemsniffer",
+			"reference": "UT62",
+			"local_notes": "A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eqnwzlsiNGqAJFL-W",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e_qvtlJ5jof_TEpRM"
+			},
+			"description": "Personal Sound Detector",
+			"reference": "UT62",
+			"local_notes": "8x amplification. Requires Complexity 4+. A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "evFJyHwBbMJ-CJC9K",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e_hpckz1RUGUJ79pd"
+			},
+			"description": "Pocket Analyzer (@Scientific Skill@)",
+			"reference": "UT67",
+			"local_notes": "2B/5hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "8000",
+			"base_weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 8000,
+				"extended_value": 8000,
+				"weight": "0.6 lb",
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "ed3vsWF7tqAqHaUp7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eGJ0wYnHH8XVlt8MG"
+			},
+			"description": "Semi-Portable Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"local_notes": "2D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "4800000",
+			"base_weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 4800000,
+				"extended_value": 4800000,
+				"weight": "40 lb",
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eHKP443wJwyiCSp-X",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eV-grXMN8GC38Iz-_"
+			},
+			"description": "Sensor Periscope",
+			"reference": "UT66",
+			"local_notes": "10-mile range. 10x magnification. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "11200000",
+			"base_weight": "150 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 11200000,
+				"extended_value": 11200000,
+				"weight": "150 lb",
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "e6O_LXuZSGiZvxzwl",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eEz-6yRlOIvHQjksC"
+			},
+			"description": "Small Hydrophone",
+			"reference": "UT63",
+			"local_notes": "+8 to detection. B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "160000",
+			"base_weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 160000,
+				"extended_value": 160000,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eHOhjHtueDhK1u9aW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eclPXsjADlRJVZkiJ"
+			},
+			"description": "Small Ladar",
+			"reference": "UT64",
+			"local_notes": "10-mile range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "320000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eOwl3rn3yIf_Lnlpb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eCBJkil-oMnfhvOKi"
+			},
+			"description": "Small Ladar",
+			"reference": "UT64",
+			"local_notes": "10-mile range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eriNGpGhr-Yc1_3Q0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "elmPfKzFcrYnB834m"
+			},
+			"description": "Small Radar",
+			"reference": "UT65",
+			"local_notes": "10-mile search range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "32000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 32000,
+				"extended_value": 32000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "enVYGpbRL6f9_G8g0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eC_7wZ94NwNiBMaXi"
+			},
+			"description": "Small Search Hydrophone",
+			"reference": "UT63",
+			"local_notes": "B/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "16000",
+			"quantity": 1,
+			"calc": {
+				"value": 16000,
+				"extended_value": 16000,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eMeeps6Ps5nDdDKuP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ebqRkTXvCiWJ-3Inf"
+			},
+			"description": "Small Sonar",
+			"reference": "UT65",
+			"local_notes": "200-yard range. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "6400",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 6400,
+				"extended_value": 6400,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "etCS_N4NaelKrFQqy",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "en78gg18SzoZgO7_K"
+			},
+			"description": "Small Tactical Radar",
+			"reference": "UT65",
+			"local_notes": "10-mile search range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200,
+				"extended_value": 3200,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eBDbzGTd1090yI3Gq",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e2L8oyfdj0f7_ZAat"
+			},
+			"description": "Small Tactical Sonar",
+			"reference": "UT65",
+			"local_notes": "200-yard range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eX-3bSUL4kpgoAh3D",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eDufLV_YhLTn5jYj7"
+			},
+			"description": "Small Tactical Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "200-yard range. B/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "320000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 320000,
+				"extended_value": 320000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eH_oKQyZZb8JRq4EM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eTzJ2-awlev51H31_"
+			},
+			"description": "Small Terahertz Radar",
+			"reference": "UT65",
+			"local_notes": "200-yard range. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "64000",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 64000,
+				"extended_value": 64000,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e-iu6DFnyRhYO3Ow4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "epD1BvWG6_nuxbNPV"
+			},
+			"description": "Suitcase Lab (@Scientific Skill@)",
+			"reference": "UT67",
+			"local_notes": "4C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "96000",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 96000,
+				"extended_value": 96000,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eMVTLZ45AmJO6iT1e",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eUid6Q3ci_KeOw6WB"
+			},
+			"description": "Tactical Chemsniffer",
+			"reference": "UT62",
+			"local_notes": "B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200000",
+			"base_weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3200000,
+				"extended_value": 3200000,
+				"weight": "40 lb",
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "emsSwfPIcHWknqDsO",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e8TglvAkYR2L9MS5Y"
+			},
+			"description": "Tactical ESM Detector",
+			"reference": "UT62",
+			"local_notes": "B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "48000",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 48000,
+				"extended_value": 48000,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "efr1lvNYOxJVmNrSh",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eR2AU8FB7hkkxZsPV"
+			},
+			"description": "Tactical Sensor Turret",
+			"reference": "UT66",
+			"local_notes": "10-mile range. 10x magnification. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "9600000",
+			"base_weight": "70 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 9600000,
+				"extended_value": 9600000,
+				"weight": "70 lb",
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "ey-zc7UJPQ0HgfjAb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eMkCjOdcS4aD1Aqli"
+			},
+			"description": "Tactical Sound Detector",
+			"reference": "UT62",
+			"local_notes": "32x amplification. Requires Complexity 4+. B/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "960000",
+			"base_weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 960000,
+				"extended_value": 960000,
+				"weight": "30 lb",
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eusym4N24wrgmRgFY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e7--hmGiwV8HI5bmY"
+			},
+			"description": "Wristwatch Rad Counter",
+			"reference": "UT67",
+			"local_notes": "A/6mo.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"base_value": "3200",
+			"quantity": 1,
+			"calc": {
+				"value": 3200,
+				"extended_value": 3200,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

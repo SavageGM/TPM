@@ -1,0 +1,6664 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eUJMY7jJzHcqrpfhS",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "eROtWD5uTFkRYsftx"
+			},
+			"description": "Air Mask",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e6UxOZm4lyZGYR9sw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e8-VBNXmPLZ-v3uYc"
+			},
+			"description": "Aircrew Armor",
+			"reference": "HT66",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eELDUo2WjZsoXSc9m",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eABU19kjQpUgkLzS4"
+			},
+			"description": "Aircrew Leg Armor",
+			"reference": "HT68",
+			"notes": "DR15 to front legs.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "18 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "e8QDqPdT6AaryDWnr",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ed9BOxby-in8IRJrr"
+			},
+			"description": "Anti-Laser Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "enKZ6lvGzxaJAo7ar",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e2McM6JwtJcWOzuf2"
+			},
+			"description": "Anti-Stab Plate",
+			"reference": "HT67",
+			"notes": "DR+4 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e5AO3dYh4Rq6squ7W",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ecOszKSsEex3cOv2a"
+			},
+			"description": "Anti-Stab Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 to front torso.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ePSqGa4g0Jyfy-U4_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "ena70CVdZoZDxL1Nz"
+			},
+			"description": "Armored Shades",
+			"reference": "UT176",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ejemCHiWiy7NnUCPb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "elEnV9fnvLgGVY33S"
+			},
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Footwear"
+			],
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ey_nFl9MPH-9kbTK4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "eOILkympOgHAR2QRY"
+			},
+			"description": "Assault Boots",
+			"reference": "UT173",
+			"notes": "DR+6 vs. piercing and cutting.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eOgN6LmajPSk3CPhC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eEv0wp-kc3yQW318g"
+			},
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Gloves"
+			],
+			"value": 4800,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 8
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "erFt12J-pxhKTJLYT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eZfqHAHmZc3_XilNL"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e32mPEaRmEJSlF1n9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eYLw5GDCZvjsEk19C"
+			},
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ejyS1DBVoYSuQnWf7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "esigZu6fQ03Yb2mwP"
+			},
+			"description": "Bastard Sword",
+			"reference": "LT54",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 650,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wNpIjMz1-BPq6uWNs",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Swing - One Handed",
+					"reach": "1-2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wr9D3elBU_rb7GCSr",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Thrust - One Handed",
+					"reach": "2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 cr"
+					}
+				},
+				{
+					"id": "w6UD0W7u3LMeQQQ1h",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Swing - Two Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "wbtuTCKzzdXWeAXGo",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Thrust - Two Handed",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e_tPA1aNP-1cbmTxY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eiFIQ1rbn2t6LL7bf"
+			},
+			"description": "Biohazard Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e2sSSYfRDOi6bzgTY",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e_RWWcIF_VLRzI5Nx"
+			},
+			"description": "Boots, Blast",
+			"reference": "HT68",
+			"notes": "DR+13 to sole.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2800,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To sole",
+					"amount": -13
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ekDen74WmOMaDF3Jt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "exhEuHoESNds1kA2X"
+			},
+			"description": "Boots, Jungle",
+			"reference": "HT68",
+			"notes": "DR+1 to sole.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To sole",
+					"amount": -1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "egHydaB_kyqCCgeae",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Arrows, Bolts, Bows, and Crossbows.eqp",
+				"id": "eSEf-n0WbORMrKbEH"
+			},
+			"description": "War Bow",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 3200,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WRdQxdAd-vN5MBDen",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "9"
+					},
+					"strength": "10†",
+					"usage": "War Bow",
+					"range": "x3.5/x5",
+					"rate_of_fire": "1",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+9 imp"
+					}
+				}
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eJQPeJyRrpuIogAjU",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e2dPyCE-ASSFBWt-w"
+			},
+			"description": "Bronze Corselet",
+			"reference": "B283",
+			"tech_level": "1",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 1300,
+			"weight": "40 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1300,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eqxCQCHGHX9cGdslg",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eJ7_XBV9wfSTyXlKT"
+			},
+			"description": "Bulletproof Shield",
+			"reference": "HT72",
+			"notes": "DR10 HP80",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "parry",
+					"amount": 2
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "block",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "e6yF7hwde-aDFUW3W",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eW1vGaEdHJIolIdLP"
+			},
+			"description": "Bulletproof Vest",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3000,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e-e2IhrOLPnaQJ60b",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eH0YY1CIFbCtYHslI"
+			},
+			"description": "Bulletproof Vest, Improvised",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1200,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "esi0gSk-61uXgBR4r",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e1rX8xmjSSp-6R2Ii"
+			},
+			"description": "Camouflage Net",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1280,
+			"weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eAbLIUbSghQV6tw6k",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e9nLct7OmlL7tkEGN"
+			},
+			"description": "Clean Suit",
+			"reference": "HT75",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ehq_oFkmL_YNnzNUW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eGsTBBFVYjodWZ-0K"
+			},
+			"description": "Composite Body Armor",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 600,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e0svICF8YcDLhNa7A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eWvZx-TNfAV_kvUDq"
+			},
+			"description": "Composite Crossbow",
+			"reference": "LT72",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 950,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "WI6g7y0N4Ls0VlBCO",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 950,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ewFHmfsad4SHzwWb4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ermrkWC0GpUxqRS6o"
+			},
+			"description": "Cooling System",
+			"reference": "HT74",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eeF6G8Zb7qvQ0b5oQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ejv_7yhIWr-w7FdOC"
+			},
+			"description": "Dao",
+			"reference": "LT56",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 700,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wRzIP1wx-FG43OXGP",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "wEuLUq9F1OOPDuyLH",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "11",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eq5JkA8UGqNhdmowZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eHEwZJpsUWisg6Byy"
+			},
+			"description": "DAP",
+			"reference": "HT68",
+			"notes": "Flexible. DR+6 vs. pi, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eXssFZdhvlSOJzDph",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e1RKm6sOLy8kuxkJw"
+			},
+			"description": "Early Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR8 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "e5SOv7j0iFaYlVj7O",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eTlEUJQT2viBBJI7d"
+			},
+			"description": "Earmuffs",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eykNn8L2F75r7pP0O",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e4g-va5KWviMGyE6F"
+			},
+			"description": "Edged Rapier",
+			"reference": "LT61",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 1000,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wAy-ZL0bh3kuULfXf",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1-2",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Rapier"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "wIef4pXvXmfQwGvB-",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1-2",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Rapier"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ej_plxzvaK_gJsqob",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "e9IzuBsAsuHXXDk8n"
+			},
+			"description": "Electric Stun Wand",
+			"reference": "UT165",
+			"notes": "B/20 hits.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wa5_2RMD2byvTyid-",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "5",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "w4lbeIFqLWDACS8A8",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				},
+				{
+					"id": "wH8Ho4NQPsNlpCOEa",
+					"damage": {
+						"type": "HT-5(0.5) aff"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5(0.5) aff"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eODE66TEN0T-alfH-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "erXKzebYyBjGVrF9r"
+			},
+			"description": "Electronic Earmuffs",
+			"reference": "HT70",
+			"notes": "XS/100hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eMZid2FFAje3e9jEb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "epEv9hshVep3xoM7t"
+			},
+			"description": "Filter Mask",
+			"reference": "UT177",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eHlE45G7mJCSo8a7Z",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eZ3AGNnGYyuUHSt-l"
+			},
+			"description": "Fireproof Suit",
+			"reference": "HT75",
+			"notes": "Flexible. DR+3 vs. burn.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eblj_ZD9ezBjp4K6H",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eAUyp_kqUIz1JZl_d"
+			},
+			"description": "Flak Jacket",
+			"reference": "B284",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 2000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eNt8heSdMtWtm65O6",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ePy4BmkaODyzv1tB2"
+			},
+			"description": "Flak Vest",
+			"reference": "HT66",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eKM_qFhOZa6FV4j1M",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "efVuMtJz8mMQiNtb4"
+			},
+			"description": "Football Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "excjHZWgwI-QfV57P",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eb83dCZDrftGbgw02"
+			},
+			"description": "Frag Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e8WkBgnmoyOgf0K35",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ev9-0FdseiDHMJQM9"
+			},
+			"description": "Frag Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1050,
+			"weight": "4.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1050,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "eJGCLVHSTMDw3JNgh",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ePHh0JiD41V2GnNHA"
+			},
+			"description": "Frag Vest",
+			"reference": "B284",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 2800,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "eqp7dhRngq3pF18YQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ej5t5v5a9uKUneeF8"
+			},
+			"description": "Frag Vest Plate Inserts",
+			"reference": "B284",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 2400,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eyY-8QIk_IR1nVRaV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e6Qf55vkt6qdxPOLj"
+			},
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "DR8 to the front vitals",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "13.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "frontal",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "13.5 lb"
+			}
+		},
+		{
+			"id": "eApsVr2or1MdxXxd9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ej_pExDgxvnnz9mDV"
+			},
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 5600,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "eRz_SX4BhwTFHGf7i",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ew4jCLkpL_ZMJlTMS"
+			},
+			"description": "Frisk Gloves",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ekFseoAKmKVA3St8y",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eKGDCTrckLiJuj4S1"
+			},
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eS17YBCgkaFyRZIPI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eDOZGNNDqDSbk19H5"
+			},
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eIKlnpD7_tcRgKU26",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ewTUrew_GUDz4qJaU"
+			},
+			"description": "Ghillie Suit",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "ejt3KL5EXFNJsLDjq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eaRul78h0fhq10cXt"
+			},
+			"description": "Greatsword",
+			"reference": "LT56",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 800,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "w4heFyPa2hAGSlJZo",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				},
+				{
+					"id": "wbU_bWd29xoNJWC0b",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "12†",
+					"usage": "Thrust",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eVbPuaeohgsVL4TZR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "epG--UPgG_T8P-TYt"
+			},
+			"description": "Heated Clothing",
+			"reference": "HT74",
+			"notes": "External power.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2200,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eYz9r4Z_KhPyNkgGP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "ebQw398eZ02LeVNVQ"
+			},
+			"description": "Heavy Flashlight",
+			"reference": "UT74",
+			"notes": "50-yard beam. 2B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food",
+				"Melee Weapon"
+			],
+			"value": 640,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wbHWSIkaozNCLkrtN",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "wTuuNgxeT2DMExDkX",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eiN46I-XzABlV6ZZ8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "eAwGmUxd-C4_1YYlD"
+			},
+			"description": "Heavy Laser Torch",
+			"reference": "UT80",
+			"notes": "D/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 2560,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "w4zbJsOg3DHe2xXhw",
+					"damage": {
+						"type": "burn",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "4d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2560,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e0mc5sE8vb-zq9CzP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ef4GW2gPwm86krmC1"
+			},
+			"description": "Heavy Steel Corselet",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 2300,
+			"weight": "45 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2300,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "ewC6NvXPd7Tl1vzeJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eRKiBwFUx8nsdoEpN"
+			},
+			"description": "Hockey Helmet",
+			"reference": "HT70",
+			"notes": "DR+1 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eb8kgHTEJ_oOd5ak2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ena5PvKRBs2aSnpEt"
+			},
+			"description": "Hunting Crossbow",
+			"reference": "LT72",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 600,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "WlHPjn0SZqom7q0VP",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "10†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(13)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eSi_mcN5A-TkoLsis",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eMqmSw50I5g4lcii2"
+			},
+			"description": "Improved Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR4. vs pi, cut.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eTuKSQfpEbSZOhHPa",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "eUxd_O2-ZrmV1JQj-"
+			},
+			"description": "Industrial Water Knife",
+			"reference": "UT81",
+			"notes": "C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 5120,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "wfLgm6T7QEeCV-BVb",
+					"damage": {
+						"type": "cut",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(2) cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5120,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "euWiD3cqXua488qC-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "evVFy7uca9O8D1KNp"
+			},
+			"description": "Jian",
+			"reference": "LT57",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 700,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wVWPvFX_5O4qTeNns",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "wECFSXhaWWSw5dGU7",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eeQCKhpdKcNJ-m_JI",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eKSZvQxrvJkWsKtkt"
+			},
+			"description": "Karatand",
+			"reference": "UT163",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 3200,
+			"weapons": [
+				{
+					"id": "wGBjU8I7_e4Du4up9",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eLAcVTM5szJSgDSVx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eSH8jtUi7O-Eztex1"
+			},
+			"description": "Katana",
+			"reference": "LT57",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 650,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wp352M7GdmtOmx9EB",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Swing - One Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wPAPuVZfazq4iM-H_",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Thrust - One Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				},
+				{
+					"id": "wTKNC8S9DaRajv25B",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Swing - Two Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "wosKEEvH8qXmg4u3-",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"usage": "Thrust - Two Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ef9-FbNDUV6Je259F",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eC6lytQUMuXS9guYX"
+			},
+			"description": "Katana",
+			"reference": "HT200",
+			"tech_level": "6",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 550,
+			"weight": "3.75 lb",
+			"weapons": [
+				{
+					"id": "wgslXP4wiMiuHlq7q",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fQwS__KzZAN1uM_Ev",
+					"source": {
+						"library": "/TPM",
+						"path": "Files\\Equipment Modifiers.eqm",
+						"id": "fyeqwGvCcVScQwkJq"
+					},
+					"name": "TL6 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x4"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "3.75 lb"
+			}
+		},
+		{
+			"id": "eOVWw1Lp5ffG2PpKi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "em_TcnaaTVI9FwOSd"
+			},
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2400,
+			"weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "eOBYbSxuo4eBF6eTB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ejt_hBC467bfU3U8-"
+			},
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 90mins.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "euOJc-SWvhyMXVRlk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eK17o5feHeURAy5d9"
+			},
+			"description": "Large Falchion",
+			"reference": "LT56",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 625,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "w4W0WU-Y61DtnGMKg",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "11",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "wxgJ4seXCbb-FbN1s",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "11",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 625,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "eOZf-hRUXKKLNXGzu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "eQ0i6XgLMzdxycB0w"
+			},
+			"description": "Laser Torch",
+			"reference": "UT80",
+			"notes": "C/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wPZTnEzU8QJH9EDQj",
+					"damage": {
+						"type": "burn",
+						"base": "2d",
+						"armor_divisor": 2
+					},
+					"strength": "5",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "2d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eDg8ASXL0AAZVQlGz",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eW-u6sOZVDKthoa0o"
+			},
+			"description": "Life Jacket",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 640,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eyYCuUrpqZlo-HyXZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "erO39RkzBiEMB2OXl"
+			},
+			"description": "Light Body Armor (arms)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eacSPf_qMyytPlQyw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eR4gSlGtDbbJN68xs"
+			},
+			"description": "Light Body Armor (legs)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "ek4x0U5-9ZashNCZt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ez8hRdE5tIB2LFJk3"
+			},
+			"description": "Light Body Armor (torso)",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "eqWDb9inIKpf38oBV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ewpF8TAvUV_1xpjXO"
+			},
+			"description": "Light Edged Rapier",
+			"reference": "LT61",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 700,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "wJmzd3OHKYfyxHRJK",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Rapier"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cut"
+					}
+				},
+				{
+					"id": "whPHm82A5f1gxBVVz",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Rapier"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eghem1E0KFjJxH9Cv",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "e5idmg3Khqa9YLlzM"
+			},
+			"description": "Light Infantry Helmet: Visor",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eA2c11KlTELC1yMd0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e140WNiazx7pJ3WTT"
+			},
+			"description": "Longsword",
+			"reference": "LT58",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 700,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "wDeqj8VVEQDUQfd7T",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swing - One Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wEwWtNv57ZzqX52n0",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Thrust - One Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				},
+				{
+					"id": "w7t2y46bzlGdoW6ik",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "9†",
+					"usage": "Swing - Two Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wNPEyHlyc0el1rF4K",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust - Two Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ePLOEiszUxhMb95OB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "euuWg1y2RoKf-vg4y"
+			},
+			"description": "Lorica Segmentata",
+			"reference": "B283",
+			"tech_level": "2",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 680,
+			"weight": "26 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 680,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "e6V398R9bnzG5GH1V",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e6mmTjbinTsDwNHcr"
+			},
+			"description": "Magnetized Plates",
+			"reference": "UT187",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e0epToXMnPy7Oywf2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "efJfVLxodKqw1_RgM"
+			},
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "e3KeXPuLXNv7fIEwt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "empwANzArK-ITZBPM"
+			},
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eKD_Vx_rQVy2Pd4Rh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eoV_w5IcnBVZFrv6Y"
+			},
+			"description": "Military Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 750,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "WTRVQhf6e7IPc6Mia",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "12†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(32)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e7aKkTjO61t8KtEFT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "eI_TvCQskkUzPVzhb"
+			},
+			"description": "Mini Laser Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 1600,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "wUAKtFlH-iZMkXgQD",
+					"damage": {
+						"type": "burn",
+						"base": "1d",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e35qzDNmpIttE7EA2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Weaponry\\TPM Melee Weapons.eqp",
+				"id": "ex7HQ5OAruNJ1T8wQ"
+			},
+			"description": "Mini Plasma Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 3200,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wbcIKOY2zpgeh355k",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2",
+						"armor_divisor": 5
+					},
+					"strength": "3",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d+2(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eYaBlQIZ1NGe0SPG3",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e0vKTpGyNhSpcvArk"
+			},
+			"description": "Modern Firefighter's Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "etgr6ouvCyIKczM6N",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "enATC2HS04EOcDP2P"
+			},
+			"description": "Modern Firefighter's Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2400,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ekbVwyNLvwPP6Nd2F",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eVklPkA-jIqyguR0Y"
+			},
+			"description": "Motorcycle Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eH7dPQPEtx-64C65R",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eja6UiyMfdNd04AdK"
+			},
+			"description": "Motorcycle Helmet + Visor",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "ej_1iS3WlZqA7fP4X",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eQXb9IqPiJePZji9e"
+			},
+			"description": "Nasal Filter Plugs",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ePa5v6QlEL3wB-xVw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e7yDqtJLWEF0ZpFYz"
+			},
+			"description": "NBC Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1200,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "ev1x1rmk0_wIzVGa-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eVFFo97xJS4l_aVcY"
+			},
+			"description": "Pata",
+			"reference": "LT60",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 650,
+			"weight": "3.75 lb",
+			"weapons": [
+				{
+					"id": "wB02HwPahyHgtE4g-",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "wu8e_IOOOa8hhfZTK",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "3.75 lb"
+			}
+		},
+		{
+			"id": "ehYKIlGsR5uLH1-RD",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eOmrk1Fwj0p4h1nUC"
+			},
+			"description": "Personal Radar/Laser Detector",
+			"reference": "UT188",
+			"notes": "A/10 days.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eG-N_VnDAYjtO42Jc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "e34-M-ZViyYevFsDo"
+			},
+			"description": "Protective Suit",
+			"reference": "UT178",
+			"notes": "Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eeSoL7_L2nX9FuQDk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ethb_9uh_gX8DvHU6"
+			},
+			"description": "Reflex Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 900,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "W-jhGmOo6nBPClcZi",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "ew2tQWy8hCYh0ATLt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "e0ITksbJ0Hev461Qp"
+			},
+			"description": "Reflex Gloves",
+			"reference": "UT172",
+			"notes": "DR+4 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 960,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eQycYLH1YpNyqlzYj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eCJXKhDGiX09fIA_a"
+			},
+			"description": "Reinforced Boots",
+			"reference": "B284",
+			"tech_level": "7",
+			"tags": [
+				"Footwear"
+			],
+			"value": 600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eLQHpeY89pTDUOvVj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eML4kOwieeqPa0xaX"
+			},
+			"description": "Riot Gear (arms)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "epBhaVBtNpaXXYCJR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ejHcCVQ7bo2aqYjRo"
+			},
+			"description": "Riot Gear (legs)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "edCPjwDmeaCWlvew7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eEsfsInFLxRAuBy3M"
+			},
+			"description": "Riot Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eDD6m46AfxgkNawc9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eN5tB1THgshwRHcML"
+			},
+			"description": "Riot Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eBDJVVacZpXUtEkBU",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eO-rQpchklVhv6kRy"
+			},
+			"description": "Rocket Striker",
+			"reference": "UT163",
+			"notes": "Attach to a great axe, pick, scythe, spear, or warhammer. +6 to Striking ST. +3 to Minimum ST unless thrown.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eTS9K4XlvsmLWmuZV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e2uQrabbceGyYIDmM"
+			},
+			"description": "Saber",
+			"reference": "LT61",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 700,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "wzNSj0R9R4WQUH3Kr",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Saber"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cut"
+					}
+				},
+				{
+					"id": "wxWUWzuCEklxAfJf3",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Saber"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eLex6yleM0k3L9Oqc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eXvg9myHXpQzUoUeP"
+			},
+			"description": "SCBA mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eicwi4TNPCq3Tdo-r",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eMdklT1fMHAQv3ZVy"
+			},
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "emabnKzj-hVDexkca",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "ecqON7-eGHJhUXBs2"
+			},
+			"description": "Sentry Armor",
+			"reference": "HT66",
+			"notes": "DR+14 to the front torso",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1200,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 14
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "e1gCPmUcwQk6ckCxQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eRXhCfwS1zRkzDWhj"
+			},
+			"description": "Sharp-Protective Armor (arms)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "em_-ccL0zTgmyQtVB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eVjJ3Z6YSf6UAxphq"
+			},
+			"description": "Sharp-Protective Armor (legs)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eOfadoJGkygv7CcCt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eMIyXr8OIfyBrz73V"
+			},
+			"description": "Shoes, Climbing",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eILZxg8xUBc8NlMys",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eN-4VhG-tRNCjOec1"
+			},
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 12min.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e5R3WsZGSU5ShEkJQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eyvfcQzVY8ldpDk3E"
+			},
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22min.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "ecSRMYPUcA3iHWCu8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "eEkU3I9Vr5NFZ7o2m"
+			},
+			"description": "Sport Bow",
+			"reference": "PY51:14",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 1600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "Wkrhy6FRItQ55Y-9f",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "6"
+					},
+					"strength": "7†",
+					"accuracy": "1",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+6 imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "ecnUwXzjG-sl9i0JN",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eEzohJWuKb-UPJ5Z5"
+			},
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45min.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eJsHo4e4lJEhp4of-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eDT2ckXG_nMbPesWS"
+			},
+			"description": "Small Trauma Plate",
+			"reference": "HT67",
+			"notes": "DR+25 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eNDc246SZCgTFJbKt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "e3QYGT59xRHeZ6TBG"
+			},
+			"description": "Steel Corselet",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 1300,
+			"weight": "35 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1300,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "epfgv1knl68Rh7A3z",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "eh3ZBLHbXXUVAcJXb"
+			},
+			"description": "Steel Laminate Plate",
+			"reference": "B283",
+			"tech_level": "3",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 900,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eOMiPFJ47Az-5U1Jc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eO0B7K0gkgSAdLyQR"
+			},
+			"description": "Straight Composite Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 600,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "WruE2frQ87gnXKD0g",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eaJQmZlc0ftMeiFD1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eans6bBBgJpA61jl4"
+			},
+			"description": "Stun Baton",
+			"reference": "HT200",
+			"tech_level": "8",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 60,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "wpSIunokPuNNJ0XHO",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cr"
+					}
+				},
+				{
+					"id": "wMsEg3CiCbUx-IbTJ",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cr"
+					}
+				},
+				{
+					"id": "w8YwyeQyyS0hwk4D1",
+					"damage": {
+						"type": "HT-3(0.5) aff"
+					},
+					"usage": "Linked (stun)",
+					"calc": {
+						"damage": "HT-3(0.5) aff"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fUGgB1fiAlMUy-6JJ",
+					"source": {
+						"library": "/TPM",
+						"path": "Files\\Equipment Modifiers.eqm",
+						"id": "fMc_35oOSixlI_gKT"
+					},
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "epTOXChrw9-usBGbD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "egixYjiSM8QfhH5S1"
+			},
+			"description": "Sword Cane",
+			"reference": "HT200",
+			"tech_level": "5",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "wu73xsCbU9sYcm11o",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "5",
+					"reach": "C,1",
+					"parry": "-2F",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Smallsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f-SYAMt0l3uTZREds",
+					"source": {
+						"library": "/TPM",
+						"path": "Files\\Equipment Modifiers.eqm",
+						"id": "fqRteAHFRQHMaMTIl"
+					},
+					"name": "TL5 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x2"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "e1xXrbENYYsTPSIcE",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "epVXtBrRvdk_zsz9C"
+			},
+			"description": "Tactical Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "epLUZ_Wde9SrJyg7T",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eZ5VeRUQ_ElV7L2cl"
+			},
+			"description": "Thrusting Bastard Sword",
+			"reference": "LT54",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 750,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "w_SLIk3WxESyFas-C",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Swing - One Handed",
+					"reach": "1-2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wrwuIxOj6-bxJJFW2",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "11",
+					"usage": "Thrust - One Handed",
+					"reach": "2",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				},
+				{
+					"id": "wjcG05u01NEsDk-JP",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Swing - Two Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "w7EXUDLl_Goyy5M-v",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"usage": "Thrust - Two Handed",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eBu5BrtH6Y6lBKpzI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eTZgf42cuj04t5Sej"
+			},
+			"description": "Thrusting Broadsword",
+			"reference": "LT55",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 600,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wr6W5EeF-qsC70Bti",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wUi82od8Y9JeG-OBw",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "euzR54aRqoCCEQnl9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eKOnhuOmt2tBEfyeK"
+			},
+			"description": "Thrusting Greatsword",
+			"reference": "LT56",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 900,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "wyh3Nkf4QR6mbt-mN",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				},
+				{
+					"id": "wtHt6zEP3Vfil-Rkx",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "12†",
+					"usage": "Thrust",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eUqnXl8nmGMvXB7TV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eThe4Cu9ga2pmfjJ2"
+			},
+			"description": "Tubular Bow",
+			"reference": "LT72",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 900,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WYRFHUKVWzJSIgNyL",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ek3DYEKqDnxNJm6o1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e9i4ODyXdgWFkDz6w"
+			},
+			"description": "Two-Handed Macuahuitl",
+			"reference": "LT59",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 650,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wb9ZObBUE6d5VQyjc",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3",
+						"armor_divisor": 0.5
+					},
+					"strength": "12†",
+					"usage": "Swing",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+3(0.5) cut"
+					}
+				},
+				{
+					"id": "w_lr7XTH69XnQqdkj",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "12†",
+					"usage": "Thrust",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eN5m1h0JDWF9MhEPi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Armor.eqp",
+				"id": "edx-JjZqUtLf16i2b"
+			},
+			"description": "Wetsuit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1600,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "3 lb"
+			}
+		}
+	]
+}

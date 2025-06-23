@@ -1,0 +1,4010 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eZjiIPcrL0FVV6bc8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eplqAiEXFYhk9kTJM"
+			},
+			"description": "Arbalest",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 15000,
+			"weight": "37 lb",
+			"weapons": [
+				{
+					"id": "W0-um0PaunCaiIaif",
+					"damage": {
+						"type": "imp",
+						"base": "3d-1"
+					},
+					"strength": "15M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "360/450",
+					"rate_of_fire": "1",
+					"shots": "1(30)",
+					"bulk": "-9",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "37 lb"
+			}
+		},
+		{
+			"id": "eDXbym49HNVmuvtH6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eDRb91VMzER9lhDjp"
+			},
+			"description": "Ballista, 1-lb.",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 3500,
+			"weight": "140 lb",
+			"weapons": [
+				{
+					"id": "WwqetblfLPnqYqwq0",
+					"damage": {
+						"type": "cr",
+						"base": "4d+1"
+					},
+					"strength": "20M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "245/305",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3500,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "e_n7i-U5sJ16oCzgP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ew6RzDewQb5FuXrv3"
+			},
+			"description": "Ballista, 2-lb.",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 6500,
+			"weight": "260 lb",
+			"weapons": [
+				{
+					"id": "W_SBNmtepKUBjBw3U",
+					"damage": {
+						"type": "cr",
+						"base": "5d-1"
+					},
+					"strength": "36M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "255/320",
+					"rate_of_fire": "1",
+					"shots": "1(22)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d-1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6500,
+				"extended_weight": "260 lb"
+			}
+		},
+		{
+			"id": "eRQqY_8oyjJXzxCC7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eiuM687b89OcMLj2f"
+			},
+			"description": "Ballista, 5-lb.",
+			"reference": "LT75",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 17000,
+			"weight": "680 lb",
+			"weapons": [
+				{
+					"id": "Wv-FeA4sRvQZRmkKU",
+					"damage": {
+						"type": "cr",
+						"base": "6d"
+					},
+					"strength": "58M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "275/345",
+					"rate_of_fire": "1",
+					"shots": "1(22)",
+					"bulk": "-12",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 17000,
+				"extended_weight": "680 lb"
+			}
+		},
+		{
+			"id": "eYjZXkwYfElwl5e_P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eBb63oflrM1tY0UwT"
+			},
+			"description": "Ballista, 10-lb.",
+			"reference": "LT80",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 33000,
+			"weight": "1,330 lb",
+			"weapons": [
+				{
+					"id": "Wly9MPppjzJNhaY_z",
+					"damage": {
+						"type": "cr",
+						"base": "7d+1"
+					},
+					"strength": "82M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "290/360",
+					"rate_of_fire": "1",
+					"shots": "1(30)",
+					"bulk": "-14",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d+1 cr"
+					}
+				},
+				{
+					"id": "W3IuGxDRlDQ7LTdWD",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(30)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 33000,
+				"extended_weight": "1,330 lb"
+			}
+		},
+		{
+			"id": "eajSSZKW8x-lzfvsL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eCmTyl83THlghtmEl"
+			},
+			"description": "Ballista, 15-lb.",
+			"reference": "LT80",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 50000,
+			"weight": "2,000 lb",
+			"weapons": [
+				{
+					"id": "WUGVZAMtGp1cPFumJ",
+					"damage": {
+						"type": "cr",
+						"base": "8d+1"
+					},
+					"strength": "100M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "295/370",
+					"rate_of_fire": "1",
+					"shots": "1(42)",
+					"bulk": "-14",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8d+1 cr"
+					}
+				},
+				{
+					"id": "WT2ZD_ni2uwuhSE8G",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(42)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50000,
+				"extended_weight": "2,000 lb"
+			}
+		},
+		{
+			"id": "elYDDg0lI5Uz8f16x",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "enYM4j919XyO2gc1T"
+			},
+			"description": "Ballista, 20-lb.",
+			"reference": "LT80",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 67500,
+			"weight": "2,700 lb",
+			"weapons": [
+				{
+					"id": "WC-O0rB154ZvckFGr",
+					"damage": {
+						"type": "cr",
+						"base": "9d"
+					},
+					"strength": "116M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "300/375",
+					"rate_of_fire": "1",
+					"shots": "1(55)",
+					"bulk": "-15",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "9d cr"
+					}
+				},
+				{
+					"id": "WYXEK4uyqtgL71yyS",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(55)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 67500,
+				"extended_weight": "2,700 lb"
+			}
+		},
+		{
+			"id": "eQng_04dkhUsvUQ_r",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e2IA1J1m4TrMSre7r"
+			},
+			"description": "Ballista, 30-lb.",
+			"reference": "LT80",
+			"notes": "Requires 2 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 102500,
+			"weight": "4,100 lb",
+			"weapons": [
+				{
+					"id": "Wll-GYRTKRdIpClWC",
+					"damage": {
+						"type": "cr",
+						"base": "10d+1"
+					},
+					"strength": "143M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "310/385",
+					"rate_of_fire": "1",
+					"shots": "1(45)",
+					"bulk": "-15",
+					"recoil": "1",
+					"calc": {
+						"damage": "10d+1 cr"
+					}
+				},
+				{
+					"id": "WDNK8eyJcYadCr19t",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(45)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 102500,
+				"extended_weight": "4,100 lb"
+			}
+		},
+		{
+			"id": "elxMiQ1hbAQtVR42Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "el5X3eDOKEit1sOZX"
+			},
+			"description": "Ballista, 60-lb.",
+			"reference": "LT80",
+			"notes": "Requires 3 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 200000,
+			"weight": "8,000 lb",
+			"weapons": [
+				{
+					"id": "W3mLH4d1tA7OMp-Wt",
+					"damage": {
+						"type": "cr",
+						"base": "12d+1"
+					},
+					"strength": "200M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "315/390",
+					"rate_of_fire": "1",
+					"shots": "1(55)",
+					"bulk": "-17",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "12d+1 cr"
+					}
+				},
+				{
+					"id": "WxoXD5OSAZV4pg7pP",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(55)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200000,
+				"extended_weight": "8,000 lb"
+			}
+		},
+		{
+			"id": "eYGHKU3CSGa4PbaaJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "emxvkBtlI5-FepMhq"
+			},
+			"description": "Ballista, 180-lb.",
+			"reference": "LT80",
+			"notes": "Requires 6 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 600000,
+			"weight": "24,000 lb",
+			"weapons": [
+				{
+					"id": "Wxyh6d84c4a42UoYI",
+					"damage": {
+						"type": "cr",
+						"base": "16d"
+					},
+					"strength": "350M†",
+					"usage": "Fire Stone",
+					"accuracy": "4",
+					"range": "345/435",
+					"rate_of_fire": "1",
+					"shots": "1(70)",
+					"bulk": "-25",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "16d cr"
+					}
+				},
+				{
+					"id": "WBq4-BMd-xhHvG6In",
+					"damage": {
+						"type": "cr",
+						"base": "4d"
+					},
+					"usage": "Fire Bundle of Stones",
+					"accuracy": "4",
+					"range": "245/305",
+					"shots": "1(70)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600000,
+				"extended_weight": "24,000 lb"
+			}
+		},
+		{
+			"id": "eQuNHeABww5o2KBQo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eo7GTDW6_KuJf1Brn"
+			},
+			"description": "Beam Sling, 15-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 15 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 2400,
+			"weight": "240 lb",
+			"weapons": [
+				{
+					"id": "WvyRv6W2sqpWB492F",
+					"damage": {
+						"type": "cr",
+						"base": "7d"
+					},
+					"strength": "35M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "50/60",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-12/-15",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "7d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "240 lb"
+			}
+		},
+		{
+			"id": "e0zuTrkYaJLwTGYps",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eYPDrJOfRmA6AIOQy"
+			},
+			"description": "Beam Sling, 30-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 30 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 6700,
+			"weight": "670 lb",
+			"weapons": [
+				{
+					"id": "WDul71t6lu07eFQje",
+					"damage": {
+						"type": "cr",
+						"base": "8d+2"
+					},
+					"strength": "58M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "50/65",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-14/-18",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "8d+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6700,
+				"extended_weight": "670 lb"
+			}
+		},
+		{
+			"id": "erAMyEtfE_bLR8qnf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eKkg3IJ5llqdYhIMx"
+			},
+			"description": "Beam Sling, 50-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range;  requires crew. Use the listed number of men for beam slings. See the Crew Size Table (p. LT81) for other weapons; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 14000,
+			"weight": "1,400 lb",
+			"weapons": [
+				{
+					"id": "W70jzh2LbDFrYc9_Z",
+					"damage": {
+						"type": "cr",
+						"base": "10d+1"
+					},
+					"strength": "84M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "50/65",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-16/-20",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "10d+1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14000,
+				"extended_weight": "1,400 lb"
+			}
+		},
+		{
+			"id": "eKASqJUBxZF5C_4pS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eKI5Z9-hofeB6sjhT"
+			},
+			"description": "Beam Sling, 100-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 100 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 40000,
+			"weight": "4,000 lb",
+			"weapons": [
+				{
+					"id": "WKySQj3-RsRyJcXEI",
+					"damage": {
+						"type": "cr",
+						"base": "13d+1"
+					},
+					"strength": "140M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "55/70",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-18/-22",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "13d+1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "emTMFiZp3xolQt5u1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "egfLS3acIU3_WUawq"
+			},
+			"description": "Beam Sling, Weighted, 30-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 30 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 12600,
+			"weight": "1,260 lb",
+			"weapons": [
+				{
+					"id": "W-J80IR1RskoYmorn",
+					"damage": {
+						"type": "cr",
+						"base": "8d+2"
+					},
+					"strength": "80M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "105/130",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-15/-19",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "8d+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12600,
+				"extended_weight": "1,260 lb"
+			}
+		},
+		{
+			"id": "eX8XHFdbbKZdOCYR8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eriGoNLrz27w2JoCT"
+			},
+			"description": "Beam Sling, Weighted, 50-Man",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range;  requires 50 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 24000,
+			"weight": "2,400 lb",
+			"weapons": [
+				{
+					"id": "WbN5sMKCiW8iwRHEy",
+					"damage": {
+						"type": "cr",
+						"base": "10d+1"
+					},
+					"strength": "110M†",
+					"usage": "Fire Stone",
+					"accuracy": "2",
+					"range": "105/130",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-16/-21",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "10d+1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "2,400 lb"
+			}
+		},
+		{
+			"id": "eL0RMyTxfnOOWyA0v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ezsPC1CjmIOv-Hg3f"
+			},
+			"description": "Blowpipe",
+			"reference": "LT72",
+			"notes": "Follow-up drug or poison attack if damage penetrates DR. Effects depend on the poison used; see Poisons (pp. LT128-130); Requires two hands to ready, but only one hand to attack",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Dart"
+			],
+			"value": 30,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WqS3nQMS1GeRH-MLj",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "2",
+					"usage": "Launch Dart",
+					"accuracy": "1",
+					"range": "x4",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Blowpipe"
+						}
+					],
+					"calc": {
+						"damage": "1d-3 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eRGY63LPZVu-J8mEx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eRpFbr97l-ShhSQS0"
+			},
+			"description": "Blowpipe Dart",
+			"reference": "LT76",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Dart",
+				"Ammunition"
+			],
+			"value": 0.1,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.1,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eATxZPEyfr27z42yU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eN-OkDp86ufSWaXn6"
+			},
+			"description": "Bolas",
+			"reference": "LT55,LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 20,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "wVEZSzKAeF-95RFkp",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "7",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "-2U",
+					"block": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Flail"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cr"
+					}
+				},
+				{
+					"id": "WukWg8TWOfSv0n6NR",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Thrown",
+					"range": "x3",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bolas"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eUasuMcQ7wdti4TlN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ejqw-wvySletmQJqL"
+			},
+			"description": "Bombard",
+			"reference": "LT87",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 21000,
+			"weight": "1,550 lb",
+			"weapons": [
+				{
+					"id": "WoDwNJA56Pqgg66j8",
+					"damage": {
+						"type": "pi++",
+						"base": "13d+2"
+					},
+					"strength": "55M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "80/550",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-12",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "13d+2 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 21000,
+				"extended_weight": "1,550 lb"
+			}
+		},
+		{
+			"id": "eUF82LzUx668Xk3Dj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e6WpgdLqh299llIej"
+			},
+			"description": "Bombard, Large",
+			"reference": "LT87",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 220000,
+			"weight": "16,000 lb",
+			"weapons": [
+				{
+					"id": "WSCpeJ7UlwAXabx1m",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx5"
+					},
+					"strength": "92M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "130/740",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-16",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx5 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 220000,
+				"extended_weight": "16,000 lb"
+			}
+		},
+		{
+			"id": "ePB0mtm7mCHsnXe24",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eWvZx-TNfAV_kvUDq"
+			},
+			"description": "Composite Crossbow",
+			"reference": "LT72",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 950,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "WFi7KbeFk-f57Ar4R",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 950,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "e-nx3KPKzU82PQmff",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "esfw2NB95qVWXnzRM"
+			},
+			"description": "Crapaudeau",
+			"reference": "LT87",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 440,
+			"weight": "32 lb",
+			"weapons": [
+				{
+					"id": "W-bnEj7Q_ZoYJfJ13",
+					"damage": {
+						"type": "pi++",
+						"base": "1d+2"
+					},
+					"strength": "17M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "20/170",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "1d+2 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 440,
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "eMU82-YuvKoCOSJtB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e-vSXirgD31Jj55u_"
+			},
+			"description": "Heavy Sling",
+			"reference": "LT74",
+			"notes": "Unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they’re less accurate: -1 to hit.",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "We2t6BmeiEQt4PdY3",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "x3/x6",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sling"
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e2ek6qWhILEwvGSpg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ena5PvKRBs2aSnpEt"
+			},
+			"description": "Hunting Crossbow",
+			"reference": "LT72",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 600,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "WoSHaWnyGB-4xqWjt",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "10†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(13)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e5r7Vw5y6XokxDcsG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ebeuop2z_udyu1OGo"
+			},
+			"description": "Incendiary Blowpipe",
+			"reference": "LT86",
+			"notes": "Requires two hands to ready, but only one hand to attack. Range is ST-based. Produces a cone with terminal width equal to Range. Each charge costs $0.50.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 35,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "W4jW237REjIay9Z7w",
+					"damage": {
+						"type": "burn",
+						"base": "1d-1"
+					},
+					"strength": "2",
+					"usage": "Blow Charge",
+					"range": "x0.2",
+					"rate_of_fire": "1",
+					"shots": "1(20)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Blowpipe"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e9PVOC6hEAcpM3rx2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e8opwrhyPI57eTY0X"
+			},
+			"description": "Incendiary Blowpipe Charge",
+			"reference": "LT86",
+			"tech_level": "2",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.5,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eQcRweXjq49dmOW-v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eE8_Dy15zRaLiEs45"
+			},
+			"description": "Large Throwing Knife",
+			"reference": "LT75",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wAuCY5h4PKlf9lG_d",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -7
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "sw-2 cut"
+					}
+				},
+				{
+					"id": "wPlCJWHKwCd5UZ9mo",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				},
+				{
+					"id": "WkGFCvvDkZWzgfj0k",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1/x2",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ek_oftSW04Td-0Dm5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ezsJcg7MdbH3xWJ-X"
+			},
+			"description": "Lariat",
+			"reference": "LT76",
+			"notes": "May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404).",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 40,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "Wk7IoQItaYr-35WIg",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "7†",
+					"usage": "Lasso",
+					"range": "3",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Lasso"
+						}
+					],
+					"calc": {
+						"damage": "spec."
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e-mhY21IH2kRxWEOE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ewTu5wIeeuRsiyO5l"
+			},
+			"description": "Longbow",
+			"reference": "LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "Wy2ptvyiPZ7JsrK_W",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "11†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "evMmU6-c6taqOcPqp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "epmob6UUA0uVCdlIF"
+			},
+			"description": "Melee Net",
+			"reference": "LT59",
+			"notes": "May entangle or ensnare the target; see Special Ranged Weapons (pp. B410-411) and Cloaks (p. B404); A net has no 1/2D range. Max range is (ST + Skill/5) for a melee net",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 20,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "W61DCVv7gwZ-9rMdk",
+					"damage": {
+						"type": "spec."
+					},
+					"strength": "8",
+					"usage": "Throw",
+					"accuracy": "1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Net"
+						},
+						{
+							"type": "skill",
+							"name": "Cloak",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "spec."
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ecmMps_upW0lp-ZkE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eoV_w5IcnBVZFrv6Y"
+			},
+			"description": "Military Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 750,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "WiZrCq1MiKshWrSHZ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "12†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(32)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "exZ4Yc92SzxVRENV5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eweIjEOO_GWpBIg4C"
+			},
+			"description": "Pistol Crossbow",
+			"reference": "LT72",
+			"notes": "Requires two hands to ready, but only one hand to attack.",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 150,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "W7Pp0t45bT9iWCJ9K",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "7",
+					"usage": "Fire Bolt",
+					"accuracy": "1",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ej0p1Jsu5kk6p0ozy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ethb_9uh_gX8DvHU6"
+			},
+			"description": "Reflex Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 900,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "W2mX_5Q4LqMS0TisN",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eMiVFWa9qnPILGSZi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eEbv9yXUKqcIRJoRt"
+			},
+			"description": "Regular Bow",
+			"reference": "LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WedLUvExMCnchRFAF",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eX0REeVdnqhLPBhuq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e90I0NpBlzXUqA9Vy"
+			},
+			"description": "Repeating Crossbow",
+			"reference": "LT73",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 500,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WaWqL4spmABGXfFVj",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "4"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "1",
+					"range": "x7/x15",
+					"rate_of_fire": "1",
+					"shots": "10(3i)",
+					"bulk": "-5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+4 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ewjkcfp9RRM3jf_Vl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "edWyoRhbknJaNvsTK"
+			},
+			"description": "Sai",
+			"reference": "LT61",
+			"notes": "Gets +2 to disarm when wielded with Jitte/Sai skill; see pp. B208, B401.",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"value": 60,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "wr4mEvaUCYtVAHwdj",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "7",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "wN6QzJthXE0QQjM8j",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				},
+				{
+					"id": "wuXGCuKGSVrvXcSa6",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "7",
+					"usage": "Swing - Main-Gauche",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche"
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "wjo3UJDTRBWwjdD4d",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7",
+					"usage": "Thrust - Main-Gauche",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche"
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				},
+				{
+					"id": "WpCWMniCsbT6CPm8_",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7",
+					"usage": "Thrown",
+					"range": "x0.8/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "ewPbkuaajHHT0p6Ko",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eGTZyIJKPHoOW3G1A"
+			},
+			"description": "Scorpion, 27”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 1600,
+			"weight": "65 lb",
+			"weapons": [
+				{
+					"id": "WchdsRD5LyebDtIga",
+					"damage": {
+						"type": "imp",
+						"base": "3d"
+					},
+					"strength": "17M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "220/275",
+					"rate_of_fire": "1",
+					"shots": "1(10)",
+					"bulk": "-9",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "e400NuBbv6ZWnDoZi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e-LFphVxRVKjo_2r-"
+			},
+			"description": "Scorpion, 36”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 4000,
+			"weight": "160 lb",
+			"weapons": [
+				{
+					"id": "WsNWgd_GmB9EEHoj6",
+					"damage": {
+						"type": "imp",
+						"base": "4d"
+					},
+					"strength": "21M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "240/300",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "160 lb"
+			}
+		},
+		{
+			"id": "eCQcTbBgNDcQK2-K8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ek8i1OuOEC0PjJv-J"
+			},
+			"description": "Scorpion, 45”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 7200,
+			"weight": "290 lb",
+			"weapons": [
+				{
+					"id": "WUDaslBI67v98gMir",
+					"damage": {
+						"type": "imp",
+						"base": "5d"
+					},
+					"strength": "38M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "250/315",
+					"rate_of_fire": "1",
+					"shots": "1(24)",
+					"bulk": "-11",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "290 lb"
+			}
+		},
+		{
+			"id": "eqPK9mn0CDeikXzC8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "egS0AJ619ivgucUjA"
+			},
+			"description": "Scorpion, 54”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 12800,
+			"weight": "515 lb",
+			"weapons": [
+				{
+					"id": "W1isJMpx3B-tl9yph",
+					"damage": {
+						"type": "imp",
+						"base": "6d-1"
+					},
+					"strength": "51M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "250/315",
+					"rate_of_fire": "1",
+					"shots": "1(35)",
+					"bulk": "-12",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "515 lb"
+			}
+		},
+		{
+			"id": "e6PIy8Z8oqsxOm79i",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ek_iMEejaLfuAeNBJ"
+			},
+			"description": "Scorpion, 72”",
+			"reference": "LT80",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 30000,
+			"weight": "1,190 lb",
+			"weapons": [
+				{
+					"id": "Wzm3RO1xhJubkwF-1",
+					"damage": {
+						"type": "imp",
+						"base": "7d+1"
+					},
+					"strength": "77M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "275/345",
+					"rate_of_fire": "1",
+					"shots": "1(30)",
+					"bulk": "-14",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30000,
+				"extended_weight": "1,190 lb"
+			}
+		},
+		{
+			"id": "e0itskpssmveCbDsP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "etN6lwCl-IHVBA5AR"
+			},
+			"description": "Short Bow",
+			"reference": "LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 50,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WZm89P856GQstrnmt",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eMi-Qy6P5EPSbxWuj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eFvi4od7BjgdMLnpc"
+			},
+			"description": "Siege Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 900,
+			"weight": "18 lb",
+			"weapons": [
+				{
+					"id": "WC6w-1fHSqiU9qxrC",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "14M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(50)",
+					"bulk": "-10",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "eHAw_KndnLAEOVWqn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eagFqPQa18YmSVdJu"
+			},
+			"description": "Sling",
+			"reference": "LT74",
+			"notes": "Requires two hands to ready, but only one hand to attack.; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they’re less accurate: -1 to hit; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Sling"
+			],
+			"value": 20,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "W51CrgpCqi8-dmOKF",
+					"damage": {
+						"type": "pi",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Shoot",
+					"range": "x6/x10",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sling"
+						}
+					],
+					"calc": {
+						"damage": "sw pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e4bmJZCJASQzzDswl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eUWsJGYIOS5hRIC3Z"
+			},
+			"description": "Slurbow",
+			"reference": "LT74",
+			"notes": "Requires several Ready maneuvers to cock the bow before loading darts; use the standard cocking times for crossbows under Bows, Crossbows, and Rated ST (p. LT74).",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 1000,
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"id": "WtI4-0yRBQ32lJDTQ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Fire 2 medium darts",
+					"accuracy": "1",
+					"range": "x25/x30",
+					"rate_of_fire": "1x2",
+					"shots": "1(2i)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				},
+				{
+					"id": "W84deTiyvEeyUOHNJ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Fire 5 small darts",
+					"accuracy": "1",
+					"range": "x15/x20",
+					"rate_of_fire": "1x5",
+					"shots": "1(2i)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e-MkzSTD_5ZwtVLlf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ee1kRIRXHzUdofj74"
+			},
+			"description": "Small Knife",
+			"reference": "LT58",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"value": 30,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "wf6dCIs2J53vaS21Z",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-3 cut"
+					}
+				},
+				{
+					"id": "wEOwllxz9slhSEEIG",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "WhY3pN0YxkMbOYAV_",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ehYxtuAFDGUNqN0jY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "elbJwTmAPdiWFj-Mg"
+			},
+			"description": "Small Throwing Axe",
+			"reference": "LT64",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"value": 50,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wenWfzR_RjDtipSSc",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "W_NJJXd0m5gL6m8ny",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eueXdoF6lNANeRsDf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "emViZt-5rQnxGAIVU"
+			},
+			"description": "Small Throwing Knife",
+			"reference": "LT75",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 30,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "ws7ZyYPMW8Pb9fl-E",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -7
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "sw-3 cut"
+					}
+				},
+				{
+					"id": "wNaSmXNgndGRlGPB7",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -7
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "WPqzPEYCWg4bm6IpM",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x0.8/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eUZVOHPuLMTdpmayM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eqZpfnML8Ezx4oY2t"
+			},
+			"description": "Springald",
+			"reference": "LT80",
+			"notes": "Rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 5400,
+			"weight": "216 lb",
+			"weapons": [
+				{
+					"id": "WvkwDe84ODDGZbRxH",
+					"damage": {
+						"type": "imp",
+						"base": "5d+3"
+					},
+					"strength": "33M†",
+					"usage": "Fire",
+					"accuracy": "1",
+					"range": "90/110",
+					"rate_of_fire": "1",
+					"shots": "1(20)",
+					"bulk": "-11/-14",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5400,
+				"extended_weight": "216 lb"
+			}
+		},
+		{
+			"id": "ets6Xb8kRQtqx_c5i",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e4vmwyvGiD7CFh3Vl"
+			},
+			"description": "Staff Sling",
+			"reference": "LT74",
+			"notes": "Unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they’re less accurate: -1 to hit.; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Sling"
+			],
+			"value": 20,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "W-lrA7NYtNc57pHjh",
+					"damage": {
+						"type": "pi",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "7†",
+					"usage": "Shoot Stone",
+					"accuracy": "1",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sling"
+						}
+					],
+					"calc": {
+						"damage": "sw+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eHo7cuIPOVxLcF1aW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "egFCiRwXHfTTs_Y47"
+			},
+			"description": "Stone-Launching Stick",
+			"reference": "LT72",
+			"notes": "Requires two hands to ready, but only one hand to attack; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they’re less accurate: -1 to hit.",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Sling"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WsFDTyTiR3cdriCN4",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Shoot Stone",
+					"range": "x2/x3",
+					"rate_of_fire": "1",
+					"shots": "1(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower"
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eM6EYZIhja0w3k75w",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eO0B7K0gkgSAdLyQR"
+			},
+			"description": "Straight Composite Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 600,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "WFgSxRi8jS_lCnjf1",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "ewqKX3GUIMUwr2hP9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "enzUzuxESLCS0HUZs"
+			},
+			"description": "Throwing Dart",
+			"reference": "LT74",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WWky4s4Y5lmv9Cw9h",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x2.5/x3.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Dart"
+						},
+						{
+							"type": "skill",
+							"name": "Throwing",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ea-3O4Tk_GPPY4rVZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eS-ANKpu6RBtWJYtk"
+			},
+			"description": "Throwing Stick",
+			"reference": "LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WFgkNghLTLzIeV2fC",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x4/x8",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Stick"
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "etf8vaSYrwf7mcdxU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eNU0URA5A6s6deatA"
+			},
+			"description": "Trebuchet, Hinged, Large",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 30 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 210000,
+			"weight": "44,000 lb",
+			"weapons": [
+				{
+					"id": "W_Dw3lnrXjwKH9WSK",
+					"damage": {
+						"type": "cr",
+						"base": "17d"
+					},
+					"strength": "470M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "510/660",
+					"rate_of_fire": "1",
+					"shots": "1(450)",
+					"bulk": "-21/-26",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "17d cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 210000,
+				"extended_weight": "44,000 lb"
+			}
+		},
+		{
+			"id": "e-LQWIjNubU9_iEoO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eZzP3PDKdR84iTQCN"
+			},
+			"description": "Trebuchet, Hinged, Small",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 25 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 70000,
+			"weight": "17,500 lb",
+			"weapons": [
+				{
+					"id": "WmM9giKRVfW1ne2N-",
+					"damage": {
+						"type": "cr",
+						"base": "12d+2"
+					},
+					"strength": "295M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "480/600",
+					"rate_of_fire": "1",
+					"shots": "1(300)",
+					"bulk": "-19/-24",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "12d+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 70000,
+				"extended_weight": "17,500 lb"
+			}
+		},
+		{
+			"id": "eYW3dqg3Q2gTXZjJo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eE4yf3W58v7gSKaus"
+			},
+			"description": "Trebuchet, Large",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 30 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 240000,
+			"weight": "56,000 lb",
+			"weapons": [
+				{
+					"id": "WkvQwFl7w86NZ9CjN",
+					"damage": {
+						"type": "cr",
+						"base": "6dx3"
+					},
+					"strength": "530M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "290/360",
+					"rate_of_fire": "1",
+					"shots": "1(450)",
+					"bulk": "-22/-27",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "6dx3 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240000,
+				"extended_weight": "56,000 lb"
+			}
+		},
+		{
+			"id": "envPYd-JQK1HB8dND",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "esmQLx8SSD1SKltQ1"
+			},
+			"description": "Trebuchet, Small",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 25 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 75000,
+			"weight": "17,500 lb",
+			"weapons": [
+				{
+					"id": "W-65fRd0PgvfhdfLh",
+					"damage": {
+						"type": "cr",
+						"base": "13d+2"
+					},
+					"strength": "330M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "265/330",
+					"rate_of_fire": "1",
+					"shots": "1(300)",
+					"bulk": "-20/-25",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "13d+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "17,500 lb"
+			}
+		},
+		{
+			"id": "esxx1IvxWwYsWAQxu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eThe4Cu9ga2pmfjJ2"
+			},
+			"description": "Tubular Bow",
+			"reference": "LT72",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 900,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "Wz4ENga2CP26H3r-1",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "efxJM7d3VsS-WEfhp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eE-xjvsasY7JyJ9nz"
+			},
+			"description": "Veuglaire",
+			"reference": "LT87",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 9600,
+			"weight": "700 lb",
+			"weapons": [
+				{
+					"id": "WBg3bZSZ_EBiaY4jQ",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+2"
+					},
+					"strength": "36M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "40/340",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-12",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "4d+2 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "700 lb"
+			}
+		}
+	]
+}

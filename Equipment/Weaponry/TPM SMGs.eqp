@@ -1,0 +1,1785 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "etF56TKHv6MNhEgTn",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "epMmZNcO2ivM31nnR"
+			},
+			"description": "Colt CAR-15 R635, 9x19mm",
+			"reference": "HT119",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 15200,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "WB1J3P1mFT9XOEDr8",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "170/1,900",
+					"rate_of_fire": "15",
+					"shots": "32+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15200,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ecvlkuBqvOxTyyzfK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eH0b6ymbtd2sad_h_"
+			},
+			"description": "ERMA MP40, 9x19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 3200,
+			"weight": "10.5 lb",
+			"weapons": [
+				{
+					"id": "WQjh2N7fff629FJ7Z",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "170/1,900",
+					"rate_of_fire": "8!",
+					"shots": "32(3)",
+					"bulk": "-5*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "10.5 lb"
+			}
+		},
+		{
+			"id": "eFKDUl-1PMs1-H4AG",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eVENiP-rMPVAIbhGI"
+			},
+			"description": "FN P90, 5.7x28mm",
+			"reference": "HT124",
+			"notes": "Integral reflex sight.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 26400,
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"id": "WH81eHYzJVCIkjsIp",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "8†",
+					"accuracy": "4",
+					"range": "180/1,900",
+					"rate_of_fire": "15",
+					"shots": "50+1(5)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1(2) pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 26400,
+				"extended_weight": "6.6 lb"
+			}
+		},
+		{
+			"id": "eS3M9XjX_RiYQrMYF",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "efm3Wy1_ru3dSNwI2"
+			},
+			"description": "H\u0026K MP5A3, 9x19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 12000,
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"id": "WiYicEzT1fDRT9XUA",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "4",
+					"range": "170/1,900",
+					"rate_of_fire": "18",
+					"shots": "30+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "egvBmHAfe9Ycjl1mX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eZwEAAEwFDvXpq1O2"
+			},
+			"description": "H\u0026K MP5K, 9x19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 11200,
+			"weight": "5.6 lb",
+			"weapons": [
+				{
+					"id": "WtglhrsqHrM483VD5",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9†",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 11200,
+				"extended_weight": "5.6 lb"
+			}
+		},
+		{
+			"id": "enLqudtNlLl567ONt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "evR5AEpXfkFMO51mc"
+			},
+			"description": "H\u0026K MP5SD3, 9x19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 19200,
+			"weight": "8.7 lb",
+			"weapons": [
+				{
+					"id": "WiWSH4OkG2S_luwiV",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "8†",
+					"accuracy": "4",
+					"range": "120/1,400",
+					"rate_of_fire": "13",
+					"shots": "30+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "8.7 lb"
+			}
+		},
+		{
+			"id": "eXbiCfFkxRwUlgodT",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eRdF9tYzAl_5x1qZF"
+			},
+			"description": "H\u0026K MP7A1, 4.6x30mm",
+			"reference": "HT124",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 24000,
+			"weight": "4.4 lb",
+			"weapons": [
+				{
+					"id": "W7XHiyGW0wAdPmy9m",
+					"damage": {
+						"type": "pi-",
+						"base": "4d+1"
+					},
+					"strength": "7†",
+					"accuracy": "4",
+					"range": "180/1,900",
+					"rate_of_fire": "15",
+					"shots": "20+1(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "4.4 lb"
+			}
+		},
+		{
+			"id": "eceDQ-0uuKRx68D36",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eP3TfCCytQrI3Sf9c"
+			},
+			"description": "H\u0026K UMP, .45 ACP",
+			"reference": "HT124",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 14400,
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"id": "WicMA6JCkUh-LkXcq",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8†",
+					"accuracy": "4",
+					"range": "160/1,700",
+					"rate_of_fire": "10",
+					"shots": "25+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14400,
+				"extended_weight": "6.5 lb"
+			}
+		},
+		{
+			"id": "eeqI08fiUTJ6osVEV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "esEWEJMI8mpncXR98"
+			},
+			"description": "IMI Uzi, 9x19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 4800,
+			"weight": "8.8 lb",
+			"weapons": [
+				{
+					"id": "WjLYTdCHPqDfvrFKU",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "170/1,900",
+					"rate_of_fire": "10",
+					"shots": "25(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "8.8 lb"
+			}
+		},
+		{
+			"id": "emXr-VDE51s4rguK-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "eD4LHPoczEcjffS5e"
+			},
+			"description": "MAC-Ingram M10, 9X19mm",
+			"reference": "HT124",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 3400,
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"id": "W9PRk0eotquJp56pF",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "130/1,400",
+					"rate_of_fire": "18",
+					"shots": "32(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3400,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "eGENG3jS3bgFqb30k",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Submachineguns.eqp",
+				"id": "ejUiwtDtQlxk6hXKP"
+			},
+			"description": "Micro-Uzi",
+			"reference": "HT172",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Firearms",
+				"SMG"
+			],
+			"value": 7200,
+			"weight": "5.2 lb",
+			"weapons": [
+				{
+					"id": "WfzvGeYXqfLs8gool",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "28",
+					"shots": "20(3)",
+					"bulk": "-3*",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "SMG"
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				},
+				{
+					"id": "WMNvV8Z9KXiXL3qFs",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"usage": "with stock folded",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "28",
+					"shots": "20(3)",
+					"bulk": "-3*",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "SMG"
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "5.2 lb"
+			}
+		},
+		{
+			"id": "ekW8OBmPQZ9gSN0sj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eF4tYRTk5tKCmCz8Y"
+			},
+			"description": "NG-7 PDW, 5.7mmCLP",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 32000,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "Wb25ceLvAfcuE5Kux",
+					"damage": {
+						"type": "pi-",
+						"base": "4d"
+					},
+					"strength": "5†",
+					"accuracy": "3",
+					"range": "350/3,000",
+					"rate_of_fire": "12#/1",
+					"shots": "20+1(3)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "eTmShynTRG4gwjiNu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "e-0jPbZNiz8IZ6HNu"
+			},
+			"description": "NG-10 Machine Pistol, 10mmCLP",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 24000,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WD1IRmAbdrVuREram",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "10",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eijI3o70EduXaYtZJ",
+			"description": "NG-11 PDW-11mmCLP",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 309824,
+			"weight": "10.42 lb",
+			"weapons": [
+				{
+					"id": "W1CMGClraBT1fjjLd",
+					"damage": {
+						"type": "pi+",
+						"base": "5d+2"
+					},
+					"strength": "12†",
+					"accuracy": "4",
+					"range": "320/2,500",
+					"rate_of_fire": "10#",
+					"shots": "40+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "SMG"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d+2 pi+"
+					}
+				},
+				{
+					"id": "W0hEJh4N3JIxc0mXu",
+					"damage": {
+						"type": "pi+",
+						"base": "5d+2"
+					},
+					"strength": "12†",
+					"accuracy": "4",
+					"range": "320/2,500",
+					"rate_of_fire": "10#",
+					"shots": "100+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "SMG"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d+2 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 309824,
+				"extended_weight": "10.42 lb"
+			}
+		},
+		{
+			"id": "eVYguixC-LvcqAaGF",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eTcxwMSvd_2tf9w-C"
+			},
+			"description": "SA Model 9, 7.5mmCLP Machine Pistol",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 24000,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WU58Uau3NLuGViVg7",
+					"damage": {
+						"type": "pi-",
+						"base": "4d+1"
+					},
+					"strength": "9",
+					"usage": "Solid Shot",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "10",
+					"shots": "60+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e7fkUtFYHPiAMKRXK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eyjC0C7gHmTc2cdqR"
+			},
+			"description": "SA Model 10, Submachine Gun, 10mmCLR",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 86400,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WVLr665xkCqhqPRdi",
+					"damage": {
+						"type": "pi+",
+						"base": "5d"
+					},
+					"strength": "10†",
+					"accuracy": "2",
+					"range": "250/2,250",
+					"rate_of_fire": "10",
+					"shots": "30+1(3)",
+					"bulk": "-3*",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "5d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 86400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eWSdr9rA82rfLSSkC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "e8nWGY3cjBSkZP2Rl"
+			},
+			"description": "SA Model 37 UAW",
+			"reference": "UT137",
+			"notes": "Urban Assault Weapon",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Submachine Gun"
+			],
+			"value": 67200,
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"id": "WeHJqtPd0Hzw8_CD9",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "SMG barrel, 10mmCLP",
+					"accuracy": "4",
+					"range": "200/2,100",
+					"rate_of_fire": "10",
+					"shots": "40+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				},
+				{
+					"id": "W9AQG5jIZJtf5_HeW",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+4"
+					},
+					"strength": "10†",
+					"usage": "Shotgun barrel, 18.5mmPC",
+					"accuracy": "2",
+					"range": "100/500",
+					"rate_of_fire": "2",
+					"shots": "5+1(3i)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+4 pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fRJZ0_tcuRuNqTtJ8",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 67200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "e96S2Xg-UCFein3D2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eSOkfqS2Gey5vfvWt"
+			},
+			"description": "ZI-90 Mk. V Submachine Gun, 10mmCLM-ETC",
+			"reference": "Cust",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"ETC",
+				"Guns",
+				"SMG"
+			],
+			"value": 292736,
+			"weight": "9.21 lb",
+			"weapons": [
+				{
+					"id": "Wch96QxHUP__oFTWu",
+					"damage": {
+						"type": "pi+",
+						"base": "7d"
+					},
+					"strength": "12†",
+					"accuracy": "2",
+					"range": "420/2,800",
+					"rate_of_fire": "16#/30#",
+					"shots": "90+1(3)",
+					"bulk": "-4",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 292736,
+				"extended_weight": "9.21 lb"
+			}
+		}
+	]
+}

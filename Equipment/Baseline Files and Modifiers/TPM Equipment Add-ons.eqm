@@ -1,0 +1,335 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "fDvy2_hobXJ_2HsIe",
+			"name": "Head-Up Display (HUD)",
+			"reference": "UT24",
+			"notes": "built in",
+			"tags": [
+				"Computers"
+			],
+			"tech_level": "9",
+			"cost": "+0",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to skill rolls when reacting quickly to information is important",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fpzEcAjYgDd5S0sZd",
+			"name": "Head-Up Display (HUD)",
+			"reference": "UT24",
+			"notes": "separate unit",
+			"tags": [
+				"Computers"
+			],
+			"tech_level": "9",
+			"cost": "+4800",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to skill rolls when reacting quickly to information is important",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "f4Kt2olMOBJ2dJqXC",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "f1GiPs1-S9m38gaMC"
+			},
+			"name": "Infrared Cloaking",
+			"reference": "UT99",
+			"notes": "Thermal detection -4.",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"tech_level": "9",
+			"cost": "+1536000",
+			"weight": "+3 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "against thermal detection",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "fEHFhc4kUEuw9xqfi",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "ffR_AQk4Sxgz5rOww"
+			},
+			"name": "Infrared Video Glasses",
+			"reference": "UT61",
+			"notes": "1x magnification. A/10hr.",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+16000",
+			"weight": "+0 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "fq8C9bY-bNSC4o9js",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "f0BkSJ1P9GH-MaaSQ"
+			},
+			"name": "Infrared Visor",
+			"reference": "UT61",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+16000",
+			"weight": "+0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "fKU45_53j2F_g9PRt",
+			"name": "Hyperspectral Visor",
+			"reference": "UT61",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"vtt_notes": "Built-in",
+			"tech_level": "9",
+			"cost": "+64000",
+			"weight": "+0.6 lb"
+		},
+		{
+			"id": "fmaCHaggWbxC21dXe",
+			"name": "Near Miss Indicator",
+			"reference": "UT188",
+			"notes": "A/24 hr",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+32000",
+			"weight": "+0 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Vision rolls to locate the source of enemy fire.",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "f7K_yYKNZAEjJx48v",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "fAdgSZKwhlNXb8Tia"
+			},
+			"name": "Personal Chemsniffer",
+			"reference": "UT61",
+			"notes": "A/1wk.",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+3200",
+			"weight": "+0.2 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to analyze or recognize targets by scent.",
+					"amount": 8
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to Tracking skill",
+					"amount": 4
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on any Electronics Operation (Sensors) roll to detect targets",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "fHUHQq9kirLZO15xi",
+			"name": "Personal Radar/Laser Detector",
+			"reference": "UT188",
+			"notes": "A/10 days",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+1600",
+			"weight": "+0.5 lb"
+		},
+		{
+			"id": "fgBFXMCAqDwZatbnw",
+			"name": "Personal Sound Detector",
+			"reference": "UT62",
+			"notes": "A/1 wk",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"vtt_notes": "This device can zoom in and amplify a particular sound by 8¥. Must be connected to a Complexity 4+ computer",
+			"tech_level": "9",
+			"cost": "+32000",
+			"weight": "+1 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Electronics Operation (Sensors) rolls made to analyze and identify a particular sound",
+					"amount": 8
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on any Hearing roll",
+					"amount": 4
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to Shadowing skill when following a noisy target",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "frHpIC2v7wK77P3OP",
+			"name": "Portable Terminal",
+			"reference": "UT24",
+			"tags": [
+				"Computers"
+			],
+			"tech_level": "9",
+			"cost": "+3200",
+			"weight": "+0.5 lb"
+		},
+		{
+			"id": "feql_lZlXo1PqHqCh",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "f7FcfNW8Uqx9Uwg90"
+			},
+			"name": "Radar Stealth",
+			"reference": "UT99",
+			"notes": "Detection -4.",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"tech_level": "9",
+			"cost": "+1536000",
+			"weight": "+3 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "against Radar detection",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "fbXxGCgQT8ndXFIes",
+			"name": "Sleeve Display",
+			"reference": "UT24",
+			"notes": "A/10hr.",
+			"tags": [
+				"Computers"
+			],
+			"tech_level": "9",
+			"cost": "+3200"
+		},
+		{
+			"id": "fQ3zmZu_9sNWp5_5E",
+			"name": "Tactical ESM Detector",
+			"reference": "UT62",
+			"notes": "B/1 wk",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"tech_level": "9",
+			"cost": "+32000",
+			"weight": "+2 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "bonus or uses Electronics Operation (EW)-12",
+					"amount": 1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "bonus to Dodge any attack aimed with an active targeting sensor that the ESM can detect.",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fKI4Yd9nGu_3AbgLq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\TPM Equipment Modifiers.eqm",
+				"id": "fVto0Ywa4hdGiNNp9"
+			},
+			"name": "Thermo-Optic Chameleon Surface",
+			"reference": "UT98",
+			"tech_level": "9",
+			"cost": "+128000",
+			"weight": "+4 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Stealth skill against extended high- or low-band hyperspectral vision",
+					"amount": 1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "Stealth skill against hyperspectral or ultraviolet vision",
+					"amount": 2
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "Stealth skill against ordinary and infrared vision",
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": "f1KLqcf-pgk3-VSQX",
+			"name": "Voice Mask",
+			"reference": "UT98",
+			"notes": "B/20hr.",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"tech_level": "9",
+			"cost": "+6400",
+			"weight": "+0.1 lb"
+		}
+	]
+}

@@ -1,0 +1,304 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "esFNfVeB1Wc7N_Hw-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eWqpJ3ToCapfGCOvw"
+			},
+			"description": "OTS-4 'AegisNet' Multimode Small Tactical Radar",
+			"reference": "UT65",
+			"notes": "10-mile search range. B/8hr. or external power",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Sensors and Scientific Equipment",
+				"Omicron Tactical Systems"
+			],
+			"value": 16000,
+			"weight": "1 lb",
+			"modifiers": [
+				{
+					"id": "f5tm79z86eVGu_803",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "fSyTxNRIuypCJ5dYR",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f0W_ChQGkQqPIhLv2"
+					},
+					"name": "Rugged",
+					"reference": "PY37:20",
+					"notes": "+2 HT and Skill to repair.",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x2"
+				},
+				{
+					"id": "fES5rRHKGTX2Ks33S",
+					"name": "1-mile range Imaging Radar",
+					"reference": "UT65",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "+3 to Search rolls to locate objects like concealed weapons, and may ignore penalties for spotting objects hidden behind light brush.",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "foapCCcMh3gt9qy9E",
+					"name": "Multiple Target Tracking",
+					"notes": "track up to 10 targets within search range",
+					"tech_level": "9"
+				},
+				{
+					"id": "f4i1kxZkc_sv4xHyM",
+					"name": "Target Lock-on",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to hit any tracked target with an aimed attack",
+							"amount": 3
+						}
+					]
+				},
+				{
+					"id": "fnGq4NKgTlfjW9M5k",
+					"name": "Target Identification",
+					"notes": "identify targets at 1-mile range",
+					"tech_level": "9"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eNwi9p518Ipf-oLK-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "echafojArKZ2BtawU"
+			},
+			"description": "PTC (Personal Tactical Computer)",
+			"reference": "UT22",
+			"notes": "Complexity 6. 100TB. 1C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers",
+				"Omicron Tactical Systems"
+			],
+			"value": 1000,
+			"weight": "5 lb",
+			"modifiers": [
+				{
+					"id": "fTDN98jqShPG8VPFL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "After the End\\After the End Equipment Modifiers.eqm",
+						"id": "fr2hkQjLm5BFkUYTm"
+					},
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32"
+				},
+				{
+					"id": "f2xjMzV6coJVRLCCf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "f0819IACE2ul6PP8r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+						"id": "f0W_ChQGkQqPIhLv2"
+					},
+					"name": "Rugged",
+					"reference": "PY37:20",
+					"notes": "+2 HT and Skill to repair.",
+					"cost_type": "to_final_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "x2",
+					"weight": "x2"
+				},
+				{
+					"id": "fEySA931gjXNOgGSn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fORPlSDsTOr2fk5Wz"
+					},
+					"name": "Fast (+1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+19 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fni689OREf_SWSdC4",
+					"name": "IFF Comm Software",
+					"cost": "+500"
+				},
+				{
+					"id": "fxN-TQY70IAm7R0Yk",
+					"name": "Silhouette",
+					"reference": "UT149",
+					"notes": "Complexity 5.",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+2000"
+				},
+				{
+					"id": "flRflJaaDk6aFRg_U",
+					"name": "Total VR",
+					"reference": "UT25",
+					"notes": "Requires neural interface. Complexity 6.",
+					"tags": [
+						"Media and Education",
+						"Software"
+					],
+					"tech_level": "9",
+					"cost": "+3000"
+				},
+				{
+					"id": "fOho03CM4MfXzHxcV",
+					"name": "Targeting: Guns (Rifle)",
+					"reference": "UT149",
+					"notes": "+2 skill. Complexity 4.",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+1500",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Rifle"
+							},
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "f7Dugu-O9yLng4KF7",
+					"name": "Targeting: Artillery (Guided Missile)",
+					"reference": "UT149",
+					"notes": "+2 skill. Complexity 4.",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+1500",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Artillery"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Guided Missile"
+							},
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fkVZOElBwu3xlco-c",
+					"name": "Target Tracking",
+					"reference": "UT150",
+					"notes": "Complexity 2. | Track upto 10 targets",
+					"tags": [
+						"Software"
+					],
+					"tech_level": "9",
+					"cost": "+150"
+				},
+				{
+					"id": "frk5uTCieKgABp-tR",
+					"name": "TacNet",
+					"reference": "UT149",
+					"notes": "+2 Tactics. Complexity 6.",
+					"tags": [
+						"Firearm Accessories",
+						"Software",
+						"Weaponry"
+					],
+					"tech_level": "9",
+					"cost": "+30000",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tactics"
+							},
+							"amount": 2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 53289600,
+				"extended_weight": "5 lb"
+			}
+		}
+	]
+}

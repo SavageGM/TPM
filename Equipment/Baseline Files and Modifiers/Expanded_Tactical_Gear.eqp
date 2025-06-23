@@ -1,0 +1,892 @@
+{
+	"type": "equipment_list",
+	"version": 2,
+	"id": "988728c1-9033-4be9-b7b1-0052cbad392f",
+	"rows": [
+		{
+			"type": "equipment",
+			"id": "3902a673-a3c7-4953-aece-9bc6a73fa7ac",
+			"quantity": 1,
+			"description": "Kryon Terminator 50 Vest",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "18000",
+			"weight": "28 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 50,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 50,
+					"location": "vitals"
+				}
+			],
+			"notes": "Flexible.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "80f28723-a426-45d9-a6ed-09fd9476f4e7",
+			"quantity": 1,
+			"description": "IMTV",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "900",
+			"weight": "6 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "neck"
+				}
+			],
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "023ca09e-db83-419c-83a6-8ecd6cb3bda4",
+			"quantity": 1,
+			"description": "IMTV + ESAPI Plates",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "14 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "vitals"
+				}
+			],
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "b0977621-cb1a-44b1-97f2-eb497b83158d",
+			"quantity": 1,
+			"description": "IOTV",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "900",
+			"weight": "8 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "arm"
+				}
+			],
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "8f07991f-1152-4cd3-ade3-3beefeee2f1f",
+			"quantity": 1,
+			"description": "IOTV + ESAPI Plates",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "1500",
+			"weight": "16 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "arm"
+				}
+			],
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "73482760-7817-47eb-9bad-660f7815651d",
+			"quantity": 1,
+			"description": "Level IV Ballistic Plates",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "400",
+			"weight": "10 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "vitals"
+				}
+			],
+			"notes": "Must be used in plate carrier",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "632882cf-d3f6-466e-8476-17d6a6824f6a",
+			"quantity": 1,
+			"description": "Level III Ballistic Plates",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "300",
+			"weight": "8 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 20,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 20,
+					"location": "vitals"
+				}
+			],
+			"notes": "Must be used in plate carrier",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "7b91c57b-11bf-47d3-b6fa-8930266f5030",
+			"quantity": 1,
+			"description": "Level IIIA Ballistic Plates",
+			"tech_level": "8",
+			"value": "300",
+			"weight": "6 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 12,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 12,
+					"location": "vitals"
+				}
+			],
+			"notes": "Must be used in plate carrier.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "6b4beecd-e57b-4155-8127-42de64a54b1f",
+			"quantity": 1,
+			"description": "Level IIIA Soft Plates",
+			"tech_level": "8",
+			"value": "300",
+			"weight": "4 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "vitals"
+				}
+			],
+			"notes": "Must be used in concealable plate carrier. Flexible. DR12 vs pi and cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "a9cd3d54-447f-4332-a0b4-91a0e4559665",
+			"quantity": 1,
+			"description": "Level II Soft Plates",
+			"tech_level": "8",
+			"value": "200",
+			"weight": "3 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "vitals"
+				}
+			],
+			"notes": "Must be used in concealable plate carrier. Flexible. DR8 vs pi and cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"id": "511aa098-eb53-4f09-abf9-3ac228fbfb09",
+			"description": "Concealable Plate Carrier",
+			"tech_level": "8",
+			"value": "100",
+			"weight": "1.5 lb",
+			"reference": "HT54",
+			"notes": "Can hold soft plates.",
+			"categories": [
+				"General Equipment"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "7df2a11b-d6d3-4127-a79e-6ee2d79a73af",
+			"description": "Plate Carrier",
+			"tech_level": "7",
+			"value": "200",
+			"weight": "2 lb",
+			"reference": "HT54",
+			"notes": "Can hold ballistic plates.",
+			"categories": [
+				"General Equipment"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment_container",
+			"id": "c67a23d7-97d4-492e-993a-ea3be62e5ec8",
+			"description": "Soldier Plate Carrier System + ESAPI Plates",
+			"tech_level": "8",
+			"value": "500",
+			"weight": "12 lb",
+			"reference": "HT54",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 28,
+					"location": "vitals"
+				}
+			],
+			"categories": [
+				"General Equipment"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment",
+			"id": "a7b92c0e-f406-4013-848c-eab8853c7013",
+			"quantity": 1,
+			"description": "Leupold Freedom",
+			"tech_level": "8",
+			"value": "300",
+			"weight": "0.7 lb",
+			"reference": "HT156",
+			"notes": "+3 Acc. Magnification 9x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "558c9319-5706-4617-b964-c7595042e557",
+			"quantity": 1,
+			"description": "Leupold Ultralight",
+			"tech_level": "8",
+			"value": "350",
+			"weight": "0.5 lb",
+			"reference": "HT156",
+			"notes": "+2 Acc. Magnification 4x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "4701999f-388a-4136-93f5-4575a224e0e9",
+			"quantity": 1,
+			"description": "Trijicon ACOG",
+			"tech_level": "8",
+			"value": "1500",
+			"weight": "0.9 lb",
+			"reference": "HT156",
+			"notes": "+2 Acc. Magnification 4x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "c70fc39a-b274-4026-ab48-99e7708da73b",
+			"quantity": 1,
+			"description": "Leupold VX-3HD Duplex",
+			"tech_level": "8",
+			"value": "600",
+			"weight": "1.1 lb",
+			"reference": "HT156",
+			"notes": "+2, +3, +4 Acc. Magnifications: 4x, 9x, 20x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "b261d03d-66a9-4827-9834-deda382955b5",
+			"quantity": 1,
+			"description": "Leupod Firedot",
+			"tech_level": "8",
+			"value": "550",
+			"weight": "1 lb",
+			"reference": "HT156",
+			"notes": "+1, +2, +3 Acc. Magnifications: 1.5x, 4x, 9x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "c39e1d44-df1a-4291-a178-3bf3f69d9189",
+			"quantity": 1,
+			"description": "Leupold Mark 5HD Impact",
+			"tech_level": "8",
+			"value": "700",
+			"weight": "1.2 lb",
+			"reference": "HT156",
+			"notes": "+5 Acc. Magnification 40x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "abf1819e-abde-4f9d-b118-c0a820ef19e2",
+			"quantity": 1,
+			"description": "Vortex Razor HD",
+			"tech_level": "8",
+			"value": "350",
+			"weight": "0.9 lb",
+			"reference": "HT156",
+			"notes": "+2, +3, +4 Acc. Magnifications: 6x, 9x, 16x.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "04a53b56-d3f9-4da4-a55d-eb3b718fe7ac",
+			"quantity": 1,
+			"description": "Flip-up Magnifier",
+			"tech_level": "7",
+			"value": "150",
+			"weight": "1 lb",
+			"reference": "HT156",
+			"notes": "+2 Acc. Magnification 4x.Must be used with a red dot or holographic sight.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "98312869-6518-4394-b270-c8bb4ad6b732",
+			"quantity": 1,
+			"description": "Aimpoint T-1",
+			"tech_level": "8",
+			"value": "800",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/5,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "8ea15791-db1a-4da5-b533-7e6fcf0c9e75",
+			"quantity": 1,
+			"description": "Sig Romeo 4",
+			"tech_level": "8",
+			"value": "350",
+			"weight": "0.23 lb",
+			"reference": "HT156",
+			"notes": "XS/5,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "a17c769f-dbfa-47ed-a84a-04bd42408f1d",
+			"quantity": 1,
+			"description": "Vortex Venom",
+			"tech_level": "8",
+			"value": "350",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/3,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "2eab1dd3-06bc-451f-92da-68dac143244b",
+			"quantity": 1,
+			"description": "Holosun HS403B",
+			"tech_level": "8",
+			"value": "350150",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/3,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "de3c3818-e738-4cd3-90a6-3279e9485a7f",
+			"quantity": 1,
+			"description": "Vortex Crossfire",
+			"tech_level": "8",
+			"value": "450",
+			"weight": "0.3 lb",
+			"reference": "HT156",
+			"notes": "XS/4,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "beabbcd1-3909-46bb-aeec-1ca168a9793e",
+			"quantity": 1,
+			"description": "Swampfox Liberator",
+			"tech_level": "8",
+			"value": "250",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/4,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "b1712586-afe4-4188-86f2-ea341e860443",
+			"quantity": 1,
+			"description": "Swampfox Sentinel",
+			"tech_level": "8",
+			"value": "280",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/3,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "0c9465a0-d9d6-4809-8a0c-a4d998b2e144",
+			"quantity": 1,
+			"description": "Swampfox Liberty",
+			"tech_level": "8",
+			"value": "240",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/2,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "e9430497-f8a6-46a2-849b-1ac31b182444",
+			"quantity": 1,
+			"description": "Trijicon RMR",
+			"tech_level": "8",
+			"value": "600",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/5,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "71f00dff-cd20-4d51-99ec-b672466b4774",
+			"quantity": 1,
+			"description": "C More STS",
+			"tech_level": "8",
+			"value": "350",
+			"weight": "0.21 lb",
+			"reference": "HT156",
+			"notes": "XS/2,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "288481f5-43a1-4f49-8ab9-14022b0e533e",
+			"quantity": 1,
+			"description": "Burris Fastfire",
+			"tech_level": "8",
+			"value": "400",
+			"weight": "0.18 lb",
+			"reference": "HT156",
+			"notes": "XS/3,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "75bbef7c-a59e-40f7-b506-6601ebf218a0",
+			"quantity": 1,
+			"description": "Holosun 407",
+			"tech_level": "8",
+			"value": "250",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/2,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "5fe8de1a-5679-4bcb-8214-f88dc3d00a3f",
+			"quantity": 1,
+			"description": "Sig Romeo 0",
+			"tech_level": "8",
+			"value": "280",
+			"weight": "0.2 lb",
+			"reference": "HT156",
+			"notes": "XS/2,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "f4c80649-83ca-400b-821a-e1c3df42921c",
+			"quantity": 1,
+			"description": "Trijicon RMRcc",
+			"tech_level": "8",
+			"value": "600",
+			"weight": "0.15 lb",
+			"reference": "HT156",
+			"notes": "XS/3,000hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "50cb0abe-c807-4076-99cc-37aac8e0e9f9",
+			"quantity": 1,
+			"description": "EoTech 412",
+			"tech_level": "8",
+			"value": "550",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/800hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "8f8bdd0f-8777-4e29-bde8-50faf76dc0a9",
+			"quantity": 1,
+			"description": "EoTech XP1",
+			"tech_level": "8",
+			"value": "600",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/600hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "b56de492-d3c5-446d-9036-af66dd93390b",
+			"quantity": 1,
+			"description": "Chinese Knock-off Red Dot Sight",
+			"tech_level": "8",
+			"value": "100",
+			"weight": "0.25 lb",
+			"reference": "HT156",
+			"notes": "XS/250hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "87f103dd-f5f8-4348-a138-7179f8c0d2da",
+			"quantity": 1,
+			"description": "Chinese Knock-off Scope",
+			"tech_level": "8",
+			"value": "250",
+			"weight": "1 lb",
+			"reference": "HT156",
+			"notes": "+1, +2, +3 Acc. Magnifications: 2x, 4x, 8x",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "530bc93c-c38c-45c3-8f5b-44e58c1e4108",
+			"quantity": 1,
+			"description": "EoTech ENVG Fusion Goggles",
+			"tech_level": "8",
+			"value": "25000",
+			"weight": "1.5 lb",
+			"reference": "HT48",
+			"notes": "Night Vision 9. Infravision. 2xXS/20hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "5e60c263-4c5a-4c03-a012-7688fdb61704",
+			"quantity": 1,
+			"description": "PVS-14 Rifle Scope",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "2500",
+			"weight": "2 lb",
+			"reference": "HT156",
+			"notes": "+2 Acc. Magnification 4x. Night Vision 7. 2xXS/90hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "ccc9a87e-63ea-46ca-9eaa-ad91692ef449",
+			"quantity": 1,
+			"description": "ATN ThOR 4 Thermal Sight",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "10000",
+			"weight": "1 lb",
+			"reference": "HT157",
+			"notes": "Infravision. +2 Acc. Magnification x4. 2xS/2hrs.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "51125f65-3c1c-4351-b919-8910ce56c7b2",
+			"quantity": 1,
+			"description": "PVS-7 NVGs",
+			"tech_level": "8",
+			"value": "3500",
+			"weight": "1.5 lb",
+			"reference": "HT48",
+			"notes": "Night Vision 7. 2xXS/20hrs. DX-1.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "26296783-270a-49b2-9d81-c6cf86d89fae",
+			"quantity": 1,
+			"description": "Armasight N-15-2 NVGs",
+			"tech_level": "8",
+			"value": "4500",
+			"weight": "1.5 lb",
+			"reference": "HT48",
+			"notes": "Night Vision 8. 2xXS/20hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "355d395e-71b5-4eb8-89df-e4b39fec598b",
+			"quantity": 1,
+			"description": "ATN PS15-3 NVGs",
+			"tech_level": "8",
+			"value": "5500",
+			"weight": "1.5 lb",
+			"reference": "HT48",
+			"notes": "Night Vision 9. 2xXS/20hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "04758ae4-8b5d-4acd-a354-d6840b9b8209",
+			"quantity": 1,
+			"description": "SilencerCo Saker 556",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "400",
+			"weight": "0.25 lb",
+			"reference": "HT159",
+			"notes": "-4 Hearing. -1 Bulk. 5.56x45mm",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "a6152ead-222c-41a5-b789-39e9390b7786",
+			"quantity": 1,
+			"description": "SilencerCo Osprey",
+			"tech_level": "6",
+			"legality_class": "3",
+			"value": "1000",
+			"weight": "1 lb",
+			"reference": "HT159",
+			"notes": "-4 Hearing. -1 Bulk. 9mm/.45 ACP",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "a0b732f4-e4a5-4aa4-836d-de6d6f4b4737",
+			"quantity": 1,
+			"description": "SilencerCo Saker 762",
+			"tech_level": "6",
+			"legality_class": "3",
+			"value": "1000",
+			"weight": "1.5 lb",
+			"reference": "HT159",
+			"notes": "-4 Hearing. -1 Bulk. 5.56x45mm/.30 cal",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "03f761c0-cdc8-4f36-ba44-66e8dd48c0ca",
+			"quantity": 1,
+			"description": "SilencerCo Hybrid 46",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1600",
+			"weight": "1.1 lb",
+			"reference": "HT159",
+			"notes": "-4 Hearing. -2 Bulk.",
+			"categories": [
+				"Firearm Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "3ebc71ca-5399-4570-9c9c-25ee7992eb54",
+			"quantity": 1,
+			"description": "SilencerCo Salvo 12",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1600",
+			"weight": "1.5 lb",
+			"reference": "HT159",
+			"notes": "-4 Hearing. -2 Bulk. 12G",
+			"categories": [
+				"Firearm Accessories"
+			]
+		}
+	]
+}

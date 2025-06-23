@@ -1,0 +1,1163 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eV0-1neKEtKriOVz4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "Wzb6EbAGRtPgf4NTt",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2 cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eSMfCp9bgs6CuOJsr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Smart Limpet Mine",
+			"reference": "UT139",
+			"notes": "100mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 4480,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WiXFs4r32xak4y4nz",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx5",
+						"fragmentation": "5d",
+						"fragmentation_type": "cut"
+					},
+					"range": "x3",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "6dx5 cr ex [5d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eyt7-t87gAoQOqHQG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm Thermobaric",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WUOL5CU28l8kVjpTg",
+					"damage": {
+						"type": "cr ex inc",
+						"base": "6dx5"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "6dx5 cr ex inc"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eOVPJNBH73jXjqB9F",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Limpet Mine",
+			"reference": "UT139",
+			"notes": "64mm Thermobaric",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WVUywi-T9ogOolQnK",
+					"damage": {
+						"type": "cr ex inc",
+						"base": "6dx5"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "6dx5 cr ex inc"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e_KalV0DhAre2atDg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Smart Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 4480,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WF9HQZ4cty4xFw5yf",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2 cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4480,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eyvNsoT3cGoxeAiJz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm HE",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "Wp7zMIBGoreNB0XzE",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"armor_divisor": 0.5,
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2(0.5) cr ex [3d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "es5BLE5I4hoULpKN8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Hand Grenade",
+			"reference": "UT139",
+			"notes": "64mm HEC",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WOWfieOtICZ5IOm0g",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"armor_divisor": 0.5
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8dx2(0.5) cr ex"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoj_WeRQjpNXQjshP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Mini Hand Grenade",
+			"reference": "UT139",
+			"notes": "40mm HEC",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 320,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "W9VTEM39YOdHxzT0y",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"armor_divisor": 0.5
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8d(0.5) cr ex"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ewejB1BEAKSoT3VAH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Mini Hand Grenade",
+			"reference": "UT139",
+			"notes": "40mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 320,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "WT-SCTX3k5lz5puiy",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8d cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eTKoFjp3XJ1XwH8qX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "et7-aWu_M7kpUHJNn"
+			},
+			"description": "Smart Mini Hand Grenade",
+			"reference": "UT139",
+			"notes": "40mm Frag",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition",
+				"Weaponry"
+			],
+			"value": 3520,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "Wh_h9jgEew7F16cme",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Thrown",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "8d cr ex [2d cut]"
+					}
+				}
+			],
+			"rated_strength": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3520,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eet40W04NamV4qm6i",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "e9hj5kUFQz3l_2_at"
+			},
+			"description": "AN-M8",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 720,
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"id": "W7TFZi3ljz6MhRe7e",
+					"damage": {
+						"type": "Smoke (7 yd.)"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "Smoke (7 yd.)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "1.8 lb"
+			}
+		},
+		{
+			"id": "e0L8yNaFpJCNJfjML",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "eSPfhUVz5xjh97ewb"
+			},
+			"description": "AN-M14",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 720,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WcbEMsbPRPtAwd60E",
+					"damage": {
+						"type": "Thermite"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "Thermite"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eZXKWPWo4_OR4ODI9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "eQ9xM94T6CGWQ9jUC"
+			},
+			"description": "M67",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 480,
+			"weight": "0.9 lb",
+			"weapons": [
+				{
+					"id": "WSo2cKphl-IIO5CWS",
+					"damage": {
+						"type": "cr ex",
+						"base": "9d",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "9d cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.9 lb"
+			}
+		},
+		{
+			"id": "evDGGzfv4GSi3vnRM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "e3BreBXW2D_j6n9XR"
+			},
+			"description": "M34 WP",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 800,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "Wpd9BAg5UveRIceMq",
+					"damage": {
+						"type": "burn ex",
+						"base": "2d",
+						"fragmentation": "1d",
+						"fragmentation_armor_divisor": 0.2,
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "2d burn ex [1d(0.2) cut]"
+					}
+				},
+				{
+					"id": "WH5S7BJ7memQPWVKV",
+					"damage": {
+						"type": "Smoke (5 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (5 yd.)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eJtV227_F8kupkYOM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "eCenCjoS0sxO0B8Wc"
+			},
+			"description": "Schermuly Stun",
+			"reference": "HT192",
+			"notes": "Fuse 1-2. 1 Ready maneuver.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 960,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "WvNjPDSuKm-mIOQTx",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "WvzIwnd-BBVvYoQiO",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ekuonS84EKkMNP8sD",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "eC46b6n7BzV_Nffph"
+			},
+			"description": "ARGES HG 86",
+			"reference": "HT192",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 800,
+			"weight": "0.4 lb",
+			"weapons": [
+				{
+					"id": "WcRtQorK2h8NpcGaZ",
+					"damage": {
+						"type": "cr ex",
+						"base": "3d-1",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "3d-1 cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "eoef0gBgJnekwnsmM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "eC8fSKOkzfocWisgT"
+			},
+			"description": "M452 Stingball",
+			"reference": "HT192",
+			"notes": "Fuse 2-3. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 480,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "WuJaw-Rz4bA-Hxr3p",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d+1",
+						"fragmentation": "1d-1",
+						"fragmentation_type": "cr"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr ex [1d-1 cr]"
+					}
+				},
+				{
+					"id": "WtovVNdguSTearxlt",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "WHFbF4-F8DJyzjezf",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e8ACrwmG-Ns2rzzkX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Ammo\\Hand Grenades.eqp",
+				"id": "evUsVBgJ6PXTM4Tul"
+			},
+			"description": "M452C Comboball",
+			"reference": "HT192",
+			"notes": "Fuse 2-3. 1 Ready maneuver.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 560,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "W0maDNEJ_SaxhfjIm",
+					"damage": {
+						"type": "cr ex",
+						"base": "1d+1",
+						"fragmentation": "1d-1",
+						"fragmentation_type": "cr"
+					},
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr ex [1d-1 cr]"
+					}
+				},
+				{
+					"id": "WLSrniiiQEO1MK1tV",
+					"damage": {
+						"type": "HT-5 aff (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5 aff (10 yd.)"
+					}
+				},
+				{
+					"id": "WEBYErPkWTOAbw2H6",
+					"damage": {
+						"type": "Smoke (10 yd.)"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "Smoke (10 yd.)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eOrmjXpPZTa-Xdkl7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eocvSI9iwHbhiqI6J"
+			},
+			"description": "M18A1 Claymore",
+			"reference": "HT189",
+			"notes": "Holdout -3.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 800,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "wzRj4VlBi0D-SWXhM",
+					"damage": {
+						"type": "cr ex",
+						"base": "6dx3"
+					},
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					],
+					"calc": {
+						"damage": "6dx3 cr ex"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eEELlz7GgOKdT9kGP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "e-p6WZfO2Vav7yim2"
+			},
+			"description": "M86 PDM",
+			"reference": "HT189",
+			"notes": "Holdout -2.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"value": 800,
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"id": "WIvgDr1NjttLDRt7C",
+					"damage": {
+						"type": "pi-",
+						"base": "2d",
+						"armor_divisor": 0.5
+					},
+					"range": "55/270",
+					"rate_of_fire": "1x700",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Demolition",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Soldier"
+						},
+						{
+							"type": "skill",
+							"name": "Traps",
+							"modifier": 2
+						}
+					],
+					"calc": {
+						"damage": "2d(0.5) pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "3.5 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,655 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ejs-lKbAJEaZdjen6",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eGMM5-htOeKUV_Cpt"
+			},
+			"description": "C-1 Hotshot, Holdout Gyroc, 15mm",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 1600,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "W22axeqNH67q0VEfB",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "6",
+					"range": "1,900",
+					"rate_of_fire": "1",
+					"shots": "1(3i)",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fFo6wzBxwd043e2EK",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "elyA09JtbqGL6FxmR",
+			"description": "C-4 Quad Launch, Gyroc Pistol, 15mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 6400,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "WN1XC7AEGd8oBN3pv",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "1,900",
+					"rate_of_fire": "1x4/1x1",
+					"shots": "4(3i)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "e24nmkEbelWZL_PA2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "e-ogekPjhpwxjf953"
+			},
+			"description": "C-6 Gyroc Launch Pistol, 15mm",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 9600,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "W1jRNptwrWnOoi_jN",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "10",
+					"accuracy": "1",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "7(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fv7KoIm7E7WEIhKOu",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "erw1el2yyhQRBg8es",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "en1rdQMViD5uPh2GL"
+			},
+			"description": "C-10 Gyroc Carbine, 15mm",
+			"reference": "UT145",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 16000,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "W9d-ATasCHNM_UjZG",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fKJLDMQlm6a7Of_r7",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eHKed0X6OwxKNxnDh",
+			"description": "C-30C, Gyroc Carbine, 30mm",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 70400,
+			"weight": "11 lb",
+			"weapons": [
+				{
+					"id": "WmY0dwxqdhS4rEBHz",
+					"damage": {
+						"type": "p++",
+						"base": "12d"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "5(3)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "12d p++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 70400,
+				"extended_weight": "11 lb"
+			}
+		},
+		{
+			"id": "eCR76g5eEkiJPAFEw",
+			"description": "C-30H Heavy Support Gyroc, 30mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 752000,
+			"weight": "24 lb",
+			"weapons": [
+				{
+					"id": "Wg-Q3-QBJw5YPF2wp",
+					"damage": {
+						"type": "p++",
+						"base": "12d"
+					},
+					"strength": "12M",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "10",
+					"shots": "50(5)",
+					"bulk": "-6",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "12d p++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 752000,
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "eswXqK-1mNlJ1vEkW",
+			"description": "C-30S, Gyroc Break Action, 30mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cerberus Tactical Industries",
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher"
+			],
+			"value": 12800,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "W_Q23i-YP19-1Zve_",
+					"damage": {
+						"type": "p++",
+						"base": "12d"
+					},
+					"strength": "7",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "12d p++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e-hr37y7ixeN-mK5_",
+			"description": "SST Net Fire Launch System, 30mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher",
+				"Sabre Systems and Technology"
+			],
+			"value": 46800,
+			"weight": "19.2 lb",
+			"weapons": [
+				{
+					"id": "WLMJbhwj7bDGLsIT3",
+					"damage": {
+						"type": "p++",
+						"base": "12d"
+					},
+					"strength": "9M",
+					"usage": "Direct Fire",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "12",
+					"shots": "12(3i)",
+					"bulk": "-7",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"hide": true,
+					"calc": {
+						"damage": "12d p++"
+					}
+				},
+				{
+					"id": "WImapBKoJGBaG0e3e",
+					"damage": {
+						"type": "p++",
+						"base": "12d"
+					},
+					"strength": "9M",
+					"usage": "Indirect Fire",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "12",
+					"shots": "12(3i)",
+					"bulk": "-7",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"hide": true,
+					"calc": {
+						"damage": "12d p++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 46800,
+				"extended_weight": "19.2 lb"
+			}
+		},
+		{
+			"id": "eOKuZG3kG_QrZfwPl",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "ewnsoYgh-zkCI51Wc"
+			},
+			"description": "SST-U15, Underbarrel Gyroc, 15mm",
+			"reference": "UT145",
+			"notes": "May be attached to any weapon of Bulk -3 to -6; use that weapon's Bulk.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher",
+				"Sabre Systems and Technology"
+			],
+			"value": 4800,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WeAAmxn61JB4JBJ-I",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "6†",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "6(3)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fPWVj9QuK-SlX40nz",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "edICTYXMWqKLuUGj5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "ewnsoYgh-zkCI51Wc"
+			},
+			"description": "SST-U30, Underbarrel Gyroc, 30mm",
+			"notes": "May be attached to any weapon of Bulk -3 to -6; use that weapon's Bulk.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Gyroc",
+				"Gyroc Launcher",
+				"Sabre Systems and Technology"
+			],
+			"value": 23360,
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"id": "WGCIjyXdbjuQh3FR7",
+					"damage": {
+						"type": "pi++",
+						"base": "12d"
+					},
+					"strength": "7†",
+					"accuracy": "2",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "3(3)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "12d pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 23360,
+				"extended_weight": "6.5 lb"
+			}
+		}
+	]
+}

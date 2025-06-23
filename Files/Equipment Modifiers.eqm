@@ -1,10 +1,1264 @@
 {
-	"type": "eqp_modifier_list",
-	"version": 4,
+	"version": 5,
 	"rows": [
 		{
-			"id": "45c4d3a7-54b9-41c3-84ba-5316c1e9606f",
-			"type": "eqp_modifier",
+			"id": "Fiwe22WFOZkwfuJe9",
+			"name": "Embellishment Modifiers",
+			"children": [
+				{
+					"id": "FXNn-zqoHGVGY0FZq",
+					"name": "Hard Items",
+					"children": [
+						{
+							"id": "f01_wOiMMWvufvqL0",
+							"name": "Beads/Nails, Extensive",
+							"notes": "Pattern of metal beads covering most of the item",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "fAvCutPdfv7aX4oOq",
+							"name": "Beads/Nails, Minimal",
+							"notes": "Pattern of metal beads driven into or soldered upon a small part of the item",
+							"cost_type": "to_base_cost",
+							"cost": "+0.75 CF"
+						},
+						{
+							"id": "fLCw9KG3jLmpaEhSu",
+							"name": "Branding",
+							"notes": "Pattern burned into item; nonmetal items only",
+							"cost_type": "to_base_cost",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "f9KY-zL1oZTXRkEpG",
+							"name": "Exceptional Material",
+							"notes": "Dragonbone, porcelain",
+							"cost_type": "to_base_cost",
+							"cost": "+19 CF"
+						},
+						{
+							"id": "fIj6VKvVs3Q7aci-W",
+							"name": "Fine Material",
+							"notes": "Teak, ebony, ivory",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "fQosywAbItOlcamdA",
+							"name": "Fringe, Cheap",
+							"notes": "Edging of feathers or fur from common animals or dull-covered string",
+							"cost_type": "to_base_cost",
+							"cost": "+0.25 CF"
+						},
+						{
+							"id": "f53-v05OJNGTL5QeX",
+							"name": "Fringe, Expensive",
+							"notes": "Fringe made from costly feathers or fur, or brighly colored tassels",
+							"cost_type": "to_base_cost",
+							"cost": "+0.5 CF"
+						},
+						{
+							"id": "fC0ekS0YDDcncAOUF",
+							"name": "Gilding",
+							"notes": "Thin layer of gold",
+							"cost_type": "to_base_cost",
+							"cost": "+19 CF"
+						},
+						{
+							"id": "fr5dGEgKW5V38J6bp",
+							"name": "Inlay, Cheap, Extensive",
+							"notes": "Extensive design filled in with a differently colored material",
+							"cost_type": "to_base_cost",
+							"cost": "+7 CF"
+						},
+						{
+							"id": "fRPmQ_dzSNR3sno1I",
+							"name": "Inlay, Cheap, Minimal",
+							"notes": "Small design filled in with a differently colored material",
+							"cost_type": "to_base_cost",
+							"cost": "+2.5 CF"
+						},
+						{
+							"id": "fY30hyb5THVdglPxK",
+							"name": "Inlay, Expensive, Extensive",
+							"notes": "Extensive design filled in with costly materials",
+							"cost_type": "to_base_cost",
+							"cost": "+14 CF"
+						},
+						{
+							"id": "f9IzwhOdZm7VaBN_9",
+							"name": "Inlay, Expensive, Minimal",
+							"notes": "Small design filled in with costly materials",
+							"cost_type": "to_base_cost",
+							"cost": "+6 CF"
+						},
+						{
+							"id": "fcJnHKZ1eZXkvY3B7",
+							"name": "Jeweled",
+							"notes": "1d/3 precious stones of considerable size; cost varies by stone",
+							"cost": "+0"
+						},
+						{
+							"id": "f7n53ME_5W--HfgEy",
+							"name": "Painting/Emanel, Minimal",
+							"notes": "Small design painted or in baked-on enamel",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "f1lwMvwzEBovRPCzd",
+							"name": "Painting/Enamel, Extensive",
+							"notes": "Extensive designs painted or as baked-on enamel",
+							"cost_type": "to_base_cost",
+							"cost": "+5 CF"
+						},
+						{
+							"id": "fNpasvpCS1huwdVXn",
+							"name": "Relief, Extensive",
+							"notes": "Extensive carvings, etchings, or stamped into the item's surface",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fFVBqwKsH_x4QLQbQ",
+							"name": "Relief, Minimal",
+							"notes": "Small design carved, etched, or stamped into the item's surface",
+							"cost_type": "to_base_cost",
+							"cost": "+1.5 CF"
+						},
+						{
+							"id": "fF7wZw63iCOGGI8EQ",
+							"name": "Silver Plating",
+							"notes": "Thin layer of silver",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						}
+					]
+				},
+				{
+					"id": "Fp1635zeC5NnZ-8MW",
+					"name": "Soft Items ",
+					"children": [
+						{
+							"id": "fGO08iSCLWDzJtuoX",
+							"name": "Beading, Cheap, Extensive",
+							"notes": "Extensive beading made from clay, common shells, or colored glass",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fUTgrKY3y8ZNRyHlx",
+							"name": "Beading, Cheap, Minimal",
+							"notes": "Few colored beads made from clay, common shells, or colored glass",
+							"cost_type": "to_base_cost",
+							"cost": "+1.5 CF"
+						},
+						{
+							"id": "fTKJhm0cpqU7cG_rF",
+							"name": "Beading, Expensive, Extensive",
+							"notes": "Extensive beading made from semi-precious stones",
+							"cost_type": "to_base_cost",
+							"cost": "+7 CF"
+						},
+						{
+							"id": "fyUOnrBlmpdzbWZiL",
+							"name": "Beading, Expensive, Minimal",
+							"notes": "Few beads made from semi-precious stones",
+							"cost_type": "to_base_cost",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fiEGfMtwW0TwmH-vT",
+							"name": "Bells, Cheap",
+							"notes": "Small, tinkling brass bells. -1 to Stealth.",
+							"cost_type": "to_base_cost",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fSZklbmlTQdv76BKY",
+							"name": "Bells, Expensive",
+							"notes": "Decorated small tinkling bells of gold and silver",
+							"cost_type": "to_base_cost",
+							"cost": "+10 CF"
+						},
+						{
+							"id": "fjMxy3H3bcoeGeIU6",
+							"name": "Block Printing",
+							"cost_type": "to_base_cost",
+							"cost": "+0.5 CF"
+						},
+						{
+							"id": "fmXy_R4edlJu6GUl1",
+							"name": "Branding",
+							"cost_type": "to_base_cost",
+							"cost": "+0.5 CF"
+						},
+						{
+							"id": "fU3ZjK_oD5SqIWAKd",
+							"name": "Dyed, Average",
+							"notes": "Red, green, yellow",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fprbjKeQjpUIU2UVa",
+							"name": "Dyed, Cheap",
+							"notes": "Black, brown, dull red",
+							"cost_type": "to_base_cost",
+							"cost": "+1.5 CF"
+						},
+						{
+							"id": "fDqAq0yWEYY2z7Plg",
+							"name": "Dyed, Expensive",
+							"notes": "Blue, purple",
+							"cost_type": "to_base_cost",
+							"cost": "+8 CF"
+						},
+						{
+							"id": "fUE-tbWzfRkOczAiv",
+							"name": "Embroidered, Extensive",
+							"notes": "Colored threads covering most of the item",
+							"cost_type": "to_base_cost",
+							"cost": "+5 CF"
+						},
+						{
+							"id": "fISpjiVfAmMKRnwxe",
+							"name": "Embroidered, Minimal",
+							"notes": "Small pattern of colored threads sewn into item",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "fvh6Eo0JDpp1BhCVp",
+							"name": "Exceptional Material",
+							"notes": "Spider-silk, cavebear fur, etc.",
+							"cost_type": "to_base_cost",
+							"cost": "+19 CF"
+						},
+						{
+							"id": "fcWX8DN-Fbri3hCTb",
+							"name": "Feathers, Elaborate",
+							"notes": "Extensively decorated or large colorful feathers",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fEHB4sHLYLh0pqACR",
+							"name": "Feathers, Simple",
+							"notes": "Few dull-colored feathers",
+							"cost_type": "to_base_cost",
+							"cost": "+0.5 CF"
+						},
+						{
+							"id": "fg62zvOimTcidTv_4",
+							"name": "Fine Material",
+							"notes": "Silk, velvet, fur",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "fcmnnKrfNlprROOhF",
+							"name": "Fringe, Cheap",
+							"notes": "Dull-colored strings or strips of hide",
+							"cost_type": "to_base_cost",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fWS3wKK_U5iOx9noz",
+							"name": "Fringe, Expensive",
+							"notes": "Elaborately woven and colored tassels",
+							"cost_type": "to_base_cost",
+							"cost": "+6 CF"
+						},
+						{
+							"id": "f6_fjrGXbCYXTQQjk",
+							"name": "Fur Trim, Cheap",
+							"notes": "Trimmed with inexpensive fur, such as rabbit or deer",
+							"cost_type": "to_base_cost",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fD9Ba_7UzaF_ypHgS",
+							"name": "Fur Trim, Expensive",
+							"notes": "Expensive fur, like ermine or sable",
+							"cost_type": "to_base_cost",
+							"cost": "+8 CF"
+						},
+						{
+							"id": "fWVK8F8pKxHvWqMdf",
+							"name": "Lace, Extensive",
+							"notes": "Extensively decorated with lace",
+							"cost_type": "to_base_cost",
+							"cost": "+9 CF",
+							"disabled": true
+						},
+						{
+							"id": "fpP4B7uj-ENDj9Ed2",
+							"name": "Lace, Minimal",
+							"notes": "Trimmed with small amount of lace, or one large lace decoration",
+							"cost_type": "to_base_cost",
+							"cost": "+3.5 CF"
+						},
+						{
+							"id": "fp9zY9F74pId4PU3l",
+							"name": "Patchwork, Cheap",
+							"notes": "Large patches sewn together",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "fJAdAYf-PdyxXFI0e",
+							"name": "Patchwork, Expensive",
+							"notes": "Small patches sewn in elaborate patterns",
+							"cost_type": "to_base_cost",
+							"cost": "+5 CF"
+						},
+						{
+							"id": "fX1aCnYGf-q6zFrxo",
+							"name": "Patchwork Quilt",
+							"notes": "Combines patchwork materials with quilt stitching",
+							"cost_type": "to_base_cost",
+							"cost": "+8 CF"
+						},
+						{
+							"id": "f2EhgOBWWd2c4tkqu",
+							"name": "Quilting",
+							"notes": "Covered with a pattern of stitches holding together thin layers of material",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fNltL2aMM4KMvuf-l",
+							"name": "Resist Dyed",
+							"cost_type": "to_base_cost",
+							"cost": "+2.5 CF"
+						},
+						{
+							"id": "fB5OG2jTxAGpIxSps",
+							"name": "Tapestry Weaving",
+							"notes": "Cloth only; Colored thread are woven into the body of a fabric",
+							"cost_type": "to_base_cost",
+							"cost": "+6 CF"
+						},
+						{
+							"id": "fVdn_DmnVU3R8en95",
+							"name": "Tattooed, Extensive",
+							"notes": "Leather only; Inked design covers the entire item",
+							"cost_type": "to_base_cost",
+							"cost": "+6 CF"
+						},
+						{
+							"id": "fKywjvUcVgLfxX69R",
+							"name": "Tattooed, Minimal",
+							"notes": "Leather only; Small design inked into the material",
+							"cost_type": "to_base_cost",
+							"cost": "+2 CF"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "FOumzQg_T7cTYtZk_",
+			"name": "Low Tech Armor Modifiers",
+			"children": [
+				{
+					"id": "fPhFDPHZIZi7aLjRu",
+					"name": "Improvised",
+					"reference": "LT109",
+					"notes": "-1 DR",
+					"cost_type": "to_base_cost",
+					"cost": "-0.6 CF"
+				},
+				{
+					"id": "f5nUTlBnBKCWTAvag",
+					"name": "Reinforced",
+					"reference": "LT105",
+					"notes": "Textile* or leather armor; +1 DR vs. cutting; +25% weight",
+					"cost": "+25%",
+					"weight": "+25%",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"specialization": "cut",
+							"amount": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Fssf9YZUj_3KkE6hN",
+			"name": "Optional Cost Factors",
+			"children": [
+				{
+					"id": "FMkN0e3_qxIh64Sch",
+					"name": "Adjusting for SM",
+					"reference": "UT16",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "fdEzNO4FvVN9HFq5j",
+							"name": "SM +1",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+1 CF",
+							"weight": "x2"
+						},
+						{
+							"id": "fNM7G-o97MaZy-5Ys",
+							"name": "SM +2",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+4 CF",
+							"weight": "x5"
+						},
+						{
+							"id": "fCkeXI_7JJx5raD7w",
+							"name": "SM +3",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+9 CF",
+							"weight": "x10"
+						},
+						{
+							"id": "fE1JGSW8PZGX2qbxO",
+							"name": "SM +4",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+19 CF",
+							"weight": "x20"
+						},
+						{
+							"id": "fh0GEhhCWvTZhxV77",
+							"name": "SM +5",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+49 CF",
+							"weight": "x50"
+						},
+						{
+							"id": "fJZ7jm1Dqvl5ofeSt",
+							"name": "SM +6",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+99 CF",
+							"weight": "x100"
+						},
+						{
+							"id": "fyV9XlY7gIBIUU0Fj",
+							"name": "SM +7",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+199 CF",
+							"weight": "x200"
+						},
+						{
+							"id": "fQ2uqH9BL7TEG8ZV0",
+							"name": "SM +8",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+499 CF",
+							"weight": "x500"
+						},
+						{
+							"id": "f_v7OqnjvOM2Kl24A",
+							"name": "SM +9",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+999 CF",
+							"weight": "x1000"
+						},
+						{
+							"id": "f08tZfacUxD9UqinC",
+							"name": "SM +10",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "+1999 CF",
+							"weight": "x2000"
+						},
+						{
+							"id": "fflKty5eMPMYqYG2n",
+							"name": "SM -1",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "-0.5 CF",
+							"weight": "x1/2"
+						},
+						{
+							"id": "fKHJTqCiBynx0HRhD",
+							"name": "SM -2",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "-0.8 CF",
+							"weight": "x1/5"
+						},
+						{
+							"id": "faMzksjw57LlZt54O",
+							"name": "SM -3",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "-0.9 CF",
+							"weight": "x1/10"
+						},
+						{
+							"id": "f_EZzbTnqUHeRgDxs",
+							"name": "SM -4",
+							"reference": "UT16",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_weight",
+							"cost": "-0.95 CF",
+							"weight": "x1/20"
+						}
+					]
+				},
+				{
+					"id": "F7WKMd6kS_ynyknew",
+					"name": "Computer Hardware Modifiers",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "fwzlrrGapP_AqC8zg",
+							"name": "Compact",
+							"reference": "UT23",
+							"notes": "Using multipliers",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+1 CF",
+							"weight": "x0.5"
+						},
+						{
+							"id": "f5eduVwrrQJmKBJDL",
+							"name": "Fast (+1 Complexity)",
+							"reference": "UT23",
+							"notes": "Using multipliers",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+19 CF",
+							"weight": "+0 lb"
+						},
+						{
+							"id": "fQWU8KecAeKAP43c2",
+							"name": "FTL (+1 Complexity)",
+							"reference": "UT23",
+							"notes": "Using Mulitpliers, may require Quantum, -1 LC",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "11^",
+							"cost": "+99 CF",
+							"weight": "x2"
+						},
+						{
+							"id": "fI9AgZ6_YL-Vteccd",
+							"name": "Genius (+2 Complexity)",
+							"reference": "UT23",
+							"notes": "Using Multipliers, -1 LC",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+499 CF"
+						},
+						{
+							"id": "fNGncw-fU9I4Q2WaN",
+							"name": "Hardened",
+							"reference": "UT23",
+							"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+1 CF",
+							"weight": "x2"
+						},
+						{
+							"id": "fe0oF9CoR_uKE6_yl",
+							"name": "High-Capacity",
+							"reference": "UT23",
+							"notes": "Using multipliers, Run 50% more programs simultaneously.",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+0.5 CF",
+							"weight": "+0 lb"
+						},
+						{
+							"id": "fmYbiIGSRFJqN35bk",
+							"name": "Printed (-1 Complexity)",
+							"reference": "UT23",
+							"notes": "Using multipliers, -1 Complexity, divide data storage by 1,000",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "TL9",
+							"cost": "+0 CF",
+							"weight": "+0 lb"
+						},
+						{
+							"id": "f8LIFX6hl706Tg3CP",
+							"name": "Quantum",
+							"reference": "UT23",
+							"notes": "Using multipliers, -1 LC",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+9 CF",
+							"weight": "x2"
+						},
+						{
+							"id": "f2tOkLEd99tXCtRt0",
+							"name": "Slow (-1 Complexity)",
+							"notes": "Using multipliers, reduce storage by 1/10",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "-0.8 CF",
+							"weight": "+0 lb"
+						}
+					]
+				},
+				{
+					"id": "Fi4_PFsaOnSBupV4c",
+					"name": "Integrating and Modifying Equipment",
+					"reference": "UT15",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "f9q3h_JRYqUp8_LC1",
+							"name": "Cheap",
+							"reference": "UT15",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_final_base_weight",
+							"cost": "-0.5 CF",
+							"weight": "x1.5"
+						},
+						{
+							"id": "fjB7pIT3c7RUW8Jp1",
+							"name": "Disguised",
+							"reference": "UT15",
+							"notes": "Custom-built item",
+							"cost_type": "to_base_cost",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fVHygPV_wkAubGBuq",
+							"name": "Disguised",
+							"reference": "UT15",
+							"notes": "Mass Produced",
+							"cost_type": "to_base_cost",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fMdmXfrSes3Dvdcot",
+							"name": "Expensive",
+							"reference": "UT15",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"cost": "+1 CF",
+							"weight": "x2/3"
+						},
+						{
+							"id": "fQ9svkzxR6Z0BHiDK",
+							"name": "Rugged",
+							"reference": "UT15",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"cost": "+1 CF",
+							"weight": "x1.2"
+						}
+					]
+				},
+				{
+					"id": "FXJEonQc8EbUlst9H",
+					"name": "Melee and Thrown Weapons",
+					"reference": "UT162",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "f0R3TS9f0sllaoyWK",
+							"name": "Equipment Modifier"
+						},
+						{
+							"id": "fZgMiaWGMnBPjDUvv",
+							"name": "Hyperdense Blade",
+							"reference": "UT164",
+							"notes": "Cost is higher of: 500x Weight in lb, or 10x normal cost.",
+							"cost_type": "to_base_cost",
+							"tech_level": "11",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fllsUUPf__f3REnB5",
+							"name": "Nanothorn Blade",
+							"reference": "UT164",
+							"cost_type": "to_base_cost",
+							"tech_level": "11^",
+							"cost": "+19 CF"
+						},
+						{
+							"id": "f6lYGLA0obbbpRS5o",
+							"name": "Nanothorn Blade",
+							"reference": "UT164",
+							"notes": "Upgrade for Monowire.",
+							"cost_type": "to_base_cost",
+							"tech_level": "11^",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fnkxMSFqTo-hyT0EK",
+							"name": "Rocket Striker",
+							"reference": "UT163",
+							"cost_type": "to_final_base_cost",
+							"weight_type": "to_final_base_weight",
+							"tech_level": "9",
+							"cost": "+500",
+							"weight": "+1 lb"
+						},
+						{
+							"id": "fVyoeM21Q20nK-MyX",
+							"name": "Superfine Blade",
+							"reference": "UT163",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+5 CF"
+						},
+						{
+							"id": "f_2QtgH5x1dvMEYgs",
+							"name": "Superfine Vibroblade",
+							"reference": "UT164",
+							"cost_type": "to_base_cost",
+							"tech_level": "10",
+							"cost": "+29 CF"
+						},
+						{
+							"id": "fyI47eZyE6Xkzkl2K",
+							"name": "Vibroblade",
+							"reference": "UT164",
+							"cost_type": "to_base_cost",
+							"tech_level": "10",
+							"cost": "+10 CF"
+						}
+					]
+				},
+				{
+					"id": "FxBKPBWaQ9-AuGFTJ",
+					"name": "Tailoring Armor",
+					"reference": "UT174",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "F1ixfPdG2USPOv-K1",
+							"name": "Cut",
+							"children": [
+								{
+									"id": "f3pWlzQYcCV4Rt3tu",
+									"name": "Fashion Original",
+									"reference": "UT175",
+									"cost_type": "to_base_cost",
+									"cost": "+19 CF"
+								},
+								{
+									"id": "fF22Bi4enOXxoiUjW",
+									"name": "Stylish",
+									"reference": "UT175",
+									"cost_type": "to_base_cost",
+									"cost": "+3 CF"
+								}
+							]
+						},
+						{
+							"id": "FoZkdnTiN09XleGAv",
+							"name": "Style",
+							"reference": "UT175",
+							"children": [
+								{
+									"id": "fZZL7YGJi83CGqehF",
+									"name": "Diaphanous",
+									"reference": "UT175",
+									"notes": "Multiply DR by 0.5, Increase LC by 1",
+									"cost_type": "to_base_cost",
+									"weight_type": "to_base_weight",
+									"cost": "-0.5 CF",
+									"weight": "x0.5"
+								},
+								{
+									"id": "fKD4H-r37b2gZ7s4A",
+									"name": "Heavy",
+									"reference": "UT175",
+									"notes": "Multiply DR by 1.5, Reduce LC by 1",
+									"cost_type": "to_base_cost",
+									"weight_type": "to_final_base_weight",
+									"cost": "+0.5 CF",
+									"weight": "x1.5"
+								},
+								{
+									"id": "fnlR5HBkPPBn-25F9",
+									"name": "Light",
+									"reference": "UT175",
+									"notes": "Multiply DR by 2/3, Increase LC by 1",
+									"cost_type": "to_base_cost",
+									"weight_type": "to_final_base_weight",
+									"cost": "-0.33 CF",
+									"weight": "x2/3"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "FfNbsAQe6P-8Aul4Z",
+					"name": "Warheads and Ammunition",
+					"reference": "UT152",
+					"notes": "Cost Factor Conversion as of LT14",
+					"children": [
+						{
+							"id": "FOn47MZVnCbrZYZVZ",
+							"name": "Antimatter Warhead Antimatter Costs",
+							"reference": "UT157",
+							"children": [
+								{
+									"id": "fNmNb5Sq95MdvHveA",
+									"name": "Antimatter, 0.1 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "9",
+									"cost": "+2500"
+								},
+								{
+									"id": "faA4OP_GygKvljT9Z",
+									"name": "Antimatter, 0.1 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "10",
+									"cost": "+250"
+								},
+								{
+									"id": "fVa0IotvuvYXnM6-I",
+									"name": "Antimatter, 0.1 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "11",
+									"cost": "+2.5"
+								},
+								{
+									"id": "fjihgYIQ3IXGQ1iAu",
+									"name": "Antimatter, 0.1 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "12",
+									"cost": "+0.5"
+								},
+								{
+									"id": "fplW62hxu7NviLYTq",
+									"name": "Antimatter, 1 microgram",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "9",
+									"cost": "+25000"
+								},
+								{
+									"id": "fzrxXZ2WcXl-_N7sw",
+									"name": "Antimatter, 1 microgram",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "10",
+									"cost": "+2500"
+								},
+								{
+									"id": "f_UOm6ndrTj9n06Cg",
+									"name": "Antimatter, 1 microgram",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "11",
+									"cost": "+25"
+								},
+								{
+									"id": "fq5SOMyyjvOsR8ozG",
+									"name": "Antimatter, 1 microgram",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "12",
+									"cost": "+5"
+								},
+								{
+									"id": "f0fEndTig5VrTfEyM",
+									"name": "Antimatter, 10 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "9",
+									"cost": "+250000"
+								},
+								{
+									"id": "fkyVoQlkJTI3zJ-vg",
+									"name": "Antimatter, 10 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "10",
+									"cost": "+25000"
+								},
+								{
+									"id": "fYcWy2tGtsEOx9guY",
+									"name": "Antimatter, 10 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_final_cost",
+									"tech_level": "11",
+									"cost": "+250"
+								},
+								{
+									"id": "fOr0Wb8pLUEptRZGz",
+									"name": "Antimatter, 10 micrograms",
+									"reference": "UT157",
+									"cost_type": "to_base_cost",
+									"tech_level": "12",
+									"cost": "+50 CF"
+								}
+							]
+						},
+						{
+							"id": "fXUcNNxZmYAqpnz2w",
+							"name": "Armor Piercing Hyperdense Dart",
+							"reference": "UT156",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "ftMTWbB4jw-3bzy1T",
+							"name": "Armor-Piercing Enhanced Penetrator",
+							"reference": "UT152",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fLbFp2zulO9PAccZ5",
+							"name": "Armor-Piercing Hardcore",
+							"reference": "UT152",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fruKuX5Me-ja0HNXe",
+							"name": "Armor-Piercing Hardcore Explosive",
+							"reference": "UT152",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fvGmysQUB8i7Xteef",
+							"name": "Biochemical Aerosol",
+							"reference": "UT153",
+							"notes": "Cost Plus Filler x # of Doses",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "fzRV-8qAO_LJqMCpM",
+							"name": "Biochemical Liquid",
+							"reference": "UT153",
+							"notes": "Cost Plus Filler x # of Doses",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "fwie4k84cInxGrbdZ",
+							"name": "Burrow Darts",
+							"reference": "UT155",
+							"cost_type": "to_base_cost",
+							"tech_level": "10",
+							"cost": "+2 CF"
+						},
+						{
+							"id": "f4lY9aBMi9QYrj1Tq",
+							"name": "Electrothermal-Chemical",
+							"reference": "UT139",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fsKC--q1KmR6a67u8",
+							"name": "EMP",
+							"reference": "UT157",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fHp5RsN5q3r-aR_i1",
+							"name": "Expendable Jammer",
+							"reference": "UT157",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fH0Al2q9rxaUqJreR",
+							"name": "Flare",
+							"reference": "UT153",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "f-4rh34kNgOO7tDvy",
+							"name": "Force",
+							"reference": "UT158",
+							"cost_type": "to_base_cost",
+							"tech_level": "10^",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fp0jgMsP25A-2xqVk",
+							"name": "High Explosive",
+							"reference": "UT153",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "fM-Jfj_TPPml15-OD",
+							"name": "High Explosive Concussion",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "fQ84CdCx9HRs4q3LS",
+							"name": "High Explosive Multi-Purpose",
+							"reference": "UT155",
+							"cost_type": "to_base_cost",
+							"tech_level": "10",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fcI-kxayTtrwGUwlj",
+							"name": "Hollow-Point",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "fUfNILUccD_roEs2n",
+							"name": "Implosion",
+							"reference": "UT158",
+							"cost_type": "to_base_cost",
+							"tech_level": "11^",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fDdtrq0M1RG2XScTx",
+							"name": "Infrared Homing",
+							"reference": "UT146",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fOrLmBMy6-TuOxQJV",
+							"name": "Liquid Propellant",
+							"reference": "UT139",
+							"notes": "1.5x many shots per magazine",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0.5 CF"
+						},
+						{
+							"id": "fPlib0Yrbp8JaxXQB",
+							"name": "Memory Baton",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "f-R4LRfmspWzT-1EF",
+							"name": "Micro-Antimatter Warhead",
+							"reference": "UT156",
+							"cost_type": "to_base_cost",
+							"tech_level": "10",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fXPbj7BzeAzpfUUb5",
+							"name": "Mininuke",
+							"reference": "UT156",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+999 CF"
+						},
+						{
+							"id": "fUYcY4T6CEAW7iD0C",
+							"name": "Monochain",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9^",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fSgWzobP4zkv6gVX_",
+							"name": "Multi-Spectral Homing",
+							"reference": "UT146",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fSeeCecUO1qlN7H7h",
+							"name": "Multiscanner Homing",
+							"reference": "UT146",
+							"cost_type": "to_base_cost",
+							"tech_level": "11^",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "f8kUjT_4bjo3WeZxs",
+							"name": "Plasma",
+							"reference": "UT158",
+							"cost_type": "to_base_cost",
+							"tech_level": "10^",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fxBv5oCei_f_j3g4J",
+							"name": "Psi-Bomb",
+							"reference": "UT158",
+							"cost_type": "to_base_cost",
+							"tech_level": "12^",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fqihHahxyMpDthzio",
+							"name": "Psi-Bomb, Message",
+							"reference": "UT159",
+							"cost_type": "to_base_cost",
+							"tech_level": "12^",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fHG74r0VhQrgaDGe-",
+							"name": "Psi-Bomb, Terror",
+							"reference": "UT159",
+							"cost_type": "to_base_cost",
+							"tech_level": "12^",
+							"cost": "+9 CF"
+						},
+						{
+							"id": "fA2iq15CeQEureOQg",
+							"name": "Shaped Charge",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "f29rwT22bd0uRg6fP",
+							"name": "Shotshell",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+0 CF"
+						},
+						{
+							"id": "f-TiZt2qJ26mn-ZPS",
+							"name": "Smart Explosively Forged Projectile",
+							"reference": "UT154",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "f61OR9DIjV1JdcY0h",
+							"name": "Stasis",
+							"reference": "UT159",
+							"cost_type": "to_base_cost",
+							"tech_level": "12^",
+							"cost": "+499 CF"
+						},
+						{
+							"id": "fEvDdW6E-fzy4t8Cc",
+							"name": "Stingray",
+							"reference": "UT156",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fDfoQfr8lJsotprRA",
+							"name": "Strobe",
+							"reference": "UT157",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "feiOmgDY26lXYGfiW",
+							"name": "Swarm",
+							"reference": "UT156",
+							"notes": "Plus Cost of Swarm",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fYxDa2D1pQdMAngxB",
+							"name": "Tangler",
+							"reference": "UT155",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+1 CF"
+						},
+						{
+							"id": "fUjjEvT0Lh1Y6eBNL",
+							"name": "Thermobaric",
+							"reference": "UT155",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+4 CF"
+						},
+						{
+							"id": "fxt2A2umFEdfn4-JN",
+							"name": "Vortex",
+							"reference": "UT159",
+							"cost_type": "to_base_cost",
+							"tech_level": "12^",
+							"cost": "+999 CF"
+						},
+						{
+							"id": "fB6eDkHZTLFC1ojsZ",
+							"name": "Warbler",
+							"reference": "UT157",
+							"cost_type": "to_base_cost",
+							"tech_level": "9",
+							"cost": "+3 CF"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fBzT5tsi7zyhbZM4y",
 			"name": "Bulky",
 			"reference": "ATE1:29",
 			"cost_type": "to_base_cost",
@@ -13,16 +1267,7 @@
 			"weight": "x1.5"
 		},
 		{
-			"id": "4775f3e6-6159-4489-9c34-d3ea844eb82b",
-			"type": "eqp_modifier",
-			"name": "Poorly Balanced",
-			"reference": "AE1:31",
-			"cost_type": "to_base_cost",
-			"cost": "-0.6 CF"
-		},
-		{
-			"id": "1d4ee955-6805-486c-91cc-3ff3e10a88ae",
-			"type": "eqp_modifier",
+			"id": "f1E4cY8E8VzWnIQxz",
 			"name": "Cheap",
 			"reference": "ATE1:32",
 			"notes": "-1 Acc, -1 HT, and -1 Malf. If not using Malfunctions (p. B407), treat 16 as automatic failure and 17 as critical failure when shooting it. Firearms only.",
@@ -33,8 +1278,7 @@
 			"cost": "-0.6 CF"
 		},
 		{
-			"id": "845cd94f-623d-499a-8ad4-795b56fb579a",
-			"type": "eqp_modifier",
+			"id": "fXpdvgscIiQSFKoaJ",
 			"name": "Collapsible Bow",
 			"reference": "PY96:14",
 			"cost_type": "to_base_cost",
@@ -53,8 +1297,7 @@
 			]
 		},
 		{
-			"id": "b3362cda-a085-4b9f-b12e-66d787514180",
-			"type": "eqp_modifier",
+			"id": "f7Z1PDD54vwJ2QsHf",
 			"name": "Fragile",
 			"reference": "ATE1:29",
 			"notes": "-1 to HT, 3/4 normal DR",
@@ -62,8 +1305,7 @@
 			"cost": "-0.2 CF"
 		},
 		{
-			"id": "deb87213-0049-459e-b58b-dc85dc37ad4e",
-			"type": "eqp_modifier",
+			"id": "f8yil83OS4__koL7W",
 			"name": "Hard to Use 1",
 			"reference": "ATE1:29",
 			"notes": "-1 on rolls to operate.",
@@ -71,8 +1313,7 @@
 			"cost": "-0.2 CF"
 		},
 		{
-			"id": "7cc27b75-2581-490c-8c3b-944d205f2387",
-			"type": "eqp_modifier",
+			"id": "fLC9Z8Xe1YG-diJnx",
 			"name": "Hard to Use 2",
 			"reference": "ATE1:29",
 			"notes": "-2 on rolls to operate.",
@@ -80,8 +1321,7 @@
 			"cost": "-0.4 CF"
 		},
 		{
-			"id": "6e9ebd8b-f8b1-4179-a6e8-87727358ab6d",
-			"type": "eqp_modifier",
+			"id": "fpuapVROWopTrfYtU",
 			"name": "Hard to Use 3",
 			"reference": "ATE1:29",
 			"notes": "-3 on rolls to operate.",
@@ -89,8 +1329,7 @@
 			"cost": "-0.6 CF"
 		},
 		{
-			"id": "f39bd611-37ec-4143-87fe-26f984068ad1",
-			"type": "eqp_modifier",
+			"id": "fBN-xkmB4KCPLU5vu",
 			"name": "Hard to Use 4",
 			"reference": "ATE1:29",
 			"notes": "-4 on rolls to operate.",
@@ -98,88 +1337,84 @@
 			"cost": "-0.8 CF"
 		},
 		{
-			"id": "5f6d6b1d-8546-4a89-9786-0f71073ac817",
-			"type": "eqp_modifier",
+			"id": "fHKqr0arvtw-fgxoC",
+			"name": "Poorly Balanced",
+			"reference": "AE1:31",
+			"cost_type": "to_base_cost",
+			"cost": "-0.6 CF"
+		},
+		{
+			"id": "ftuYxsvPdpWbMCEle",
 			"name": "Tainted (@Disease@)",
 			"reference": "ATE1:30",
 			"cost_type": "to_base_cost",
 			"cost": "-0.75 CF"
 		},
 		{
-			"id": "fd75a707-9b8a-44fa-9de0-37d3d88ae9fe",
-			"type": "eqp_modifier",
+			"id": "f-cTBo45NLHY9zyid",
 			"name": "Tainted (Radiation)",
 			"reference": "ATE1:30",
 			"cost_type": "to_base_cost",
 			"cost": "-0.75 CF"
 		},
 		{
-			"id": "40e5f1ff-2de0-4788-b93a-b007f02adbc2",
-			"type": "eqp_modifier",
+			"id": "f_1uTA38P1tikI4n3",
 			"name": "TL5 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x2"
 		},
 		{
-			"id": "749b08c8-4f80-4c93-bd39-853929f9363c",
-			"type": "eqp_modifier",
+			"id": "f5zoytyRXe9kVCIc-",
 			"name": "TL6 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x4"
 		},
 		{
-			"id": "9f34b4a3-35cd-486c-98fd-4cd9da58b82b",
-			"type": "eqp_modifier",
+			"id": "fjiy_lm9vR-wVUIdB",
 			"name": "TL7 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x8"
 		},
 		{
-			"id": "0cddea66-f803-4730-be8c-4d0f1ebcf1e8",
-			"type": "eqp_modifier",
+			"id": "f4tK04cMdGjfkW-S9",
 			"name": "TL8 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x16"
 		},
 		{
-			"id": "bba688de-ac0a-4e62-b391-a43f91214cee",
-			"type": "eqp_modifier",
+			"id": "ffDUxWzOD28Dbwskj",
 			"name": "TL9 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x32"
 		},
 		{
-			"id": "5420d746-368c-48d3-98c1-b58ea39d2ed6",
-			"type": "eqp_modifier",
+			"id": "fv9bChrEils0iVxon",
 			"name": "TL10 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x64"
 		},
 		{
-			"id": "b862c5b9-795c-471b-b38a-6f8cb3c96858",
-			"type": "eqp_modifier",
+			"id": "fZ9cHnl61Ve6gBdhh",
 			"name": "TL11 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x128"
 		},
 		{
-			"id": "9de77c4e-0204-4d61-8440-ce2e0ba8f0e1",
-			"type": "eqp_modifier",
+			"id": "fU3g8EHS45Nzqvgmx",
 			"name": "TL12 Price Modifier",
 			"reference": "ATE1:29",
 			"cost_type": "to_final_cost",
 			"cost": "x256"
 		},
 		{
-			"id": "96e04c99-9d80-4d95-9e7d-b8d5f43354bf",
-			"type": "eqp_modifier",
+			"id": "ff-qBwxQa010yCCm-",
 			"name": "Unreliable",
 			"reference": "ATE1:29",
 			"notes": "Roll HT to avoid breakage",
@@ -187,1020 +1422,12 @@
 			"cost": "-0.6 CF"
 		},
 		{
-			"id": "a60abd77-9eb2-402a-bd6c-9d14d262837b",
-			"type": "eqp_modifier",
+			"id": "fvpN114mS4tuqKJRb",
 			"name": "Very Fragile",
 			"reference": "ATE1:29",
 			"notes": "-2 to HT, 1/2 normal DR",
 			"cost_type": "to_base_cost",
 			"cost": "-0.5 CF"
-		},
-		{
-			"id": "e75cc157-49da-4f09-a54d-ee4cd826811b",
-			"type": "eqp_modifier_container",
-			"children": [
-				{
-					"id": "5512dec7-5e09-40bc-9b15-b4325661af9d",
-					"type": "eqp_modifier",
-					"name": "Improvised",
-					"reference": "LT109",
-					"notes": "-1 DR",
-					"cost_type": "to_base_cost",
-					"cost": "-0.6 CF"
-				},
-				{
-					"id": "c917ae44-c816-462d-aa65-fd27a7e3f111",
-					"type": "eqp_modifier",
-					"name": "Reinforced",
-					"reference": "LT105",
-					"notes": "Textile* or leather armor; +1 DR vs. cutting; +25% weight",
-					"cost": "+25%",
-					"weight": "+25%",
-					"features": [
-						{
-							"type": "dr_bonus",
-							"location": "leg",
-							"specialization": "cut",
-							"amount": 1
-						}
-					]
-				}
-			],
-			"name": "Low Tech Armor Modifiers"
-		},
-		{
-			"id": "67de0a5e-092d-4ee2-b50b-7550e93bc2b2",
-			"type": "eqp_modifier_container",
-			"children": [
-				{
-					"id": "6820670d-31e1-44c8-92e4-7f919fc36e2e",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "7804f522-1102-453e-bb79-ce38f8ab8c90",
-							"type": "eqp_modifier",
-							"name": "SM +1",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+1 CF",
-							"weight": "x2"
-						},
-						{
-							"id": "a7aee97e-3051-418f-9e8c-e3ab9060e788",
-							"type": "eqp_modifier",
-							"name": "SM +2",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+4 CF",
-							"weight": "x5"
-						},
-						{
-							"id": "3042a1c8-9928-4651-9049-aad781b3cb68",
-							"type": "eqp_modifier",
-							"name": "SM +3",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+9 CF",
-							"weight": "x10"
-						},
-						{
-							"id": "0979c617-3617-4f56-b9c1-3a4755a4be67",
-							"type": "eqp_modifier",
-							"name": "SM +4",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+19 CF",
-							"weight": "x20"
-						},
-						{
-							"id": "2b3f6851-f5e1-4786-84fc-fe28dcd70f66",
-							"type": "eqp_modifier",
-							"name": "SM +5",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+49 CF",
-							"weight": "x50"
-						},
-						{
-							"id": "e73b2a44-171e-469c-88c5-334de886d0e9",
-							"type": "eqp_modifier",
-							"name": "SM +6",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+99 CF",
-							"weight": "x100"
-						},
-						{
-							"id": "4ee78473-006a-4eaf-b0f3-7a5cedc02a31",
-							"type": "eqp_modifier",
-							"name": "SM +7",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+199 CF",
-							"weight": "x200"
-						},
-						{
-							"id": "c2789614-7f49-4333-b4ef-19154a639008",
-							"type": "eqp_modifier",
-							"name": "SM +8",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+499 CF",
-							"weight": "x500"
-						},
-						{
-							"id": "390f4650-6ac4-4b37-93fe-c9cc5b24ba47",
-							"type": "eqp_modifier",
-							"name": "SM +9",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+999 CF",
-							"weight": "x1000"
-						},
-						{
-							"id": "061e576d-b366-4b8d-8af8-248c3a92c821",
-							"type": "eqp_modifier",
-							"name": "SM +10",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "+1999 CF",
-							"weight": "x2000"
-						},
-						{
-							"id": "4c9a4321-f124-40af-8aa6-d2013a89d84d",
-							"type": "eqp_modifier",
-							"name": "SM -1",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "-0.5 CF",
-							"weight": "x1/2"
-						},
-						{
-							"id": "9f5897ef-ff02-4fbf-a8a7-002544029884",
-							"type": "eqp_modifier",
-							"name": "SM -2",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "-0.8 CF",
-							"weight": "x1/5"
-						},
-						{
-							"id": "7fa1fe73-3143-4e3a-897a-26845674e475",
-							"type": "eqp_modifier",
-							"name": "SM -3",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "-0.9 CF",
-							"weight": "x1/10"
-						},
-						{
-							"id": "164a745d-af99-426f-bfa3-6ba550a54537",
-							"type": "eqp_modifier",
-							"name": "SM -4",
-							"reference": "UT16",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_weight",
-							"cost": "-0.95 CF",
-							"weight": "x1/20"
-						}
-					],
-					"name": "Adjusting for SM",
-					"reference": "UT16",
-					"notes": "Cost Factor Conversion as of LT14"
-				},
-				{
-					"id": "3564b7ba-c29e-4a58-8bcd-f9b1669e84c0",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "ced90456-4ebc-4554-98cc-fc6684594ca5",
-							"type": "eqp_modifier",
-							"name": "Compact",
-							"reference": "UT23",
-							"notes": "Using multipliers",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "+1 CF",
-							"weight": "x0.5"
-						},
-						{
-							"id": "8005159b-af16-4596-bd22-219ac05e5a99",
-							"type": "eqp_modifier",
-							"name": "Fast (+1 Complexity)",
-							"reference": "UT23",
-							"notes": "Using multipliers",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "+19 CF",
-							"weight": "+0 lb"
-						},
-						{
-							"id": "ca6ab2f1-333c-40d5-b440-ed814f69fb36",
-							"type": "eqp_modifier",
-							"name": "FTL (+1 Complexity)",
-							"reference": "UT23",
-							"notes": "Using Mulitpliers, may require Quantum, -1 LC",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "11^",
-							"cost": "+99 CF",
-							"weight": "x2"
-						},
-						{
-							"id": "ec23ea91-d526-485a-84e6-96d00f593f7e",
-							"type": "eqp_modifier",
-							"name": "Hardened",
-							"reference": "UT23",
-							"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "+1 CF",
-							"weight": "x2"
-						},
-						{
-							"id": "bef91eb3-ad5a-4caf-93f5-8231725c3d4f",
-							"type": "eqp_modifier",
-							"name": "High-Capacity",
-							"reference": "UT23",
-							"notes": "Using multipliers, Run 50% more programs simultaneously.",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "+0.5 CF",
-							"weight": "+0 lb"
-						},
-						{
-							"id": "1c16f38b-99b2-4855-8819-342ab26c2a84",
-							"type": "eqp_modifier",
-							"name": "Genius (+2 Complexity)",
-							"reference": "UT23",
-							"notes": "Using Multipliers, -1 LC",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+499 CF"
-						},
-						{
-							"id": "850e7445-27cc-48ec-91bc-169e5ec46b9b",
-							"type": "eqp_modifier",
-							"name": "Printed (-1 Complexity)",
-							"reference": "UT23",
-							"notes": "Using multipliers, -1 Complexity, divide data storage by 1,000",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "TL9",
-							"cost": "+0 CF",
-							"weight": "+0 lb"
-						},
-						{
-							"id": "fc191667-41e9-4c4d-8252-f8b1c589dd59",
-							"type": "eqp_modifier",
-							"name": "Quantum",
-							"reference": "UT23",
-							"notes": "Using multipliers, -1 LC",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "+9 CF",
-							"weight": "x2"
-						},
-						{
-							"id": "065f066b-8d0a-4536-9abd-3c7e1c9ab0c1",
-							"type": "eqp_modifier",
-							"name": "Slow (-1 Complexity)",
-							"notes": "Using multipliers, reduce storage by 1/10",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"tech_level": "9",
-							"cost": "-0.8 CF",
-							"weight": "+0 lb"
-						}
-					],
-					"name": "Computer Hardware Modifiers",
-					"notes": "Cost Factor Conversion as of LT14"
-				},
-				{
-					"id": "680ef116-0744-4ce7-bcad-58859c1c1f1c",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "b315d719-a806-4691-8264-d8583776b26c",
-							"type": "eqp_modifier",
-							"name": "Cheap",
-							"reference": "UT15",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_final_base_weight",
-							"cost": "-0.5 CF",
-							"weight": "x1.5"
-						},
-						{
-							"id": "6162a9be-ea55-4a93-8d8e-db8285c4f29b",
-							"type": "eqp_modifier",
-							"name": "Disguised",
-							"reference": "UT15",
-							"notes": "Custom-built item",
-							"cost_type": "to_base_cost",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "bb7c0d82-504d-4fe1-990d-b4d0bff9be0f",
-							"type": "eqp_modifier",
-							"name": "Disguised",
-							"reference": "UT15",
-							"notes": "Mass Produced",
-							"cost_type": "to_base_cost",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "d1991a17-88a0-4ea1-8592-fb9e7e596511",
-							"type": "eqp_modifier",
-							"name": "Expensive",
-							"reference": "UT15",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"cost": "+1 CF",
-							"weight": "x2/3"
-						},
-						{
-							"id": "6bc1bb7c-0f8e-40a5-bdb8-36532e59440f",
-							"type": "eqp_modifier",
-							"name": "Rugged",
-							"reference": "UT15",
-							"cost_type": "to_base_cost",
-							"weight_type": "to_base_weight",
-							"cost": "+1 CF",
-							"weight": "x1.2"
-						}
-					],
-					"name": "Integrating and Modifying Equipment",
-					"reference": "UT15",
-					"notes": "Cost Factor Conversion as of LT14"
-				},
-				{
-					"id": "963534b6-b657-436d-b46c-7460874f47f6",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "8aecc138-9613-41d6-bca9-897d4714dde6",
-							"type": "eqp_modifier",
-							"name": "Hyperdense Blade",
-							"reference": "UT164",
-							"notes": "Cost is higher of: 500x Weight in lb, or 10x normal cost.",
-							"cost_type": "to_base_cost",
-							"tech_level": "11",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "b63bcd8b-c2f7-4c8f-b827-683882addc24",
-							"type": "eqp_modifier",
-							"name": "Equipment Modifier"
-						},
-						{
-							"id": "16910545-a9f0-4eb5-9b95-d3a6def19f20",
-							"type": "eqp_modifier",
-							"name": "Nanothorn Blade",
-							"reference": "UT164",
-							"cost_type": "to_base_cost",
-							"tech_level": "11^",
-							"cost": "+19 CF"
-						},
-						{
-							"id": "ef75a93e-4fb1-4f4a-b561-9141ddde5e23",
-							"type": "eqp_modifier",
-							"name": "Nanothorn Blade",
-							"reference": "UT164",
-							"notes": "Upgrade for Monowire.",
-							"cost_type": "to_base_cost",
-							"tech_level": "11^",
-							"cost": "+3 CF"
-						},
-						{
-							"id": "d94ac790-a57f-41e4-bacc-b0c0ba2ffa0d",
-							"type": "eqp_modifier",
-							"name": "Rocket Striker",
-							"reference": "UT163",
-							"cost_type": "to_final_base_cost",
-							"weight_type": "to_final_base_weight",
-							"tech_level": "9",
-							"cost": "+500",
-							"weight": "+1 lb"
-						},
-						{
-							"id": "111626f1-dee4-47a5-b037-a771711a5af7",
-							"type": "eqp_modifier",
-							"name": "Superfine Blade",
-							"reference": "UT163",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+5 CF"
-						},
-						{
-							"id": "8d945b4a-e58b-463a-a20f-052d6b76fad8",
-							"type": "eqp_modifier",
-							"name": "Superfine Vibroblade",
-							"reference": "UT164",
-							"cost_type": "to_base_cost",
-							"tech_level": "10",
-							"cost": "+29 CF"
-						},
-						{
-							"id": "ce9818fb-0a82-49b6-9a5a-5094f944a46e",
-							"type": "eqp_modifier",
-							"name": "Vibroblade",
-							"reference": "UT164",
-							"cost_type": "to_base_cost",
-							"tech_level": "10",
-							"cost": "+10 CF"
-						}
-					],
-					"open": true,
-					"name": "Melee and Thrown Weapons",
-					"reference": "UT162",
-					"notes": "Cost Factor Conversion as of LT14"
-				},
-				{
-					"id": "8b79cb83-34c7-4728-951c-a763aa6a2525",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "9001561c-a9b4-4e29-876d-551e4c46b968",
-							"type": "eqp_modifier_container",
-							"children": [
-								{
-									"id": "88f351fb-9448-467b-a58a-bbe1d5d61d1d",
-									"type": "eqp_modifier",
-									"name": "Fashion Original",
-									"reference": "UT175",
-									"cost_type": "to_base_cost",
-									"cost": "+19 CF"
-								},
-								{
-									"id": "df758b0c-30ea-4324-963c-213e7dceb5a3",
-									"type": "eqp_modifier",
-									"name": "Stylish",
-									"reference": "UT175",
-									"cost_type": "to_base_cost",
-									"cost": "+3 CF"
-								}
-							],
-							"open": true,
-							"name": "Cut"
-						},
-						{
-							"id": "1af7cb28-812c-47d6-9326-e5ebaf6d47d4",
-							"type": "eqp_modifier_container",
-							"children": [
-								{
-									"id": "e1dfc7c0-4053-4c37-9ab3-a96cb375246a",
-									"type": "eqp_modifier",
-									"name": "Diaphanous",
-									"reference": "UT175",
-									"notes": "Multiply DR by 0.5, Increase LC by 1",
-									"cost_type": "to_base_cost",
-									"weight_type": "to_base_weight",
-									"cost": "-0.5 CF",
-									"weight": "x0.5"
-								},
-								{
-									"id": "52b92fa0-b254-4c51-a2eb-270042cbe755",
-									"type": "eqp_modifier",
-									"name": "Heavy",
-									"reference": "UT175",
-									"notes": "Multiply DR by 1.5, Reduce LC by 1",
-									"cost_type": "to_base_cost",
-									"weight_type": "to_final_base_weight",
-									"cost": "+0.5 CF",
-									"weight": "x1.5"
-								},
-								{
-									"id": "200dfd6f-9bee-446e-94d2-d95ee81b9ecb",
-									"type": "eqp_modifier",
-									"name": "Light",
-									"reference": "UT175",
-									"notes": "Multiply DR by 2/3, Increase LC by 1",
-									"cost_type": "to_base_cost",
-									"weight_type": "to_final_base_weight",
-									"cost": "-0.33 CF",
-									"weight": "x2/3"
-								}
-							],
-							"open": true,
-							"name": "Style",
-							"reference": "UT175"
-						}
-					],
-					"name": "Tailoring Armor",
-					"reference": "UT174",
-					"notes": "Cost Factor Conversion as of LT14"
-				},
-				{
-					"id": "9ff97636-c79b-4ff7-b135-83ad79a90162",
-					"type": "eqp_modifier_container",
-					"children": [
-						{
-							"id": "6576e2a4-c43f-43fa-b157-87fb24f083e4",
-							"type": "eqp_modifier_container",
-							"children": [
-								{
-									"id": "558e6040-296a-4f03-94d1-733b130eca97",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 0.1 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "9",
-									"cost": "+2500"
-								},
-								{
-									"id": "bfad3339-c679-477d-a7fa-ba69c9d4cb37",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 0.1 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "10",
-									"cost": "+250"
-								},
-								{
-									"id": "825520c7-95df-44fc-bdcd-8123efa49e6e",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 0.1 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "11",
-									"cost": "+2.5"
-								},
-								{
-									"id": "46b028e0-44ce-4a1c-b555-ef8fcfab373f",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 0.1 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "12",
-									"cost": "+0.5"
-								},
-								{
-									"id": "46b95fc2-fc19-4573-b425-1d74af65d0f2",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 1 microgram",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "9",
-									"cost": "+25000"
-								},
-								{
-									"id": "4d9892a4-8542-4a74-ab57-a529da96f78f",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 1 microgram",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "10",
-									"cost": "+2500"
-								},
-								{
-									"id": "69554ec4-caf0-42dc-8796-9e46348076ac",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 1 microgram",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "11",
-									"cost": "+25"
-								},
-								{
-									"id": "2c9a460d-6114-4cdc-bd6f-26666e248f58",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 1 microgram",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "12",
-									"cost": "+5"
-								},
-								{
-									"id": "68c4797e-0961-4326-9c21-efbc76597c21",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 10 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "9",
-									"cost": "+250000"
-								},
-								{
-									"id": "620591ba-41e3-4346-a857-e2301ab3f2f3",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 10 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "10",
-									"cost": "+25000"
-								},
-								{
-									"id": "d1d8cbae-f1cf-4a96-b589-2a697b6ba137",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 10 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_final_cost",
-									"tech_level": "11",
-									"cost": "+250"
-								},
-								{
-									"id": "94714c58-8df9-4845-b6ba-3523f3fa4652",
-									"type": "eqp_modifier",
-									"name": "Antimatter, 10 micrograms",
-									"reference": "UT157",
-									"cost_type": "to_base_cost",
-									"tech_level": "12",
-									"cost": "+50 CF"
-								}
-							],
-							"open": true,
-							"name": "Antimatter Warhead Antimatter Costs",
-							"reference": "UT157"
-						},
-						{
-							"id": "cd958ada-fc3a-4a79-ac76-e4e7aec8f322",
-							"type": "eqp_modifier",
-							"name": "Infrared Homing",
-							"reference": "UT146",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+3 CF"
-						},
-						{
-							"id": "c97f4037-46e9-40f6-a833-79e8feb2f251",
-							"type": "eqp_modifier",
-							"name": "Multi-Spectral Homing",
-							"reference": "UT146",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "177f38e6-bf5a-4de7-a8e5-7052d8c59d5d",
-							"type": "eqp_modifier",
-							"name": "Multiscanner Homing",
-							"reference": "UT146",
-							"cost_type": "to_base_cost",
-							"tech_level": "11^",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "aade5f16-ce3f-4199-8e51-5974d9ad0121",
-							"type": "eqp_modifier",
-							"name": "Armor Piercing Hyperdense Dart",
-							"reference": "UT156",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "8f2917fc-8086-4f40-813f-7f79672cc76a",
-							"type": "eqp_modifier",
-							"name": "Armor-Piercing Enhanced Penetrator",
-							"reference": "UT152",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "86726514-09c2-4581-b16a-5f2813e2d89f",
-							"type": "eqp_modifier",
-							"name": "Armor-Piercing Hardcore",
-							"reference": "UT152",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "a6e5b27c-0025-42c1-bc68-9cd9960b892e",
-							"type": "eqp_modifier",
-							"name": "Armor-Piercing Hardcore Explosive",
-							"reference": "UT152",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+3 CF"
-						},
-						{
-							"id": "f417a766-82ac-43a7-94bd-db85ed34a727",
-							"type": "eqp_modifier",
-							"name": "Biochemical Aerosol",
-							"reference": "UT153",
-							"notes": "Cost Plus Filler x # of Doses",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "85779567-fa1f-4250-a9d5-373c6d09f643",
-							"type": "eqp_modifier",
-							"name": "Biochemical Liquid",
-							"reference": "UT153",
-							"notes": "Cost Plus Filler x # of Doses",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "befc3267-c6e6-40ef-aed8-fae8eb0c002c",
-							"type": "eqp_modifier",
-							"name": "Burrow Darts",
-							"reference": "UT155",
-							"cost_type": "to_base_cost",
-							"tech_level": "10",
-							"cost": "+2 CF"
-						},
-						{
-							"id": "85764858-20d5-4481-a187-34eaba983260",
-							"type": "eqp_modifier",
-							"name": "Electrothermal-Chemical",
-							"reference": "UT139",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "bd00fadd-a060-47c0-8c63-e9be6e6dbebc",
-							"type": "eqp_modifier",
-							"name": "EMP",
-							"reference": "UT157",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "8e5f3af1-505a-4646-a286-97f380017c0b",
-							"type": "eqp_modifier",
-							"name": "Expendable Jammer",
-							"reference": "UT157",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "6e531513-f19f-4a34-bf72-a3c2a3708d95",
-							"type": "eqp_modifier",
-							"name": "Flare",
-							"reference": "UT153",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "c2db4637-9593-48a8-bcc1-4cab62019654",
-							"type": "eqp_modifier",
-							"name": "Force",
-							"reference": "UT158",
-							"cost_type": "to_base_cost",
-							"tech_level": "10^",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "0e47532f-3f82-4bba-995d-7f5187b4d7db",
-							"type": "eqp_modifier",
-							"name": "High Explosive",
-							"reference": "UT153",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "249aa1d1-dac2-4edc-b6b8-5f3e5ba054b1",
-							"type": "eqp_modifier",
-							"name": "High Explosive Concussion",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "d6bd051f-988a-4215-9b06-3a546f4db748",
-							"type": "eqp_modifier",
-							"name": "High Explosive Multi-Purpose",
-							"reference": "UT155",
-							"cost_type": "to_base_cost",
-							"tech_level": "10",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "1ee08eab-9e63-4b0c-87f0-9a426ab84a6a",
-							"type": "eqp_modifier",
-							"name": "Hollow-Point",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "a27b797b-2e53-419e-bf3f-c8316ff464b8",
-							"type": "eqp_modifier",
-							"name": "Implosion",
-							"reference": "UT158",
-							"cost_type": "to_base_cost",
-							"tech_level": "11^",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "ecd646af-9493-4bbc-bfc0-2dbd29e97943",
-							"type": "eqp_modifier",
-							"name": "Liquid Propellant",
-							"reference": "UT139",
-							"notes": "1.5x many shots per magazine",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0.5 CF"
-						},
-						{
-							"id": "6774a109-7008-4e59-9b8d-137639712fd6",
-							"type": "eqp_modifier",
-							"name": "Memory Baton",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "0f4c7180-3e30-4767-bebc-84ac759a1708",
-							"type": "eqp_modifier",
-							"name": "Micro-Antimatter Warhead",
-							"reference": "UT156",
-							"cost_type": "to_base_cost",
-							"tech_level": "10",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "84347fba-2ba2-47db-81d5-37dee5e37560",
-							"type": "eqp_modifier",
-							"name": "Mininuke",
-							"reference": "UT156",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+999 CF"
-						},
-						{
-							"id": "0809a5f7-15ec-4199-b93c-87ff85275143",
-							"type": "eqp_modifier",
-							"name": "Monochain",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9^",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "094e2ab8-d60f-4bdb-9c4c-b2ded17ca4cb",
-							"type": "eqp_modifier",
-							"name": "Plasma",
-							"reference": "UT158",
-							"cost_type": "to_base_cost",
-							"tech_level": "10^",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "af1d384d-4f01-46bc-8a9f-0fa20d602245",
-							"type": "eqp_modifier",
-							"name": "Psi-Bomb",
-							"reference": "UT158",
-							"cost_type": "to_base_cost",
-							"tech_level": "12^",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "141ff268-9bd7-4fbc-bc1f-2bedfdb86365",
-							"type": "eqp_modifier",
-							"name": "Psi-Bomb, Message",
-							"reference": "UT159",
-							"cost_type": "to_base_cost",
-							"tech_level": "12^",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "ded06154-6518-4e5c-9517-b6db3de524f5",
-							"type": "eqp_modifier",
-							"name": "Psi-Bomb, Terror",
-							"reference": "UT159",
-							"cost_type": "to_base_cost",
-							"tech_level": "12^",
-							"cost": "+9 CF"
-						},
-						{
-							"id": "60e28bc3-f598-4891-bccf-dd056835dc95",
-							"type": "eqp_modifier",
-							"name": "Shaped Charge",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "720a0473-e373-4009-9d1c-a7279f62ca3a",
-							"type": "eqp_modifier",
-							"name": "Shotshell",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+0 CF"
-						},
-						{
-							"id": "6ffcc8aa-6527-4bb1-98e1-953bdba28b51",
-							"type": "eqp_modifier",
-							"name": "Smart Explosively Forged Projectile",
-							"reference": "UT154",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "1dc0f0de-ee4b-4886-9b10-57354cc82764",
-							"type": "eqp_modifier",
-							"name": "Stasis",
-							"reference": "UT159",
-							"cost_type": "to_base_cost",
-							"tech_level": "12^",
-							"cost": "+499 CF"
-						},
-						{
-							"id": "c6c01458-1047-4a5a-b02a-6d2868350ec0",
-							"type": "eqp_modifier",
-							"name": "Stingray",
-							"reference": "UT156",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "5a845b6b-1265-4b64-b39a-4a33fec64e8c",
-							"type": "eqp_modifier",
-							"name": "Strobe",
-							"reference": "UT157",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+3 CF"
-						},
-						{
-							"id": "1927c111-5396-4ff9-a4c8-cde3f8918aa3",
-							"type": "eqp_modifier",
-							"name": "Swarm",
-							"reference": "UT156",
-							"notes": "Plus Cost of Swarm",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "5bc4e727-9578-4cf5-9b10-ab41ec6c02f4",
-							"type": "eqp_modifier",
-							"name": "Tangler",
-							"reference": "UT155",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+1 CF"
-						},
-						{
-							"id": "677c9265-3dde-4a14-9718-1412e4882346",
-							"type": "eqp_modifier",
-							"name": "Thermobaric",
-							"reference": "UT155",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+4 CF"
-						},
-						{
-							"id": "fe82728f-b2d2-43b7-b59d-e1cd56721c39",
-							"type": "eqp_modifier",
-							"name": "Vortex",
-							"reference": "UT159",
-							"cost_type": "to_base_cost",
-							"tech_level": "12^",
-							"cost": "+999 CF"
-						},
-						{
-							"id": "f4b13f70-3e23-41cc-bdbf-1ce2154e3adf",
-							"type": "eqp_modifier",
-							"name": "Warbler",
-							"reference": "UT157",
-							"cost_type": "to_base_cost",
-							"tech_level": "9",
-							"cost": "+3 CF"
-						}
-					],
-					"name": "Warheads and Ammunition",
-					"reference": "UT152",
-					"notes": "Cost Factor Conversion as of LT14"
-				}
-			],
-			"open": true,
-			"name": "Optional Cost Factors"
 		}
 	]
 }

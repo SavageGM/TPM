@@ -1,0 +1,765 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "E2w65mkbZZ9YmfaIm",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "EKKCFm3KxoOCCxQZT"
+			},
+			"description": "Attaché Case w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 2cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 12800,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EuKDVK5PUDV8uiX5c",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "EfNFYlCNFdzKIFpZe"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "2 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "EKLGIT8H3nN6a93jr",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "Eguw7DDKETCceL_Xe"
+			},
+			"description": "Shipping Container w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 320000,
+			"weight": "1,000 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10,000 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EAvicGj2dtXLDT-vX",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "EBOZg_jBRWf3uJQ0T"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "1,000 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "Ez1vMdb_Lw0Y-Hs-d",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "E_s9gkohI8kk3MQT6"
+			},
+			"description": "Travel Bag w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 5cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 38400,
+			"weight": "100 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EhMcjoKDjPd9W3sIW",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "EXWz9ZxnFHnzbC40x"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "10 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "EnhNlThzM5w_6XL7r",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "EjZi1C_3Dq9obPTUR"
+			},
+			"description": "Trunk w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 128000,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "400 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EkKsq3m14h3RgvlNU",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "EZSU81DqtycbctraE"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "40 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "egKO71935RY4nPLGa",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e3_vgZD-EJtYCWk5W"
+			},
+			"description": "Armored Door",
+			"reference": "UT101",
+			"notes": "10 square feet. DR100.",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 32000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "efG2qDT8F1iKD7tBm",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "enqis2xP4UpsZtNEg"
+			},
+			"description": "Biometric Cracker Tools",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 132000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 132000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "epWp4ZV9U18QlV5wU",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eTIYayETy9k2xfTb3"
+			},
+			"description": "Contact SQUID",
+			"reference": "UT100",
+			"notes": "2C/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 640000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "esj4PYF-oLOg6beb8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e6w3IdyQZ7v1KBE3w"
+			},
+			"description": "Deceptive Radar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Radar -4. Imaging radar -2.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eYu-N04QU8aLtVdHR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eqCiObGsBm_u3jGmq"
+			},
+			"description": "Deceptive Sonar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Sonar -4.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eyCc4Ow1wFbShdHH4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ee4I_o4470lckReki"
+			},
+			"description": "Desktop Doc-Fab",
+			"reference": "UT97",
+			"notes": "4D/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 640000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "egxHw9vl_5qmBNJ1h",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "es_It462WiM2hN8uh"
+			},
+			"description": "Disguise Fabricator",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 51200,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 51200,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "ey8Y6Wt8rnwUAK3U_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e2dTeHZfiygqWrOpc"
+			},
+			"description": "Electronic Lockpick",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eXg57r3CQ6oAtuQD3",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "esWQxiewv_wZqMl7O"
+			},
+			"description": "Electronic Thumb",
+			"reference": "UT96",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 160000,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eW0pGxCkDCaSAz_XC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ei-x63eRjbHDn7JpR"
+			},
+			"description": "Infrared Cloaking",
+			"reference": "UT99",
+			"notes": "Thermal detection -4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "edLs7bBABkWrKy3ZQ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "epSlC2jSU81TA0eWQ"
+			},
+			"description": "Keyboard Bug",
+			"reference": "UT100",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eo9y8iOoSA-3u0Hq-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "enywsxiQw7NM6wZBR"
+			},
+			"description": "Long-Range Scanner",
+			"reference": "UT100",
+			"notes": "1,000-yard range. C/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 160000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eWObbbWeZ5dHxxB5j",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e-DfQ_JyEXzpmjk96"
+			},
+			"description": "Mini Scanner",
+			"reference": "UT100",
+			"notes": "100-yard range. A/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 16000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e57NyTWyeYVSECqpS",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e1m5MacYwivy87F6o"
+			},
+			"description": "Programmable Camouflage",
+			"reference": "UT99",
+			"notes": "Changes in 4sec.",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 32000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eyYnVPYP-2VhVmBSt",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e7UcvRnHSXEpRFQqc"
+			},
+			"description": "Radar Stealth",
+			"reference": "UT100",
+			"notes": "Detection -4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 48000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e2rLhlJwnPvStPQBz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eScl_Qnco7W9mZgai"
+			},
+			"description": "Scent Masking",
+			"reference": "UT100",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eBOp0dhHY55zDKx5U",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e-jZGCLk_3tJ-lQZd"
+			},
+			"description": "Suitcase Disguise Kit",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 9600,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eq0VbVLyoenSinwS9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eKE2hhuoIxwF-93H1"
+			},
+			"description": "Thermo-Optic Chameleon Cloak",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 64000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eZ7Js5XWR3h9Diedu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eGOy1QacCaXgOdmrm"
+			},
+			"description": "Thermo-Optic Chameleon Net",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1280000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "ewRCc0RgrVAecKqeW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e14QuYxjkXf375XCr"
+			},
+			"description": "Thermo-Optic Chameleon Surface",
+			"reference": "UT99",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 128000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eMxkadCSDt5YTNrm7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "edlOkBPm6rnv8dbAh"
+			},
+			"description": "Voice Mask",
+			"reference": "UT98",
+			"notes": "B/20hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 6400,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.1 lb"
+			}
+		}
+	]
+}

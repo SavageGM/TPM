@@ -1,0 +1,1477 @@
+{
+	"version": 5,
+	"id": "AEghAXH1HKsTifA9e",
+	"total_points": 150,
+	"points_record": [
+		{
+			"when": "2025-05-18T06:29:33-04:00",
+			"points": 150,
+			"reason": "Initial points"
+		}
+	],
+	"profile": {
+		"name": "Player Loot"
+	},
+	"settings": {
+		"page": {
+			"paper_size": "letter",
+			"orientation": "portrait",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"traits skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"name": "ST",
+				"full_name": "Strength",
+				"attribute_base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "dx",
+				"type": "integer",
+				"name": "DX",
+				"full_name": "Dexterity",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "iq",
+				"type": "integer",
+				"name": "IQ",
+				"full_name": "Intelligence",
+				"attribute_base": "10",
+				"cost_per_point": 20
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"name": "HT",
+				"full_name": "Health",
+				"attribute_base": "10",
+				"cost_per_point": 10
+			},
+			{
+				"id": "will",
+				"type": "integer",
+				"name": "Will",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fright Check",
+				"attribute_base": "$will",
+				"cost_per_point": 2
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"attribute_base": "$iq",
+				"cost_per_point": 5
+			},
+			{
+				"id": "vision",
+				"type": "integer",
+				"name": "Vision",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "hearing",
+				"type": "integer",
+				"name": "Hearing",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "taste_smell",
+				"type": "integer",
+				"name": "Taste \u0026 Smell",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "touch",
+				"type": "integer",
+				"name": "Touch",
+				"attribute_base": "$per",
+				"cost_per_point": 2
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Basic Speed",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 20
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"attribute_base": "floor($basic_speed)",
+				"cost_per_point": 5
+			},
+			{
+				"id": "highjump",
+				"type": "integer_ref",
+				"name": "High Jump (inches)",
+				"attribute_base": "(6 * max(max($basic_move, floor(skill_level(jumping) / 2)), $st / 4) - 10) * enc(false, true)"
+			},
+			{
+				"id": "broadjump",
+				"type": "integer_ref",
+				"name": "Broad Jump (feet)",
+				"attribute_base": "(2 * max($basic_move, $st / 4) - 3) * enc(false, true) * (1 + max(0, trait_level(\"enhanced move (ground)\")))"
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"expression": "-$fp",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. Will\u003c/b\u003e to do anything besides talk or rest; failure causes unconsciousness\u003cbr\u003e\nEach FP you lose below 0 also causes 1 HP of injury\u003cbr\u003e\nMove, Dodge and ST are halved (B426)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"expression": "ceil($fp/3)-1",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"expression": "$fp-1"
+					},
+					{
+						"state": "Rested",
+						"expression": "$fp"
+					}
+				]
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"attribute_base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$hp*5)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"expression": "round(-$hp*4)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-4\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"expression": "round(-$hp*3)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-3\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"expression": "round(-$hp*2)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-2\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"expression": "-$hp",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e to avoid death\u003cbr\u003e\n\u003cb\u003eRoll vs. HT-1\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\nMove and Dodge are halved (B419)\n\u003c/body\u003e\u003c/html\u003e",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"expression": "ceil($hp/3)-1",
+						"explanation": "Move and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"expression": "$hp-1"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "rp",
+				"type": "pool",
+				"name": "RP",
+				"full_name": "Radiation Points",
+				"attribute_base": "($st+$ht)/2",
+				"cost_per_point": 1,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$rp*10)"
+					},
+					{
+						"state": "Unconscious",
+						"expression": "round(-$rp*5)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\nAutomatically fall unconscious\u003cbr\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every hour. On a failure, you are treated as mortally wounded.\u003cbr\u003e\nOn a critical failugre, you die!\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Reeling",
+						"expression": "-$rp",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-4\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003cb\u003e-2\u003c/b\u003e to all active defenses\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003cb\u003eRoll vs. HT\u003c/b\u003e every second to avoid falling unconscious\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Sick",
+						"expression": "0",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-2\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003cb\u003e-1\u003c/b\u003e to all active defenses\u003cbr\u003e\nRP loss below 0 costs 1 FP per RP lost.\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Queasy",
+						"expression": "round($rp/3)",
+						"explanation": "\u003chtml\u003e\u003cbody\u003e\n\u003cb\u003e-1\u003c/b\u003e to all attributes and skill rolls except passive resistance rolls\u003cbr\u003e\n\u003c/body\u003e\u003c/html\u003e"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$rp"
+					}
+				]
+			},
+			{
+				"id": "runninghighjump",
+				"type": "integer_ref",
+				"name": "Running High Jump (inches)",
+				"full_name": "Running High Jump (inches)",
+				"attribute_base": "(2 * (6 * max(max($basic_move * (1 + max(0, trait_level(\"enhanced move (ground)\"))), floor(skill_level(jumping) / 2) * (1 + max(0, trait_level(\"enhanced move (ground)\")))), ($st / 4) * (1 + max(0, trait_level(\"enhanced move (ground)\")))) - 10)) * enc(false, true)"
+			},
+			{
+				"id": "runningbroadjump",
+				"type": "integer_ref",
+				"name": "Running Broad Jump (feet)",
+				"full_name": "Running Broad Jump (feet)",
+				"attribute_base": "(2 * (2 * max(max($basic_move * (1 + max(0, trait_level(\"enhanced move (ground)\"))), floor(skill_level(jumping) / 2) * (1 + max(0, trait_level(\"enhanced move (ground)\")))), ($st / 4) * (1 + max(0, trait_level(\"enhanced move (ground)\")))) - 3)) * enc(false, true)"
+			}
+		],
+		"body_type": {
+			"name": "Humanoid",
+			"roll": "3d",
+			"locations": [
+				{
+					"id": "eye",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"hit_penalty": -9,
+					"description": "An attack that misses by 1 hits the torso instead. Only\nimpaling (imp), piercing (pi-, pi, pi+, pi++), and\ntight-beam burning (burn) attacks can target the eye – and\nonly from the front or sides. Injury over HP÷10 blinds the\neye. Otherwise, treat as skull, but without the extra DR!",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 10
+						}
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"slots": 2,
+					"hit_penalty": -7,
+					"dr_bonus": 2,
+					"description": "An attack that misses by 1 hits the torso instead. Wounding\nmodifier is x4. Knockdown rolls are at -10. Critical hits\nuse the Critical Head Blow Table (B556). Exception: These\nspecial effects do not apply to toxic (tox) damage.",
+					"calc": {
+						"roll_range": "3-4",
+						"dr": {
+							"all": 2
+						}
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"slots": 1,
+					"hit_penalty": -5,
+					"description": "An attack that misses by 1 hits the torso instead. Jaw,\ncheeks, nose, ears, etc. If the target has an open-faced\nhelmet, ignore its DR. Knockdown rolls are at -5. Critical\nhits use the Critical Head Blow Table (B556). Corrosion\n(cor) damage gets a x1½ wounding modifier, and if it\ninflicts a major wound, it also blinds one eye (both eyes on\ndamage over full HP). Random attacks from behind hit the\nskull instead.",
+					"calc": {
+						"roll_range": "5",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Right Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "6-7",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Right Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "8",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 2,
+					"calc": {
+						"roll_range": "9-10",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"slots": 1,
+					"hit_penalty": -3,
+					"description": "An attack that misses by 1 hits the torso instead. Human\nmales and the males of similar species suffer double shock\nfrom crushing (cr) damage, and get -5 to knockdown rolls.\nOtherwise, treat as a torso hit.",
+					"calc": {
+						"roll_range": "11",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Left Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "12",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Left Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "13-14",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "hand",
+					"choice_name": "Hand",
+					"table_name": "Hand",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "If holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4. Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
+					"calc": {
+						"roll_range": "15",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "foot",
+					"choice_name": "Foot",
+					"table_name": "Foot",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "16",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"slots": 2,
+					"hit_penalty": -5,
+					"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
+					"calc": {
+						"roll_range": "17-18",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"hit_penalty": -3,
+					"description": "An attack that misses by 1 hits the torso instead. Heart,\nlungs, kidneys, etc. Increase the wounding modifier for an\nimpaling (imp) or any piercing (pi-, pi, pi+, pi++) attack\nto x3. Increase the wounding modifier for a tight-beam\nburning (burn) attack to x2. Other attacks cannot target the\nvitals.",
+					"calc": {
+						"roll_range": "-",
+						"dr": {
+							"all": 0
+						}
+					}
+				}
+			]
+		},
+		"damage_progression": "basic_set",
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"show_spell_adj": true
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "dx",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "iq",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "will",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "highjump",
+			"adj": 0,
+			"calc": {
+				"value": 4,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "broadjump",
+			"adj": 0,
+			"calc": {
+				"value": 1,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "rp",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "runninghighjump",
+			"adj": 0,
+			"calc": {
+				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "runningbroadjump",
+			"adj": 0,
+			"calc": {
+				"value": 2,
+				"points": 0
+			}
+		}
+	],
+	"traits": [
+		{
+			"id": "tGZBKAver_BvzE28b",
+			"name": "Natural Attacks",
+			"reference": "B271",
+			"weapons": [
+				{
+					"id": "wrgEAArPzkOuOHVjR",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wrbUNCuJm0PhYl23m",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				},
+				{
+					"id": "wlAeQRb3fXBPF0IhP",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d-2 cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"equipment": [
+		{
+			"id": "E6QCfCzc82EiOUys9",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "ECDI9wN-KEHf7JOi4"
+			},
+			"description": "Magazine Colt M4A1",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Ammo",
+				"Magazine"
+			],
+			"value": 64.8,
+			"weight": "0.891 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_quantity_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 30
+						}
+					}
+				]
+			},
+			"quantity": 8,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eS6_gymHOwZx848Yv",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Ammo\\Ammo, Rifles and Machine Guns.eqp",
+						"id": "ev0NaU04eZNA8fsuu"
+					},
+					"description": "5.56x45mm NATO",
+					"reference": "HT176",
+					"tags": [
+						"Ammunition",
+						"Warheads"
+					],
+					"value": 8,
+					"weight": "0.027 lb",
+					"quantity": 30,
+					"equipped": true,
+					"calc": {
+						"extended_value": 240,
+						"extended_weight": "0.81 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2438.4,
+				"extended_weight": "13.608 lb"
+			}
+		},
+		{
+			"id": "ebGDwqdeeLl-uGm3C",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Firearms\\Firearms, Rifles.eqp",
+				"id": "e-Jk5sD2WB_hkUdpo"
+			},
+			"description": "Daniel Defense Mk 18 Mod 0, 5.56x45mm",
+			"reference": "HT121",
+			"notes": "Accessory rail.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearms",
+				"Rifle"
+			],
+			"value": 19200,
+			"weight": "6.8 lb",
+			"weapons": [
+				{
+					"id": "WkLeasPvCWoRAzyjm",
+					"damage": {
+						"type": "pi",
+						"base": "4d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "600/2,500",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"level": 6,
+						"damage": "4d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19200,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "E7fCPfl1NN0IH6d23",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Loot\\JRBNAS Crates Loot.eqp",
+				"id": "ErPUrlUkb6A2B6iNQ"
+			},
+			"description": "BX100 Cargo Case",
+			"notes": "Watertight, external DR 10 radiation PF 5",
+			"tech_level": "8",
+			"legality_class": "4",
+			"value": 540,
+			"weight": "23 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eFfyYzwunBjbUhM6Q",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Equipment\\General Equipment\\TPM Power.eqp",
+						"id": "e58SrBvJXk7ckCjL3"
+					},
+					"description": "D cell",
+					"reference": "UT19",
+					"tech_level": "9",
+					"tags": [
+						"Power"
+					],
+					"value": 3200,
+					"weight": "5 lb",
+					"quantity": 4,
+					"equipped": true,
+					"calc": {
+						"extended_value": 12800,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "e_WdMONk_DlzPMUMv",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Equipment\\Weaponry\\TPM Melee Weapons.eqp",
+						"id": "ecSSX-jyL9BC3_vDY"
+					},
+					"description": "Heavy Plasma Torch",
+					"reference": "UT80",
+					"notes": "D/15min.",
+					"tech_level": "9",
+					"tags": [
+						"Melee Weapon",
+						"Tools and Construction Materials"
+					],
+					"value": 64000,
+					"weight": "40 lb",
+					"weapons": [
+						{
+							"id": "w5OOX07VHj7jkzn35",
+							"damage": {
+								"type": "burn",
+								"base": "4d+1",
+								"armor_divisor": 5
+							},
+							"strength": "8†",
+							"reach": "C,1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								}
+							],
+							"calc": {
+								"damage": "4d+1(5) burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 64000,
+						"extended_weight": "40 lb"
+					}
+				},
+				{
+					"id": "etKq9w4GSVva9kiTc",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Equipment\\Weaponry\\TPM Melee Weapons.eqp",
+						"id": "eQ0i6XgLMzdxycB0w"
+					},
+					"description": "Laser Torch",
+					"reference": "UT80",
+					"notes": "C/15min.",
+					"tech_level": "9",
+					"tags": [
+						"Melee Weapon",
+						"Tools and Construction Materials"
+					],
+					"value": 3200,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "whbEXBff6C74tj7vI",
+							"damage": {
+								"type": "burn",
+								"base": "2d",
+								"armor_divisor": 2
+							},
+							"strength": "5",
+							"reach": "C,1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								}
+							],
+							"calc": {
+								"damage": "2d(2) burn"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 3200,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eBom3gL9kk_EEZh0_",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Loot\\JRBNAS Crates Loot.eqp",
+						"id": "eU4f2s56_0SyO5E_R"
+					},
+					"description": "Power Tool Box",
+					"reference": "UT81",
+					"notes": "3C/3hr.",
+					"tech_level": "9",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"value": 32000,
+					"weight": "10 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 32000,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "eESyfCOmYWffwut3N",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eH2KdE5TZWSna1US2"
+					},
+					"description": "Canned Food",
+					"reference": "ATE1:30",
+					"tech_level": "5",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 50,
+					"weight": "0.5 lb",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eiZDhypouS2AJKmBd",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eyEUaBquo0G6YTO73"
+					},
+					"description": "Freeze-Dried Food",
+					"reference": "HT35",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 32,
+					"weight": "0.25 lb",
+					"quantity": 9,
+					"equipped": true,
+					"calc": {
+						"extended_value": 288,
+						"extended_weight": "2.25 lb"
+					}
+				},
+				{
+					"id": "eaLGqYJz3sQD5r4bD",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Power TL 9.eqp",
+						"id": "ey9wZ4XhsSB1_rncO"
+					},
+					"description": "C cell",
+					"reference": "UT19",
+					"tech_level": "9",
+					"tags": [
+						"Power"
+					],
+					"value": 320,
+					"weight": "0.5 lb",
+					"quantity": 8,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2560,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "e2WRkDjd9Aso0Wk3E",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Loot\\JRBNAS Crates Loot.eqp",
+						"id": "eovIC7mY6GemT7ZWF"
+					},
+					"description": "Armored Shades",
+					"reference": "UT176",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 3200,
+					"weight": "0.1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"eye"
+							],
+							"amount": 10
+						}
+					],
+					"quantity": 3,
+					"equipped": true,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "0.3 lb"
+					}
+				},
+				{
+					"id": "e7PeS1nYFgrwUO80h",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eBSLsTxth83Oygwnb"
+					},
+					"description": "Candy",
+					"reference": "HT34",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 5,
+					"weight": "0.5 lb",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "elpnBGcCJbyYvuTh2",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Security Cards.eqp",
+						"id": "eRmdbAMdVczVeVwss"
+					},
+					"description": "Red Security Badge",
+					"notes": "ff0000",
+					"tech_level": "9",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "E1pxRIZysrnUaS-f7",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+						"id": "E1SiJhQQ2H_HsKQlU"
+					},
+					"description": "Plastic Bottle",
+					"reference": "ATE1:30",
+					"notes": "Holds 1 pint",
+					"tech_level": "?",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"value": 1,
+					"weight": "0.05 lb",
+					"quantity": 4,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eS8UJAwhg1VvWLX1G",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+								"id": "eoGa497IECVp8rk1i"
+							},
+							"description": "Water, Clean (pint)",
+							"reference": "ATE1:30",
+							"tech_level": "0",
+							"value": 1,
+							"weight": "1 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"extended_value": 1,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 8,
+						"extended_weight": "4.2 lb"
+					}
+				},
+				{
+					"id": "etwufFec_e7mfTAHf",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eRCXP0ofuqr3W2rbb"
+					},
+					"description": "Vitamin Pills",
+					"reference": "HT221",
+					"notes": "Month's supply.",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 192,
+					"weight": "0.1 lb",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"extended_value": 384,
+						"extended_weight": "0.2 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 125490,
+				"extended_weight": "108.95 lb"
+			}
+		},
+		{
+			"id": "EZzM9vCwUpuJndKFK",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+				"id": "EWqdpf8UmV3Du6vCP"
+			},
+			"description": "Hip Flask",
+			"reference": "HT31",
+			"notes": "Holds 1 pint. Filled weight.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"quantity": 2,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eJ3EyS4cDMQoNBgpb",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 8-\\Foodstuffs.eqp",
+						"id": "eSOvZDFYQUgKZR1nJ"
+					},
+					"description": "Alcohol",
+					"reference": "HT34",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 10,
+					"weight": "2.5 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "2.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "EZFeq1zwKQHdC6GBr",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 8-\\Containers and Load Bearing Equipment.eqp",
+				"id": "Ef4rSZEYHKyQoX4tv"
+			},
+			"description": "Backpack, Small",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 120,
+			"weight": "3 lb",
+			"quantity": 2,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eOCK9O-btxrN2Zxpl",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Loot\\JRBNAS Crates Loot.eqp",
+						"id": "eURjbVQnfkblhAsZ-"
+					},
+					"description": "1/8\" Rope",
+					"reference": "UT81",
+					"notes": "Per yard. Supports 400lbs.",
+					"tech_level": "9",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"value": 6.4,
+					"weight": "0.01 lb",
+					"quantity": 300,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1920,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "e14AKWS2saqznSzSM",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Loot\\JRBNAS Crates Loot.eqp",
+						"id": "eA4MKRCpuE9dzdhps"
+					},
+					"description": "Glow Stick",
+					"reference": "UT74",
+					"notes": "2-yard radius.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"value": 64,
+					"weight": "0.1 lb",
+					"quantity": 40,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2560,
+						"extended_weight": "4 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 9200,
+				"extended_weight": "20 lb"
+			}
+		}
+	],
+	"created_date": "2025-05-18T06:29:33-04:00",
+	"modified_date": "2025-05-18T06:46:29-04:00",
+	"calc": {
+		"swing": "1d",
+		"thrust": "1d-2",
+		"basic_lift": "20 lb",
+		"move": [
+			5,
+			4,
+			3,
+			2,
+			1
+		],
+		"dodge": [
+			8,
+			7,
+			6,
+			5,
+			4
+		]
+	}
+}

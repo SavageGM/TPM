@@ -1,0 +1,1108 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eL2bOjC1gB8I9M7ZJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eXs4XWj1VbvCrBOYf"
+			},
+			"description": "HYP ELC9 Thunderstrike Electrolaser Carbine",
+			"reference": "UT120",
+			"notes": "HT: 10, DR: 4 (Rugged polymer \u0026 ceramic frame)",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Beam",
+				"Missile Weapon",
+				"Weaponry",
+				"Hyperion Weapons"
+			],
+			"value": 144320,
+			"weight": "5.2 lb",
+			"weapons": [
+				{
+					"id": "WpAs_8OwcTkLY4xNn",
+					"damage": {
+						"type": "HT-5 (2) aff"
+					},
+					"strength": "4†",
+					"accuracy": "8",
+					"range": "160/470",
+					"rate_of_fire": "3",
+					"shots": "36(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 (2) aff"
+					}
+				},
+				{
+					"id": "WpKQ-I6X-OWowPpEc",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 144320,
+				"extended_weight": "5.2 lb"
+			}
+		},
+		{
+			"id": "e3T8SAlnfOJdOVQf7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "eOpEJPYVoARJVYADi"
+			},
+			"description": "Electrolaser Pistol",
+			"reference": "UT120",
+			"notes": "C/36 shots.",
+			"tech_level": "9",
+			"tags": [
+				"Beam Weapon",
+				"Electrolaser",
+				"Pistol"
+			],
+			"value": 57600,
+			"weight": "2.2 lb",
+			"weapons": [
+				{
+					"id": "W1wF1bulKHmw8btuZ",
+					"damage": {
+						"type": "HT-4 (2) aff"
+					},
+					"strength": "4",
+					"accuracy": "4",
+					"range": "40/80",
+					"rate_of_fire": "3",
+					"shots": "36(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-4 (2) aff"
+					}
+				},
+				{
+					"id": "WvWGobLSg1T8yOMUq",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f8Kd6w14dErMhg3L1",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 57600,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "enwusQwFnigCvEvT8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "etx3qn_mPecX58EdI"
+			},
+			"description": "Heavy Electrolaser",
+			"reference": "UT120",
+			"notes": "External D-cell.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Beam Weapon",
+				"Electrolaser",
+				"Rifle"
+			],
+			"value": 640000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "WeYjlDcOzjrVwv39f",
+					"damage": {
+						"type": "HT-6 (2) aff"
+					},
+					"strength": "10†",
+					"accuracy": "8",
+					"range": "400/1,100",
+					"rate_of_fire": "1",
+					"shots": "72(3)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-6 (2) aff"
+					}
+				},
+				{
+					"id": "Wtc9NHXJmMS34exm_",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fFwtxgGs45PaxIYf7",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "edw-763UFQaaWbdiq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eEVMIUa1A847v6jfJ"
+			},
+			"description": "Inferno-7 Assault Flamer",
+			"reference": "UT127",
+			"notes": "2C/28 shots.",
+			"tech_level": "9^",
+			"legality_class": "2",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 73600,
+			"weight": "5.6 lb",
+			"weapons": [
+				{
+					"id": "W6pvhCtCqLKyXQi2S",
+					"damage": {
+						"type": "burn",
+						"base": "5d"
+					},
+					"strength": "5†",
+					"accuracy": "6",
+					"range": "50/150",
+					"rate_of_fire": "1",
+					"shots": "28(3)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 73600,
+				"extended_weight": "5.6 lb"
+			}
+		},
+		{
+			"id": "e7-WJTCoshKEqvxBS",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "e51LLBn6eTnOp1XiU"
+			},
+			"description": "Inferno-9 Hand Flamer",
+			"reference": "UT127",
+			"notes": "2C/56 shots.",
+			"tech_level": "9^",
+			"legality_class": "3",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 38400,
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"id": "Wjm8s4WG8P-Lc6LdW",
+					"damage": {
+						"type": "burn",
+						"base": "4d"
+					},
+					"strength": "6",
+					"accuracy": "3",
+					"range": "30/90",
+					"rate_of_fire": "1",
+					"shots": "56(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "3.3 lb"
+			}
+		},
+		{
+			"id": "eMMfLPH0BIE2rdxKX",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eRO-jY0voHAdn58Bu"
+			},
+			"description": "Inferno-13 Heavy Flamer",
+			"reference": "UT127",
+			"notes": "External D-cell.",
+			"tech_level": "9^",
+			"legality_class": "1",
+			"tags": [
+				"Beam Weapon",
+				"Plasma Flamer",
+				"Projector"
+			],
+			"value": 320000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "W8puiPYsgGdmYdvGD",
+					"damage": {
+						"type": "burn",
+						"base": "8d"
+					},
+					"strength": "10†",
+					"accuracy": "6",
+					"range": "130/390",
+					"rate_of_fire": "1",
+					"shots": "35(5)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "e1W3d8iZVi7cEfVKs",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eFJMuWs6u6UuwH03E"
+			},
+			"description": "Pyre-5 Semi-Portable Flamer",
+			"reference": "UT127",
+			"notes": "External E-cell.",
+			"tech_level": "9^",
+			"legality_class": "1",
+			"tags": [
+				"Beams",
+				"Gunner",
+				"Plasma Flamer"
+			],
+			"value": 1120000,
+			"weight": "70 lb",
+			"weapons": [
+				{
+					"id": "WGBTgxNdTpoVNcwgR",
+					"damage": {
+						"type": "burn",
+						"base": "6dx3"
+					},
+					"strength": "18M",
+					"accuracy": "Jet",
+					"range": "150/450",
+					"rate_of_fire": "Jet",
+					"shots": "100(5)",
+					"bulk": "-8",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1120000,
+				"extended_weight": "70 lb"
+			}
+		},
+		{
+			"id": "ez5g0a88ZO2fa8wAG",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eFJMuWs6u6UuwH03E"
+			},
+			"description": "Pyre-12 Multi-Mount Plasma Flamer",
+			"reference": "UT127",
+			"notes": "External E-cell.",
+			"tech_level": "9^",
+			"legality_class": "1",
+			"tags": [
+				"Beams",
+				"Gunner",
+				"Plasma Flamer"
+			],
+			"value": 2355200,
+			"weight": "130 lb",
+			"weapons": [
+				{
+					"id": "WcLb1DaqYw61nPf1Z",
+					"damage": {
+						"type": "burn",
+						"base": "8dx3"
+					},
+					"strength": "36M",
+					"accuracy": "Jet",
+					"range": "200/600",
+					"rate_of_fire": "Jet",
+					"shots": "56(5)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "8dx3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2355200,
+				"extended_weight": "130 lb"
+			}
+		},
+		{
+			"id": "eVhOl9Zkr5-qboQme",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eyLBL-WE1b6Rc1pYb"
+			},
+			"description": "Red Phalanx Point Defense Laser",
+			"reference": "UT116",
+			"notes": "External F-cell.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Beam",
+				"Laser",
+				"Missile Weapon",
+				"Mounted",
+				"Weaponry"
+			],
+			"value": 16000000,
+			"weight": "1,000 lb",
+			"weapons": [
+				{
+					"id": "WeYpOyzk4lAXDkFp9",
+					"damage": {
+						"type": "burn",
+						"base": "3dx5",
+						"armor_divisor": 2
+					},
+					"strength": "70M",
+					"accuracy": "18",
+					"range": "9,000/27,000",
+					"rate_of_fire": "1",
+					"shots": "66(5)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3dx5(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eQjUeLLazU0VnweVw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqmEm3vEao5gN7tJM"
+			},
+			"description": "SP-8 \"Sunfire\" Laser Rifle",
+			"reference": "UT115",
+			"notes": "4lb. backpack power cell.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 640000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WqS__gp2aCYEWuPrj",
+					"damage": {
+						"type": "burn",
+						"base": "4d",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"accuracy": "12+1",
+					"range": "700/2,100",
+					"rate_of_fire": "1",
+					"shots": "40(5)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ev3yo38QpfCcPJioO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "egs98yGPPjQ1nXN0_"
+			},
+			"description": "SP-8ER \"Helios\" Extended-Range Laser Rifle",
+			"reference": "UT115",
+			"notes": "4lb. backpack power cell.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 1280000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "WrUvNWOPkv7o2gxuS",
+					"damage": {
+						"type": "burn",
+						"base": "5d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"accuracy": "12+2",
+					"range": "1,100/3,300",
+					"rate_of_fire": "1",
+					"shots": "20(5)",
+					"bulk": "-8",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eM-T_DxL5meeVfZI0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "efmhFYi3z7q_V6DWV"
+			},
+			"description": "SPX-HLF \"Solaris\" Heavy Laser Flashlight",
+			"reference": "UT113",
+			"notes": "2B/3,600 shots",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WHT5QVtsTCVtfMRT1",
+					"damage": {
+						"type": "HT-5 aff (1 yd)"
+					},
+					"strength": "1",
+					"accuracy": "6",
+					"range": "330/1,000",
+					"rate_of_fire": "1",
+					"shots": "3600(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (1 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eSCRjrPT1kg1qfk9a",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eT5ONMhBakByfI_OF"
+			},
+			"description": "SPX-LP \"Viper\" Laser Penlight",
+			"reference": "UT113",
+			"notes": "A/900 shots",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 192,
+			"weight": "0.1 lb",
+			"weapons": [
+				{
+					"id": "Wz1CqzsSw6suo1JTv",
+					"damage": {
+						"type": "HT-4 aff (1 yd)"
+					},
+					"strength": "1",
+					"accuracy": "6",
+					"range": "100/300",
+					"rate_of_fire": "1",
+					"shots": "900(3)",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-4 aff (1 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 192,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eHPhLR5LllaNIrUsX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eLApXwIjR3n8R0US7"
+			},
+			"description": "SPX-LS \"Titan's Eye\" Laser Searchlight",
+			"reference": "UT113",
+			"notes": "C/1,800 shots",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 32000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "Wj3pfg8KuQGOoV0kq",
+					"damage": {
+						"type": "HT-5 aff (2 yd)"
+					},
+					"strength": "1",
+					"accuracy": "12",
+					"range": "7,000/20,000",
+					"rate_of_fire": "1",
+					"shots": "1800(3)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (2 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eL1ySmMio2Lu7UaZn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eHFLCcGPQhrfg4viW"
+			},
+			"description": "SPX-MLF \"Halo\" Mini Laser Flashlight",
+			"reference": "UT113",
+			"notes": "B/3,600 shots",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 640,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "Wy_3Mg4pETrFIpIrx",
+					"damage": {
+						"type": "HT-5 aff (1 yd)"
+					},
+					"strength": "1",
+					"accuracy": "6",
+					"range": "170/500",
+					"rate_of_fire": "1",
+					"shots": "3600(3)",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (1 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eeHODogWu09SlC7sr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4MAlLcPDVsEmrkE1"
+			},
+			"description": "Star Lance Area Defense Laser",
+			"reference": "UT116",
+			"notes": "External F-cell.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 128000000,
+			"weight": "8,000 lb",
+			"weapons": [
+				{
+					"id": "Wmmv6agFezHS9h3iT",
+					"damage": {
+						"type": "burn",
+						"base": "6dx5",
+						"armor_divisor": 2
+					},
+					"strength": "200M",
+					"accuracy": "18",
+					"range": "36,000/110,000",
+					"rate_of_fire": "1",
+					"shots": "83(5)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx5(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000000,
+				"extended_weight": "8,000 lb"
+			}
+		},
+		{
+			"id": "e203tK0YJf50ZgVQ1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eBYTE66kJity5q9zy"
+			},
+			"description": "Underbarrel Electrolaser",
+			"reference": "UT120",
+			"notes": "C/66 shots. Attach to some other rifle weapon with Bulk -3 or more; use that weapon's Bulk, ST, and sighting bonuses.",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 41600,
+			"weight": "1.8 lb",
+			"weapons": [
+				{
+					"id": "WzDUXBH95CQa02AeS",
+					"damage": {
+						"type": "HT-3 (2) aff"
+					},
+					"accuracy": "4",
+					"range": "90/270",
+					"rate_of_fire": "1",
+					"shots": "66(3)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-3 (2) aff"
+					}
+				},
+				{
+					"id": "W_fZpmrSEBRXmXZ_k",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 41600,
+				"extended_weight": "1.8 lb"
+			}
+		}
+	]
+}

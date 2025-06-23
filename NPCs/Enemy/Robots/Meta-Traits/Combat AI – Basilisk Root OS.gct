@@ -1,0 +1,877 @@
+{
+	"version": 5,
+	"id": "BaTTBr-NXMmbOFlx8",
+	"traits": [
+		{
+			"id": "Tz9qgKdELa1MdWDzp",
+			"name": "Combat AI – Basilisk Root OS",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tuiPenTxJ0Y6kFZ2_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tGjjVtxav9KsrG7Wx"
+					},
+					"name": "Combat Reflexes",
+					"reference": "B43",
+					"notes": "Never freeze",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Enhanced Time Sense"
+								}
+							}
+						]
+					},
+					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "fast-draw"
+							},
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "dodge",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "parry",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "block",
+							"amount": 1
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "fright_check",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+							"amount": 6
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to initiative rolls for your side (+2 if you are the leader)",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tuwstyfoEbmjHqmK4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tOl20TXr9KKkV5FRy"
+					},
+					"name": "Enhanced Tracking",
+					"reference": "B53,P49",
+					"notes": "Can track 3 separate threats at once",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mST8AEsS_iyMaEbb6",
+							"name": "Multiple Lock-Ons",
+							"reference": "P49",
+							"cost": 20,
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "t6fcofPn_b4bEPeIN",
+					"name": "Pattern Recognition {Hyperspectral/Combat Context}",
+					"notes": "Bonus to identify weapon profiles, armor loadouts, and threat levels from visual input",
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "t8u57EbdINZb-HGPT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tUzmcuTXRq35xQ-rB"
+					},
+					"name": "Single-Minded",
+					"reference": "B85",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to concentrate on a task (e.g., targeting or computing firing solutions)",
+							"amount": 3
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to all rolls to notice interruptions while obsessed with a task",
+							"amount": -5
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "teb4M30GU37l08D85",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tM6z7Mx6e2V4VvUR4"
+					},
+					"name": "Absolute Direction {Gyroscopic Inertial Mapping}",
+					"reference": "B34",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Physical"
+					],
+					"vtt_notes": "Never loses track of orientation even underground or in GPS-denied zones",
+					"modifiers": [
+						{
+							"id": "mFUxfybcDNxW-Sqhq",
+							"name": "Requires signal",
+							"reference": "B34",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mlfUQjl_evET0Tkw-",
+							"name": "3D Spatial Sense",
+							"reference": "B34",
+							"cost": 5,
+							"cost_type": "points",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "piloting"
+									},
+									"amount": 1
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "aerobatics"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "free fall"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "hyperspace"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "space"
+									},
+									"amount": 2
+								}
+							],
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "body sense"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "air"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "land"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "sea"
+							},
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "tNeb3DfJpd4NKm6I6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "teRggYn926_I1YeWO"
+					},
+					"name": "High Pain Threshold",
+					"reference": "B59",
+					"notes": "Never suffer shock penalties when injured",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 10,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "on all HT rolls to avoid knockdown and stunning",
+							"amount": 3
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist torture",
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "t_7k35__ZXt9acrQW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tDHschYOgUSlMTOYN"
+					},
+					"name": "Compartmentalized Mind",
+					"reference": "B43,PSI13",
+					"notes": "Allows it to run targeting, movement, and communication tasks simultaneously\nOne instance of fire control can be fully dedicated to suppressive fire or multi-angle aim",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mCamZz9F_9r4-zFBA",
+							"name": "Massively Parallel",
+							"reference": "SU26",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "m6_ZhdQBEvEggBG-t",
+							"name": "Controls",
+							"reference": "B43",
+							"cost": -25,
+							"cost_type": "points",
+							"affects": "base_only",
+							"disabled": true
+						},
+						{
+							"id": "mGnfqCGrLPMclbBkX",
+							"name": "Dedicated Controls",
+							"reference": "B43",
+							"cost": -40,
+							"cost_type": "points",
+							"affects": "base_only",
+							"disabled": true
+						},
+						{
+							"id": "maoddgsFPheOheW4F",
+							"name": "Limited, One Ability",
+							"reference": "PSI13",
+							"notes": "@Ability@",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "mu50Khj7pooGbpQkt",
+							"name": "Limited, One Power",
+							"reference": "PSI13",
+							"notes": "@Power@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "mTJwrUkJTmwgtqY7Z",
+							"name": "Mental Separation Only",
+							"reference": "PSI13",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "mWg9Hure-TVnw8VKT",
+							"name": "Mentalism",
+							"reference": "PSI14",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "mVx4M1CunOMi5RVy7",
+							"name": "No Mental Separation",
+							"reference": "PSI14",
+							"cost": -20,
+							"disabled": true
+						}
+					],
+					"points_per_level": 50,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "tA_OODTipOpLkQ-aO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: Binary, Military Command Protocols",
+					"reference": "B24",
+					"notes": "May interpret and transmit encrypted command-line instructions",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "m13kiGsyST01kGTM2",
+							"name": "Native",
+							"reference": "B23",
+							"cost": -6,
+							"cost_type": "points"
+						},
+						{
+							"id": "mqyHQ6FLAj_UE6wbX",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m58yrbSkWsDcXMCtw",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mnKSQTnYzIFkU-k7X",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mw6rZ4GnYi8Cz0FxV",
+							"name": "Spoken",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points"
+						},
+						{
+							"id": "mJCgqDgGOvhil7MRj",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "None",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mic0XFQmA3Q6BAS0l",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Broken",
+							"cost": 1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mkvo1r6nGOnRHSf2Z",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Accented",
+							"cost": 2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mFIEZzA3Tkff9Yf5J",
+							"name": "Written",
+							"reference": "B24",
+							"notes": "Native",
+							"cost": 3,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tJ2wAkzd-KV4Eg-3u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "tj478Y8UdHYlqGNf2"
+					},
+					"name": "Bad Reputation",
+					"reference": "B26,MA54",
+					"notes": "Cold Killer",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"userdesc": "Considered untrustworthy or hostile by most wasteland survivors due to ancient war logs",
+					"modifiers": [
+						{
+							"id": "mzrxwIwMyPMQLU0iO",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mU6bE2yD283kovsxZ",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mpOrd4E3sz4na5Xbk",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Scavengers, Soldiers, Hackers",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "m-8komj5-2YjQKAKV",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mpV2a_6c8NkX55LOD",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "my0Yh2c9f0CL3C80d",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "mqlHNJiMSdvesKdC6",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "tn3YckyclLbuvhqY-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set\\Basic Set Traits.adq",
+						"id": "t0DUjQv4R20iknQwp"
+					},
+					"name": "Low Empathy",
+					"reference": "B142",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "oblivious"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "callous"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "empathy"
+								}
+							}
+						]
+					},
+					"base_points": -20,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "acting"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "carousing"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "criminology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "detect lies"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "enthrallment"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "interrogation"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "politics"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "psychology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "savoir-faire"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sociology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							},
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				}
+			],
+			"calc": {
+				"points": 78
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "sKVSNWzXh4s4NKd3c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Skills.skl",
+				"id": "sUoqxi6oeyAOnuNzf"
+			},
+			"name": "Gunner",
+			"reference": "B198",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"specialization": "Machine Gun",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"tech_level": "9",
+			"points": 4
+		},
+		{
+			"id": "sElh6cGG9f6RwkYlq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Skills.skl",
+				"id": "sgWf_qVqI7HrPQUo7"
+			},
+			"name": "Tactics",
+			"reference": "B224,MA60",
+			"tags": [
+				"Military",
+				"Police"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"points": 8
+		}
+	]
+}

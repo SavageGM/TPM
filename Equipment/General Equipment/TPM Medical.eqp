@@ -1,0 +1,1309 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ETXCGJ4UewG7_AHK1",
+			"description": "Biomonitor Autoinjector",
+			"reference": "UT197",
+			"notes": "Holds ten doses.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 6400,
+			"weight": "0.15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "E3fCXXIFO2sa2BJAM",
+			"description": "Diagnostic Bed",
+			"reference": "UT197",
+			"notes": "+3 (quality) to diagnose the patient. E/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 800000,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "Eh8wOCjY2O3MpnEER",
+			"description": "Hibernation Case (@Creature class@)",
+			"reference": "UT198",
+			"notes": "5D/1mo.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical"
+			],
+			"value": 320000,
+			"weight": "125 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "125 lb"
+			}
+		},
+		{
+			"id": "EN3SaZKOhRdaApITk",
+			"description": "Hibernation Chamber (@Creature class@)",
+			"reference": "UT198",
+			"notes": "External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical"
+			],
+			"value": 640000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "EgNkI04KUvmNxyypO",
+			"description": "Medical Bed",
+			"reference": "UT199",
+			"notes": "Physician +3 (quality) when treating this patient.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 320000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "E63egPSkYorD1-69-",
+			"description": "Suspended Animation Tube (@Creature class@)",
+			"reference": "UT198",
+			"notes": "5E/10yrs. or external power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical"
+			],
+			"value": 1600000,
+			"weight": "750 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600000,
+				"extended_weight": "750 lb"
+			}
+		},
+		{
+			"id": "eg9pdvpK6oQg7sNBS",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "e_FG3bZpjWnM4qH3q"
+			},
+			"description": "Analgine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ePoR5mr42ejIG63HE",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eomrg6cva2Qi-kjTK"
+			},
+			"description": "Antirad",
+			"reference": "UT205",
+			"tech_level": "9",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 480,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "efwjRz6jQee0-uG4A",
+			"description": "Bandage Spray Can",
+			"reference": "UT197",
+			"notes": "First Aid +2 (quality). Six applications.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 480,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e-kppuq9UHIi7OknJ",
+			"description": "Biomonitor",
+			"reference": "UT199",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "edLzDo9Cmhmo9ZKaa",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eetFeR-1m47IIld_C"
+			},
+			"description": "Biomonitor Bracelet",
+			"reference": "UT197",
+			"notes": "+1 (quality) to diagnose the wearer.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eSWw0c2pgwKSKvZ4I",
+			"description": "Crash Kit",
+			"reference": "UT198",
+			"notes": "Surgery -5.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 6400,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ezRyLehCk_QdaCsWU",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "ee6x88RJXhj6ITkTa"
+			},
+			"description": "Alcohol, Isopryl (Rubbing Alcohol)",
+			"reference": "HT34",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 800,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "ez4Ec7oNpNcbBGf3f",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e2u3oipAg9TPxRgh5"
+			},
+			"description": "Anti-Rad Drugs",
+			"reference": "ATE1:30",
+			"tech_level": "7",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"value": 4000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "edez9X4sOTiSmm3Cw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e2cHz8QXdlcb9nhSp"
+			},
+			"description": "Antibiotic",
+			"reference": "B289",
+			"notes": "Prevents or cures (in 1d days) infections.",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 80,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3RoSXdGZtys_OvEu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eVzaFfe5NU7dpmzE9"
+			},
+			"description": "Antibiotic Ointment",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "7",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e35rGRQLq1cSToIAP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e0760XlWW2eheaYxp"
+			},
+			"description": "Antimalarial Pills",
+			"reference": "HT226",
+			"notes": "Bottle of 30.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 8000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eh-HrSJFyDwt66yD0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "euu33CUl5QcxEYmH_"
+			},
+			"description": "Antitoxin Kit",
+			"reference": "B289",
+			"notes": "Antidote for specific poison. 10 uses",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 1600,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ea9oq3gTySkx08bpu",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e9Y-JVlehrZzoVkTi"
+			},
+			"description": "Antiseptic",
+			"reference": "HT225",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Surgery"
+			],
+			"value": 8000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eHj0meD1iVMsB7qcw",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e8GjOlg0zVXcjGCSG"
+			},
+			"description": "Bandages",
+			"reference": "B289",
+			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+			"tech_level": "0",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 320,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eyYu4PA9kbweF7CuC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "efzfKbJAj-DVuyNQU"
+			},
+			"description": "Botulin Toxins",
+			"reference": "HT227",
+			"notes": "Per dose.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 16000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOaORsz6CeV9DQR0j",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "enpZ47pAf5Gmamxj4"
+			},
+			"description": "Cane",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 40,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eV8ZMjFR3qsxuEyi3",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e2YJF_jlWwfsIqPD8"
+			},
+			"description": "Casualty Bag",
+			"reference": "HT222",
+			"notes": "M/2hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Medical Equipment"
+			],
+			"value": 4800,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e-eqBTBoCtAPSWH6q",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eDmuTrUw1ngwUj6L0"
+			},
+			"description": "Chelating Agents",
+			"reference": "ATE1:30",
+			"tech_level": "7",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"value": 64000,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ekeXyStN2wpYi4Zoz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eVHupVPVS039Aad9U"
+			},
+			"description": "Crash Kit/TL6+",
+			"reference": "B289",
+			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Includes IV drip, needle, and plasma. Counts as improvised gear (-5) for Surgery",
+			"tech_level": "6+",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 25600,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25600,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ekw6Xr6zL9wHtgnF2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eyfXWTG-etTkTHFFw"
+			},
+			"description": "Curare",
+			"reference": "HT227",
+			"notes": "Per dose.",
+			"tech_level": "5",
+			"legality_class": "1",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eYMXSnkFvw2PJXvPk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eIdwYnbjJppSCWEtk"
+			},
+			"description": "Small First Aid Kit",
+			"reference": "B289",
+			"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
+			"tech_level": "0",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 800,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ej5cYCPiomacIw-e5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eMkDU217DkkflCD41"
+			},
+			"description": "PatchUp Punch",
+			"reference": "ATE1:30",
+			"tech_level": "?",
+			"tags": [
+				"Consumables"
+			],
+			"value": 100,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eBGnqaOZ74EYjSYU4",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eUyPlfwJa25cy3D-C"
+			},
+			"description": "Surgical Instruments",
+			"reference": "B289",
+			"notes": "Includes scalpels, forceps, etc. Basic equipment for Surgery skill.",
+			"tech_level": "1",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 4800,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eB9mUAX-dlUiyU1JP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eunZ7Ji4YQDz5K6rT"
+			},
+			"description": "Suturing Kit",
+			"reference": "HT223",
+			"tech_level": "6",
+			"tags": [
+				"Surgery"
+			],
+			"value": 1280,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eCVBVacfH5f6e07YU",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eSZ-8-UfZUaWC0gZN"
+			},
+			"description": "Basic Arm Prosthetic",
+			"reference": "HT226",
+			"tech_level": "5",
+			"tags": [
+				"Surgery"
+			],
+			"value": 24000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eDFpWt0TR9Gs4LyHR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "efbrOJdC1ua-aHpRr"
+			},
+			"description": "Basic Leg Prosthetic",
+			"reference": "HT226",
+			"tech_level": "5",
+			"tags": [
+				"Surgery"
+			],
+			"value": 24000,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e-TMypiAvCpCkk61b",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eWImQnNm7ODyVrbQA"
+			},
+			"description": "Surgical Kit",
+			"reference": "HT223",
+			"tech_level": "8",
+			"tags": [
+				"Surgery"
+			],
+			"value": 76800,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Surgery"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 76800,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eEbKYGmsu4b-cOZ6s",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eSxr5MkOG-F-3pCdj"
+			},
+			"description": "Activated Charcoal",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4Vhtqgqv_jp1TS80",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "er03UbxOgjVrsKm4k"
+			},
+			"description": "Ammonia Inhalants",
+			"reference": "HT226",
+			"notes": "Per use.",
+			"tech_level": "5",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eLdK0XoLHFrQb99Bs",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "eU1DuJXBO13ex4RUu"
+			},
+			"description": "Litter",
+			"reference": "HT221",
+			"tech_level": "5",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"value": 100,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eKg4HmWqun6pxk0TW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "e0zPihy9df0jDfkR2"
+			},
+			"description": "Analgesic",
+			"reference": "HT226",
+			"notes": "Per dose.",
+			"tech_level": "6",
+			"tags": [
+				"Drugs and Poisons"
+			],
+			"value": 25,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "E63Y7PLoP0t8M5AYJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "EcvUlxXLbxS-mmpLj"
+			},
+			"description": "Doctor's Bag",
+			"reference": "HT221",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"value": 1600,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e7MQoXSj2ipgFLUoe",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Medical.eqp",
+				"id": "ebQQFuztkXlx0d12V"
+			},
+			"description": "First Aid Kit",
+			"reference": "HT221",
+			"tech_level": "7",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"value": 3200,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e5lKit-uv3Y2HHqYq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "edXUgrlma8Prn63Y2"
+			},
+			"description": "Credilene",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 7680,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7680,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eGCtCSHGXqc_tVk3-",
+			"description": "Diagnostic Probes",
+			"reference": "UT197",
+			"notes": "One dose. Diagnosis +3 (quality) after two hours.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 6400,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eO7zbZRV186RH5q1c",
+			"description": "Diagnostic Sensors",
+			"reference": "UT197",
+			"notes": "+2 (quality) to diagnose the patient.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 16000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eD9-5rFnw1-2FGphn",
+			"description": "Diagnostic Smart Bandage",
+			"reference": "UT199",
+			"notes": "Four applications.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 640,
+			"weight": "0.4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "eD6q67c7doudSKcgv",
+			"description": "Disposable Test Kit (@Disease, toxin, drug, or condition@)",
+			"reference": "UT197",
+			"notes": "No skill required.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 160,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ecQVVAl3QmohOv93X",
+			"description": "First Aid Kit",
+			"reference": "UT198",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1600,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "exognDjZYUxgW4aUw",
+			"description": "Hospital ESU",
+			"reference": "UT198",
+			"notes": "Physician or HT +2 (quality) for trauma maintenance; roll daily. 4D/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 480000,
+			"weight": "120 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480000,
+				"extended_weight": "120 lb"
+			}
+		},
+		{
+			"id": "e9WLRzcK_6yrdduiw",
+			"description": "Hospital HyMRI",
+			"reference": "UT198",
+			"notes": "2E/10hr. or external power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical"
+			],
+			"value": 8000000,
+			"weight": "500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "ex738Lj2xfdpl8TQR",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eR_azYjwrDydKU8qL"
+			},
+			"description": "Hyperstim",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eRiBo5vntlKPVm7td",
+			"description": "Medical Supplies",
+			"reference": "UT199",
+			"notes": "Lasts 50 patient-days.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 16000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Surgery"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ellYLlbNTzPWs4RwI",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eUFHYP9oS4JXu3SqU"
+			},
+			"description": "Morphazine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "esHdLHhY4xmdE0NuY",
+			"description": "One-Use Bandage Spray",
+			"reference": "UT197",
+			"notes": "First Aid +2 (quality).",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 96,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e9MI51__Oq0_NNhdm",
+			"description": "Operating Theater",
+			"reference": "UT200",
+			"notes": "Surgery +2 (quality). 20C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 6400000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "e-BAiMCakwH70_BM4",
+			"description": "Plasti-Skin",
+			"reference": "UT198",
+			"notes": "Four applications.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 64,
+			"weight": "0.125 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "0.125 lb"
+			}
+		},
+		{
+			"id": "e-FZM2lUrBxxg5wfP",
+			"description": "Pneumohypo: air cartridge",
+			"reference": "UT199",
+			"notes": "100 charges.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eVYLfkFB9hY40mTLb",
+			"description": "Pocket Medic",
+			"reference": "UT200",
+			"notes": "First Aid-12. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 38400,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 38400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eYW80bzlFsKzxbfxA",
+			"description": "Portable Surgery",
+			"reference": "UT200",
+			"notes": "Surgery +1 (quality). First Aid +2 (quality). 5min. to unpack. 5C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1600000,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "eYUYaWzz9F6Lnp_Eo",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "elkM8Crh3vAh9t2ts"
+			},
+			"description": "Radiation Badge",
+			"reference": "UT188",
+			"notes": "AA/1mo.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "euFyP7nY2U_LzXL-i",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+				"id": "eJ7sDXRvcQNxJilwO"
+			},
+			"description": "Soothe",
+			"reference": "UT205",
+			"tech_level": "9",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 480,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4zAFp9kEjde_OhCc",
+			"description": "Specialized Operating Theater",
+			"reference": "UT200",
+			"notes": "Surgery (@Specialty@) +4 (quality). 20C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 32000000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eR9fJcC0LZDFRDSvP",
+			"description": "Specialized Portable Surgery",
+			"reference": "UT200",
+			"notes": "Surgery (@Specialty@) +2 (quality). First Aid +2 (quality). 5min. to unpack. 5C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 3200000,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "eb09ttVh0-w0lvJp0",
+			"description": "Surgical Instruments",
+			"reference": "UT199",
+			"notes": "5B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 9600,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "ev0K7PsAYCovSkBYr",
+			"description": "Transport ESU",
+			"reference": "UT198",
+			"notes": "Physician or HT +1 (quality) for trauma maintenance; roll daily. 2D/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 320000,
+			"weight": "60 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "eafFOWTra70eiY47R",
+			"description": "Wearable Life Support Unit",
+			"reference": "UT198",
+			"notes": "Mitigates @Organ failure@. 4C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 160000,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "12 lb"
+			}
+		}
+	]
+}

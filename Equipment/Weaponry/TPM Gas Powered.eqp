@@ -1,0 +1,854 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EYJhWoXISJfbX_OUI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Firearms.eqp",
+				"id": "EwL8XMERVjzpfKFy9"
+			},
+			"description": "Conventional Gas-Powered Weapons",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "evnZbQF5-nTcEbwjs",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "eaplgrN-QEq9dhAvz"
+					},
+					"description": "Needle Rifle, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Rifle"
+					],
+					"value": 19200,
+					"weight": "5 lb",
+					"weapons": [
+						{
+							"id": "W8YrV8EfMVayMDcAv",
+							"damage": {
+								"type": "pi-",
+								"base": "2d"
+							},
+							"strength": "7†",
+							"accuracy": "4",
+							"range": "75/300",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fYipWWDclh-fz-fvl",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 19200,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "eTrL46FaShJrIuYCM",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "e2WT0ZHvPRup31nir"
+					},
+					"description": "Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 16000,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WwPluxrz_Pi0A2k5M",
+							"damage": {
+								"type": "pi-",
+								"base": "1d+2"
+							},
+							"strength": "7",
+							"accuracy": "1",
+							"range": "50/150",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d+2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fYNad6HR9ak9BX1PJ",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 16000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eO_DhPDCj_J0230Ag",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "eObK-cDtJkDqRMAcT"
+					},
+					"description": "Needler, 3mmN (Non-metallic)",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 24000,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WEmvSJx8535KOT2p4",
+							"damage": {
+								"type": "pi-",
+								"base": "1d+2"
+							},
+							"strength": "7",
+							"accuracy": "1",
+							"range": "50/150",
+							"rate_of_fire": "3",
+							"shots": "100(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d+2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fcuqiqNcd7WHoq3jH",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 24000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "efFceOVCo0SpsO0fc",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "eOeE2o_TvI6q3rg2b"
+					},
+					"description": "Partisan Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 48000,
+					"weight": "12 lb",
+					"weapons": [
+						{
+							"id": "WxyCmyvAb9arioN4A",
+							"damage": {
+								"type": "pi-",
+								"base": "2d"
+							},
+							"strength": "10†",
+							"accuracy": "4",
+							"range": "75/300",
+							"rate_of_fire": "3",
+							"shots": "140(3)",
+							"bulk": "-5",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "2d pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fkCv8MFtXCJks4kSZ",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 48000,
+						"extended_weight": "12 lb"
+					}
+				},
+				{
+					"id": "emUYz2FTEZjEUJ7N4",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "e1pBnHcddqGFtlxMl"
+					},
+					"description": "Tangler Pistol, 25mmT",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Pistol",
+						"Tangler"
+					],
+					"value": 9600,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "WGgwc_5ERjA6o5k0x",
+							"damage": {
+								"type": "pi++",
+								"base": "1d"
+							},
+							"strength": "10",
+							"accuracy": "1",
+							"range": "20/130",
+							"rate_of_fire": "1",
+							"shots": "4+1(3i)",
+							"bulk": "-3",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fYSF7BEzzgAOoLkl4",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 9600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eoEKdrsG-5GpYzqSp",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "eGmYLaE1-6TsPpP-z"
+					},
+					"description": "Wrist Needler, 3mmN",
+					"reference": "UT140",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Gas-Powered Air Gun",
+						"Guns",
+						"Needle",
+						"Pistol"
+					],
+					"value": 6400,
+					"weight": "0.1 lb",
+					"weapons": [
+						{
+							"id": "W_IPJZHLlt2o9VZQE",
+							"damage": {
+								"type": "pi-",
+								"base": "1d-2"
+							},
+							"strength": "3",
+							"accuracy": "1",
+							"range": "25/100",
+							"rate_of_fire": "3",
+							"shots": "25(3)",
+							"bulk": "-1",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d-2 pi-"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "f0m4kQE3qY2TOpDQK",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e20NaNaKYC4PgyQyT",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Firearms.eqp",
+						"id": "eEZJHYvzHWsq7Y4_A"
+					},
+					"description": "Tangler, 25mmT",
+					"reference": "UT140",
+					"tech_level": "9",
+					"tags": [
+						"Guns",
+						"Rifle",
+						"Tangler"
+					],
+					"value": 19200,
+					"weight": "5 lb",
+					"weapons": [
+						{
+							"id": "WhzkZU-LmDAKNarbL",
+							"damage": {
+								"type": "pi++",
+								"base": "1d"
+							},
+							"strength": "7†",
+							"accuracy": "2",
+							"range": "30/190",
+							"rate_of_fire": "3",
+							"shots": "8+1(3i)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "1d pi++"
+							}
+						}
+					],
+					"modifiers": [
+						{
+							"id": "fmwbMEnOoVy6ANiqH",
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32",
+							"disabled": true
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 19200,
+						"extended_weight": "5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 142400,
+				"extended_weight": "26.1 lb"
+			}
+		},
+		{
+			"id": "eSqAtLoJTZAtyQCLW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Air Guns.eqp",
+				"id": "ePzjz3n6zmmSGD8k0"
+			},
+			"description": "NSG SplatMaster, .68 Paintball",
+			"reference": "HT88",
+			"tech_level": "8",
+			"tags": [
+				"Air Gun",
+				"Firearms"
+			],
+			"value": 140,
+			"weight": "2.1 lb",
+			"weapons": [
+				{
+					"id": "W5T1oB2sfjVez07FN",
+					"damage": {
+						"type": "cr",
+						"base": "1d-3",
+						"armor_divisor": 0.2
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "2/30",
+					"rate_of_fire": "1",
+					"shots": "10+1(5)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns Sport",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d-3(0.2) cr"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fAtJhrarau0V1cQG5",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2240,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "e3155ODONwENujqpH",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Air Guns.eqp",
+				"id": "epk8Xg8s16eO606Rw"
+			},
+			"description": "Daisy Number 111 Red Ryder, .175 BB",
+			"reference": "HT88",
+			"notes": "Air charge lasts for 30 shots.",
+			"tech_level": "7",
+			"tags": [
+				"Air Gun",
+				"Firearms"
+			],
+			"value": 400,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "Wng9_IMkVtwepV2hn",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-4"
+					},
+					"strength": "5†",
+					"range": "25/140",
+					"rate_of_fire": "1",
+					"shots": "1000(2i)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns Sport",
+							"specialization": "Musket"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d-4 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "esdb4LBWVWY-kt5yq",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Air Guns.eqp",
+				"id": "eGMqpebaYv6Su0jlu"
+			},
+			"description": "FN 303, .68 FN",
+			"reference": "HT88",
+			"notes": "Air charge lasts for 110 shots. Add -2 to host's bulk.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Air Gun",
+				"Firearms"
+			],
+			"value": 17600,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "WofSc7hdiucJe-Xar",
+					"damage": {
+						"type": "cr",
+						"base": "2d-3",
+						"armor_divisor": 0.5
+					},
+					"strength": "7†",
+					"accuracy": "3",
+					"range": "25/110",
+					"rate_of_fire": "3",
+					"shots": "15(5)",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d-3(0.5) cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 17600,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "eGlYx4OTOQQ-gF-jg",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Air Guns.eqp",
+				"id": "eRBvjQnjgJOxP8HBT"
+			},
+			"description": "Dan-Inject JM Standard, 11mm",
+			"reference": "HT88",
+			"notes": "Air charge lasts for 40 shots.",
+			"tech_level": "8",
+			"tags": [
+				"Air Gun",
+				"Firearms"
+			],
+			"value": 1950,
+			"weight": "6.6 lb",
+			"weapons": [
+				{
+					"id": "W79AJp_5Z5y8fhbdu",
+					"damage": {
+						"type": "pi-",
+						"base": "1d"
+					},
+					"strength": "8†",
+					"accuracy": "3+2",
+					"range": "45/150",
+					"rate_of_fire": "1",
+					"shots": "1(3i)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d pi-"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f2iqXgrroRN9jJXoU",
+					"name": "TL8 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x16"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 31200,
+				"extended_weight": "6.6 lb"
+			}
+		}
+	]
+}

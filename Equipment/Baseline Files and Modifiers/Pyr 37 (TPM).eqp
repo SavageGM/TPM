@@ -1,0 +1,3174 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "En2lEa6YGrfMNVppe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "EYQPhZQdrEsinHMKi"
+			},
+			"description": "Thinking Machines",
+			"reference": "PY37:16",
+			"notes": "Computers of the Skyscraper size and larger have costs too large for GCS to handle, therefore they are not shown here.",
+			"tags": [
+				"Computers"
+			],
+			"quantity": 1,
+			"children": [
+				{
+					"id": "euPmzfIpq20JZuFHI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eMI9Rp4mWmZIyiTlT"
+					},
+					"description": "Touch-Screen Terminal",
+					"reference": "PY37:21",
+					"tech_level": "8.5",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 1000,
+					"weight": "5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "ejVOTT9aYMKBL4Y4_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eOuICXaDOSEeDVm9a"
+					},
+					"description": "Hands-Free Terminal",
+					"reference": "PY37:21",
+					"tech_level": "8",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 2000,
+					"weight": "10 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "eWNjoYhIKjY2aC8Ui",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eebGAb1KrAIv6fqk1"
+					},
+					"description": "Standard Terminal",
+					"reference": "PY37:21",
+					"tech_level": "8",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 100,
+					"weight": "10 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "eX3IkUCWvrykbcIyD",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eRX4KxjIvVxVVsP-v"
+					},
+					"description": "Touch-Screen Terminal",
+					"reference": "PY37:21",
+					"tech_level": "9",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 500,
+					"weight": "2.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "2.5 lb"
+					}
+				},
+				{
+					"id": "erJqOpZhBQt0re2dC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eW_JKPwob3AkuzZM9"
+					},
+					"description": "Hands-Free Terminal",
+					"reference": "PY37:21",
+					"tech_level": "9",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 1000,
+					"weight": "5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e_6XHET8_xBqT7pn0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "ecfhvcON9p4VQH6h5"
+					},
+					"description": "Standard Terminal",
+					"reference": "PY37:21",
+					"tech_level": "9",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 50,
+					"weight": "5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e5pUNiBoKmFJk_smG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eh35-9g3pW8mAfhG3"
+					},
+					"description": "Standard Terminal",
+					"reference": "PY37:21",
+					"tech_level": "7",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 500,
+					"weight": "50 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "50 lb"
+					}
+				},
+				{
+					"id": "eH9rrJm-mgTV0VYIe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "etnB1sow3KQ73AVl3"
+					},
+					"description": "Primitive Terminal",
+					"reference": "PY37:21",
+					"tech_level": "6",
+					"tags": [
+						"Computer Interfaces"
+					],
+					"value": 5000,
+					"weight": "500 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5000,
+						"extended_weight": "500 lb"
+					}
+				},
+				{
+					"id": "eidPftpTyT9Hy2uA-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "e5Q8Rwg-3wbx2MZgY"
+					},
+					"description": "Minicomputer",
+					"reference": "PY37:19",
+					"notes": "Complexity 1",
+					"tech_level": "7",
+					"tags": [
+						"Computers"
+					],
+					"value": 40000,
+					"weight": "200 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "200 lb"
+					}
+				},
+				{
+					"id": "e9IOVO84ejAUpg-nO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eRYSLRUWYJRCUBlQZ"
+					},
+					"description": "Pocket Computer",
+					"reference": "PY37:18",
+					"notes": "Complexity 3",
+					"tech_level": "8.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 250,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 250,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "ehDMpe7833rq8fLiG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eM0f8OuVHLyjGrDoG"
+					},
+					"description": "Macroframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 5",
+					"tech_level": "8.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 10000000,
+					"weight": "20,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10000000,
+						"extended_weight": "20,000 lb"
+					}
+				},
+				{
+					"id": "eUBkd-7tez_xkyhdJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "exuY_1fEaUV8dnpMS"
+					},
+					"description": "Tiny Computer",
+					"reference": "PY37:18",
+					"notes": "Complexity 3. 1TB. 2A/20hr.",
+					"tech_level": "8.5",
+					"tags": [
+						"Computers"
+					],
+					"value": 100,
+					"weight": "0.05 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0.05 lb"
+					}
+				},
+				{
+					"id": "ep8OB_oC5EpnZ6E1O",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eCdFz3FxTpomwUP0v"
+					},
+					"description": "Pocket Computer",
+					"reference": "PY37:18",
+					"notes": "Complexity 2",
+					"tech_level": "8",
+					"tags": [
+						"Computers"
+					],
+					"value": 250,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 250,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eLOLKvTO4sF4GI9ty",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "epqxqZ1iWhWFOxr2p"
+					},
+					"description": "Grain Computer",
+					"reference": "PY37:18",
+					"notes": "Complexity 3",
+					"tech_level": "9",
+					"tags": [
+						"Computers"
+					],
+					"value": 1,
+					"weight": "0.0002 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1,
+						"extended_weight": "0.0002 lb"
+					}
+				},
+				{
+					"id": "eJG_p6W9Vf0A3vL_M",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "e8rRWuSPQpIggqS3j"
+					},
+					"description": "Workstation",
+					"reference": "PY37:18",
+					"notes": "Complexity 2",
+					"tech_level": "7.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 2000,
+					"weight": "20 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "eNvJ6_eRq5oepcPgK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eD4mQpeEFcxu2leSe"
+					},
+					"description": "Minicomputer",
+					"reference": "PY37:19",
+					"notes": "Complexity 4",
+					"tech_level": "8",
+					"tags": [
+						"Computers"
+					],
+					"value": 40000,
+					"weight": "200 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "200 lb"
+					}
+				},
+				{
+					"id": "eynSYsUMXzjl5jVTm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eazpqiVpE_gOZEXIS"
+					},
+					"description": "Minicomputer",
+					"reference": "PY37:19",
+					"notes": "Complexity 2",
+					"tech_level": "7.5",
+					"tags": [
+						"Computers"
+					],
+					"value": 40000,
+					"weight": "200 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "200 lb"
+					}
+				},
+				{
+					"id": "enZ00EJoqgKHf2sZ8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eTYh2Ice6od9ZTmqF"
+					},
+					"description": "Workstation",
+					"reference": "PY37:18",
+					"notes": "Complexity 3",
+					"tech_level": "7.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 2000,
+					"weight": "20 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "eQPTOCgxR7m3INhYE",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eUlRHpwghr7Is7J_6"
+					},
+					"description": "Minicomputer",
+					"reference": "PY37:19",
+					"notes": "Complexity 3",
+					"tech_level": "7.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 40000,
+					"weight": "200 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40000,
+						"extended_weight": "200 lb"
+					}
+				},
+				{
+					"id": "eNvICyRcSORisd5fx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eMohYrTHkeCK0dfTJ"
+					},
+					"description": "Macroframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 4",
+					"tech_level": "7.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 10000000,
+					"weight": "20,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10000000,
+						"extended_weight": "20,000 lb"
+					}
+				},
+				{
+					"id": "eIM0UuiIcf6Xp7sCc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "etdzHc3i3yGwDrzIh"
+					},
+					"description": "Small Compuiter",
+					"reference": "PY37:18",
+					"notes": "Complexity 2",
+					"tech_level": "7.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 500,
+					"weight": "2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eAXZed-z27OX0n_Yx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "ePI4eulhC8scTGnYW"
+					},
+					"description": "Macroframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 3",
+					"tech_level": "7.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 10000000,
+					"weight": "20,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10000000,
+						"extended_weight": "20,000 lb"
+					}
+				},
+				{
+					"id": "eO5sYFzcqf6OMtDcb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "e1lrzxm8NmUTCQdC-"
+					},
+					"description": "Mainframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 3",
+					"tech_level": "7.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 600000,
+					"weight": "2,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 600000,
+						"extended_weight": "2,000 lb"
+					}
+				},
+				{
+					"id": "eZ6DDimYKFDQcW7VG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eHiGzVarKqHw707Qh"
+					},
+					"description": "Small Compuiter",
+					"reference": "PY37:18",
+					"notes": "Complexity 3",
+					"tech_level": "8",
+					"tags": [
+						"Computers"
+					],
+					"value": 500,
+					"weight": "2 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eBmM9B2DQ1t-bCsVP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eUWV4PVSsP1qI_L1f"
+					},
+					"description": "Mainframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 2",
+					"tech_level": "7",
+					"tags": [
+						"Computers"
+					],
+					"value": 600000,
+					"weight": "2,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 600000,
+						"extended_weight": "2,000 lb"
+					}
+				},
+				{
+					"id": "eKYSdI7Npk6jaJKGH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "ewg4zyD_quiEk4rgB"
+					},
+					"description": "Macroframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 2",
+					"tech_level": "7",
+					"tags": [
+						"Computers"
+					],
+					"value": 10000000,
+					"weight": "20,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10000000,
+						"extended_weight": "20,000 lb"
+					}
+				},
+				{
+					"id": "e79eRqY5JTiOgbGLF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "edReUcmPd97OM3zhY"
+					},
+					"description": "Tiny Computer",
+					"reference": "PY37:18",
+					"notes": "Complexity 4. 1TB. 2A/20hr.",
+					"tech_level": "9.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 100,
+					"weight": "0.05 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0.05 lb"
+					}
+				},
+				{
+					"id": "eiUImZBrP81ZWi-2q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "ePS2dnEowFk_ic798"
+					},
+					"description": "Mainframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 1",
+					"tech_level": "6.75",
+					"tags": [
+						"Computers"
+					],
+					"value": 600000,
+					"weight": "2,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 600000,
+						"extended_weight": "2,000 lb"
+					}
+				},
+				{
+					"id": "eYwPeK1cpQiap3aUY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eiKi4-8_iYyh-UTNZ"
+					},
+					"description": "Nanocomputer",
+					"reference": "PY37:18",
+					"notes": "Complexity 2",
+					"tech_level": "9.5",
+					"tags": [
+						"Computers"
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eBHr4bonI7LPlQu9_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eL74X-iX7lI_F74wn"
+					},
+					"description": "Megacomputer",
+					"reference": "PY37:19",
+					"notes": "Complexity 7",
+					"tech_level": "9.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 1000000000,
+					"weight": "2,000,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1000000000,
+						"extended_weight": "2,000,000 lb"
+					}
+				},
+				{
+					"id": "e6O1q4n178A3qPVsc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "eCl_pinTpt2-hgOKZ"
+					},
+					"description": "Macroframe",
+					"reference": "PY37:19",
+					"notes": "Complexity 6",
+					"tech_level": "9.25",
+					"tags": [
+						"Computers"
+					],
+					"value": 10000000,
+					"weight": "20,000 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10000000,
+						"extended_weight": "20,000 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1051975851,
+				"extended_weight": "2,107,432.0002 lb"
+			}
+		},
+		{
+			"id": "eAX_pb2qQW9hhrjo8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e35Fb4hnffvUOY0yH"
+			},
+			"description": "Utility Tool",
+			"reference": "PY37:32",
+			"tech_level": "9^",
+			"legality_class": "6",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4jaydjppILWGoMEu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ezZPWS7O8cdzRvBwT"
+			},
+			"description": "5.5mmCL",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.1,
+			"weight": "0.005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.1,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "eCSkMl9ewZjIivCie",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eplUCFyVcnBpAEKDD"
+			},
+			"description": "64mmCL",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 240,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eAX696SMU35lqECN6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eD9_dUCodHSrYEHXh"
+			},
+			"description": "25mmCLR",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 25,
+			"weight": "1.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1.25 lb"
+			}
+		},
+		{
+			"id": "eF1gNhZ9w4oxL5RcD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e6wvuM5mLiY_ku5tw"
+			},
+			"description": "100mmCL",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 400,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "ejtVo_wJCNcYzfX0Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e5EHSdIhEFRVqoa3N"
+			},
+			"description": "40mmCL",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 80,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eTO2zFJdluXQJEfI2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "er5-RlTv-lOxr1TuV"
+			},
+			"description": "100mm Rocket",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 400,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "e-83mWc-E5EuRlJux",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ekTmwxMJ9YLK5fIm4"
+			},
+			"description": "160mmCL",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 1500,
+			"weight": "150 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eCNEgpbGOfeMOZFXe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eZUL8dyuOOjak5qS1"
+			},
+			"description": "160mm Railgun Shell",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 3000,
+			"weight": "300 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "300 lb"
+			}
+		},
+		{
+			"id": "ejfkgJgXcN5kzEIR8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e_Q7c_-62d0JCPFMm"
+			},
+			"description": "160mm Strike Missile",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 2000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "eaNtX7SCf9P8vsTVq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e6w0nJaoUUA9a6f93"
+			},
+			"description": "400mm Cruise Missile",
+			"reference": "PY37:25",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 25000,
+			"weight": "2,500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "2,500 lb"
+			}
+		},
+		{
+			"id": "edTXdjbvVK88gyjXW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "esLiSEbTb4aKSNozo"
+			},
+			"description": "64mmCL Light Howitzer",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 75000,
+			"weight": "1,500 lb",
+			"weapons": [
+				{
+					"id": "W0QCy5I9HQYL5nwWY",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx8"
+					},
+					"strength": "125M",
+					"usage": "Indirect",
+					"accuracy": "6+3",
+					"range": "5,000/15,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-14",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx8 pi++"
+					}
+				},
+				{
+					"id": "Wd5tbBn3MRGv9fh-4",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx8"
+					},
+					"strength": "125M",
+					"usage": "Direct",
+					"accuracy": "6+3",
+					"range": "5,000/15,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-14",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx8 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "1,500 lb"
+			}
+		},
+		{
+			"id": "ehhZ3fxqRdzPbX9GF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eOCa8xItaJkcdA48j"
+			},
+			"description": "160mm Railgun",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 20000000,
+			"weight": "300,000 lb",
+			"weapons": [
+				{
+					"id": "WGmyfYp69imSqoPkz",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx100",
+						"armor_divisor": 3
+					},
+					"strength": "750M",
+					"accuracy": "6+6",
+					"range": "15,000/50,000",
+					"rate_of_fire": "1/4",
+					"shots": "100(4i)",
+					"bulk": "-24",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx100(3) pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000000,
+				"extended_weight": "300,000 lb"
+			}
+		},
+		{
+			"id": "eGmuvFde3s7UsiAdF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eAW49s9q94Sd7oc4x"
+			},
+			"description": "160mm Heavy Modular Launch System",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 2000000,
+			"weight": "16,000 lb",
+			"weapons": [
+				{
+					"id": "Wghf6IuM2xUNjCWcR",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx20"
+					},
+					"strength": "300M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "1,000/50,000",
+					"rate_of_fire": "1",
+					"shots": "20(20i)",
+					"bulk": "-19",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx20 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000000,
+				"extended_weight": "16,000 lb"
+			}
+		},
+		{
+			"id": "e-_bmtPhbUMtC3knq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ePv7E_PpgzSrMcIJf"
+			},
+			"description": "160mm MSML",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 200000,
+			"weight": "1,200 lb",
+			"weapons": [
+				{
+					"id": "W-oLRSz3CoZzfhy9i",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx20"
+					},
+					"strength": "140M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "1,000/50,000",
+					"rate_of_fire": "1",
+					"shots": "4(20i)",
+					"bulk": "-15",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx20 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200000,
+				"extended_weight": "1,200 lb"
+			}
+		},
+		{
+			"id": "erR7eknQ73QgC68kr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ebeBpYgnT-WuBB8hE"
+			},
+			"description": "64mmCL Light Tank cannon",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 75000,
+			"weight": "1,500 lb",
+			"weapons": [
+				{
+					"id": "WwWjH5BO02jpEC0dr",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx15"
+					},
+					"strength": "125M",
+					"usage": "Indirect",
+					"accuracy": "6",
+					"range": "360/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-14",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx15 pi++"
+					}
+				},
+				{
+					"id": "WMv8g3OvzeNugo3X_",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx15"
+					},
+					"strength": "125M",
+					"usage": "Direct",
+					"accuracy": "6",
+					"range": "360/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-14",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx15 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "1,500 lb"
+			}
+		},
+		{
+			"id": "ef9KfnkJfy8Lq6I6c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eAFgbYunFEl8a0yxi"
+			},
+			"description": "400mm Cruise Missile",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 25000,
+			"weight": "2,500 lb",
+			"weapons": [
+				{
+					"id": "WErm0e9JnjfFCq1EX",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx15"
+					},
+					"strength": "300M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "300/3,000,000",
+					"rate_of_fire": "1",
+					"shots": "1(20i)",
+					"bulk": "-15",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx15 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "2,500 lb"
+			}
+		},
+		{
+			"id": "eIdCCAjGxUKy6HSA8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "edWdXl65J78j1Xap0"
+			},
+			"description": "15mmCL Light Gatling Gun",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 50000,
+			"weight": "150 lb",
+			"weapons": [
+				{
+					"id": "WAj2jqmcgqBqHJ-l6",
+					"damage": {
+						"type": "pi+",
+						"base": "15d"
+					},
+					"strength": "25M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "500(5)",
+					"bulk": "-10",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "15d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "e7YFzoXuUlevUSqeo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eGlNVt4y1LSjHDtng"
+			},
+			"description": "25mmCLR Light Autocannon",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 45000,
+			"weight": "250 lb",
+			"weapons": [
+				{
+					"id": "WQb4Y6N73Mz0aMbGz",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "32M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "100(5)",
+					"bulk": "-10",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 45000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "eO2OsiaXFD4y2ac9v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eR4KXX7lfI08x0Sk6"
+			},
+			"description": "25mmCLR Heavy Gatling Gun",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 75000,
+			"weight": "500 lb",
+			"weapons": [
+				{
+					"id": "Wd9h_twpxomD-GEcV",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "45M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "300(5)",
+					"bulk": "-12",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "edOU7elWL2ptvLOae",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eCSCZ-6acXHA9Zmi9"
+			},
+			"description": "100mm MTML",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 25000,
+			"weight": "150 lb",
+			"weapons": [
+				{
+					"id": "WQOrxkvmDznld6JVw",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx30"
+					},
+					"strength": "25M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "2,000/10,000",
+					"rate_of_fire": "1",
+					"shots": "4(20i)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx30 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eF8FvFnyOcALjgmBD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eXCnip8WbWkmluN5S"
+			},
+			"description": "64mmPLB Commando Mortar",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 1000,
+			"weight": "40 lb",
+			"weapons": [
+				{
+					"id": "WzEFRmrbYeoPH6reM",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx2"
+					},
+					"strength": "15M",
+					"usage": "Indirect",
+					"accuracy": "3",
+					"range": "360/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(2i)",
+					"bulk": "-8",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx2 pi++"
+					}
+				},
+				{
+					"id": "WCgbTCDJvL1d0tCET",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx2",
+						"fragmentation": "2d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "15M",
+					"usage": "Indirect HE",
+					"accuracy": "3",
+					"range": "360/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(2i)",
+					"bulk": "-8",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "8dx2 cr ex [2d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "emtUjwbuL9XDHO8se",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eBiQJgml-0ccgKdBN"
+			},
+			"description": "160mm Strike Missile Launcher",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 2000,
+			"weight": "200 lb",
+			"weapons": [
+				{
+					"id": "Wf2BDobqtEoz_GJ1X",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx20"
+					},
+					"strength": "23M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "1,000/50,000",
+					"rate_of_fire": "1",
+					"shots": "20(20i)",
+					"bulk": "-11",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx20 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "efMOCEX4pXmccl99k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eCJ5qA6Wgb9n0Wu1F"
+			},
+			"description": "40mmCL Heavy Autocannon",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 75000,
+			"weight": "500 lb",
+			"weapons": [
+				{
+					"id": "WSDtF6qKcs4OISME1",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx6"
+					},
+					"strength": "45M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "5",
+					"shots": "125(5)",
+					"bulk": "-12",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx6 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "ePt8o-hO5kz96lVuN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eKA0ldwQA07cHv5mZ"
+			},
+			"description": "100mmCL Medium Howitzer",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 100000,
+			"weight": "2,500 lb",
+			"weapons": [
+				{
+					"id": "WTNUup_DSTR3hFNBw",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx12"
+					},
+					"strength": "150M",
+					"usage": "Indirect",
+					"accuracy": "6+3",
+					"range": "10,000/30,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-15",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx12 pi++"
+					}
+				},
+				{
+					"id": "Wada5QbjCcEFd18ny",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx12"
+					},
+					"strength": "150M",
+					"usage": "Direct",
+					"accuracy": "6+3",
+					"range": "10,000/30,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-15",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx12 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100000,
+				"extended_weight": "2,500 lb"
+			}
+		},
+		{
+			"id": "erEXg7Tsepl_n2JR0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eHA59N0td5IEgZXmz"
+			},
+			"description": "64mmCL Dual Purpose Gun",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 225000,
+			"weight": "3,000 lb",
+			"weapons": [
+				{
+					"id": "WKPJ4vkyiOehu0UMG",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx8"
+					},
+					"strength": "185M",
+					"usage": "Indirect",
+					"accuracy": "6+3",
+					"range": "5,000/15,000",
+					"rate_of_fire": "5",
+					"shots": "1(4i)",
+					"bulk": "-16",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx8 pi++"
+					}
+				},
+				{
+					"id": "WzYh5ieVHjcMlfAcr",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx8"
+					},
+					"strength": "185M",
+					"usage": "Direct",
+					"accuracy": "6+3",
+					"range": "5,000/15,000",
+					"rate_of_fire": "5",
+					"shots": "100(4i)",
+					"bulk": "-16",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx8 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 225000,
+				"extended_weight": "3,000 lb"
+			}
+		},
+		{
+			"id": "eyZpOK-KbDNHE4ThO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e8I6EkE7qcgyD7KvI"
+			},
+			"description": "100mm Modular Launch System",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 300000,
+			"weight": "1,500 lb",
+			"weapons": [
+				{
+					"id": "W_7cV4KZonlFMI-Hp",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx30"
+					},
+					"strength": "140M",
+					"usage": "Kinetic Missile",
+					"accuracy": "3",
+					"range": "2,000/10,000",
+					"rate_of_fire": "1",
+					"shots": "20(20i)",
+					"bulk": "-15",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						}
+					],
+					"calc": {
+						"damage": "6dx30 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300000,
+				"extended_weight": "1,500 lb"
+			}
+		},
+		{
+			"id": "eBkKmVd9EAAtnw47v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eFQehfJ_IH2_LQ71j"
+			},
+			"description": "160mmCL Howitzer",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 500000,
+			"weight": "10,000 lb",
+			"weapons": [
+				{
+					"id": "WL-sgIdOleWsT9IgJ",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx20"
+					},
+					"strength": "250M",
+					"usage": "Indirect",
+					"accuracy": "6+3",
+					"range": "15,000/50,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-18",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx20 pi++"
+					}
+				},
+				{
+					"id": "WKxpC77HPtlbmTEZo",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx20"
+					},
+					"strength": "250M",
+					"usage": "Direct",
+					"accuracy": "6+3",
+					"range": "15,000/50,000",
+					"rate_of_fire": "1",
+					"shots": "1(4i)",
+					"bulk": "-18",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx20 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500000,
+				"extended_weight": "10,000 lb"
+			}
+		},
+		{
+			"id": "e5mTiOR6tXBubj8e8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e2v54mYSMvJLPzeIx"
+			},
+			"description": "100mmCL Dual Purpose Gun",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Heavy Weapons",
+				"Missile Weapon"
+			],
+			"value": 300000,
+			"weight": "5,000 lb",
+			"weapons": [
+				{
+					"id": "WnlrkkJ6WPEEQ-O_3",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx12"
+					},
+					"strength": "225M",
+					"usage": "Indirect",
+					"accuracy": "6+3",
+					"range": "10,000/30,000",
+					"rate_of_fire": "3",
+					"shots": "60(4i)",
+					"bulk": "-17",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx12 pi++"
+					}
+				},
+				{
+					"id": "WMGd8Tdv2KjxUQ1Wk",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx12"
+					},
+					"strength": "225M",
+					"usage": "Direct",
+					"accuracy": "6+3",
+					"range": "10,000/30,000",
+					"rate_of_fire": "3",
+					"shots": "60(4i)",
+					"bulk": "-17",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx12 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300000,
+				"extended_weight": "5,000 lb"
+			}
+		},
+		{
+			"id": "eizNN5d4u0e4ik0CK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eb7ioQBjf6A5zo0bj"
+			},
+			"description": "Biosynthesis Station",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 5000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eZQCmxAzlta6abbct",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ejpLA0oFn8xEoV-Vh"
+			},
+			"description": "King-Sized Ultra-Futon",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 2000,
+			"weight": "300 lb",
+			"modifiers": [
+				{
+					"id": "ftLAFoXYUSeTTX6zd",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "300 lb"
+			}
+		},
+		{
+			"id": "ekZnStb-w1q7gHGOa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eUKt7hP1oSQP2RcYs"
+			},
+			"description": "Small Ultra-Futon",
+			"reference": "PY37:32",
+			"notes": "Suitable for a Child",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 700,
+			"weight": "140 lb",
+			"modifiers": [
+				{
+					"id": "f82CuaobtDK6UswT8",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "e-iNXqQ4AM0dwrJU3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eeUpYYxuN2FDAJBdQ"
+			},
+			"description": "Medium Ultra-Futon",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 800,
+			"weight": "160 lb",
+			"modifiers": [
+				{
+					"id": "fCdiyLmzKaRslRaZ6",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "160 lb"
+			}
+		},
+		{
+			"id": "ep_a-pDpx37lfBvLy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eiprKSso947917QWC"
+			},
+			"description": "Double Ultra-Futon",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 1250,
+			"weight": "200 lb",
+			"modifiers": [
+				{
+					"id": "fS89cToRgBtUzJ2zi",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1250,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "esRhYCBMycj3yV6Bk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eWgbIhTYjaf0jdzK2"
+			},
+			"description": "Queen-Sized Ultra-Futon",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 1500,
+			"weight": "250 lb",
+			"modifiers": [
+				{
+					"id": "f8zWPmuh6jqLg1sRQ",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "eIq_EETl0vwCMXCri",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "excMbkuZ8odIRWNIg"
+			},
+			"description": "Large Ultra-Futon",
+			"reference": "PY37:32",
+			"tech_level": "9",
+			"legality_class": "6",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 1000,
+			"weight": "180 lb",
+			"modifiers": [
+				{
+					"id": "fwIf-yAd8nTDXfUn0",
+					"name": "Survival Feature",
+					"reference": "PY37:33",
+					"notes": "+3 HT to Survival Rolls due to Heat or Cold",
+					"cost": "+50%",
+					"weight": "+20%",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "180 lb"
+			}
+		},
+		{
+			"id": "egwn0NuBQd0k52Aok",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eu_QvS2ZRH6K20E2g"
+			},
+			"description": "Biosynthesis Refill Canister",
+			"reference": "PY37:32",
+			"notes": "Uses are lbs of output remaining",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 200,
+			"weight": "30 lb",
+			"max_uses": 15,
+			"quantity": 1,
+			"uses": 15,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "e-sZP0Ocene64o7So",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "euWRabK79ryYxkkCi"
+			},
+			"description": "5.5mmCL Light Hunting Rifle",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 500,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "WJ3h6E3jsL2nyJ6No",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+2"
+					},
+					"strength": "7",
+					"usage": "Solid Shot",
+					"accuracy": "4",
+					"range": "180/2,000",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						}
+					],
+					"calc": {
+						"damage": "1d+2 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eYkdpjgBZlJYvSF1t",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eWt_urnlA8vADuRgI"
+			},
+			"description": "10mmCLP Heavy Revolver",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 600,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "WdtnbqwlohCoxBsZq",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "7",
+					"usage": "Solid Shot",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "3",
+					"shots": "5(3i)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eG-1tq9xQGTEVJiHy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "eYUJ7isd75UES4xNh"
+			},
+			"description": "7.5mmCLP Machine Pistol",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 750,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "W5vS5qI1vQ7gWC1aM",
+					"damage": {
+						"type": "pi-",
+						"base": "4d+1"
+					},
+					"strength": "9",
+					"usage": "Solid Shot",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "10",
+					"shots": "60+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eZOcNeRWx4PQLnqN8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ekcOBfDHCWiPlh-lT"
+			},
+			"description": "5.7mmCL Combat Rifle",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 1200,
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"id": "WC-BxaRNWWpFWOEsc",
+					"damage": {
+						"type": "pi-",
+						"base": "4d+1"
+					},
+					"strength": "9",
+					"usage": "Solid Shot",
+					"accuracy": "5",
+					"range": "180/2,000",
+					"rate_of_fire": "15",
+					"shots": "100+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Long Arm"
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "6.5 lb"
+			}
+		},
+		{
+			"id": "eJiWI_rwfLppSWEM5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "ez4_f2VFssMcidOg1"
+			},
+			"description": "7.5mmCLP Derringer Quad",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 350,
+			"weight": "1.2 lb",
+			"weapons": [
+				{
+					"id": "W5rmLTe2J3HjSAMQ8",
+					"damage": {
+						"type": "pi-",
+						"base": "2d"
+					},
+					"strength": "7",
+					"usage": "Solid Shot",
+					"accuracy": "1",
+					"range": "100/1,200",
+					"rate_of_fire": "1",
+					"shots": "4(3i)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "2d pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "1.2 lb"
+			}
+		},
+		{
+			"id": "elWopI0fBjzM0puEE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e1xiN5w4GKZj9-5sS"
+			},
+			"description": "7.5mmCLP Snub-Nosed Revolver",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 400,
+			"weight": "1.3 lb",
+			"weapons": [
+				{
+					"id": "WjOZkIRdBPlcLtZEs",
+					"damage": {
+						"type": "pi-",
+						"base": "2d"
+					},
+					"strength": "7",
+					"usage": "Solid Shot",
+					"accuracy": "1",
+					"range": "100/1,200",
+					"rate_of_fire": "3",
+					"shots": "5(3i)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "2d pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1.3 lb"
+			}
+		},
+		{
+			"id": "efYDV4FNeFt4CBPEa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+				"id": "e6LC07Q96MwUEt9vA"
+			},
+			"description": "5.5mmCL Pocket Pistol",
+			"reference": "PY37:26",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 200,
+			"weight": "0.7 lb",
+			"weapons": [
+				{
+					"id": "WOUR-swL5sGM5trRP",
+					"damage": {
+						"type": "pi-",
+						"base": "1d+1"
+					},
+					"strength": "6",
+					"usage": "Solid Shot",
+					"accuracy": "1",
+					"range": "70/1,400",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.7 lb"
+			}
+		}
+	]
+}

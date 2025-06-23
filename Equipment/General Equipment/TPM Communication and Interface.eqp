@@ -1,0 +1,800 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ebNLvHy5WKBbL1ng9",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "egvlx3Z2aCr2Gb98O"
+			},
+			"description": "Accented Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 4. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 9600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eiHbajamb8X0RzAKP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ebk7BmOUjojdumni9"
+			},
+			"description": "Basic Encryption",
+			"reference": "UT47",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Communication and Interface"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eWkqrkscdbdLlbC9c",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eE5zsmH-vAgLL2TAZ"
+			},
+			"description": "Broken Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 3. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eTE3jM8V6k3nchEe2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ekxfV7AiTBjwc8AvG"
+			},
+			"description": "Cable Jack",
+			"reference": "UT42",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eBTAng10Gx22M88uI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "euqeNI7aR2J0fxaUo"
+			},
+			"description": "Decryption Program",
+			"reference": "UT47",
+			"notes": "Complexity 2.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 9600,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eUBYXLKXgdoGnpafk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eZLhB4IERYIgW1MSv"
+			},
+			"description": "Large IR Communicator",
+			"reference": "UT44",
+			"notes": "25-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 64000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "eTXJ33sHM8eV3FqH_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e7ecBuxxImVou9vc_"
+			},
+			"description": "Large Laser Communicator",
+			"reference": "UT44",
+			"notes": "5,000-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 320000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "exiVluYSPXx7a17C7",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "en4ENDmp7NAB0AqqT"
+			},
+			"description": "Large Radio Communicator",
+			"reference": "UT44",
+			"notes": "1,000-mile range. 2D/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 128000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "esb5Xs_705uYgta44",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "etRE8rhx1yMZG7YhT"
+			},
+			"description": "Medium IR Communicator",
+			"reference": "UT44",
+			"notes": "2.5-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 16000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eMnPkmns0pyuGkVzv",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBpzaJaBsN9rF1uFs"
+			},
+			"description": "Medium Laser Communicator",
+			"reference": "UT44",
+			"notes": "500-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 64000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e4JKwKo4KHJwEi5sa",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eCvle4alNG2Uxoo4E"
+			},
+			"description": "Medium Radio Communicator",
+			"reference": "UT44",
+			"notes": "100-mile range. 2C/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 32000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eaJKfCT1jP168WbQV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ef35nSPSNstYEbv26"
+			},
+			"description": "Micro IR Communicator",
+			"reference": "UT44",
+			"notes": "5-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 160,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eu6XCQe4ZfA4gnDHL",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eU-kLeyPgrEHKG3XL"
+			},
+			"description": "Micro Laser Communicator",
+			"reference": "UT44",
+			"notes": "1,000-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "efnEcHTRufCJv3OJy",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e3TLw86nv-Zt8XKir"
+			},
+			"description": "Micro Radio Communicator",
+			"reference": "UT44",
+			"notes": "200-yard range. AA/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eTAKniVyz42Yosr_S",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eTuhRpNcTI5HZyGE_"
+			},
+			"description": "Native Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 5. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 32000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 32000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "es2gUnGBvyRuLROsK",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e1EYOSvDqVgy8nX4O"
+			},
+			"description": "Neural Input Receiver",
+			"reference": "UT48",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1600,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eLSWyk5KClOV5--F5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "el4u_j3IIvZ7g03YV"
+			},
+			"description": "Parallax Microsystems Neural Interface Jack",
+			"reference": "UT217",
+			"notes": "Major procedure.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communications and Interface",
+				"Cybernetics",
+				"Parallax Microsystems"
+			],
+			"value": 128000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 128000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e5k4G4yMtdU6xmpq2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e6OoX2zekmRY5KuaG"
+			},
+			"description": "Optical Cable",
+			"reference": "UT43",
+			"notes": "\"Quantity\" represents yards.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3.2,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3.2,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "ec7Z91srzD75RzrSI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e_kCPxApdsnW_awAF"
+			},
+			"description": "Secure Encryption",
+			"reference": "UT47",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 16000,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eN2JD_aJsOKnxN0mM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ev2wOVW2dB4fxtpiY"
+			},
+			"description": "Small IR Communicator",
+			"reference": "UT44",
+			"notes": "500-yard range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eovQTJVofpWzQWpBP",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "evTaCx9YbNHiyfv2-"
+			},
+			"description": "Small Laser Communicator",
+			"reference": "UT44",
+			"notes": "50-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 12800,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ef_4ExVjAkklvQf4J",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ee9T_T5876_OLP41B"
+			},
+			"description": "Small Radio Communicator",
+			"reference": "UT44",
+			"notes": "10-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 6400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "efHe9iKgf5ZZczonG",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ee9T_T5876_OLP41B"
+			},
+			"description": "Small Radio Communicator (secure encryption)",
+			"reference": "UT44",
+			"notes": "10-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 22400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 22400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "efb4akj2fpwaiw4yC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "eIrSjcmSz3KqKHe1Y"
+			},
+			"description": "Cell Phone",
+			"reference": "B288",
+			"notes": "Only works in some areas; $20/month fee., 10 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 4000,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "emN8A_OjVS983wqN6",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "eXGU7yeVqzenDQZ2M"
+			},
+			"description": "Computer, Laptop",
+			"reference": "B288",
+			"notes": "Modem plugs into phone. 2 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 24000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eGhik6rEOEyWlSuVi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "ewFMNOc6Y4XrHSwlO"
+			},
+			"description": "Computer, Wearable",
+			"reference": "B288",
+			"notes": "Display glasses and wireless modem. 8 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 16000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ecGPqeZbZ3jo5_hLA",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "etAhJYKhwMuPNflZi"
+			},
+			"description": "Drum",
+			"reference": "B288",
+			"notes": "Audible for several miles",
+			"tech_level": "0",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 40,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eybj6lfomDGORYrp0",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "eNP1BHwTe4gM310zu"
+			},
+			"description": "Mini-Recorder, Digital",
+			"reference": "B288",
+			"notes": "Palm-sized, 3 hrs. recording time",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 3200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ewUWxCq0WtMkfVfEb",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "es7HI1Dos5LP-DbmM"
+			},
+			"description": "Radio, Headset",
+			"reference": "B288",
+			"notes": "With throat mike. 1-mile range. 12 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 4000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eodyrAfikVvHB5pHN",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "emf1Fp_0imTls5i5K"
+			},
+			"description": "Radio, Headset, secure",
+			"reference": "B288",
+			"notes": "With throat mike. 1-mile range. Secure, encrypted version. 12 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 40000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eUUNOEvqDVxLwQ6Ld",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Communications and Information Gear.eqp",
+				"id": "e9kSrwjyqfODBwiCL"
+			},
+			"description": "Satellite Phone",
+			"reference": "B288",
+			"notes": "Global range, satellite relay. 1 hr.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 48000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 48000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eFh0rmYBvYtLq28vM",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e35Zl7rDsktZTgBXr"
+			},
+			"description": "Tiny IR Communicator",
+			"reference": "UT44",
+			"notes": "50-yard range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e3iClmmhlgK2zqSBX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ekyliTmL_aMotOJz8"
+			},
+			"description": "Tiny Laser Communicator",
+			"reference": "UT44",
+			"notes": "5-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 3200,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eVL6-hzUXcpuGWqUi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "ejo2D1m_1E4qDxpUZ"
+			},
+			"description": "Tiny Radio Communicator",
+			"reference": "UT44",
+			"notes": "1-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1600,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eAfZn5VzjW8XjI6qj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "e_y0ByGpw7uwBvE7M"
+			},
+			"description": "Very Large Laser Communicator",
+			"reference": "UT44",
+			"notes": "50,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 1280000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1280000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "ejw-g06ZsaP7qpQp8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eSTzjZJmXoCWyacYB"
+			},
+			"description": "Very Large Radio Communicator",
+			"reference": "UT44",
+			"notes": "10,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 640000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "400 lb"
+			}
+		}
+	]
+}

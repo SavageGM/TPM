@@ -1,0 +1,1066 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eqyEBlCnbSkiY6ELU",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Machineguns.eqp",
+				"id": "eT4Pz3gOEgSH0Vbk5"
+			},
+			"description": "Browning M2HB, .50 Browning",
+			"reference": "HT137",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Machine gun"
+			],
+			"value": 240000,
+			"weight": "84 lb",
+			"weapons": [
+				{
+					"id": "Wwes3gV1TuzJxU_QH",
+					"damage": {
+						"type": "pi+",
+						"base": "7dx2"
+					},
+					"strength": "21M",
+					"accuracy": "5",
+					"range": "1,800/7,600",
+					"rate_of_fire": "8",
+					"shots": "100(5)",
+					"bulk": "-9",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7dx2 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240000,
+				"extended_weight": "84 lb"
+			}
+		},
+		{
+			"id": "eGSRSqgTw4T-mbv3k",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Machineguns.eqp",
+				"id": "e2YE7gYBRP-75_tcn"
+			},
+			"description": "FN MINIMI, 5.56x45mm",
+			"reference": "HT137",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Machine Gus"
+			],
+			"value": 52800,
+			"weight": "22.6 lb",
+			"weapons": [
+				{
+					"id": "WGmS4fNgbFCzTtpfY",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "11B†",
+					"accuracy": "5",
+					"range": "800/3,500",
+					"rate_of_fire": "12!",
+					"shots": "200(5)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 52800,
+				"extended_weight": "22.6 lb"
+			}
+		},
+		{
+			"id": "e_qbVgOHOd6W-lMLm",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Machineguns.eqp",
+				"id": "ezVkAE0mgfB5Z5hgX"
+			},
+			"description": "GE M134, 7.62x51mm",
+			"reference": "HT137",
+			"notes": "Very Reliable. External power.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Machine gun"
+			],
+			"value": 320000,
+			"weight": "61 lb",
+			"weapons": [
+				{
+					"id": "WJJj6MIuFQNBSgNvc",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "20M",
+					"accuracy": "5",
+					"range": "1,000/4,200",
+					"rate_of_fire": "33!/66!",
+					"shots": "4500(10)",
+					"bulk": "-7",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320000,
+				"extended_weight": "61 lb"
+			}
+		},
+		{
+			"id": "emB11HClVPZ3OXzjc",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Machineguns.eqp",
+				"id": "eyUmOOAbDDDBCHri6"
+			},
+			"description": "GE M61A1, 20x102mm",
+			"reference": "HT137",
+			"notes": "Very Reliable. External power.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Machine Gun"
+			],
+			"value": 640000,
+			"weight": "251 lb",
+			"weapons": [
+				{
+					"id": "WbYaIXKHuNzvHK7WF",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3"
+					},
+					"strength": "29M",
+					"accuracy": "5",
+					"range": "1,250/5,300",
+					"rate_of_fire": "66!/100!",
+					"shots": "500",
+					"bulk": "-11",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx3 pi++"
+					}
+				},
+				{
+					"id": "W8HPhWZCVqCtA6PnH",
+					"damage": {
+						"type": "cr ex",
+						"base": "2d",
+						"fragmentation": "1d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Follow-Up",
+					"calc": {
+						"damage": "2d cr ex [1d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 640000,
+				"extended_weight": "251 lb"
+			}
+		},
+		{
+			"id": "eg6E1zfB4WXTwMcft",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Firearms\\Firearms, Machineguns.eqp",
+				"id": "eH9KbYExq05zmOwvl"
+			},
+			"description": "FN MAG, 7.62x51mm",
+			"reference": "HT137",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearms",
+				"Machine Gun"
+			],
+			"value": 110400,
+			"weight": "30.5 lb",
+			"weapons": [
+				{
+					"id": "W1HSd_mdFbp511zbK",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "12B†",
+					"accuracy": "5",
+					"range": "1,000/4,200",
+					"rate_of_fire": "12!",
+					"shots": "100(5)",
+					"bulk": "-7",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 110400,
+				"extended_weight": "30.5 lb"
+			}
+		},
+		{
+			"id": "eLO4hOfqXC906hx0V",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eAvOEHp6di7BX5wgN"
+			},
+			"description": "Anaconda Rotary Auto Cannon 25mmCLR",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Gunner",
+				"Machine Gun"
+			],
+			"value": 1920000,
+			"weight": "500 lb",
+			"weapons": [
+				{
+					"id": "Wbk-NxhiGx5GDgmfv",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "45M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "300(5)",
+					"bulk": "-12",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1920000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "e-RzTDjudIkwYKU7L",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "eRsLkGJpft081q_Fu"
+			},
+			"description": "Cobra Light Auto Cannon, 25mmCLR",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Gunner",
+				"Machine Gun"
+			],
+			"value": 1440000,
+			"weight": "250 lb",
+			"weapons": [
+				{
+					"id": "W9ZalAWlPfKeWy0b8",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "32M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "100(5)",
+					"bulk": "-10",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1440000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "ehSyKIL5LWtL_EX8_",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "e5pWl4csCRRQ27rbC"
+			},
+			"description": "Python Auto Cannon, 40mmCL",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Gunner",
+				"Machine Gun"
+			],
+			"value": 2400000,
+			"weight": "500 lb",
+			"weapons": [
+				{
+					"id": "WIuiVqs-4Lb7KsQIJ",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx6"
+					},
+					"strength": "45M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "5",
+					"shots": "125(5)",
+					"bulk": "-12",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx6 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "equZquWgE2WxW4mDO",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "ecVKjLAYMTc-VV50m"
+			},
+			"description": "Boomslang, SAA GU 384, 50mmCRH, Medium Autocannon",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Gunner",
+				"Machine Gun"
+			],
+			"value": 14400000,
+			"weight": "600 lb",
+			"weapons": [
+				{
+					"id": "Wk98VsbuIEgUDJNa9",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx14"
+					},
+					"strength": "32M",
+					"usage": "50mmCRH",
+					"accuracy": "6",
+					"range": "2,500",
+					"rate_of_fire": "5",
+					"shots": "100(5)",
+					"bulk": "-11",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx14 pi++"
+					}
+				},
+				{
+					"id": "WL2PRLOeHehKubbh3",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx14",
+						"armor_divisor": 2
+					},
+					"strength": "32M",
+					"usage": "50mmCRH APHEX",
+					"accuracy": "6",
+					"range": "6,200/15,000",
+					"rate_of_fire": "5",
+					"shots": "100(5)",
+					"bulk": "-11",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx14(2) pi++"
+					}
+				},
+				{
+					"id": "WYF7xoj7GuyLBjZYd",
+					"damage": {
+						"type": "cr ex",
+						"base": "3d-1",
+						"fragmentation": "2d+2",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Follow-up",
+					"calc": {
+						"damage": "3d-1 cr ex [2d+2 cut]"
+					}
+				},
+				{
+					"id": "W2yUfewrg3jdGolFN",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx13",
+						"armor_divisor": 3
+					},
+					"strength": "32M",
+					"usage": "50mmCRH APEP",
+					"accuracy": "6",
+					"range": "12,400/30,000",
+					"rate_of_fire": "5",
+					"shots": "100(5)",
+					"bulk": "-11",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx13(3) pi++"
+					}
+				},
+				{
+					"id": "WvKteelxxNoa8N4GJ",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx13",
+						"armor_divisor": 3
+					},
+					"strength": "32M",
+					"usage": "50mmCRH APEP",
+					"accuracy": "6",
+					"range": "12,400/30,000",
+					"rate_of_fire": "5",
+					"shots": "100(5)",
+					"bulk": "-11",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6dx13(3) pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 14400000,
+				"extended_weight": "600 lb"
+			}
+		},
+		{
+			"id": "eD_R8E8cH_YQqo2Oo",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "emWmb7W8iXA9Lij4m"
+			},
+			"description": "Cottonmouth, Light Rotary Auto Cannon, 15mmCL",
+			"reference": "PY37:27",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Gunner",
+				"Machine Gun"
+			],
+			"value": 1600000,
+			"weight": "150 lb",
+			"weapons": [
+				{
+					"id": "WmaL2_uK0g6eDq68h",
+					"damage": {
+						"type": "pi+",
+						"base": "15d"
+					},
+					"strength": "25M",
+					"usage": "Solid Slug",
+					"accuracy": "6",
+					"range": "2,000/9,000",
+					"rate_of_fire": "100",
+					"shots": "500(5)",
+					"bulk": "-10",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "15d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "e56MYj7tqatU0gqH0",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "e-EeIbQYmcnBhagDo"
+			},
+			"description": "Krait, Light Support Weapon (LSW), 7mmCL",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Guns",
+				"Light Machine Gun"
+			],
+			"value": 96000,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "WPGOrxxXoBdEkDeCw",
+					"damage": {
+						"type": "pi",
+						"base": "6d"
+					},
+					"strength": "9B†",
+					"accuracy": "4",
+					"range": "700/4,000",
+					"rate_of_fire": "15",
+					"shots": "200(5)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "flgNP2TWwsWj8Wuvd",
+					"name": "TL9 Price Modifier",
+					"reference": "ATE1:29",
+					"cost_type": "to_final_cost",
+					"cost": "x32",
+					"disabled": true
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 96000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e3wSdboI0VRDzrUzw",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "egvHtM2gbbHgRNaHv"
+			},
+			"description": "Copperhead, Storm Chaingun, 10mmCLR",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Guns",
+				"Light Machine Gun"
+			],
+			"value": 352000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "WSn25jkMi3nmHUlM0",
+					"damage": {
+						"type": "pi+",
+						"base": "9d"
+					},
+					"strength": "11B†",
+					"accuracy": "5",
+					"range": "1,300/5,800",
+					"rate_of_fire": "10",
+					"shots": "60(5)",
+					"bulk": "-6",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "9d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 352000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eSZdORzw8lOFPB8P8",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+				"id": "egvHtM2gbbHgRNaHv"
+			},
+			"description": "SA Model 100 Chaingun, 10mmCLR",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Guns",
+				"Light Machine Gun"
+			],
+			"value": 352000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "WjxZDcDfoIw0Xe8ch",
+					"damage": {
+						"type": "pi+",
+						"base": "9d"
+					},
+					"strength": "11B†",
+					"accuracy": "5",
+					"range": "1,300/5,800",
+					"rate_of_fire": "10",
+					"shots": "60(5)",
+					"bulk": "-6",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "9d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 352000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eo_43vt-KuifzOQnw",
+			"description": "V-20 20mm Rotary Autocannon",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Guns",
+				"Machine gun"
+			],
+			"value": 10006528,
+			"weight": "280 lb",
+			"weapons": [
+				{
+					"id": "WSHpw5imJyYm1t0un",
+					"damage": {
+						"type": "pi++",
+						"base": "6d+1x4"
+					},
+					"strength": "62M",
+					"accuracy": "6",
+					"range": "1,900/7,200",
+					"rate_of_fire": "83!#/27!",
+					"shots": "500(3)",
+					"bulk": "-7",
+					"recoil": "8",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine gun"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d+1x4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10006528,
+				"extended_weight": "280 lb"
+			}
+		}
+	]
+}

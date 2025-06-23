@@ -1,0 +1,1463 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eyeoK9W5ao99XuU14",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Equipment TL 9.eqp",
+				"id": "eBWVmkNw7kl3xinq3"
+			},
+			"description": "VTC (Vehicular Tactical Computer)",
+			"reference": "UT22",
+			"notes": "Complexity 7. 1,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers",
+				"Omicron Tactical Systems"
+			],
+			"value": 3200000,
+			"weight": "40 lb",
+			"modifiers": [
+				{
+					"id": "fW9rdVmrw2RfRHw_Z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fORPlSDsTOr2fk5Wz"
+					},
+					"name": "Fast (+1 Complexity)",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+19 CF",
+					"weight": "+0 lb"
+				},
+				{
+					"id": "fmZwdNnq62wezHWu0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fOdqzWq5hDOqIdQ4O"
+					},
+					"name": "Hardened",
+					"reference": "UT23",
+					"notes": "Using multipliers, +3 HT vs. resist electronic pulses, microwaves, etc.",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x2"
+				},
+				{
+					"id": "fzDzZKz_XYPjb1YlQ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fvamx4np-59rr96di"
+					},
+					"name": "Compact",
+					"reference": "UT23",
+					"notes": "Using multipliers",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"tech_level": "9",
+					"cost": "+1 CF",
+					"weight": "x0.5"
+				},
+				{
+					"id": "fpgCFkHd5hC10Z93n",
+					"name": "Complexity 7. 1,000TB. External power."
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 70400000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "EG2kGj11s65I7VJBi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\Empire Equipment\\Empire Load-Outs.eqp",
+				"id": "ELY2nnwoVltijh6Cc"
+			},
+			"description": "Power Armor Fighting Load",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e_D9MfvpcIWBXFabn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "e35Fb4hnffvUOY0yH"
+					},
+					"description": "Utility Tool",
+					"reference": "PY37:32",
+					"tech_level": "9^",
+					"legality_class": "6",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"value": 3200,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3200,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eIaAQ7ZnbgdkAYWeq",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\Firearms TL 9.eqp",
+						"id": "e1ho_mmZ_CetG07_p"
+					},
+					"description": "Underbarrel Grenade Launcher, 40mmPLB",
+					"reference": "UT138",
+					"notes": "Use the Bulk, ST, and sighting bonuses of the weapon it is installed in.",
+					"tech_level": "9",
+					"legality_class": "1",
+					"tags": [
+						"Grenade Launcher",
+						"Guns"
+					],
+					"value": 6400,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "WnYcmaBUBDTcpZIrc",
+							"damage": {
+								"type": "cr ex inc",
+								"base": "8dx2"
+							},
+							"strength": "10",
+							"usage": "Thermobaric",
+							"accuracy": "2",
+							"range": "75/450",
+							"rate_of_fire": "3",
+							"shots": "5(5)",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"hide": true,
+							"calc": {
+								"damage": "8dx2 cr ex inc"
+							}
+						},
+						{
+							"id": "WtQAeI-GJI5e_sLox",
+							"damage": {
+								"type": "cr inc",
+								"base": "6dx4",
+								"armor_divisor": 10
+							},
+							"strength": "10",
+							"usage": "Shaped Charge",
+							"accuracy": "2",
+							"range": "75/450",
+							"rate_of_fire": "3",
+							"shots": "5(5)",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"hide": true,
+							"calc": {
+								"damage": "6dx4(10) cr inc"
+							}
+						},
+						{
+							"id": "WgaigRC0Owxo9YiCI",
+							"damage": {
+								"type": "cr ex",
+								"base": "4d",
+								"fragmentation": "2d",
+								"fragmentation_type": "cut"
+							},
+							"usage": "Linked SC",
+							"calc": {
+								"damage": "4d cr ex [2d cut]"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "e53onVrMIsn3iTi_v",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "echafojArKZ2BtawU"
+					},
+					"description": "PTC (Personal Tactical Computer)",
+					"reference": "UT22",
+					"notes": "Complexity 6. 100TB. 1C/20hr or external power.",
+					"tech_level": "9",
+					"tags": [
+						"Computers",
+						"Omicron Tactical Systems"
+					],
+					"value": 1000,
+					"weight": "5 lb",
+					"modifiers": [
+						{
+							"id": "fEQOqef9xvdoMVGxx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "After the End\\After the End Equipment Modifiers.eqm",
+								"id": "fr2hkQjLm5BFkUYTm"
+							},
+							"name": "TL9 Price Modifier",
+							"reference": "ATE1:29",
+							"cost_type": "to_final_cost",
+							"cost": "x32"
+						},
+						{
+							"id": "fa6zeQaE61_L2LohU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fvamx4np-59rr96di"
+							},
+							"name": "Compact",
+							"reference": "UT23",
+							"notes": "Using multipliers",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+1 CF",
+							"weight": "x0.5"
+						},
+						{
+							"id": "fT_iU53Cm4UbtLRAi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment Modifiers.eqm",
+								"id": "f0W_ChQGkQqPIhLv2"
+							},
+							"name": "Rugged",
+							"reference": "PY37:20",
+							"notes": "+2 HT and Skill to repair.",
+							"cost_type": "to_final_base_cost",
+							"weight_type": "to_base_weight",
+							"cost": "x2",
+							"weight": "x2"
+						},
+						{
+							"id": "fgrqzLCJwOr2E8e_E",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+								"id": "fORPlSDsTOr2fk5Wz"
+							},
+							"name": "Fast (+1 Complexity)",
+							"reference": "UT23",
+							"notes": "Using multipliers",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"tech_level": "9",
+							"cost": "+19 CF",
+							"weight": "+0 lb"
+						},
+						{
+							"id": "fv6udNZ-NANL9yL4x",
+							"name": "IFF Comm Software",
+							"cost": "+500"
+						},
+						{
+							"id": "f1LyvJTUPt0jSpZER",
+							"name": "Silhouette",
+							"reference": "UT149",
+							"notes": "Complexity 5.",
+							"tags": [
+								"Firearm Accessories",
+								"Software",
+								"Weaponry"
+							],
+							"tech_level": "9",
+							"cost": "+2000"
+						},
+						{
+							"id": "fYZKsSBRSp8dWO6lY",
+							"name": "Total VR",
+							"reference": "UT25",
+							"notes": "Requires neural interface. Complexity 6.",
+							"tags": [
+								"Media and Education",
+								"Software"
+							],
+							"tech_level": "9",
+							"cost": "+3000"
+						},
+						{
+							"id": "fZ2aE9Qk8Km4dg0ks",
+							"name": "Targeting: Guns (Rifle)",
+							"reference": "UT149",
+							"notes": "+2 skill. Complexity 4.",
+							"tags": [
+								"Firearm Accessories",
+								"Software",
+								"Weaponry"
+							],
+							"tech_level": "9",
+							"cost": "+1500",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Guns"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Rifle"
+									},
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "fMqLRuzGIIzgwLnqC",
+							"name": "Targeting: Artillery (Guided Missile)",
+							"reference": "UT149",
+							"notes": "+2 skill. Complexity 4.",
+							"tags": [
+								"Firearm Accessories",
+								"Software",
+								"Weaponry"
+							],
+							"tech_level": "9",
+							"cost": "+1500",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Artillery"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Guided Missile"
+									},
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "fA9OFrhKAbq-GI2uZ",
+							"name": "Target Tracking",
+							"reference": "UT150",
+							"notes": "Complexity 3. | Track upto 100 targets",
+							"tags": [
+								"Software"
+							],
+							"tech_level": "9",
+							"cost": "+300"
+						},
+						{
+							"id": "fsH6Mg4nAWbvKfRRX",
+							"name": "TacNet",
+							"reference": "UT149",
+							"notes": "+2 Tactics. Complexity 6.",
+							"tags": [
+								"Firearm Accessories",
+								"Software",
+								"Weaponry"
+							],
+							"tech_level": "9",
+							"cost": "+30000",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Tactics"
+									},
+									"amount": 2
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 53491200,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "eR_j1HTnLAix6HITZ",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\Firearms TL 9.eqp",
+						"id": "eLFKiG9-pDY9MXZ_7"
+					},
+					"description": "NG-2 Assault Carbine, 7mmCL",
+					"reference": "UT137",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 51200,
+					"weight": "7 lb",
+					"weapons": [
+						{
+							"id": "WqRupKRgL5yqd8Vga",
+							"damage": {
+								"type": "pi",
+								"base": "6d"
+							},
+							"strength": "9†",
+							"accuracy": "4",
+							"range": "700/4,000",
+							"rate_of_fire": "15",
+							"shots": "50+1(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d pi"
+							}
+						},
+						{
+							"id": "Wsb1N2NENhLRiUUaJ",
+							"damage": {
+								"type": "pi-",
+								"base": "6d",
+								"armor_divisor": 3
+							},
+							"strength": "9†",
+							"usage": "APEP",
+							"accuracy": "4",
+							"range": "1,400/8,000",
+							"rate_of_fire": "15",
+							"shots": "50+1(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "6d(3) pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 51200,
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "eD72wg4m5-5KUFdxv",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "et7-aWu_M7kpUHJNn"
+					},
+					"description": "Hand Grenade",
+					"reference": "UT139",
+					"notes": "64mm Frag",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"value": 1280,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "Wo3Fyjpyh7YAapo9Q",
+							"damage": {
+								"type": "cr ex",
+								"base": "8dx2",
+								"fragmentation": "2d",
+								"fragmentation_type": "cut"
+							},
+							"usage": "Thrown",
+							"range": "x3.5",
+							"rate_of_fire": "1",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "8dx2 cr ex [2d cut]"
+							}
+						}
+					],
+					"rated_strength": 6,
+					"quantity": 6,
+					"calc": {
+						"extended_value": 7680,
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "esVpY5se3OTo5ceU_",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "eLHUGNMI4EziNt09R"
+					},
+					"description": "Food Paste",
+					"reference": "UT73",
+					"notes": "One day's supply.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"value": 320,
+					"weight": "0.75 lb",
+					"quantity": 14,
+					"calc": {
+						"extended_value": 4480,
+						"extended_weight": "10.5 lb"
+					}
+				},
+				{
+					"id": "esumxVgIITjcpY7H9",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+						"id": "eiFhU7-ehrg9k5N9q"
+					},
+					"description": "40mmPLB Thermobaric",
+					"reference": "UT139",
+					"notes": "Pre-loaded barrel",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Grenade Launcher",
+						"Mortar"
+					],
+					"value": 6400,
+					"weight": "2 lb",
+					"max_uses": 5,
+					"quantity": 4,
+					"uses": 5,
+					"equipped": true,
+					"calc": {
+						"extended_value": 25600,
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "ezhN_OUBKuaX16gNc",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Ammo TL 9.eqp",
+						"id": "eiFhU7-ehrg9k5N9q"
+					},
+					"description": "40mmPLB Shaped Charge",
+					"reference": "UT139",
+					"notes": "Pre-loaded barrel",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Grenade Launcher",
+						"Mortar"
+					],
+					"value": 3200,
+					"weight": "2 lb",
+					"max_uses": 5,
+					"quantity": 4,
+					"uses": 5,
+					"equipped": true,
+					"calc": {
+						"extended_value": 12800,
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "ezJa-ZZWUWg8dc5ub",
+					"source": {
+						"library": "/TPM",
+						"path": "Weaponry (Final Drafts)\\Ammo TL 9.eqp",
+						"id": "es6CGI2CIbLBkBTdt"
+					},
+					"description": "7mmCL (APEP)",
+					"reference": "UT139, UT152",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Rifle"
+					],
+					"value": 172.8,
+					"weight": "0.027 lb",
+					"quantity": 500,
+					"calc": {
+						"extended_value": 86400,
+						"extended_weight": "13.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 53688960,
+				"extended_weight": "61 lb"
+			}
+		},
+		{
+			"id": "ELY2nnwoVltijh6Cc",
+			"description": "Basic Fighting Load",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "ehqT4DwkinPZ-oARc",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\Firearms TL 9.eqp",
+						"id": "edq2XNoST5ve00v1z"
+					},
+					"description": "V-17 5.7mmCL Combat Rifle",
+					"reference": "PY37:26",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Guns",
+						"Rifle"
+					],
+					"value": 38400,
+					"weight": "6.5 lb",
+					"weapons": [
+						{
+							"id": "Wl4IxZoFOH2IfQzGZ",
+							"damage": {
+								"type": "pi-",
+								"base": "4d+1"
+							},
+							"strength": "9",
+							"usage": "Solid Shot",
+							"accuracy": "5",
+							"range": "180/2,000",
+							"rate_of_fire": "15",
+							"shots": "100+1(3)",
+							"bulk": "-4",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Pistol",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Long Arm"
+								}
+							],
+							"calc": {
+								"damage": "4d+1 pi-"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 38400,
+						"extended_weight": "6.5 lb"
+					}
+				},
+				{
+					"id": "eeYy9r7XN5Wl8QoIT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Pyramid Magazine\\Pyramid 37\\Pyramid 37 Equipment.eqp",
+						"id": "e35Fb4hnffvUOY0yH"
+					},
+					"description": "Utility Tool",
+					"reference": "PY37:32",
+					"tech_level": "9^",
+					"legality_class": "6",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"value": 3200,
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3200,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eITubs_7twcyzh1h3",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "ez2HbiJyRCqyzOTb2"
+					},
+					"description": "Survival Rations",
+					"reference": "UT73",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"value": 160,
+					"weight": "0.5 lb",
+					"quantity": 14,
+					"calc": {
+						"extended_value": 2240,
+						"extended_weight": "7 lb"
+					}
+				},
+				{
+					"id": "ediyf5RQr4QtMuoib",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Defenses  TL 9.eqp",
+						"id": "eJxgGj3kppvsR_tWC"
+					},
+					"description": "Reflex Tactical Vest",
+					"reference": "UT173",
+					"notes": "DR+11 vs. piercing and cutting. Flexible.",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Defenses"
+					],
+					"value": 28800,
+					"weight": "9 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 7
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 7
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 7
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 28800,
+						"extended_weight": "9 lb"
+					}
+				},
+				{
+					"id": "eRAhDbmw6c68m1gvG",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Defenses  TL 9.eqp",
+						"id": "eiszSJr5-G5cGzums"
+					},
+					"description": "Reflex Tacsuit",
+					"reference": "UT178",
+					"notes": "Flexible. Double DR vs. cutting and piercing damage. C/12hr.",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 96000,
+					"weight": "15 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"eye"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"face"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"neck"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"tail"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"wing"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"fin"
+							],
+							"amount": 10
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"brain"
+							],
+							"amount": 10
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 96000,
+						"extended_weight": "15 lb"
+					}
+				},
+				{
+					"id": "eAMQgELbJfoknDc0v",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Medical TL 9.eqp",
+						"id": "e-BAiMCakwH70_BM4"
+					},
+					"description": "Plasti-Skin",
+					"reference": "UT198",
+					"notes": "Four applications.",
+					"tech_level": "9",
+					"tags": [
+						"Medical"
+					],
+					"value": 64,
+					"weight": "0.125 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 64,
+						"extended_weight": "0.125 lb"
+					}
+				},
+				{
+					"id": "eyY0aVNKZFLiiBKFF",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "eovL2TMwJPx5Q0H8t"
+					},
+					"description": "Mini Flashlight",
+					"reference": "UT74",
+					"notes": "15-yard beam. B/24hr.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"value": 320,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 320,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eRch6wviZHpNqeLfv",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Equipment TL 9.eqp",
+						"id": "eepLnFl4w1lUJf10A"
+					},
+					"description": "Inertial Compass",
+					"reference": "UT75",
+					"notes": "A/200hr.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"value": 3840,
+					"weight": "0.2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Air"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Land"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Sea"
+							},
+							"amount": 3
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3840,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eVeDpLdBY7AqQ993k",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+						"id": "eR_azYjwrDydKU8qL"
+					},
+					"description": "Hyperstim",
+					"reference": "UT205",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Biotech",
+						"Drug"
+					],
+					"value": 3200,
+					"quantity": 2,
+					"calc": {
+						"extended_value": 6400,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eVQtYWcEncx-HN5we",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "et7-aWu_M7kpUHJNn"
+					},
+					"description": "Hand Grenade",
+					"reference": "UT139",
+					"notes": "64mm Frag",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"value": 1280,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WRxGngyikBz86AYqM",
+							"damage": {
+								"type": "cr ex",
+								"base": "8dx2",
+								"fragmentation": "2d",
+								"fragmentation_type": "cut"
+							},
+							"usage": "Thrown",
+							"range": "x3.5",
+							"rate_of_fire": "1",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "8dx2 cr ex [2d cut]"
+							}
+						}
+					],
+					"rated_strength": 6,
+					"quantity": 6,
+					"calc": {
+						"extended_value": 7680,
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "eueBlmND8acG21g0k",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\TPM Medical TL 9.eqp",
+						"id": "ecQVVAl3QmohOv93X"
+					},
+					"description": "First Aid Kit",
+					"reference": "UT198",
+					"tech_level": "9",
+					"tags": [
+						"Medical"
+					],
+					"value": 1600,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ePCaVGpv-hTIc_jIr",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+						"id": "eAcFgJ_XTAcHF11uF"
+					},
+					"description": "Filtration Canteen",
+					"reference": "UT75",
+					"notes": "3lbs. full.",
+					"tech_level": "9",
+					"tags": [
+						"Expedition Gear"
+					],
+					"value": 5760,
+					"weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5760,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "efxnSi0KLBV1CzJKu",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Defenses  TL 9.eqp",
+						"id": "eOILkympOgHAR2QRY"
+					},
+					"description": "Assault Boots",
+					"reference": "UT173",
+					"notes": "DR+6 vs. piercing and cutting.",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 4800,
+					"weight": "3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 6
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 4800,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "eJtPJsOo_UEeUUnJ4",
+					"source": {
+						"library": "/TPM",
+						"path": "Weaponry (Final Drafts)\\Ammo TL 9.eqp",
+						"id": "evwZafm1Kl6NZYXQt"
+					},
+					"description": "5.7mmCL",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Rifle"
+					],
+					"value": 5.76,
+					"weight": "0.009 lb",
+					"quantity": 900,
+					"calc": {
+						"extended_value": 5184,
+						"extended_weight": "8.1 lb"
+					}
+				},
+				{
+					"id": "EvIo8V0D4sE1upe-x",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "TPM\\Equipment TL 9\\Defenses  TL 9.eqp",
+						"id": "eRm7KCwrVkTWZ9l9a"
+					},
+					"description": "Light Infantry Helmet",
+					"reference": "UT176",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"value": 8000,
+					"weight": "3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 18
+						}
+					],
+					"quantity": 1,
+					"children": [
+						{
+							"id": "eKmIuyGZvASNBxwTO",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "ekyliTmL_aMotOJz8"
+							},
+							"description": "Tiny Laser Communicator",
+							"reference": "UT44",
+							"notes": "5-mile range. 2A/10hr.",
+							"tech_level": "9",
+							"tags": [
+								"Communication and Interface"
+							],
+							"value": 3200,
+							"weight": "0.05 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 3200,
+								"extended_weight": "0.05 lb"
+							}
+						},
+						{
+							"id": "ennXgneNvs-WMbhgs",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "e8q0pvMyNO6SvigRJ"
+							},
+							"description": "Near Miss Indicator",
+							"reference": "UT188",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"value": 32000,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to Vision to locate enemy fire",
+									"amount": 4
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 32000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eeslyqaFakzqZbUsU",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "eNWvSXWXj9Zaai1r2"
+							},
+							"description": "ESM Detector",
+							"reference": "UT62",
+							"notes": "A/1wk.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Sensors and Scientific Equipment"
+							],
+							"value": 8000,
+							"weight": "0.25 lb",
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "Dodge if detects targeting sensor",
+									"amount": 1
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 8000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "eHBjwewvyZlANq9uS",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Equipment TL 9.eqp",
+								"id": "evzXytSlLJkK86EJO"
+							},
+							"description": "3D Pocketcam",
+							"reference": "UT51",
+							"notes": "B/10hr.",
+							"tech_level": "9",
+							"tags": [
+								"Media and Education"
+							],
+							"value": 1000,
+							"weight": "0.25 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0.25 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 52200,
+						"extended_weight": "3.55 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 256488,
+				"extended_weight": "61.725 lb"
+			}
+		}
+	]
+}

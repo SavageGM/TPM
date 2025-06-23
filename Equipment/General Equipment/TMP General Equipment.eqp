@@ -1,0 +1,582 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eC-kp1c26617Z6b-D",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "edkjGQZkbkwgNy6dF"
+			},
+			"description": "Alcohol Pocket Stove",
+			"reference": "HT57",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 320,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "epLOSR_7TpUCCUKdi",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ey7F9tLiTVJ6RllNK"
+			},
+			"description": "Ascender",
+			"reference": "HT55",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e6QsCGVpWoOEQDG0l",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eDh66RwKAqcQVnhLD"
+			},
+			"description": "Barbecue Grill",
+			"reference": "HT32",
+			"notes": "Uses charcoal.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 600,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "e2-IViDRASoLctX6G",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e1IU80a7BC1oRt4jM"
+			},
+			"description": "Bear Trap",
+			"reference": "HT58",
+			"notes": "ST 15. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 150,
+			"weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "eEgzgKmoGGOG-pTS_",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ePZ3eBMVnxg6HrpD_"
+			},
+			"description": "Beaver Trap",
+			"reference": "HT58",
+			"notes": "ST 8. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 40,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "ep6RYF0cW6KV_qTNB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eyJyjBEVIF8Qhn0Lv"
+			},
+			"description": "Blanket",
+			"reference": "HT56",
+			"notes": "Survival -2",
+			"tech_level": "1",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eAHMPgon2JlOzp5f3",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eSYIaYyhn08AWN60d"
+			},
+			"description": "Blanket, Emergency",
+			"reference": "HT57",
+			"notes": "Survival -1",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eyNRWhQdDhhALca0l",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eRGXCeqPEWfZzG1iv"
+			},
+			"description": "Bull's-Eye Lantern",
+			"reference": "HT51",
+			"notes": "10-yard beam. Pint/6hrs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e8DYCIYsnS7xooZPZ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eZ5c2yzHymOJg5-th"
+			},
+			"description": "Cable Ladder",
+			"reference": "HT30",
+			"notes": "10 yards long.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eI1ZS_XKpbh-pzZkC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "emJzSxojs3OUU7Y11"
+			},
+			"description": "Camp Shower",
+			"reference": "HT59",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 160,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ejut6R1VeMCYCNvhn",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eqoVEHhRr0c1CHakR"
+			},
+			"description": "Camp Stove",
+			"reference": "HT57",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eBYUb_NUEYu6eBWeB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eY5eX2JkCmj-MHrlS"
+			},
+			"description": "Camp Stove",
+			"reference": "HT57",
+			"notes": "Needs propane.",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 320,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e2MNUcgNIiXbfewaB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "egJyho9hCNJptZ-cb"
+			},
+			"description": "Camp Stove Propane Tank",
+			"reference": "HT57",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 80,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ebhMdPMcUY9ywrUsN",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e-djjV8V26NYROFNT"
+			},
+			"description": "Candle-Lantern",
+			"reference": "HT51",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 10,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "efanya4NbnVcZkJvV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eUzoAN6hvyBHxpk8R"
+			},
+			"description": "Cigarette Lighter",
+			"reference": "HT57",
+			"notes": "Windproof. Waterproof.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 480,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ejBnr9z9bXFTDMq8-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "elKBMRU_ah9G2QrQl"
+			},
+			"description": "Climbing Bolt",
+			"reference": "HT55",
+			"tech_level": "7",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 40,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eoysDqeLB_5URjyDB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eMf7xH0q7evLCnOEF"
+			},
+			"description": "Climbing Kit",
+			"reference": "HT55",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 6400,
+			"weight": "26 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6400,
+				"extended_weight": "26 lb"
+			}
+		},
+		{
+			"id": "ekK35qzHaQ9_TB-NB",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eka5lLsxMHZLJUyJK"
+			},
+			"description": "Collapsible Cup",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 6,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eYfBybJPfk0uxHn5I",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eoPh20uFpbxvDRq8k"
+			},
+			"description": "Cord",
+			"reference": "HT56",
+			"notes": "\"Quantity\" represents yards. Supports 350lbs.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 4,
+			"weight": "0.22 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.22 lb"
+			}
+		},
+		{
+			"id": "eYsi7XFrqQ38mOFmR",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eLH7qVmDfq_vZuRme"
+			},
+			"description": "Descender",
+			"reference": "HT55",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 200,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "e30zCUG1GtPhwOYzV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eg_B8upzbIKtvoeMd"
+			},
+			"description": "Fishing Kit",
+			"reference": "HT58",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eFUiGkzm3YrozdtFJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eNb-JqxWG5FELoV87"
+			},
+			"description": "Flint and Steel",
+			"reference": "HT57",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e_fbJ7mSE-5RFETsl",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "edwMnumIB62scOGFG"
+			},
+			"description": "Harness",
+			"reference": "HT55",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ekdQvaVLBK3x70Rwr",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "esBSl1Vqy4Q8ZKqad"
+			},
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 2. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1200,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eL_eGOuOFrfNeCbZW",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "eLvWl3TGUTSPmJYVm"
+			},
+			"description": "Tent, Dome",
+			"reference": "HT57",
+			"notes": "Shelters 4. Survival +2.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 2400,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eOrVQIE5ks0YaNDvC",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "e_77hb0HclKQf2k-w"
+			},
+			"description": "Tent, Personal",
+			"reference": "HT57",
+			"notes": "Survival +1.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eIYnqT0cqSZ80x_oX",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 8-\\Camping \u0026 Survival.eqp",
+				"id": "ej4PPvrN9VgEeyKeG"
+			},
+			"description": "Water Filter",
+			"reference": "HT59",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 1600,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

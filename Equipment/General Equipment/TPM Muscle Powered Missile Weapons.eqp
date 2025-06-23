@@ -1,0 +1,1432 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "er2U78k_LxVWppAYi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow",
+			"reference": "PY51:14",
+			"tech_level": "9",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eNFk1quY2Xb_uBlbD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow",
+			"reference": "B276",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e4ba3ot3IHeYvDvvI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow, Bodkin",
+			"reference": "PY51:14",
+			"notes": "Changes damage to piercing with armor divisor of (2).",
+			"tech_level": "9",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e0rYcDo4Dp90sf7m3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "ebV1idy_tjQEO1fu8"
+			},
+			"description": "Arrow, Bodkin",
+			"reference": "B277",
+			"notes": "Changes damage to piercing with armor divisor of (2).",
+			"tech_level": "3",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e7AUhMcVHQb-37OkI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow, Broadhead",
+			"reference": "PY51:14",
+			"notes": "Converts damage to cutting",
+			"tech_level": "9",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eHxwI0Jhyes7wDH-b",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow, Broadhead",
+			"reference": "PY51:14",
+			"notes": "adds +2 to cutting and has a (2) armor divisor",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fbQ5Ck1melu0jVLy-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment Modifiers.eqm",
+						"id": "fiKewmn9WzQFmgicu"
+					},
+					"name": "Superfine Blade",
+					"reference": "UT163",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ejjl-aKqCZskwOhX_",
+			"description": "Arrow Foundry",
+			"reference": "PY96:18",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Toolkit"
+			],
+			"value": 160000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eduWmonvCDSpcDpGD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow, Stealth",
+			"reference": "PY51:14",
+			"notes": "resulting in a 25% reduction to both max and 1/2D range and -1 to attacks",
+			"tech_level": "9",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 800,
+			"weight": "0.5 lb",
+			"modifiers": [
+				{
+					"id": "fI6SgHXa-EKEDWr3x",
+					"name": "Stealth",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+1 CF"
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eaXNLhTG0hyJM6oLf",
+			"description": "Arrow Tracking Tag",
+			"reference": "PY96:18",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Accessory",
+				"AmmoType:Arrow",
+				"Ammunition"
+			],
+			"value": 800,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "edffJz3LndblpNp5J",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eRkNeWkrX-SIJDn2u"
+			},
+			"description": "Barbed Arrow",
+			"reference": "LT73",
+			"notes": "Inflicts half the injury it delivered when yanked out",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e0_d1JvZkRSfYPtST",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eDBsVBmOiGJXFtkdF"
+			},
+			"description": "Bowel-Raker Arrow",
+			"reference": "LT73",
+			"notes": "-1 Acc, subtracts five from both range multipliers; Converts damage to Cutting and inflicts half the injury it delivered when yanked out",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eu1bxAJfyShTQvugS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e7r2EsHLVkRo7ObUE"
+			},
+			"description": "Composite Bow",
+			"reference": "B275",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 900,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WtwqBCHF22YLhCkRr",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ee_GWNxVvb3VUiXMs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eWvZx-TNfAV_kvUDq"
+			},
+			"description": "Composite Crossbow",
+			"reference": "LT72",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 950,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "WdZzN33PRSUQTRTwY",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 950,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ehuZY0D_qzNXv5V1C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eWqXfN99TVtJHB-m1"
+			},
+			"description": "Cord/Bowstring (1/4\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 112.5 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 1.25,
+			"weight": "0.58 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.25,
+				"extended_weight": "0.58 lb"
+			}
+		},
+		{
+			"id": "eP_pq5DOyTc-PBhlE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eg6lbslnk8KhsD4EH"
+			},
+			"description": "Cord/Bowstring (1/8\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 28.12 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 0.32,
+			"weight": "0.14 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.32,
+				"extended_weight": "0.14 lb"
+			}
+		},
+		{
+			"id": "etGDOnWW5nufg-pXL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e3EXMtBK7h3mhqzmT"
+			},
+			"description": "Cord/Bowstring (3/16\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 62.2 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 0.71,
+			"weight": "0.32 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.71,
+				"extended_weight": "0.32 lb"
+			}
+		},
+		{
+			"id": "ewB0u2fgGttjM4YRL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "erRDBlt0xiGK9zaQp"
+			},
+			"description": "Cord/Bowstring (3/32\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 15.8 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 0.18,
+			"weight": "0.08 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.18,
+				"extended_weight": "0.08 lb"
+			}
+		},
+		{
+			"id": "e29iMz8M1TsFpJsW0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eXuSKjOH2rLSqmDNc"
+			},
+			"description": "Cord/Bowstring (5/16\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 175.7 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 1.96,
+			"weight": "0.88 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.96,
+				"extended_weight": "0.88 lb"
+			}
+		},
+		{
+			"id": "ewIlaFWI8D9MseIv4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eVHF4ZxvR13YqLnW_"
+			},
+			"description": "Cord/Bowstring (5/32\") @Plant@ Fibre (10 Yards)",
+			"reference": "LT23",
+			"notes": "Supports 43.9 lbs. static load",
+			"tech_level": "0",
+			"tags": [
+				"Survival"
+			],
+			"value": 0.49,
+			"weight": "0.22 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.49,
+				"extended_weight": "0.22 lb"
+			}
+		},
+		{
+			"id": "ewM5XhzMrbmkryrNc",
+			"description": "Covert Bow",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 80000,
+			"weight": "0.7 lb",
+			"weapons": [
+				{
+					"id": "WaBLMJRh7koTiwjmc",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "7"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+7 imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "0.7 lb"
+			}
+		},
+		{
+			"id": "eA9i8lCr_kHGhPmUo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e78XG7h6Kz0unuvb1"
+			},
+			"description": "Crossbow",
+			"reference": "B276",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 150,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "WUNeB4PRtNSvf_JQQ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "4"
+					},
+					"strength": "7†",
+					"accuracy": "4",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+4 imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eU9ISReIvs_DZfJvL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "ecQw2XrVIizn8bOu6"
+			},
+			"description": "Crossbow Bolt",
+			"reference": "B276",
+			"tech_level": "2",
+			"tags": [
+				"AmmoType:Bolt",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 2,
+			"weight": "0.06 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "emfgrukx7MF49ikxh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ehUod7ZjN_ufLmip8"
+			},
+			"description": "Fowling Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 450,
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"id": "WruAv9PJlnRy0ffML",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(8)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e-K1Vz_lDg9UePoaY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ena5PvKRBs2aSnpEt"
+			},
+			"description": "Hunting Crossbow",
+			"reference": "LT72",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 600,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "WTxTpiuOg6eWyM1Kl",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "10†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(13)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e17hM998FM2MfhSD1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "ezUsY06LxChQRA_qQ"
+			},
+			"description": "Longbow",
+			"reference": "B275",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WcGMbiI3qZnhWhdFw",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"rated_strength": 11,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e3C6LO-rsbJm2bjxR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eoV_w5IcnBVZFrv6Y"
+			},
+			"description": "Military Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 750,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "Wni6EfNpc7-Z4MzJS",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "12†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(32)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "ea7J2qPc4o4DyTGuO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e6n4wNn5zqVPHydtF"
+			},
+			"description": "Pistol Crossbow",
+			"reference": "B276",
+			"tech_level": "3",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 150,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WxWfsl0DgiFhd_be2",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "7",
+					"accuracy": "1",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(4)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eT0cX-0pPRvegQQq1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ermvkTjrY7D4bnhR_"
+			},
+			"description": "Pistol Crossbow Dart",
+			"reference": "LT76",
+			"tech_level": "3",
+			"tags": [
+				"AmmoType:Bolt",
+				"Ammunition"
+			],
+			"value": 1,
+			"weight": "0.06 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.06 lb"
+			}
+		},
+		{
+			"id": "eLUTjwDOPYWIZWIIQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "ethb_9uh_gX8DvHU6"
+			},
+			"description": "Reflex Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 900,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "WlMEQchAvOHIYyXxV",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eP5QLrGsyjUuuq079",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eEbv9yXUKqcIRJoRt"
+			},
+			"description": "Regular Bow",
+			"reference": "LT72",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "W5d4YXb0AA7QjWCm9",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eX-5HNMtRzaskmHli",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "e90I0NpBlzXUqA9Vy"
+			},
+			"description": "Repeating Crossbow",
+			"reference": "LT73",
+			"tech_level": "2",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 500,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "W-OAYOkonKsTSeW-g",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "4"
+					},
+					"strength": "8†",
+					"usage": "Fire Bolt",
+					"accuracy": "1",
+					"range": "x7/x15",
+					"rate_of_fire": "1",
+					"shots": "10(3i)",
+					"bulk": "-5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+4 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eJyNYSNWkCuYiDSVS",
+			"description": "Rocket Arrow",
+			"reference": "PY51:16",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"value": 3200,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "WcYkjH9RsK2DsQKny",
+					"damage": {
+						"type": "imp",
+						"base": "6dx3"
+					},
+					"usage": "Rocket Arrow",
+					"accuracy": "3",
+					"range": "1,900",
+					"rate_of_fire": "1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bow"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "6dx3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "emzannbs6AEIweu0b",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "eEkU3I9Vr5NFZ7o2m"
+			},
+			"description": "Short Bow",
+			"reference": "B275",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WfHv-rB9dn1kI4eyv",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7†",
+					"accuracy": "1",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eqa56M4-wKiaodDvy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eFvi4od7BjgdMLnpc"
+			},
+			"description": "Siege Crossbow",
+			"reference": "LT74",
+			"notes": "Steel crossbow (See LT78, Note 6)",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Bolt"
+			],
+			"value": 900,
+			"weight": "18 lb",
+			"weapons": [
+				{
+					"id": "WFC3l44xSb3IavyJL",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "14M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "x25/x30",
+					"rate_of_fire": "1",
+					"shots": "1(50)",
+					"bulk": "-10",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Crossbow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "eKp6rjGX6L9rb6PuD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "eEkU3I9Vr5NFZ7o2m"
+			},
+			"description": "Sport Bow",
+			"reference": "PY51:14",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 1600,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WlviGXKPM43nzFjU0",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "6"
+					},
+					"strength": "7†",
+					"accuracy": "1",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+6 imp"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eYfBIOGIAx8puX5wC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eO0B7K0gkgSAdLyQR"
+			},
+			"description": "Straight Composite Bow",
+			"reference": "LT72",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 600,
+			"weight": "2.25 lb",
+			"weapons": [
+				{
+					"id": "WmI4DUasifchsftU1",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "eQhK8OT7i-4DMLWi0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech\\Low Tech Equipment.eqp",
+				"id": "eThe4Cu9ga2pmfjJ2"
+			},
+			"description": "Tubular Bow",
+			"reference": "LT72",
+			"tech_level": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 900,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WI_sagXYAf4faL-xZ",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eSEf-n0WbORMrKbEH",
+			"description": "War Bow",
+			"reference": "PY96:14",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"value": 3200,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "WRrrqTga6qTCBHeGI",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "9"
+					},
+					"strength": "10†",
+					"usage": "War Bow",
+					"range": "x3.5/x5",
+					"rate_of_fire": "1",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+9 imp"
+					}
+				}
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "1.5 lb"
+			}
+		}
+	]
+}

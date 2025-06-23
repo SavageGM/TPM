@@ -1,0 +1,227 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eyjd9fKHzKBEFu6ZD",
+			"description": "Basic Painkiller",
+			"notes": "qty in bottles",
+			"legality_class": "4",
+			"tags": [
+				"Medical"
+			],
+			"value": 50,
+			"weight": "0.5 lb",
+			"vtt_notes": "Common, dulls pain for 4 hours",
+			"quantity": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eXgS0vVGmdW-oaLh9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eaWmV6ZxUBjU-DEZD"
+			},
+			"description": "Antiseptic Spray",
+			"reference": "HT225",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Surgery"
+			],
+			"value": 75,
+			"weight": "1 lb",
+			"vtt_notes": "Prevents infection, burns like hell",
+			"quantity": 5,
+			"calc": {
+				"extended_value": 375,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e9Ltvng2EFlykrepH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e53vZszGHciHjgDDp"
+			},
+			"description": "Stimpack, syringe",
+			"reference": "UT205",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 150,
+			"weight": "0.2 lb",
+			"vtt_notes": "Speeds healing, side effects include rapid heartbeat",
+			"quantity": 8,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "1.6 lb"
+			}
+		},
+		{
+			"id": "escwe8f0nSiF6R6DQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "After the End\\After the End Equipment.eqp",
+				"id": "eusFtujJGNkJRR8ON"
+			},
+			"description": "Anti-Rad pills",
+			"reference": "ATE1:30",
+			"tech_level": "7",
+			"tags": [
+				"Consumables",
+				"Medical Gear"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"vtt_notes": "Mitigates radiation sickness, not a cure",
+			"quantity": 12,
+			"calc": {
+				"extended_value": 2400,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ecglLcB7y_q_RSMY_",
+			"description": "Wound Seal Powder",
+			"legality_class": "4",
+			"value": 120,
+			"weight": "0.3 lb",
+			"vtt_notes": "Clots wounds instantly, causes scarring",
+			"quantity": 6,
+			"equipped": true,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "1.8 lb"
+			}
+		},
+		{
+			"id": "Ey5nef9NHienpDPeT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "EItbuop69CdtWWRN4"
+			},
+			"description": "Crash Kit",
+			"reference": "HT221",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"value": 500,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 3,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ez5vmcn_5ylTxWsyN",
+			"description": "Combat Stim",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 300,
+			"weight": "0.2 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Basic Speed for 5 minutes",
+					"amount": 0.25
+				}
+			],
+			"vtt_notes": "Increases reaction time, addictive",
+			"quantity": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "eTC835uMnrhpdQVHE",
+			"description": "Blood Replenisher",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 250,
+			"weight": "1 lb",
+			"vtt_notes": "For treating blood loss and dehydration",
+			"quantity": 7,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1750,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ena8X5jAIVRpCavgW",
+			"description": "Injectable Antitoxin vial",
+			"legality_class": "4",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 350,
+			"weight": "0.1 lb",
+			"vtt_notes": "Cures most common poisons",
+			"quantity": 6,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2100,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "ePjJF59fzUHHTjjL_",
+			"description": "Field Surgery Kit",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Emergency Equipment"
+			],
+			"value": 700,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Surgery related rolls",
+					"amount": 1
+				}
+			],
+			"quantity": 2,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1400,
+				"extended_weight": "8 lb"
+			}
+		}
+	]
+}

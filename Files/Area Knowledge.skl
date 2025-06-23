@@ -1,24 +1,21 @@
 {
-	"type": "skill_list",
-	"version": 4,
+	"version": 5,
 	"rows": [
 		{
-			"id": "37ba1118-c6ca-4415-a168-b11908d24034",
-			"type": "skill_container",
+			"id": "SiK-GLHprkw922cEQ",
+			"name": "Anethaes",
 			"children": [
 				{
-					"id": "ee311a19-942a-44df-984c-7248f0c94825",
-					"type": "skill",
+					"id": "su2pQBMRDgtii92zb",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Anethaes",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
@@ -26,21 +23,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "e138fd92-606d-4096-8511-9ff1db8f9545",
-					"type": "skill",
+					"id": "s4DPQfyGPKiAeK8jJ",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Anethaes; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -52,28 +48,26 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				}
-			],
-			"name": "Anethaes"
+			]
 		},
 		{
-			"id": "553fd81a-a678-4267-bc2f-9ca9ce3085c1",
-			"type": "skill_container",
+			"id": "S9heu_u1zjazmkjXi",
+			"name": "Battlezone Seven-Niner",
 			"children": [
 				{
-					"id": "780607c0-f9d8-4036-8c77-d3c6e227f5cb",
-					"type": "skill",
+					"id": "sUhJSlSnsQGMGnRDp",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Battlezone Seven-Niner",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
@@ -81,408 +75,26 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				}
-			],
-			"name": "Battlezone Seven-Niner"
+			]
 		},
 		{
-			"id": "305b953c-dc98-4375-b4a4-177022989fe1",
-			"type": "skill_container",
-			"open": true,
+			"id": "SQeanv1TxeNEYihxD",
+			"name": "Chi-Town",
 			"children": [
 				{
-					"id": "8c47fb43-a02c-4a5b-9396-0a19044ecfcb",
-					"type": "skill",
+					"id": "snV12YXTsouS72FZS",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Dog-Town",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "7e72f6db-3e0e-4388-abb8-1558ecaad0c5",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Dog-Town; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				}
-			],
-			"name": "Dog-Town"
-		},
-		{
-			"id": "788c0520-0ed5-4bc3-b46b-764555bb0594",
-			"type": "skill_container",
-			"children": [
-				{
-					"id": "90cd4ff6-87e8-430e-806f-bb26e7134352",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Duf-Dub",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "f3a8523f-32b4-40f1-9ac4-e99428d6a107",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "The residents and buildings of a few city blocks",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Northside (Duf-Dub)",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "549b7c47-cfcb-4c21-bfec-c36e5a2e4acc",
-					"type": "skill_container",
-					"open": true,
-					"children": [
-						{
-							"id": "451ed2f7-b0c7-4d56-8141-231f3396fe39",
-							"type": "skill",
-							"name": "Area Knowledge",
-							"reference": "B176",
-							"notes": "All important businesses, streets, citizens, leaders, etc.",
-							"tags": [
-								"Everyman",
-								"Knowledge"
-							],
-							"specialization": "Duf-Dub; Lived there",
-							"difficulty": "iq/e",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Geography",
-									"specialization": "@Specialty@",
-									"modifier": -3
-								}
-							]
-						},
-						{
-							"id": "44d14f34-d9dd-4dee-a014-c936d9b59945",
-							"type": "skill",
-							"name": "Area Knowledge",
-							"reference": "B176",
-							"notes": "The residents and buildings of a few city blocks",
-							"tags": [
-								"Everyman",
-								"Knowledge"
-							],
-							"specialization": "Northside (Duf-Dub); Lived there",
-							"difficulty": "iq/e",
-							"points": 1,
-							"defaults": [
-								{
-									"type": "iq",
-									"modifier": -4
-								},
-								{
-									"type": "skill",
-									"name": "Geography",
-									"specialization": "@Specialty@",
-									"modifier": -3
-								}
-							]
-						}
-					],
-					"name": "Lived There"
-				}
-			],
-			"name": "Duf-Dub"
-		},
-		{
-			"id": "ee10567b-d33e-46ed-b9ef-2cd71aa4f161",
-			"type": "skill_container",
-			"children": [
-				{
-					"id": "37d62a59-9f58-43a3-85d6-c51f39bff59a",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Fortress of the Horseman",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "40970460-b997-4b01-b13b-9a2898188aa0",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Fortress of the Horseman; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "e58dfe0b-cfd9-49ce-bce3-b63fd08dccc7",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Horseman Territory",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "3472583a-109a-4bdc-b3a4-58d0df3f6e5c",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Horseman Territory; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				}
-			],
-			"name": "Horseman of the Apocalypse"
-		},
-		{
-			"id": "a746a216-33b9-414a-837b-1580d4426a3a",
-			"type": "skill_container",
-			"children": [
-				{
-					"id": "b651794e-8e9c-4020-b5cd-c40e71d0da5b",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "KaySee",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "38103eb7-dbd2-4521-ac60-732cc7b65396",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "KaySee; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				}
-			],
-			"name": "KaySee"
-		},
-		{
-			"id": "700dc010-21fc-46c5-8649-f626cafb95d9",
-			"type": "skill_container",
-			"children": [
-				{
-					"id": "354d47bb-8e1d-4a2e-9830-7786640b15b6",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Lone Star Sector",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "604a52e3-3658-42b3-bc33-54f9b7f453e6",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Lone Star Sector; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				}
-			],
-			"name": "Lone Star Sector"
-		},
-		{
-			"id": "f1ad8f9d-5010-4036-8a58-9db2262ebdba",
-			"type": "skill_container",
-			"children": [
-				{
-					"id": "27886575-da65-48d7-9547-fbe99caa661e",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chi-Town",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
@@ -490,21 +102,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "c0803dbc-00ec-4a9c-90a1-57c012663a54",
-					"type": "skill",
+					"id": "s9P7MdYqEmz4HpT_D",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chi-Town; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -516,69 +127,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
-				},
-				{
-					"id": "a9a79023-5ebc-4f73-952d-f46f90135ebc",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
-					"tags": [
-						"Everyman",
-						"Knowledge"
 					],
-					"specialization": "Chicago Military Industrial District",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
+					"points": 1
 				},
 				{
-					"id": "85484b67-86d5-4286-b46d-9dd3fbf6d0e2",
-					"type": "skill",
+					"id": "s1tNBDe26m-j80dor",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
-					"tags": [
-						"Everyman",
-						"Knowledge"
-					],
-					"specialization": "Chicago Military Industrial District; Lived there",
-					"difficulty": "iq/e",
-					"points": 1,
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Geography",
-							"specialization": "@Specialty@",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"id": "17946cdf-5d4a-49d5-aa7e-71d91c97d068",
-					"type": "skill",
-					"name": "Area Knowledge",
-					"reference": "B176",
-					"notes": "The residents and buildings of a few city blocks",
+					"local_notes": "The residents and buildings of a few city blocks",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chicago Arcology",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
@@ -586,21 +148,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "66c54091-09c7-4f21-8c9b-5187960e34d0",
-					"type": "skill",
+					"id": "s1FOWdeCcqSo4rS_b",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "The residents and buildings of a few city blocks",
+					"local_notes": "The residents and buildings of a few city blocks",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chicago Arcology; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -612,21 +173,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "e2abc303-3c1b-42e3-befc-e04b5a50179f",
-					"type": "skill",
+					"id": "sSa89qRCxYs8KOaQ_",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "The residents and buildings of a few city blocks",
+					"local_notes": "The residents and buildings of a few city blocks",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chicago Freight Zone; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -638,21 +198,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "0627b1bb-ba01-40e7-86f1-31e63b3686d0",
-					"type": "skill",
+					"id": "s-q9_kjWsmOti6G3Z",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "The residents and buildings of a few city blocks",
+					"local_notes": "The residents and buildings of a few city blocks",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Chicago Freight Zone; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -664,50 +223,249 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
-				}
-			],
-			"name": "Chi-Town"
-		},
-		{
-			"id": "64f4d862-ed81-475d-87e1-a56a57516fff",
-			"type": "skill_container",
-			"children": [
+					],
+					"points": 1
+				},
 				{
-					"id": "7e0837ee-7260-496a-a894-91354c3c5343",
-					"type": "skill",
+					"id": "sMm0dcSmdOJd5u4Ak",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
-					"specialization": "Pylerikon",
+					"specialization": "Chicago Military Industrial District",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
 							"name": "Geography",
 							"specialization": "@Specialty@",
 							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sa5byO8mz66wSJWX6",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chicago Military Industrial District; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SKD2sFFjMduz_l8AB",
+			"name": "Dog-Town",
+			"children": [
+				{
+					"id": "seJN2JDus-FaGr5UK",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dog-Town",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "scKh5m1yaJFbLKUvT",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dog-Town; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SJSTf-weSOFEuS0tp",
+			"name": "Duf-Dub",
+			"children": [
+				{
+					"id": "S59Fo3KPFjNCh9lmo",
+					"name": "Lived There",
+					"children": [
+						{
+							"id": "sZLcsQ45QmmpD-yh7",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "Duf-Dub; Lived there",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "soyH0nr5p5ctUeEyw",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"local_notes": "The residents and buildings of a few city blocks",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "Northside (Duf-Dub); Lived there",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							],
+							"points": 1
 						}
 					]
 				},
 				{
-					"id": "cf96700e-3403-43f4-bf09-d2ee132bb93e",
-					"type": "skill",
+					"id": "srpG_yDHtIWxzaC23",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
-					"specialization": "Pylerikon; Lived there",
+					"specialization": "Duf-Dub",
 					"difficulty": "iq/e",
-					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYsSkO897hTPw94gq",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "The residents and buildings of a few city blocks",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Northside (Duf-Dub)",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SsFIgQ_46uv_Yb7V7",
+			"name": "Horseman of the Apocalypse",
+			"children": [
+				{
+					"id": "sKadWMfxfJqwin3ss",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Fortress of the Horseman",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sSXxmGgtfQOXtUWBs",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Fortress of the Horseman; Lived there",
+					"difficulty": "iq/e",
 					"defaults": [
 						{
 							"type": "iq",
@@ -719,28 +477,124 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
-				}
-			],
-			"name": "Pylerikon"
-		},
-		{
-			"id": "8bc68cd6-5fe9-4ec9-a51b-c0b0005448c7",
-			"type": "skill_container",
-			"children": [
+					],
+					"points": 1
+				},
 				{
-					"id": "94721442-b1da-4665-ac89-d1c36b910674",
-					"type": "skill",
+					"id": "sJcr-FAtOynlpvaTJ",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Horseman Territory",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGnKbJpftHkOgRP1Y",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Horseman Territory; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "ShpVe7MFfClnyS6Lc",
+			"name": "KaySee",
+			"children": [
+				{
+					"id": "s-_fazMpS_qZ2SMhJ",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "KaySee",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s55luPd5l6fYVF0mt",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "KaySee; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SMgLnALrVW0K8FfL1",
+			"name": "Lake Wurth",
+			"children": [
+				{
+					"id": "s37SPjECMeWWqM60A",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Lake Wurth",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "skill",
@@ -748,21 +602,20 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				},
 				{
-					"id": "5d8c385b-231d-45bc-8446-fdc5aea21b8f",
-					"type": "skill",
+					"id": "ssur04Xv5AzOntfc5",
 					"name": "Area Knowledge",
 					"reference": "B176",
-					"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"local_notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
 					"tags": [
 						"Everyman",
 						"Knowledge"
 					],
 					"specialization": "Lake Wurth; Lived there",
 					"difficulty": "iq/e",
-					"points": 1,
 					"defaults": [
 						{
 							"type": "iq",
@@ -774,10 +627,666 @@
 							"specialization": "@Specialty@",
 							"modifier": -3
 						}
-					]
+					],
+					"points": 1
 				}
-			],
-			"name": "Lake Wurth"
+			]
+		},
+		{
+			"id": "S_F0_ywtCwInnfP47",
+			"name": "Lone Star Sector",
+			"children": [
+				{
+					"id": "scmyIQdRhE0DYIrXa",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lone Star Sector",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "swLpPVY15-1RsE63g",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Lone Star Sector; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SowyFcgaF_83jtLfm",
+			"name": "Pylerikon",
+			"children": [
+				{
+					"id": "sDRn7GWmZV8uLyWEJ",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Pylerikon",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sMQVvVZVH2ABkvISm",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Pylerikon; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SOnd5RZwBNQxmQQWa",
+			"name": "Regions and Routes",
+			"children": [
+				{
+					"id": "sskimMYwD7sIQL8lW",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "This contested air-and-ground corridor spans from the southern fringes of The Burning Line into the northern edges of the Permian Skies—centered around the ruins and airspace of Amarillo itself.\n• Knows fire-charred highways beneath drifting shadowships, old airfield ruins repurposed as skirmish bases, and the no-go zones beneath tethered gunships.\n• Understands the tense standoff between Amarillo Air Lords and Emberblood forward scouts, as well as the uneasy truces struck with Free Ranger envoys.\n• Familiar with the burned-out suburb relic markets, scorched wind farms used for recon posts, and airspace zones labeled volatile in every convoy map.\n• This is not a battlefield—it's a pressure point. One wrong move here ignites fire from below and hell from above.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Amarillo Hinge Zone",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sogS9TYzpZxoTQlyG",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Extends across drowned cities, acidic wetlands, and overgrown ruins of the southeastern Gulf Coast.\n• Knows which fungal forests are passable, which bridges sink with the tide, and where old-world airfields lie buried.\n• Understands mutant flora behavior, stormfront migration, and the layered politics of swamp enclaves and pirate ports.\n• Familiar with rad-buried cities like Tallahazone and New Baton, and the sea-wall remnants turned fortress docks.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Bayou Scars \u0026 Post-Coastal Florida",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sDc9hhYbRrmz-3ygx",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the jagged, quake-torn region where Colorado, Utah, Arizona, and New Mexico once met.\n• Knows tectonic scar trails, black glass zones, and craters where superweapons were once tested or failed.\n• Understands tribal warpath zones, feral reclamation outposts, and sacred sites guarded by Emberblood seers.\n• Familiar with strange weather patterns, ruin-beasts, and vertical cliff-habitats used by skywalk scavenger clans.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Chasm States (Four Corners Riftlands)",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sFoQxagwrko_P9JPp",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the treacherous mountain passes, canyon ravines, and snow-choked ruins of central Colorado.\n• Knows avalanche paths, drone-dead zones, and retreat bunkers used during the Reaving.\n• Familiar with pre-Sundering NORAD adjuncts, Imperial scout incursion routes, and weatherproof hideouts.\n• Understands air-thin survival techniques, echo-signal relay towers, and the sacred mountain warnings of the Emberbloods.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Colorado Divide",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sR5qOVT5lGyCmy84u",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the mountain tunnels, ridges, and defensive positions surrounding Crab Orchard.\n• Knows when landslides cut passable trails, where Ridge Watch snipers dig in, and how to spot synthetic sensor nests.\n• Understands tensions with Ridgehold Enclave, maps of semi-collapsed bunkers, and relic-sensor trip points.\n• Familiar with underground aquifer passages and salvageable micro-labs sealed since the Sundering.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Crab Orchard Ridgeways",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sc7TOrDfA2565WNIU",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Stretches across the glacial-scarred plains of North and South Dakota, reshaped by permafrost and creeping storms.\n• Knows migratory patterns of icebound mutants, frostcrawler nests, and the fuel-depot husks dotting I-29 and I-90.\n• Understands the tribal claims of the Winter Kin and the roaming packs of cyber-sled raiders.\n• Familiar with ancient comm arrays buried in snow, radio-echo shelters, and long-abandoned radar domes.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dakota Ice Barrens",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s4OtXDK8YRjZwJnu4",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Spans the sun-bleached skeletal remains of Las Vegas and its satellite suburbs, now ruled by gangs and AI cults.\n• Knows which old casinos still power up, where radiation hotspots linger, and which vault doors are best left sealed.\n• Understands gang signage, scrap zone etiquette, and the whisper markets beneath former entertainment corridors.\n• Familiar with malfunctioning holograms, smart-tech ghosts, and neural lure traps still drawing in the desperate.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Dead Vegas Stretch",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sudWwfYG5ANeqf8Ek",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Spans the decayed woodlands, swamplands, and industrial bone-yards of old Alabama, Georgia, and northern Florida.\n• Knows which towns are real, which are traps, and where ancient war bioweapons still linger.\n• Tracks mutant gator ranges, fungal blight zones, and weather patterns that collapse navigation systems.\n• Understands the regional power dynamics between The Purified Ones, Swamp Tribes, and TTG black route scouts.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Deep South Barrens",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s6mHMKWFvobe_g33G",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the mountainous and urban ruins encircling the former Denver Metro and Cheyenne Mountain Complex.\n• Knows hard-zone perimeters patrolled by autonomous hunter-killers, orbital ping zones, and decoy ruin paths.\n• Understands the machine logic of patrol loops, access denial routines, and dead-man signal zones.\n• Familiar with ghost-drones, lost human enclaves, and black vault ruins occasionally opened for reasons unknown.\n• No one enters this zone by accident. Most don’t leave at all.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Denver Exclusion Grid",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s7XEXSRKaSQxWxifT",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers trade routes radiating from Fort Junction into southern Missouri and northern Arkansas.\n• Knows which bridges hold under heavy load, which fuel stations are guarded by TTG, and where bandits prowl.\n• Can read convoy wall glyphs, route tags, and warning signs left by scout-bikers.\n• Understands the long-failing truce lines between Fort Junction and Free Ranger domains.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Fort Junction \u0026 the Ozark Arteries",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGEO9gEfijGiXu0Nd",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Spans the flat, windblown wastelands and buried infrastructure of the central plains.\n• Knows where silos hide below the soil, where radar ghosts flicker, and how to spot buried pulse mines.\n• Understands TTG fallback protocols, abandoned logistics hubs, and surviving stormproof bunker-comm stations.\n• Familiar with local scavenger signs, meteor impact zones, and the cursed trails of the Chainless Haulers.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Ghost Plains of Nebraska",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYgrGrZR5G997AuPO",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Extends across western Utah, especially near the buried remains of Dugway Proving Grounds.\n• Knows where the salt crust thins, where radstorms brew, and how to spot mirage-born predators.\n• Understands Wastelander superstitions, caravan ghost markers, and signs of awakened tech.\n• Familiar with relic hunter warpaths, Black Ridge annex remnants, and Glimmering Graves shimmer zones.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Great Salt Wastes \u0026 Dugway Exclusion Zone",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sbbXHJ5wIRo0Fgrv4",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Spans the collapsed coastlines of the southern Gulf states—Houston ruins, drowned bayous, and refinery skeletons.\n• Tracks which sea raiders operate inshore, where rad-algae blooms foul the air, and where trade boats dock safely.\n• Understands subtide travel paths, salvageable dockyards, and the embattled strongholds of water clans.\n• Familiar with red-tagged storm zones and sunken pre-Sundering shipyards full of dangerous relic tech.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Gulf Rim Narrows",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sbvnkhfNEeQdMjaMp",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Spans the radioactive plains and ruin zones between KaySee (Kansas City) and the Great Divide.\n• Understands mutant migration trails, gas vents, and the patterns of Horsemen of the Apocalypse warbands.\n• Can identify former missile silo sites, downed VTOLs, and hidden shelters beneath collapsed agritech towers.\n• Knows where the Free Rangers maintain seasonal camps and ritual grounds.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Kansas Sector Badlands",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sOGCw0sODzQJtNkbH",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the independent settlements, fortress-monasteries, and wilderness checkpoints surrounding the Manfist Council of Elders.\n• Knows spiritual landmark routes, diplomatic neutral zones, and sacred paths guarded by adherents of The Old Fire.\n• Understands border flare signals, caste movement rights, and enforcement tactics of the Guardians of Manfist.\n• Familiar with hidden hermit enclaves, psychic disturbance fields, and mutation bloom zones.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Manfist Territories",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2v56fhlI_mHJ1Ct1",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Follows the broken riverlands where the Mississippi fractured and flooded deep into the Midwest.\n• Knows the shifting currents, sunken metro zones, and war barge routes used by the River Warlords.\n• Understands ferry signals, cryptic bridge tags, and the aquatic mutant nests hidden in flooded towers.\n• Familiar with fallen arcologies, still-functioning water turbines, and TTG courier barges that move only under moonlight.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Mississippi Riftlands",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sUTPIu_645s9xiPvd",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Follows the partially reactivated rail corridor stretching from the Great Lakes to the northern Mississippi River route.\n• Knows where train-runner gangs operate, where the rails vanish into dead zones, and how to bribe cog-sentries.\n• Tracks TTG-controlled depots, abandoned switching yards, and refitted steam-rig convoys.\n• Understands the unspoken rules of the Iron Relay Brotherhood and which rail flags mean trouble.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Northern Rail Spine",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "szPR_4ulVEAcZ_4N1",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Stretches from the coastal collapse zones of old Los Angeles through the fractured sprawl of San Francisco and inland to the Sierra barricades.\n• Knows collapsed freeway vaults, sunken tech-hubs, and reclaimed zones held by machine cults.\n• Understands quake-fractured fault lines, unstable terrain shelves, and the ruins patrolled by autonomous killdrones.\n• Familiar with Freebooter hideouts, Exterminator Unit kill-zones, and hidden biosafe vaults still under AI lockdown.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Pacific Ruin Belt",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smv6l5M8KvtRN4ZGT",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the airspace and surface ruins across the old Permian Basin—now ruled from above by the Amarillo Air Lords.\n• Knows windshear corridors, hangar-vault landing fields, and the patchwork of mooring towns under Air Lord control.\n• Understands airship patrol rotations, gas-farm defenses, and the protocols of airborne parlay.\n• Familiar with pirate sky-hunter ambush zones, free-floating salvage rigs, and neutral tether ports hidden in canyons.\n• The skies here belong to giants—cross them without permission and vanish in a flash of ballast smoke and cannon thunder.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Permian Skies - Territory of the Amarillo Air Lords ",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "syx75LryQb37q6cnJ",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the fortified ruins of eastern St. Louis and the Ironvault hub of Ironhand Instruments.\n• Knows boltguard patrol routes, hidden tool caches, and major scrapyard nodes.\n• Understands the politics of the Redgate Compact and its territorial disputes with nearby mutant enclaves.\n• Tracks forges, black market dealers, and faction-aligned machine guilds.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Redgate Industrial Basin",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "smfyS9Yp6mNhlWrEK",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers regions around Mashville/New Promise, Tennessee back routes, and routes connecting to the Cumberland Gap.\n• Knows about alternate mountain passes, TTG-friendly refueling points, and imperial surveillance risks.\n• Understands the shifting political alliances of local factions and safehouse locations.\n",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Southern Appalachia \u0026 Mashville Region",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sx-56WJX-r6QYB1vX",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the territories from eastern Arizona through New Mexico and into western Texas. This includes old I-10, parts of I-40, and the fringes of Battlezone Seven-Niner.\n• Knows desert routes, hidden fuel caches, mutant migration patterns, and raider ambush zones.\n• Understands the irradiated buffer zones and where convoys can shelter or reroute.\n• Familiar with ruins near El Paso, Juarez, and Fort Junction terrain.\n",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Southwest Wastes",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sSSx_t2GOzbnXoCGS",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "A war-scorched scar along I-40 and surrounding plains where the Emberbloods and Free Rangers clash with Imperial proxies.\n• Knows fuel-fire traps, scorched ground hazards, and the routes used by napalm rigs and fire-drum launchers.\n• Understands faction tag marks, smoke signal codes, and ash-wind patterns that choke travelers.\n• Familiar with old oil fields turned battlegrounds and the ever-shifting border lines held by charred steel and stubborn will.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "The Burning Line - Texas Panhandle Conflict Zone",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s8F48NIi1K7O6ZbkN",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Stretches from the Gulf Coast eastward along former I-10/I-20 corridors through Louisiana, Mississippi, Alabama, and into parts of Georgia.\n• Tracks seasonal weather patterns, stormfronts, convoy-friendly enclaves, and black-market checkpoints.\n• Aware of which militia groups are friendly, corrupt, or actively hostile to TTG interests.\n",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "The Long Haul Corridor",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "squCGKB9XJURwtFNF",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Meta-knowledge of TTG’s logistics, trade lanes, strongholds, and corridor control zones across the continent.\n• Knows which nodes are operational, which are contested, and how long a convoy can survive unaided in various sectors.\n• Has access to legacy TTG route data, safe stop protocols, and shadow route markers.\n• Likely to have memorized dozens of fallback and ambush-response plans used across the Southern sectors.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "TTG Convoy Network - Strategic",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHFvmVPop46NzL6jG",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Covers the barren, wind-scoured lands once known as Kansas farmland, now dotted with mutagenic storm scars.\n• Knows where fields are passable, where wild tech storms still rage, and which waystation domes offer shelter.\n• Familiar with Aurora Zones (EM-fused regions of distorted light), failed terra-farm reactors, and Craterborn war bands.\n• Understands risk signs left by mutant couriers and the electromagnetic pulse wash patterns that trap electronics.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "Wichita Blight Expanse",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				}
+			]
 		}
 	]
 }

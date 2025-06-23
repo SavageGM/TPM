@@ -1,0 +1,956 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eJhnHuSzg4nZ6X1EV",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eew29ovzXKeC7_-RD"
+			},
+			"description": "Heavy Arachnoweave Bodysuit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 522560,
+			"weight": "27.2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 522560,
+				"extended_weight": "27.2 lb"
+			}
+		},
+		{
+			"id": "ex_cn-EvVbe3vwP1e",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eMln1k4BTCyPfgUFw"
+			},
+			"description": "Heavy Arachnoweave Full Helmet",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 115840,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 72
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 24
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 115840,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eGF1TPq3BuomqEwBz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eyI0eUc4gLRzzTTGC"
+			},
+			"description": "Heavy Arachnoweave gloves",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 19328,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19328,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eXTVbgBpGFauZwLVG",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "e9uATWNZc7syNPcfe"
+			},
+			"description": "Heavy Arachnoweave Jacket",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 290240,
+			"weight": "15.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 290240,
+				"extended_weight": "15.1 lb"
+			}
+		},
+		{
+			"id": "e8LXN2W8XgiHLPOAf",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "edFKcnjxkunudcysG"
+			},
+			"description": "Heavy Arachnoweave Suit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 590400,
+			"weight": "30.7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 590400,
+				"extended_weight": "30.7 lb"
+			}
+		},
+		{
+			"id": "e1wDttUsz9AiLCUg2",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eRwsp5JoUMMOGGbUv"
+			},
+			"description": "Heavy Arachnoweave Trousers",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 203200,
+			"weight": "10.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"leg"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"leg"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 203200,
+				"extended_weight": "10.6 lb"
+			}
+		},
+		{
+			"id": "e-cmcdOGuFJeuuHP5",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eJ95wxtedmoSz_Y05"
+			},
+			"description": "Heavy Arachnoweave Vest",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 193600,
+			"weight": "10.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 193600,
+				"extended_weight": "10.1 lb"
+			}
+		},
+		{
+			"id": "ed_tZgcHaycaQ9yhp",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eew29ovzXKeC7_-RD"
+			},
+			"description": "Arachnoweave Bodysuit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 261280,
+			"weight": "13.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 261280,
+				"extended_weight": "13.6 lb"
+			}
+		},
+		{
+			"id": "euhJYPu1HD6qJQykz",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eMln1k4BTCyPfgUFw"
+			},
+			"description": "Arachnoweave Full Helmet",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 57920,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 57920,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eJxzsUamvRkcpDG1d",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eyI0eUc4gLRzzTTGC"
+			},
+			"description": "Arachnoweave gloves",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 9600,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9600,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "etBu8l4S-sf2lN_Kg",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "e9uATWNZc7syNPcfe"
+			},
+			"description": "Arachnoweave Jacket",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 145120,
+			"weight": "7.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 145120,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "eugXJUuW3RHPEH7Ju",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "edFKcnjxkunudcysG"
+			},
+			"description": "Arachnoweave Suit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 295200,
+			"weight": "15.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 295200,
+				"extended_weight": "15.3 lb"
+			}
+		},
+		{
+			"id": "eN0EYgeLDexntAyVo",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eRwsp5JoUMMOGGbUv"
+			},
+			"description": "Arachnoweave Trousers",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 101600,
+			"weight": "5.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"leg"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"leg"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 101600,
+				"extended_weight": "5.3 lb"
+			}
+		},
+		{
+			"id": "eN8wtbs-5fnPG11kF",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eJ95wxtedmoSz_Y05"
+			},
+			"description": "Arachnoweave Vest",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 112800,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 112800,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e9TTXFQl8sMuSg2qj",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eew29ovzXKeC7_-RD"
+			},
+			"description": "Light Arachnoweave Bodysuit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 130560,
+			"weight": "6.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 130560,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "ei1ZqSNaLlET4c1vI",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eMln1k4BTCyPfgUFw"
+			},
+			"description": "Light Arachnoweave Full Helmet",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 28800,
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 28800,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "epad1pcibRnpeO59R",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eyI0eUc4gLRzzTTGC"
+			},
+			"description": "Light Arachnoweave gloves",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 4800,
+			"weight": "0.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4800,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ehXP7mdfozVfQCmYJ",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "e9uATWNZc7syNPcfe"
+			},
+			"description": "Light Arachnoweave Jacket",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 72320,
+			"weight": "3.75 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 72320,
+				"extended_weight": "3.75 lb"
+			}
+		},
+		{
+			"id": "evOTOc_aj4L-f0Bc8",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "edFKcnjxkunudcysG"
+			},
+			"description": "Light Arachnoweave Suit",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 147520,
+			"weight": "7.65 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 147520,
+				"extended_weight": "7.65 lb"
+			}
+		},
+		{
+			"id": "eyR1g-2vJLDYsjcMq",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eRwsp5JoUMMOGGbUv"
+			},
+			"description": "Light Arachnoweave Trousers",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 50880,
+			"weight": "2.65 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"leg"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"arm",
+						"groin",
+						"leg"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 50880,
+				"extended_weight": "2.65 lb"
+			}
+		},
+		{
+			"id": "exn5jkqr2QBtcRdVk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment TL 9\\Arachnoweave Equipment.eqp",
+				"id": "eJ95wxtedmoSz_Y05"
+			},
+			"description": "Light Arachnoweave Vest",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 56320,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"specialization": "cut, pi-, pi, pi+, pi++",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"abdomen",
+						"torso",
+						"vitals"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 56320,
+				"extended_weight": "2.5 lb"
+			}
+		}
+	]
+}

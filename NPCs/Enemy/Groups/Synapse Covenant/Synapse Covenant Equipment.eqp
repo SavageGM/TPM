@@ -1,0 +1,325 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eiNCFq8sNphU_NijV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eCAjZeAYXULILzAYq"
+			},
+			"description": "Computer Clothing",
+			"reference": "UT39",
+			"notes": "Complexity 3. 10GB. 2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Clothing"
+			],
+			"value": 3200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eH3kLmy5BaGJg9jy5",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\General Equipment\\TPM Clothing.eqp",
+				"id": "eP4evgBwc77KUCIlb"
+			},
+			"description": "Long Coat",
+			"reference": "HT64",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eQ22kNnnXPMCVnFjm",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\General Equipment\\TPM Clothing.eqp",
+				"id": "eLXolkN9kcQ9_rvSS"
+			},
+			"description": "Foot Wrappings",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"value": 2,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eIlHQfHih5wdINa2n",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ejuGGZf1ZScBhEq-u"
+			},
+			"description": "Euphoria Machine",
+			"reference": "UT40",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"value": 3200,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3200,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "etkXmJL1KLFdB7TDT",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Equipment\\General Equipment\\TPM Clothing.eqp",
+				"id": "efHGQ6V3o0jHqw7hd"
+			},
+			"description": "Sandals ",
+			"reference": "LTIA16",
+			"notes": "Don: 10 secs; Holdout: -2; Flexible and susceptible to blunt trauma (p. B379); DR applies to underside only.",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"value": 25,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "E8GrKK_OSqOZLStAy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EgMznB0Qz1pTQWMFT"
+			},
+			"description": "Imprint Circuit",
+			"reference": "UT38",
+			"tech_level": "9",
+			"tags": [
+				"Clothing"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e8XqXlBKuqsAIg--p",
+			"description": "Stun Execution Staff",
+			"notes": "3C",
+			"tech_level": "8+ 1",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 1600,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "woLRMESSgCuBj2Jag",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Impact Swung",
+					"reach": "1-2",
+					"parry": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				},
+				{
+					"id": "w7ombWD2buBc7BavX",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Impact Thrust",
+					"reach": "1-2",
+					"parry": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+2 cr"
+					}
+				},
+				{
+					"id": "wcppLCO0gWHBLp75n",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Impact Swing",
+					"usage_notes": "Sword Skill",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				},
+				{
+					"id": "wo_TjHPiD5kzZPUIx",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "9†",
+					"usage": "Impact Thrust",
+					"usage_notes": "Sword Skill",
+					"reach": "2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 cr"
+					}
+				},
+				{
+					"id": "wiLLO6fEcbZIHMZFb",
+					"damage": {
+						"type": "HT-5"
+					},
+					"usage": "Electromuscular Disruption (EMD)",
+					"reach": "1",
+					"calc": {
+						"damage": "HT-5"
+					}
+				},
+				{
+					"id": "woaPcFwIOEDdv4bD8",
+					"damage": {
+						"type": "burn",
+						"base": "2d"
+					},
+					"usage": "Lethal ElectricalDamage",
+					"reach": "1",
+					"calc": {
+						"damage": "2d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "6 lb"
+			}
+		}
+	]
+}

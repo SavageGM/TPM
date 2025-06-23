@@ -1,0 +1,1438 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EBDP1I9f-vci4mnI-",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "eRY8Kq481Sc-Ar0Ne"
+			},
+			"description": "Vanguard Exo-suit (Powered Combat Armor)",
+			"reference": "UT186",
+			"notes": "Super Jump 1. E/18hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 2560000,
+			"weight": "150 lb",
+			"weapons": [
+				{
+					"id": "w23Ez-UphIjUHzxYP",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"armor_divisor": 2
+					},
+					"usage": "Right arm Retracticable forearm blade swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw(2) cut"
+					}
+				},
+				{
+					"id": "wDu9avmqQVzRr7faL",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1",
+						"armor_divisor": 2
+					},
+					"usage": "Right arm Retracticable forearm blade thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr+1(2) imp"
+					}
+				},
+				{
+					"id": "WZEGA8XJuCwEuiRpR",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+4"
+					},
+					"usage": "Left forearm shotgun",
+					"accuracy": "2",
+					"range": "100",
+					"rate_of_fire": "2",
+					"shots": "5+1(3i)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+4 pi++"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 15
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 15
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 1
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fIjoCzKgOguyMGZvy",
+					"name": "Chameleon Surface",
+					"reference": "UT98",
+					"tech_level": "9",
+					"cost": "+0",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "extended high- or low-band hyperspectral vision none when movig",
+							"amount": 1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "hyperspectral or ultraviolet vision helf when moving",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "ordinary and infrared vision half when moving",
+							"amount": 4
+						}
+					]
+				},
+				{
+					"id": "fyaZbMJBZ2UvhiKri",
+					"name": "Provisions Dispenser",
+					"reference": "UT187",
+					"notes": "provides 14 days of provisions and water",
+					"tech_level": "9"
+				},
+				{
+					"id": "fiSZKc8qkz3UXqSNb",
+					"name": "Waste-Relief System",
+					"reference": "UT187",
+					"tech_level": "9"
+				},
+				{
+					"id": "f_WeTrFPoEUDBAi3H",
+					"name": "Armor Without Faceplates",
+					"reference": "UT187",
+					"notes": "gives wearer 360 vision",
+					"tech_level": "9"
+				},
+				{
+					"id": "fPevBEGUBu-DqXT4R",
+					"name": "Personal Radar/Laser Detector",
+					"reference": "UT188",
+					"tech_level": "9"
+				},
+				{
+					"id": "fpZA7L_zQp5U0swyf",
+					"name": "Near Miss Indicator",
+					"reference": "UT188",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Vision rolls to locate the source of enemy fire",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "f8H6j1RucRBhT1F2F",
+					"name": "Hyperspectral Visor variable telescopic vision 1-10x",
+					"reference": "UT61",
+					"tech_level": "9",
+					"cost": "+640000"
+				},
+				{
+					"id": "fJ18C5njahC4C0t7q",
+					"name": "Small Radio Communicator",
+					"reference": "UT44",
+					"notes": "Encrypted, 10mi range",
+					"tech_level": "9",
+					"cost": "+0"
+				},
+				{
+					"id": "f0eDAr_YtDvk-pePl",
+					"name": "Suit Doc",
+					"reference": "UT199",
+					"tech_level": "9",
+					"cost": "+320000"
+				},
+				{
+					"id": "fc3E894NcXsKFGyh5",
+					"name": "Onboard Drug Pack",
+					"reference": "UT205",
+					"notes": "Hyperstim 5 doses\nAnalgine-Beta 10 doses",
+					"tech_level": "9",
+					"cost": "+32000"
+				},
+				{
+					"id": "fZrL_WTl50k08saef",
+					"name": "Tactical ESM Detector",
+					"reference": "UT62",
+					"cost": "+0"
+				},
+				{
+					"id": "fzd9WVo5WZphRZkKC",
+					"name": "Tactical Sound Detector",
+					"reference": "UT62",
+					"tech_level": "9",
+					"cost": "+0"
+				},
+				{
+					"id": "fw4BoRPHRXyetzTZO",
+					"name": "Dedicated AI",
+					"reference": "UT25",
+					"notes": "Complexity 7. 100TB. Target Tracking, Targeting, TacNet, Silhouette, Enhanced Targeting Scope, HUD Link, Multispectral Laser Sight",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to skill when used out to the weapon’s 1/2D range, provided the dot is visible to the shooter.",
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Artillery"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Gunner"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tactics"
+							},
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "aimed shots",
+							"amount": 3
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3552000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "ECHt8V46hvivN94Lk",
+			"source": {
+				"library": "/TPM",
+				"path": "Equipment\\TPM Defenses  TL 9.eqp",
+				"id": "eRY8Kq481Sc-Ar0Ne"
+			},
+			"description": "Aegis Exo-suit (Powered Combat Armor)",
+			"reference": "UT186",
+			"notes": "Super Jump 1. E/18hr.",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 5120000,
+			"weight": "200 lb",
+			"weapons": [
+				{
+					"id": "wZTqzgnzMA2BKusDU",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"armor_divisor": 2
+					},
+					"usage": "Right arm Retracticable forearm blade swing",
+					"reach": "1",
+					"parry": "0",
+					"calc": {
+						"damage": "sw(2) cut"
+					}
+				},
+				{
+					"id": "wodfJ7KQvplvbmTk6",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1",
+						"armor_divisor": 2
+					},
+					"usage": "Right arm Retracticable blade thrust",
+					"reach": "1",
+					"parry": "0",
+					"calc": {
+						"damage": "thr+1(2) imp"
+					}
+				},
+				{
+					"id": "WOTRlZ3MOIgNl7zqm",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+4"
+					},
+					"usage": "Left forearm shotgun",
+					"accuracy": "2",
+					"range": "100",
+					"rate_of_fire": "2",
+					"shots": "5+1(3i)",
+					"recoil": "1",
+					"calc": {
+						"damage": "4d+4 pi++"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"eye",
+						"face",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 750
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 30
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "sm",
+					"amount": 1
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fOVpptegFHYstDzXe",
+					"name": "Chameleon Surface",
+					"reference": "UT98",
+					"tech_level": "9",
+					"cost": "+0",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "extended high- or low-band hyperspectral vision none when movig",
+							"amount": 1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "hyperspectral or ultraviolet vision helf when moving",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "ordinary and infrared vision half when moving",
+							"amount": 4
+						}
+					]
+				},
+				{
+					"id": "fVuJDgVyrF8d7hWyU",
+					"name": "Provisions Dispenser",
+					"reference": "UT187",
+					"notes": "provides 14 days of provisions and water",
+					"tech_level": "9"
+				},
+				{
+					"id": "fY8RFNb1TfXM_afJD",
+					"name": "Waste-Relief System",
+					"reference": "UT187",
+					"tech_level": "9"
+				},
+				{
+					"id": "ftGYGMYe0eiUGb6zU",
+					"name": "Armor Without Faceplates",
+					"reference": "UT187",
+					"notes": "gives wearer 360 vision",
+					"tech_level": "9"
+				},
+				{
+					"id": "fw2X2Q0bGM281wNo6",
+					"name": "Personal Radar/Laser Detector",
+					"reference": "UT188",
+					"tech_level": "9"
+				},
+				{
+					"id": "f_R03T_OS4F0C5ULd",
+					"name": "Near Miss Indicator",
+					"reference": "UT188",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Vision rolls to locate the source of enemy fire",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "fkstv8El54cQFFdKU",
+					"name": "Hyperspectral Visor variable telescopic vision 1-10x",
+					"reference": "UT61",
+					"tech_level": "9",
+					"cost": "+640000"
+				},
+				{
+					"id": "fZY8N60fd4ubSIX-b",
+					"name": "Small Radio Communicator",
+					"reference": "UT44",
+					"notes": "Encrypted, 10mi range",
+					"tech_level": "9",
+					"cost": "+0"
+				},
+				{
+					"id": "ffmFbdjxuJ4yT30dj",
+					"name": "Suit Doc",
+					"reference": "UT199",
+					"tech_level": "9",
+					"cost": "+320000"
+				},
+				{
+					"id": "fKp11pF6r4MQFb8SY",
+					"name": "Onboard Drug Pack",
+					"reference": "UT205",
+					"notes": "Hyperstim 5 doses\nAnalgine-Beta 10 doses",
+					"tech_level": "9",
+					"cost": "+32000"
+				},
+				{
+					"id": "fka_xowaAZDH5ofUG",
+					"name": "Tactical ESM Detector",
+					"reference": "UT62",
+					"cost": "+0"
+				},
+				{
+					"id": "foB5_uN8wxsPdM28X",
+					"name": "Tactical Sound Detector",
+					"reference": "UT62",
+					"tech_level": "9",
+					"cost": "+0"
+				},
+				{
+					"id": "fgQPS9aZYGo4y_NnD",
+					"name": "Dedicated AI",
+					"reference": "UT25",
+					"notes": "Complexity 7. 100TB. Target Tracking, Targeting, TacNet, Silhouette, Enhanced Targeting Scope, HUD Link, Multispectral Laser Sight",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to skill when used out to the weapon’s 1/2D range, provided the dot is visible to the shooter.",
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Artillery"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Gunner"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Tactics"
+							},
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "aimed shots",
+							"amount": 3
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6112000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "EHM108KeP-RIHR_uI",
+			"description": "Machine Gun Variant",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "EQIdyf7S8GVBlmhr9",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\Firearm Accessories TL 9.eqp",
+						"id": "ejNsFqeD5u35WUHVc"
+					},
+					"description": "Gyrostabilized Weapon Harness",
+					"reference": "UT150",
+					"notes": "Plus $200 and 1lb. per pound of loaded weight.",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"value": 32000,
+					"ignore_weight_for_skills": true,
+					"modifiers": [
+						{
+							"id": "f_NHRv5DTEgf1DKzi",
+							"name": "Equipment Modifier",
+							"weight_type": "to_final_base_weight",
+							"weight": "x1"
+						}
+					],
+					"quantity": 1,
+					"children": [
+						{
+							"id": "enQfQmyDbuNuymAN4",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "TPM\\Equipment TL 9\\Firearms TL 9.eqp",
+								"id": "emWmb7W8iXA9Lij4m"
+							},
+							"description": "Cottonmouth, Light Rotary Auto Cannon, 15mmCL",
+							"reference": "PY37:27",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Gunner",
+								"Machine Gun"
+							],
+							"value": 1600000,
+							"weight": "150 lb",
+							"weapons": [
+								{
+									"id": "W3JBAqX8GhX5wqqbX",
+									"damage": {
+										"type": "pi+",
+										"base": "15d"
+									},
+									"strength": "25M",
+									"usage": "Solid Slug",
+									"accuracy": "6",
+									"range": "2,000/9,000",
+									"rate_of_fire": "100",
+									"shots": "500(5)",
+									"bulk": "-10",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Gunner",
+											"specialization": "Machine Gun"
+										},
+										{
+											"type": "skill",
+											"name": "Gunner",
+											"modifier": -4
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "15d pi+"
+									}
+								},
+								{
+									"id": "WORnnAsvWpc7hJ6vi",
+									"damage": {
+										"type": "pi+",
+										"base": "15d",
+										"armor_divisor": 2
+									},
+									"strength": "25M",
+									"usage": "APHEX",
+									"accuracy": "6",
+									"range": "2,000/9,000",
+									"rate_of_fire": "100",
+									"shots": "500(5)",
+									"bulk": "-10",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Gunner",
+											"specialization": "Machine Gun"
+										},
+										{
+											"type": "skill",
+											"name": "Gunner",
+											"modifier": -4
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "15d(2) pi+"
+									}
+								},
+								{
+									"id": "WNNNRFCeTkoNW4PaA",
+									"damage": {
+										"type": "cr ex",
+										"base": "1d-2",
+										"fragmentation": "1d-1",
+										"fragmentation_type": "cut"
+									},
+									"usage": "APHEX follow-up",
+									"calc": {
+										"damage": "1d-2 cr ex [1d-1 cut]"
+									}
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 1600000,
+								"extended_weight": "150 lb"
+							}
+						},
+						{
+							"id": "eKlaNYaK202mNUOoH",
+							"source": {
+								"library": "/TPM",
+								"path": "Weaponry (Final Drafts)\\Ammo TL 9.eqp",
+								"id": "eiwulRfwQc8JM6Sxk"
+							},
+							"description": "15mmCL",
+							"reference": "UT139",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Ammunition",
+								"Rifle"
+							],
+							"value": 128,
+							"weight": "0.2 lb",
+							"modifiers": [
+								{
+									"id": "fngyyVw6RbxSdGxnX",
+									"name": "TL9 Price Modifier",
+									"reference": "ATE1:29",
+									"cost_type": "to_final_cost",
+									"cost": "x32",
+									"disabled": true
+								}
+							],
+							"quantity": 500,
+							"calc": {
+								"extended_value": 64000,
+								"extended_weight": "100 lb"
+							}
+						},
+						{
+							"id": "e9YPED9Zl_-Hk6hgg",
+							"source": {
+								"library": "/TPM",
+								"path": "Weaponry (Final Drafts)\\Ammo TL 9.eqp",
+								"id": "eQmAdD4sYbKwxWvpZ"
+							},
+							"description": "15mmCL (APHEX)",
+							"reference": "UT139",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Ammunition",
+								"Rifle"
+							],
+							"value": 512,
+							"weight": "0.2 lb",
+							"modifiers": [
+								{
+									"id": "fscMCqnaahsDzFSRh",
+									"name": "TL9 Price Modifier",
+									"reference": "ATE1:29",
+									"cost_type": "to_final_cost",
+									"cost": "x32",
+									"disabled": true
+								}
+							],
+							"quantity": 500,
+							"calc": {
+								"extended_value": 256000,
+								"extended_weight": "100 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 1952000,
+						"extended_weight": "350 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1952000,
+				"extended_weight": "350 lb"
+			}
+		},
+		{
+			"id": "EScpcIP1Y6V5rAz3Y",
+			"description": "Anti-tank Variant",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "Ewbve2E7xWZyrBCPX",
+					"source": {
+						"library": "/TPM",
+						"path": "Equipment\\Firearm Accessories TL 9.eqp",
+						"id": "epn0i8Xf1U1zgTl7N"
+					},
+					"description": "Shoulder Servomount",
+					"reference": "UT152",
+					"notes": "Plus $1,000 and 3lbs. per pound of weapon loaded weight.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"value": 160000,
+					"modifiers": [
+						{
+							"id": "fueX75OGrvUCDeajC",
+							"name": "Equipment Modifier",
+							"weight": "+0 lb"
+						}
+					],
+					"quantity": 1,
+					"children": [
+						{
+							"id": "ECOVwhi6VnZrnrAO6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "ebvdDxUdPQseCIEq-"
+							},
+							"description": "LMR-4100 (Multiple Tactical Missile Launcher) MTML, 100mm",
+							"reference": "UT146",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"value": 1280000,
+							"weight": "40 lb",
+							"weapons": [
+								{
+									"id": "WKggV68XUxknrLY9v",
+									"damage": {
+										"type": ""
+									},
+									"strength": "12M",
+									"accuracy": "3",
+									"range": "1,000/10,000",
+									"rate_of_fire": "1",
+									"shots": "4(20)",
+									"bulk": "-8",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"specialization": "Guided Missile"
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "WV14C4DxnVpqHRZ1k",
+									"damage": {
+										"type": "pi++",
+										"base": "6dx15"
+									},
+									"strength": "11B†",
+									"accuracy": "3",
+									"range": "1,000/10,000",
+									"rate_of_fire": "1",
+									"shots": "1(20)",
+									"bulk": "-8",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"specialization": "Guided Missile"
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"modifier": -4
+										}
+									],
+									"hide": true,
+									"calc": {
+										"damage": "6dx15 pi++"
+									}
+								},
+								{
+									"id": "WuE9QqpjgJS_YqdLX",
+									"damage": {
+										"type": "cr inc",
+										"base": "6dx10",
+										"armor_divisor": 10,
+										"fragmentation": "5d",
+										"fragmentation_type": "cut"
+									},
+									"strength": "11B†",
+									"usage": "Shaped Charge",
+									"accuracy": "3",
+									"range": "1,000/10,000",
+									"rate_of_fire": "1",
+									"shots": "1(20)",
+									"bulk": "-8",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"specialization": "Guided Missile"
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"modifier": -4
+										}
+									],
+									"hide": true,
+									"calc": {
+										"damage": "6dx10(10) cr inc [5d cut]"
+									}
+								},
+								{
+									"id": "W87Slp-Gihkfk_5oX",
+									"damage": {
+										"type": "cr ex",
+										"base": "8dx2"
+									},
+									"usage": "Shaped Charge - follow up",
+									"hide": true,
+									"calc": {
+										"damage": "8dx2 cr ex"
+									}
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 1280000,
+								"extended_weight": "40 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 1440000,
+						"extended_weight": "40 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1440000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "ETuFYwZPyD5TxW2bz",
+			"description": "Powered Assault Armor (PAA) for Imperial Shock Troops",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"value": 5347200,
+			"weight": "431.2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": -140
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"all"
+					],
+					"amount": 140
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e9-V1suFGaCEuBF2i",
+					"description": "Titanium Nanocomposite Plate Matrix Chassis",
+					"legality_class": "4",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm",
+								"foot",
+								"groin",
+								"leg",
+								"neck",
+								"torso",
+								"vitals"
+							],
+							"amount": 140
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eQ5rt0FqVZllxnYkp",
+					"description": "Servos and Myomers",
+					"legality_class": "4",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 20
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "Etnjs5R8Mc4i-hz6C",
+					"description": "Suit Medical Systems",
+					"legality_class": "4",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_move",
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "enP9DbGheeQ4uGvcL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "e4TcFYFb8y3rAeixA"
+							},
+							"description": "Diagnostic Sensors",
+							"reference": "UT197",
+							"notes": "+2 (quality) to diagnose the patient.",
+							"tech_level": "9",
+							"tags": [
+								"Medical"
+							],
+							"value": 500,
+							"weight": "0.5 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "eTSJ-YyoBm_HqehTa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "eNtFPdm2G1mhMUl3O"
+							},
+							"description": "Wearable Life Support Unit",
+							"reference": "UT198",
+							"notes": "Mitigates @Organ failure@. 4C/100hr.",
+							"tech_level": "9",
+							"tags": [
+								"Medical"
+							],
+							"value": 5000,
+							"weight": "12 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "12 lb"
+							}
+						},
+						{
+							"id": "Ebz3gq1-im_VH9Q5v",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "EBAqRne4Gjf2BmUcn"
+							},
+							"description": "Biomonitor Autoinjector",
+							"reference": "UT197",
+							"notes": "Holds ten doses.",
+							"tech_level": "9",
+							"tags": [
+								"Medical"
+							],
+							"value": 200,
+							"weight": "0.15 lb",
+							"quantity": 1,
+							"children": [
+								{
+									"id": "eBJMUyofo0te4DllC",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+										"id": "eWrtl9IvpUDOPt45t"
+									},
+									"description": "Antirad",
+									"reference": "UT205",
+									"tech_level": "9",
+									"tags": [
+										"Biotech",
+										"Drug"
+									],
+									"value": 150,
+									"quantity": 3,
+									"calc": {
+										"extended_value": 450,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "ePTeWMF6azt5IakWj",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+										"id": "e53vZszGHciHjgDDp"
+									},
+									"description": "Hyperstim",
+									"reference": "UT205",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Biotech",
+										"Drug"
+									],
+									"value": 100,
+									"quantity": 3,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "eBX_W6u_Vx0MEIN3u",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+										"id": "evoaJ1Fuodna-qZsr"
+									},
+									"description": "Soothe",
+									"reference": "UT205",
+									"tech_level": "9",
+									"tags": [
+										"Biotech",
+										"Drug"
+									],
+									"value": 15,
+									"quantity": 4,
+									"calc": {
+										"extended_value": 60,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1010,
+								"extended_weight": "0.15 lb"
+							}
+						},
+						{
+							"id": "ehQ7phhmv0P5E_cue",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "e08RZFtTDrlYGoRwG"
+							},
+							"description": "Crash Kit",
+							"reference": "UT198",
+							"notes": "Surgery -5.",
+							"tech_level": "9",
+							"tags": [
+								"Medical"
+							],
+							"value": 200,
+							"weight": "10 lb",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "First Aid"
+									},
+									"amount": 2
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "10 lb"
+							}
+						},
+						{
+							"id": "e6Umagy5W2XMXaiIA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "eBoprUsbSoTMVDkiw"
+							},
+							"description": "Biomonitor",
+							"reference": "UT199",
+							"tech_level": "9",
+							"tags": [
+								"Medical"
+							],
+							"value": 50,
+							"weight": "0.1 lb",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 50,
+								"extended_weight": "0.1 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 6760,
+						"extended_weight": "22.75 lb"
+					}
+				},
+				{
+					"id": "Ej0TjqEbxIOEoZVR9",
+					"description": "Suit Mounted Equipment",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eQX9Cpqu0BdgrnstV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+								"id": "e1Tmoq7Xb7PkpKElr"
+							},
+							"description": "Shoulder Servomount",
+							"reference": "UT152",
+							"notes": "Plus $1,000 and 3lbs. per pound of weapon loaded weight.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Firearm Accessories",
+								"Weaponry"
+							],
+							"value": 5000,
+							"quantity": 2,
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eZzgkG2ZLdA_RtuX4",
+							"source": {
+								"library": "/gcs_user_library",
+								"path": "Equipment\\Weaponry\\TPM Guided Missiles and Rockets.eqp",
+								"id": "e8Vw0jNB2Pmhg-xpt"
+							},
+							"description": "SST-40V (Swarm Missile Launcher) SML, 40mm",
+							"tech_level": "9",
+							"legality_class": "4",
+							"tags": [
+								"Missile Weapon"
+							],
+							"value": 32000,
+							"weight": "10 lb",
+							"weapons": [
+								{
+									"id": "WfzENEsetyRdmpgHE",
+									"damage": {
+										"type": "cr ex",
+										"base": "8d",
+										"fragmentation": "2d",
+										"fragmentation_type": "cut"
+									},
+									"strength": "10†",
+									"usage": "SST-40V",
+									"accuracy": "3",
+									"range": "2,400",
+									"rate_of_fire": "1x5",
+									"shots": "5(5)",
+									"bulk": "-4",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"specialization": "Guided Missile"
+										},
+										{
+											"type": "skill",
+											"name": "Artillery",
+											"modifier": -4
+										},
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"calc": {
+										"damage": "8d cr ex [2d cut]"
+									}
+								}
+							],
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"extended_value": 32000,
+								"extended_weight": "10 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 42000,
+						"extended_weight": "10 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5395960,
+				"extended_weight": "463.95 lb"
+			}
+		}
+	]
+}
